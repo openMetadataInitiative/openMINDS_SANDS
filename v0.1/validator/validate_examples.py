@@ -12,8 +12,8 @@ def main():
             print(data["@context"])
             # validate against schema
             with open(data["@context"], 'r') as schemaFile:
-                print(json.load(schemaFile))
-                validate(instance=f, schema=schema)
+                #print(json.load(schemaFile))
+                validate(instance=data, schema=json.load(schemaFile))
 
 if __name__ == "__main__":
     main()
