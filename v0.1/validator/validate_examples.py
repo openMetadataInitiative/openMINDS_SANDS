@@ -9,7 +9,6 @@ def main():
         with open(filename,'r') as f:
             # find schema in @context
             data = json.load(f)
-            print(data["@context"])
             # validate against schema
             with open(data["@context"], 'r') as schemaFile:
                 #print(json.load(schemaFile))
