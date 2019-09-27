@@ -7,7 +7,7 @@ import json
 def main():
     for filename in Path('../examples').glob('*.json'):
         with open(filename,'r') as f:
-            # find schema in @context
+            # load example
             data = json.load(f)
             # validate against schema
             with open(data["@context"], 'r') as schemaFile:
