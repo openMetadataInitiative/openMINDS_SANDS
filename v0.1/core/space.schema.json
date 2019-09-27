@@ -5,6 +5,9 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
+    "@context": {
+      "type": "string"
+    },
     "origin": {
       "type": "array",
       "items": {
