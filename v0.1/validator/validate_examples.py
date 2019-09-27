@@ -1,4 +1,4 @@
-from jsonschema import Draft7Validator
+from jsonschema import validate
 from pathlib import Path
 
 import sys
@@ -11,7 +11,9 @@ def main():
             data = json.load(f)
             print(data["@context"])
             # validate against schema
-
+            with open(data["@context"], 'r') as schemaFile:
+                print(json.load(schemaFile))
+                validate(instance=f, schema=schema)
 
 if __name__ == "__main__":
     main()
