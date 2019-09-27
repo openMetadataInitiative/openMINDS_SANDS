@@ -6,7 +6,11 @@ import json
 
 def main():
     for filename in Path('../examples').glob('*.json'):
-        print(filename)
+        with open(filename,'r') as f:
+            # find schema in @context
+            data = json.load(f)
+            print(data["@context"])
+            # validate against schema
 
 
 if __name__ == "__main__":
