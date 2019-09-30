@@ -32,8 +32,8 @@
           "items": {
             "type": "number"
           },
-          "minItems": 3,
-          "maxItems": 3
+          "minItems": 2,
+          "maxItems": 2
         }
       }
     },
