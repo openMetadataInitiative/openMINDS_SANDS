@@ -28,6 +28,14 @@
           "type": "string"
         }
       }
+    },
+    "to": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        }
+      }
     }
   }
 }
