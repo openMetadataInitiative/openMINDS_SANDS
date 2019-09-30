@@ -4,7 +4,11 @@
   "description": "Definition of a spatial element",
   "type": "object",
   "additionalProperties": false,
-  "definitions": {},
+  "definitions": {
+    "semanticAnchor": {
+      "type": "string"
+    }
+  },
   "properties": {
   }
 }
