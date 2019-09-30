@@ -1,0 +1,41 @@
+{
+  "$id": "https://schema.hbp.eu/sand/0.1/core/transformation.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Definition of a transformation between different spaces",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "@context": {
+      "type": "string"
+    },
+    "transformationType": {
+      "type": "string",
+      "enum": ["linear", "non-linear"]
+    },
+    "uniqueId": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "method": {
+      "type": "string"
+    },
+    "from": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        }
+      }
+    },
+    "to": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
