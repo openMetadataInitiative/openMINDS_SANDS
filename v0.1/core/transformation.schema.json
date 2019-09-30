@@ -11,6 +11,9 @@
     "transformationType": {
       "type": "string",
       "enum": ["linear", "non-linear"]
+    },
+    "uniqueId": {
+      "type": "string"
     }
   }
 }
