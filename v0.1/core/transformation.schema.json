@@ -17,6 +17,9 @@
     },
     "version": {
       "type": "string"
+    },
+    "method": {
+      "type": "string"
     }
   }
 }
