@@ -2,5 +2,6 @@
   "$id": "https://schema.hbp.eu/sand/0.1/core/elements.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "description": "Definition of a spatial element",
-  "type": "object"
+  "type": "object",
+  "additionalProperties": false
 }
