@@ -60,5 +60,19 @@
     }
   },
   "properties": {
+    "spatialElement": {
+      "oneOf": [
+        {"$ref": "#/definitions/"}
+      ],
+      "type": "object",
+      "properties": {
+        "originSpace": {
+          "type": "string"
+        },
+        "locationUncertainty": {
+          "type": "number"
+        }
+      }
+    }
   }
 }
