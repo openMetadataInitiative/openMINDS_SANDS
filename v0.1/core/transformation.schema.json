@@ -20,6 +20,14 @@
     },
     "method": {
       "type": "string"
+    },
+    "from": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        }
+      }
     }
   }
 }
