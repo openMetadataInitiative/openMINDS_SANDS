@@ -1,0 +1,78 @@
+{
+  "$id": "https://schema.hbp.eu/sand/0.1/core/elements.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Definition of a spatial element",
+  "type": "object",
+  "additionalProperties": false,
+  "definitions": {
+    "semanticAnchor": {
+      "type": "string"
+    },
+    "points": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "minItems": 2,
+      "maxItems": 3
+    },
+    "plane": {
+      "type":"object",
+      "properties":{
+        "origin": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "vectors": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        }
+      }
+    },
+    "box": {
+      "type": "object",
+      "properties": {
+        "origin": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "vectors": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 3,
+          "maxItems": 3
+        }
+      }
+    }
+  },
+  "properties": {
+    "spatialElement": {
+      "oneOf": [
+        {"$ref": "#/definitions/"}
+      ],
+      "type": "object",
+      "properties": {
+        "originSpace": {
+          "type": "string"
+        },
+        "locationUncertainty": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}
