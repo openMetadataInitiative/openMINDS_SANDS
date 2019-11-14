@@ -31,7 +31,11 @@
       "type": "string",
       "title": "Unique ID",
       "description": "A unique identifier for the coordinate space."
-    }
+    },
+    "version": {
+      "type": "string",
+      "title": "Version",
+      "description": "Version string of the coordinate space."
     }
   }
 }
