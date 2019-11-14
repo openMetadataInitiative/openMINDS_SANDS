@@ -33,6 +33,15 @@
       "items": {
         "type": "number"
       }
+    },
+    "unit": {
+      "type": "string",
+      "enum": [
+        "um",
+        "mm",
+        "cm",
+        "dm"
+      ]
     }
   }
 }
