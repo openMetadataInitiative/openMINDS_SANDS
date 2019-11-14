@@ -5,6 +5,19 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
+    "directions": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "array",
+        "minItems": 3,
+        "maxItems": 3,
+        "items": {
+          "type": "number"
+        }
+      }
+    },
     "unit": {
       "type": "string",
       "enum": [
