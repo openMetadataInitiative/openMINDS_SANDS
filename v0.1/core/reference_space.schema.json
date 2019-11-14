@@ -26,6 +26,12 @@
         "cm",
         "dm"
       ]
+    },
+    "uniqueId": {
+      "type": "string",
+      "title": "Unique ID",
+      "description": "A unique identifier for the coordinate space."
+    }
     }
   }
 }
