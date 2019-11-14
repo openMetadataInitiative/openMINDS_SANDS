@@ -5,16 +5,14 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "units": {
-      "type": "array",
-      "items": {
-        "enum": [
-          "um",
-          "mm",
-          "cm",
-          "dm"
-        ]
-      }
+    "unit": {
+      "type": "string",
+      "enum": [
+        "um",
+        "mm",
+        "cm",
+        "dm"
+      ]
     }
   }
 }
