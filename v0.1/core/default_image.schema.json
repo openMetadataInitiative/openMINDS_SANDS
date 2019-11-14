@@ -4,5 +4,19 @@
   "description": "Definition of a default image in a reference space",
   "type": "object",
   "additionalProperties": false,
-  "properties": {}
+  "properties": {
+    "directions": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "array",
+        "minItems": 3,
+        "maxItems": 3,
+        "items": {
+          "type": "number"
+        }
+      }
+    }
+  }
 }
