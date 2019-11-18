@@ -11,6 +11,9 @@
     },
     "version": {
       "type": "string"
+    },
+    "transformationId": {
+      "type": "string"
     }
   }
 }
