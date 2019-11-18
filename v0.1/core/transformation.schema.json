@@ -10,7 +10,10 @@
     },
     "transformationType": {
       "type": "string",
-      "enum": ["linear", "non-linear"]
+      "enum": [
+        "linear",
+        "non-linear"
+      ]
     },
     "uniqueId": {
       "type": "string"
@@ -19,7 +22,25 @@
       "type": "string"
     },
     "method": {
-      "type": "string"
+      "type": "object",
+      "properties": {
+        "matrix": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "type": "array",
+            "minItems": 4,
+            "maxItems": 4,
+            "items": {
+              "type": "number"
+            }
+          }
+        },
+        "name": {
+          "type": "string"
+        }
+      }
     },
     "from": {
       "type": "object",
