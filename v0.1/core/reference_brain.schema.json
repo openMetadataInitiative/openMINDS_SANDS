@@ -1,5 +1,10 @@
 {
   "$id": "https://schema.hbp.eu/sand/0.1/core/reference_brain.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "Definition of a reference brain"
+  "description": "Definition of a reference brain",
+  "properties": {
+    "uniqueId": {
+      "type": "string"
+    }
+  }
 }
