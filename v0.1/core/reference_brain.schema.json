@@ -5,6 +5,9 @@
   "properties": {
     "uniqueId": {
       "type": "string"
+    },
+    "alias": {
+      "type": "string"
     }
   }
 }
