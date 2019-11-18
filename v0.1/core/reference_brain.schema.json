@@ -8,6 +8,9 @@
     },
     "alias": {
       "type": "string"
+    },
+    "version": {
+      "type": "string"
     }
   }
 }
