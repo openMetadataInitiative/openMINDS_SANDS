@@ -14,6 +14,10 @@
     "releaseDate",
     "version"
     "changeLog"
+    "space"
+    "referencedata"
+    "annotation"
+    "terminology"
   ],
   "properties": {
     "alias": {
@@ -68,13 +72,37 @@
         {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"}
       ]
     },
-    "wasPerformedOn": {
+    "referencedata": {
       "type": "array",
       "description": "Lists subjects and/or tissue samples of this reference brain atlas.",
       "items": {
         "anyOf": [
           {"$ref": "https://schema.hbp.eu/minds3.0/core/subject.schema.json"},
           {"$ref": "https://schema.hbp.eu/minds3.0/core/tissueSample.schema.json"}
+        ]
+      }
+      },
+    "space": {
+      "type": "array",
+      "description": "Link to the space of this reference brain atlas, one-to-one.",
+      "oneOf": [
+          {"$ref": "....schema.json"}
+        ]
+      }
+      },
+    "annotation": {
+      "type": "array",
+      "description": "Link to the annotation of this reference brain atlas, one-to-one.",
+     "oneOf": [
+          {"$ref": "....schema.json"}
+        ]
+      }
+      },
+    "terminology": {
+      "type": "array",
+      "description": "Link to the terminology of this reference brain atlas, one-to-one.",
+     "oneOf": [
+          {"$ref": "....schema.json"}
         ]
       }
     },
