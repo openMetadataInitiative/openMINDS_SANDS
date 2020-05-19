@@ -5,8 +5,7 @@
   "type": "object",
   "additionalProperties": false,
   "required": [
-    "name",
-    "abbreviation",
+    "alias",
     "contributors",
     "doi",
     "headline",
@@ -18,19 +17,16 @@
     "referencedata"
     "annotation"
     "terminology"
+    "status"
   ],
   "properties": {
     "alias": {
       "type": "string",
-      "description": "Full name of the reference brain atlas."
+      "description": "Full name of the reference brain atlas, connected to ontology."
     },
     "headline": {
       "type": "string",
       "description": "Headline that describes this dataset (max. 110 characters)."
-    },
-    "abbreviation": {
-      "type": "string",
-      "description": "Abbreviation, short name for the reference brain atlas."
     },
     "version": {
       "type": "string",
@@ -125,7 +121,7 @@
         },
     "status": {
       "type": "string",
-      "description": "Status of the reference brain atlas, wether it is part of continued modification (e.g. continued development ongoing)",
+      "description": "Status of the reference brain atlas, wether it is static or part of continued modification (e.g. continued development ongoing)",
       }
     }
   }
