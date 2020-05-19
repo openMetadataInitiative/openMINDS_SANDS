@@ -1,5 +1,5 @@
 {
-  "$id": "https://schema.hbp.eu/sand/0.1/core/space.schema.json",
+  "$id": "https://schema.hbp.eu/sand/0.1/core/coordinate_space.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "description": "Definition of a coordinate space",
   "type": "object",
@@ -32,6 +32,15 @@
       "maxItems": 3,
       "items": {
         "type": "number"
+      }
+    },
+    "anatomical_origin_details": {
+      "type": "string",
+      "title": "Details for anatomical origin",
+      "description": "Details for determining origin based on anatomical feature."
+       "oneOf": [
+        {"$ref": "https://schema.hbp.eu/minds3.0/core/tissueSample.schema.json"}
+      ]
       }
     },
     "unit": {
