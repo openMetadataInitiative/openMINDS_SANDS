@@ -13,8 +13,8 @@
     "releaseDate",
     "version"
     "changeLog"
-    "space"
-    "referencedata"
+    "coordinateSpace"
+    "referenceData"
     "annotation"
     "terminology"
     "status"
@@ -68,7 +68,7 @@
         {"$ref": "https://schema.hbp.eu/minds3.0/core/dataset.schema.json"}
       ]
     },
-    "referencedata": {
+    "referenceData": {
       "type": "array",
       "description": "Lists subjects and/or tissue samples of this reference brain atlas.",
       "items": {
@@ -78,7 +78,7 @@
         ]
       }
       },
-    "space": {
+    "coordinateSpace": {
       "type": "array",
       "description": "Link to the space of this reference brain atlas, one-to-one.",
       "oneOf": [
