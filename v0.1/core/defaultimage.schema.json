@@ -1,5 +1,5 @@
 {
-  "$id": "https://schema.hbp.eu/sand/0.1/core/default_image.schema.json",
+  "$id": "https://schema.hbp.eu/sand/0.1/core/defaultimage.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "description": "Definition of a default image in a reference space",
   "type": "object",
