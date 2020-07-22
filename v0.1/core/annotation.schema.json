@@ -45,7 +45,7 @@
       "description": "criteriaType"
     },
     "criteria": {
-      "$ref": "openminds/protocolexecution",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/EXPERIMENT_PROTOCOL",
       "description": "criteria"
     },
     "inspiredBy": {
