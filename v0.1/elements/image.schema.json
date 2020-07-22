@@ -4,5 +4,7 @@
   "description": "SANDS definition of an image",
   "type": "object",
   "additionalProperties": false,
-  "properties": {}
+  "properties": {
+    "@type": {}
+  }
 }
