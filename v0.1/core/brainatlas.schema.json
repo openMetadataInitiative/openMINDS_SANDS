@@ -41,7 +41,7 @@
       "description": "relatedOntology"
     },
     "coordinateSpace": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/coordinatespace.schema.json#definitions/COORDINATE_SPACE",
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/COORDINATE_SPACE",
       "description": "coordinateSpace"
     },
     "annotationSet": {
