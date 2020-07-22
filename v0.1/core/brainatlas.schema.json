@@ -45,7 +45,7 @@
       "description": "coordinateSpace"
     },
     "annotationSet": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/coordinatespace.schema.json#definitions/ANNOTATION",
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/ANNOTATION",
       "description": "annotationSet"
     },
     "terminology": {
