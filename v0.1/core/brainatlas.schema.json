@@ -1,0 +1,60 @@
+{
+  "$id": "https://schema.hbp.eu/sand/0.1/core/brainatlas.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Definition of a brain atlas",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.ebrains.eu/sands/BrainAtlas"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "sands/core/brainatlas/([A-Za-z0-9_-]+).json"
+    },
+    "alias": {
+      "type": "string",
+      "description": "Alias"
+    },
+    "fullName": {
+      "type": "string",
+      "description": "fullName"
+    },
+    "version": {
+      "type": "string",
+      "description": "version"
+    },
+    "releaseDate": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Date and time of release"
+    },
+    "referenceDataset": {
+      "$ref": "Opeminds/Datasetversion",
+      "description": "referenceDataset"
+    },
+    "relatedOntology": {
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/coordinatespace.schema.json#definitions/ONTOLOGY_TERM",
+      "description": "relatedOntology"
+    },
+    "coordinateSpace": {
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/coordinatespace.schema.json#definitions/COORDINATE_SPACE",
+      "description": "coordinateSpace"
+    },
+    "annotationSet": {
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/coordinatespace.schema.json#definitions/ANNOTATION",
+      "description": "annotationSet"
+    },
+    "terminology": {
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/coordinatespace.schema.json#definitions/TERMINOLOGY",
+      "description": "terminology"
+    },
+    "supportedByEBRAINS": {
+      "type": "boolean",
+      "description": "Supported by atlas viewer"
+    },
+  }
+}
