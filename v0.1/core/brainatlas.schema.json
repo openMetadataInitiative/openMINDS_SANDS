@@ -37,7 +37,7 @@
       "description": "referenceDataset"
     },
     "relatedOntology": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/coordinatespace.schema.json#definitions/ONTOLOGY_TERM",
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/ONTOLOGY_TERM",
       "description": "relatedOntology"
     },
     "coordinateSpace": {
