@@ -41,19 +41,19 @@
       "description": "anatomicalTerm"
     },
     "criteriaType": {
-      "$ref": "sands/controlledterm",
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/CONTROLLED_TERM",
       "description": "criteriaType"
     },
     "criteria": {
-      "$ref": "openminds/protocolexecution",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/EXPERIMENT_PROTOCOL",
       "description": "criteria"
     },
     "inspiredBy": {
-      "$ref": "openminds/fileinstance",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE",
       "description": "inspiredBy"
     },
     "definedIn": {
-      "$ref": "openminds/fileinstance",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE",
       "description": "definedIn"
     },
     "internalFileIdentifier": {
@@ -61,11 +61,11 @@
       "description": "internalFileIdentifier"
     },
     "navigationCoordinates": {
-      "$ref": "sands/coordinates",
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/COORDINATES",
       "description": "navigationCoordinates"
     },
     "annotationType": {
-      "$ref": "sands/controlledterm",
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/CONTROLLED_TERM",
       "description": "annotationType"
     },
     "parentAnnotation": {

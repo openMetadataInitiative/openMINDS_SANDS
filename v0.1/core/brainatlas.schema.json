@@ -37,19 +37,19 @@
       "description": "referenceDataset"
     },
     "relatedOntology": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/coordinatespace.schema.json#definitions/ONTOLOGY_TERM",
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/ONTOLOGY_TERM",
       "description": "relatedOntology"
     },
     "coordinateSpace": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/coordinatespace.schema.json#definitions/COORDINATE_SPACE",
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/COORDINATE_SPACE",
       "description": "coordinateSpace"
     },
     "annotationSet": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/coordinatespace.schema.json#definitions/ANNOTATION",
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/ANNOTATION",
       "description": "annotationSet"
     },
     "terminology": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/coordinatespace.schema.json#definitions/TERMINOLOGY",
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/TERMINOLOGY",
       "description": "terminology"
     },
     "supportedByEBRAINS": {

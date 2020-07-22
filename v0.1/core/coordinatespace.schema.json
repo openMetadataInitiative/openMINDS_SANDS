@@ -39,12 +39,12 @@
     "defaultImages": {
       "type": "array",
       "items": {
-        "$ref": "Sands/image",
+        "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/IMAGE",
       },
       "description": "defaultImages"
     },
     "axes": {
-      "$ref": "sands/axes",
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/AXES",
       "description": "axes"
     },
     "supportedByEBRAINS": {

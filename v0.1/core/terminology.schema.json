@@ -37,13 +37,13 @@
       "description": "relatedOntology"
     },
     "definedIn": {
-      "$ref": "opeminds/fileinstance"
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE",
       "description": "definedIn"
     },
     "anatomicalDefinitions": {
       "type": "array",
       "items": {
-        "$ref": "sands/anatomicaldefinition"
+        "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/ANATOMICAL_DEFINITION"
       },
       "description": "relatedOntology"
     },
