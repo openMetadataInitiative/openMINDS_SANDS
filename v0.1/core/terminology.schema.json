@@ -37,7 +37,7 @@
       "description": "relatedOntology"
     },
     "definedIn": {
-      "$ref": "opeminds/fileinstance",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE",
       "description": "definedIn"
     },
     "anatomicalDefinitions": {
