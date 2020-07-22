@@ -8,6 +8,7 @@
     "@type": {},
     "@id": {},
     "axes": {},
-    "spacing": {}
+    "spacing": {},
+    "definedIn":{}
   }
 }
