@@ -1,3 +1,4 @@
 {
-  "$id": "https://schema.hbp.eu/sand/0.1/core/anatomicaldefinition.schema.json"
+  "$id": "https://schema.hbp.eu/sand/0.1/core/anatomicaldefinition.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#"
 }
