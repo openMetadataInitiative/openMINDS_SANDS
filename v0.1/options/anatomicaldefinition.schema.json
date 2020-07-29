@@ -4,5 +4,7 @@
   "description": "Definition of an annotation",
   "type": "object",
   "additionalProperties": false,
-  "properties": {}
+  "properties": {
+    "@type":{}
+  }
 }
