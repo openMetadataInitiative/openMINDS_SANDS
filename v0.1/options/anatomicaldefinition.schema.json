@@ -5,7 +5,11 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "@type": {},
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.ebrains.eu/sands/AnatomicalDefinition"
+    },
     "@id": {},
     "nameOfLocation": {},
     "relatedOntology": {},
