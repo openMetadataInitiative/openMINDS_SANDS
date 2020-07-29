@@ -6,5 +6,7 @@
   "additionalProperties": false,
   "properties": {
     "@type": {},
+    "@id": {},
+    "nameOfLocation": {}
   }
 }
