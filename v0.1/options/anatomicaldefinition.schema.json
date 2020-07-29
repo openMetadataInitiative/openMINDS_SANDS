@@ -9,7 +9,7 @@
     "@id": {},
     "nameOfLocation": {},
     "relatedOntology": {},
-    "laterality": {}
-parentStructure [expects: sands/anatomicaldefinition]
+    "laterality": {},
+    "parentStructure": {}
   }
 }
