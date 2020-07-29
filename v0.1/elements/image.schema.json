@@ -15,7 +15,10 @@
       "description": "Metadata node identifier.",
       "pattern": "sands/core/coordinatespace/([A-Za-z0-9_-]+).json"
     },
-    "axes": {},
+    "axes": {
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/AXES",
+      "description": "axes"
+    },
     "spacing": {},
     "definedIn":{}
   }
