@@ -8,6 +8,8 @@
     "@type": {},
     "@id": {},
     "nameOfLocation": {},
-    "relatedOntology": {}
+    "relatedOntology": {},
+    "laterality": {}
+parentStructure [expects: sands/anatomicaldefinition]
   }
 }
