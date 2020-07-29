@@ -10,7 +10,11 @@
       "description": "Metadata node type (schema).",
       "const": "https://schema.ebrains.eu/sands/Image"
     },
-    "@id": {},
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "sands/core/coordinatespace/([A-Za-z0-9_-]+).json"
+    },
     "axes": {},
     "spacing": {},
     "definedIn":{}
