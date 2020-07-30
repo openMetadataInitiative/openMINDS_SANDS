@@ -15,7 +15,10 @@
       "description": "Metadata node identifier.",
       "pattern": "sands/core/annotation/([A-Za-z0-9_-]+).json"
     },
-    "nameOfLocation": {},
+    "nameOfLocation": {
+      "type": "string",
+      "description": "Name of location"
+    },
     "relatedOntology": {},
     "laterality": {},
     "parentStructure": {}
