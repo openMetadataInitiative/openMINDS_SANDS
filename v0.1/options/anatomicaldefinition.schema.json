@@ -19,7 +19,10 @@
       "type": "string",
       "description": "Name of location"
     },
-    "relatedOntology": {},
+    "relatedOntology": {
+      "type": "string",
+      "description": "URL to ontology"
+    },
     "laterality": {},
     "parentStructure": {}
   }
