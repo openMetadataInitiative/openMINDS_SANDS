@@ -10,7 +10,11 @@
       "description": "Metadata node type (schema).",
       "const": "https://schema.ebrains.eu/sands/AnatomicalDefinition"
     },
-    "@id": {},
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "sands/core/annotation/([A-Za-z0-9_-]+).json"
+    },
     "nameOfLocation": {},
     "relatedOntology": {},
     "laterality": {},
