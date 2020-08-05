@@ -12,7 +12,7 @@
     },
     "@id": {
       "type": "string",
-      "description": "Metadata node identifier.",
+      "description": "Metadata node identifier (id).",
       "pattern": "sands/core/annotation/([A-Za-z0-9_-]+).json"
     },
     "alias": {
@@ -62,7 +62,7 @@
     },
     "navigationCoordinates": {
       "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/COORDINATES",
-      "description": "navigationCoordinates"
+      "description": "The coordinate that defines the center of an annotation. The coordinate [in space] which will display information about the annotation."
     },
     "annotationType": {
       "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/CONTROLLED_TERM",
