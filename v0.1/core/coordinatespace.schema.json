@@ -12,25 +12,25 @@
     },
     "@id": {
       "type": "string",
-      "description": "Metadata node identifier.",
+      "description": "Metadata node identifier (id).",
       "pattern": "sands/core/coordinatespace/([A-Za-z0-9_-]+).json"
     },
     "alias": {
       "type": "string",
-      "description": "Alias"
+      "description": "User-defined identifier, often a short name, of this coordinate space."
     },
     "fullName": {
       "type": "string",
-      "description": "fullName"
+      "description": "A descriptive name of this coordinate space."
     },
     "version": {
       "type": "string",
-      "description": "version"
+      "description": "Version identifier of this coordinate space."
     },
     "releaseDate": {
       "type": "string",
       "format": "date-time",
-      "description": "Date and time of release"
+      "description": "Date and time (actual or intended) of first broadcast/publication/release of this coordinate space."
     },
     "relatedOntology": {
       "$ref": "Ontology/Term",
