@@ -12,7 +12,7 @@
     },
     "@id": {
       "type": "string",
-      "description": "Metadata node identifier.",
+      "description": "Metadata node identifier (id).",
       "pattern": "sands/core/brainatlas/([A-Za-z0-9_-]+).json"
     },
     "alias": {
