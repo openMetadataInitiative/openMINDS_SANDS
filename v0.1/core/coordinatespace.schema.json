@@ -45,7 +45,7 @@
     },
     "axes": {
       "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/AXES",
-      "description": "axes"
+      "description": "Axes that are present in the coordinate space."
     },
     "supportedByEBRAINS": {
       "type": "boolean",
