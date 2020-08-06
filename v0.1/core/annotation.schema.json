@@ -17,7 +17,7 @@
     },
     "alias": {
       "type": "string",
-      "description": "User-defined identifier of this dataset."
+      "description": "User-defined identifier of this annotation."
     },
     "fullName": {
       "type": "string",
