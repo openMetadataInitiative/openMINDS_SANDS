@@ -17,7 +17,7 @@
     },
     "alias": {
       "type": "string",
-      "description": "Alias"
+      "description": "User-defined identifier of this dataset."
     },
     "fullName": {
       "type": "string",
