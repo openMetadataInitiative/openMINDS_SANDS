@@ -25,7 +25,7 @@
     },
     "version": {
       "type": "string",
-      "description": "Version"
+      "description": "Version identifier of this annotation."
     },
     "releaseDate": {
       "type": "string",
