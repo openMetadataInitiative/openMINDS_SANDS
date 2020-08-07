@@ -19,7 +19,9 @@
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/ANATOMICAL_DEFINITION",
       "description": "anatomicalTerm"
     },
-    "anatomicalDefinition": {},
+    "anatomicalDefinition": {
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/ANATOMICAL_DEFINITION",
+    },
     "mappingResult": {},
     "confidence": {}
   }
