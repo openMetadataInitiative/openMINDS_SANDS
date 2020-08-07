@@ -29,7 +29,7 @@
     },
     "confidence": {
       "type": "string",
-      "description": ""
+      "description": "confidence"
     }
   }
 }
