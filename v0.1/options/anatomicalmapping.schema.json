@@ -4,5 +4,7 @@
   "description": "Mapping of an anatomical feature",
   "type": "object",
   "additionalProperties": false,
-  "properties": {}
+  "properties": {
+    "@type": {}
+  }
 }
