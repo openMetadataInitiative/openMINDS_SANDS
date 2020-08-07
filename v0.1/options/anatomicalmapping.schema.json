@@ -16,7 +16,8 @@
       "pattern": "sands/options/anatomicalmapping/([A-Za-z0-9_-]+).json"
     },
     "anatomicalTerm": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/ANATOMICAL_DEFINITION"
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/ANATOMICAL_DEFINITION",
+      "description": ""
     },
     "anatomicalDefinition": {},
     "mappingResult": {},
