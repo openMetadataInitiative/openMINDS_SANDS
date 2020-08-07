@@ -9,6 +9,7 @@
       "type": "string",
       "description": "Metadata node type (schema).",
       "const": "https://schema.ebrains.eu/sands/AnatomicalMapping"
-    }
+    },
+    "@id": {}
   }
 }
