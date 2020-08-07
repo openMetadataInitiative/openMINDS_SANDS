@@ -9,6 +9,7 @@
     "@id": {},
     "origin": {},
     "units": {},
-    "directions": {}
+    "directions": {},
+    "anatomicalLabels": {}
   }
 }
