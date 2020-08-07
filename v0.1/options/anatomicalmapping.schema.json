@@ -28,7 +28,8 @@
       "description": "mappingResult"
     },
     "confidence": {
-      "type": "string"
+      "type": "string",
+      "description": ""
     }
   }
 }
