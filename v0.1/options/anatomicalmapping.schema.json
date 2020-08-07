@@ -16,6 +16,7 @@
       "pattern": "sands/options/anatomicalmapping/([A-Za-z0-9_-]+).json"
     },
     "anatomicalTerm": {},
-    "anatomicalDefinition": {}
+    "anatomicalDefinition": {},
+    "mappingResult": {}
   }
 }
