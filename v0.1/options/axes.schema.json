@@ -16,7 +16,8 @@
       "pattern": "sands/options/axes/([A-Za-z0-9_-]+).json"
     },
     "origin": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/ORIGIN"
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/ORIGIN",
+      "description": "origin"
     },
     "units": {},
     "directions": {},
