@@ -10,6 +10,7 @@
     "origin": {},
     "units": {},
     "directions": {},
-    "anatomicalLabels": {}
+    "anatomicalLabels": {},
+    "indexingParameters": {}
   }
 }
