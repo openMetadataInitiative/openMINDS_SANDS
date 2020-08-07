@@ -17,7 +17,7 @@
     },
     "anatomicalTerm": {
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/ANATOMICAL_DEFINITION",
-      "description": ""
+      "description": "anatomicalTerm"
     },
     "anatomicalDefinition": {},
     "mappingResult": {},
