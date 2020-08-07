@@ -28,7 +28,8 @@
       "description": "directions"
     },
     "anatomicalLabels": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/CONTROLLED_TERM"
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/CONTROLLED_TERM",
+      "description": "anatomicalLabels"
     },
     "indexingParameters": {}
   }
