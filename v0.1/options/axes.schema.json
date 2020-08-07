@@ -4,5 +4,7 @@
   "description": "Description of spatial axes",
   "type": "object",
   "additionalProperties": false,
-  "properties": {}
+  "properties": {
+    "@type": {}
+  }
 }
