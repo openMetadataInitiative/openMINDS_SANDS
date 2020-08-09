@@ -5,9 +5,26 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "@type": {},
-    "@id": {},
-    "coordinates": {},
-    "coordinateSpace": {}
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.ebrains.eu/sands/coordinates",
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "sands/options/axes/([A-Za-z0-9_-]+).json"
+    },
+    "coordinates": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "description": "coordinates"
+    },
+    "coordinateSpace": {
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/COORDINATE_SPACE",
+      "description": "coordinateSpace"
+    }
   }
 }
