@@ -6,7 +6,8 @@
   "additionalProperties": false,
   "properties": {
     "@type": {},
-    "@id":{}
-units [expects: array (shape = [3,1]); item: sands/controlledterm]
+    "@id":{},
+    "units": {}
+
   }
 }
