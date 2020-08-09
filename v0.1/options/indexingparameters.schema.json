@@ -4,5 +4,5 @@
   "description": "Description of indexing on spatial axes",
   "type": "object",
   "additionalProperties": false,
-  "properties": {}
+  }
 }
