@@ -7,7 +7,9 @@
   "properties": {
     "@type": {},
     "@id":{},
-    "units": {}
+    "units": {},
+    "axesMin":{},
+    "axesMax":{}
 
   }
 }
