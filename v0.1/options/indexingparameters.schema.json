@@ -18,7 +18,13 @@
       "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/UNITS",
       "description": "units"
     },
-    "axesMin":{},
+    "axesMin":{
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "description": "axesMin"
+    },
     "axesMax":{},
     "steps": {}
   }
