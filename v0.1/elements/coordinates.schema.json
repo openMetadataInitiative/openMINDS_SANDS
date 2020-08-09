@@ -6,8 +6,8 @@
   "additionalProperties": false,
   "properties": {
     "@type": {},
-    "@id": {}
-coordinates [expects: array (shape = [3,1]); item: number]
+    "@id": {},
+    "coordinates": {}
 coordinateSpace [expects: sands/coordinatespace]
   }
 }
