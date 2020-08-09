@@ -7,7 +7,7 @@
   "properties": {
     "@type": {},
     "@id": {},
-    "coordinates": {}
-coordinateSpace [expects: sands/coordinatespace]
+    "coordinates": {},
+    "coordinateSpace": {}
   }
 }
