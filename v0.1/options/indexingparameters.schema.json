@@ -9,7 +9,7 @@
     "@id":{},
     "units": {},
     "axesMin":{},
-    "axesMax":{}
-
+    "axesMax":{},
+    "steps": {}
   }
 }
