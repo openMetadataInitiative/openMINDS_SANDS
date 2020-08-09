@@ -32,6 +32,12 @@
       },
       "description": "axesMax"
     },
-    "steps": {}
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "description": "steps"
+    }
   }
 }
