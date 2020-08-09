@@ -1,5 +1,6 @@
 {
   "$id": "https://schema.hbp.eu/sand/0.1/elements/coordinates.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "Description of coordinates in a space"
+  "description": "Description of coordinates in a space",
+  "type": "object"
 }
