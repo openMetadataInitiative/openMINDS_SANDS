@@ -25,7 +25,13 @@
       },
       "description": "axesMin"
     },
-    "axesMax":{},
+    "axesMax":{
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "description": "axesMax"
+    },
     "steps": {}
   }
 }
