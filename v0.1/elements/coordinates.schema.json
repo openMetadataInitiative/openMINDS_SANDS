@@ -4,5 +4,10 @@
   "description": "Description of coordinates in a space",
   "type": "object",
   "additionalProperties": false,
-  "properties": {}
+  "properties": {
+    "@type": {}
+@id [expects: sands/elements/coordinates/([A-Za-z0-9_-]+).json (regex pattern)]
+coordinates [expects: array (shape = [3,1]); item: number]
+coordinateSpace [expects: sands/coordinatespace]
+  }
 }
