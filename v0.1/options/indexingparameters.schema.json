@@ -14,7 +14,10 @@
       "description": "Metadata node identifier.",
       "pattern": "sands/options/axes/([A-Za-z0-9_-]+).json"
     },
-    "units": {},
+    "units": {
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/UNITS",
+      "description": "units"
+    },
     "axesMin":{},
     "axesMax":{},
     "steps": {}
