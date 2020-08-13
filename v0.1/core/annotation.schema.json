@@ -17,11 +17,11 @@
     },
     "alias": {
       "type": "string",
-      "description": "User-defined identifier of this annotation."
+      "description": "User-defined identifier, often a short name, of this annotation."
     },
     "fullName": {
       "type": "string",
-      "description": "fullName"
+      "description": "A descriptive name of this annotation."
     },
     "version": {
       "type": "string",
@@ -30,7 +30,7 @@
     "releaseDate": {
       "type": "string",
       "format": "date-time",
-      "description": "Date and time of release"
+      "description": "Date and time (actual or intended) of first broadcast/publication/release of this annotation."
     },
     "relatedOntology": {
       "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/coordinatespace.schema.json#definitions/RELATED_ONTOLOGY",
