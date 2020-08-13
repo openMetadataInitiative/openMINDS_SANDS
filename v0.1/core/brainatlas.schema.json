@@ -17,20 +17,20 @@
     },
     "alias": {
       "type": "string",
-      "description": "Alias"
+      "description": "User-defined identifier, often a short name, of this brain atlas."
     },
     "fullName": {
       "type": "string",
-      "description": "fullName"
+      "description": "A descriptive name of this brain atlas."
     },
     "version": {
       "type": "string",
-      "description": "version"
+      "description": "Version identifier of this brain atlas."
     },
     "releaseDate": {
       "type": "string",
       "format": "date-time",
-      "description": "Date and time of release"
+      "description": "Date and time (actual or intended) of first broadcast/publication/release of this brain atlas."
     },
     "referenceDataset": {
       "$ref": "Opeminds/Datasetversion",
