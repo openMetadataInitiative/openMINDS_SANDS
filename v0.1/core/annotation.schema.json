@@ -16,8 +16,8 @@
       "pattern": "sands/core/annotation/([A-Za-z0-9_-]+).json"
     },
     "performedBy": {
-      "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json"
-      "description": "Person that performed the annotation.",
+      "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json",
+      "description": "Person that performed the annotation."
     },
     "version": {
       "type": "string",
