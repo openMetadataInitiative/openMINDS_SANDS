@@ -25,6 +25,7 @@
     },
     "annotationType": {
       "type": "string",
+      "enum": ["asserted", "processive"],
     },
     "version": {
       "type": "string",
