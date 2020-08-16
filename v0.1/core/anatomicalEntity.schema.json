@@ -3,4 +3,5 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "description": "Definition of an anatomicalEntity",
   "type": "object",
+  "additionalProperties": false,
 }
