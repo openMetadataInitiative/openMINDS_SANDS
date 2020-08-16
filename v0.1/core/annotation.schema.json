@@ -26,6 +26,7 @@
     "annotationType": {
       "type": "string",
       "enum": ["asserted", "processive"],
+      "description": "How was this annotation determined."
     },
     "version": {
       "type": "string",
