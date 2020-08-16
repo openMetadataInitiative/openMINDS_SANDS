@@ -23,6 +23,8 @@
       "$ref": "https://schema.hbp.eu/sands/core/anatomicalEntity.schema.json",
       "description": "anatomicalEntity that is defined with annotation."
     },
+    "annotationType": {
+    },
     "version": {
       "type": "string",
       "description": "Version"
