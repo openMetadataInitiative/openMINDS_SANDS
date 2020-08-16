@@ -15,10 +15,6 @@
       "description": "Metadata node identifier.",
       "pattern": "sands/core/annotation/([A-Za-z0-9_-]+).json"
     },
-    "alias": {
-      "type": "string",
-      "description": "Alias"
-    },
     "fullName": {
       "type": "string",
       "description": "fullName"
