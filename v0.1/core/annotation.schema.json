@@ -19,6 +19,8 @@
       "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json",
       "description": "Person that performed the annotation."
     },
+    "anatomicalEntity": {
+    },
     "version": {
       "type": "string",
       "description": "Version"
