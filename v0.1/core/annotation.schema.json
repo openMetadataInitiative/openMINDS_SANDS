@@ -32,6 +32,10 @@
       "enum": ["asserted", "processive"],
       "description": "How was this annotation determined."
     },
+    "criteria": {
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/EXPERIMENT_PROTOCOL",
+      "description": "criteria"
+    },
     "releaseDate": {
       "type": "string",
       "format": "date-time",
@@ -44,10 +48,6 @@
     "anatomicalTerm": {
       "$ref": "sands/anatomicaldefinition|openminds/anatomicalattribution",
       "description": "anatomicalTerm"
-    },
-    "criteria": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/EXPERIMENT_PROTOCOL",
-      "description": "criteria"
     },
     "inspiredBy": {
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE",
