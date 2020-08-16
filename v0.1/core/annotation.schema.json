@@ -20,6 +20,7 @@
       "description": "Person that performed the annotation."
     },
     "anatomicalEntity": {
+      "$ref": "https://schema.hbp.eu/sands/core/anatomicalEntity.schema.json",
     },
     "version": {
       "type": "string",
