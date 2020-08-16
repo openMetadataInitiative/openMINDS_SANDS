@@ -24,6 +24,7 @@
       "description": "anatomicalEntity that is defined with annotation."
     },
     "annotationType": {
+      "type": "string",
     },
     "version": {
       "type": "string",
