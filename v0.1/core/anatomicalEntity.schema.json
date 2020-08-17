@@ -5,6 +5,8 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "nameOfLocation":{}
+    "nameOfLocation":{
+      "type": "string"
+    }
   }
 }
