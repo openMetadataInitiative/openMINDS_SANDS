@@ -4,5 +4,7 @@
   "description": "Definition of an anatomicalEntity",
   "type": "object",
   "additionalProperties": false,
-  "properties": {}
+  "properties": {
+    "nameOfLocation":{}
+  }
 }
