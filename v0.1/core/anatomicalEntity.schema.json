@@ -7,7 +7,7 @@
   "properties": {
     "nameOfLocation":{
       "type": "string",
-      "description": ""
+      "description": "nameOfLocation"
     }
   }
 }
