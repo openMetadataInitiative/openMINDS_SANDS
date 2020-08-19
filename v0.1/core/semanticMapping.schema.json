@@ -5,6 +5,7 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "relationType": {}
+    "relationType": {},
+    "confidence": {}
   }
 }
