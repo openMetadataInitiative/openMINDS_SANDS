@@ -10,7 +10,8 @@
       "description": "relationType"
     },
     "confidence": {
-      "type": "number"
+      "type": "number",
+      "description": "confidence"
     },
   }
 }
