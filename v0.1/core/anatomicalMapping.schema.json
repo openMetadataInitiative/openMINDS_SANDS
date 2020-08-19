@@ -6,6 +6,7 @@
   "additionalProperties": false,
   "properties": {
     "performedBy": {},
-    "verifiable": {}
+    "verifiable": {},
+    "annotation": {}
   }
 }
