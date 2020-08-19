@@ -5,7 +5,9 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "performedBy": {},
+    "performedBy": {
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/coordinatespace.schema.json#definitions/CONTROLLED_TERM"
+    },
     "verifiable": {},
     "annotation": {},
     "anatomicalEntity": {}
