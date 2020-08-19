@@ -10,7 +10,8 @@
       "description": "performedBy"
     },
     "verifiable": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "verifiable"
     },
     "annotation": {},
     "anatomicalEntity": {}
