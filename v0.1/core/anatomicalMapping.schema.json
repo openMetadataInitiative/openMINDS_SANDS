@@ -6,7 +6,8 @@
   "additionalProperties": false,
   "properties": {
     "performedBy": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/coordinatespace.schema.json#definitions/CONTROLLED_TERM"
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/coordinatespace.schema.json#definitions/CONTROLLED_TERM",
+      "description": "performedBy"
     },
     "verifiable": {},
     "annotation": {},
