@@ -17,6 +17,8 @@
       "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/coordinatespace.schema.json#definitions/ANATOMICAL_DEFINITION",
       "description": "annotation"
     },
-    "anatomicalEntity": {}
+    "anatomicalEntity": {
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/coordinatespace.schema.json#definitions/ANATOMICAL_ENTITY"
+    }
   }
 }
