@@ -4,5 +4,7 @@
   "description": "Definition of a semanticMapping",
   "type": "object",
   "additionalProperties": false,
-  "properties": {}
+  "properties": {
+    "relationType": {}
+  }
 }
