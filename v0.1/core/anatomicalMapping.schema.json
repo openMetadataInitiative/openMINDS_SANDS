@@ -1,5 +1,6 @@
 {
   "$id": "https://schema.hbp.eu/sand/0.1/core/anatomicalMapping.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "Definition of an anatomicalMapping"
+  "description": "Definition of an anatomicalMapping",
+  "type": "object"
 }
