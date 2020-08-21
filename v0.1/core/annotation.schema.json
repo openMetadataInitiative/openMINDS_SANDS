@@ -12,37 +12,20 @@
     },
     "@id": {
       "type": "string",
-      "description": "Metadata node identifier.",
+      "description": "Metadata node identifier (id).",
       "pattern": "sands/core/annotation/([A-Za-z0-9_-]+).json"
     },
-    "alias": {
-      "type": "string",
-      "description": "Alias"
+    "performedBy": {
+      "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json",
+      "description": "Person that performed the annotation."
     },
-    "fullName": {
-      "type": "string",
-      "description": "fullName"
-    },
-    "version": {
-      "type": "string",
-      "description": "Version"
-    },
-    "releaseDate": {
-      "type": "string",
-      "format": "date-time",
-      "description": "Date and time of release"
-    },
-    "relatedOntology": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/coordinatespace.schema.json#definitions/RELATED_ONTOLOGY",
-      "description": "relatedOntology"
-    },
-    "anatomicalTerm": {
-      "$ref": "sands/anatomicaldefinition|openminds/anatomicalattribution",
-      "description": "anatomicalTerm"
+    "anatomicalEntity": {
+      "$ref": "https://schema.hbp.eu/sands/core/anatomicalEntity.schema.json",
+      "description": "anatomicalEntity that is defined with annotation."
     },
     "criteriaType": {
       "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/CONTROLLED_TERM",
-      "description": "criteriaType"
+      "description": "How was this annotation determined."
     },
     "criteria": {
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/EXPERIMENT_PROTOCOL",
@@ -52,29 +35,16 @@
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE",
       "description": "inspiredBy"
     },
-    "definedIn": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE",
-      "description": "definedIn"
+    "annotationFile": {
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/ANNOTATION_FILE",
+      "description": "annotationFile"
     },
-    "internalFileIdentifier": {
-      "type": "string",
-      "description": "internalFileIdentifier"
+    "nativeCoordinateSpace": {
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/COORDINATE_SPACE",
+      "description": "The native coordinate space of this annotation."
     },
-    "navigationCoordinates": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/COORDINATES",
-      "description": "navigationCoordinates"
-    },
-    "annotationType": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/CONTROLLED_TERM",
-      "description": "annotationType"
-    },
-    "parentAnnotation": {
-      "$ref": "TODO",
-      "description": "parentAnnotation"
-    },
-    "supportedByEBRAINS": {
-      "type": "boolean",
-      "description": "Supported by atlas viewer"
+    "navigationRules": {
+      "description": "TBD"
     }
   }
 }

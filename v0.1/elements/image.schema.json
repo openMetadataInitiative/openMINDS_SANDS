@@ -1,0 +1,31 @@
+{
+  "$id": "https://schema.hbp.eu/sand/0.1/elements/image.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "SANDS definition of an image",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.ebrains.eu/sands/Image"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "sands/core/coordinatespace/([A-Za-z0-9_-]+).json"
+    },
+    "axes": {
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/AXES",
+      "description": "axes"
+    },
+    "spacing": {
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/SPACING",
+      "description": "spacing"
+    },
+    "definedIn":{
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE",
+      "description": "definedIn"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "$id": "https://schema.hbp.eu/sand/0.1/options/indexingparameters.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Description of indexing on spatial axes",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.ebrains.eu/sands/indexingparameters",
+    "@id":{
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "sands/options/axes/([A-Za-z0-9_-]+).json"
+    },
+    "units": {
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/UNITS",
+      "description": "units"
+    },
+    "axesMin":{
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "description": "axesMin"
+    },
+    "axesMax":{
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "description": "axesMax"
+    },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "description": "steps"
+    }
+  }
+}
