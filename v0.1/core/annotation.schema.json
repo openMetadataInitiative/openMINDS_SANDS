@@ -32,10 +32,6 @@
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/EXPERIMENT_PROTOCOL",
       "description": "criteria"
     },
-    "relatedOntology": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/coordinatespace.schema.json#definitions/RELATED_ONTOLOGY",
-      "description": "relatedOntology"
-    },
     "anatomicalTerm": {
       "$ref": "sands/anatomicaldefinition|openminds/anatomicalattribution",
       "description": "anatomicalTerm"
