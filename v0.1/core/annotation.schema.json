@@ -32,11 +32,6 @@
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/EXPERIMENT_PROTOCOL",
       "description": "criteria"
     },
-    "releaseDate": {
-      "type": "string",
-      "format": "date-time",
-      "description": "Date and time (actual or intended) of first broadcast/publication/release of this annotation."
-    },
     "relatedOntology": {
       "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/coordinatespace.schema.json#definitions/RELATED_ONTOLOGY",
       "description": "relatedOntology"
