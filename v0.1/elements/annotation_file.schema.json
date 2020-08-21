@@ -10,7 +10,8 @@
       "description": "annotationFile"
     },
     "internalFileIdentifier": {
-      "type": "string"
+      "type": "string",
+      "description": ""
     }
   }
 }
