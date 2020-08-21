@@ -47,10 +47,6 @@
     "navigationRules": {
       "description": "TBD"
     },
-    "parentAnnotation": {
-      "$ref": "TODO",
-      "description": "parentAnnotation"
-    },
     "supportedByEBRAINS": {
       "type": "boolean",
       "description": "Supported by atlas viewer"
