@@ -32,10 +32,6 @@
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/EXPERIMENT_PROTOCOL",
       "description": "criteria"
     },
-    "anatomicalTerm": {
-      "$ref": "sands/anatomicaldefinition|openminds/anatomicalattribution",
-      "description": "anatomicalTerm"
-    },
     "inspiredBy": {
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE",
       "description": "inspiredBy"
