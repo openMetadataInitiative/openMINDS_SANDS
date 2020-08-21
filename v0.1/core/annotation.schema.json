@@ -23,10 +23,6 @@
       "$ref": "https://schema.hbp.eu/sands/core/anatomicalEntity.schema.json",
       "description": "anatomicalEntity that is defined with annotation."
     },
-    "version": {
-      "type": "string",
-      "description": "Version identifier of this annotation."
-    },
     "annotationType": {
       "type": "string",
       "enum": ["asserted", "processive"],
