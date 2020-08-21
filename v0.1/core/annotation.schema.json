@@ -42,7 +42,7 @@
     },
     "nativeCoordinateSpace": {
       "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/COORDINATE_SPACE",
-      "description": ""
+      "description": "The native coordinate space of this annotation."
     },
     "navigationCoordinates": {
       "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/COORDINATES",
