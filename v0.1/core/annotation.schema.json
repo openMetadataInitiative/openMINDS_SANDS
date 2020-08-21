@@ -37,8 +37,8 @@
       "description": "inspiredBy"
     },
     "annotationFile": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE",
-      "description": "definedIn"
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/ANNOTATION_FILE",
+      "description": "annotationFile"
     },
     "nativeCoordinateSpace": {
       "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/COORDINATE_SPACE",
