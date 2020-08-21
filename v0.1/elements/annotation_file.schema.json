@@ -11,7 +11,7 @@
     },
     "internalFileIdentifier": {
       "type": "string",
-      "description": ""
+      "description": "internalFileIdentifier"
     }
   }
 }
