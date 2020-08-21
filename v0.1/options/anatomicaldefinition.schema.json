@@ -1,0 +1,35 @@
+{
+  "$id": "https://schema.hbp.eu/sand/0.1/options/anatomicaldefinition.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Definition of an annotation",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.ebrains.eu/sands/AnatomicalDefinition"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "sands/core/annotation/([A-Za-z0-9_-]+).json"
+    },
+    "nameOfLocation": {
+      "type": "string",
+      "description": "Name of location"
+    },
+    "relatedOntology": {
+      "type": "string",
+      "description": "URL to ontology"
+    },
+    "laterality": {
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/CONTROLLED_TERM",
+      "description": "laterality"
+    },
+    "parentStructure": {
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/ANATOMICAL_DEFINITION",
+      "description": "parentStructure"
+    }
+  }
+}

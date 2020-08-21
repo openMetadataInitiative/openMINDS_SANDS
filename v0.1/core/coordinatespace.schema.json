@@ -1,0 +1,55 @@
+{
+  "$id": "https://schema.hbp.eu/sand/0.1/core/coordinatespace.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Definition of a coordinate space",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.ebrains.eu/sands/CoordinateSpace"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier (id).",
+      "pattern": "sands/core/coordinatespace/([A-Za-z0-9_-]+).json"
+    },
+    "alias": {
+      "type": "string",
+      "description": "User-defined identifier, often a short name, of this coordinate space."
+    },
+    "fullName": {
+      "type": "string",
+      "description": "A descriptive name of this coordinate space."
+    },
+    "version": {
+      "type": "string",
+      "description": "Version identifier of this coordinate space."
+    },
+    "releaseDate": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Date and time (actual or intended) of first broadcast/publication/release of this coordinate space."
+    },
+    "relatedOntology": {
+      "$ref": "Ontology/Term",
+      "description": "relatedOntology"
+    },
+    "defaultImages": {
+      "type": "array",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/IMAGE",
+      },
+      "description": "defaultImages"
+    },
+    "axes": {
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/AXES",
+      "description": "Axes that are present in the coordinate space."
+    },
+    "supportedByEBRAINS": {
+      "type": "boolean",
+      "description": "Supported by atlas viewer"
+    }
+  }
+}

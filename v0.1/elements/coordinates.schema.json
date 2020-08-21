@@ -1,0 +1,30 @@
+{
+  "$id": "https://schema.hbp.eu/sand/0.1/elements/coordinates.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Description of coordinates in a space",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.ebrains.eu/sands/coordinates",
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "sands/options/axes/([A-Za-z0-9_-]+).json"
+    },
+    "coordinates": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "description": "coordinates"
+    },
+    "coordinateSpace": {
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/COORDINATE_SPACE",
+      "description": "coordinateSpace"
+    }
+  }
+}

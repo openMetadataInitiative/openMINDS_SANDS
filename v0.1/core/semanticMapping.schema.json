@@ -1,0 +1,25 @@
+{
+  "$id": "https://schema.hbp.eu/sand/0.1/core/semanticMapping.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Definition of a semanticMapping",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "relationType": {
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/RELATION_TYPE",
+      "description": "relationType"
+    },
+    "confidence": {
+      "type": "number",
+      "description": "confidence"
+    },
+    "anatomicalEntitySubject":{
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/ANATOMICAL_DEFINITION",
+      "description": "anatomicalEntitySubject"
+    },
+    "anatomicalEntityObject": {
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/ANATOMICAL_ATTRIBUTION",
+      "description": "anatomicalEntityObject"
+    }
+  }
+}
