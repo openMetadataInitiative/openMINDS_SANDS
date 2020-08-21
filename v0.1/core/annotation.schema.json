@@ -44,9 +44,8 @@
       "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/COORDINATE_SPACE",
       "description": "The native coordinate space of this annotation."
     },
-    "navigationCoordinates": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/COORDINATES",
-      "description": "The coordinate that defines the center of an annotation. The coordinate [in space] which will display information about the annotation."
+    "navigationRules": {
+      "description": "TBD"
     },
     "annotationType": {
       "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/CONTROLLED_TERM",
