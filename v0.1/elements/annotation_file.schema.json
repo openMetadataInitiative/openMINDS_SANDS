@@ -7,7 +7,7 @@
   "properties": {
     "annotationFile": {
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE",
-      "description": ""
+      "description": "annotationFile"
     }
   }
 }
