@@ -15,6 +15,7 @@
       "description": "Metadata node identifier (id).",
       "pattern": "sands/core/annotation/([A-Za-z0-9_-]+).json"
     },
+<<<<<<< HEAD
     "alias": {
       "type": "string",
       "description": "User-defined identifier, often a short name, of this annotation."
@@ -22,10 +23,28 @@
     "fullName": {
       "type": "string",
       "description": "A descriptive name of this annotation."
+=======
+    "performedBy": {
+      "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json",
+      "description": "Person that performed the annotation."
+    },
+    "anatomicalEntity": {
+      "$ref": "https://schema.hbp.eu/sands/core/anatomicalEntity.schema.json",
+      "description": "anatomicalEntity that is defined with annotation."
+>>>>>>> updated_schemas_annotation
     },
     "version": {
       "type": "string",
       "description": "Version identifier of this annotation."
+    },
+    "annotationType": {
+      "type": "string",
+      "enum": ["asserted", "processive"],
+      "description": "How was this annotation determined."
+    },
+    "criteria": {
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/EXPERIMENT_PROTOCOL",
+      "description": "criteria"
     },
     "releaseDate": {
       "type": "string",
@@ -40,19 +59,11 @@
       "$ref": "sands/anatomicaldefinition|openminds/anatomicalattribution",
       "description": "anatomicalTerm"
     },
-    "criteriaType": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/CONTROLLED_TERM",
-      "description": "criteriaType"
-    },
-    "criteria": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/EXPERIMENT_PROTOCOL",
-      "description": "criteria"
-    },
     "inspiredBy": {
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE",
       "description": "inspiredBy"
     },
-    "definedIn": {
+    "definingFile": {
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE",
       "description": "definedIn"
     },
