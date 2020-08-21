@@ -5,6 +5,8 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "annotationFile": {}
+    "annotationFile": {
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE"
+    }
   }
 }
