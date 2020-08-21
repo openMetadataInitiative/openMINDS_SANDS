@@ -46,10 +46,6 @@
     },
     "navigationRules": {
       "description": "TBD"
-    },
-    "supportedByEBRAINS": {
-      "type": "boolean",
-      "description": "Supported by atlas viewer"
     }
   }
 }
