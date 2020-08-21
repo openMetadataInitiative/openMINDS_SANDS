@@ -15,15 +15,6 @@
       "description": "Metadata node identifier (id).",
       "pattern": "sands/core/annotation/([A-Za-z0-9_-]+).json"
     },
-<<<<<<< HEAD
-    "alias": {
-      "type": "string",
-      "description": "User-defined identifier, often a short name, of this annotation."
-    },
-    "fullName": {
-      "type": "string",
-      "description": "A descriptive name of this annotation."
-=======
     "performedBy": {
       "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json",
       "description": "Person that performed the annotation."
@@ -31,7 +22,6 @@
     "anatomicalEntity": {
       "$ref": "https://schema.hbp.eu/sands/core/anatomicalEntity.schema.json",
       "description": "anatomicalEntity that is defined with annotation."
->>>>>>> updated_schemas_annotation
     },
     "version": {
       "type": "string",
