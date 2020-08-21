@@ -40,6 +40,7 @@
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE",
       "description": "definedIn"
     },
+    "nativeCoordinateSpace": {},
     "navigationCoordinates": {
       "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/COORDINATES",
       "description": "The coordinate that defines the center of an annotation. The coordinate [in space] which will display information about the annotation."
