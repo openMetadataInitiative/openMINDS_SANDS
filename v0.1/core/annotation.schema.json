@@ -23,11 +23,7 @@
       "$ref": "https://schema.hbp.eu/sands/core/anatomicalEntity.schema.json",
       "description": "anatomicalEntity that is defined with annotation."
     },
-    "version": {
-      "type": "string",
-      "description": "Version identifier of this annotation."
-    },
-    "annotationType": {
+    "criteriaType": {
       "type": "string",
       "enum": ["asserted", "processive"],
       "description": "How was this annotation determined."
@@ -36,46 +32,20 @@
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/EXPERIMENT_PROTOCOL",
       "description": "criteria"
     },
-    "releaseDate": {
-      "type": "string",
-      "format": "date-time",
-      "description": "Date and time (actual or intended) of first broadcast/publication/release of this annotation."
-    },
-    "relatedOntology": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/coordinatespace.schema.json#definitions/RELATED_ONTOLOGY",
-      "description": "relatedOntology"
-    },
-    "anatomicalTerm": {
-      "$ref": "sands/anatomicaldefinition|openminds/anatomicalattribution",
-      "description": "anatomicalTerm"
-    },
     "inspiredBy": {
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE",
       "description": "inspiredBy"
     },
-    "definingFile": {
+    "annotationFile": {
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE",
       "description": "definedIn"
     },
-    "internalFileIdentifier": {
-      "type": "string",
-      "description": "internalFileIdentifier"
+    "nativeCoordinateSpace": {
+      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/COORDINATE_SPACE",
+      "description": "The native coordinate space of this annotation."
     },
-    "navigationCoordinates": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/COORDINATES",
-      "description": "The coordinate that defines the center of an annotation. The coordinate [in space] which will display information about the annotation."
-    },
-    "annotationType": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/CONTROLLED_TERM",
-      "description": "annotationType"
-    },
-    "parentAnnotation": {
-      "$ref": "TODO",
-      "description": "parentAnnotation"
-    },
-    "supportedByEBRAINS": {
-      "type": "boolean",
-      "description": "Supported by atlas viewer"
+    "navigationRules": {
+      "description": "TBD"
     }
   }
 }
