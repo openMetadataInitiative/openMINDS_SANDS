@@ -10,4 +10,4 @@ The development of these schemata is a cooperation between the development teams
 
 The goal of this collection of schemata is to enable the registration of data points into the HBP atlases (hosted on EBRAINS). SANDS acts as an extension to openMINDS, which handles the modelling of the metadata.
 
-NOTE: SANDS is still in development and not yet implemented and used. 
+NOTE: SANDS is still in development and not yet fully implemented and used. 
