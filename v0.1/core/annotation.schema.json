@@ -13,11 +13,11 @@
     "@id": {
       "type": "string",
       "description": "Metadata node identifier (id).",
-      "pattern": "sands/core/annotation/([A-Za-z0-9_-]+).json"
+      "pattern": "sands/v0.1/core/annotation/([A-Za-z0-9_-]+).json"
     },
     "performedBy": {
-      "$ref": "https://schema.hbp.eu/minds3.0/core/person.schema.json",
-      "description": "Person that performed the annotation."
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/CONTROLLED_TERM",
+      "description": "Responsible party that performed the annotation."
     },
     "anatomicalEntity": {
       "$ref": "https://schema.hbp.eu/sands/core/anatomicalEntity.schema.json",
