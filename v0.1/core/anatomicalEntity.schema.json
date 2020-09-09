@@ -1,11 +1,21 @@
 {
-  "$id": "https://schema.hbp.eu/sand/0.1/core/anatomicalEntity.schema.json",
+  "$id": "https://schema.hbp.eu/sands/0.1/core/anatomicalEntity.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "description": "Definition of an anatomicalEntity",
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "nameOfLocation":{
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.hbp.eu/sands/AnatomicalEntity"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "sands/v0.1/core/anatomicalEntity/([A-Za-z0-9_-]+).json"
+    },
+    "nameOfLocation": {
       "type": "string",
       "description": "nameOfLocation"
     },
