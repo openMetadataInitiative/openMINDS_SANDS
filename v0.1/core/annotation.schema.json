@@ -31,7 +31,7 @@
       "oneOf": [{
         "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json/PROTOCOL"
       }, {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json/PROTOCOL"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json/PROTOCOL_EXECUTION"
       }],    
       "description": "criteria"
     },
