@@ -1,10 +1,20 @@
 {
-  "$id": "https://schema.hbp.eu/sand/0.1/core/semanticMapping.schema.json",
+  "$id": "https://schema.hbp.eu/sand/0.1/core/entityToEntity.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "Definition of a semanticMapping",
+  "description": "Definition of a entityToEntity",
   "type": "object",
   "additionalProperties": false,
   "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.hbp.eu/sands/EntityToEntity"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "sands/v0.1/core/entityToEntity/([A-Za-z0-9_-]+).json"
+    },
     "performedBy": {
       "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/CONTROLLED_TERM",
       "description": "performedBy"
