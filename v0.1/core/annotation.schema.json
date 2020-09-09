@@ -36,19 +36,20 @@
       "description": "criteria"
     },
     "inspiredBy": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_INSTANCE",
       "description": "inspiredBy"
     },
     "annotationFile": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/ANNOTATION_FILE",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ANNOTATION_FILE",
       "description": "annotationFile"
     },
     "nativeCoordinateSpace": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/COORDINATE_SPACE",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/COORDINATE_SPACE",
       "description": "The native coordinate space of this annotation."
     },
     "navigationRules": {
-      "description": "TBD"
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/NAVIGATION_RULES",
+      "description": "navigationRules"
     }
   }
 }
