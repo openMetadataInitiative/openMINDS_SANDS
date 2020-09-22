@@ -8,7 +8,7 @@
     "@type", 
     "@id",
     "identifier",
-    "coordinate"
+    "electrodeContacts"
     ],
   "properties": {
     "@type": {

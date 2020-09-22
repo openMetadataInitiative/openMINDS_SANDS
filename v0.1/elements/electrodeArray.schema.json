@@ -1,0 +1,37 @@
+{
+  "$id": "https://schema.hbp.eu/sand/0.1/elements/electrodeArray.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "SANDS definition of an electrode array",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "@type", 
+    "@id",
+    "identifier",
+    "electrodes"
+    ],
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.ebrains.eu/sands/ElectrodeArray"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "sands/elements/electrodeArray/([A-Za-z0-9_-]+).json"
+    },
+    "identifier": {
+      "type": "string",
+      "description": "Identifier of this electrode array within files."
+    },
+    "electrodes":{
+	  "type": "array",
+	  "minItems": 1,
+	  "items": {
+	    "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ELECTRODE"
+	  },
+      "description": "Link to electrodes of this array."
+    }
+  }
+}
