@@ -27,7 +27,6 @@
     },
     "electrodeContacts":{
 	  "type": "array",
-	  "minItems": 1,
 	  "items": {
 	    "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ELECTRODE_CONTACT"
 	  },
