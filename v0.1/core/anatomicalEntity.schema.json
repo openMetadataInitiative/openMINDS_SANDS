@@ -3,7 +3,12 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "description": "Definition of an anatomicalEntity",
   "type": "object",
-  "additionalProperties": false,
+  "additionalProperties": false,   
+  "required": [
+    "@type",
+    "@id",
+    "nameOfLocation"
+  ],
   "properties": {
     "@type": {
       "type": "string",
@@ -14,29 +19,25 @@
       "type": "string",
       "description": "Metadata node identifier.",
       "pattern": "sands/v0.1/core/anatomicalEntity/([A-Za-z0-9_-]+).json"
-    },
+    },    
     "nameOfLocation": {
       "type": "string",
-      "description": "nameOfLocation"
-    },
-    "laterality": {
-      "type": "array",
-      "description": "laterality",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/CONTROLLED_TERM"
-      }
+      "description": "The name of the anatomical entity."
     },
     "parentStructure": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ANNATOMICAL_ENTITY",
-      "description": "parentStructure"
+      "type": "object",
+      "description": "A parent structure to this anatomical entity.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ANNATOMICAL_ENTITY"
     },
     "source": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/CONTROLLED_TERM",
-      "description": "source"
+      "type": "object",
+      "description": "Terminology the anatomical entity originates from.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/TERMINOLOGY"        
     },
-    "performedBy": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/CONTROLLED_TERM",
-      "description": "performedBy"
+    "relatedOntology": {
+      "type": "string",
+      "description": "Identifier (URI) to related ontological term.",
+      "format": "uri"
     }
   }
 }
