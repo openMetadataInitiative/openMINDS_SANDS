@@ -51,5 +51,13 @@
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/NAVIGATION_RULES",
       "description": "navigationRules"
     }
+    "laterality": {
+      "type": "array",
+      "description": "The side of the body or bilateral organ that this anatomical entity relates to.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/CONTROLLED_TERM"
+      },
+      "maxItems": 2
+    }
   }
 }
