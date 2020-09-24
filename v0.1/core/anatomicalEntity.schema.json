@@ -20,14 +20,6 @@
       "description": "Metadata node identifier.",
       "pattern": "sands/v0.1/core/anatomicalEntity/([A-Za-z0-9_-]+).json"
     },    
-    "laterality": {
-      "type": "array",
-      "description": "The side of the body or bilateral organ that this anatomical entity relates to.",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/CONTROLLED_TERM"
-      },
-      "maxItems": 2
-    },
     "nameOfLocation": {
       "type": "string",
       "description": "The name of the anatomical entity."
@@ -42,10 +34,10 @@
       "description": "Terminology the anatomical entity originates from.",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/TERMINOLOGY"        
     },
-      "relatedOntology": {
-      "type": "object",
-      "description": "Related onotlogy to the anatomical entity (link to individual ontology ID).",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/CONTROLLED_TERM"
+    "relatedOntology": {
+      "type": "string",
+      "description": "Identifier (URI) to related ontological term.",
+      "format": "uri"
     }
   }
 }
