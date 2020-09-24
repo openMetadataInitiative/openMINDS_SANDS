@@ -1,0 +1,36 @@
+{
+  "$id": "https://schema.hbp.eu/sand/0.1/elements/electrode.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "SANDS definition of an electrode",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "@type", 
+    "@id",
+    "identifier",
+    "electrodeContacts"
+    ],
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.ebrains.eu/sands/Electrode"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier.",
+      "pattern": "sands/elements/electrode/([A-Za-z0-9_-]+).json"
+    },
+    "identifier": {
+      "type": "string",
+      "description": "Identifier of this electrode within files."
+    },
+    "electrodeContacts":{
+	  "type": "array",
+	  "items": {
+	    "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ELECTRODE_CONTACT"
+	  },
+      "description": "Link to recording/stimulation contacts of this electrode."
+    }
+  }
+}

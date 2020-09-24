@@ -36,9 +36,21 @@
       "$id": "#elements/annotationFile",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/elements/annotationFile.schema.json"
     },
-    "COORDINATES": {
-      "$id": "#elements/coordinates",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/elements/coordinates.schema.json"
+    "COORDINATE": {
+      "$id": "#elements/coordinate",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/elements/coordinate.schema.json"
+    },
+    "ELECTRODE": {
+      "$id": "#elements/electrode",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/elements/electrode.schema.json"
+    },
+    "ELECTRODE_ARRAY": {
+      "$id": "#elements/electrodeArray",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/elements/electrodeArray.schema.json"
+    },
+    "ELECTRODE_CONTACT": {
+      "$id": "#elements/electrodeContact",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/elements/electrodeContact.schema.json"
     },
     "IMAGE": {
       "$id": "#elements/image",
