@@ -31,7 +31,6 @@
     },
     "definedIn":{
 	  "type": "array",
-	  "minItems": 1,
 	  "items": {
 	    "oneOf": [
 	      {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE"},
@@ -42,7 +41,6 @@
     },
     "relatedRecordings":{
 	  "type": "array",
-	  "minItems": 1,
 	  "items": {
 	    "oneOf": [
 	      {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE"},
@@ -53,7 +51,6 @@
     },
     "relatedStimulations":{
 	  "type": "array",
-	  "minItems": 1,
 	  "items": {
 	    "oneOf": [
 	      {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE"},
