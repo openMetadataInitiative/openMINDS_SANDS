@@ -33,18 +33,19 @@
       "description": "Date and time (actual or intended) of first broadcast/publication/release of this coordinate space."
     },
     "relatedOntology": {
-      "$ref": "Ontology/Term",
-      "description": "relatedOntology"
+      "type": "string",
+      "description": "Link (uri) to related ontological term.",
+      "format": "uri"
     },
     "defaultImages": {
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/IMAGE",
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/IMAGE",
       },
       "description": "defaultImages"
     },
     "axes": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/AXES",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/AXES",
       "description": "Axes that are present in the coordinate space."
     },
     "supportedByEBRAINS": {

@@ -37,19 +37,20 @@
       "description": "referenceDataset"
     },
     "relatedOntology": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/ONTOLOGY_TERM",
-      "description": "relatedOntology"
+      "type": "string",
+      "description": "Link (uri) to related ontological term.",
+      "format": "uri"
     },
     "coordinateSpace": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/COORDINATE_SPACE",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/COORDINATE_SPACE",
       "description": "coordinateSpace"
     },
     "annotationSet": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/ANNOTATION",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ANNOTATION",
       "description": "annotationSet"
     },
     "terminology": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/TERMINOLOGY",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/TERMINOLOGY",
       "description": "terminology"
     },
     "supportedByEBRAINS": {

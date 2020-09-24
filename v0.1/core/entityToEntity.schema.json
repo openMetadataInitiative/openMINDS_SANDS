@@ -16,11 +16,11 @@
       "pattern": "sands/v0.1/core/entityToEntity/([A-Za-z0-9_-]+).json"
     },
     "performedBy": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/CONTROLLED_TERM",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/CONTROLLED_TERM",
       "description": "performedBy"
     },
     "relationType": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/RELATION_TYPE",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/RELATION_TYPE",
       "description": "relationType"
     },
     "confidence": {
@@ -28,11 +28,11 @@
       "description": "confidence"
     },
     "anatomicalEntitySubject":{
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/ANATOMICAL_DEFINITION",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ANATOMICAL_ENTITY",
       "description": "anatomicalEntitySubject"
     },
     "anatomicalEntityObject": {
-      "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/ANATOMICAL_ATTRIBUTION",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ANATOMICAL_ENTITY",
       "description": "anatomicalEntityObject"
     }
   }

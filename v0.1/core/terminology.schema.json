@@ -36,14 +36,18 @@
       "type": "ontology/term",
       "description": "relatedOntology"
     },
-    "definedIn": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE",
-      "description": "definedIn"
+    "definedIn":{
+	  "type": "object",
+	  "oneOf": [
+	    {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE"},
+	    {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_INSTANCE"}
+	  ],
+      "description": "File in which the terminology is defined."
     },
     "anatomicalEntities": {
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/FZJ-INM1-BDA/SANDS-internal/master/v0.1/core/definitions.schema.json#definitions/ANATOMICAL_ENTITY"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ANATOMICAL_ENTITY"
       },
       "description": "relatedOntology"
     },
