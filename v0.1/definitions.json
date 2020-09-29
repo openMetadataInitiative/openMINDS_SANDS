@@ -32,9 +32,9 @@
       "$id": "#core/terminology",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/core/terminology.schema.json"
     },
-    "ANNOTATION_FILE": {
-      "$id": "#elements/annotationFile",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/elements/annotationFile.schema.json"
+    "VISUALIZATION_PARAMETERS": {
+      "$id": "#elements/visualizationParameters",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/core/visualizationParameters.schema.json"
     },
     "COORDINATE": {
       "$id": "#elements/coordinate",
