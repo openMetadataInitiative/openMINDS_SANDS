@@ -8,6 +8,7 @@
     "@type",
     "@id",
     "criteriaType",
+    "definingTerm",
     "laterality",
     "visualizedIn"
   ],
@@ -24,9 +25,9 @@
     },
     "criteria": {
       "oneOf": [{
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json/PROTOCOL"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PROTOCOL"
       }, {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json/PROTOCOL_EXECUTION"
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PROTOCOL_EXECUTION"
       }],    
       "description": "criteria"
     },
@@ -35,12 +36,15 @@
       "description": "How was this annotation determined."
     },
     "definingTerm": {
-      "$ref": "https://schema.hbp.eu/sands/core/anatomicalEntity.schema.json",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ANATOMICAL_ENTITY",
       "description": "Anatomical entity that provides the term for the here specified annotation."
     },
     "inspiredBy": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/IMAGE",
-      "description": "Link to (source) image(s) that inspired the definition of this annotation."
+      "type": "array",
+      "description": "Link to (source) image(s) that inspired the definition of this annotation.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/IMAGE"
+      }
     },
     "laterality": {
       "type": "array",
@@ -51,7 +55,7 @@
       "maxItems": 2
     },
     "relatedAtlasTerm": {
-      "$ref": "https://schema.hbp.eu/sands/core/anatomicalEntity.schema.json",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ANATOMICAL_ENTITY",
       "description": "Anatomical entity (term) of a brain atlas annotation to which the here specified annotation is related to."
     },
     "visualizedIn": {

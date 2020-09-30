@@ -23,7 +23,7 @@
       "pattern": "sands/v0.1/core/visualizationParameters/([A-Za-z0-9_-]+).json"
     },
     "bestViewPoint": {
-      "$ref": "https://schema.hbp.eu/sands/core/coordinate.schema.json",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/COORDINATE",
       "description": "Coordinate to best view point of the related annotation."
     },
     "definedIn": {
@@ -34,7 +34,7 @@
       "type": "array",
       "description": "Preferred display color (RGB) of the related annotation.",
       "items": {
-        "type": "integer"
+        "type": "integer",
         "minimum": 0,
         "maximum": 255
       },
@@ -42,7 +42,7 @@
       "maxItems": 3
     },
     "internalFileIdentifier": {
-	  "type": "string"
+	  "type": "string",
       "description": "Identifier used within the file the related annotation is stored in."
     }
   }
