@@ -29,7 +29,7 @@
       "description": "User-defined identifier, often a short name, of this coordinate space."
     },
     "axes": {
-      "description": "Link to axes that are presented in the coordinate space."
+      "description": "Link to axes that are presented in the coordinate space.",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/AXES",
     },
     "defaultImages": {
