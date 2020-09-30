@@ -20,6 +20,10 @@
       "$id": "#core/brainAtlas",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/core/brainAtlas.schema.json"
     },
+    "BRAIN_ATLAS_VERSION": {
+      "$id": "#core/brainAtlas",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/core/brainAtlasVersion.schema.json"
+    },
     "COORDINATE_SPACE": {
       "$id": "#core/coordinateSpace",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/core/coordinateSpace.schema.json"
