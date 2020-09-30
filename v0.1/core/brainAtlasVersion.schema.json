@@ -1,5 +1,5 @@
 {
-  "$id": "https://schema.hbp.eu/sand/0.1/core/brainAtlas.schema.json",
+  "$id": "https://schema.hbp.eu/sand/0.1/core/brainAtlasVersion.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "description": "Definition of a brain atlas",
   "type": "object",
@@ -9,6 +9,7 @@
     "@id",
     "alias",
     "annotationSet",
+    "coordinateSpace",
     "fullName",
     "releaseDate",
     "terminology",
@@ -19,20 +20,23 @@
     "@type": {
       "type": "string",
       "description": "Metadata node type (schema).",
-      "const": "https://schema.ebrains.eu/sands/BrainAtlas"
+      "const": "https://schema.ebrains.eu/sands/BrainAtlasVersion"
     },
     "@id": {
       "type": "string",
       "description": "Metadata node identifier (id).",
-      "pattern": "sands/core/brainatlas/([A-Za-z0-9_-]+).json"
+      "pattern": "sands/core/brainatlasversion/([A-Za-z0-9_-]+).json"
     },
     "alias": {
       "type": "string",
-      "description": "User-defined identifier, often a short name, of this brain atlas."
+      "description": "User-defined identifier, often a short name, of this brain atlas version."
     },
     "alternativeVersionOf": {
-      "description": "Link to an alternative brain atlas version.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/BRAIN_ATLAS_VERSION",
+      "type": "array",
+      "description": "Link to an alternative brain atlas versions.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/BRAIN_ATLAS_VERSION"
+      }    
     },
     "annotationSet": {
       "type": "array",
@@ -42,7 +46,7 @@
       }
     },
     "coordinateSpace": {
-      "description": "Link to coordinate space this brain atlas version is represented in"
+      "description": "Link to coordinate space this brain atlas version is represented in",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/COORDINATE_SPACE",
     },
     "fullName": {
