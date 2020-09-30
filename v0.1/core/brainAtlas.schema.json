@@ -4,6 +4,14 @@
   "description": "Definition of a brain atlas",
   "type": "object",
   "additionalProperties": false,
+  "required": [
+    "@type",
+    "@id",
+    "alias",
+    "description",
+    "fullName",
+    "hasVersions"
+  ],
   "properties": {
     "@type": {
       "type": "string",
@@ -19,43 +27,27 @@
       "type": "string",
       "description": "User-defined identifier, often a short name, of this brain atlas."
     },
+    "description": {
+      "type": "string",
+      "description": "Short description of this brain atlas."
+    },
     "fullName": {
       "type": "string",
       "description": "A descriptive name of this brain atlas."
     },
-    "version": {
-      "type": "string",
-      "description": "Version identifier of this brain atlas."
+    "hasVersions": {
+      "type": "array",
+      "description": "Link to versions of this brain atlas.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/BRAIN_ATLAS_VERSION"
+      }
     },
-    "releaseDate": {
-      "type": "string",
-      "format": "date-time",
-      "description": "Date and time (actual or intended) of first broadcast/publication/release of this brain atlas."
-    },
-    "referenceDataset": {
-      "$ref": "Opeminds/Datasetversion",
-      "description": "referenceDataset"
-    },
-    "relatedOntology": {
-      "type": "string",
-      "description": "Link (uri) to related ontological term.",
-      "format": "uri"
-    },
-    "coordinateSpace": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/COORDINATE_SPACE",
-      "description": "coordinateSpace"
-    },
-    "annotationSet": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ANNOTATION",
-      "description": "annotationSet"
-    },
-    "terminology": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/TERMINOLOGY",
-      "description": "terminology"
-    },
-    "supportedByEBRAINS": {
-      "type": "boolean",
-      "description": "Supported by atlas viewer"
-    },
+    "referenceProject": {
+      "description": "Link to a reference project registered in the database.",
+      "oneOf": [
+        {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json/PROJECT"}, 
+	    {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json/PROJECT"}
+	  ]
+    }
   }
 }
