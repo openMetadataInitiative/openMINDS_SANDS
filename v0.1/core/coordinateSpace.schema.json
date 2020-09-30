@@ -4,6 +4,15 @@
   "description": "Definition of a coordinate space",
   "type": "object",
   "additionalProperties": false,
+  "required": [
+    "@type",
+    "@id",
+    "alias",
+    "axes",
+    "fullName",
+    "releaseDate",
+    "versionIdentifier"
+  ],
   "properties": {
     "@type": {
       "type": "string",
@@ -19,38 +28,34 @@
       "type": "string",
       "description": "User-defined identifier, often a short name, of this coordinate space."
     },
+    "axes": {
+      "description": "Link to axes that are presented in the coordinate space."
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/AXES",
+    },
+    "defaultImages": {
+      "type": "array",
+      "description": "Link to default images used to visualize this brain atlas coordinate space.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/IMAGE",
+      }
+    },
     "fullName": {
       "type": "string",
       "description": "A descriptive name of this coordinate space."
-    },
-    "version": {
-      "type": "string",
-      "description": "Version identifier of this coordinate space."
-    },
-    "releaseDate": {
-      "type": "string",
-      "format": "date-time",
-      "description": "Date and time (actual or intended) of first broadcast/publication/release of this coordinate space."
     },
     "relatedOntology": {
       "type": "string",
       "description": "Link (uri) to related ontological term.",
       "format": "uri"
     },
-    "defaultImages": {
-      "type": "array",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/IMAGE",
-      },
-      "description": "defaultImages"
+    "releaseDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of first broadcast/publication/release of this coordinate space."
     },
-    "axes": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/AXES",
-      "description": "Axes that are present in the coordinate space."
-    },
-    "supportedByEBRAINS": {
-      "type": "boolean",
-      "description": "Supported by atlas viewer"
+    "versionIdentifier": {
+      "type": "string",
+      "description": "Version identifier of this coordinate space."
     }
   }
 }
