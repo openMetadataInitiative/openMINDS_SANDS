@@ -1,0 +1,49 @@
+{
+  "$id": "https://schema.hbp.eu/sand/0.1/core/visualizationParameters.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Definition of visualization parameters",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "@type",
+    "@id",
+    "bestViewPoint",
+    "definedIn",
+    "internalFileIdentifier"
+  ],
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.ebrains.eu/sands/VisualizationParameters"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier (id).",
+      "pattern": "sands/v0.1/core/visualizationParameters/([A-Za-z0-9_-]+).json"
+    },
+    "bestViewPoint": {
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/COORDINATE",
+      "description": "Coordinate to best view point of the related annotation."
+    },
+    "definedIn": {
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/IMAGE",
+      "description": "Link to (source) image(s) that inspired the definition of this annotation."
+    },
+    "displayColor": {
+      "type": "array",
+      "description": "Preferred display color (RGB) of the related annotation.",
+      "items": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "internalFileIdentifier": {
+	  "type": "string",
+      "description": "Identifier used within the file the related annotation is stored in."
+    }
+  }
+}
