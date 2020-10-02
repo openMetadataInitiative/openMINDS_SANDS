@@ -75,7 +75,7 @@
       "description": "Date of first broadcast/publication/release of this brain atlas version."
     },
     "terminology": {
-      "description": "Link to the terminology of this brain atlas version."
+      "description": "Link to the terminology of this brain atlas version.",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/TERMINOLOGY",
     },
     "versionIdentifier": {
