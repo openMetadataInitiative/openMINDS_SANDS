@@ -1,30 +1,38 @@
 {
-  "$id": "https://schema.hbp.eu/sand/0.1/elements/coordinates.schema.json",
+  "$id": "https://schema.hbp.eu/sands/0.1/elements/coordinatePoint.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "Description of coordinates in a space",
+  "description": "Description of a coordinate point in a space",
   "type": "object",
   "additionalProperties": false,
+  "required": [
+    "@type",
+    "@id",
+    "coordinates",
+    "coordinateSpace"
+  ],
   "properties": {
     "@type": {
       "type": "string",
       "description": "Metadata node type (schema).",
-      "const": "https://schema.ebrains.eu/sands/coordinates",
+      "const": "https://schema.ebrains.eu/sands/CoordinatePoint",
     },
     "@id": {
       "type": "string",
       "description": "Metadata node identifier.",
-      "pattern": "sands/options/axes/([A-Za-z0-9_-]+).json"
+      "pattern": "sands/options/coordinatePoint/([A-Za-z0-9_-]+).json"
     },
     "coordinates": {
       "type": "array",
+      "description": "Coordinates that describe the coordinate point (x, y , z).",
       "items": {
         "type": "number"
       },
-      "description": "coordinates"
+      "minItems": 3,
+      "maxItems": 3
     },
     "coordinateSpace": {
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/COORDINATE_SPACE",
-      "description": "coordinateSpace"
+      "description": "Coordinate space the cooridnate point is described in."
     }
   }
 }
