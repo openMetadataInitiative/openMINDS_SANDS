@@ -1,0 +1,56 @@
+{
+  "$id": "https://schema.hbp.eu/sands/0.1/core/atlasTerminology.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Definition of an atlas terminology",
+  "type": "object",
+  "additionalProperties": false,   
+  "required": [
+    "@type",
+    "@id",
+    "alias",
+    "anatomicalEntities",
+    "fullName"
+  ],
+  "properties": {
+    "@type": {
+      "type": "string",
+      "description": "Metadata node type (schema).",
+      "const": "https://schema.ebrains.eu/sands/AtlasTerminology"
+    },
+    "@id": {
+      "type": "string",
+      "description": "Metadata node identifier (id).",
+      "pattern": "sands/core/atlasTerminology/([A-Za-z0-9_-]+).json"
+    },
+    "alias": {
+      "type": "string",
+      "description": "User-defined identifier, often a short name, of this atlas terminology."
+    },
+    "anatomicalEntities":{
+      "type": "array",
+      "description": "Terms that are part of the atlas terminology.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ANATOMICAL_ENTITY"
+      }
+    },
+    "definedIn": {
+      "type": "array",
+      "description": "The file(s) in which the atlas terminology is defined in.",
+      "items": {
+        "oneOf": [
+	  {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE"},
+	  {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_INSTANCE"}
+	]
+      },
+    },
+    "fullName": {
+      "type": "string",
+      "description": "A descriptive name of this atlas terminology."
+    },
+    "relatedOntology": {
+      "type": "string",
+      "description": "Identifier (URI) to related ontological term.",
+      "format": "uri"
+    }
+  }
+}

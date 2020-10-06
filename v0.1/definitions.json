@@ -32,9 +32,9 @@
       "$id": "#core/entityToEntity",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/core/entityToEntity.schema.json"
     },
-    "TERMINOLOGY": {
-      "$id": "#core/terminology",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/core/terminology.schema.json"
+    "ATLAS_TERMINOLOGY": {
+      "$id": "#core/atlasTerminology",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/core/atlasTerminology.schema.json"
     },
     "VISUALIZATION_PARAMETERS": {
       "$id": "#elements/visualizationParameters",

@@ -76,7 +76,7 @@
     },
     "terminology": {
       "description": "Link to the terminology of this brain atlas version.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/TERMINOLOGY",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ATLAS_TERMINOLOGY",
     },
     "versionIdentifier": {
       "type": "string",
