@@ -1,7 +1,7 @@
 {
   "$id": "https://schema.hbp.eu/sands/0.1/elements/image.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "SANDS definition of an image",
+  "description": "Definition of an image",
   "type": "object",
   "additionalProperties": false,   
   "required": [
@@ -23,7 +23,7 @@
     },
     "coordinateSpace": {
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/COORDINATE_SPACE",
-      "definition": "coordinateSpace description"
+      "definition": "Coordinate space the image exists in."
     },
     "definedIn":{
 	  "type": "object",
@@ -35,7 +35,7 @@
     },
     "indexingParameters": {
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/INDEXING_PARAMETERS",
-      "definition": "indexingParameters description"
+      "definition": "Indexing parameters that apply to the image."
     }	  
   }
 }
