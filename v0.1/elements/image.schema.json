@@ -1,9 +1,15 @@
 {
-  "$id": "https://schema.hbp.eu/sand/0.1/elements/image.schema.json",
+  "$id": "https://schema.hbp.eu/sands/0.1/elements/image.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "SANDS definition of an image",
+  "description": "Definition of an image",
   "type": "object",
-  "additionalProperties": false,
+  "additionalProperties": false,   
+  "required": [
+    "@type",
+    "@id",
+    "coordinateSpace",
+    "definedIn"
+  ],
   "properties": {
     "@type": {
       "type": "string",
@@ -15,13 +21,9 @@
       "description": "Metadata node identifier.",
       "pattern": "sands/core/coordinatespace/([A-Za-z0-9_-]+).json"
     },
-    "axes": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/AXES",
-      "description": "axes"
-    },
-    "spacing": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/SPACING",
-      "description": "spacing"
+    "coordinateSpace": {
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/COORDINATE_SPACE",
+      "definition": "Coordinate space the image exists in."
     },
     "definedIn":{
 	  "type": "object",
@@ -30,6 +32,10 @@
 	    {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_INSTANCE"}
 	  ],
       "description": "File in which the image is defined."
-    }
+    },
+    "indexingParameters": {
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/INDEXING_PARAMETERS",
+      "definition": "Indexing parameters that apply to the image."
+    }	  
   }
 }
