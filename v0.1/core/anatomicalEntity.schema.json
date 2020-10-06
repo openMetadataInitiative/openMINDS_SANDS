@@ -29,11 +29,6 @@
       "description": "A parent structure to this anatomical entity.",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ANNATOMICAL_ENTITY"
     },
-    "source": {
-      "type": "object",
-      "description": "Terminology the anatomical entity originates from.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ATLAS_TERMINOLOGY"        
-    },
     "relatedOntology": {
       "type": "string",
       "description": "Identifier (URI) to related ontological term.",
