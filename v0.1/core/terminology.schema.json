@@ -9,9 +9,7 @@
     "@id",
     "alias",
     "anatomicalEntities",
-    "fullName",
-    "releaseDate",
-    "versionIdentifier"
+    "fullName"
   ],
   "properties": {
     "@type": {
@@ -53,30 +51,6 @@
       "type": "string",
       "description": "Identifier (URI) to related ontological term.",
       "format": "uri"
-    },
-    "releaseDate": {
-      "type": "string",
-      "format": "date",
-      "description": "Date and time (actual or intended) of first broadcast/publication/release of this terminology."
-    },
-    "versionIdentifier": {
-      "type": "string",
-      "description": "Version identifier of this terminology version."
-    },
-    "newVersionOf": {
-      "description": "Link to the previous terminology version.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/TERMINOLOGY",
-    },
-    "alternativeVersionOf": {
-      "type": "array",
-      "description": "Link to an alternative terminology versions.",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/TERMINOLOGY"
-      }    
-    },
-    "versionInnovation": {
-      "type": "string",
-      "description": "Short description of the novelties / peculiarities of terminology version."
     }
   }
 }
