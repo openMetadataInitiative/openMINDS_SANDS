@@ -1,5 +1,5 @@
 {
-  "$id": "https://schema.hbp.eu/sand/0.1/core/annotation.schema.json",
+  "$id": "https://schema.hbp.eu/sands/0.1/core/annotation.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "description": "Definition of an annotation",
   "type": "object",
@@ -41,7 +41,7 @@
     },
     "namingTerm": {
       "type": "array",
-      "description": "Anatomical entity (term) that provides the term for the here specified annotation.",
+      "description": "Anatomical entity (anatomical term) that names the here specified annotation.",
       "items": {
         "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ANATOMICAL_ENTITY"
       }
