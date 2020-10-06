@@ -1,7 +1,7 @@
 {
   "$id": "https://schema.hbp.eu/sands/0.1/core/terminology.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "Definition of an terminology",
+  "description": "Definition of a terminology",
   "type": "object",
   "additionalProperties": false,   
   "required": [
