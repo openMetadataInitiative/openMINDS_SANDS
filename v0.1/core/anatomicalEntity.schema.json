@@ -32,7 +32,7 @@
     "source": {
       "type": "object",
       "description": "Terminology the anatomical entity originates from.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/TERMINOLOGY"        
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ATLAS_TERMINOLOGY"        
     },
     "relatedOntology": {
       "type": "string",
