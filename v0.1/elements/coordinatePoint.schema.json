@@ -1,7 +1,7 @@
 {
-  "$id": "https://schema.hbp.eu/sands/0.1/elements/coordinatePoint.schema.json",
+  "$id": "https://openminds.ebrains.eu/sands/coordinatePoint.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "Description of a coordinate point in a space",
+  "description": "Structured information describing a coordinate point in a space",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -14,12 +14,11 @@
     "@type": {
       "type": "string",
       "description": "Metadata node type (schema).",
-      "const": "https://schema.ebrains.eu/sands/CoordinatePoint",
+      "const": "https://openminds.ebrains.eu/sands/coordinatePoint",
     },
     "@id": {
       "type": "string",
-      "description": "Metadata node identifier.",
-      "pattern": "sands/options/coordinatePoint/([A-Za-z0-9_-]+).json"
+      "description": "Metadata node identifier."
     },
     "coordinates": {
       "type": "array",
@@ -31,8 +30,8 @@
       "maxItems": 3
     },
     "coordinateSpace": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/COORDINATE_SPACE",
-      "description": "Coordinate space the cooridnate point is described in."
+      "description": "Coordinate space the cooridnate point is described in.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/COORDINATE_SPACE"
     }
   }
 }
