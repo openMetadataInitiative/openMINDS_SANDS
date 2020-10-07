@@ -1,50 +1,42 @@
 {
-  "$id": "https://schema.hbp.eu/sands/0.1/core/annotation.schema.json",
+  "$id": "https://openminds.ebrains.eu/sands/annotation.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "Definition of an annotation",
+  "description": "Structured information describing an annotation",
   "type": "object",
   "additionalProperties": false,
   "required": [
     "@type",
     "@id",
     "criteriaType",
-    "namingTerm",
     "laterality",
+    "namingTerm",
     "visualizedIn"
   ],
   "properties": {
     "@type": {
       "type": "string",
       "description": "Metadata node type (schema).",
-      "const": "https://schema.ebrains.eu/sands/Annotation"
+      "const": "https://openminds.ebrains.eu/sands/annotation"
     },
     "@id": {
       "type": "string",
-      "description": "Metadata node identifier (id).",
-      "pattern": "sands/v0.1/core/annotation/([A-Za-z0-9_-]+).json"
+      "description": "Metadata node identifier (id)."
     },
     "alias": {
       "type": "string",
       "description": "User-defined identifier, often a short name, of this annotation."
     },
     "criteria": {
+      "description": "Criteria used to produce the annotation.",
       "oneOf": [{
         "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PROTOCOL"
       }, {
         "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PROTOCOL_EXECUTION"
-      }],    
-      "description": "Criteria used to produce the annotation."
+      }]
     },
     "criteriaType": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/CONTROLLED_TERM",
-      "description": "How was this annotation determined."
-    },
-    "namingTerm": {
-      "type": "array",
-      "description": "Anatomical entity (anatomical term) that names the here specified annotation.",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ANATOMICAL_ENTITY"
-      }
+      "description": "How was this annotation determined.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/CONTROLLED_TERM"
     },
     "inspiredBy": {
       "type": "array",
@@ -61,6 +53,13 @@
       },
       "maxItems": 2
     },
+    "namingTerm": {
+      "type": "array",
+      "description": "Anatomical entity (anatomical term) that names the here specified annotation.",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ANATOMICAL_ENTITY"
+      }
+    },
     "relatedAtlasTerm": {
       "description": "Anatomical entity (term) of a brain atlas annotation to which the here specified annotation is related to.",
       "items": {
@@ -68,8 +67,8 @@
       }
     },
     "visualizedIn": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/VISUALIZATION_PARAMETERS",
-      "description": "Link to visualization parameters of this annotation."
+      "description": "Link to visualization parameters of this annotation.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/VISUALIZATION_PARAMETERS"      
     }
   }
 }
