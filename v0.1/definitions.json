@@ -12,10 +12,6 @@
       "$id": "#core/annotation",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/core/annotation.schema.json"
     },
-    "ANNOTATION_TO_ENTITY": {
-      "$id": "#core/annotationToEntity",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/core/annotationToEntity.schema.json"
-    },
     "BRAIN_ATLAS": {
       "$id": "#core/brainAtlas",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/core/brainAtlas.schema.json"
@@ -37,12 +33,12 @@
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/core/atlasTerminology.schema.json"
     },
     "VISUALIZATION_PARAMETERS": {
-      "$id": "#elements/visualizationParameters",
+      "$id": "#core/visualizationParameters",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/core/visualizationParameters.schema.json"
     },
-    "COORDINATE": {
-      "$id": "#elements/coordinate",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/elements/coordinate.schema.json"
+    "COORDINATE_POINT": {
+      "$id": "#elements/coordinatePoint",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/elements/coordinatePoint.schema.json"
     },
     "ELECTRODE": {
       "$id": "#elements/electrode",
@@ -62,11 +58,11 @@
     },
     "AXES": {
       "$id": "#options/axes",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/elements/axes.schema.json"
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/options/axes.schema.json"
     },
     "INDEXING_PARAMETERS": {
       "$id": "#options/indexingParameters",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/elements/indexingParameters.schema.json"
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/options/indexingParameters.schema.json"
     }
   }
 }
