@@ -14,7 +14,7 @@
     "@type": {
       "type": "string",
       "description": "Metadata node type (schema).",
-      "const": "https://openminds.ebrains.eu/sands/coordinatePoint",
+      "const": "https://openminds.ebrains.eu/sands/coordinatePoint"
     },
     "@id": {
       "type": "string",
