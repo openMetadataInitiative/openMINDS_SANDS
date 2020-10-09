@@ -1,7 +1,7 @@
 {
-  "$id": "https://schema.hbp.eu/sands/0.1/core/anatomicalEntity.schema.json",
+  "$id": "https://openminds.ebrains.eu/sands/anatomicalEntity.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "Definition of an anatomicalEntity",
+  "description": "Structured information describing an anatomical entity (term).",
   "type": "object",
   "additionalProperties": false,   
   "required": [
@@ -13,12 +13,11 @@
     "@type": {
       "type": "string",
       "description": "Metadata node type (schema).",
-      "const": "https://schema.hbp.eu/sands/AnatomicalEntity"
+      "const": "https://openminds.ebrains.eu/sands/anatomicalEntity"
     },
     "@id": {
       "type": "string",
-      "description": "Metadata node identifier.",
-      "pattern": "sands/v0.1/core/anatomicalEntity/([A-Za-z0-9_-]+).json"
+      "description": "Metadata node identifier."
     },    
     "nameOfLocation": {
       "type": "string",
@@ -31,8 +30,8 @@
     },
     "relatedOntology": {
       "type": "string",
-      "description": "Identifier (URI) to related ontological term.",
-      "format": "uri"
+      "description": "Identifier (IRI) to related ontological term.",
+      "format": "iri"
     }
   }
 }
