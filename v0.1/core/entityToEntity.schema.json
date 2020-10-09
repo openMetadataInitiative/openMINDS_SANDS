@@ -1,39 +1,48 @@
 {
-  "$id": "https://schema.hbp.eu/sand/0.1/core/entityToEntity.schema.json",
+  "$id": "https://openminds.ebrains.eu/sands/entityToEntity.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "Definition of a entityToEntity",
+  "description": "Structured information describing how two anatomical entities (terms) related to each other.",
   "type": "object",
-  "additionalProperties": false,
+  "additionalProperties": false,   
+  "required": [
+    "@type",
+    "@id",
+    "anatomicalEntityObject",
+    "anatomicalEntitySubject",
+    "confidence",
+    "relationType"
+  ],
   "properties": {
     "@type": {
       "type": "string",
       "description": "Metadata node type (schema).",
-      "const": "https://schema.hbp.eu/sands/EntityToEntity"
+      "const": "https://openminds.ebrains.eu/sands/entityToEntity"
     },
     "@id": {
       "type": "string",
-      "description": "Metadata node identifier.",
-      "pattern": "sands/v0.1/core/entityToEntity/([A-Za-z0-9_-]+).json"
-    },
-    "performedBy": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/CONTROLLED_TERM",
-      "description": "performedBy"
-    },
-    "relationType": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/RELATION_TYPE",
-      "description": "relationType"
-    },
-    "confidence": {
-      "type": "number",
-      "description": "confidence"
-    },
-    "anatomicalEntitySubject":{
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ANATOMICAL_ENTITY",
-      "description": "anatomicalEntitySubject"
+      "description": "Metadata node identifier."
     },
     "anatomicalEntityObject": {
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ANATOMICAL_ENTITY",
-      "description": "anatomicalEntityObject"
+      "description": "The object that relates to/is compared to the subject.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ANATOMICAL_ENTITY"
+    },
+    "anatomicalEntitySubject": {      
+      "description": "The subject to which the object relates to/is compared to.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ANATOMICAL_ENTITY"
+    },    
+    "confidence": {      
+      "description": "Semantic description for the confidence of the relation between subject and object.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/CONTROLLED_TERM"
+    },
+    "percentalOverlap": {
+      "type": "integer",
+      "description": "The overlap between object and subject expressed in percentage.", 
+      "minimum": 0,
+      "maximum": 100
+    },
+    "relationType": {
+      "description": "Type of relation between subject and object (semantic description).",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/CONTROLLED_TERM"
     }
   }
 }
