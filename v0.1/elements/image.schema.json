@@ -9,8 +9,8 @@
     "@id",
     "coordinateSpace",
     "definedIn",
-    "voxelSize",
-    "unit"
+    "unit",
+    "voxelSize"
   ],
   "properties": {
     "@type": {
