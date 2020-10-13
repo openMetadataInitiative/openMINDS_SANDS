@@ -33,6 +33,10 @@
 	{"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_INSTANCE"}
       ]
     },
+    "unit": {
+      "description": "A determinate quantity adopted as a standard of the measurement.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/CONTROLLED_TERM"
+    },    
     "voxelSize": {
       "type": "array",
       "description": "Size of one voxel (3D) or pixel (2D, with z = 0).",
@@ -41,10 +45,6 @@
       },
       "minItems": 3,
       "maxItems": 3
-    },
-    "unit": {
-      "description": "A determinate quantity adopted as a standard of the measurement.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/CONTROLLED_TERM"
-    }  
+    }
   }
 }
