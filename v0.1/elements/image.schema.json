@@ -8,7 +8,9 @@
     "@type",
     "@id",
     "coordinateSpace",
-    "definedIn"
+    "definedIn",
+    "unit",
+    "voxelSize"
   ],
   "properties": {
     "@type": {
@@ -31,9 +33,18 @@
 	{"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_INSTANCE"}
       ]
     },
-    "indexingParameters": {      
-      "definition": "Indexing parameters that apply to the image.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/INDEXING_PARAMETERS"
-    }	  
+    "unit": {
+      "description": "A determinate quantity adopted as a standard of the measurement.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/CONTROLLED_TERM"
+    },    
+    "voxelSize": {
+      "type": "array",
+      "description": "Corresponding size of one voxel (3D) or pixel (2D, with z = 0) in the physical space, defined in the unit of this image.",
+      "items": {
+        "type": "number"
+      },
+      "minItems": 3,
+      "maxItems": 3
+    }
   }
 }
