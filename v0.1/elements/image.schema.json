@@ -39,7 +39,7 @@
     },    
     "voxelSize": {
       "type": "array",
-      "description": "Size of one voxel (3D) or pixel (2D, with z = 0).",
+      "description": "Size of one voxel (3D) or pixel (2D, with z = 0), in the unit defined for this image.",
       "items": {
         "type": "number"
       },
