@@ -8,9 +8,11 @@
     "@type",
     "@id",
     "alias",
-    "axes",
+    "anatomicalOrientation",
     "fullName",
+    "origin",
     "releaseDate",
+    "unit",
     "versionIdentifier"
   ],
   "properties": {
@@ -27,9 +29,9 @@
       "type": "string",
       "description": "User-defined identifier, often a short name, of this coordinate space."
     },
-    "axes": {
-      "description": "Link to axes that are presented in the coordinate space.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/AXES",
+    "anatomicalOrientation": {
+      "description": "Axes orientation denoted in standard anatomical terms of location (2D or 3D).",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/CONTROLLED_TERM"
     },
     "defaultImages": {
       "type": "array",
@@ -41,6 +43,15 @@
     "fullName": {
       "type": "string",
       "description": "A descriptive name of this coordinate space."
+    },    
+    "origin": {
+      "type": "array",
+      "description": "Center of the corodinate system (point where axes intersect; 2D with z = 0).",
+      "items": {
+        "type": "number"
+      },
+      "minItems": 3,
+      "maxItems": 3
     },
     "relatedOntology": {
       "type": "string",
@@ -51,6 +62,10 @@
       "type": "string",      
       "description": "Date of first broadcast/publication/release of this coordinate space.",
       "format": "date"
+    },    
+    "unit": {
+      "description": "A determinate quantity adopted as a standard of the measurement.",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/CONTROLLED_TERM"
     },
     "versionIdentifier": {
       "type": "string",
