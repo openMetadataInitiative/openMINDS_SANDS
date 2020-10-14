@@ -4,13 +4,17 @@
   "description": "Definitions file for maintaining all SANDS v0.1 schema references.",
   "type": "object",
   "definitions": {
-    "ANNATOMICAL_ENTITY": {
+    "ANATOMICAL_ENTITY": {
       "$id": "#core/anatomicalEntity",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/core/anatomicalEntity.schema.json"
     },
     "ANNOTATION": {
       "$id": "#core/annotation",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/core/annotation.schema.json"
+    },    
+    "ATLAS_TERMINOLOGY": {
+      "$id": "#core/atlasTerminology",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/core/atlasTerminology.schema.json"
     },
     "BRAIN_ATLAS": {
       "$id": "#core/brainAtlas",
@@ -27,10 +31,6 @@
     "ENTITY_TO_ENTITY": {
       "$id": "#core/entityToEntity",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/core/entityToEntity.schema.json"
-    },
-    "ATLAS_TERMINOLOGY": {
-      "$id": "#core/atlasTerminology",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/core/atlasTerminology.schema.json"
     },
     "VISUALIZATION_PARAMETERS": {
       "$id": "#core/visualizationParameters",
@@ -56,13 +56,41 @@
       "$id": "#elements/image",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/elements/image.schema.json"
     },
-    "AXES": {
-      "$id": "#options/axes",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/options/axes.schema.json"
+    "CONTROLLED_TERM": {
+      "$id": "#openminds/controlledTerm",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/CONTROLLED_TERM"
     },
-    "INDEXING_PARAMETERS": {
-      "$id": "#options/indexingParameters",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/options/indexingParameters.schema.json"
+    "DATASET_VERSION": {
+      "$id": "#openminds/datasetVersion",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/DATASET_VERSION"
+    },
+    "FILE_INSTANCE": {
+      "$id": "#openminds/fileInstance",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_INSTANCE"
+    },
+    "PROJECT": {
+      "$id": "#openminds/project",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PROJECT"
+    },
+    "PROTOCOL": {
+      "$id": "#openminds/protocol",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PROTOCOL"
+    },
+    "PROTOCOL": {
+      "$id": "#openminds/protocolExecution",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PROTOCOL_EXECUTION"
+    },
+    "CSCS_FILE": {
+      "$id": "#minds/cscsFile",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE"
+    },
+    "DATASET": {
+      "$id": "#openminds/dataset",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/DATASET"
+    },
+    "PROJECT": {
+      "$id": "#minds/project",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/PROJECT"
     }
   }
 }
