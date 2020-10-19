@@ -76,7 +76,7 @@
       "$id": "#openminds/protocol",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PROTOCOL"
     },
-    "PROTOCOL": {
+    "PROTOCOL_EXECUTION": {
       "$id": "#openminds/protocolExecution",
       "$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/PROTOCOL_EXECUTION"
     },
