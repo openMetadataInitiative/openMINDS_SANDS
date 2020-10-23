@@ -46,7 +46,7 @@
     },
     "coordinateSpace": {
       "description": "Link to coordinate space this brain atlas version is represented in",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/COORDINATE_SPACE",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/COORDINATE_SPACE"
     },
     "fullName": {
       "type": "string",
@@ -54,14 +54,14 @@
     },
     "newVersionOf": {
       "description": "Link to the previous brain atlas version.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/BRAIN_ATLAS_VERSION",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/BRAIN_ATLAS_VERSION"
     },
     "referenceDataset": {
       "description": "Link to a reference dataset registered in the database.",
       "oneOf": [
         {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json/DATASET"}, 
-	    {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json/DATASET_VERSION"}
-	  ]
+        {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json/DATASET_VERSION"}
+      ]
     },
     "relatedOntology": {
       "type": "string",
@@ -75,7 +75,7 @@
     },
     "terminology": {
       "description": "Link to the terminology of this brain atlas version.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ATLAS_TERMINOLOGY",
+      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ATLAS_TERMINOLOGY"
     },
     "versionIdentifier": {
       "type": "string",
