@@ -37,7 +37,7 @@
       "type": "array",
       "description": "Link to default images used to visualize this brain atlas coordinate space.",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/IMAGE",
+        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/IMAGE"
       }
     },
     "fullName": {

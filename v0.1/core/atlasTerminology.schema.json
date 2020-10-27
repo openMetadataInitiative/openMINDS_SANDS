@@ -40,7 +40,7 @@
 	  {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json#definitions/CSCS_FILE"},
 	  {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json#definitions/FILE_INSTANCE"}
 	]
-      },
+      }
     },
     "fullName": {
       "type": "string",
