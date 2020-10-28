@@ -16,7 +16,7 @@
     "@type": {
       "type": "string",
       "description": "Metadata node type (schema).",
-      "const": "https://openminds.ebrains.eu/sands/entityToEntity"
+      "const": "https://openminds.ebrains.eu/sands/EntityToEntity"
     },
     "@id": {
       "type": "string",
