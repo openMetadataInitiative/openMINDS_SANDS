@@ -60,8 +60,8 @@
       "description": "Link to a reference dataset registered in the database.",
       "oneOf": [
         {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json/DATASET"}, 
-	    {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json/DATASET_VERSION"}
-	  ]
+        {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json/DATASET_VERSION"}
+      ]
     },
     "relatedOntology": {
       "type": "string",
