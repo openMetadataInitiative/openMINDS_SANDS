@@ -14,7 +14,7 @@
     "@type": {
       "type": "string",
       "description": "Metadata node type (schema).",
-      "const": "https://openminds.ebrains.eu/sands/electrodeContact"
+      "const": "https://openminds.ebrains.eu/sands/ElectrodeContact"
     },
     "@id": {
       "type": "string",
