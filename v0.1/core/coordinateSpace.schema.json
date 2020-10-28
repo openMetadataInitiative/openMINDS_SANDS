@@ -19,7 +19,7 @@
     "@type": {
       "type": "string",
       "description": "Metadata node type (schema).",
-      "const": "https://openminds.ebrains.eu/sands/coordinateSpace"
+      "const": "https://openminds.ebrains.eu/sands/CoordinateSpace"
     },
     "@id": {
       "type": "string",

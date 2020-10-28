@@ -20,7 +20,7 @@
     "@type": {
       "type": "string",
       "description": "Metadata node type (schema).",
-      "const": "https://openminds.ebrains.eu/sands/brainAtlasVersion"
+      "const": "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
     },
     "@id": {
       "type": "string",

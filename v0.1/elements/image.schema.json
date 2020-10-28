@@ -16,7 +16,7 @@
     "@type": {
       "type": "string",
       "description": "Metadata node type (schema).",
-      "const": "https://openminds.ebrains.eu/sands/image"
+      "const": "https://openminds.ebrains.eu/sands/Image"
     },
     "@id": {
       "type": "string",
