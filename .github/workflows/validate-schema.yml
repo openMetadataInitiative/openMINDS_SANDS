@@ -39,5 +39,5 @@ jobs:
     #     pytest
     - name: Validate schemas
       run: |
-        python validator/validate_schemes.py
+        python validator/validate_schemas.py
         
