@@ -1,0 +1,5 @@
+{
+    "@id": "http://localhost/foo",
+    "@type":  "https://openminds.ebrains.eu/controlledTerms/CriteriaType",
+    "name": "Foo"
+}

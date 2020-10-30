@@ -1,0 +1,4 @@
+{
+  "$extends": "common/controlledTerm.schema.json",
+  "$type": "https://openminds.ebrains.eu/controlledTerms/Unit"
+}

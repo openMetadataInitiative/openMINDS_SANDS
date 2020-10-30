@@ -1,0 +1,22 @@
+{
+  "$type": "https://openminds.ebrains.eu/sands/ElectrodeArray",
+  "description": "Structured information describing an array of electrodes.",
+  "required": [
+    "electrodes",
+    "identifier"
+  ],
+  "properties": {
+    "electrodes": {
+      "type": "array",
+      "description": "Link to electrodes of this array.",
+      "minItems": 2,
+      "$linkedTypes": [
+        "https://openminds.ebrains.eu/sands/Electrode"
+      ]
+    },
+    "identifier": {
+      "type": "string",
+      "description": "Identifier of this electrode array within files."
+    }
+  }
+}

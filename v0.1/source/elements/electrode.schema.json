@@ -1,0 +1,21 @@
+{
+  "$type": "https://openminds.ebrains.eu/sands/Electrode",
+  "description": "Structured information describing an electrode.",
+  "required": [
+    "electrodeContacts",
+    "identifier"
+    ],
+  "properties": {
+    "electrodeContacts":{
+	  "type": "array",      
+	  "description": "Link to recording/stimulation contacts of this electrode.",
+      "$linkedTypes": [
+        "https://openminds.ebrains.eu/sands/ElectrodeContact"
+      ]
+    },
+    "identifier": {
+      "type": "string",
+      "description": "Identifier of this electrode within files."
+    }
+  }
+}
