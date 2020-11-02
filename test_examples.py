@@ -13,7 +13,6 @@
 #   limitations under the License.
 import json
 import os
-import unittest
 import glob
 
 import jsonschema
@@ -34,14 +33,14 @@ def test_examples():
         version_nr = os.path.basename(os.path.dirname(examples_path))
         for example_path in glob.glob(os.path.join(examples_path, '**/*.json'), recursive=True):
             schema_name = f"{os.path.basename(example_path).split('-')[0]}.schema.json"
-            schema = self._get_schema(f"{version_nr}/jsonschema/{schema_name}")
+            schema = _get_schema(f"{version_nr}/jsonschema/{schema_name}")
             with open(example_path, 'r') as example_file:
                 example = json.load(example_file)
             if os.path.basename(example_path).endswith("-nok.json"):
                 try:
                     jsonschema.validate(example, schema)
                     raise AssertionError(f"Was expecting a validation error for {os.path.basename(example_path)}")
-                except ValidationError as e:
+                except ValidationError:
                     print(f"Validation failed as expected for {os.path.basename(example_path)}")
             else:
                 jsonschema.validate(example, schema)

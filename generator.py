@@ -34,14 +34,15 @@ class Generator(object):
                         if property_key not in source[extension_key]:
                             source[extension_key][property_key] = extension[extension_key][property_key]
 
-    def _process_schema(self, source_dir, schema_path, version:str, schema: dict) -> Optional[dict]:
+    def _process_schema(self, source_dir, schema_path, version: str, schema: dict) -> Optional[dict]:
         if "$type" not in schema:
             print(f"Skipping schema {schema_path} since it doesn't contain a type definition")
             return None
 
         if "$extends" in schema:
             extension_path = os.path.abspath(os.path.join(source_dir, schema["$extends"]))
-            # Make sure that the extension path is part of the source directory (because $extends could include path navigation directives such as "..")
+            # Make sure that the extension path is part of the source directory (because $extends could
+            # include path navigation directives such as "..")
             if extension_path.startswith(source_dir):
                 with open(extension_path, "r") as extension_file:
                     extension = json.load(extension_file)
@@ -70,7 +71,7 @@ class Generator(object):
             schema_id = self._type_to_schema_id(version, schema["$type"])
             schema["$id"] = schema_id
             schema["type"] = "object"
-            properties["@type"] = {"type": "string", "const": schema["$type"] }
+            properties["@type"] = {"type": "string", "const": schema["$type"]}
         return schema
 
     @staticmethod
@@ -133,7 +134,9 @@ class Generator(object):
             property = schema["properties"][p]
 
             if "$linkedTypes" in property:
-                linked_types_links = [f"<a href=\"{Generator._type_to_schema_id(version, linked_type)}.html\">{os.path.basename(linked_type)}</a>" for linked_type in property['$linkedTypes']]
+                linked_types_links = [f"<a href=\"{Generator._type_to_schema_id(version, linked_type)}.html\">"
+                                      f"{os.path.basename(linked_type)}"
+                                      f"</a>" for linked_type in property['$linkedTypes']]
                 if "type" in property and property["type"] == "array":
                     type = f"Array of relations to {' or '.join(linked_types_links)}"
                 else:
@@ -145,9 +148,14 @@ class Generator(object):
             else:
                 type = "unknown"
 
-            properties.append(f"<tr><td class=\"property\">{p}</td><td>{type}</td><td>{property['description'] if 'description' in property else ''}</tr>")
+            properties.append(f"<tr><td class=\"property\">{p}</td><td>{type}</td>"
+                              f"<td>{property['description'] if 'description' in property else ''}</tr>")
         properties_table = f"<table>{''.join(properties)}</table>"
-        return f"<html> <head><link rel=\"stylesheet\" href=\"../style.css\"></head><body><h1>{simple_typename}</h1><h3>{typename} - <a href=\"{os.path.basename(Generator._type_to_schema_id(version, typename))}\">JSON Schema</a></h3>{properties_table}</body></html>"
+        return f"<html> <head><link rel=\"stylesheet\" href=\"../style.css\"></head>" \
+               f"<body><h1>{simple_typename}</h1>" \
+               f"<h3>{typename} - <a href=\"{os.path.basename(Generator._type_to_schema_id(version, typename))}\">" \
+               f"JSON Schema</a></h3>" \
+               f"{properties_table}</body></html>"
 
     def _generate_jsonschema(self, processed_schema, target_path):
         schema = copy.deepcopy(processed_schema)
@@ -166,7 +174,7 @@ class Generator(object):
 
     def generate(self):
         for source_dir in glob.glob(os.path.join(os.path.dirname(os.path.realpath(__file__)), '**/v*'), recursive=True):
-            if re.match(".*/v\d\.\d", str(source_dir)):
+            if re.match(".*/v\\d\\.\\d", str(source_dir)):
                 version_number = os.path.basename(source_dir)
                 print(version_number)
                 target_dir = os.path.join(os.path.dirname(source_dir), "target", version_number)
