@@ -16,6 +16,7 @@ import glob
 import json
 import os
 import re
+import shutil
 from typing import Optional
 
 
@@ -174,10 +175,11 @@ class Generator(object):
 
     def generate(self):
         for source_dir in glob.glob(os.path.join(os.path.dirname(os.path.realpath(__file__)), '**/v*'), recursive=True):
-            if re.match(".*/v\\d\\.\\d", str(source_dir)):
+            if re.match(".*/v\\d\\.\\d", str(source_dir)) and "target/v" not in source_dir:
                 version_number = os.path.basename(source_dir)
-                print(version_number)
                 target_dir = os.path.join(os.path.dirname(source_dir), "target", version_number)
+                if os.path.exists(target_dir):
+                    shutil.rmtree(target_dir)
                 for schema_path in glob.glob(os.path.join(source_dir, '**/*.schema.json'), recursive=True):
                     file_name = schema_path[len(source_dir) + 1:-len(".schema.json")]
                     target_path_schema = os.path.join(target_dir, "jsonschema", file_name+".schema.json")
