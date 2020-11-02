@@ -28,13 +28,14 @@
       "type": "array",
       "description": "Relation(s) for this item with other anatomical entities.",
       "items": {
+        "type": "string",
         "$linkedType": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v1.0/anatomicalEntityRelation.schema.json"
       },
       "minItems": 1,
       "uniqueItems": true
     },
     "parentStructure": {
-      "type": "object",
+      "type": "string",
       "description": "Another anatomical entity to which this item is part of. ",
       "$linkedType": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v1.0/anatomicalEntity.schema.json"
     },
