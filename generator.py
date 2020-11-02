@@ -15,6 +15,7 @@ import copy
 import glob
 import json
 import os
+import re
 from typing import Optional
 
 
@@ -132,7 +133,7 @@ class Generator(object):
             property = schema["properties"][p]
 
             if "$linkedTypes" in property:
-                linked_types_links = [f"<a href=\"{_type_to_schema_id(version, linked_type)}.html\">{os.path.basename(linked_type)}</a>" for linked_type in property['$linkedTypes']]
+                linked_types_links = [f"<a href=\"{Generator._type_to_schema_id(version, linked_type)}.html\">{os.path.basename(linked_type)}</a>" for linked_type in property['$linkedTypes']]
                 if "type" in property and property["type"] == "array":
                     type = f"Array of relations to {' or '.join(linked_types_links)}"
                 else:
@@ -146,7 +147,7 @@ class Generator(object):
 
             properties.append(f"<tr><td class=\"property\">{p}</td><td>{type}</td><td>{property['description'] if 'description' in property else ''}</tr>")
         properties_table = f"<table>{''.join(properties)}</table>"
-        return f"<html> <head><link rel=\"stylesheet\" href=\"../style.css\"></head><body><h1>{simple_typename}</h1><h3>{typename} - <a href=\"{os.path.basename(_type_to_schema_id(version, typename))}\">JSON Schema</a></h3>{properties_table}</body></html>"
+        return f"<html> <head><link rel=\"stylesheet\" href=\"../style.css\"></head><body><h1>{simple_typename}</h1><h3>{typename} - <a href=\"{os.path.basename(Generator._type_to_schema_id(version, typename))}\">JSON Schema</a></h3>{properties_table}</body></html>"
 
     def _generate_jsonschema(self, processed_schema, target_path):
         schema = copy.deepcopy(processed_schema)
@@ -164,18 +165,21 @@ class Generator(object):
             target_file.write(self._do_generate_html(version, processed_schema))
 
     def generate(self):
-        for source_dir in glob.glob(os.path.join(os.path.dirname(os.path.realpath(__file__)), '**/source'), recursive=True):
-            version_number = os.path.basename(os.path.dirname(source_dir))
-            print(version_number)
-            target_dir = os.path.join(os.path.dirname(source_dir), "target")
-            for schema_path in glob.glob(os.path.join(source_dir, '**/*.schema.json'), recursive=True):
-                target_path = os.path.join(target_dir, schema_path[len(source_dir) + 1:])
-                with open(schema_path, "r") as schema_file:
-                    schema = json.load(schema_file)
-                processed_schema = self._process_schema(source_dir, schema_path, version_number, schema)
-                if processed_schema:
-                    self._generate_jsonschema(processed_schema, target_path)
-                    self._generate_html(version_number, processed_schema, target_path + ".html")
+        for source_dir in glob.glob(os.path.join(os.path.dirname(os.path.realpath(__file__)), '**/v*'), recursive=True):
+            if re.match(".*/v\d\.\d", str(source_dir)):
+                version_number = os.path.basename(source_dir)
+                print(version_number)
+                target_dir = os.path.join(os.path.dirname(source_dir), "target", version_number)
+                for schema_path in glob.glob(os.path.join(source_dir, '**/*.schema.json'), recursive=True):
+                    file_name = schema_path[len(source_dir) + 1:-len(".schema.json")]
+                    target_path_schema = os.path.join(target_dir, "jsonschema", file_name+".schema.json")
+                    target_path_html = os.path.join(target_dir, "html", file_name+".html")
+                    with open(schema_path, "r") as schema_file:
+                        schema = json.load(schema_file)
+                    processed_schema = self._process_schema(source_dir, schema_path, version_number, schema)
+                    if processed_schema:
+                        self._generate_jsonschema(processed_schema, target_path_schema)
+                        self._generate_html(version_number, processed_schema, target_path_html)
 
 
 if __name__ == '__main__':

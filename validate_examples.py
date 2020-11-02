@@ -19,10 +19,11 @@ import glob
 import jsonschema
 from jsonschema import Draft7Validator, ValidationError
 
+
 class TestSchemas(unittest.TestCase):
 
     def _get_schema(self, schema):
-        root_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../v0.1/target/")
+        root_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "target/")
         root_schema_path = os.path.join(root_path, schema)
         with open(root_schema_path, 'r') as root_schema_file:
             root_schema = json.load(root_schema_file)
@@ -30,21 +31,21 @@ class TestSchemas(unittest.TestCase):
         return root_schema
 
     def test_examples(self):
-        examples_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../examples")
-        for example_path in glob.glob(os.path.join(examples_path, '**/*.json'), recursive=True):
-            schema_dir = os.path.basename(os.path.dirname(example_path))
-            schema_name = f"{os.path.basename(example_path).split('-')[0]}.schema.json"
-            schema = self._get_schema(f"{schema_dir}/{schema_name}")
-            with open(example_path, 'r') as example_file:
-                example = json.load(example_file)
-            if os.path.basename(example_path).endswith("-nok.json"):
-                try:
+        for examples_path in glob.glob(os.path.join(os.path.dirname(os.path.realpath(__file__)), '**/examples'), recursive=True):
+            version_nr = os.path.basename(os.path.dirname(examples_path))
+            for example_path in glob.glob(os.path.join(examples_path, '**/*.json'), recursive=True):
+                schema_name = f"{os.path.basename(example_path).split('-')[0]}.schema.json"
+                schema = self._get_schema(f"{version_nr}/jsonschema/{schema_name}")
+                with open(example_path, 'r') as example_file:
+                    example = json.load(example_file)
+                if os.path.basename(example_path).endswith("-nok.json"):
+                    try:
+                        jsonschema.validate(example, schema)
+                        raise AssertionError(f"Was expecting a validation error for {os.path.basename(example_path)}")
+                    except ValidationError as e:
+                        print(f"Validation failed as expected for {os.path.basename(example_path)}")
+                else:
                     jsonschema.validate(example, schema)
-                    raise AssertionError(f"Was expecting a validation error for {os.path.basename(example_path)}")
-                except ValidationError as e:
-                    print(f"Validation failed as expected for {os.path.basename(example_path)}")
-            else:
-                jsonschema.validate(example, schema)
 
 
 if __name__ == '__main__':
