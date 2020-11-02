@@ -39,5 +39,5 @@ jobs:
       run: |
         python validate_schemes.py
     - name: Test with pytest
-        run: |
-          pytest
+      run: |
+        pytest
