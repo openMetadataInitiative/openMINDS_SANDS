@@ -1,6 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/AnatomicalEntityRelation",
-  "description": "Structured information describing how two anatomical entities (terms) related to each other.",
+  "description": "Structured information describing how two anatomical entities (terms) relate to each other.",
   "required": [
     "confidence",
     "inRelationTo",
