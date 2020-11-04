@@ -1,0 +1,33 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/AnatomicalEntity",
+  "description": "Structured information describing an anatomical entity (term).",
+  "required": [
+    "nameOfLocation"
+  ],
+  "properties": {
+    "otherAnatomicalRelations": {
+      "type": "array",
+      "instruction": "Add one or several anatomical entity relation(s) that describe the relation of this anatomical entity to another one.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/AnatomicalEntityRelation"
+      ],
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "nameOfLocation": {
+      "type": "string",
+      "instruction": "Enter the name of the anatomical entity."
+    },
+    "parentStructure": {
+      "instruction": "Add another anatomical entity to which this anatomical entity is part of.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/AnatomicalEntity"
+      ]
+    },
+    "relatedOntology": {
+      "type": "string",
+      "instruction": "Enter the identifier (IRI) of the related ontological term that best describes this anatomical entity.",
+      "format": "iri"
+    }
+  }
+}
