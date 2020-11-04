@@ -13,28 +13,30 @@
   "properties": {
     "alias": {
       "type": "string",
-      "description": "User-defined identifier, often a short name, of this coordinate space."
+      "_instruction": "Enter an user-defined identifier, often a short name, of this coordinate space."
     },
     "anatomicalOrientation": {
-      "description": "Axes orientation denoted in standard anatomical terms of location (2D or 3D).",
+      "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (2D or 3D).",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Axis"
       ]
     },
     "defaultImages": {
       "type": "array",
-      "description": "Link to default images used to visualize this brain atlas coordinate space.",
+      "_instruction": "Add image(s) used as visual representation in this coordinate space.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/Image"
-      ]
+      ],
+      "minItems": 1,
+      "uniqueItems": true
     },
     "fullName": {
       "type": "string",
-      "description": "A descriptive name of this coordinate space."
+      "_instruction": "Enter a descriptive name of this coordinate space."
     },
     "origin": {
       "type": "array",
-      "description": "Center of the corodinate system (point where axes intersect; 2D with z = 0).",
+      "_instruction": "Enter the origin of the coordinate system (central point where axes intersect; 2D, with z = 0).",
       "items": {
         "type": "number"
       },
@@ -43,23 +45,23 @@
     },
     "relatedOntology": {
       "type": "string",
-      "description": "Link (IRI) to related ontological term.",
+      "_instruction": "Enter the identifier (IRI) of the related ontological term that best describes this coordinate space.",
       "format": "iri"
     },
     "releaseDate": {
       "type": "string",
-      "description": "Date of first broadcast/publication/release of this coordinate space.",
+      "_instruction": "Enter the date of first broadcast/publication/release of this coordinate space.",
       "format": "date"
     },
     "unit": {
-      "description": "A determinate quantity adopted as a standard of the measurement.",
+      "_instruction": "Add the unit that is used for this coordinate space.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Unit"
       ]
     },
     "versionIdentifier": {
       "type": "string",
-      "description": "Version identifier of this coordinate space."
+      "_instruction": "Enter the version identifier of this coordinate space."
     }
   }
 }
