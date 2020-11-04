@@ -14,68 +14,71 @@
   "properties": {
     "alias": {
       "type": "string",
-      "description": "User-defined identifier, often a short name, of this brain atlas version."
+      "_instruction": "Enter an user-defined identifier, often a short name, of this brain atlas version."
     },
     "alternativeVersionOf": {
       "type": "array",
-      "description": "Link to an alternative brain atlas versions.",
+      "_instruction": "Add one or several alternative version(s) of this brain atlas versions.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
-      ]
+      ],
+      "minItems": 1,
+      "uniqueItems": true
     },
     "annotationSet": {
       "type": "array",
-      "description": "List of annotations that define this brain atlas version",
+      "_instruction": "Add one or several annotation(s) included in this brain atlas version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/Annotation"
-      ]
+      ],
+      "minItems": 1,
+      "uniqueItems": true
     },
     "coordinateSpace": {
-      "type": "object",
-      "description": "Link to coordinate space this brain atlas version is represented in",
+      "_instruction": "Add the coordinate space this brain atlas version exists in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/CoordinateSpace"
       ]
     },
     "fullName": {
       "type": "string",
-      "description": "A descriptive name of this brain atlas."
+      "_instruction": "Enter a descriptive name of this brain atlas version."
     },
     "newVersionOf": {
-      "description": "Link to the previous brain atlas version.",
+      "_instruction": "Add the earlier brain atlas version this item is a new version of.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
       ]
     },
     "referenceDataset": {
-      "description": "Link to a reference dataset registered in the database.",
+      "_instruction": "Add the reference dataset for this brain atlas version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
       ]
     },
     "relatedOntology": {
       "type": "string",
-      "description": "Link (iri) to related ontological term.",
+      "_instruction": "Enter the identifier (IRI) of the related ontological term that best describes this brain atlas version.",
       "format": "iri"
     },
     "releaseDate": {
       "type": "string",
-      "description": "Date of first broadcast/publication/release of this brain atlas version.",
+      "_instruction": "Enter the date of first broadcast/publication/release of this brain atlas version.",
       "format": "date"
     },
     "terminology": {
-      "description": "Link to the terminology of this brain atlas version.",
+      "_instruction": "Add the terminology of this brain atlas version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/AtlasTerminology"
       ]
     },
     "versionIdentifier": {
       "type": "string",
-      "description": "Version identifier of this brain atlas version."
+      "_instruction": "Enter the version identifier of this brain atlas version."
     },
     "versionInnovation": {
       "type": "string",
-      "description": "Short description of the novelties / peculiarities of this brain atlas version."
+      "_instruction": "Enter a short description of the novelties/peculiarities of this brain atlas version."
     }
   }
 }
