@@ -5,18 +5,18 @@
     "nameOfLocation"
   ],
   "properties": {
+    "nameOfLocation": {
+      "type": "string",
+      "_instruction": "Enter a descriptive name for this anatomical entity based on anatomical location or characteristics."
+    },    
     "otherAnatomicalRelations": {
       "type": "array",
-      "_instruction": "Add one or several anatomical entity relation(s) that describe the relation of this anatomical entity to another one.",
+      "_instruction": "Add one or several anatomical entity relation(s) to this anatomical entity describing its relation to other anatomical entities.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/AnatomicalEntityRelation"
       ],
       "minItems": 1,
       "uniqueItems": true
-    },
-    "nameOfLocation": {
-      "type": "string",
-      "_instruction": "Enter the name of the anatomical entity."
     },
     "parentStructure": {
       "_instruction": "Add another anatomical entity to which this anatomical entity is part of.",
