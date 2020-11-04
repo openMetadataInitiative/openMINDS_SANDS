@@ -9,26 +9,26 @@
   ],
   "properties": {
     "coordinateSpace": {      
-      "definition": "Coordinate space the image exists in.",
+      "_instruction": "Add the coordinate space this image exists in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/CoordinateSpace"
       ]
     },
     "definedIn":{     
-      "description": "File in which the image is defined.",
+      "_instruction": "Add the file in which this image is defined in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/FileInstance"
       ]
     },
     "unit": {
-      "description": "A determinate quantity adopted as a standard of the measurement.",
+      "_instruction": "Add the unit that is used for this image.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Unit"
       ]
     },    
     "voxelSize": {
       "type": "array",
-      "description": "Corresponding size of one voxel (3D) or pixel (2D, with z = 0) in the physical space, defined in the unit of this image.",
+      "_instruction": "Enter the corresponding size of one voxel (3D) or pixel (2D, with z = 0) in the physical space, defined in the unit of this image.",
       "items": {
         "type": "number"
       },
