@@ -1,5 +1,5 @@
 {
-  "$type": "https://openminds.ebrains.eu/sands/EntityToEntity",
+  "_type": "https://openminds.ebrains.eu/sands/EntityToEntity",
   "description": "Structured information describing how two anatomical entities (terms) related to each other.",
   "required": [
     "anatomicalEntityObject",
@@ -10,19 +10,19 @@
   "properties": {
     "anatomicalEntityObject": {
       "description": "The object that relates to/is compared to the subject.",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ]
     },
     "anatomicalEntitySubject": {
       "description": "The subject to which the object relates to/is compared to.",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ]
     },
     "confidence": {
       "description": "Semantic description for the confidence of the relation between subject and object.",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerm/Confidence"
       ]
     },
@@ -34,7 +34,7 @@
     },
     "relationType": {
       "description": "Type of relation between subject and object (semantic description).",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerm/RelationType"
       ]
     }

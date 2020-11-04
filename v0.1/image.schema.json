@@ -1,5 +1,5 @@
 {
-  "$type": "https://openminds.ebrains.eu/sands/Image",
+  "_type": "https://openminds.ebrains.eu/sands/Image",
   "description": "Structured information describing an image.",
   "required": [
     "coordinateSpace",
@@ -10,19 +10,19 @@
   "properties": {
     "coordinateSpace": {      
       "definition": "Coordinate space the image exists in.",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/core/CoordinateSpace"
       ]
     },
     "definedIn":{     
       "description": "File in which the image is defined.",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/core/FileInstance"
       ]
     },
     "unit": {
       "description": "A determinate quantity adopted as a standard of the measurement.",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Unit"
       ]
     },    

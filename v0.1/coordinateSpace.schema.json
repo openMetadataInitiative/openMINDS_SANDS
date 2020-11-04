@@ -1,5 +1,5 @@
 {
-  "$type": "https://openminds.ebrains.eu/sands/CoordinateSpace",
+  "_type": "https://openminds.ebrains.eu/sands/CoordinateSpace",
   "description": "Structured information describing a corodinate space.",
   "required": [
     "alias",
@@ -17,14 +17,14 @@
     },
     "anatomicalOrientation": {
       "description": "Axes orientation denoted in standard anatomical terms of location (2D or 3D).",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Axis"
       ]
     },
     "defaultImages": {
       "type": "array",
       "description": "Link to default images used to visualize this brain atlas coordinate space.",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/Image"
       ]
     },
@@ -53,7 +53,7 @@
     },
     "unit": {
       "description": "A determinate quantity adopted as a standard of the measurement.",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Unit"
       ]
     },

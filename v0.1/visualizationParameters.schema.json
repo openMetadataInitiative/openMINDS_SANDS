@@ -1,5 +1,5 @@
 {
-  "$type": "https://openminds.ebrains.eu/sands/VisualizationParameters",
+  "_type": "https://openminds.ebrains.eu/sands/VisualizationParameters",
   "description": "Structured information describing a set of parameters to visualize an annotation in a space.",
   "required": [
     "bestViewPoint",
@@ -9,13 +9,13 @@
   "properties": {
     "bestViewPoint": {      
       "description": "Coordinate to best view point of the related annotation.",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/CoordinatePoint"
       ]
     },
     "definedIn": {
       "description": "Link to (source) image(s) that inspired the definition of this annotation.",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/Image"
       ]
     },

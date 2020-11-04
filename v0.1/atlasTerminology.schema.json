@@ -1,5 +1,5 @@
 {
-  "$type": "https://schema.hbp.eu/sands/AtlasTerminology",
+  "_type": "https://schema.hbp.eu/sands/AtlasTerminology",
   "description": "Structured information describing the terminology used in an atlas.",
   "required": [
     "alias",
@@ -14,14 +14,14 @@
     "anatomicalEntities":{
       "type": "array",
       "description": "Terms that are part of the atlas terminology.",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ]
     },
     "definedIn": {
       "type": "array",
       "description": "The file(s) in which the atlas terminology is defined in.",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/core/FileInstance"
       ]
     },

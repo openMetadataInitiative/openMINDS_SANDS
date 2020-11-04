@@ -1,5 +1,5 @@
 {
-  "$type": "https://openminds.ebrains.eu/sands/ElectrodeArray",
+  "_type": "https://openminds.ebrains.eu/sands/ElectrodeArray",
   "description": "Structured information describing an array of electrodes.",
   "required": [
     "electrodes",
@@ -10,7 +10,7 @@
       "type": "array",
       "description": "Link to electrodes of this array.",
       "minItems": 2,
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/Electrode"
       ]
     },

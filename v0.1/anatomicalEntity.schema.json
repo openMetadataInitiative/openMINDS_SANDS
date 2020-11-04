@@ -1,5 +1,5 @@
 {
-  "$type": "https://openminds.ebrains.eu/sands/AnatomicalEntity",
+  "_type": "https://openminds.ebrains.eu/sands/AnatomicalEntity",
   "description": "Structured information describing an anatomical entity (term).",
   "required": [
     "nameOfLocation"
@@ -7,12 +7,11 @@
   "properties": {
     "nameOfLocation": {
       "type": "string",
-      "description": "The name of the anatomical entity.",
-      "instructions": "Please enter XYZ"
+      "description": "The name of the anatomical entity."
     },
     "parentStructure": {
       "description": "A parent structure to this anatomical entity.",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ]
     },

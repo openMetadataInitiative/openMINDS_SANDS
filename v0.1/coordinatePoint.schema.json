@@ -1,5 +1,5 @@
 {
-  "$type": "https://openminds.ebrains.eu/sands/CoordinatePoint",
+  "_type": "https://openminds.ebrains.eu/sands/CoordinatePoint",
   "description": "Structured information describing a coordinate point in a space",
   "required": [
     "coordinates",
@@ -17,7 +17,7 @@
     },
     "coordinateSpace": {
       "description": "Coordinate space the cooridnate point is described in.",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/CoordinateSpace"
       ]
     }

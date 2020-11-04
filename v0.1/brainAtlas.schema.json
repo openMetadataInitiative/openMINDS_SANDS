@@ -1,5 +1,5 @@
 {
-  "$type": "https://openminds.ebrains.eu/sands/BrainAtlas",
+  "_type": "https://openminds.ebrains.eu/sands/BrainAtlas",
   "description": "Structured information describing a brain atlas.",
   "required": [
     "alias",
@@ -23,13 +23,13 @@
     "hasVersions": {
       "type": "array",
       "description": "Link to versions of this brain atlas.",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
       ]
     },
     "referenceProject": {
       "description": "Link to a reference project registered in the database.",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Project"
       ]
     }

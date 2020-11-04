@@ -19,6 +19,10 @@ import re
 import shutil
 from typing import Optional
 
+TEMPLATE_PROPERTY_TYPE = "_type"
+TEMPLATE_PROPERTY_EXTENDS = "_extends"
+TEMPLATE_PROPERTY_LINKED_TYPES = "_linkedTypes"
+
 
 class Generator(object):
 
@@ -36,19 +40,19 @@ class Generator(object):
                             source[extension_key][property_key] = extension[extension_key][property_key]
 
     def _process_schema(self, source_dir, schema_path, version: str, schema: dict) -> Optional[dict]:
-        if "$type" not in schema:
+        if TEMPLATE_PROPERTY_TYPE not in schema:
             print(f"Skipping schema {schema_path} since it doesn't contain a type definition")
             return None
 
-        if "$extends" in schema:
-            extension_path = os.path.abspath(os.path.join(source_dir, schema["$extends"]))
-            # Make sure that the extension path is part of the source directory (because $extends could
+        if TEMPLATE_PROPERTY_EXTENDS in schema:
+            extension_path = os.path.abspath(os.path.join(source_dir, schema[TEMPLATE_PROPERTY_EXTENDS]))
+            # Make sure that the extension path is part of the source directory (because _extends could
             # include path navigation directives such as "..")
             if extension_path.startswith(source_dir):
                 with open(extension_path, "r") as extension_file:
                     extension = json.load(extension_file)
                 self._merge_json(schema, extension, ["properties", "required"])
-            del schema["$extends"]
+            del schema[TEMPLATE_PROPERTY_EXTENDS]
 
         schema["$schema"] = "http://json-schema.org/draft-07/schema#"
 
@@ -68,11 +72,11 @@ class Generator(object):
             "type": "string",
             "description": "Metadata node identifier."
         }
-        if "$type" in schema:
-            schema_id = self._type_to_schema_id(version, schema["$type"])
+        if TEMPLATE_PROPERTY_TYPE in schema:
+            schema_id = self._type_to_schema_id(version, schema[TEMPLATE_PROPERTY_TYPE])
             schema["$id"] = schema_id
             schema["type"] = "object"
-            properties["@type"] = {"type": "string", "const": schema["$type"]}
+            properties["@type"] = {"type": "string", "const": schema[TEMPLATE_PROPERTY_TYPE]}
         return schema
 
     @staticmethod
@@ -89,20 +93,26 @@ class Generator(object):
         return f"{type_base}/{version}/{schema_name}.schema.json"
 
     @staticmethod
-    def _clear_custom_elements(schema):
-        if "$type" in schema:
-            del schema["$type"]
+    def _clear_template_properties(schema):
+        if TEMPLATE_PROPERTY_TYPE in schema:
+            del schema[TEMPLATE_PROPERTY_TYPE]
 
     @staticmethod
     def _resolve_jsonschema_templates(properties):
         for property_key in properties:
             property = properties[property_key]
-            if "$linkedTypes" in property:
+            if TEMPLATE_PROPERTY_LINKED_TYPES in property:
                 if "type" not in property:
                     # Make sure, that a type is defined - let's default to object
                     property["type"] = "object"
-                property["if"] = {"required": ["@type"]}
-                property["then"] = {
+                target = property
+
+                if property["type"] == "array":
+                    target = {}
+                    property["items"] = target
+
+                target["if"] = {"required": ["@type"]}
+                target["then"] = {
                     "properties": {
                         "@id": {
                             "type": "string",
@@ -111,11 +121,11 @@ class Generator(object):
                         "@type": {
                             "type": "string",
                             "format": "iri",
-                            "enum": property["$linkedTypes"]
+                            "enum": property[TEMPLATE_PROPERTY_LINKED_TYPES]
                         }},
                     "required": ["@id"]
                 }
-                property["else"] = {
+                target["else"] = {
                     "properties": {
                         "@id": {
                             "type": "string",
@@ -124,20 +134,21 @@ class Generator(object):
                     },
                     "required": ["@id"]
                 }
+                del property[TEMPLATE_PROPERTY_LINKED_TYPES]
 
     @staticmethod
     def _do_generate_html(version, schema):
-        typename = schema['$type']
+        typename = schema['_type']
         simple_typename = os.path.basename(typename)
 
         properties = []
         for p in sorted(schema["properties"]):
             property = schema["properties"][p]
 
-            if "$linkedTypes" in property:
+            if TEMPLATE_PROPERTY_LINKED_TYPES in property:
                 linked_types_links = [f"<a href=\"{Generator._type_to_schema_id(version, linked_type)}.html\">"
                                       f"{os.path.basename(linked_type)}"
-                                      f"</a>" for linked_type in property['$linkedTypes']]
+                                      f"</a>" for linked_type in property['_linkedTypes']]
                 if "type" in property and property["type"] == "array":
                     type = f"Array of relations to {' or '.join(linked_types_links)}"
                 else:
@@ -161,7 +172,7 @@ class Generator(object):
     def _generate_jsonschema(self, processed_schema, target_path):
         schema = copy.deepcopy(processed_schema)
         self._resolve_jsonschema_templates(schema["properties"])
-        self._clear_custom_elements(schema)
+        self._clear_template_properties(schema)
         if not os.path.exists(os.path.dirname(target_path)):
             os.makedirs(os.path.dirname(target_path))
         with open(target_path, "w") as target_file:

@@ -1,5 +1,5 @@
 {
-  "$type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+  "_type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
   "description": "Structured information describing a version of a brain atlas.",
   "required": [
     "alias",
@@ -19,21 +19,21 @@
     "alternativeVersionOf": {
       "type": "array",
       "description": "Link to an alternative brain atlas versions.",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
       ]
     },
     "annotationSet": {
       "type": "array",
       "description": "List of annotations that define this brain atlas version",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/Annotation"
       ]
     },
     "coordinateSpace": {
       "type": "object",
       "description": "Link to coordinate space this brain atlas version is represented in",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/CoordinateSpace"
       ]
     },
@@ -43,13 +43,13 @@
     },
     "newVersionOf": {
       "description": "Link to the previous brain atlas version.",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
       ]
     },
     "referenceDataset": {
       "description": "Link to a reference dataset registered in the database.",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DatasetVersion"
       ]
     },
@@ -65,7 +65,7 @@
     },
     "terminology": {
       "description": "Link to the terminology of this brain atlas version.",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/AtlasTerminology"
       ]
     },

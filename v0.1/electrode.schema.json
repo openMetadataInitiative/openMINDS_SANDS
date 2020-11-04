@@ -1,5 +1,5 @@
 {
-  "$type": "https://openminds.ebrains.eu/sands/Electrode",
+  "_type": "https://openminds.ebrains.eu/sands/Electrode",
   "description": "Structured information describing an electrode.",
   "required": [
     "electrodeContacts",
@@ -9,7 +9,7 @@
     "electrodeContacts":{
 	  "type": "array",      
 	  "description": "Link to recording/stimulation contacts of this electrode.",
-      "$linkedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/ElectrodeContact"
       ]
     },
