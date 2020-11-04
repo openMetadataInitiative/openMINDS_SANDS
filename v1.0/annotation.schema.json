@@ -1,0 +1,94 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/Annotation",
+  "description": "Structured information describing an annotation",
+  "required": [
+    "bestViewPoint",
+    "criteriaType",
+    "internalIdentifier",
+    "laterality",
+    "namingTerm",
+    "visualizedIn"
+  ],
+  "properties": {
+    "alias": {
+      "type": "string",
+      "_instruction": "Enter an user-defined identifier, often a short name, of this annotation."
+    },    
+    "bestViewPoint": {      
+      "_instruction": "Add a coordinate point identifying the best view of this annotation in space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/CoordinatePoint"
+      ]
+    },
+    "criteria": {
+      "_instruction": "Add a protocol execution defining the criteria that were applied to produce this annotation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ProtocolExecution"
+      ]
+    },
+    "criteriaType": {
+      "_instruction": "Add the type of criteria used to define this annotation (processive or asserted).",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/CriteriaType"
+      ]
+    },    
+    "displayColor": {
+      "type": "array",
+      "_instruction": "Enter the preferred display color (RGB) of the related annotation.",
+      "items": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 255
+      },
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "inspiredBy": {
+      "type": "array",
+      "_instruction": "Add one or several (source) image(s) that inspired the definition of this annotation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/Image"
+      ],
+      "minItems": 1,
+      "uniqueItems": true
+    },    
+    "internalFileIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the identifier used for this annotation within the file it is stored in."
+    },
+    "laterality": {
+      "type": "array",
+      "_instruction": "Add the side(s) of the body or bilateral organ that this annotation is defined in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Laterality"
+      ],
+      "minItems": 1,
+      "maxItems": 2,
+      "uniqueItems": true
+    },
+    "namingTerm": {
+      "type": "array",
+      "_instruction": "Add one or several anatomical entities (term(s)) that name this annotation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/AnatomicalEntity"
+      ],
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "relatedAtlasTerm": {
+      "type": "array",
+      "_instruction": "Add one or several anatomical entities (term(s)) of a brain atlas annotation to which this annotation is related to.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/AnatomicalEntity"
+      ],
+      "minItems": 1,
+      "unqiueItems": true
+    },        
+    "visualizedIn": {
+      "_instruction": "Add the image in which this annotation is visualized in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/Image"
+      ]
+    }
+  }
+}
