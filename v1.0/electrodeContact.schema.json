@@ -1,0 +1,54 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/ElectrodeContact",
+  "description": "Structured information describing the contact point of an electrode.",
+  "required": [
+    "contactPoint",
+    "identifier"
+  ],
+  "properties": {
+    "contactPoint": {
+      "_instruction": "Add the central coordinate of this contact point of interest.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/CoordinatePoint"
+      ]
+    },
+    "definedIn":{
+      "type": "array",
+      "_instruction": "Add one or several file(s) in which the electrode contact is defined in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/FileInstance"
+      ],
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "identifier": {
+      "type": "string",
+      "_instruction": "Enter an unqiue identifier of this electrode contact."
+    },
+    "relatedRecordings":{
+      "type": "array",
+      "_instruction": "Add one or several file(s) in which the recorded data from this electrode contact were stored.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/FileInstance"
+      ],
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "relatedStimulations":{
+      "type": "array",
+      "_instruction": "Add one or several file(s) in which the stimulation of this electrode contact were stored.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/FileInstance"
+      ],
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "visualizedIn": {
+      "type": "array",
+      "_instruction": "Add one or several image(s) in which the electrode contact is visualized in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/Image"
+      ]
+    }
+  }
+}
