@@ -8,14 +8,16 @@
   "properties": {
     "electrodeContacts":{
 	  "type": "array",      
-	  "description": "Link to recording/stimulation contacts of this electrode.",
+	  "_instruction": "Add one or several recording/stimulation contact(s) of this electrode.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/ElectrodeContact"
-      ]
+      ],
+      "minItems": 1,
+      "uniqueItems": true
     },
     "identifier": {
       "type": "string",
-      "description": "Identifier of this electrode within files."
+      "_instruction": "Enter an unqiue identifier of this electrode."
     }
   }
 }
