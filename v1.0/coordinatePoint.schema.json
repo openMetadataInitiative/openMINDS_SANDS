@@ -8,7 +8,7 @@
   "properties": {
     "coordinates": {
       "type": "array",
-      "description": "Coordinates that describe the coordinate point (x, y , z).",
+      "_instruction": "Enter the coordinates (x, y , z; 2D, with z = 0) that describe this coordinate point.",
       "items": {
         "type": "number"
       },
@@ -16,7 +16,7 @@
       "maxItems": 3
     },
     "coordinateSpace": {
-      "description": "Coordinate space the cooridnate point is described in.",
+      "_instruction": "Add the coordinate space this cooridnate point exists in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/CoordinateSpace"
       ]
