@@ -7,7 +7,7 @@
   "properties": {
     "otherAnatomicalRelations": {
       "type": "array",
-      "instruction": "Add one or several anatomical entity relation(s) that describe the relation of this anatomical entity to another one.",
+      "_instruction": "Add one or several anatomical entity relation(s) that describe the relation of this anatomical entity to another one.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/AnatomicalEntityRelation"
       ],
@@ -16,17 +16,17 @@
     },
     "nameOfLocation": {
       "type": "string",
-      "instruction": "Enter the name of the anatomical entity."
+      "_instruction": "Enter the name of the anatomical entity."
     },
     "parentStructure": {
-      "instruction": "Add another anatomical entity to which this anatomical entity is part of.",
+      "_instruction": "Add another anatomical entity to which this anatomical entity is part of.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ]
     },
     "relatedOntology": {
       "type": "string",
-      "instruction": "Enter the identifier (IRI) of the related ontological term that best describes this anatomical entity.",
+      "_instruction": "Enter the identifier (IRI) of the related ontological term that best describes this anatomical entity.",
       "format": "iri"
     }
   }
