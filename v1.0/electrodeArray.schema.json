@@ -8,15 +8,16 @@
   "properties": {
     "electrodes": {
       "type": "array",
-      "description": "Link to electrodes of this array.",
-      "minItems": 2,
+      "_instruction": "Add two or more electrodes which are part of this array.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/Electrode"
-      ]
+      ],
+      "minItems": 2,
+      "uniqueItems": true
     },
     "identifier": {
       "type": "string",
-      "description": "Identifier of this electrode array within files."
+      "_instruction": "Enter an unqiue identifier of this electrode array."
     }
   }
 }
