@@ -37,7 +37,7 @@ jobs:
         python generator.py
     - name: Validate schemas
       run: |
-        python validate_schemes.py
+        python validate_schemas.py
     - name: Test with pytest
       run: |
         pytest
