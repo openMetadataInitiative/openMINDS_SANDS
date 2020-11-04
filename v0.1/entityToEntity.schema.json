@@ -1,0 +1,42 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/EntityToEntity",
+  "description": "Structured information describing how two anatomical entities (terms) related to each other.",
+  "required": [
+    "anatomicalEntityObject",
+    "anatomicalEntitySubject",
+    "confidence",
+    "relationType"
+  ],
+  "properties": {
+    "anatomicalEntityObject": {
+      "description": "The object that relates to/is compared to the subject.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/AnatomicalEntity"
+      ]
+    },
+    "anatomicalEntitySubject": {
+      "description": "The subject to which the object relates to/is compared to.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/AnatomicalEntity"
+      ]
+    },
+    "confidence": {
+      "description": "Semantic description for the confidence of the relation between subject and object.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerm/Confidence"
+      ]
+    },
+    "percentalOverlap": {
+      "type": "integer",
+      "description": "The overlap between object and subject expressed in percentage.",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "relationType": {
+      "description": "Type of relation between subject and object (semantic description).",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerm/RelationType"
+      ]
+    }
+  }
+}

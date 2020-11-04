@@ -1,12 +1,7 @@
 {
-  "$id": "https://openminds.ebrains.eu/sands/coordinateSpace.schema.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "_type": "https://openminds.ebrains.eu/sands/CoordinateSpace",
   "description": "Structured information describing a corodinate space.",
-  "type": "object",
-  "additionalProperties": false,
   "required": [
-    "@type",
-    "@id",
     "alias",
     "anatomicalOrientation",
     "fullName",
@@ -16,34 +11,27 @@
     "versionIdentifier"
   ],
   "properties": {
-    "@type": {
-      "type": "string",
-      "description": "Metadata node type (schema).",
-      "const": "https://openminds.ebrains.eu/sands/CoordinateSpace"
-    },
-    "@id": {
-      "type": "string",
-      "description": "Metadata node identifier (id)."
-    },
     "alias": {
       "type": "string",
       "description": "User-defined identifier, often a short name, of this coordinate space."
     },
     "anatomicalOrientation": {
       "description": "Axes orientation denoted in standard anatomical terms of location (2D or 3D).",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/CONTROLLED_TERM"
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Axis"
+      ]
     },
     "defaultImages": {
       "type": "array",
       "description": "Link to default images used to visualize this brain atlas coordinate space.",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/IMAGE"
-      }
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/Image"
+      ]
     },
     "fullName": {
       "type": "string",
       "description": "A descriptive name of this coordinate space."
-    },    
+    },
     "origin": {
       "type": "array",
       "description": "Center of the corodinate system (point where axes intersect; 2D with z = 0).",
@@ -59,13 +47,15 @@
       "format": "iri"
     },
     "releaseDate": {
-      "type": "string",      
+      "type": "string",
       "description": "Date of first broadcast/publication/release of this coordinate space.",
       "format": "date"
-    },    
+    },
     "unit": {
       "description": "A determinate quantity adopted as a standard of the measurement.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/CONTROLLED_TERM"
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Unit"
+      ]
     },
     "versionIdentifier": {
       "type": "string",

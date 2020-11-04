@@ -1,0 +1,39 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/Image",
+  "description": "Structured information describing an image.",
+  "required": [
+    "coordinateSpace",
+    "definedIn",
+    "unit",
+    "voxelSize"
+  ],
+  "properties": {
+    "coordinateSpace": {      
+      "definition": "Coordinate space the image exists in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/CoordinateSpace"
+      ]
+    },
+    "definedIn":{     
+      "description": "File in which the image is defined.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/FileInstance"
+      ]
+    },
+    "unit": {
+      "description": "A determinate quantity adopted as a standard of the measurement.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Unit"
+      ]
+    },    
+    "voxelSize": {
+      "type": "array",
+      "description": "Corresponding size of one voxel (3D) or pixel (2D, with z = 0) in the physical space, defined in the unit of this image.",
+      "items": {
+        "type": "number"
+      },
+      "minItems": 3,
+      "maxItems": 3
+    }
+  }
+}

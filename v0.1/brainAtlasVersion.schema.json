@@ -1,12 +1,7 @@
 {
-  "$id": "https://openminds.ebrains.eu/sands/brainAtlasVersion.schema.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "_type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
   "description": "Structured information describing a version of a brain atlas.",
-  "type": "object",
-  "additionalProperties": false,
   "required": [
-    "@type",
-    "@id",
     "alias",
     "annotationSet",
     "coordinateSpace",
@@ -17,15 +12,6 @@
     "versionInnovation" 
   ],
   "properties": {
-    "@type": {
-      "type": "string",
-      "description": "Metadata node type (schema).",
-      "const": "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
-    },
-    "@id": {
-      "type": "string",
-      "description": "Metadata node identifier (id)."
-    },
     "alias": {
       "type": "string",
       "description": "User-defined identifier, often a short name, of this brain atlas version."
@@ -33,20 +19,23 @@
     "alternativeVersionOf": {
       "type": "array",
       "description": "Link to an alternative brain atlas versions.",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/BRAIN_ATLAS_VERSION"
-      }    
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
+      ]
     },
     "annotationSet": {
       "type": "array",
       "description": "List of annotations that define this brain atlas version",
-      "items": {
-        "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ANNOTATION"
-      }
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/Annotation"
+      ]
     },
     "coordinateSpace": {
+      "type": "object",
       "description": "Link to coordinate space this brain atlas version is represented in",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/COORDINATE_SPACE"
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/CoordinateSpace"
+      ]
     },
     "fullName": {
       "type": "string",
@@ -54,13 +43,14 @@
     },
     "newVersionOf": {
       "description": "Link to the previous brain atlas version.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/BRAIN_ATLAS_VERSION"
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
+      ]
     },
     "referenceDataset": {
       "description": "Link to a reference dataset registered in the database.",
-      "oneOf": [
-        {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v1.0/definitions.json/DATASET"}, 
-        {"$ref": "https://raw.githubusercontent.com/HumanBrainProject/openMINDS/master/v3.0/definitions.json/DATASET_VERSION"}
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DatasetVersion"
       ]
     },
     "relatedOntology": {
@@ -75,7 +65,9 @@
     },
     "terminology": {
       "description": "Link to the terminology of this brain atlas version.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/ATLAS_TERMINOLOGY"
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/AtlasTerminology"
+      ]
     },
     "versionIdentifier": {
       "type": "string",

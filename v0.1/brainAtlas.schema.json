@@ -1,0 +1,37 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/BrainAtlas",
+  "description": "Structured information describing a brain atlas.",
+  "required": [
+    "alias",
+    "description",
+    "fullName",
+    "hasVersions"
+  ],
+  "properties": {
+    "alias": {
+      "type": "string",
+      "description": "User-defined identifier, often a short name, of this brain atlas."
+    },
+    "description": {
+      "type": "string",
+      "description": "Short description of this brain atlas."
+    },
+    "fullName": {
+      "type": "string",
+      "description": "A descriptive name of this brain atlas."
+    },
+    "hasVersions": {
+      "type": "array",
+      "description": "Link to versions of this brain atlas.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
+      ]
+    },
+    "referenceProject": {
+      "description": "Link to a reference project registered in the database.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Project"
+      ]
+    }
+  }
+}

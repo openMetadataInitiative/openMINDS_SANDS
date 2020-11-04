@@ -1,33 +1,23 @@
 {
-  "$id": "https://openminds.ebrains.eu/sands/visualizationParameters.schema.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "_type": "https://openminds.ebrains.eu/sands/VisualizationParameters",
   "description": "Structured information describing a set of parameters to visualize an annotation in a space.",
-  "type": "object",
-  "additionalProperties": false,
   "required": [
-    "@type",
-    "@id",
     "bestViewPoint",
     "definedIn",
     "internalFileIdentifier"
   ],
   "properties": {
-    "@type": {
-      "type": "string",
-      "description": "Metadata node type (schema).",
-      "const": "https://openminds.ebrains.eu/sands/VisualizationParameters"
-    },
-    "@id": {
-      "type": "string",
-      "description": "Metadata node identifier (id)."
-    },
     "bestViewPoint": {      
       "description": "Coordinate to best view point of the related annotation.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/COORDINATE_POINT"
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/CoordinatePoint"
+      ]
     },
     "definedIn": {
       "description": "Link to (source) image(s) that inspired the definition of this annotation.",
-      "$ref": "https://raw.githubusercontent.com/HumanBrainProject/SANDS/master/v0.1/definitions.json#definitions/IMAGE"
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/Image"
+      ]
     },
     "displayColor": {
       "type": "array",

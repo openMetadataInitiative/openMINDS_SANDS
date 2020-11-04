@@ -1,0 +1,26 @@
+{
+  "_type": "https://schema.hbp.eu/sands/AnnotationToEntity",
+  "description": "Definition of an annotationToEntity",
+  "properties": {
+    "performedBy": {
+      "_linkedTypes": [],
+      "description": "performedBy"
+    },
+    "verifiable": {
+      "type": "boolean",
+      "description": "verifiable"
+    },
+    "annotation": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/Annotation"
+      ],
+      "description": "annotation"
+    },
+    "anatomicalEntity": {
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/AnatomicalEntity"
+      ],
+      "description": "anatomicalEntity"
+    }
+  }
+}
