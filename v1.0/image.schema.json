@@ -19,20 +19,14 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/FileInstance"
       ]
-    },
-    "unit": {
-      "_instruction": "Add the unit that is used for this image.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Unit"
-      ]
-    },    
+    },   
     "voxelSize": {
       "type": "array",
-      "_instruction": "Enter the corresponding size of one voxel (3D) or pixel (2D, with z = 0) in the physical space, defined in the unit of this image.",
-      "items": {
-        "type": "number"
-      },
-      "minItems": 3,
+      "_instruction": "Add two or three values with units defined that describe the size of one pixel (2D, with 2 values) or voxel (3D, with 3 values) in the physical space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/quantitativeValue"
+      ],
+      "minItems": 2,
       "maxItems": 3
     }
   }
