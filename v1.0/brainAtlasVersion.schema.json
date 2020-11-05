@@ -1,6 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-  "description": "Structured information describing a version of a brain atlas.",
+  "description": "Structured information describing one version of a brain atlas.",
   "required": [
     "alias",
     "annotationSet",
@@ -14,11 +14,11 @@
   "properties": {
     "alias": {
       "type": "string",
-      "_instruction": "Enter an user-defined identifier, often a short name, of this brain atlas version."
+      "_instruction": "Enter the user-defined identifier for this brain atlas version (e.g. a short name)."
     },
     "alternativeVersionOf": {
       "type": "array",
-      "_instruction": "Add one or several alternative version(s) of this brain atlas versions.",
+      "_instruction": "Add one or several alternative versions of this brain atlas versions.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
       ],
@@ -27,7 +27,7 @@
     },
     "annotationSet": {
       "type": "array",
-      "_instruction": "Add one or several annotation(s) included in this brain atlas version.",
+      "_instruction": "Add one or several annotations included in this brain atlas version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/Annotation"
       ],
@@ -35,17 +35,17 @@
       "uniqueItems": true
     },
     "coordinateSpace": {
-      "_instruction": "Add the coordinate space this brain atlas version exists in.",
+      "_instruction": "Add the coordinate space in which this brain atlas version exists in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/CoordinateSpace"
       ]
     },
     "fullName": {
       "type": "string",
-      "_instruction": "Enter a descriptive name of this brain atlas version."
+      "_instruction": "Enter a descriptive name for this brain atlas version."
     },
     "newVersionOf": {
-      "_instruction": "Add the earlier brain atlas version this item is a new version of.",
+      "_instruction": "Add the earlier version this brain atlas version is a new version of.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
       ]
