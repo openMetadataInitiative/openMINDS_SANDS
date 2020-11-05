@@ -8,13 +8,13 @@
   ],
   "properties": {
     "confidence": {
-      "_instruction": "Add a semantic description for the confidence of the relation between the two anatomical entities.",
+      "_instruction": "Add the semantic description for the confidence of the relation between the two anatomical entities.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerm/Confidence"
       ]
     },
     "inRelationTo": {
-      "_instruction": "Add an anatomical entity that is put in relation to another anatomical entity.",
+      "_instruction": "Add the anatomical entity that is put in relation to another anatomical entity.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ]
