@@ -1,6 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/CoordinatePoint",
-  "description": "Structured information describing a coordinate point in a space",
+  "description": "Structured information describing a coordinate point in a defined space.",
   "required": [
     "coordinates",
     "coordinateSpace"
@@ -8,7 +8,7 @@
   "properties": {
     "coordinates": {
       "type": "array",
-      "_instruction": "Enter the coordinates (x, y , z; 2D, with z = 0) that describe this coordinate point.",
+      "_instruction": "Enter the coordinates (x, y , z; 2D, with z = 0) that describe this coordinate point, defined in the unit of the coordinate space.",
       "items": {
         "type": "number"
       },
@@ -16,7 +16,7 @@
       "maxItems": 3
     },
     "coordinateSpace": {
-      "_instruction": "Add the coordinate space this cooridnate point exists in.",
+      "_instruction": "Add the coordinate space in which this coordinate point exists in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/CoordinateSpace"
       ]
