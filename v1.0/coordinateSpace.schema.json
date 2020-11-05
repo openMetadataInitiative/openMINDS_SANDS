@@ -1,6 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/CoordinateSpace",
-  "description": "Structured information describing a corodinate space.",
+  "description": "Structured information describing a coordinate space.",
   "required": [
     "alias",
     "anatomicalOrientation",
@@ -13,17 +13,17 @@
   "properties": {
     "alias": {
       "type": "string",
-      "_instruction": "Enter an user-defined identifier, often a short name, of this coordinate space."
+      "_instruction": "Enter the user-defined identifier for this coordinate space (e.g. a short name)."
     },
     "anatomicalOrientation": {
-      "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (2D or 3D).",
+      "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (in 2D or 3D).",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Axis"
       ]
     },
     "defaultImages": {
       "type": "array",
-      "_instruction": "Add image(s) used as visual representation in this coordinate space.",
+      "_instruction": "Add one or several images used as visual representation in this coordinate space.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/Image"
       ],
@@ -32,7 +32,7 @@
     },
     "fullName": {
       "type": "string",
-      "_instruction": "Enter a descriptive name of this coordinate space."
+      "_instruction": "Enter a descriptive name for this coordinate space."
     },
     "origin": {
       "type": "array",
@@ -56,7 +56,7 @@
     "unit": {
       "_instruction": "Add the unit that is used for this coordinate space.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Unit"
+        "https://openminds.ebrains.eu/core/quantitativeValue.schema.json"
       ]
     },
     "versionIdentifier": {
