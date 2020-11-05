@@ -15,9 +15,9 @@
       "minItems": 2,
       "uniqueItems": true
     },
-    "identifier": {
+    "internalIdentifier": {
       "type": "string",
-      "_instruction": "Enter an unqiue identifier of this electrode array."
+      "_instruction": "Enter the identifier used for this electrode array within the file it is stored in."
     }
   }
 }
