@@ -9,11 +9,11 @@
   "properties": {
     "alias": {
       "type": "string",
-      "_instruction": "Enter an user-defined identifier, often a short name, of this atlas terminology."
+      "_instruction": "Enter the user-defined identifier for this atlas terminology (e.g. a short name)."
     },
     "anatomicalEntities":{
       "type": "array",
-      "_instruction": "Add anatomical entities (term(s)) that are part of this atlas terminology.",
+      "_instruction": "Add one or several anatomical entities (terms) that are part of this atlas terminology.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ],
@@ -22,7 +22,7 @@
     },
     "definedIn": {
       "type": "array",
-      "_instruction": "Add the file(s) in which this atlas terminology is defined in.",
+      "_instruction": "Add one or several files in which this atlas terminology is defined in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/FileInstance"
       ],
@@ -31,7 +31,7 @@
     },
     "fullName": {
       "type": "string",
-      "_instruction": "Enter a descriptive name of this atlas terminology."
+      "_instruction": "Enter a descriptive name for this atlas terminology."
     },
     "relatedOntology": {
       "type": "string",
