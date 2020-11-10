@@ -2,15 +2,11 @@
   "_type": "https://schema.hbp.eu/sands/AtlasTerminology",
   "description": "Structured information describing the terminology used in a brain atlas.",
   "required": [
-    "shortName",
     "anatomicalEntities",
-    "fullName"
+    "fullName",    
+    "shortName"
   ],
   "properties": {
-    "shortName": {
-      "type": "string",
-      "_instruction": "Enter a descriptive short name for this atlas terminology."
-    },
     "anatomicalEntities":{
       "type": "array",
       "_instruction": "Add all anatomical entities that belong to this atlas terminology.",
@@ -37,6 +33,10 @@
       "type": "string",
       "_instruction": "Enter the identifier (IRI) of the related ontological term matching this atlas terminology.",
       "format": "iri"
+    },    
+    "shortName": {
+      "type": "string",
+      "_instruction": "Enter a descriptive short name for this atlas terminology."
     }
   }
 }
