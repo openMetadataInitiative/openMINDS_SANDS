@@ -2,28 +2,28 @@
   "_type": "https://openminds.ebrains.eu/sands/CoordinateSpace",
   "description": "Structured information describing a coordinate space.",
   "required": [
-    "alias",
+    "shortName",
     "anatomicalOrientation",
     "fullName",
     "origin",
     "releaseDate",
-    "unit",
+    "defaultUnit",
     "versionIdentifier"
   ],
   "properties": {
-    "alias": {
+    "shortName": {
       "type": "string",
-      "_instruction": "Enter the user-defined identifier for this coordinate space (e.g. a short name)."
+      "_instruction": "Enter a descriptive short name for this coordinate space."
     },
-    "anatomicalOrientation": {
-      "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (in 2D or 3D).",
+    "anatomicalAxesOrientation": {
+      "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (stated as XYZ).",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Axis"
+        "https://openminds.ebrains.eu/controlledTerms/anatomicalAxesOrientation"
       ]
     },
     "defaultImages": {
       "type": "array",
-      "_instruction": "Add one or several images used as visual representation in this coordinate space.",
+      "_instruction": "Add one or several images used as visual representation of this coordinate space.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/Image"
       ],
@@ -32,7 +32,7 @@
     },
     "fullName": {
       "type": "string",
-      "_instruction": "Enter a descriptive name for this coordinate space."
+      "_instruction": "Enter a descriptive full name for this coordinate space."
     },
     "origin": {
       "type": "array",
@@ -45,18 +45,18 @@
     },
     "relatedOntology": {
       "type": "string",
-      "_instruction": "Enter the identifier (IRI) of the related ontological term that best describes this coordinate space.",
+      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this coordinate space.",
       "format": "iri"
     },
     "releaseDate": {
       "type": "string",
-      "_instruction": "Enter the date of first broadcast/publication/release of this coordinate space.",
+      "_instruction": "Enter the date of first publication of this coordinate space.",
       "format": "date"
     },
-    "unit": {
-      "_instruction": "Add the unit that is used for this coordinate space.",
+    "nativeUnit": {
+      "_instruction": "Add the native unit that is used for this coordinate space.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/quantitativeValue.schema.json"
+        "https://openminds.ebrains.eu/controlledTerms/unitOfMeasurement"
       ]
     },
     "versionIdentifier": {
