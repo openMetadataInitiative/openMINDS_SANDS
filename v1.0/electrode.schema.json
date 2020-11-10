@@ -8,7 +8,7 @@
   "properties": {
     "electrodeContacts":{
 	  "type": "array",      
-	  "_instruction": "Add one or several recording/stimulation contacts of this electrode.",
+	  "_instruction": "Add one or several electrical contacts of this electrode.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/ElectrodeContact"
       ],
