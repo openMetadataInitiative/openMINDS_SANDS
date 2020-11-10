@@ -1,4 +1,4 @@
-name: openMINDS_upstream
+name: openMINDS_validation
 
 on: push
 
