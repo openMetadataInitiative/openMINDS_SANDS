@@ -12,7 +12,7 @@ def main():
                 print(str(filename) + ": PASSED")
             except Exception as e:
                 print(str(filename) + " failed validation")
-                print(e)
+                raise e
 
 
 if __name__ == "__main__":
