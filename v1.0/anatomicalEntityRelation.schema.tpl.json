@@ -22,8 +22,8 @@
     "percentalOverlap": {
       "_instruction": "Enter the overlap between the two anatomical entities expressed in percentage.",
       "_linkedTypes": [
-        {"https://openminds.ebrains.eu/core/QuantitativeValue"},
-        {"https://openminds.ebrains.eu/core/QuantitativeValueRange"},
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange",
       ]
     },
     "semanticRelation": {
