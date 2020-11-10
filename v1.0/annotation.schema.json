@@ -2,7 +2,6 @@
   "_type": "https://openminds.ebrains.eu/sands/Annotation",
   "description": "Structured information describing an annotation.",
   "required": [
-    "alias",
     "bestViewPoint",
     "criteriaType",
     "internalIdentifier",
@@ -10,11 +9,7 @@
     "namingTerm",
     "visualizedIn"
   ],
-  "properties": {
-    "alias": {
-      "type": "string",
-      "_instruction": "Enter the user-defined identifier for this annotation (e.g. a short name)."
-    },    
+  "properties": {   
     "bestViewPoint": {      
       "_instruction": "Add the coordinate point identifying the best view of this annotation in space.",
       "_linkedTypes": [
@@ -27,8 +22,8 @@
         "https://openminds.ebrains.eu/core/ProtocolExecution"
       ]
     },
-    "criteriaType": {
-      "_instruction": "Add the type of criteria used to define this annotation (processive or asserted).",
+    "criteriaQualityType": {
+      "_instruction": "Add the quality type of the stated criteria used to define this annotation.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/CriteriaType"
       ]
@@ -78,7 +73,7 @@
     },
     "relatedAtlasTerm": {
       "type": "array",
-      "_instruction": "Add one or several anatomical entities (terms) of a brain atlas annotation to which this annotation is related to.",
+      "_instruction": "Add one or several anatomical entities of registered brain atlas annotations to which this annotation is related to.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ],
