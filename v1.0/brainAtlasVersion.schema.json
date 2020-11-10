@@ -1,8 +1,8 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-  "description": "Structured information describing one version of a brain atlas.",
+  "description": "Structured information describing a single brain atlas version.",
   "required": [
-    "alias",
+    "shortName",
     "annotationSet",
     "coordinateSpace",
     "fullName",
@@ -12,13 +12,13 @@
     "versionInnovation" 
   ],
   "properties": {
-    "alias": {
+    "shortName": {
       "type": "string",
-      "_instruction": "Enter the user-defined identifier for this brain atlas version (e.g. a short name)."
+      "_instruction": "Enter a descriptive short name for this brain atlas version."
     },
     "alternativeVersionOf": {
       "type": "array",
-      "_instruction": "Add one or several alternative versions of this brain atlas versions.",
+      "_instruction": "Add one or several alternative versions of this brain atlas version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
       ],
@@ -27,7 +27,7 @@
     },
     "annotationSet": {
       "type": "array",
-      "_instruction": "Add one or several annotations included in this brain atlas version.",
+      "_instruction": "Add all annotations that belong to this brain atlas version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/Annotation"
       ],
@@ -42,10 +42,10 @@
     },
     "fullName": {
       "type": "string",
-      "_instruction": "Enter a descriptive name for this brain atlas version."
+      "_instruction": "Enter a descriptive full name for this brain atlas version."
     },
     "newVersionOf": {
-      "_instruction": "Add the earlier version this brain atlas version is a new version of.",
+      "_instruction": "Add the earlier version of this brain atlas version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
       ]
@@ -58,16 +58,16 @@
     },
     "relatedOntology": {
       "type": "string",
-      "_instruction": "Enter the identifier (IRI) of the related ontological term that best describes this brain atlas version.",
+      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this brain atlas version.",
       "format": "iri"
     },
     "releaseDate": {
       "type": "string",
-      "_instruction": "Enter the date of first broadcast/publication/release of this brain atlas version.",
+      "_instruction": "Enter the date of first publication of this brain atlas version.",
       "format": "date"
     },
     "terminology": {
-      "_instruction": "Add the terminology of this brain atlas version.",
+      "_instruction": "Add the terminology used for this brain atlas version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/AtlasTerminology"
       ]
