@@ -8,10 +8,6 @@
     "hasVersions"
   ],
   "properties": {
-    "alias": {
-      "type": "string",
-      "_instruction": "Enter a descriptive short name for this brain atlas."
-    },
     "description": {
       "type": "string",
       "_instruction": "Enter a short description for this brain atlas."
@@ -34,6 +30,10 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/Project"
       ]
+    },
+    "shortName": {
+      "type": "string",
+      "_instruction": "Enter a descriptive short name for this brain atlas."
     }
   }
 }
