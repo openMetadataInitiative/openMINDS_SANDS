@@ -8,7 +8,7 @@
   "properties": {
     "electrodes": {
       "type": "array",
-      "_instruction": "Add two or more electrodes which are part of this array.",
+      "_instruction": "Add two or more electrodes which build this array.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/Electrode"
       ],
