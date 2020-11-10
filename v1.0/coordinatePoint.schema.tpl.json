@@ -8,11 +8,11 @@
   "properties": {
     "coordinates": {
       "type": "array",
-      "_instruction": "Enter the coordinates (x, y , z; 2D, with z = 0) that describe this coordinate point, defined in the unit of the coordinate space.",
-      "items": {
-        "type": "number"
-      },
-      "minItems": 3,
+      "_instruction": "Add two or three coordinates (2D: [x, y] or 3D: [x, y, z]) that define the exact location of this point in the stated space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/quantitativeValue"
+      ],
+      "minItems": 2,
       "maxItems": 3
     },
     "coordinateSpace": {
