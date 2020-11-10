@@ -2,18 +2,18 @@
   "_type": "https://schema.hbp.eu/sands/AtlasTerminology",
   "description": "Structured information describing the terminology used in a brain atlas.",
   "required": [
-    "alias",
+    "shortName",
     "anatomicalEntities",
     "fullName"
   ],
   "properties": {
-    "alias": {
+    "shortName": {
       "type": "string",
-      "_instruction": "Enter the user-defined identifier for this atlas terminology (e.g. a short name)."
+      "_instruction": "Enter a descriptive short name for this atlas terminology."
     },
     "anatomicalEntities":{
       "type": "array",
-      "_instruction": "Add one or several anatomical entities (terms) that are part of this atlas terminology.",
+      "_instruction": "Add all anatomical entities that belong to this atlas terminology.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ],
@@ -22,7 +22,7 @@
     },
     "definedIn": {
       "type": "array",
-      "_instruction": "Add one or several files in which this atlas terminology is defined in.",
+      "_instruction": "Add one or several files in which this atlas terminology is stored in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/FileInstance"
       ],
@@ -31,11 +31,11 @@
     },
     "fullName": {
       "type": "string",
-      "_instruction": "Enter a descriptive name for this atlas terminology."
+      "_instruction": "Enter a descriptive full name for this atlas terminology."
     },
     "relatedOntology": {
       "type": "string",
-      "_instruction": "Enter the identifier (IRI) of the related ontological term that best describes this atlas terminology.",
+      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this atlas terminology.",
       "format": "iri"
     }
   }
