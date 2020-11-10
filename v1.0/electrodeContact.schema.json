@@ -1,13 +1,13 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/ElectrodeContact",
-  "description": "Structured information describing the contact point of an electrode.",
+  "description": "Structured information describing the electrical contact of an electrode.",
   "required": [
     "contactPoint",
     "identifier"
   ],
   "properties": {
     "contactPoint": {
-      "_instruction": "Add the central coordinate of this electrode contact point.",
+      "_instruction": "Add the central coordinate of this electrode contact.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/CoordinatePoint"
       ]
@@ -27,7 +27,7 @@
     },
     "relatedRecordings":{
       "type": "array",
-      "_instruction": "Add one or several files in which the recorded data from this electrode contact were stored.",
+      "_instruction": "Add one or several files in which the recordings from this electrode contact were stored.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/FileInstance"
       ],
@@ -36,7 +36,7 @@
     },
     "relatedStimulations":{
       "type": "array",
-      "_instruction": "Add one or several files in which the stimulation of this electrode contact were stored.",
+      "_instruction": "Add one or several files in which the stimulations applied via this electrode contact were stored.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/FileInstance"
       ],
