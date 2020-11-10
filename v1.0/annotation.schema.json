@@ -25,7 +25,7 @@
     "criteriaQualityType": {
       "_instruction": "Add the quality type of the stated criteria used to define this annotation.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/CriteriaType"
+        "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType"
       ]
     },    
     "displayColor": {
@@ -54,7 +54,7 @@
     },
     "laterality": {
       "type": "array",
-      "_instruction": "Add one or several sides of the body or bilateral organ that this annotation is defined in.",
+      "_instruction": "Add one or both sides of the body or bilateral organ that this annotation is defined in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Laterality"
       ],
@@ -64,7 +64,7 @@
     },
     "namingTerm": {
       "type": "array",
-      "_instruction": "Add one or several anatomical entities (terms) that name this annotation.",
+      "_instruction": "Add one or several anatomical entities that name this annotation.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ],
