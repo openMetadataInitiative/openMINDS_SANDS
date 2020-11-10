@@ -1,6 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/AnatomicalEntityRelation",
-  "description": "Structured information describing how two anatomical entities (terms) relate to each other.",
+  "description": "Structured information describing how two anatomical entities relate to each other.",
   "required": [
     "confidence",
     "inRelationTo",
@@ -8,13 +8,13 @@
   ],
   "properties": {
     "confidence": {
-      "_instruction": "Add the semantic description for the confidence of the relation between the two anatomical entities.",
+      "_instruction": "Add a semantic confidence level for the stated relation between the two anatomical entities.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerm/Confidence"
       ]
     },
     "inRelationTo": {
-      "_instruction": "Add the anatomical entity that is put in relation to another anatomical entity.",
+      "_instruction": "Add the anatomical entity to which the relation is described.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ]
@@ -25,10 +25,10 @@
       "minimum": 0,
       "maximum": 100
     },
-    "relationType": {
-      "_instruction": "Add the type of relation between the two anatomical entites (semantic description).",
+    "semanticRelation": {
+      "_instruction": "Add the semantic term that best describes the relation between the two anatomical entities.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerm/RelationType"
+        "https://openminds.ebrains.eu/controlledTerm/semanticRelation"
       ]
     }
   }
