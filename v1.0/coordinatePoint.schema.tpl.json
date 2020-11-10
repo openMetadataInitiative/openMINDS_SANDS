@@ -1,0 +1,25 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/CoordinatePoint",
+  "description": "Structured information describing a coordinate point in a defined space.",
+  "required": [
+    "coordinates",
+    "coordinateSpace"
+  ],
+  "properties": {
+    "coordinates": {
+      "type": "array",
+      "_instruction": "Add two or three coordinates (2D: [x, y] or 3D: [x, y, z]) that define the exact location of this point in the stated space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/quantitativeValue"
+      ],
+      "minItems": 2,
+      "maxItems": 3
+    },
+    "coordinateSpace": {
+      "_instruction": "Add the coordinate space in which this coordinate point exists in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/CoordinateSpace"
+      ]
+    }
+  }
+}

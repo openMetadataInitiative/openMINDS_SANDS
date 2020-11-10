@@ -1,0 +1,32 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/Image",
+  "description": "Structured information describing an image.",
+  "required": [
+    "coordinateSpace",
+    "definedIn",
+    "voxelSize"
+  ],
+  "properties": {
+    "coordinateSpace": {      
+      "_instruction": "Add the coordinate space this image exists in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/CoordinateSpace"
+      ]
+    },
+    "definedIn":{     
+      "_instruction": "Add the file in which this image is stored in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/FileInstance"
+      ]
+    },   
+    "voxelSize": {
+      "type": "array",
+      "_instruction": "Add two or three values with units defined that describe the size of one pixel (2D: [x, y]) or voxel (3D: [x, y, z]) in the physical space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ],
+      "minItems": 2,
+      "maxItems": 3
+    }
+  }
+}

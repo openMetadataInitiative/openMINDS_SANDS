@@ -1,0 +1,67 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/CoordinateSpace",
+  "description": "Structured information describing a coordinate space.",
+  "required": [
+    "anatomicalAxesOrientation",    
+    "fullName",    
+    "nativeUnit",
+    "origin",
+    "releaseDate",
+    "shortName",
+    "versionIdentifier"
+  ],
+  "properties": {
+    "anatomicalAxesOrientation": {
+      "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (stated as XYZ).",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation"
+      ]
+    },
+    "defaultImages": {
+      "type": "array",
+      "_instruction": "Add one or several images used as visual representation of this coordinate space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/Image"
+      ],
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "fullName": {
+      "type": "string",
+      "_instruction": "Enter a descriptive full name for this coordinate space."
+    },   
+    "nativeUnit": {
+      "_instruction": "Add the native unit that is used for this coordinate space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+      ]
+    },
+    "origin": {
+      "type": "array",
+      "_instruction": "Enter the origin of the coordinate system (central point where axes intersect; 2D: [x, y] or 3D:[x, y, z]).",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/quantitativeValue"
+      ],
+      "minItems": 2,
+      "maxItems": 3
+    },
+    "relatedOntology": {
+      "type": "string",
+      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this coordinate space.",
+      "format": "iri"
+    },
+    "releaseDate": {
+      "type": "string",
+      "_instruction": "Enter the date of first publication of this coordinate space.",
+      "format": "date"
+    },
+    "shortName": {
+      "type": "string",
+      "_instruction": "Enter a descriptive short name for this coordinate space."
+    },
+    "versionIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the version identifier of this coordinate space."
+    }
+  }
+}
