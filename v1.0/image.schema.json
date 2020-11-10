@@ -15,7 +15,7 @@
       ]
     },
     "definedIn":{     
-      "_instruction": "Add the file in which this image is defined in.",
+      "_instruction": "Add the file in which this image is stored in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/FileInstance"
       ]
