@@ -4,7 +4,7 @@
   "required": [
     "confidence",
     "inRelationTo",
-    "relationType"
+    "semanticRelation"
   ],
   "properties": {
     "confidence": {
@@ -29,7 +29,7 @@
     "semanticRelation": {
       "_instruction": "Add the semantic term that best describes the relation between the two anatomical entities.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerm/semanticRelation"
+        "https://openminds.ebrains.eu/controlledTerm/SemanticRelation"
       ]
     }
   }
