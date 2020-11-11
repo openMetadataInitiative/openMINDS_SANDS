@@ -45,7 +45,7 @@
       "minItems": 2,
       "maxItems": 3
     },
-    "relatedOntology": {
+    "ontologyIdentifier": {
       "type": "string",
       "_instruction": "Enter the identifier (IRI) of the related ontological term matching this coordinate space.",
       "format": "iri"
