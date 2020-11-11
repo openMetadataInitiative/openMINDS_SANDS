@@ -46,7 +46,7 @@
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
       ]
     },
-    "relatedOntology": {
+    "ontologyIdentifier": {
       "type": "string",
       "_instruction": "Enter the identifier (IRI) of the related ontological term matching this brain atlas version.",
       "format": "iri"
