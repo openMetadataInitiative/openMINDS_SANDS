@@ -10,7 +10,7 @@
     "confidence": {
       "_instruction": "Add a semantic confidence level for the stated relation between the two anatomical entities.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerm/Confidence"
+        "https://openminds.ebrains.eu/controlledTerms/Confidence"
       ]
     },
     "inRelationTo": {
@@ -29,7 +29,7 @@
     "semanticRelation": {
       "_instruction": "Add the semantic term that best describes the relation between the two anatomical entities.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerm/SemanticRelation"
+        "https://openminds.ebrains.eu/controlledTerms/SemanticRelation"
       ]
     }
   }

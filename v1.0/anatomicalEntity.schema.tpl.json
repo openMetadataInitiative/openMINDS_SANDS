@@ -8,7 +8,12 @@
     "nameOfLocation": {
       "type": "string",
       "_instruction": "Enter a descriptive name for this anatomical entity based on anatomical location or characteristics."
-    },    
+    },      
+    "ontologyIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this anatomical entity.",
+      "format": "iri"
+    },  
     "otherAnatomicalRelations": {
       "type": "array",
       "_instruction": "Add one or several relations of this anatomical entity to other anatomical entities that are used elsewhere to describe (roughly) the same anatomical location.",
@@ -23,11 +28,6 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ]
-    },
-    "relatedOntology": {
-      "type": "string",
-      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this anatomical entity.",
-      "format": "iri"
     }
   }
 }

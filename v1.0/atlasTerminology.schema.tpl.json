@@ -29,7 +29,7 @@
       "type": "string",
       "_instruction": "Enter a descriptive full name for this atlas terminology."
     },
-    "relatedOntology": {
+    "ontologyIdentifier": {
       "type": "string",
       "_instruction": "Enter the identifier (IRI) of the related ontological term matching this atlas terminology.",
       "format": "iri"

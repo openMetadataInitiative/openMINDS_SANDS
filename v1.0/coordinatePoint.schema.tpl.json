@@ -10,7 +10,7 @@
       "type": "array",
       "_instruction": "Add two or three coordinates (2D: [x, y] or 3D: [x, y, z]) that define the exact location of this point in the stated space.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/quantitativeValue"
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
       ],
       "minItems": 2,
       "maxItems": 3

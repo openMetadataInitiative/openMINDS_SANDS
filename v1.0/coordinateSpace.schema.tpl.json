@@ -35,20 +35,20 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
       ]
+    },    
+    "ontologyIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this coordinate space.",
+      "format": "iri"
     },
     "origin": {
       "type": "array",
       "_instruction": "Enter the origin of the coordinate system (central point where axes intersect; 2D: [x, y] or 3D:[x, y, z]).",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/quantitativeValue"
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
       ],
       "minItems": 2,
       "maxItems": 3
-    },
-    "relatedOntology": {
-      "type": "string",
-      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this coordinate space.",
-      "format": "iri"
     },
     "releaseDate": {
       "type": "string",
