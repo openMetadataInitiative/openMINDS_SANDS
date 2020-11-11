@@ -24,7 +24,7 @@
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ]
     },
-    "relatedOntology": {
+    "ontologyIdentifier": {
       "type": "string",
       "_instruction": "Enter the identifier (IRI) of the related ontological term matching this anatomical entity.",
       "format": "iri"
