@@ -25,12 +25,6 @@
       "minItems": 1,
       "uniqueItems": true
     },
-    "referenceProject": {
-      "_instruction": "Add the reference project for this brain atlas.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/Project"
-      ]
-    },
     "shortName": {
       "type": "string",
       "_instruction": "Enter a descriptive short name for this brain atlas."
