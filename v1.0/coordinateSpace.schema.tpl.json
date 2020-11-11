@@ -35,6 +35,11 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
       ]
+    },    
+    "ontologyIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this coordinate space.",
+      "format": "iri"
     },
     "origin": {
       "type": "array",
@@ -44,11 +49,6 @@
       ],
       "minItems": 2,
       "maxItems": 3
-    },
-    "ontologyIdentifier": {
-      "type": "string",
-      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this coordinate space.",
-      "format": "iri"
     },
     "releaseDate": {
       "type": "string",
