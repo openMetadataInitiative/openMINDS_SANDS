@@ -1,5 +1,5 @@
 {
-  "_type": "https://schema.hbp.eu/sands/AtlasTerminology",
+  "_type": "https://openminds.ebrains.eu/sands/AtlasTerminology",
   "description": "Structured information describing the terminology used in a brain atlas.",
   "required": [
     "anatomicalEntities",
