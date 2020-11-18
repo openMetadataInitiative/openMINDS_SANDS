@@ -2,12 +2,10 @@
   "_type": "https://openminds.ebrains.eu/sands/Annotation",
   "description": "Structured information describing an annotation.",
   "required": [
-    "bestViewPoint",
     "criteriaType",
     "internalIdentifier",
     "laterality",
-    "namingTerm",
-    "visualizedIn"
+    "namingTerm"
   ],
   "properties": {   
     "bestViewPoint": {      
