@@ -3,7 +3,7 @@
   "description": "Structured information describing an annotation.",
   "required": [
     "bestViewPoint",
-    "criteriaType",
+    "criteriaQualityType",
     "internalIdentifier",
     "laterality",
     "namingTerm",
