@@ -2,15 +2,21 @@
   "_type": "https://openminds.ebrains.eu/sands/AnatomicalEntityRelation",
   "description": "Structured information describing how two anatomical entities relate to each other.",
   "required": [
-    "confidence",
+    "criteriaQualityType",
     "inRelationTo",
     "semanticRelation"
   ],
   "properties": {
-    "confidence": {
-      "_instruction": "Add a semantic confidence level for the stated relation between the two anatomical entities.",
+    "criteria": {
+      "_instruction": "Add the protocol execution defining the criteria that were applied to determine this relation.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Confidence"
+        "https://openminds.ebrains.eu/core/ProtocolExecution"
+      ]
+    },
+    "criteriaQualityType": {
+      "_instruction": "Add the quality type of the stated criteria used to determine this relation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType"
       ]
     },
     "inRelationTo": {
