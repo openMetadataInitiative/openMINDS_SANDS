@@ -12,9 +12,9 @@
     "versionInnovation" 
   ],
   "properties": {
-    "alternativeVersionOf": {
+    "hasAlternativeVersion": {
       "type": "array",
-      "_instruction": "Add one or several alternative versions of this brain atlas version.",
+      "_instruction": "Add all alternative versions of this brain atlas version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
       ],
