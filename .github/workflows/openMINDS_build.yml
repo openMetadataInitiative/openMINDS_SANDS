@@ -37,12 +37,12 @@ jobs:
     - name: Validate schemas
       run: |
         python generator/validator/schema_validator.py
-    - name: Test with pytest
-      run: |
-        pytest generator/test_json_schema.py --capture=tee-sys
     - name: Run generation
       run: |
         python generator/openMINDS.py
+    - name: Test with pytest
+      run: |
+        pytest generator/test_json_schema.py --capture=tee-sys
     - name: Archive expanded version
       uses: actions/upload-artifact@v2
       with:
