@@ -9,7 +9,7 @@
     "coordinateSpace": {      
       "_instruction": "Add the coordinate space this image exists in.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/CoordinateSpace"
+        "https://openminds.ebrains.eu/sands/CoordinateSpace"
       ]
     },
     "definedIn":{     
