@@ -47,9 +47,10 @@
       "_instruction": "Enter the identifier (IRI) of the related ontological term matching this coordinate space."
     },
     "axesOrigin": {
-      "type": "array",      
+      "type": "array",        
+      "maxItems": 3,    
       "minItems": 2,
-      "maxItems": 3,
+      "uniqueItems": true,
       "_instruction": "Enter the origin of the coordinate system (central point where axes intersect; 2D: [x, y] or 3D:[x, y, z]).",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
