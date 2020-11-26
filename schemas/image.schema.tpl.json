@@ -1,6 +1,5 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/Image",
-  "description": "Structured information describing an image.",
   "required": [
     "coordinateSpace",
     "definedIn",
@@ -21,12 +20,12 @@
     },   
     "voxelSize": {
       "type": "array",
-      "_instruction": "Add two or three values with units defined that describe the size of one pixel (2D: [x, y]) or voxel (3D: [x, y, z]) in the physical space.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
-      ],
       "minItems": 2,
-      "maxItems": 3
+      "maxItems": 3,
+      "_instruction": "Add two or three values with units defined that describe the size of one pixel (2D: [x, y]) or voxel (3D: [x, y, z]) in the physical space.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
     }
   }
 }
