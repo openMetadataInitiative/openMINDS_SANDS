@@ -1,19 +1,18 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/Electrode",
-  "description": "Structured information describing an electrode.",
   "required": [
     "electrodeContacts",
-    "identifier"
+    "internalIdentifier"
     ],
   "properties": {
     "electrodeContacts":{
-	  "type": "array",      
-	  "_instruction": "Add one or several electrical contacts of this electrode.",
+      "type": "array",  
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several electrical contacts of this electrode.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/ElectrodeContact"
-      ],
-      "minItems": 1,
-      "uniqueItems": true
+      ]
     },
     "internalIdentifier": {
       "type": "string",
