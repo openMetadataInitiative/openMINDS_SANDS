@@ -3,7 +3,7 @@
   "required": [
     "criteriaQualityType",
     "inRelationTo",
-    "qualitativeRelation"
+    "qualitativeOverlap"
   ],
   "properties": {
     "criteria": {
@@ -24,14 +24,14 @@
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ]
     },    
-    "qualitativeRelation": {
-      "_instruction": "Add the qualitative relation that best describes the relation between the two anatomical entities.",
+    "qualitativeOverlap": {
+      "_instruction": "Add the qualitative overlap that best describes the relation between the two anatomical entities.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/SemanticRelation"
+        "https://openminds.ebrains.eu/controlledTerms/QualitativeOverlap"
       ]
     },
-    "quantitativeRelation": {
-      "_instruction": "Add the quantitative relation between the two anatomical entities preferably expressed in percentage.",
+    "quantitativeOverlap": {
+      "_instruction": "Add the quantitative overlap between the two anatomical entities preferably expressed in percentage.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue",
         "https://openminds.ebrains.eu/core/QuantitativeValueRange"
