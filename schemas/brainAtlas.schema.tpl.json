@@ -1,11 +1,10 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/BrainAtlas",
-  "description": "Structured information describing a brain atlas.",
   "required": [
     "shortName",
     "description",
     "fullName",
-    "hasVersions"
+    "hasVersion"
   ],
   "properties": {
     "description": {
@@ -16,14 +15,14 @@
       "type": "string",
       "_instruction": "Enter a descriptive full name for this brain atlas."
     },
-    "hasVersions": {
-      "type": "array",
+    "hasVersion": {
+      "type": "array",      
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add one or several brain atlas versions that belong to this brain atlas.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
-      ],
-      "minItems": 1,
-      "uniqueItems": true
+      ]
     },
     "shortName": {
       "type": "string",
