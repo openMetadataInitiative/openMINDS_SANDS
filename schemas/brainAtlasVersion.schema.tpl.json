@@ -45,6 +45,11 @@
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
       ]
     },
+    "homepage": {
+      "type": "string",
+      "format": "iri",
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this brain atlas."
+    },
     "isNewVersionOf": {
       "_instruction": "Add the earlier version of this brain atlas version.",
       "_linkedTypes": [
