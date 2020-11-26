@@ -16,7 +16,7 @@
         "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation"
       ]
     },
-    "defaultImages": {
+    "defaultImage": {
       "type": "array",      
       "minItems": 1,
       "uniqueItems": true,
@@ -26,7 +26,7 @@
       ]
     },    
     "digitalIdentifier": {
-      "_instruction": "Add the globally unique and persistent digital identifier of this brain atlas version.",
+      "_instruction": "Add the globally unique and persistent digital identifier of this coordinate space.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DigitalIdentifier"
       ]
