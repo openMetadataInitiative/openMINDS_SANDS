@@ -2,6 +2,6 @@
   "@id": "https://bar",
   "@type": "https://openminds.ebrains.eu/sands/AnatomicalEntity",
   "nameOfLocation": "Bar",
-  "parentStructure": {
+  "hasParent": {
   }
 }
