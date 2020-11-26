@@ -1,11 +1,11 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/Electrode",
   "required": [
-    "electrodeContacts",
+    "electrodeContact",
     "internalIdentifier"
     ],
   "properties": {
-    "electrodeContacts":{
+    "electrodeContact":{
       "type": "array",  
       "minItems": 1,
       "uniqueItems": true,
