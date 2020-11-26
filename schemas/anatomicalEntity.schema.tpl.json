@@ -19,7 +19,7 @@
       "format": "iri",
       "_instruction": "Enter the identifier (IRI) of the related ontological term matching this anatomical entity."
     },  
-    "otherAnatomicalRelations": {
+    "otherAnatomicalRelation": {
       "type": "array",      
       "minItems": 1,
       "uniqueItems": true,
