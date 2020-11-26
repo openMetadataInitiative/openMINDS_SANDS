@@ -1,10 +1,9 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/AnatomicalEntityRelation",
-  "description": "Structured information describing how two anatomical entities relate to each other.",
   "required": [
     "criteriaQualityType",
     "inRelationTo",
-    "semanticRelation"
+    "qualitativeRelation"
   ],
   "properties": {
     "criteria": {
@@ -24,18 +23,18 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ]
+    },    
+    "qualitativeRelation": {
+      "_instruction": "Add the qualitative relation that best describes the relation between the two anatomical entities.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/SemanticRelation"
+      ]
     },
-    "percentalOverlap": {
-      "_instruction": "Enter the overlap between the two anatomical entities expressed in percentage.",
+    "quantitativeRelation": {
+      "_instruction": "Add the quantitative relation between the two anatomical entities preferably expressed in percentage.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue",
         "https://openminds.ebrains.eu/core/QuantitativeValueRange"
-      ]
-    },
-    "semanticRelation": {
-      "_instruction": "Add the semantic term that best describes the relation between the two anatomical entities.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/SemanticRelation"
       ]
     }
   }
