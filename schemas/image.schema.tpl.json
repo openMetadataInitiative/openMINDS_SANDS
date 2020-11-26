@@ -20,8 +20,9 @@
     },   
     "voxelSize": {
       "type": "array",
-      "minItems": 2,
       "maxItems": 3,
+      "minItems": 2,
+      "uniqueItems": true,
       "_instruction": "Add two or three values with units defined that describe the size of one pixel (2D: [x, y]) or voxel (3D: [x, y, z]) in the physical space.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
