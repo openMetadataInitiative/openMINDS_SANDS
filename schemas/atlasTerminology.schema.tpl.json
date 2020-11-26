@@ -1,38 +1,37 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/AtlasTerminology",
-  "description": "Structured information describing the terminology used in a brain atlas.",
   "required": [
-    "anatomicalEntities",
+    "anatomicalEntity",
     "fullName",    
     "shortName"
   ],
   "properties": {
-    "anatomicalEntities":{
+    "anatomicalEntity":{
       "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add all anatomical entities that belong to this atlas terminology.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
-      ],
-      "minItems": 1,
-      "uniqueItems": true
+      ]
     },
     "definedIn": {
-      "type": "array",
+      "type": "array",      
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add one or several files in which this atlas terminology is stored in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/FileInstance"
-      ],
-      "minItems": 1,
-      "uniqueItems": true
+      ]
     },
     "fullName": {
       "type": "string",
       "_instruction": "Enter a descriptive full name for this atlas terminology."
     },
     "ontologyIdentifier": {
-      "type": "string",
-      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this atlas terminology.",
-      "format": "iri"
+      "type": "string",      
+      "format": "iri",
+      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this atlas terminology."
     },    
     "shortName": {
       "type": "string",
