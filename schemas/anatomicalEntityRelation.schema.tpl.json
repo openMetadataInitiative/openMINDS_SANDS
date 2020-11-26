@@ -32,7 +32,7 @@
     },
     "quantitativeRelation": {
       "_instruction": "Add the quantitative relation between the two anatomical entities preferably expressed in percentage.",
-      "_linkedTypes": [
+      "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue",
         "https://openminds.ebrains.eu/core/QuantitativeValueRange"
       ]
