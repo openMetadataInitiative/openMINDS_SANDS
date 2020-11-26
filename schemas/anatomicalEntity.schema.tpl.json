@@ -17,7 +17,7 @@
     "ontologyIdentifier": {
       "type": "string",      
       "format": "iri",
-      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this anatomical entity."
+      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the ontological term matching this anatomical entity."
     },  
     "otherAnatomicalRelation": {
       "type": "array",      
