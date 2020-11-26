@@ -1,19 +1,18 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/ElectrodeArray",
-  "description": "Structured information describing an array of electrodes.",
   "required": [
     "electrodes",
-    "identifier"
+    "internalIdentifier"
   ],
   "properties": {
     "electrodes": {
-      "type": "array",
+      "type": "array",      
+      "minItems": 2,
+      "uniqueItems": true,
       "_instruction": "Add two or more electrodes which build this array.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/Electrode"
-      ],
-      "minItems": 2,
-      "uniqueItems": true
+      ]
     },
     "internalIdentifier": {
       "type": "string",
