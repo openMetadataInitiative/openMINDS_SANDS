@@ -1,11 +1,10 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/CoordinateSpace",
-  "description": "Structured information describing a coordinate space.",
   "required": [
     "anatomicalAxesOrientation",    
     "fullName",    
     "nativeUnit",
-    "origin",
+    "axesOrigin",
     "releaseDate",
     "shortName",
     "versionIdentifier"
@@ -18,13 +17,19 @@
       ]
     },
     "defaultImages": {
-      "type": "array",
+      "type": "array",      
+      "minItems": 1,
+      "uniqueItems": true,
       "_instruction": "Add one or several images used as visual representation of this coordinate space.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/Image"
-      ],
-      "minItems": 1,
-      "uniqueItems": true
+      ]
+    },    
+    "digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this brain atlas version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+      ]
     },
     "fullName": {
       "type": "string",
@@ -37,23 +42,23 @@
       ]
     },    
     "ontologyIdentifier": {
-      "type": "string",
-      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this coordinate space.",
-      "format": "iri"
+      "type": "string",      
+      "format": "iri",
+      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this coordinate space."
     },
-    "origin": {
-      "type": "array",
+    "axesOrigin": {
+      "type": "array",      
+      "minItems": 2,
+      "maxItems": 3,
       "_instruction": "Enter the origin of the coordinate system (central point where axes intersect; 2D: [x, y] or 3D:[x, y, z]).",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
-      ],
-      "minItems": 2,
-      "maxItems": 3
+      ]
     },
     "releaseDate": {
-      "type": "string",
-      "_instruction": "Enter the date of first publication of this coordinate space.",
-      "format": "date"
+      "type": "string",      
+      "format": "date",
+      "_instruction": "Enter the date of first publication of this coordinate space."
     },
     "shortName": {
       "type": "string",
