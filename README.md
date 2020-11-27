@@ -10,7 +10,7 @@ For more information on openMINDS in general and the processing pipelines for th
 The SANDS v1.0 schemas are JSON-schema inspired schema-templates with a few custom template-properties (prefixed with `"_"`) which allow us to simplify their readability and increase their reusability.
 
 ## How to contribute
-
+Please check our [contribution document](./CONTRIBUTING.md).
 
 ## License
 This work is licensed under the MIT License.
