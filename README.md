@@ -6,8 +6,12 @@ schema-templates used for Spatial Anchoring of Neuroscience Data (SANDS).
 
 For more information on openMINDS in general and the processing pipelines for the schema-templates please go to the main repository: https://github.com/HumanBrainProject/openMINDS
 
-## v1.0 (schema-templates)
+## schemas
 The SANDS v1.0 schemas are JSON-schema inspired schema-templates with a few custom template-properties (prefixed with `"_"`) which allow us to simplify their readability and increase their reusability.
+
+## tests
+
+## examples
 
 ## How to contribute
 Please check our [contribution document](./CONTRIBUTING.md).
