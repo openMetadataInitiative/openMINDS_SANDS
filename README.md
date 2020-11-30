@@ -11,7 +11,7 @@ The SANDS v1 schemas are JSON-schema inspired schema-templates with a few custom
 ## tests
 
 ## examples
-In **examples** you will find several possible serializations of the openMINDS_SANDS metadata model.
+In **examples** you will find several possible serializations of the openMINDS_SANDS metadata model. The scope of each example is described in it's README. The correspondingly generated JSON-LDs may be further structured (e.g., grouped according to the schema they are validated against).
 
 ## How to contribute
 Please check our [contribution document](./CONTRIBUTING.md).
