@@ -9,6 +9,7 @@ For more information on openMINDS in general, please go to the main repository: 
 The SANDS v1 schemas are JSON-schema inspired schema-templates with a few custom template-properties (prefixed with `"_"`) which allow us to simplify their readability and increase their reusability.
 
 ## tests
+In **tests** you can find JSON-LDs designed to test the validation behaviour of each schema. JSON-LDs that should fail the validation are identifiable via a "-nok" suffix in the file name.
 
 ## examples
 In **examples** you will find several possible serializations of the openMINDS_SANDS metadata model. The scope of each example is described in it's README. The correspondingly generated JSON-LDs may be further structured (e.g., grouped according to the schema they are validated against).
