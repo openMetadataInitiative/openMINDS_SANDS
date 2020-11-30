@@ -6,7 +6,7 @@ schema-templates used for **S**patial **A**nchoring of **N**euroscience **D**ata
 For more information on openMINDS in general, please go to the main repository: https://github.com/HumanBrainProject/openMINDS
 
 ## schemas
-The SANDS v1 schemas are JSON-schema inspired schema-templates with a few custom template-properties (prefixed with `"_"`) which allow us to simplify their readability and increase their reusability.
+The SANDS v1 metadata model is comprised of JSON-schema inspired schema-templates with a few custom template-properties (prefixed with `"_"`) which allow us to simplify the readability and increase the reusability of the schema definitions.
 
 ## tests
 In **tests** you can find JSON-LDs designed to test the validation behaviour of each schema. They follow the naming convention `{schema_name}-{custom_test_name}.jsonld`. For test cases supposed to fail the validation, the suffix **`-nok`** should be attached (`{schema_name}-{custom_test_name}-nok.jsonld`). The tests are validated every time a change is introduced and therefore are ensuring the correct behavior of the schemas.
