@@ -3,6 +3,8 @@
 The openMINDS_SANDS repository is part of the **open** **M**etadata **I**nitiative for **N**euroscience **D**ata **S**tructures (openMINDS). It contains the 
 schema-templates used for **S**patial **A**nchoring of **N**euroscience **D**ata (SANDS) metadata model.
 
+The major versions are developed and maintained in different version-branches. The default branch is always the latest version-branch. **Each version can be accessed by checking out the corresponding version-branch**
+
 For more information on openMINDS in general, please go to the main repository: https://github.com/HumanBrainProject/openMINDS
 
 ## schemas
