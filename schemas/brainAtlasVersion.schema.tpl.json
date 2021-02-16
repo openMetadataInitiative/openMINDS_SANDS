@@ -58,12 +58,16 @@
     },
     "ontologyIdentifier": {
       "type": "string",      
-      "format": "iri",
+      "_formats": [
+        "iri"
+      ],
       "_instruction": "Enter the identifier (IRI) of the related ontological term matching this brain atlas version."
     },
     "releaseDate": {
       "type": "string",      
-      "format": "date",
+      "_formats": [
+        "date"
+      ],
       "_instruction": "Enter the date of first publication of this brain atlas version."
     },    
     "shortName": {
