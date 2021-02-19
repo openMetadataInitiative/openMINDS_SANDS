@@ -30,7 +30,8 @@
       "uniqueItems": true,
       "_instruction": "Add one or several files in which the recordings from this electrode contact were stored.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileInstance"
+        "https://openminds.ebrains.eu/core/FileInstance",
+        "https://openminds.ebrains.eu/core/FileBundle"
       ]
     },
     "relatedStimulation":{
@@ -39,7 +40,8 @@
       "uniqueItems": true,
       "_instruction": "Add one or several files in which the stimulations applied via this electrode contact were stored.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileInstance"
+        "https://openminds.ebrains.eu/core/FileInstance",
+        "https://openminds.ebrains.eu/core/FileBundle"
       ]
     },
     "visualizedIn": {
