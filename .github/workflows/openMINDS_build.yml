@@ -22,7 +22,7 @@ jobs:
       with:
         repository: HumanBrainProject/openMINDS_generator
         ref: main
-        path: generatorremove generation process of submodule
+        path: generator
     - name: Install dependencies
       run: |
           python -m pip install --upgrade pip
