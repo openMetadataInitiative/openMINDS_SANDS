@@ -61,7 +61,7 @@
       "minItems": 2,
       "uniqueItems": true,
       "_instruction": "Enter the origin of the coordinate system (central point where axes intersect; 2D: [x, y] or 3D:[x, y, z]).",
-      "_linkedTypes": [
+      "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
     },
