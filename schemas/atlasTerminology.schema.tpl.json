@@ -21,7 +21,7 @@
       "uniqueItems": true,
       "_instruction": "Add one or several files in which this atlas terminology is stored in.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileInstance"
+        "https://openminds.ebrains.eu/core/File"
       ]
     },
     "fullName": {
