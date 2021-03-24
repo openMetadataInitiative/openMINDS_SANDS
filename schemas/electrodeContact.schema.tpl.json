@@ -17,7 +17,7 @@
       "uniqueItems": true,
       "_instruction": "Add one or several files in which the electrode contact is defined in.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileInstance"
+        "https://openminds.ebrains.eu/core/File"
       ]
     },
     "internalIdentifier": {
@@ -30,7 +30,7 @@
       "uniqueItems": true,
       "_instruction": "Add one or several files in which the recordings from this electrode contact were stored.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileInstance",
+        "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/FileBundle"
       ]
     },
@@ -40,7 +40,7 @@
       "uniqueItems": true,
       "_instruction": "Add one or several files in which the stimulations applied via this electrode contact were stored.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/FileInstance",
+        "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/FileBundle"
       ]
     },
