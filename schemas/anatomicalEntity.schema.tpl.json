@@ -26,7 +26,7 @@
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add one or several relations of this anatomical entity to other anatomical entities that are used elsewhere to describe (roughly) the same anatomical location.",
-      "_embeddedType": [
+      "_embeddedTypes": [
         "https://openminds.ebrains.eu/sands/AnatomicalEntityRelation"
       ]
     }
