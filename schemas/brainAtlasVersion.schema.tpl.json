@@ -29,7 +29,7 @@
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this brain atlas version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DigitalIdentifier"
+        "https://openminds.ebrains.eu/core/DOI"
       ]
     },
     "fullName": {
