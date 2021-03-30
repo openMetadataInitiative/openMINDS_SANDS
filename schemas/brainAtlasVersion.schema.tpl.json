@@ -79,7 +79,7 @@
     "terminology": {
       "_instruction": "Add the terminology used for this brain atlas version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/AtlasTerminology"
+        "https://openminds.ebrains.eu/sands/ParcellationTerminology"
       ]
     },
     "versionIdentifier": {
