@@ -68,11 +68,11 @@
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ]
     },
-    "relatedAtlasTerm": {
+    "relatedParcellationTerm": {
       "type": "array",      
       "minItems": 1,
       "unqiueItems": true,
-      "_instruction": "Add one or several anatomical entities of registered brain atlas annotations to which this annotation is related to.",
+      "_instruction": "Add one or several anatomical entities of registered parcellation terminologies to which this annotation is related to.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/AnatomicalEntity"
       ]
