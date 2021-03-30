@@ -9,7 +9,7 @@
   "properties": {   
     "bestViewPoint": {      
       "_instruction": "Add the coordinate point identifying the best view of this annotation in space.",
-      "_linkedTypes": [
+      "_embeddedTypes": [
         "https://openminds.ebrains.eu/sands/CoordinatePoint"
       ]
     },
