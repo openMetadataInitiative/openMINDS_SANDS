@@ -7,7 +7,7 @@
   "properties": {
     "coordinatePoint": {
       "_instruction": "Add the central coordinate of this electrode contact.",
-      "_linkedTypes": [
+      "_embeddedTypes": [
         "https://openminds.ebrains.eu/sands/CoordinatePoint"
       ]
     },
