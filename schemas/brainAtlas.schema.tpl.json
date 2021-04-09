@@ -11,6 +11,12 @@
       "type": "string",
       "_instruction": "Enter a short description for this brain atlas."
     },
+    "digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this brain atlas.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI"
+      ]
+    },
     "fullName": {
       "type": "string",
       "_instruction": "Enter a descriptive full name for this brain atlas."
@@ -30,6 +36,10 @@
         "iri"
       ],
       "_instruction": "Enter the internationalized resource identifier (IRI) to the homepage of this brain atlas."
+    },
+    "howToCite": {
+      "type": "string",
+      "_instruction": "Enter the preferred citation text for this brain atlas. Leave blank if citation text can be extracted from the assigned digital identifier."
     },
     "shortName": {
       "type": "string",
