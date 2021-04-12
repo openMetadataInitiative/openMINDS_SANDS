@@ -1,5 +1,8 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/AnatomicalEntity",
+  "_categories": [
+    "studyTarget"
+  ],
   "required": [
     "name"
   ],
