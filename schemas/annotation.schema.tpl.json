@@ -26,15 +26,9 @@
       ]
     },    
     "displayColor": {
-      "type": "array",
-      "maxItems": 3,
-      "minItems": 3,
-      "_instruction": "Enter the preferred display color (RGB) for this annotation.",
-      "items": {
-        "type": "integer",        
-        "maximum": 255,
-        "minimum": 0
-      }
+      "_instruction": "Enter the preferred display color (HEX) for this annotation.",
+      "type": "string",
+      "pattern": "^#[0-9A-Fa-f]{6}$"
     },
     "inspiredBy": {
       "type": "array",      
