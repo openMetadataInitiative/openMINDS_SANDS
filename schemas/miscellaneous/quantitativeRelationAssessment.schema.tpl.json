@@ -1,0 +1,28 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/QuantitativeRelationAssessment",
+  "required": [
+    "inRelationTo",
+    "quantitativeOverlap"
+  ],
+  "properties": {
+    "criteria": {
+      "_instruction": "Add the protocol execution defining the criteria that were applied to determine this relation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ProtocolExecution"
+      ]
+    },
+    "inRelationTo": {
+      "_instruction": "Add the anatomical entity to which the relation is described.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/ParcellationEntity"
+      ]
+    },    
+    "quantitativeOverlap": {
+      "_instruction": "Add the quantitative overlap between the two anatomical entities preferably expressed in percentage.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue",
+        "https://openminds.ebrains.eu/core/QuantitativeValueRange"
+      ]
+    }
+  }
+}

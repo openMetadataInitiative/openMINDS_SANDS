@@ -1,0 +1,64 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
+  "required": [
+    "fullName",    
+    "shortName",
+    "versionIdentifier",
+    "versionInnovation"
+  ],
+  "properties": {
+    "definedIn": {
+      "type": "array",      
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several files in which this parcellation terminology is stored in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ]
+    },
+    "fullName": {
+      "type": "string",
+      "_instruction": "Enter a descriptive full name for this parcellation terminology."
+    },
+    "isAlternativeVersionOf": {
+      "type": "array",      
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several alternative versions to this parcellation terminology.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
+      ]
+    },
+    "isNewVersionOf": {
+      "_instruction": "Add the earlier version of this parcellation terminology.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
+      ]
+    },
+    "isPartOf": {
+      "_instruction": "Add one or several brain atlas versions that belong to this parcellation terminology.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
+      ]
+    },
+    "ontologyIdentifier": {
+      "type": "string",      
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this parcellation terminology."
+    },    
+    "shortName": {
+      "type": "string",
+      "_instruction": "Enter a descriptive short name for this parcellation terminology."
+    },
+    "versionIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the version identifier of this parcellation terminology."
+    },
+    "versionInnovation": {
+      "type": "string",
+      "_instruction": "Enter a short description of the novelties/peculiarities of this parcellation terminology."
+    }
+  }
+}

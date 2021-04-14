@@ -1,0 +1,31 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
+  "_categories": [
+    "studyTarget"
+  ],
+  "required": [
+    "name"
+  ],
+  "properties": {
+    "hasAnnotation": {
+      "_instruction": "Add the custom annotation which this custom anatomical entity defines.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/CustomAnnotation"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "_instruction": "Enter a descriptive name for this custom anatomical entity."
+    },
+    "relationAssessment": {
+      "type": "array",      
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several relations of this custom anatomical entity to parcellation entities used in defined parcellation terminologies.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/sands/QualitativeRelationAssessment",
+        "https://openminds.ebrains.eu/sands/QuantitativeRelationAssessment"
+      ]
+    }
+  }
+}

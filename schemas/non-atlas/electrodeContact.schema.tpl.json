@@ -15,7 +15,7 @@
       "type": "array",      
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several files in which the electrode contact is defined in.",
+      "_instruction": "Add one or several files in which the coordinate point and internal identifier of this electrode contact is defined in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File"
       ]
@@ -48,9 +48,9 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several images in which the electrode contact is visualized in.",
+      "_instruction": "Add one or several image files in which the electrode contact is visualized in.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/Image"
+        "https://openminds.ebrains.eu/core/File"
       ]
     }
   }
