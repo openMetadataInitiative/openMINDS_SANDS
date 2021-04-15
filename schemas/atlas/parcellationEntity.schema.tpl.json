@@ -47,6 +47,7 @@
       "_instruction": "Add the related UBERON parcellation term.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation"
+      ]
     },
     "relationAssessment": {
       "type": "array",      
