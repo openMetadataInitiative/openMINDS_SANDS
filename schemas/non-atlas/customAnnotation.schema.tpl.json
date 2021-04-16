@@ -65,7 +65,7 @@
       "_instruction": "Enter a descriptive name for this custom annotation."
     },    
     "visualizedIn": {
-      "_instruction": "Add the (source) file in which this custom annotation is visualized in.",
+      "_instruction": "Add the (source) image file in which this custom annotation is visualized in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File"
       ]
