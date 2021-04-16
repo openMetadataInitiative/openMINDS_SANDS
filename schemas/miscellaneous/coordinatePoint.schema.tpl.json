@@ -17,8 +17,8 @@
     "coordinateSpace": {
       "_instruction": "Add the coordinate space in which this coordinate point exists in.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/CustomCoordinateSpace",
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpace"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+        "https://openminds.ebrains.eu/sands/CustomCoordinateSpace"
       ]
     }
   }
