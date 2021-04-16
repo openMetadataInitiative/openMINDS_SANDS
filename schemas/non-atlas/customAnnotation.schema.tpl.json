@@ -3,8 +3,8 @@
   "required": [
     "coordinateSpace",
     "criteriaQualityType",
-    "internalIdentifier",
-    "visualizedIn"
+    "definedIn",
+    "internalIdentifier"
   ],
   "properties": {   
     "bestViewPoint": {      
@@ -16,8 +16,8 @@
     "coordinateSpace": {
       "_instruction": "Add the coordinate space in which this custom annotation exists.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/CustomCoordinateSpace",
-        "https://openminds.ebrains.eu/sands/AtlasCoordinateSpace"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+        "https://openminds.ebrains.eu/sands/CustomCoordinateSpace"
       ]
     },
     "criteria": {
@@ -31,7 +31,13 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType"
       ]
-    },    
+    },     
+    "definedIn": {
+      "_instruction": "Add the (source) file in which this custom annotation is defined in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ]
+    },   
     "displayColor": {
       "_instruction": "Enter the preferred display color (HEX) for this custom annotation.",
       "type": "string",
@@ -41,7 +47,7 @@
       "type": "array",      
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several (source) image files that inspired the definition of this custom annotation.",
+      "_instruction": "Add one or several (source) files that inspired the definition of this custom annotation.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File"
       ]
@@ -63,12 +69,6 @@
     "name": {
       "type": "string",
       "_instruction": "Enter a descriptive name for this custom annotation."
-    },
-    "visualizedIn": {
-      "_instruction": "Add the image file in which this custom annotation is visualized in.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File"
-      ]
     }
   }
 }
