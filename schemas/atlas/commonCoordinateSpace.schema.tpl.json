@@ -1,10 +1,10 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
   "required": [
-    "anatomicalAxesOrientation",    
+    "anatomicalAxesOrientation",   
+    "axesOrigin",
     "fullName",    
     "nativeUnit",
-    "axesOrigin",
     "releaseDate",
     "shortName",
     "versionIdentifier"
@@ -14,6 +14,16 @@
       "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (stated as XYZ) for this common coordinate space.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation"
+      ]
+    },
+    "axesOrigin": {
+      "type": "array",        
+      "maxItems": 3,    
+      "minItems": 2,
+      "uniqueItems": true,
+      "_instruction": "Enter the origin of this common coordinate space (central point where axes intersect; 2D: [x, y] or 3D:[x, y, z]).",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
     },
     "defaultImage": {
@@ -58,16 +68,6 @@
         "iri"
       ],
       "_instruction": "Enter the identifier (IRI) of the related ontological term matching this common coordinate space."
-    },
-    "axesOrigin": {
-      "type": "array",        
-      "maxItems": 3,    
-      "minItems": 2,
-      "uniqueItems": true,
-      "_instruction": "Enter the origin of this common coordinate space (central point where axes intersect; 2D: [x, y] or 3D:[x, y, z]).",
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
-      ]
     },
     "releaseDate": {
       "type": "string",      
