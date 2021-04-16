@@ -35,12 +35,6 @@
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
       ]
     },
-    "isPartOf": {
-      "_instruction": "Add one or several brain atlas versions that belong to this parcellation terminology.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
-      ]
-    },
     "ontologyIdentifier": {
       "type": "string",      
       "_formats": [
