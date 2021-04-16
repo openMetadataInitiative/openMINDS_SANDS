@@ -1,16 +1,26 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/CustomCoordinateSpace",
   "required": [
-    "anatomicalAxesOrientation",   
-    "nativeUnit",
+    "anatomicalAxesOrientation",
+    "axesOrigin",
     "name",
-    "axesOrigin"
+    "nativeUnit"
   ],
   "properties": {
     "anatomicalAxesOrientation": {
       "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (stated as XYZ) for this custom coordinate space.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation"
+      ]
+    },    
+    "axesOrigin": {
+      "type": "array",        
+      "maxItems": 3,    
+      "minItems": 2,
+      "uniqueItems": true,
+      "_instruction": "Enter the origin of this custom coordinate space (central point where axes intersect; 2D: [x, y] or 3D:[x, y, z]).",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
     },
     "defaultImage": {
@@ -30,16 +40,6 @@
       "_instruction": "Add the native unit that is used for this custom coordinate space.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
-      ]
-    },    
-    "axesOrigin": {
-      "type": "array",        
-      "maxItems": 3,    
-      "minItems": 2,
-      "uniqueItems": true,
-      "_instruction": "Enter the origin of this custom coordinate space (central point where axes intersect; 2D: [x, y] or 3D:[x, y, z]).",
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
     }
   }
