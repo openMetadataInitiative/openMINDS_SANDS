@@ -20,7 +20,7 @@
     "hasParent": {
       "_instruction": "Add for this parcellation entity the defined anatomical parent structure.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationAnatomicalEntity"
+        "https://openminds.ebrains.eu/sands/ParcellationEntity"
       ]
     },
     "isPartOf": {
