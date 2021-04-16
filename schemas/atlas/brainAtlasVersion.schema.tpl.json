@@ -3,6 +3,7 @@
   "required": [
     "coordinateSpace",
     "fullName",
+    "hasTerminology",
     "releaseDate",
     "shortName",
     "versionIdentifier",
@@ -10,7 +11,7 @@
   ],
   "properties": {    
     "coordinateSpace": {
-      "_instruction": "Add the coordinate space in which this brain atlas version exists in.",
+      "_instruction": "Add the common coordinate space in which this brain atlas version exists in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpace"
       ]
@@ -24,6 +25,12 @@
     "fullName": {
       "type": "string",
       "_instruction": "Enter a descriptive full name for this brain atlas version."
+    },
+    "hasTerminology": {
+      "_instruction": "Add the parcellation terminology for this brain atlas version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/parcellationTerminology"
+      ]
     },
     "homepage": {
       "type": "string",
