@@ -1,10 +1,10 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/BrainAtlas",
   "required": [
-    "shortName",
     "description",
     "fullName",
-    "hasVersion"
+    "hasVersion",
+    "shortName"
   ],
   "properties": {
     "description": {
