@@ -32,9 +32,9 @@
       ]
     },    
     "displayColor": {
-      "_instruction": "Enter the preferred display color (HEX) for this atlas annotation.",
       "type": "string",
-      "pattern": "^#[0-9A-Fa-f]{6}$"
+      "pattern": "^#[0-9A-Fa-f]{6}$",
+      "_instruction": "Enter the preferred display color (HEX) for this atlas annotation."
     },
     "inspiredBy": {
       "type": "array",      
