@@ -3,8 +3,8 @@
   "required": [
     "coordinateSpace",
     "criteriaQualityType",
-    "definedIn",
-    "internalIdentifier"
+    "internalIdentifier",    
+    "visualizedIn"
   ],
   "properties": {   
     "bestViewPoint": {      
@@ -31,13 +31,7 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType"
       ]
-    },     
-    "definedIn": {
-      "_instruction": "Add the (source) file in which this custom annotation is defined in.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File"
-      ]
-    },   
+    },        
     "displayColor": {
       "_instruction": "Enter the preferred display color (HEX) for this custom annotation.",
       "type": "string",
@@ -69,6 +63,12 @@
     "name": {
       "type": "string",
       "_instruction": "Enter a descriptive name for this custom annotation."
+    },    
+    "visualizedIn": {
+      "_instruction": "Add the (source) file in which this custom annotation is visualized in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ]
     }
   }
 }
