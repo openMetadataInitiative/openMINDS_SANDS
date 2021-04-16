@@ -25,6 +25,12 @@
         "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType"
       ]
     },    
+    "definedIn": {
+      "_instruction": "Add the (image) file in which this atlas annotation is defined in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ]
+    },    
     "displayColor": {
       "_instruction": "Enter the preferred display color (HEX) for this atlas annotation.",
       "type": "string",
@@ -64,12 +70,6 @@
     "versionInnovation": {
       "type": "string",
       "_instruction": "Enter a short description of the novelties/peculiarities of this atlas annotation."
-    },
-    "definedIn": {
-      "_instruction": "Add the (image) file in which this atlas annotation is defined in.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File"
-      ]
     }
   }
 }
