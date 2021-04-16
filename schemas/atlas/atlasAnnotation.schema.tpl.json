@@ -34,7 +34,7 @@
       "type": "array",      
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several (source) image files that inspired the definition of this atlas annotation.",
+      "_instruction": "Add one or several (source) files that inspired the definition of this atlas annotation.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File"
       ]
@@ -65,8 +65,8 @@
       "type": "string",
       "_instruction": "Enter a short description of the novelties/peculiarities of this atlas annotation."
     },
-    "visualizedIn": {
-      "_instruction": "Add the image file in which this atlas annotation is visualized in.",
+    "definedIn": {
+      "_instruction": "Add the (image) file in which this atlas annotation is defined in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File"
       ]
