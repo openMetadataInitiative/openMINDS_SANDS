@@ -17,6 +17,10 @@
     "internalIdentifier": {
       "type": "string",
       "_instruction": "Enter the identifier used for this electrode within the file it is stored in."
+    },
+    "lookupLabel": {
+      "type": "string",
+      "_instruction": "Enter a lookup label for this electrode that may help you to more easily find it again."
     }
   }
 }
