@@ -29,7 +29,7 @@
     "hasTerminology": {
       "_instruction": "Add the parcellation terminology for this brain atlas version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/parcellationTerminology"
+        "https://openminds.ebrains.eu/sands/ParcellationTerminology"
       ]
     },
     "homepage": {
