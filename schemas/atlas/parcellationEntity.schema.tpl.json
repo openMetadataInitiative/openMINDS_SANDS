@@ -6,7 +6,6 @@
   "required": [
     "isPartOf",
     "name",
-    "relatedUBERONTerm",
     "versionIdentifier",
     "versionInnovation"
   ],
