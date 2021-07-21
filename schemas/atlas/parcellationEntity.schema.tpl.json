@@ -1,0 +1,41 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "_categories": [
+    "studyTarget"
+  ],
+  "required": [
+    "name",
+    "hasVersion"  
+  ],
+  "properties": {
+    "hasParent": {
+      "_instruction": "Add for this parcellation entity the defined anatomical parent structure.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/ParcellationEntity"
+      ]
+    },
+    "hasVersion":{
+      "_instruction": "Add the available version(s) of this parcellation entity.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "_instruction": "Enter the name for this parcellation entity."
+    },      
+    "ontologyIdentifier": {
+      "type": "string",      
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the ontological term matching this parcellation entity."
+    }, 
+    "relatedUBERONTerm":{
+      "_instruction": "Add the related UBERON parcellation term.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation"
+      ]
+    }
+  }
+}
