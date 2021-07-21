@@ -20,6 +20,15 @@
       "type": "string",
       "_instruction": "Enter a descriptive full name for this parcellation terminology."
     },
+    "hasEntity": {
+      "type": "array",      
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all parcellation entity versions which belong to this parcellation terminology version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+      ]
+    },
     "isAlternativeVersionOf": {
       "type": "array",      
       "minItems": 1,
