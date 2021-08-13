@@ -1,7 +1,7 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
   "required": [
-    "fullName",    
+    "hasEntity",    
     "shortName"
   ],
   "properties": {
