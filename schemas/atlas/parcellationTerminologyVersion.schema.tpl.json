@@ -1,7 +1,7 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
   "required": [
-    "fullName",    
+    "shortName",    
     "versionIdentifier",
     "versionInnovation"
   ],
