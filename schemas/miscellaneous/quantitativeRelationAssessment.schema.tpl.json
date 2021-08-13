@@ -12,9 +12,9 @@
       ]
     },
     "inRelationTo": {
-      "_instruction": "Add the anatomical entity to which the relation is described.",
+      "_instruction": "Add the parcellation entity version to which the relation is described.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationEntity"
+        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
       ]
     },    
     "quantitativeOverlap": {

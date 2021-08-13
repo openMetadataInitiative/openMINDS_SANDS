@@ -14,8 +14,11 @@
         "https://openminds.ebrains.eu/sands/ParcellationEntity"
       ]
     },
-    "hasVersion":{
-      "_instruction": "Add the available version(s) of this parcellation entity.",
+    "hasVersion": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several versions of this parcellation entity.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
       ]

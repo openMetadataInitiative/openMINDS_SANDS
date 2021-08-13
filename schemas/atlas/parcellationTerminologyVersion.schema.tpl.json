@@ -1,8 +1,7 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
   "required": [
-    "fullName",    
-    "shortName",
+    "shortName",    
     "versionIdentifier",
     "versionInnovation"
   ],
@@ -11,16 +10,16 @@
       "type": "array",      
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several files in which this parcellation terminology is stored in.",
+      "_instruction": "Add one or several files in which this parcellation terminology version is stored in.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File"
       ]
     },
     "fullName": {
       "type": "string",
-      "_instruction": "Enter a descriptive full name for this parcellation terminology."
+      "_instruction": "Enter a descriptive full name for this parcellation terminology version."
     },
-    "hasEntity": {
+    "hasEntityVersion": {
       "type": "array",      
       "minItems": 1,
       "uniqueItems": true,
@@ -33,15 +32,15 @@
       "type": "array",      
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several alternative versions to this parcellation terminology.",
+      "_instruction": "Add one or several alternative versions to this parcellation terminology version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationTerminology"
+        "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion"
       ]
     },
     "isNewVersionOf": {
-      "_instruction": "Add the earlier version of this parcellation terminology.",
+      "_instruction": "Add the earlier version of this parcellation terminology version.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationTerminology"
+        "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion"
       ]
     },
     "ontologyIdentifier": {
@@ -49,19 +48,19 @@
       "_formats": [
         "iri"
       ],
-      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this parcellation terminology."
+      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this parcellation terminology version."
     },    
     "shortName": {
       "type": "string",
-      "_instruction": "Enter a descriptive short name for this parcellation terminology."
+      "_instruction": "Enter a descriptive short name for this parcellation terminology version."
     },
     "versionIdentifier": {
       "type": "string",
-      "_instruction": "Enter the version identifier of this parcellation terminology."
+      "_instruction": "Enter the version identifier of this parcellation terminology version."
     },
     "versionInnovation": {
       "type": "string",
-      "_instruction": "Enter a short description of the novelties/peculiarities of this parcellation terminology."
+      "_instruction": "Enter a short description of the novelties/peculiarities of this parcellation terminology version."
     }
   }
 }

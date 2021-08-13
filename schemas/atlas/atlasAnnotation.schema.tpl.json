@@ -3,8 +3,6 @@
   "required": [
     "criteriaQualityType",
     "internalIdentifier",
-    "versionIdentifier",
-    "versionInnovation"
   ],
   "properties": {   
     "bestViewPoint": {      
@@ -56,19 +54,7 @@
     "lookupLabel": {
       "type": "string",
       "_instruction": "Enter a lookup label for this atlas annotation that may help you to more easily find it again."
-    },
-    "name": {
-      "type": "string",
-      "_instruction": "Enter a descriptive name for this atlas annotation."
-    },
-    "versionIdentifier": {
-      "type": "string",
-      "_instruction": "Enter the version identifier of this atlas annotation."
-    },
-    "versionInnovation": {
-      "type": "string",
-      "_instruction": "Enter a short description of the novelties/peculiarities of this atlas annotation."
-    },    
+    },  
     "visualizedIn": {
       "_instruction": "Add the (source) image file in which this atlas annotation is visualized in.",
       "_linkedTypes": [
