@@ -3,9 +3,19 @@
   "_extends": "/core/products/researchProductVersion.schema.tpl.json",
   "required": [
     "coordinateSpace",
-    "hasTerminologyVersion"
+    "hasTerminologyVersion",
+    "license"
   ],
-  "properties": {    
+  "properties": {      
+    "author": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "If necessary, add one or several authors (person or organization) that contributed to the production and publication of this dataset version. Note that these authors will overwrite the once provided in the dataset product this version belongs to.",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
+    },  
     "coordinateSpace": {
       "_instruction": "Add the common coordinate space in which this brain atlas version exists in.",
       "_linkedTypes": [
@@ -38,6 +48,12 @@
       "_instruction": "Add the earlier version of this brain atlas version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
+      ]
+    },    
+    "license": {
+      "_instruction": "Add the license for this brain atlas version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/License"
       ]
     },
     "ontologyIdentifier": {
