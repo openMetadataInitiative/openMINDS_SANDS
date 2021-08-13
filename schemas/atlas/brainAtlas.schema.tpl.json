@@ -14,10 +14,6 @@
         "legalPerson"
       ]
     },
-    "description": {
-      "type": "string",
-      "_instruction": "Enter a short description for this brain atlas."
-    },
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this brain atlas.",
       "_linkedTypes": [
