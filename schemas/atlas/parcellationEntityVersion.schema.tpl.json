@@ -16,12 +16,12 @@
     "hasParent": {
       "_instruction": "Add for this parcellation entity version the defined anatomical parent structure.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationEntity"
+        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
       ]
     },
     "name": {
       "type": "string",
-      "_instruction": "Enter the name for this parcellation entity version."
+      "_instruction": "If necessary, enter a version specific name for this parcellation entity version. If left blank, the parcellation entity version will inherit the 'name' of it's corresponding parcellation entity."
     },      
     "ontologyIdentifier": {
       "type": "string",      
