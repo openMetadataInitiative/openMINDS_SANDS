@@ -2,7 +2,8 @@
   "_type": "https://openminds.ebrains.eu/sands/BrainAtlas",
   "_extends": "/core/products/researchProduct.schema.tpl.json",
   "required": [
-    "author"
+    "author",
+    "hasTerminology"
   ],
   "properties": {
     "author": {
@@ -19,6 +20,12 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DOI",
         "https://openminds.ebrains.eu/core/ISBN"
+      ]
+    },    
+    "hasTerminology": {
+      "_instruction": "Add the parcellation terminology for this brain atlas.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/sands/ParcellationTerminology"
       ]
     },
     "hasVersion": {
