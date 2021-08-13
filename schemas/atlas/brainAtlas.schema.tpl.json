@@ -10,7 +10,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several authors (person or organization) that contributed to the production and publication of this dataset.",
+      "_instruction": "Add one or several authors (person or organization) that contributed to the production and publication of this brain atlas.",
       "_linkedCategories": [
         "legalPerson"
       ]
