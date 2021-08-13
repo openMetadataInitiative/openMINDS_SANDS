@@ -16,7 +16,7 @@
     "hasParent": {
       "_instruction": "Add for this parcellation entity version the defined anatomical parent structure (version).",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationEntity"        
+        "https://openminds.ebrains.eu/sands/ParcellationEntity",       
         "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
       ]
     },
