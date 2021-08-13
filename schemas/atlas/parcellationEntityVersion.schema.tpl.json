@@ -4,44 +4,37 @@
     "studyTarget"
   ],
   "required": [
-    "name",
     "versionIdentifier"  
   ],
   "properties": {
     "hasAnnotation": {
-      "_instruction": "Add the atlas annotation which this parcellation entity defines.",
+      "_instruction": "Add the atlas annotation which this parcellation entity version defines.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/sands/AtlasAnnotation"
       ]
     },
     "hasParent": {
-      "_instruction": "Add for this parcellation entity the defined anatomical parent structure.",
+      "_instruction": "Add for this parcellation entity version the defined anatomical parent structure.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/ParcellationEntity"
       ]
     },
     "name": {
       "type": "string",
-      "_instruction": "Enter the name for this parcellation entity."
+      "_instruction": "Enter the name for this parcellation entity version."
     },      
     "ontologyIdentifier": {
       "type": "string",      
       "_formats": [
         "iri"
       ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the ontological term matching this parcellation entity."
+      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the ontological term matching this parcellation entity version."
     }, 
-    "relatedUBERONTerm":{
-      "_instruction": "Add the related UBERON parcellation term.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation"
-      ]
-    },
     "relationAssessment": {
       "type": "array",      
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several relations of this parcellation entity to parcellation entities of other parcellation terminologies.",
+      "_instruction": "Add one or several relations of this parcellation entity version to parcellation entity versions of other parcellation terminology versions.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/sands/QualitativeRelationAssessment",
         "https://openminds.ebrains.eu/sands/QuantitativeRelationAssessment"
@@ -49,11 +42,11 @@
     },
     "versionIdentifier": {
       "type": "string",
-      "_instruction": "Enter the version identifier of this parcellation entity."
+      "_instruction": "Enter the version identifier of this parcellation entity version."
     },
     "versionInnovation": {
       "type": "string",
-      "_instruction": "Enter a short description of the novelties/peculiarities of this parcellation entity."
+      "_instruction": "Enter a short description of the novelties/peculiarities of this parcellation entity version."
     }
   }
 }
