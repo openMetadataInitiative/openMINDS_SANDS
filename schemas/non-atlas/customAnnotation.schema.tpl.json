@@ -64,10 +64,6 @@
       "type": "string",
       "_instruction": "Enter a lookup label for this custom annotation that may help you to more easily find it again."
     },
-    "name": {
-      "type": "string",
-      "_instruction": "Enter a descriptive name for this custom annotation."
-    },    
     "visualizedIn": {
       "_instruction": "Add the (source) image file in which this custom annotation is visualized in.",
       "_linkedTypes": [
