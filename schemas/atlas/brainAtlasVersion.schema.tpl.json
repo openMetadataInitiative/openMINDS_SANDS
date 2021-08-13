@@ -1,13 +1,9 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+  "_extends": "/core/products/researchProductVersion.schema.tpl.json",
   "required": [
     "coordinateSpace",
-    "fullName",
-    "hasTerminology",
-    "releaseDate",
-    "shortName",
-    "versionIdentifier",
-    "versionInnovation" 
+    "hasTerminologyVersion"
   ],
   "properties": {    
     "coordinateSpace": {
@@ -23,25 +19,11 @@
         "https://openminds.ebrains.eu/core/ISBN"
       ]
     },
-    "fullName": {
-      "type": "string",
-      "_instruction": "Enter a descriptive full name for this brain atlas version."
-    },
-    "hasTerminology": {
-      "_instruction": "Add the parcellation terminology for this brain atlas version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationTerminology"
+    "hasTerminologyVersion": {
+      "_instruction": "Add the parcellation terminology version for this brain atlas version.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion"
       ]
-    },
-    "homepage": {
-      "_instruction": "Add the uniform resource locator (URL) to the homepage of this brain atlas version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/URL"
-      ]
-    },
-    "howToCite": {
-      "type": "string",
-      "_instruction": "Enter the preferred citation text for this brain atlas version. Leave blank if citation text can be extracted from the assigned digital identifier."
     },
     "isAlternativeVersionOf": {
       "type": "array",      
@@ -64,25 +46,6 @@
         "iri"
       ],
       "_instruction": "Enter the identifier (IRI) of the related ontological term matching this brain atlas version."
-    },
-    "releaseDate": {
-      "type": "string",      
-      "_formats": [
-        "date"
-      ],
-      "_instruction": "Enter the date of first publication of this brain atlas version."
-    },    
-    "shortName": {
-      "type": "string",
-      "_instruction": "Enter a descriptive short name for this brain atlas version."
-    },
-    "versionIdentifier": {
-      "type": "string",
-      "_instruction": "Enter the version identifier of this brain atlas version."
-    },
-    "versionInnovation": {
-      "type": "string",
-      "_instruction": "Enter a short description of the novelties/peculiarities of this brain atlas version."
     }
   }
 }
