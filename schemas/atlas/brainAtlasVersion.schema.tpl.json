@@ -11,7 +11,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "If necessary, add one or several authors (person or organization) that contributed to the production and publication of this dataset version. Note that these authors will overwrite the once provided in the dataset product this version belongs to.",
+      "_instruction": "If necessary, add one or several authors (person or organization) that contributed to the production and publication of this brain atlas version. Note that these authors will overwrite the once provided in the brain atlas product this version belongs to.",
       "_linkedCategories": [
         "legalPerson"
       ]
