@@ -8,8 +8,11 @@
     "hasVersion"  
   ],
   "properties": {
-    "hasParent": {
-      "_instruction": "Add for this parcellation entity the defined anatomical parent structure.",
+    "hasParent": {      
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add the defined anatomical parent structure for this parcellation entity or several if required.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/ParcellationEntity"
       ]
