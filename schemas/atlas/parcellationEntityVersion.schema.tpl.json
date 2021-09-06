@@ -12,9 +12,12 @@
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/sands/AtlasAnnotation"
       ]
-    },
-    "hasParent": {
-      "_instruction": "Add for this parcellation entity version the defined anatomical parent structure (version).",
+    },    
+    "hasParent": {      
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add the defined anatomical parent structure (version) for this parcellation entity version, or several if required.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/ParcellationEntity",       
         "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
