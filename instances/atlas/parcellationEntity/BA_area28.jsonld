@@ -1,0 +1,20 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area28",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_cerebralCortex"
+        }
+    ],
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA_1909_area28"
+        }
+    ],
+    "name": "Brodmann area 28",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": []
+}

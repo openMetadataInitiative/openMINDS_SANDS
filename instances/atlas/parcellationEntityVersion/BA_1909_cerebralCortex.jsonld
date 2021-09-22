@@ -1,0 +1,14 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA_1909_cerebralCortex",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [],
+    "hasParent": [],
+    "name": "Brodmann (1909) cerebral cortex",
+    "ontologyIdentifier": "http://purl.obolibrary.org/obo/UBERON_0013529",
+    "relationAssessment": [],
+    "versionIdentifier": "1909",
+    "versionInnovation": null
+}

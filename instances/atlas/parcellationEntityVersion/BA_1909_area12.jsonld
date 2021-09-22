@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA_1909_area12",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [],
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA_1909_cerebralCortex"
+        }
+    ],
+    "name": "Brodmann (1909) area 12",
+    "ontologyIdentifier": "http://purl.obolibrary.org/obo/UBERON_0013543",
+    "relationAssessment": [],
+    "versionIdentifier": "1909",
+    "versionInnovation": null
+}
