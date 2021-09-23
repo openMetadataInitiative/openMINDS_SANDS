@@ -12,5 +12,5 @@
     ],
     "name": "Brodmann cerebral cortex",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": "http://purl.obolibrary.org/obo/UBERON_0000956"
 }
