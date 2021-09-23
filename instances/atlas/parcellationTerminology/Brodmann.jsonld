@@ -4,7 +4,7 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationTerminology/Brodmann",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
-    "definedIn": [],
+    "definedIn": null,
     "fullName": "Brodmann cortical parcellation scheme",
     "hasEntity": [
         {

@@ -161,8 +161,8 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA_1909_area52"
         }
     ],
-    "isAlternativeVersion": [],
-    "isNewVersionOf": [],
+    "isAlternativeVersion": null,
+    "isNewVersionOf": null,
     "ontologyIdentifier": null,
     "shortName": "Brodmann (1909, human)",
     "versionIdentifier": null,

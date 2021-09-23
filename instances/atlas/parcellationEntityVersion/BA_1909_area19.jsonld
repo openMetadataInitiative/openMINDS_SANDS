@@ -4,7 +4,7 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA_1909_area19",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": [],
+    "hasAnnotation": null,
     "hasParent": [
         {
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA_1909_cerebralCortex"
@@ -12,7 +12,7 @@
     ],
     "name": "Brodmann (1909) area 19",
     "ontologyIdentifier": "http://purl.obolibrary.org/obo/UBERON_0013550",
-    "relationAssessment": [],
+    "relationAssessment": null,
     "versionIdentifier": "1909",
     "versionInnovation": null
 }
