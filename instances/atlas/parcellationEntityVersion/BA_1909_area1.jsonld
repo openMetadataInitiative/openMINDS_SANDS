@@ -10,7 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA_1909_cerebralCortex"
         }
     ],
-    "name": "Brodmann (1909) area 1",
+    "name": "Brodmann area 1",
     "ontologyIdentifier": "http://purl.obolibrary.org/obo/UBERON_0006099",
     "relationAssessment": null,
     "versionIdentifier": "1909",

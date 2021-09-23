@@ -16,7 +16,5 @@
     ],
     "name": "Brodmann area 6",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": {
-        "@id": " "
-    }
+    "relatedUBERONTerm": null
 }
