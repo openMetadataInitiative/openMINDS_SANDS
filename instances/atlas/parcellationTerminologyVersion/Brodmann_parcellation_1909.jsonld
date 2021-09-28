@@ -5,7 +5,7 @@
     "@id": "https://openminds.ebrains.eu/instances/parcellationTerminologyVersion/Brodmann_parcellation_1909",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
     "definedIn": null,
-    "fullName": "Brodmann (1909) cortical parcellation scheme",
+    "fullName": "Brodmann cortical parcellation scheme",
     "hasEntityVersion": [
         {
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA_1909_area1"
@@ -162,6 +162,6 @@
     "isNewVersionOf": null,
     "ontologyIdentifier": null,
     "shortName": "Brodmann parcellation (1909)",
-    "versionIdentifier": null,
+    "versionIdentifier": "1909",
     "versionInnovation": null
 }
