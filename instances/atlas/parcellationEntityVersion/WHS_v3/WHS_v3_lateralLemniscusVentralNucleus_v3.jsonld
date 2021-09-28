@@ -4,12 +4,12 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v3_lateralLemniscusVentralNucleus_v3",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v3_NucleiOfTheLateralLemniscus_v3"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_lateralLemniscusVentralNucleus"
         }
     ],
+    "hasParent": null,
     "name": "lateral lemniscus, ventral nucleus",
     "ontologyIdentifier": null,
     "relationAssessment": null,

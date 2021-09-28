@@ -4,12 +4,12 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v2_opticNerve_v2",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v2_OpticFiberSystemAndSupraopticDecussation_v2"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_opticNerve"
         }
     ],
+    "hasParent": null,
     "name": "optic nerve",
     "ontologyIdentifier": null,
     "relationAssessment": null,

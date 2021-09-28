@@ -4,12 +4,12 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v3_inferiorColliculusExternalCortex_v3",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v3_InferiorColliculus_v3"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_inferiorColliculusExternalCortex"
         }
     ],
+    "hasParent": null,
     "name": "inferior colliculus, external cortex",
     "ontologyIdentifier": null,
     "relationAssessment": null,

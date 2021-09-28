@@ -4,12 +4,12 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v3_dorsalCochlearNucleusMolecularLayer_v3",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v3_CochlearNucleusDorsalPart_v3"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_dorsalCochlearNucleusMolecularLayer"
         }
     ],
+    "hasParent": null,
     "name": "dorsal cochlear nucleus, molecular layer",
     "ontologyIdentifier": null,
     "relationAssessment": null,

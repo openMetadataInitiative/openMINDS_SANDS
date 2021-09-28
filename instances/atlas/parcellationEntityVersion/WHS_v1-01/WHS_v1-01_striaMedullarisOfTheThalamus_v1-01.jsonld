@@ -2,14 +2,14 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1.01_striaMedullarisOfTheThalamus_v1.01",
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_striaMedullarisOfTheThalamus_v1-01",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1.01_ThalamicTracts_v1.01"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_striaMedullarisOfTheThalamus"
         }
     ],
+    "hasParent": null,
     "name": "stria medullaris of the thalamus",
     "ontologyIdentifier": null,
     "relationAssessment": null,

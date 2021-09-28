@@ -4,12 +4,12 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v3_molecularLayerOfTheCerebellum_v3",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v3_Cerebellum_v3"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_molecularLayerOfTheCerebellum"
         }
     ],
+    "hasParent": null,
     "name": "molecular layer of the cerebellum",
     "ontologyIdentifier": null,
     "relationAssessment": null,

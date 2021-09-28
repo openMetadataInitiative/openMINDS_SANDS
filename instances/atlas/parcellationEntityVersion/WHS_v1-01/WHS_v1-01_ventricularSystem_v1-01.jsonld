@@ -2,9 +2,13 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1.01_ventricularSystem_v1.01",
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_ventricularSystem_v1-01",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_ventricularSystem"
+        }
+    ],
     "hasParent": null,
     "name": "ventricular system",
     "ontologyIdentifier": null,

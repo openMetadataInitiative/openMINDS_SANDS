@@ -4,12 +4,12 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v2_centralCanal_v2",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v2_SpinalCord_v2"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_centralCanal"
         }
     ],
+    "hasParent": null,
     "name": "central canal",
     "ontologyIdentifier": null,
     "relationAssessment": null,

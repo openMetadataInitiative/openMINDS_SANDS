@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v2_granuleCellLevelOfTheCerebellum_v2",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_granuleCellLevelOfTheCerebellum"
+        }
+    ],
+    "hasParent": null,
+    "name": "granule cell level of the cerebellum",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v2",
+    "versionInnovation": null
+}

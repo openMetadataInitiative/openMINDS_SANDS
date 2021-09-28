@@ -4,12 +4,12 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v2_middleCerebellarPeduncle_v2",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v2_CerebellarAndPrecerebellarWhiteMatter_v2"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_middleCerebellarPeduncle"
         }
     ],
+    "hasParent": null,
     "name": "middle cerebellar peduncle",
     "ontologyIdentifier": null,
     "relationAssessment": null,

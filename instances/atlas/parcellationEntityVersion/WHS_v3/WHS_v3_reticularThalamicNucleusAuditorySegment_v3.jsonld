@@ -4,12 +4,12 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v3_reticularThalamicNucleusAuditorySegment_v3",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v3_Thalamus_v3"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_reticularThalamicNucleusAuditorySegment"
         }
     ],
+    "hasParent": null,
     "name": "reticular thalamic nucleus, auditory segment",
     "ontologyIdentifier": null,
     "relationAssessment": null,

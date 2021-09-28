@@ -2,14 +2,14 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1.01_molecularCellLayerOfTheCerebellum_v1.01",
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_molecularCellLayerOfTheCerebellum_v1-01",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1.01_Cerebellum_v1.01"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_molecularCellLayerOfTheCerebellum"
         }
     ],
+    "hasParent": null,
     "name": "molecular cell layer of the cerebellum",
     "ontologyIdentifier": null,
     "relationAssessment": null,

@@ -4,12 +4,12 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v2_pyramidalDecussation_v2",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v2_CorticofugalPathways_v2"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_pyramidalDecussation"
         }
     ],
+    "hasParent": null,
     "name": "pyramidal decussation",
     "ontologyIdentifier": null,
     "relationAssessment": null,

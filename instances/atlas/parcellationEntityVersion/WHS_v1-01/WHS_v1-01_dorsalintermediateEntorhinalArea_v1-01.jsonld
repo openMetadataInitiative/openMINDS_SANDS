@@ -2,14 +2,14 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1.01_dorsalintermediateEntorhinalArea_v1.01",
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_dorsalintermediateEntorhinalArea_v1-01",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1.01_CerebralCortexIncludingTheNeocortexAndTheHippocampus_v1.01"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_dorsalintermediateEntorhinalArea"
         }
     ],
+    "hasParent": null,
     "name": "dorsal-intermediate entorhinal area",
     "ontologyIdentifier": null,
     "relationAssessment": null,

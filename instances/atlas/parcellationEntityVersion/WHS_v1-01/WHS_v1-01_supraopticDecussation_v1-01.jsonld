@@ -2,14 +2,14 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1.01_supraopticDecussation_v1.01",
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_supraopticDecussation_v1-01",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1.01_OpticFiberSystemAndSupraopticDecussation_v1.01"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_supraopticDecussation"
         }
     ],
+    "hasParent": null,
     "name": "supraoptic decussation",
     "ontologyIdentifier": null,
     "relationAssessment": null,

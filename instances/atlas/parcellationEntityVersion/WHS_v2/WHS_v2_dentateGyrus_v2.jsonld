@@ -4,12 +4,12 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v2_dentateGyrus_v2",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v2_CerebralCortexIncludingTheNeocortexAndTheHippocampus_v2"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_dentateGyrus"
         }
     ],
+    "hasParent": null,
     "name": "dentate gyrus",
     "ontologyIdentifier": null,
     "relationAssessment": null,

@@ -4,12 +4,12 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v2_glomerularLayerOfTheOlfactoryBulb_v2",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v2_OlfactorySystem_v2"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_glomerularLayerOfTheOlfactoryBulb"
         }
     ],
+    "hasParent": null,
     "name": "glomerular layer of the olfactory bulb",
     "ontologyIdentifier": null,
     "relationAssessment": null,

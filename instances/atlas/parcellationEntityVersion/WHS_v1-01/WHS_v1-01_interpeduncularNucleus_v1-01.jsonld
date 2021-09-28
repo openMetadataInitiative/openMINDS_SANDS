@@ -2,14 +2,14 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1.01_interpeduncularNucleus_v1.01",
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_interpeduncularNucleus_v1-01",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1.01_GrayMatter_v1.01"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_interpeduncularNucleus"
         }
     ],
+    "hasParent": null,
     "name": "interpeduncular nucleus",
     "ontologyIdentifier": null,
     "relationAssessment": null,

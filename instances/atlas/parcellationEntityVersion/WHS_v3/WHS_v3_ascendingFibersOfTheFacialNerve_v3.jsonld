@@ -4,12 +4,12 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v3_ascendingFibersOfTheFacialNerve_v3",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v3_FacialNerve_v3"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_ascendingFibersOfTheFacialNerve"
         }
     ],
+    "hasParent": null,
     "name": "ascending fibers of the facial nerve",
     "ontologyIdentifier": null,
     "relationAssessment": null,

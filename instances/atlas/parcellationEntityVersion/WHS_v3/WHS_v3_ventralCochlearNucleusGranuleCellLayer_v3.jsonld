@@ -4,12 +4,12 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v3_ventralCochlearNucleusGranuleCellLayer_v3",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v3_CochlearNucleusVentralPart_v3"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_ventralCochlearNucleusGranuleCellLayer"
         }
     ],
+    "hasParent": null,
     "name": "ventral cochlear nucleus, granule cell layer",
     "ontologyIdentifier": null,
     "relationAssessment": null,

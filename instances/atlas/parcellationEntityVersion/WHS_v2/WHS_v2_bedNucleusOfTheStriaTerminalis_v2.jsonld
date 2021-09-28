@@ -4,12 +4,12 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v2_bedNucleusOfTheStriaTerminalis_v2",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v2_GrayMatter_v2"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_bedNucleusOfTheStriaTerminalis"
         }
     ],
+    "hasParent": null,
     "name": "bed nucleus of the stria terminalis",
     "ontologyIdentifier": null,
     "relationAssessment": null,

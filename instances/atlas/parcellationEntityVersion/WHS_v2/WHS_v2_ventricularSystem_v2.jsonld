@@ -4,7 +4,11 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v2_ventricularSystem_v2",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_ventricularSystem"
+        }
+    ],
     "hasParent": null,
     "name": "ventricular system",
     "ontologyIdentifier": null,

@@ -4,12 +4,12 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v3_opticTractAndOpticChiasm_v3",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v3_OpticFiberSystemAndSupraopticDecussation_v3"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_opticTractAndOpticChiasm"
         }
     ],
+    "hasParent": null,
     "name": "optic tract and optic chiasm",
     "ontologyIdentifier": null,
     "relationAssessment": null,

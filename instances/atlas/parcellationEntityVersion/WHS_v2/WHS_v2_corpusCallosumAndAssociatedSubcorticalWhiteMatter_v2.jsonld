@@ -4,12 +4,12 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v2_corpusCallosumAndAssociatedSubcorticalWhiteMatter_v2",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v2_WhiteMatter_v2"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_corpusCallosumAndAssociatedSubcorticalWhiteMatter"
         }
     ],
+    "hasParent": null,
     "name": "corpus callosum and associated subcortical white matter",
     "ontologyIdentifier": null,
     "relationAssessment": null,

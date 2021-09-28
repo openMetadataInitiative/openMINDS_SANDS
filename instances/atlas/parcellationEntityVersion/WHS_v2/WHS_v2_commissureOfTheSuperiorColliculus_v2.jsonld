@@ -4,12 +4,12 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v2_commissureOfTheSuperiorColliculus_v2",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
-    "hasParent": [
+    "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v2_WhiteMatterOfTheTectum_v2"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_commissureOfTheSuperiorColliculus"
         }
     ],
+    "hasParent": null,
     "name": "commissure of the superior colliculus",
     "ontologyIdentifier": null,
     "relationAssessment": null,
