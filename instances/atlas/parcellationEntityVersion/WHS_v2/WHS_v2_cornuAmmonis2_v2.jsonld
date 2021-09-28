@@ -6,7 +6,7 @@
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
     "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_cornuAmmonis2"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v2_cornuAmmonis2"
         }
     ],
     "hasParent": null,

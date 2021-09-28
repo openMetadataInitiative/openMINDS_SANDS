@@ -6,7 +6,7 @@
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
     "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v3_glomerularLayerOfTheAccessoryOlfactoryBulb"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHS_v2_glomerularLayerOfTheAccessoryOlfactoryBulb"
         }
     ],
     "hasParent": null,
