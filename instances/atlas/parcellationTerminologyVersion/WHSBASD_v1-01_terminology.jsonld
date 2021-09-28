@@ -1,0 +1,245 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationTerminologyVersion/WHSBASD_v1.01_terminology",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
+    "definedIn": null,
+    "fullName": "Waxholm Space Brain Atlas of the Sprague Dawley rat (terminology)",
+    "hasEntityVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_descendingCorticofugalPathways_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_substantiaNigra_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_subthalamicNucleus_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_molecularCellLayerOfTheCerebellum_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_deeperCerebellum_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_alveusOfTheHippocampus_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_inferiorCerebellarPeduncle_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_cingulateCortexArea2_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_dorsallateralEntorhinalArea_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_dorsalintermediateEntorhinalArea_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_perirhinalCortex_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_striatum_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_globusPallidus_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_entopeduncularNucleus_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_ventricularSystem_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_medialLemniscus_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_facialNerve_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_anteriorCommissureAnteriorPart_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_anteriorCommissurePosteriorPart_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_ventralHippocampalCommissure_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_thalamus_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_septalRegion_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_opticNerve_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_opticTractAndOpticChiasm_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_pinealGland_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_innerEar_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_spinalCord_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_commissureOfTheSuperiorColliculus_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_brainstem_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_hypothalamicRegion_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_inferiorColliculus_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_superficialGrayLayerOfTheSuperiorColliculus_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_periaqueductalGray_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_fornix_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_mammillothalamicTract_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_commissuralStriaTerminalis_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_deeperLayersOfTheSuperiorColliculus_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_periventricularGray_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_genuOfTheFacialNerve_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_pontineNuclei_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_fimbriaOfTheHippocampus_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_fasciculusRetroflexus_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_striaMedullarisOfTheThalamus_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_striaTerminalis_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_posteriorCommissure_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_glomerularLayerOfTheAccessoryOlfactoryBulb_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_glomerularLayerOfTheOlfactoryBulb_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_olfactoryBulb_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_corpusCallosumAndAssociatedSubcorticalWhiteMatter_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_brachiumOfTheSuperiorColliculus_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_commissureOfTheInferiorColliculus_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_centralCanal_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_interpeduncularNucleus_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_ascendingFibersOfTheFacialNerve_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_anteriorCommissureIntrabulbarPart_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_inferiorOlive_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_spinalTrigeminalNucleus_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_spinalTrigeminalTract_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_frontalAssociationCortex_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_middleCerebellarPeduncle_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_transverseFibersOfThePons_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_habenularCommissure_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_nucleusOfTheStriaMedullaris_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_basalForebrainRegion_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_supraopticDecussation_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_medialLemniscusDecussation_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_pyramidalDecussation_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_hippocampalFormation_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_subiculum_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_postrhinalCortex_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_ventralintermediateEntorhinalArea_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_medialEntorhinalField_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_caudalEntorhinalField_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_neocortex_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_bedNucleusOfTheStriaTerminalis_v1-01"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHS_v1-01_pretectalRegion_v1-01"
+        }
+    ],
+    "isAlternativeVersion": null,
+    "isNewVersionOf": null,
+    "ontologyIdentifier": null,
+    "shortName": "WHSBASD_v1.01_terminology",
+    "versionIdentifier": "v1.01",
+    "versionInnovation": null
+}
