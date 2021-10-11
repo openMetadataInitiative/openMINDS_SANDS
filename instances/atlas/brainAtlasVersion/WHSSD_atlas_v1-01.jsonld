@@ -1,0 +1,52 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/WHSSD_atlas_v1.01",
+    "@type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+    "accessibility": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
+        }
+    ],
+    "author": null,
+    "coordinateSpace": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/WHSSD_v1.01"
+        }
+    ],
+    "copyright": null,
+    "custodian": null,
+    "description": null,
+    "digitalIdentifier": null,
+    "fullDocumentation": null,
+    "fullName": "Waxholm Space atlas of the Sprague Dawley rat brain",
+    "funding": null,
+    "hasTerminologyVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationTerminologyVersion/WHSSD_terminology_v1.01"
+        }
+    ],
+    "homepage": null,
+    "howToCite": "Please refer to the atlas by its RRID: SCR_017124, and cite the first publication (Papp et al., 2014) along with the publication for the atlas version you have used (see Related publications below).",
+    "isAlternativeVersionOf": null,
+    "isNewVersionOf": null,
+    "keyword": null,
+    "license": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/licenses/ccBySa4.0"
+        }
+    ],
+    "ontologyIdentifier": null,
+    "otherContribution": null,
+    "relatedPublication": null,
+    "releaseDate": "2014-07-17",
+    "repository": null,
+    "shortName": "WHSSD rat brain atlas v1.01",
+    "supportChannel": [
+        "support@ebrains.eu",
+        "https://www.nitrc.org/forum/forum.php?forum_id=9174"
+    ],
+    "versionIdentifier": "v1.01",
+    "versionInnovation": "Anatomical delineations of 76 major brain regions and white matter tracts in the Sprague Dawley rat brain, based on observations in a high resolution magnetic resonance imaging (MRI) volume (DOI: 10.25493/DTSG-ZBS).\n\nThis dataset is hosted on NITRC.org and includes:\n\nWHS_SD_rat_atlas_v1.01.nii.gz: delineation file with anatomical structures\n\nWHS_SD_rat_atlas_v1.label: text file naming the anatomical structures\n\nMBAT_WHS_SD_rat_atlas_v1.01.zip: files describing a suggested hierarchical organization of the anatomical structures\n\nNote: The licence was changed to from CC BY-SA-NC to CC BY-SA on October 1, 2021."
+}

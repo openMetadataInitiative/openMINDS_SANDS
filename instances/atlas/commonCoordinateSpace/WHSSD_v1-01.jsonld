@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/WHSSD_v1.01",
+    "@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+    "anatomicalAxesOrientation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/anatomicalAxesOrientation/RAS"
+        }
+    ],
+    "axesOrigin": null,
+    "defaultImage": null,
+    "digitalIdentifier": null,
+    "fullName": "Waxholm Space of the Sprague Dawley rat brain (coordinate space)", 
+    "homepage": null,
+    "howToCite": null,
+    "nativeUnit": null,
+    "ontologyIdentifier": null,
+    "releaseDate": "2014-07-16",
+    "shortName": "WHSSD v1.01",
+    "versionIdentifier": "v1.01"
+}
