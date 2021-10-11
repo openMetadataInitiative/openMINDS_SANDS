@@ -1,0 +1,37 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://kg.ebrains.eu/api/instances/JBA_Area-p30",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": null,
+    "hasVersion": [
+        {
+            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_Area-p30_PM-v11.0_right"
+        },
+        {
+            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.2_Colin27-1998_Area-p30_PM-v11.0_left"
+        },
+        {
+            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.2_Colin27-1998_Area-p30_PM-v11.0_right"
+        },
+        {
+            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.4_Colin27-1998_Area-p30_PM-v11.0_right"
+        },
+        {
+            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_Area-p30_PM-v11.0_left"
+        },
+        {
+            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_Area-p30_PM-v11.0_left"
+        },
+        {
+            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.4_Colin27-1998_Area-p30_PM-v11.0_left"
+        },
+        {
+            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_Area-p30_PM-v11.0_right"
+        }
+    ],
+    "name": "Area p30 (retrosplenial)",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": null
+}

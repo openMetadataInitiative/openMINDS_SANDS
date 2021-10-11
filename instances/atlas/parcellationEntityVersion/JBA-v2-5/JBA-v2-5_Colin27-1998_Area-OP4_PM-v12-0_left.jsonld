@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.5_Colin27-1998_Area-OP4_PM-v12.0_left",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.5_Colin27-1998_Area-OP4_PM-v12.0_left"
+        }
+    ],
+    "hasParent": null,
+    "name": "Area OP4 (POperc)",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "JBA-v2.5_Colin27-1998_PM-v12.0_left",
+    "versionInnovation": null
+}

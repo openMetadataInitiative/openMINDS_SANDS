@@ -1,0 +1,22 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.5_Colin27-1998_Interposed-Nucleus_PM-v6.2_left",
+    "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+    "bestViewPoint": null,
+    "criteria": null,
+    "criteriaQualityType": {
+        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+    },
+    "displayColor": "#c8c8c8",
+    "inspiredBy": null,
+    "internalIdentifier": "30",
+    "laterality": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        }
+    ],
+    "lookupLabel": "Interposed-Nucleus_PM-v6.2_JBA-v2.5_Colin27-1998_left",
+    "visualizedIn": null
+}

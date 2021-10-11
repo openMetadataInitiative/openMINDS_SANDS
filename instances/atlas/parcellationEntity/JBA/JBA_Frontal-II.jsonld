@@ -1,0 +1,31 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://kg.ebrains.eu/api/instances/JBA_Frontal-II",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": null,
+    "hasVersion": [
+        {
+            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Frontal-II_PM-v10.0_left"
+        },
+        {
+            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Frontal-II_PM-v10.0_right"
+        },
+        {
+            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.5_Colin27-1998_Frontal-II_PM-v10.0_left"
+        },
+        {
+            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Frontal-II_PM-v10.0_left"
+        },
+        {
+            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.5_Colin27-1998_Frontal-II_PM-v10.0_right"
+        },
+        {
+            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Frontal-II_PM-v10.0_right"
+        }
+    ],
+    "name": "Frontal-II (GapMap)",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": null
+}

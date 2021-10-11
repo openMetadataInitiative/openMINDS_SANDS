@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.5_Colin27-1998_Area-7PC_PM-v9.0_left",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.5_Colin27-1998_Area-7PC_PM-v9.0_left"
+        }
+    ],
+    "hasParent": null,
+    "name": "Area 7PC (SPL)",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "JBA-v2.5_Colin27-1998_PM-v9.0_left",
+    "versionInnovation": null
+}

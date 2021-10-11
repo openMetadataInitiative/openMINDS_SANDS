@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Area-Fp1_PM-v4.0_left",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Area-Fp1_PM-v4.0_left"
+        }
+    ],
+    "hasParent": null,
+    "name": "Area Fp1 (FPole)",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_PM-v4.0_left",
+    "versionInnovation": null
+}

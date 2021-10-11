@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://kg.ebrains.eu/api/instances/JBA-v1.18_Colin27-1998_Ch-4_PM-v4.2_left",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://kg.ebrains.eu/api/instances/JBA-v1.18_Colin27-1998_Ch-4_PM-v4.2_left"
+        }
+    ],
+    "hasParent": null,
+    "name": "Ch 4 (Basal Forebrain)",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "JBA-v1.18_Colin27-1998_PM-v4.2_left",
+    "versionInnovation": null
+}

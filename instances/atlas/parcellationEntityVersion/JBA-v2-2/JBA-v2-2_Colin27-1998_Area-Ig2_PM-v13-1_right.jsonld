@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.2_Colin27-1998_Area-Ig2_PM-v13.1_right",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.2_Colin27-1998_Area-Ig2_PM-v13.1_right"
+        }
+    ],
+    "hasParent": null,
+    "name": "Area Ig2 (Insula)",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "JBA-v2.2_Colin27-1998_PM-v13.1_right",
+    "versionInnovation": null
+}

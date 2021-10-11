@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_Area-hIP8_PM-v7.1_left",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_Area-hIP8_PM-v7.1_left"
+        }
+    ],
+    "hasParent": null,
+    "name": "Area hIP8 (IPS)",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_PM-v7.1_left",
+    "versionInnovation": null
+}

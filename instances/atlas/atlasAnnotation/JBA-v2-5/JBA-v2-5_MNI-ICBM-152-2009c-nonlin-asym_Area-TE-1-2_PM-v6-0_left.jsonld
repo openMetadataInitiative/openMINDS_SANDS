@@ -1,0 +1,22 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Area-TE-1.2_PM-v6.0_left",
+    "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+    "bestViewPoint": null,
+    "criteria": null,
+    "criteriaQualityType": {
+        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+    },
+    "displayColor": "#cafbc0",
+    "inspiredBy": null,
+    "internalIdentifier": "86",
+    "laterality": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        }
+    ],
+    "lookupLabel": "Area-TE-1.2_PM-v6.0_JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_left",
+    "visualizedIn": null
+}

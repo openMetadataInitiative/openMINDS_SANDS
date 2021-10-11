@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_LB_PM-v6.4_right",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_LB_PM-v6.4_right"
+        }
+    ],
+    "hasParent": null,
+    "name": "LB (Amygdala)",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_PM-v6.4_right",
+    "versionInnovation": null
+}
