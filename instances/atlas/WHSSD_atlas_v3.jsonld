@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/WHSSD_atlas_v3",
+    "@type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+    "accessibility": null,
+    "author": null,
+    "coordinateSpace": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/WHSSD_CS_v1.01"
+        }
+    ],
+    "copyright": null,
+    "custodian": null,
+    "description": null,
+    "digitalIdentifier": null,
+    "fullDocumentation": null,
+    "fullName": "Waxholm Space atlas of the Sprague Dawley rat brain v3",
+    "funding": null,
+    "hasTerminologyVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationTerminologyVersion/WHSSD_terminology_v3"
+        }
+    ],
+    "homepage": null,
+    "howToCite": "Please refer to the atlas by its RRID: SCR_017124, and cite the first publication (Papp et al., 2014) along with the publication for the atlas version you have used (see "Related publications" below).",
+    "isAlternativeVersionOf": null,
+    "isNewVersionOf": null,
+    "keyword": null,
+    "license": null,
+    "ontologyIdentifier": null,
+    "otherContribution": null,
+    "relatedPublication": null,
+    "releaseDate": "2019-05-15",
+    "repository": null,
+    "shortName": "WHS rat brain atlas v3",
+    "supportChannel": [
+        "support@ebrains.eu",
+        "https://www.nitrc.org/forum/forum.php?forum_id=9174"
+    ],
+    "versionIdentifier": "v3",
+    "versionInnovation": "Anatomical delineations of 118 brain regions and white matter tracts in the Sprague Dawley rat brain, based on observations in a high resolution magnetic resonance imaging (MRI) volume (DOI: 10.25493/DTSG-ZBS).\n\nVersion 3 of the Waxholm Space atlas of the Sprague Dawley rat brain contains 41 new and 10 updated delineations related or adjacent to the ascending the auditory system. 65 delineations have remained unchanged relative to v2.\n\nThis dataset is hosted on NITRC.org and includes:\n\nWHS_SD_rat_atlas_v3.nii.gz: delineation file with anatomical structures\n\nWHS_SD_rat_atlas_v3.label: text file naming anatomical structures\n\nMBAT_WHS_SD_rat_atlas_v3.zip: file describing a suggested hierarchy of the anatomical structures\n\nNote: The licence was changed to from CC BY-SA-NC to CC BY-SA on October 1, 2021."
+}
