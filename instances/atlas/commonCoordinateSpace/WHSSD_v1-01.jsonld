@@ -12,12 +12,12 @@
     "axesOrigin": null,
     "defaultImage": null,
     "digitalIdentifier": null,
-    "fullName": "Waxholm Space of the Sprague Dawley rat brain - Coordinate system v1.01", 
+    "fullName": "Waxholm Space of the Sprague Dawley rat brain (coordinate space)", 
     "homepage": null,
     "howToCite": null,
     "nativeUnit": null,
     "ontologyIdentifier": null,
     "releaseDate": "2014-07-16",
-    "shortName": "Waxholm space v1.01 (rat)",
+    "shortName": "WHSSD v1.01",
     "versionIdentifier": "v1.01"
 }
