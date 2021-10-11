@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v1.01_glomerularLayerOfTheOlfactoryBulb",
+    "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+    "bestViewPoint": null,
+    "criteria": null,
+    "criteriaQualityType": null,
+    "displayColor": "#FFE300",
+    "inspiredBy": null,
+    "internalIdentifier": "65",
+    "laterality": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+        }
+    ],
+    "lookupLabel": "WHSSD_v1.01_glomerularLayerOfTheOlfactoryBulb",
+    "visualizedIn": null
+}

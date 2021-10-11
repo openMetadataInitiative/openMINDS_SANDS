@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v4_secondaryMotorArea",
+    "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+    "bestViewPoint": null,
+    "criteria": null,
+    "criteriaQualityType": null,
+    "displayColor": "#00A2E8",
+    "inspiredBy": null,
+    "internalIdentifier": "406",
+    "laterality": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+        }
+    ],
+    "lookupLabel": "WHSSD_v4_secondaryMotorArea",
+    "visualizedIn": null
+}

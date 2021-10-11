@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v2_middleCerebellarPeduncle",
+    "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+    "bestViewPoint": null,
+    "criteria": null,
+    "criteriaQualityType": null,
+    "displayColor": "#86CC4C",
+    "inspiredBy": null,
+    "internalIdentifier": "78",
+    "laterality": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+        }
+    ],
+    "lookupLabel": "WHSSD_v2_middleCerebellarPeduncle",
+    "visualizedIn": null
+}

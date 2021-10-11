@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v3_perirhinalArea35",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v3_perirhinalArea35"
+        }
+    ],
+    "hasParent": null,
+    "name": "perirhinal area 35",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v3",
+    "versionInnovation": null
+}

@@ -1,0 +1,12 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationTerminology/WHSSD_terminology",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
+    "definedIn": null,
+    "fullName": "Waxholm Space Brain Atlas of the Sprague Dawley rat (terminology)",
+    "hasEntity": null,
+    "ontologyIdentifier": null,
+    "shortName": "WHSSD terminology"
+}

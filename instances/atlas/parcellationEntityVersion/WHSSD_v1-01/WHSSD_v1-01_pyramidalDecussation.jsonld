@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v1.01_pyramidalDecussation",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v1.01_pyramidalDecussation"
+        }
+    ],
+    "hasParent": null,
+    "name": "pyramidal decussation",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v1.01",
+    "versionInnovation": null
+}

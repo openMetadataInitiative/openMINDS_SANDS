@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA_1909_area39",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA_cerebralCortex"
+        }
+    ],
+    "name": "Brodmann area 39",
+    "ontologyIdentifier": "http://purl.obolibrary.org/obo/UBERON_0006480",
+    "relationAssessment": null,
+    "versionIdentifier": "1909",
+    "versionInnovation": null
+}

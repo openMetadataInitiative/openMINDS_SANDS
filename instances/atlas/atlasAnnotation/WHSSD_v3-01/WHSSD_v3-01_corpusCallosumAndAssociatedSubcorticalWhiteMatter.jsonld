@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v3.01_corpusCallosumAndAssociatedSubcorticalWhiteMatter",
+    "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+    "bestViewPoint": null,
+    "criteria": null,
+    "criteriaQualityType": null,
+    "displayColor": "#FF6E00",
+    "inspiredBy": null,
+    "internalIdentifier": "67",
+    "laterality": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+        }
+    ],
+    "lookupLabel": "WHSSD_v3.01_corpusCallosumAndAssociatedSubcorticalWhiteMatter",
+    "visualizedIn": null
+}

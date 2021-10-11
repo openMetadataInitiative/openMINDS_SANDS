@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_hypothalamicRegionUnspecified",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v4_hypothalamicRegionUnspecified"
+        }
+    ],
+    "hasParent": null,
+    "name": "hypothalamic region, unspecified",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v4",
+    "versionInnovation": null
+}

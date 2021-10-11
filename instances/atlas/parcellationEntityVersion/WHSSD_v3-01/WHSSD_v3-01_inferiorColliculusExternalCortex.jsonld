@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v3.01_inferiorColliculusExternalCortex",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v3.01_inferiorColliculusExternalCortex"
+        }
+    ],
+    "hasParent": null,
+    "name": "inferior colliculus, external cortex",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v3.01",
+    "versionInnovation": null
+}

@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v1.01_dorsallateralEntorhinalArea",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v1.01_dorsallateralEntorhinalArea"
+        }
+    ],
+    "hasParent": null,
+    "name": "dorsal-lateral entorhinal area",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v1.01",
+    "versionInnovation": null
+}

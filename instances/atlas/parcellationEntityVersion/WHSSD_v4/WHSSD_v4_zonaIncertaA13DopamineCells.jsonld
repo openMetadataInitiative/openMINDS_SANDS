@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_zonaIncertaA13DopamineCells",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v4_zonaIncertaA13DopamineCells"
+        }
+    ],
+    "hasParent": null,
+    "name": "zona incerta, A13 dopamine cells",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v4",
+    "versionInnovation": null
+}

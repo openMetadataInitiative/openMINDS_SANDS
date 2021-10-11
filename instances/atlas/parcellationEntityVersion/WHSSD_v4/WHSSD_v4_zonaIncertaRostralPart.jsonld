@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_zonaIncertaRostralPart",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v4_zonaIncertaRostralPart"
+        }
+    ],
+    "hasParent": null,
+    "name": "zona incerta, rostral part",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v4",
+    "versionInnovation": null
+}

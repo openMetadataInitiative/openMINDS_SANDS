@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v2_pinealGland",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v2_pinealGland"
+        }
+    ],
+    "hasParent": null,
+    "name": "pineal gland",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v2",
+    "versionInnovation": null
+}

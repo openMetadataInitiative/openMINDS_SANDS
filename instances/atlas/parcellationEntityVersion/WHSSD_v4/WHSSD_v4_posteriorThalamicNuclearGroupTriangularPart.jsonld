@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_posteriorThalamicNuclearGroupTriangularPart",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v4_posteriorThalamicNuclearGroupTriangularPart"
+        }
+    ],
+    "hasParent": null,
+    "name": "posterior thalamic nuclear group, triangular part",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v4",
+    "versionInnovation": null
+}

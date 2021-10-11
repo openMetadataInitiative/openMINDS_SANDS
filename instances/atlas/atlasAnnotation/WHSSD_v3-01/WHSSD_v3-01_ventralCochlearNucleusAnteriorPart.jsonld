@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v3.01_ventralCochlearNucleusAnteriorPart",
+    "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+    "bestViewPoint": null,
+    "criteria": null,
+    "criteriaQualityType": null,
+    "displayColor": "#2298FF",
+    "inspiredBy": null,
+    "internalIdentifier": "158",
+    "laterality": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+        }
+    ],
+    "lookupLabel": "WHSSD_v3.01_ventralCochlearNucleusAnteriorPart",
+    "visualizedIn": null
+}

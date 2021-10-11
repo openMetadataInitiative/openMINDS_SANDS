@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_habenularCommissure",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v4_habenularCommissure"
+        }
+    ],
+    "hasParent": null,
+    "name": "habenular commissure",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v4",
+    "versionInnovation": null
+}

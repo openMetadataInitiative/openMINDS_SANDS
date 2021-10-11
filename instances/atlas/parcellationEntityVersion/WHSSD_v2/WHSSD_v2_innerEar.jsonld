@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v2_innerEar",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v2_innerEar"
+        }
+    ],
+    "hasParent": null,
+    "name": "inner ear",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v2",
+    "versionInnovation": null
+}

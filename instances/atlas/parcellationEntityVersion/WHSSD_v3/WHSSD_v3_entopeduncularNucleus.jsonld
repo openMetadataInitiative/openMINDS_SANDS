@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v3_entopeduncularNucleus",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v3_entopeduncularNucleus"
+        }
+    ],
+    "hasParent": null,
+    "name": "entopeduncular nucleus",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v3",
+    "versionInnovation": null
+}
