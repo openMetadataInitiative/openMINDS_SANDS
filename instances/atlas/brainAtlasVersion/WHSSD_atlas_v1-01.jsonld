@@ -20,7 +20,7 @@
     "description": null,
     "digitalIdentifier": null,
     "fullDocumentation": null,
-    "fullName": "Waxholm Space atlas of the Sprague Dawley rat brain v1.01",
+    "fullName": "Waxholm Space atlas of the Sprague Dawley rat brain",
     "funding": null,
     "hasTerminologyVersion": [
         {
@@ -42,7 +42,7 @@
     "relatedPublication": null,
     "releaseDate": "2014-07-17",
     "repository": null,
-    "shortName": "WHS rat brain atlas v1.01",
+    "shortName": "WHSSD rat brain atlas v1.01",
     "supportChannel": [
         "support@ebrains.eu",
         "https://www.nitrc.org/forum/forum.php?forum_id=9174"

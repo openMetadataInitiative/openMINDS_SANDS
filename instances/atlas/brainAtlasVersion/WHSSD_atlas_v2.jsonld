@@ -20,7 +20,7 @@
     "description": null,
     "digitalIdentifier": null,
     "fullDocumentation": null,
-    "fullName": "Waxholm Space atlas of the Sprague Dawley rat brain v2",
+    "fullName": "Waxholm Space atlas of the Sprague Dawley rat brain",
     "funding": null,
     "hasTerminologyVersion": [
         {
@@ -30,7 +30,11 @@
     "homepage": null,
     "howToCite": "Please refer to the atlas by its RRID: SCR_017124, and cite the first publication (Papp et al., 2014) along with the publication for the atlas version you have used (see Related publications below).",
     "isAlternativeVersionOf": null,
-    "isNewVersionOf": null,
+    "isNewVersionOf": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/WHSSD_atlas_v1.01"
+        }
+    ],
     "keyword": null,
     "license": [
         {
@@ -42,7 +46,7 @@
     "relatedPublication": null,
     "releaseDate": "2015-02-02",
     "repository": null,
-    "shortName": "WHS rat brain atlas v2",
+    "shortName": "WHSSD rat brain atlas v2",
     "supportChannel": [
         "support@ebrains.eu",
         "https://www.nitrc.org/forum/forum.php?forum_id=9174"
