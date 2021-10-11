@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/Colin27_2008",
+    "@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+    "anatomicalAxesOrientation": null,
+    "axesOrigin": null,
+    "defaultImage": null,
+    "digitalIdentifier": null,
+    "homepage": null,
+    "howToCite": null,
+    "fullName": "Colin 27 Average Brain, Stereotaxic Registration Model, high-resolution version 2008", 
+    "nativeUnit": [
+        {
+            "@id": " 	https://openminds.ebrains.eu/instances/unitOfMeasurement/millimeter"
+        }
+    ],
+    "ontologyIdentifier": null,
+    "releaseDate": "2006-08-01",
+    "shortName": "Colin27 (2008)",
+    "versionIdentifier": "2008"
+}

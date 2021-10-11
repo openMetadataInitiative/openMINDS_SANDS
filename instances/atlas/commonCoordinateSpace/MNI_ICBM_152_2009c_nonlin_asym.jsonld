@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/MNI_ICBM_152_2009c_nonlin_asym",
+    "@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+    "anatomicalAxesOrientation": null,
+    "axesOrigin": null,
+    "defaultImage": null,
+    "digitalIdentifier": null,
+    "homepage": null,
+    "howToCite": null,
+    "fullName": "MNI ICBM 152 2009c Nonlinear Asymmetric", 
+    "nativeUnit": [
+        {
+            "@id": " 	https://openminds.ebrains.eu/instances/unitOfMeasurement/millimeter"
+        }
+    ],
+    "ontologyIdentifier": null,
+    "releaseDate": "2009-07-01",
+    "shortName": "MNI ICBM 152 (2009c Nonlin Asym)",
+    "versionIdentifier": "2009c Nonlin Asym"
+}
