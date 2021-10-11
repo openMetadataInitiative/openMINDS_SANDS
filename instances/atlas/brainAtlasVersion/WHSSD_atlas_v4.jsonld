@@ -4,11 +4,15 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/WHSSD_atlas_v4",
     "@type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-    "accessibility": null,
+    "accessibility": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
+        }
+    ],
     "author": null,
     "coordinateSpace": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/WHSSD_v1.01"
+            "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/WHSSD_CS_v1.01"
         }
     ],
     "copyright": null,
@@ -24,11 +28,15 @@
         }
     ],
     "homepage": null,
-    "howToCite": "Please refer to the atlas by its RRID: SCR_017124, and cite the first publication (Papp et al., 2014) along with the publication for the atlas version you have used (see Related publications below).",
+    "howToCite": "Please refer to the atlas by its RRID: SCR_017124, and cite the first publication (Papp et al., 2014) along with the publication for the atlas version you have used (see "Related publications" below).",
     "isAlternativeVersionOf": null,
     "isNewVersionOf": null,
     "keyword": null,
-    "license": null,
+    "license": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/licenses/ccBySa4.0"
+        }
+    ],
     "ontologyIdentifier": null,
     "otherContribution": null,
     "relatedPublication": null,
