@@ -2,18 +2,18 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/WHSSD_CS_v1.01",
+    "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/WHSSD_v1.01",
     "@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
     "anatomicalAxesOrientation": null,
     "axesOrigin": null,
     "defaultImage": null,
     "digitalIdentifier": null,
-    "fullName": "Waxholm Space of the Sprague Dawley rat brain - Coordinate system v1.01", 
+    "fullName": "Waxholm Space of the Sprague Dawley rat brain v1.01", 
     "homepage": null,
     "howToCite": null,
     "nativeUnit": null,
     "ontologyIdentifier": null,
     "releaseDate": "2014-07-16",
-    "shortName": "WHSSD CS v1.01",
+    "shortName": "WHSSD v1.01",
     "versionIdentifier": "v1.01"
 }
