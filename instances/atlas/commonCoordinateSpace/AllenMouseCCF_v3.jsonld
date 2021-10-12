@@ -1,0 +1,19 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/AllenMouseCCF_v3",
+    "@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+    "anatomicalAxesOrientation": {"@id": "https://openminds.ebrains.eu/instances/anatomicalAxesOrientation/PIR"},
+    "axesOrigin": null,
+    "defaultImage": null,
+    "digitalIdentifier": null,
+    "homepage": null,
+    "howToCite": null,
+    "fullName": "Allen Mouse Common Coordinate Framework", 
+    "nativeUnit": null,
+    "ontologyIdentifier": null,
+    "releaseDate": "2015-05-01",
+    "shortName": "Allen Mouse CCF (v3)",
+    "versionIdentifier": "v3"
+}

@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/BigBrain_v1",
+    "@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+    "anatomicalAxesOrientation": null,
+    "axesOrigin": null,
+    "defaultImage": null,
+    "digitalIdentifier": null,
+    "homepage": null,
+    "howToCite": null,
+    "fullName": "Big Brain", 
+    "nativeUnit": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/unitOfMeasurement/micrometer"
+        }
+    ],
+    "ontologyIdentifier": null,
+    "releaseDate": "2013-06-21",
+    "shortName": "Big Brain (v1)",
+    "versionIdentifier": "v1"
+}
