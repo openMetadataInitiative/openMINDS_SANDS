@@ -644,7 +644,11 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-p24c_PM-v16.1_left"
         }
     ],
-    "isAlternativeVersion": null,
+    "isAlternativeVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationTerminologyVersion/JBA-v1.18_Colin27-1998_terminology"
+        }
+    ],
     "isNewVersionOf": null,
     "ontologyIdentifier": null,
     "shortName": "JBA terminology (v1.18, MNI ICBM 152 2009c nonlin asym)",
