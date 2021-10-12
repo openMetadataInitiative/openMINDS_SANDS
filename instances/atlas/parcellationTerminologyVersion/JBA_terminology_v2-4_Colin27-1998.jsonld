@@ -728,8 +728,14 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.4_Colin27-1998_Fastigial-Nucleus_PM-v6.2_right"
         }
     ],
-    "isAlternativeVersion": null,
-    "isNewVersionOf": null,
+    "isAlternativeVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationTerminologyVersion/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_terminology"
+        }
+    ],
+    "isNewVersionOf": {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationTerminologyVersion/JBA-v2.2_Colin27-1998_terminology"
+    },
     "ontologyIdentifier": null,
     "shortName": "JBA terminology (v2.4, Colin27 1998)",
     "versionIdentifier": "v2.4, Colin27 1998",
