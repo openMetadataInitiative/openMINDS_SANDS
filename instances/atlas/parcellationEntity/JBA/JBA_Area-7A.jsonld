@@ -2,66 +2,66 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://kg.ebrains.eu/api/instances/JBA_Area-7A",
+    "@id": "https://openminds.ebrains.eu/instances/JBA_Area-7A",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
     "hasParent": null,
     "hasVersion": [
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_Area-7A_PM-v8.4_right"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_Area-7A_PM-v8.4_right"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.2_Colin27-1998_Area-7A_PM-v8.4_right"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.2_Colin27-1998_Area-7A_PM-v8.4_right"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.5_Colin27-1998_Area-7A_PM-v9.0_right"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.5_Colin27-1998_Area-7A_PM-v9.0_right"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_Area-7A_PM-v8.4_left"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_Area-7A_PM-v8.4_left"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Area-7A_PM-v9.0_right"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Area-7A_PM-v9.0_right"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Area-7A_PM-v9.0_right"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Area-7A_PM-v9.0_right"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-7A_PM-v8.4_left"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-7A_PM-v8.4_left"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.4_Colin27-1998_Area-7A_PM-v8.4_right"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.4_Colin27-1998_Area-7A_PM-v8.4_right"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v1.18_Colin27-1998_Area-7A_PM-v8.4_left"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_Colin27-1998_Area-7A_PM-v8.4_left"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v1.13_Colin27-1998_Area-7A_PM-v8.2"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v1.13_Colin27-1998_Area-7A_PM-v8.2"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Area-7A_PM-v9.0_left"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Area-7A_PM-v9.0_left"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.2_Colin27-1998_Area-7A_PM-v8.4_left"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.2_Colin27-1998_Area-7A_PM-v8.4_left"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.5_Colin27-1998_Area-7A_PM-v9.0_left"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.5_Colin27-1998_Area-7A_PM-v9.0_left"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.4_Colin27-1998_Area-7A_PM-v8.4_left"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.4_Colin27-1998_Area-7A_PM-v8.4_left"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-7A_PM-v8.4_right"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-7A_PM-v8.4_right"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_Area-7A_PM-v8.4_left"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_Area-7A_PM-v8.4_left"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v1.18_Colin27-1998_Area-7A_PM-v8.4_right"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_Colin27-1998_Area-7A_PM-v8.4_right"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Area-7A_PM-v9.0_left"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Area-7A_PM-v9.0_left"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_Area-7A_PM-v8.4_right"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_Area-7A_PM-v8.4_right"
         }
     ],
     "name": "Area 7A (SPL)",

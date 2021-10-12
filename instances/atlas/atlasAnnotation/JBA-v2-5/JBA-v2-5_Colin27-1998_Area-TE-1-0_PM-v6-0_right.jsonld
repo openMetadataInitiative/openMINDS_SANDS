@@ -2,7 +2,7 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.5_Colin27-1998_Area-TE-1.0_PM-v6.0_right",
+    "@id": "https://openminds.ebrains.eu/instances/JBA-v2.5_Colin27-1998_Area-TE-1.0_PM-v6.0_right",
     "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
     "bestViewPoint": null,
     "criteria": null,

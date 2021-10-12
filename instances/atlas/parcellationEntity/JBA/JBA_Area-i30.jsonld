@@ -2,33 +2,33 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://kg.ebrains.eu/api/instances/JBA_Area-i30",
+    "@id": "https://openminds.ebrains.eu/instances/JBA_Area-i30",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
     "hasParent": null,
     "hasVersion": [
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.2_Colin27-1998_Area-i30_PM-v11.0_right"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.2_Colin27-1998_Area-i30_PM-v11.0_right"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.4_Colin27-1998_Area-i30_PM-v11.0_left"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.4_Colin27-1998_Area-i30_PM-v11.0_left"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_Area-i30_PM-v11.0_right"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_Area-i30_PM-v11.0_right"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.2_Colin27-1998_Area-i30_PM-v11.0_left"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.2_Colin27-1998_Area-i30_PM-v11.0_left"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_Area-i30_PM-v11.0_right"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_Area-i30_PM-v11.0_right"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_Area-i30_PM-v11.0_left"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_Area-i30_PM-v11.0_left"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.4_Colin27-1998_Area-i30_PM-v11.0_right"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.4_Colin27-1998_Area-i30_PM-v11.0_right"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_Area-i30_PM-v11.0_left"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_Area-i30_PM-v11.0_left"
         }
     ],
     "name": "Area i30 (retrosplenial)",

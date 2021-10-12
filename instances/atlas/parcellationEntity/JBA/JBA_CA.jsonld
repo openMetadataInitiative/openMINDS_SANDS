@@ -2,21 +2,21 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://kg.ebrains.eu/api/instances/JBA_CA",
+    "@id": "https://openminds.ebrains.eu/instances/JBA_CA",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
     "hasParent": null,
     "hasVersion": [
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_CA_PM-v11.1_left"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_CA_PM-v11.1_left"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_CA_PM-v11.1_right"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_CA_PM-v11.1_right"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v1.18_Colin27-1998_CA_PM-v11.1_right"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_Colin27-1998_CA_PM-v11.1_right"
         },
         {
-            "@id": "https://kg.ebrains.eu/api/instances/JBA-v1.18_Colin27-1998_CA_PM-v11.1_left"
+            "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_Colin27-1998_CA_PM-v11.1_left"
         }
     ],
     "name": "CA (Hippocampus)",
