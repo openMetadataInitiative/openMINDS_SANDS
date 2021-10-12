@@ -10,7 +10,7 @@
     "digitalIdentifier": null,
     "homepage": null,
     "howToCite": null,
-    "fullName": "Colin 27 Average Brain, Stereotaxic Registration Model, original version 1998", 
+    "fullName": "Colin 27 Average Brain, Stereotaxic Registration Model", 
     "nativeUnit": [
         {
             "@id": " 	https://openminds.ebrains.eu/instances/unitOfMeasurement/millimeter"
@@ -19,5 +19,5 @@
     "ontologyIdentifier": null,
     "releaseDate": "1998-06-01",
     "shortName": "Colin27 (1998)",
-    "versionIdentifier": "1998"
+    "versionIdentifier": "original version 1998"
 }
