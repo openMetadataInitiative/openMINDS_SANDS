@@ -645,7 +645,9 @@
         }
     ],
     "isAlternativeVersion": null,
-    "isNewVersionOf": null,
+    "isNewVersionOf": {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationTerminologyVersion/JBA-v1.13_Colin27-1998_terminology"
+    },
     "ontologyIdentifier": null,
     "shortName": "JBA terminology (v1.18, Colin27 1998)",
     "versionIdentifier": "v1.18, Colin27 1998",
