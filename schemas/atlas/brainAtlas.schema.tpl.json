@@ -1,6 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/BrainAtlas",
-  "_extends": "/core/schemas/products/researchProduct.schema.tpl.json",
+  "_extends": "/core/products/researchProduct.schema.tpl.json",
   "required": [
     "author",
     "hasTerminology"
