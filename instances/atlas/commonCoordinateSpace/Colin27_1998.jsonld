@@ -13,7 +13,7 @@
     "fullName": "Colin 27 Average Brain, Stereotaxic Registration Model", 
     "nativeUnit": [
         {
-            "@id": " 	https://openminds.ebrains.eu/instances/unitOfMeasurement/millimeter"
+            "@id": "https://openminds.ebrains.eu/instances/unitOfMeasurement/millimeter"
         }
     ],
     "ontologyIdentifier": null,
