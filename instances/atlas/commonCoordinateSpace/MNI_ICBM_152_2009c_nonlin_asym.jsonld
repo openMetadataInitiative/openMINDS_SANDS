@@ -10,14 +10,14 @@
     "digitalIdentifier": null,
     "homepage": null,
     "howToCite": null,
-    "fullName": "MNI ICBM 152 2009c Nonlinear Asymmetric", 
+    "fullName": "MNI ICBM 152", 
     "nativeUnit": [
         {
-            "@id": " 	https://openminds.ebrains.eu/instances/unitOfMeasurement/millimeter"
+            "@id": "https://openminds.ebrains.eu/instances/unitOfMeasurement/millimeter"
         }
     ],
     "ontologyIdentifier": null,
     "releaseDate": "2009-07-01",
     "shortName": "MNI ICBM 152 (2009c Nonlin Asym)",
-    "versionIdentifier": "2009c Nonlin Asym"
+    "versionIdentifier": "2009c Nonlinear Asymmetric"
 }
