@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.5_Colin27-1998_Area-Ig1_PM-v14.0_right",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/JBA-v2.5_Colin27-1998_Area-Ig1_PM-v14.0_right"
+        }
+    ],
+    "hasParent": null,
+    "name": "Area Ig1 (Insula)",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "JBA-v2.5_Colin27-1998_PM-v14.0_right",
+    "versionInnovation": null
+}

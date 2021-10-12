@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.5_Colin27-1998_Area-hOc1_PM-v4.0_left",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/JBA-v2.5_Colin27-1998_Area-hOc1_PM-v4.0_left"
+        }
+    ],
+    "hasParent": null,
+    "name": "Area hOc1 (V1, 17, CalcS)",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "JBA-v2.5_Colin27-1998_PM-v4.0_left",
+    "versionInnovation": null
+}

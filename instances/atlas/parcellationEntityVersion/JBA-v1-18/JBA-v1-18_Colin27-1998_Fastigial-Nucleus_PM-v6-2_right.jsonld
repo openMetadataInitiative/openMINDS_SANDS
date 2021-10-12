@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v1.18_Colin27-1998_Fastigial-Nucleus_PM-v6.2_right",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/JBA-v1.18_Colin27-1998_Fastigial-Nucleus_PM-v6.2_right"
+        }
+    ],
+    "hasParent": null,
+    "name": "Fastigial Nucleus (Cerebellum)",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "JBA-v1.18_Colin27-1998_PM-v6.2_right",
+    "versionInnovation": null
+}

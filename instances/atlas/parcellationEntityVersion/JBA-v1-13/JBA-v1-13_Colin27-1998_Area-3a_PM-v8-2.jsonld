@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v1.13_Colin27-1998_Area-3a_PM-v8.2",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/JBA-v1.13_Colin27-1998_Area-3a_PM-v8.2"
+        }
+    ],
+    "hasParent": null,
+    "name": "Area 3a (PostCG)",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "JBA-v1.13_Colin27-1998_PM-v8.2",
+    "versionInnovation": null
+}

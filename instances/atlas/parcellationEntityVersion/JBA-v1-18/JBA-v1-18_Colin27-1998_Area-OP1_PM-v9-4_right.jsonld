@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v1.18_Colin27-1998_Area-OP1_PM-v9.4_right",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/JBA-v1.18_Colin27-1998_Area-OP1_PM-v9.4_right"
+        }
+    ],
+    "hasParent": null,
+    "name": "Area OP1 (POperc)",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "JBA-v1.18_Colin27-1998_PM-v9.4_right",
+    "versionInnovation": null
+}

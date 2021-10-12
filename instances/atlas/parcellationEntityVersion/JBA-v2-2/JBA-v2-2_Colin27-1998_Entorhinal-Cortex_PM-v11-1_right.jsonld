@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.2_Colin27-1998_Entorhinal-Cortex_PM-v11.1_right",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/JBA-v2.2_Colin27-1998_Entorhinal-Cortex_PM-v11.1_right"
+        }
+    ],
+    "hasParent": null,
+    "name": "Entorhinal Cortex",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "JBA-v2.2_Colin27-1998_PM-v11.1_right",
+    "versionInnovation": null
+}

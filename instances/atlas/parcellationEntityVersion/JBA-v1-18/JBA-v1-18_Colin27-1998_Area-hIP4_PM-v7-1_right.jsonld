@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v1.18_Colin27-1998_Area-hIP4_PM-v7.1_right",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/JBA-v1.18_Colin27-1998_Area-hIP4_PM-v7.1_right"
+        }
+    ],
+    "hasParent": null,
+    "name": "Area hIP4 (IPS)",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "JBA-v1.18_Colin27-1998_PM-v7.1_right",
+    "versionInnovation": null
+}

@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.4_Colin27-1998_Area-OP8_PM-v5.1_left",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/JBA-v2.4_Colin27-1998_Area-OP8_PM-v5.1_left"
+        }
+    ],
+    "hasParent": null,
+    "name": "Area OP8 (Frontal Operculum)",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "JBA-v2.4_Colin27-1998_PM-v5.1_left",
+    "versionInnovation": null
+}
