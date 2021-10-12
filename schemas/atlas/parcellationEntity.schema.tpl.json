@@ -4,8 +4,7 @@
     "studyTarget"
   ],
   "required": [
-    "name",
-    "hasVersion"  
+    "name"
   ],
   "properties": {
     "hasParent": {      
