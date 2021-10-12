@@ -1,6 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-  "_extends": "/core/schemas/products/researchProductVersion.schema.tpl.json",
+  "_extends": "/core/products/researchProductVersion.schema.tpl.json",
   "required": [
     "coordinateSpace",
     "hasTerminologyVersion",
