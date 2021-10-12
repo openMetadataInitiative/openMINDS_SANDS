@@ -3,7 +3,7 @@
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationTerminologyVersion/WHSSD_terminology_v4",
-    "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
     "definedIn": null,
     "fullName": "Waxholm Space Brain Atlas of the Sprague Dawley rat (terminology)",
     "hasEntityVersion": [
