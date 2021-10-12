@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/JBA_v2.4_Colin27-1998",
+    "@type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+    "accessibility": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
+        }
+    ],
+    "author": null,
+    "coordinateSpace": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/Colin27_1998"
+        }
+    ],
+    "copyright": null,
+    "custodian": null,
+    "description": null,
+    "digitalIdentifier": null,
+    "fullDocumentation": null,
+    "fullName": "Julich-Brain Atlas (v2.4, Colin27 1998)",
+    "funding": null,
+    "hasTerminologyVersion": null,
+    "homepage": null,
+    "howToCite": null,
+    "isAlternativeVersionOf": null,
+    "isNewVersionOf": {
+        "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/JBA_v2.2_Colin27-1998"
+    },
+    "keyword": null,
+    "license": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/licenses/ccByNcSa4.0"
+        }
+    ],
+    "ontologyIdentifier": null,
+    "otherContribution": null,
+    "relatedPublication": null,
+    "releaseDate": null,
+    "repository": null,
+    "shortName": "JBA v2.4, Colin27 1998",
+    "supportChannel": null,
+    "versionIdentifier": "v2.4, Colin27 1998",
+    "versionInnovation": null
+}
