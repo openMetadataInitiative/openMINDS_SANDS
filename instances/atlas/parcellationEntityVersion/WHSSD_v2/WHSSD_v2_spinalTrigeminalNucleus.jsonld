@@ -2,15 +2,15 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v2_spinalTrigeminalNuclus",
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v2_spinalTrigeminalNucleus",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
     "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v2_spinalTrigeminalNuclus"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v2_spinalTrigeminalNucleus"
         }
     ],
     "hasParent": null,
-    "name": "spinal trigeminal nuclus",
+    "name": "spinal trigeminal nucleus",
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v2",
