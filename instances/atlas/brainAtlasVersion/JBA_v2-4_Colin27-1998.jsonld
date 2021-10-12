@@ -25,7 +25,11 @@
     "hasTerminologyVersion": null,
     "homepage": null,
     "howToCite": null,
-    "isAlternativeVersionOf": null,
+    "isAlternativeVersionOf": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/JBA_v2.4_MNI-ICBM-152-2009c-nonlin-asym"
+        }
+    ],
     "isNewVersionOf": {
         "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/JBA_v2.2_Colin27-1998"
     },
