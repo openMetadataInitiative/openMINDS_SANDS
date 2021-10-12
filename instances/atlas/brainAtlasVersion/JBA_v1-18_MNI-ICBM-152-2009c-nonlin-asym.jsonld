@@ -1,0 +1,51 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/JBA_v1.18_MNI-ICBM-152-2009c-nonlin-asym",
+    "@type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+    "accessibility": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
+        }
+    ],
+    "author": null,
+    "coordinateSpace": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/MNI_ICBM_152_2009c_nonlin_asym"
+        }
+    ],
+    "copyright": null,
+    "custodian": null,
+    "description": null,
+    "digitalIdentifier": null,
+    "fullDocumentation": null,
+    "fullName": "Julich-Brain Atlas",
+    "funding": null,
+    "hasTerminologyVersion": {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationTerminologyVersion/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_terminology"
+    },
+    "homepage": null,
+    "howToCite": null,
+    "isAlternativeVersionOf": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/JBA_v1.18_Colin27-1998"
+        }
+    ],
+    "isNewVersionOf": null,
+    "keyword": null,
+    "license": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/licenses/ccByNcSa4.0"
+        }
+    ],
+    "ontologyIdentifier": null,
+    "otherContribution": null,
+    "relatedPublication": null,
+    "releaseDate": null,
+    "repository": null,
+    "shortName": "JBA (v1.18, MNI ICBM 152 2009c Nonlin Asym)",
+    "supportChannel": null,
+    "versionIdentifier": "v1.18, MNI ICBM 152 2009c Nonlinear Asymmetric",
+    "versionInnovation": "This is the first Julich-Brain Atlas version in MNI ICBM 152 (2009c Nonlinear Asymmetric)."
+}
