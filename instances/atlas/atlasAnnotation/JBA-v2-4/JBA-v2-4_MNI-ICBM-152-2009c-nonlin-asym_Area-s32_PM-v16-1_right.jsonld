@@ -2,7 +2,7 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://openminds.ebrains.eu/instances/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_Area-s32_PM-v16.1_right",
+    "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_Area-s32_PM-v16.1_right",
     "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
     "bestViewPoint": null,
     "criteria": null,

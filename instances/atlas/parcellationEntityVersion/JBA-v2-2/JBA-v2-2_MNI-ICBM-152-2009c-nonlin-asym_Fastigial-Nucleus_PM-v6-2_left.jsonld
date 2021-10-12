@@ -2,11 +2,11 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://openminds.ebrains.eu/instances/JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_Fastigial-Nucleus_PM-v6.2_left",
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_Fastigial-Nucleus_PM-v6.2_left",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
     "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_Fastigial-Nucleus_PM-v6.2_left"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_Fastigial-Nucleus_PM-v6.2_left"
         }
     ],
     "hasParent": null,

@@ -2,11 +2,11 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_Colin27-1998_Area-PFm_PM-v9.4_left",
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v1.18_Colin27-1998_Area-PFm_PM-v9.4_left",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
     "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_Colin27-1998_Area-PFm_PM-v9.4_left"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/JBA-v1.18_Colin27-1998_Area-PFm_PM-v9.4_left"
         }
     ],
     "hasParent": null,

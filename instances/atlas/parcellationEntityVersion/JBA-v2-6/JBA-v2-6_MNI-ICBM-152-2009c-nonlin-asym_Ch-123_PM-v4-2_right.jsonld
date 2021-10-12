@@ -2,11 +2,11 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://openminds.ebrains.eu/instances/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Ch-123_PM-v4.2_right",
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Ch-123_PM-v4.2_right",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
     "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Ch-123_PM-v4.2_right"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Ch-123_PM-v4.2_right"
         }
     ],
     "hasParent": null,

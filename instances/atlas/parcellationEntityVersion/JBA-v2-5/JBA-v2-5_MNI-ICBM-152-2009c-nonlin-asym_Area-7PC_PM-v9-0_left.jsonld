@@ -2,11 +2,11 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://openminds.ebrains.eu/instances/JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Area-7PC_PM-v9.0_left",
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Area-7PC_PM-v9.0_left",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
     "hasAnnotation": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Area-7PC_PM-v9.0_left"
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Area-7PC_PM-v9.0_left"
         }
     ],
     "hasParent": null,
