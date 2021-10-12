@@ -22,7 +22,9 @@
     "fullDocumentation": null,
     "fullName": "Julich-Brain Atlas",
     "funding": null,
-    "hasTerminologyVersion": null,
+    "hasTerminologyVersion": {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationTerminologyVersion/JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_terminology"
+    },
     "homepage": null,
     "howToCite": null,
     "isAlternativeVersionOf": [
