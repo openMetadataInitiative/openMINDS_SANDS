@@ -728,8 +728,14 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_Area-7PC_PM-v8.4_left"
         }
     ],
-    "isAlternativeVersion": null,
-    "isNewVersionOf": null,
+    "isAlternativeVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationTerminologyVersion/JBA-v2.4_Colin27-1998_terminology"
+        }
+    ],
+    "isNewVersionOf": {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationTerminologyVersion/JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_terminology"
+    },
     "ontologyIdentifier": null,
     "shortName": "JBA terminology (v2.4, MNI ICBM 152 2009c nonlin asym)",
     "versionIdentifier": "v2.4, MNI ICBM 152 2009c nonlin asym",
