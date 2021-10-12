@@ -753,7 +753,9 @@
         }
     ],
     "isAlternativeVersion": null,
-    "isNewVersionOf": null,
+    "isNewVersionOf": {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationTerminologyVersion/JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_terminology"
+    },
     "ontologyIdentifier": null,
     "shortName": "JBA terminology (v2.6, MNI ICBM 152 2009c nonlin asym)",
     "versionIdentifier": "v2.6, MNI ICBM 152 2009c nonlin asym",
