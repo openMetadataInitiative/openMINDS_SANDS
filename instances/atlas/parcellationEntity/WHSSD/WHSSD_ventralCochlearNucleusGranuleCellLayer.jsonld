@@ -1,0 +1,22 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_ventralCochlearNucleusGranuleCellLayer",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": null,
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v3_ventralCochlearNucleusGranuleCellLayer"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v3.01_ventralCochlearNucleusGranuleCellLayer"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_ventralCochlearNucleusGranuleCellLayer"
+        }
+    ],
+    "name": "ventral cochlear nucleus, granule cell layer",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": null
+}

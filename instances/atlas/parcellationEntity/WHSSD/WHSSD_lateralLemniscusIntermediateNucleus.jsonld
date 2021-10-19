@@ -1,0 +1,22 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_lateralLemniscusIntermediateNucleus",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": null,
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v3_lateralLemniscusIntermediateNucleus"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v3.01_lateralLemniscusIntermediateNucleus"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_lateralLemniscusIntermediateNucleus"
+        }
+    ],
+    "name": "lateral lemniscus, intermediate nucleus",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": null
+}
