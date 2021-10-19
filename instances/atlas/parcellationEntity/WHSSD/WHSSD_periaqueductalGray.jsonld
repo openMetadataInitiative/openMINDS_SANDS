@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_periaqueductalGray",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": null,
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v1.01_periaqueductalGray"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v2_periaqueductalGray"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v3_periaqueductalGray"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v3.01_periaqueductalGray"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_periaqueductalGray"
+        }
+    ],
+    "name": "periaqueductal gray",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": null
+}

@@ -1,0 +1,16 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_piriformCortexLayer1",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": null,
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_piriformCortexLayer1"
+        }
+    ],
+    "name": "piriform cortex, layer 1",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": null
+}

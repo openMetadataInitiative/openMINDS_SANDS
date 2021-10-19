@@ -1,0 +1,12 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_brain",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": null,
+    "hasVersion": null,
+    "name": "brain",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": null
+}

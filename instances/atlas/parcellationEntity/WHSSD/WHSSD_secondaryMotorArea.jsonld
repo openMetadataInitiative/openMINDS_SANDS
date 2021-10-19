@@ -1,0 +1,16 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_secondaryMotorArea",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": null,
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_secondaryMotorArea"
+        }
+    ],
+    "name": "secondary motor area",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": null
+}

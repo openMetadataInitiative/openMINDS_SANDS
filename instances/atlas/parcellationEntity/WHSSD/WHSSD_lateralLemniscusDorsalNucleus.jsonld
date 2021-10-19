@@ -1,0 +1,22 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_lateralLemniscusDorsalNucleus",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": null,
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v3_lateralLemniscusDorsalNucleus"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v3.01_lateralLemniscusDorsalNucleus"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_lateralLemniscusDorsalNucleus"
+        }
+    ],
+    "name": "lateral lemniscus, dorsal nucleus",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": null
+}

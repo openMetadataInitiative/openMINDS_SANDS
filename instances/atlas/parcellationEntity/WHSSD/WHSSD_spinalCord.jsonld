@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_spinalCord",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": null,
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v1.01_spinalCord"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v2_spinalCord"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v3_spinalCord"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v3.01_spinalCord"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_spinalCord"
+        }
+    ],
+    "name": "spinal cord",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": null
+}

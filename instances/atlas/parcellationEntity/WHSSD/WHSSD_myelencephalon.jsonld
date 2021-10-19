@@ -1,0 +1,12 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_myelencephalon",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": null,
+    "hasVersion": null,
+    "name": "myelencephalon",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": null
+}

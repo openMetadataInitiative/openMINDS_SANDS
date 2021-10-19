@@ -1,0 +1,12 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_prethalamus",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": null,
+    "hasVersion": null,
+    "name": "prethalamus",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": null
+}
