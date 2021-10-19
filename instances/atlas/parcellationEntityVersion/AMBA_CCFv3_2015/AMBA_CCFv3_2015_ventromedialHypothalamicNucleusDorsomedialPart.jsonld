@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3_2015_ventromedialHypothalamicNucleusDorsomedialPart",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/AMBA_CCFv3_2015_ventromedialHypothalamicNucleusDorsomedialPart"
+        }
+    ],
+    "hasParent": null,
+    "name": "ventromedial hypothalamic nucleus, dorsomedial part",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "CCFv3 2015",
+    "versionInnovation": null
+}

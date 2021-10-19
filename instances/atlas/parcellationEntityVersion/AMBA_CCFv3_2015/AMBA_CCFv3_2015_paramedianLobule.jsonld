@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3_2015_paramedianLobule",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/AMBA_CCFv3_2015_paramedianLobule"
+        }
+    ],
+    "hasParent": null,
+    "name": "paramedian lobule",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "CCFv3 2015",
+    "versionInnovation": null
+}

@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3_2017_superiorOlivaryComplexPeriolivaryRegion",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/AMBA_CCFv3_2017_superiorOlivaryComplexPeriolivaryRegion"
+        }
+    ],
+    "hasParent": null,
+    "name": "superior olivary complex, periolivary region",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "CCFv3 2017",
+    "versionInnovation": null
+}

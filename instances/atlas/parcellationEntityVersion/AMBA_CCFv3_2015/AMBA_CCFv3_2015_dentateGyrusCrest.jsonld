@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3_2015_dentateGyrusCrest",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/AMBA_CCFv3_2015_dentateGyrusCrest"
+        }
+    ],
+    "hasParent": null,
+    "name": "dentate gyrus crest",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "CCFv3 2015",
+    "versionInnovation": null
+}

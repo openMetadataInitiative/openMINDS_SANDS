@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/AMBA_CCFv3_2017_dorsomedialNucleusOfTheHypothalamusVentralPart",
+    "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+    "bestViewPoint": null,
+    "criteria": null,
+    "criteriaQualityType": null,
+    "displayColor": "#FF5547",
+    "inspiredBy": null,
+    "internalIdentifier": "684",
+    "laterality": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+        }
+    ],
+    "lookupLabel": "AMBA_CCFv3_2017_dorsomedialNucleusOfTheHypothalamusVentralPart",
+    "visualizedIn": null
+}
