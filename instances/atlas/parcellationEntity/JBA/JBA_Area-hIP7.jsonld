@@ -61,6 +61,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.2_Colin27-1998_Area-hIP7_PM-v7.1_right"
         }
     ],
+    "lookupLabel": "JBA_Area-hIP7",
     "name": "Area hIP7 (IPS)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_internalMedullaryLamina"
         }
     ],
+    "lookupLabel": "WHSSD_internalMedullaryLamina",
     "name": "internal medullary lamina",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

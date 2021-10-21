@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_medialSuperiorOlive"
         }
     ],
+    "lookupLabel": "WHSSD_medialSuperiorOlive",
     "name": "medial superior olive",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_ventralPosteriorNucleusOfTheThalamusParvicellularPart"
         }
     ],
+    "lookupLabel": "WHSSD_ventralPosteriorNucleusOfTheThalamusParvicellularPart",
     "name": "ventral posterior nucleus of the thalamus, parvicellular part",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

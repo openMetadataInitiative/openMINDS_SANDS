@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_spiralGanglion"
         }
     ],
+    "lookupLabel": "WHSSD_spiralGanglion",
     "name": "spiral ganglion",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

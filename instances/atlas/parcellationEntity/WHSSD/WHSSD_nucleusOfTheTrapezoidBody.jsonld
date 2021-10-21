@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_nucleusOfTheTrapezoidBody"
         }
     ],
+    "lookupLabel": "WHSSD_nucleusOfTheTrapezoidBody",
     "name": "nucleus of the trapezoid body",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

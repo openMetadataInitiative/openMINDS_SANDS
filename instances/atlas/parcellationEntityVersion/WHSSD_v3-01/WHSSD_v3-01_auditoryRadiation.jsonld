@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "WHSSD_v3.01_auditoryRadiation",
     "name": "auditory radiation",
     "ontologyIdentifier": null,
     "relationAssessment": null,

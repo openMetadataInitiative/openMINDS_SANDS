@@ -64,6 +64,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Area-hIP3_PM-v9.0_right"
         }
     ],
+    "lookupLabel": "JBA_Area-hIP3",
     "name": "Area hIP3 (IPS)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

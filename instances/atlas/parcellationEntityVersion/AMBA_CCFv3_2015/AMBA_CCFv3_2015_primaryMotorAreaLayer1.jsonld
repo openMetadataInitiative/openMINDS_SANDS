@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2015_primaryMotorAreaLayer1",
     "name": "primary motor area, layer 1",
     "ontologyIdentifier": null,
     "relationAssessment": null,

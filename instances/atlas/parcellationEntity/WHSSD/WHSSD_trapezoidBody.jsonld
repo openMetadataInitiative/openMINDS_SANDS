@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_trapezoidBody"
         }
     ],
+    "lookupLabel": "WHSSD_trapezoidBody",
     "name": "trapezoid body",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

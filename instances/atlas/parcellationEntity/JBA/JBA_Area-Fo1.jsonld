@@ -64,6 +64,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.5_Colin27-1998_Area-Fo1_PM-v5.0_right"
         }
     ],
+    "lookupLabel": "JBA_Area-Fo1",
     "name": "Area Fo1 (OFC)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "WHSSD_v2_innerEar",
     "name": "inner ear",
     "ontologyIdentifier": null,
     "relationAssessment": null,

@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2017_decliveVIGranularLayer",
     "name": "declive (VI), granular layer",
     "ontologyIdentifier": null,
     "relationAssessment": null,

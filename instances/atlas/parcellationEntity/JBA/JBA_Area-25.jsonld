@@ -64,6 +64,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.5_Colin27-1998_Area-25_PM-v18.0_right"
         }
     ],
+    "lookupLabel": "JBA_Area-25",
     "name": "Area 25 (sACC)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_ventralCochlearNucleusCapArea"
         }
     ],
+    "lookupLabel": "WHSSD_ventralCochlearNucleusCapArea",
     "name": "ventral cochlear nucleus, cap area",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

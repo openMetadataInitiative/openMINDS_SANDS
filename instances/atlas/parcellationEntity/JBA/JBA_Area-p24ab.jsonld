@@ -61,6 +61,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_Area-p24ab_PM-v16.1_right"
         }
     ],
+    "lookupLabel": "JBA_Area-p24ab",
     "name": "Area p24ab (pACC)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

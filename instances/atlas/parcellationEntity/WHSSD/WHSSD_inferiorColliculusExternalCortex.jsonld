@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_inferiorColliculusExternalCortex"
         }
     ],
+    "lookupLabel": "WHSSD_inferiorColliculusExternalCortex",
     "name": "inferior colliculus, external cortex",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

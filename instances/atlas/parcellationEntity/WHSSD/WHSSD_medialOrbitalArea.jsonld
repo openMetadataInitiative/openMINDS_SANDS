@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_medialOrbitalArea"
         }
     ],
+    "lookupLabel": "WHSSD_medialOrbitalArea",
     "name": "medial orbital area",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

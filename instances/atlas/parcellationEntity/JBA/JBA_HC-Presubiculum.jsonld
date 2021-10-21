@@ -25,6 +25,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_HC-Presubiculum_PM-v13.0_left"
         }
     ],
+    "lookupLabel": "JBA_HC-Presubiculum",
     "name": "HC-Presubiculum (Hippocampus)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

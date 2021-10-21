@@ -6,6 +6,7 @@
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
     "hasParent": null,
     "hasVersion": null,
+    "lookupLabel": "WHSSD_cornuAmmonis",
     "name": "cornu ammonis",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

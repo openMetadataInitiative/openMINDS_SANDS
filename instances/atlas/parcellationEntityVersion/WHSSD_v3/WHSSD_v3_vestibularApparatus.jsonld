@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "WHSSD_v3_vestibularApparatus",
     "name": "vestibular apparatus",
     "ontologyIdentifier": null,
     "relationAssessment": null,

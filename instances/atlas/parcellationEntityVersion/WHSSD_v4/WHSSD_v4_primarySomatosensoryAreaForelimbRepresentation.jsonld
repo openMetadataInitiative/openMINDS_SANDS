@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "WHSSD_v4_primarySomatosensoryAreaForelimbRepresentation",
     "name": "primary somatosensory area, forelimb representation",
     "ontologyIdentifier": null,
     "relationAssessment": null,

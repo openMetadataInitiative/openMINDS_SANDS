@@ -19,6 +19,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_presubiculum"
         }
     ],
+    "lookupLabel": "WHSSD_presubiculum",
     "name": "presubiculum",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

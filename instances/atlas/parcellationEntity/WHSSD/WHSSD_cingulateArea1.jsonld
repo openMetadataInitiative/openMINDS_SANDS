@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_cingulateArea1"
         }
     ],
+    "lookupLabel": "WHSSD_cingulateArea1",
     "name": "cingulate area 1",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

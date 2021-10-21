@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v1.01_hippocampalFormation"
         }
     ],
+    "lookupLabel": "WHSSD_hippocampalFormationUnspecified",
     "name": "hippocampal formation, unspecified",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

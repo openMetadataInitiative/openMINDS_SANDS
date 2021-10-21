@@ -19,6 +19,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_fasciolaCinereum"
         }
     ],
+    "lookupLabel": "WHSSD_fasciolaCinereum",
     "name": "fasciola cinereum",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

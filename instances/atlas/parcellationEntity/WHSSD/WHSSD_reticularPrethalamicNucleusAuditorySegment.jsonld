@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_reticularPrethalamicNucleusAuditorySegment"
         }
     ],
+    "lookupLabel": "WHSSD_reticularPrethalamicNucleusAuditorySegment",
     "name": "reticular (pre)thalamic nucleus, auditory segment",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

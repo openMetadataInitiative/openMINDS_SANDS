@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_primarySomatosensoryAreaFaceRepresentation"
         }
     ],
+    "lookupLabel": "WHSSD_primarySomatosensoryAreaFaceRepresentation",
     "name": "primary somatosensory area, face representation",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

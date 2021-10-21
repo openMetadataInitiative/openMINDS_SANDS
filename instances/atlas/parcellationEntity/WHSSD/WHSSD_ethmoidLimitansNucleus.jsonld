@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_ethmoidLimitansNucleus"
         }
     ],
+    "lookupLabel": "WHSSD_ethmoidLimitansNucleus",
     "name": "ethmoid-Limitans nucleus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

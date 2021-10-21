@@ -49,6 +49,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_CA1_PM-v11.1_left"
         }
     ],
+    "lookupLabel": "JBA_CA1",
     "name": "CA1 (Hippocampus)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

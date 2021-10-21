@@ -61,6 +61,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.4_Colin27-1998_Area-6ma_PM-v9.1_right"
         }
     ],
+    "lookupLabel": "JBA_Area-6ma",
     "name": "Area 6ma (preSMA, mesial SFG)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

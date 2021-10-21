@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_nucleusAccumbensCore"
         }
     ],
+    "lookupLabel": "WHSSD_nucleusAccumbensCore",
     "name": "nucleus accumbens, core",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

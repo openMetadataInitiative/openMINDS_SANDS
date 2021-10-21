@@ -61,6 +61,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_Area-Id2_PM-v7.1_right"
         }
     ],
+    "lookupLabel": "JBA_Area-Id2",
     "name": "Area Id2 (Insula)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2015_fieldCA3StratumOriens",
     "name": "field CA3, stratum oriens",
     "ontologyIdentifier": null,
     "relationAssessment": null,

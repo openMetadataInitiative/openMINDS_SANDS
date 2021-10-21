@@ -19,6 +19,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_medialEntorhinalCortex"
         }
     ],
+    "lookupLabel": "WHSSD_medialEntorhinalCortex",
     "name": "medial entorhinal cortex",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

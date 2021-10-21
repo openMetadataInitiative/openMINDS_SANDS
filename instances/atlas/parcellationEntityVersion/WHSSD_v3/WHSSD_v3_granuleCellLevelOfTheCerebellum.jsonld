@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "WHSSD_v3_granuleCellLevelOfTheCerebellum",
     "name": "granule cell level of the cerebellum",
     "ontologyIdentifier": null,
     "relationAssessment": null,

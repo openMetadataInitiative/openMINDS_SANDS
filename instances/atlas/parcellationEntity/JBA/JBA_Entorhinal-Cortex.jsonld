@@ -64,6 +64,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Entorhinal-Cortex_PM-v13.0_right"
         }
     ],
+    "lookupLabel": "JBA_Entorhinal-Cortex",
     "name": "Entorhinal Cortex",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

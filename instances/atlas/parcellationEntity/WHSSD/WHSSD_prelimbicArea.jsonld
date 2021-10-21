@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_prelimbicArea"
         }
     ],
+    "lookupLabel": "WHSSD_prelimbicArea",
     "name": "prelimbic area",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

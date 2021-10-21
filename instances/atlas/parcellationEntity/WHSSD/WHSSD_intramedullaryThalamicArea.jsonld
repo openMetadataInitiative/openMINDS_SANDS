@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_intramedullaryThalamicArea"
         }
     ],
+    "lookupLabel": "WHSSD_intramedullaryThalamicArea",
     "name": "intramedullary thalamic area",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

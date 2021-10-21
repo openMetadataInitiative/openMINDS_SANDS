@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2017_somatomotorAreasLayer1",
     "name": "somatomotor areas, layer 1",
     "ontologyIdentifier": null,
     "relationAssessment": null,

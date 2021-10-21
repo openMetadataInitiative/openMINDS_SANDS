@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "WHSSD_v4_primarySomatosensoryAreaFaceRepresentation",
     "name": "primary somatosensory area, face representation",
     "ontologyIdentifier": null,
     "relationAssessment": null,

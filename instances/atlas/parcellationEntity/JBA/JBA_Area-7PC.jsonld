@@ -64,6 +64,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-7PC_PM-v8.4_right"
         }
     ],
+    "lookupLabel": "JBA_Area-7PC",
     "name": "Area 7PC (SPL)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

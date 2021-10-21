@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_primaryAuditoryArea"
         }
     ],
+    "lookupLabel": "WHSSD_primaryAuditoryArea",
     "name": "primary auditory area",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

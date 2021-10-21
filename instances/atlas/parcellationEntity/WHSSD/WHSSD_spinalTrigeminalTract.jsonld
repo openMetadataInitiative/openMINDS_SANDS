@@ -22,6 +22,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_spinalTrigeminalTract"
         }
     ],
+    "lookupLabel": "WHSSD_spinalTrigeminalTract",
     "name": "spinal trigeminal tract",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

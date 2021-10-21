@@ -14,6 +14,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA_1909_area45"
         }
     ],
+    "lookupLabel": "BA_area45",
     "name": "Brodmann area 45",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

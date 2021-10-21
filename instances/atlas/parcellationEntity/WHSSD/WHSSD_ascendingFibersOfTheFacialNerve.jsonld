@@ -22,6 +22,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_ascendingFibersOfTheFacialNerve"
         }
     ],
+    "lookupLabel": "WHSSD_ascendingFibersOfTheFacialNerve",
     "name": "ascending fibers of the facial nerve",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

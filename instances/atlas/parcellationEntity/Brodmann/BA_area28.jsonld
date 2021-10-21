@@ -14,6 +14,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA_1909_area28"
         }
     ],
+    "lookupLabel": "BA_area28",
     "name": "Brodmann area 28",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

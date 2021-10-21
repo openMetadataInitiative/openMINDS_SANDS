@@ -19,6 +19,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v3.01_thalamus"
         }
     ],
+    "lookupLabel": "WHSSD_thalamusUnspecified",
     "name": "thalamus, unspecified",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

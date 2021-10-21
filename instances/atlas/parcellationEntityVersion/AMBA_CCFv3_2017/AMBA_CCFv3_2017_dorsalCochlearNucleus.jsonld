@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2017_dorsalCochlearNucleus",
     "name": "dorsal cochlear nucleus",
     "ontologyIdentifier": null,
     "relationAssessment": null,

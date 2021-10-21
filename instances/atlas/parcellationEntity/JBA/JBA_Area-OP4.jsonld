@@ -64,6 +64,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_Area-OP4_PM-v11.0_right"
         }
     ],
+    "lookupLabel": "JBA_Area-OP4",
     "name": "Area OP4 (POperc)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

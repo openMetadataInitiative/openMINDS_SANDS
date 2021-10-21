@@ -31,6 +31,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.2_Colin27-1998_Area-i29_PM-v11.0_right"
         }
     ],
+    "lookupLabel": "JBA_Area-i29",
     "name": "Area i29 (retrosplenial)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

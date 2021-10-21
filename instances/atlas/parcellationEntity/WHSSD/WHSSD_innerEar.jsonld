@@ -13,6 +13,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v2_innerEar"
         }
     ],
+    "lookupLabel": "WHSSD_innerEar",
     "name": "inner ear",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

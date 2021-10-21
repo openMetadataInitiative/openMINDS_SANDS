@@ -6,6 +6,7 @@
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
     "hasParent": null,
     "hasVersion": null,
+    "lookupLabel": "BA_cerebralCortex",
     "name": "Brodmann cerebral cortex",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": "http://purl.obolibrary.org/obo/UBERON_0000956"

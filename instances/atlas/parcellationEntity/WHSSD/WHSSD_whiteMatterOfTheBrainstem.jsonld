@@ -6,6 +6,7 @@
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
     "hasParent": null,
     "hasVersion": null,
+    "lookupLabel": "WHSSD_whiteMatterOfTheBrainstem",
     "name": "white matter of the brainstem",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

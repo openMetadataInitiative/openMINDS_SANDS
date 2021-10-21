@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_superiorParaolivaryNucleus"
         }
     ],
+    "lookupLabel": "WHSSD_superiorParaolivaryNucleus",
     "name": "superior paraolivary nucleus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_posteriorThalamicNuclearGroupTriangularPart"
         }
     ],
+    "lookupLabel": "WHSSD_posteriorThalamicNuclearGroupTriangularPart",
     "name": "posterior thalamic nuclear group, triangular part",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

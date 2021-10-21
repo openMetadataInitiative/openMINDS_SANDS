@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "WHSSD_v2_olfactoryBulb",
     "name": "olfactory bulb",
     "ontologyIdentifier": null,
     "relationAssessment": null,

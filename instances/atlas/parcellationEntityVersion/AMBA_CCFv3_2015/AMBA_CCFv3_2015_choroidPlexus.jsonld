@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2015_choroidPlexus",
     "name": "choroid plexus",
     "ontologyIdentifier": null,
     "relationAssessment": null,

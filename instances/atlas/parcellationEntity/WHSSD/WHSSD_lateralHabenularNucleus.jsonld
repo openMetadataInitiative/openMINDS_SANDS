@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_lateralHabenularNucleus"
         }
     ],
+    "lookupLabel": "WHSSD_lateralHabenularNucleus",
     "name": "lateral habenular nucleus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

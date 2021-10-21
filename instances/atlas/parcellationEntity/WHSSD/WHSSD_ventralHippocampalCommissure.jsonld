@@ -22,6 +22,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_ventralHippocampalCommissure"
         }
     ],
+    "lookupLabel": "WHSSD_ventralHippocampalCommissure",
     "name": "ventral hippocampal commissure",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

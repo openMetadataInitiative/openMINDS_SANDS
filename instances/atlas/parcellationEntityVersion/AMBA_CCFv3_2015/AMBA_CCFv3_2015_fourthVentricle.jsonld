@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2015_fourthVentricle",
     "name": "fourth ventricle",
     "ontologyIdentifier": null,
     "relationAssessment": null,

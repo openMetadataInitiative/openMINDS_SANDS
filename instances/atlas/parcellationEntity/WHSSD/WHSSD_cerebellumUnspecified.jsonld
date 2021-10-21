@@ -22,6 +22,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_cerebellumUnspecified"
         }
     ],
+    "lookupLabel": "WHSSD_cerebellumUnspecified",
     "name": "cerebellum, unspecified",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

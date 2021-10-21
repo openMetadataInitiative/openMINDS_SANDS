@@ -61,6 +61,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.4_Colin27-1998_Area-hIP5_PM-v7.1_right"
         }
     ],
+    "lookupLabel": "JBA_Area-hIP5",
     "name": "Area hIP5 (IPS)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

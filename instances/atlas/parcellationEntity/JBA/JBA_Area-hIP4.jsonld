@@ -61,6 +61,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-hIP4_PM-v7.1_left"
         }
     ],
+    "lookupLabel": "JBA_Area-hIP4",
     "name": "Area hIP4 (IPS)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_acousticStriae"
         }
     ],
+    "lookupLabel": "WHSSD_acousticStriae",
     "name": "acoustic striae",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

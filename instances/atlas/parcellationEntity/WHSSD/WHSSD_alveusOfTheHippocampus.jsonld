@@ -22,6 +22,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_alveusOfTheHippocampus"
         }
     ],
+    "lookupLabel": "WHSSD_alveusOfTheHippocampus",
     "name": "alveus of the hippocampus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

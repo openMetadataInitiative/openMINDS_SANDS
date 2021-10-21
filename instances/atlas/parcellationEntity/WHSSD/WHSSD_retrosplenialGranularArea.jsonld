@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_retrosplenialGranularArea"
         }
     ],
+    "lookupLabel": "WHSSD_retrosplenialGranularArea",
     "name": "retrosplenial granular area",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

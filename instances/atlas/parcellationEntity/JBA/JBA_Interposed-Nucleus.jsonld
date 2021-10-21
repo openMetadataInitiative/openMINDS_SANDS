@@ -64,6 +64,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Interposed-Nucleus_PM-v6.2_right"
         }
     ],
+    "lookupLabel": "JBA_Interposed-Nucleus",
     "name": "Interposed Nucleus (Cerebellum)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

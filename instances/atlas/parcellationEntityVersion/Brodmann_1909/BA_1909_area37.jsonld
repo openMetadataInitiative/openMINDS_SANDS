@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA_cerebralCortex"
         }
     ],
+    "lookupLabel": "BA_1909_area37",
     "name": "Brodmann area 37",
     "ontologyIdentifier": "http://purl.obolibrary.org/obo/UBERON_0006478",
     "relationAssessment": null,

@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_cochlearNerve"
         }
     ],
+    "lookupLabel": "WHSSD_cochlearNerve",
     "name": "cochlear nerve",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

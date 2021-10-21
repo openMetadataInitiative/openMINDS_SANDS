@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_paraventricularThalamicNucleiAnteriorAndPosterior"
         }
     ],
+    "lookupLabel": "WHSSD_paraventricularThalamicNucleiAnteriorAndPosterior",
     "name": "paraventricular thalamic nuclei (anterior and posterior)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

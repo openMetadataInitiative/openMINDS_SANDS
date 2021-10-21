@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_ventralPeriolivaryNuclei"
         }
     ],
+    "lookupLabel": "WHSSD_ventralPeriolivaryNuclei",
     "name": "ventral periolivary nuclei",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

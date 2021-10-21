@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_dorsalCochlearNucleusFusiformAndGranuleLayer"
         }
     ],
+    "lookupLabel": "WHSSD_dorsalCochlearNucleusFusiformAndGranuleLayer",
     "name": "dorsal cochlear nucleus, fusiform and granule layer",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

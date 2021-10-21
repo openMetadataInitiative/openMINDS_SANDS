@@ -64,6 +64,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_Colin27-1998_Area-hOc1_PM-v2.4_left"
         }
     ],
+    "lookupLabel": "JBA_Area-hOc1",
     "name": "Area hOc1 (V1, 17, CalcS)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

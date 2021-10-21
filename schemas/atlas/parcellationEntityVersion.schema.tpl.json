@@ -23,6 +23,10 @@
         "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
       ]
     },
+    "lookupLabel": {
+      "type": "string",
+      "_instruction": "Enter a lookup label for this parcellation entity version."
+    },
     "name": {
       "type": "string",
       "_instruction": "If necessary, enter a version specific name for this parcellation entity version. If left blank, the parcellation entity version will inherit the 'name' of it's corresponding parcellation entity."

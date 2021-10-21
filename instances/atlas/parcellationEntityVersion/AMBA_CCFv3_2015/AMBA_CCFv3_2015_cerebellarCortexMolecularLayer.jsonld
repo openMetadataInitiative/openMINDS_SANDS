@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2015_cerebellarCortexMolecularLayer",
     "name": "cerebellar cortex, molecular layer",
     "ontologyIdentifier": null,
     "relationAssessment": null,

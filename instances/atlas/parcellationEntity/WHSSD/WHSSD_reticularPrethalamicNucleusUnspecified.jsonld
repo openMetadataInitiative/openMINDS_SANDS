@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_reticularPrethalamicNucleusUnspecified"
         }
     ],
+    "lookupLabel": "WHSSD_reticularPrethalamicNucleusUnspecified",
     "name": "reticular (pre)thalamic nucleus, unspecified",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

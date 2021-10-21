@@ -61,6 +61,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_Colin27-1998_Area-6d3_PM-v4.1_right"
         }
     ],
+    "lookupLabel": "JBA_Area-6d3",
     "name": "Area 6d3 (SFS)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

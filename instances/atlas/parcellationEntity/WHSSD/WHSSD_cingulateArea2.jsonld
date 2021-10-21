@@ -22,6 +22,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_cingulateArea2"
         }
     ],
+    "lookupLabel": "WHSSD_cingulateArea2",
     "name": "cingulate area 2",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

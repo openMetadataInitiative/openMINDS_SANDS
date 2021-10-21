@@ -64,6 +64,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_Area-PF_PM-v9.4_left"
         }
     ],
+    "lookupLabel": "JBA_Area-PF",
     "name": "Area PF (IPL)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

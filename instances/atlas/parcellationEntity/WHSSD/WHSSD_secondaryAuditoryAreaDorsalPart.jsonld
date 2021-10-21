@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_secondaryAuditoryAreaDorsalPart"
         }
     ],
+    "lookupLabel": "WHSSD_secondaryAuditoryAreaDorsalPart",
     "name": "secondary auditory area, dorsal part",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

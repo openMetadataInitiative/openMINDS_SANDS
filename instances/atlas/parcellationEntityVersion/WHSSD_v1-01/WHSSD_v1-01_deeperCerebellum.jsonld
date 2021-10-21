@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "WHSSD_v1.01_deeperCerebellum",
     "name": "deeper cerebellum",
     "ontologyIdentifier": null,
     "relationAssessment": null,

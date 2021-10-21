@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_agranularInsularCortexDorsalArea"
         }
     ],
+    "lookupLabel": "WHSSD_agranularInsularCortexDorsalArea",
     "name": "agranular insular cortex dorsal area",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

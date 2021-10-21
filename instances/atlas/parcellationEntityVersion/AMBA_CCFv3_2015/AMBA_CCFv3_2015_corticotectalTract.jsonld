@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2015_corticotectalTract",
     "name": "corticotectal tract",
     "ontologyIdentifier": null,
     "relationAssessment": null,

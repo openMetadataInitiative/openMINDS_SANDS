@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2015_orbitalAreaLateralPart",
     "name": "orbital area, lateral part",
     "ontologyIdentifier": null,
     "relationAssessment": null,

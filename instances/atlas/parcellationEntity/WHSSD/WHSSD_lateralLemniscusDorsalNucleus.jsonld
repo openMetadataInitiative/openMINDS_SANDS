@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_lateralLemniscusDorsalNucleus"
         }
     ],
+    "lookupLabel": "WHSSD_lateralLemniscusDorsalNucleus",
     "name": "lateral lemniscus, dorsal nucleus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

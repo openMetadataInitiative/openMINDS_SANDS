@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_vestibularApparatus"
         }
     ],
+    "lookupLabel": "WHSSD_vestibularApparatus",
     "name": "vestibular apparatus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

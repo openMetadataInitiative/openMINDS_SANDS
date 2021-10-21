@@ -6,6 +6,7 @@
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
     "hasParent": null,
     "hasVersion": null,
+    "lookupLabel": "WHSSD_epithalamus",
     "name": "epithalamus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

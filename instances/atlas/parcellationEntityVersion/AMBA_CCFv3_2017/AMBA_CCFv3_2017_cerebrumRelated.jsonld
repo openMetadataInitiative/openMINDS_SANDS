@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2017_cerebrumRelated",
     "name": "cerebrum related",
     "ontologyIdentifier": null,
     "relationAssessment": null,

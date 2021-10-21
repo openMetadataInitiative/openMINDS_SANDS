@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "WHSSD_v3.01_trapezoidBody",
     "name": "trapezoid body",
     "ontologyIdentifier": null,
     "relationAssessment": null,

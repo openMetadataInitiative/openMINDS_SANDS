@@ -22,6 +22,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_periaqueductalGray"
         }
     ],
+    "lookupLabel": "WHSSD_periaqueductalGray",
     "name": "periaqueductal gray",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

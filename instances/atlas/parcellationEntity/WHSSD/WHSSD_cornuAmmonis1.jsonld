@@ -19,6 +19,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_cornuAmmonis1"
         }
     ],
+    "lookupLabel": "WHSSD_cornuAmmonis1",
     "name": "cornu ammonis 1",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

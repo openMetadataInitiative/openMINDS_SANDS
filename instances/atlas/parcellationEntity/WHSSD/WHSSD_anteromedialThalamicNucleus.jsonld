@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_anteromedialThalamicNucleus"
         }
     ],
+    "lookupLabel": "WHSSD_anteromedialThalamicNucleus",
     "name": "anteromedial thalamic nucleus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

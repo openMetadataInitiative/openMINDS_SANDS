@@ -64,6 +64,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-Ig1_PM-v13.1_right"
         }
     ],
+    "lookupLabel": "JBA_Area-Ig1",
     "name": "Area Ig1 (Insula)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

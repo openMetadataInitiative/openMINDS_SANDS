@@ -49,6 +49,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Area-OP7_PM-v3.0_right"
         }
     ],
+    "lookupLabel": "JBA_Area-OP7",
     "name": "Area OP7 (Frontal Operculum)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

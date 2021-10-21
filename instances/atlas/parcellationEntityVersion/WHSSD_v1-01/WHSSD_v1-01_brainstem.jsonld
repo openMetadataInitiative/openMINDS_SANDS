@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "WHSSD_v1.01_brainstem",
     "name": "brainstem",
     "ontologyIdentifier": null,
     "relationAssessment": null,

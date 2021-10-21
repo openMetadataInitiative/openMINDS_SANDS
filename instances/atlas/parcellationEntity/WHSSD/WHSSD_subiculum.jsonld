@@ -22,6 +22,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_subiculum"
         }
     ],
+    "lookupLabel": "WHSSD_subiculum",
     "name": "subiculum",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

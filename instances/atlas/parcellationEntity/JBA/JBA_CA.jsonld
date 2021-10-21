@@ -19,6 +19,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_Colin27-1998_CA_PM-v11.1_left"
         }
     ],
+    "lookupLabel": "JBA_CA",
     "name": "CA (Hippocampus)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

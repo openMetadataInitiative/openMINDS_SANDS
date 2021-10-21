@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "WHSSD_v4_primaryVisualArea",
     "name": "primary visual area",
     "ontologyIdentifier": null,
     "relationAssessment": null,

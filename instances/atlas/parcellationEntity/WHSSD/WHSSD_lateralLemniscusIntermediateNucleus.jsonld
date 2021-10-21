@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_lateralLemniscusIntermediateNucleus"
         }
     ],
+    "lookupLabel": "WHSSD_lateralLemniscusIntermediateNucleus",
     "name": "lateral lemniscus, intermediate nucleus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v1.01_dorsalintermediateEntorhinalArea"
         }
     ],
+    "lookupLabel": "WHSSD_dorsalintermediateEntorhinalArea",
     "name": "dorsal-intermediate entorhinal area",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null
