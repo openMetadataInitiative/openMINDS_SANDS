@@ -4,11 +4,24 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3_2017_paraventricularHypothalamicNucleusMagnocellularDivisionMedialMagnocellularPart",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": [
-        {
-            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/AMBA_CCFv3_2017_paraventricularHypothalamicNucleusMagnocellularDivisionMedialMagnocellularPart"
-        }
-    ],
+    "hasAnnotation": {
+        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+        "bestViewPoint": null,
+        "criteria": null,
+        "criteriaQualityType": null,
+        "displayColor": "#FF5D50",
+        "inspiredBy": null,
+        "internalIdentifier": "79",
+        "laterality": [
+            {
+                "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+            }
+        ],
+        "visualizedIn": null
+    },
     "hasParent": null,
     "lookupLabel": "AMBA_CCFv3_2017_paraventricularHypothalamicNucleusMagnocellularDivisionMedialMagnocellularPart",
     "name": "paraventricular hypothalamic nucleus, magnocellular division, medial magnocellular part",
