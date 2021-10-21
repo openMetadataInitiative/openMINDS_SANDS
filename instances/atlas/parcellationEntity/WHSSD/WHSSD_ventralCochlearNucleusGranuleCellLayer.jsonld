@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_ventralCochlearNucleusGranuleCellLayer"
         }
     ],
+    "lookupLabel": "WHSSD_ventralCochlearNucleusGranuleCellLayer",
     "name": "ventral cochlear nucleus, granule cell layer",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

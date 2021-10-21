@@ -22,6 +22,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_corpusCallosumAndAssociatedSubcorticalWhiteMatter"
         }
     ],
+    "lookupLabel": "WHSSD_corpusCallosumAndAssociatedSubcorticalWhiteMatter",
     "name": "corpus callosum and associated subcortical white matter",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

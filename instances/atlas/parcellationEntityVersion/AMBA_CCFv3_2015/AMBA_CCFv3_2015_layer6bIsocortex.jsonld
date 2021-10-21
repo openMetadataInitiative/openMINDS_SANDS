@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2015_layer6bIsocortex",
     "name": "layer 6b, isocortex",
     "ontologyIdentifier": null,
     "relationAssessment": null,

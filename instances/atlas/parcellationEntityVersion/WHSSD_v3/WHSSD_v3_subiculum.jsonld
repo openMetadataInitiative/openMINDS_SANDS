@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "WHSSD_v3_subiculum",
     "name": "subiculum",
     "ontologyIdentifier": null,
     "relationAssessment": null,

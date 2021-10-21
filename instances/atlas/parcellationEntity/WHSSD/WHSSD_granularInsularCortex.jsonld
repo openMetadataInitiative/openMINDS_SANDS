@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_granularInsularCortex"
         }
     ],
+    "lookupLabel": "WHSSD_granularInsularCortex",
     "name": "granular insular cortex",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

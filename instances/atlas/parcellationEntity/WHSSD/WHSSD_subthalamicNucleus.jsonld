@@ -22,6 +22,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_subthalamicNucleus"
         }
     ],
+    "lookupLabel": "WHSSD_subthalamicNucleus",
     "name": "subthalamic nucleus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

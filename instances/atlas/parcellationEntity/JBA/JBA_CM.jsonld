@@ -64,6 +64,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_Colin27-1998_CM_PM-v6.4_right"
         }
     ],
+    "lookupLabel": "JBA_CM",
     "name": "CM (Amygdala)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

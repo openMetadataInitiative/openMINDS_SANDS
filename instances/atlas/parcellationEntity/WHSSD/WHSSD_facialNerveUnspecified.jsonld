@@ -22,6 +22,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_facialNerveUnspecified"
         }
     ],
+    "lookupLabel": "WHSSD_facialNerveUnspecified",
     "name": "facial nerve, unspecified",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

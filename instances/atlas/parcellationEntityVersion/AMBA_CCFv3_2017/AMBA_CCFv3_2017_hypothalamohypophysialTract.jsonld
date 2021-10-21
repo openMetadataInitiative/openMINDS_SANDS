@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2017_hypothalamohypophysialTract",
     "name": "hypothalamohypophysial tract",
     "ontologyIdentifier": null,
     "relationAssessment": null,

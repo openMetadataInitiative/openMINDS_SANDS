@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2015_midbrainMotorRelated",
     "name": "midbrain, motor related",
     "ontologyIdentifier": null,
     "relationAssessment": null,

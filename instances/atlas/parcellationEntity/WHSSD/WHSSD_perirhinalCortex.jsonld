@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v1.01_perirhinalCortex"
         }
     ],
+    "lookupLabel": "WHSSD_perirhinalCortex",
     "name": "perirhinal cortex",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

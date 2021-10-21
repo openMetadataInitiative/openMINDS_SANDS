@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_centralMedialThalamicNucleus"
         }
     ],
+    "lookupLabel": "WHSSD_centralMedialThalamicNucleus",
     "name": "central medial thalamic nucleus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

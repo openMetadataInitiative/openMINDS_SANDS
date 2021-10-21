@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_ventromedialThalamicNucleus"
         }
     ],
+    "lookupLabel": "WHSSD_ventromedialThalamicNucleus",
     "name": "ventromedial thalamic nucleus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

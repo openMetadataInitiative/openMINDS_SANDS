@@ -61,6 +61,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.4_Colin27-1998_Area-Id6_PM-v3.1_right"
         }
     ],
+    "lookupLabel": "JBA_Area-Id6",
     "name": "Area Id6 (Insula)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_ventralCochlearNucleusPosteriorPart"
         }
     ],
+    "lookupLabel": "WHSSD_ventralCochlearNucleusPosteriorPart",
     "name": "ventral cochlear nucleus, posterior part",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

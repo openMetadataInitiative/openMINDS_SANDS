@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2017_crossedTectospinalPathway",
     "name": "crossed tectospinal pathway",
     "ontologyIdentifier": null,
     "relationAssessment": null,

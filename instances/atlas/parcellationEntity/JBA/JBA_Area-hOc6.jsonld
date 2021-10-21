@@ -61,6 +61,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Area-hOc6_PM-v7.1_right"
         }
     ],
+    "lookupLabel": "JBA_Area-hOc6",
     "name": "Area hOc6 (POS)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

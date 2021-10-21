@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2017_root",
     "name": "root",
     "ontologyIdentifier": null,
     "relationAssessment": null,

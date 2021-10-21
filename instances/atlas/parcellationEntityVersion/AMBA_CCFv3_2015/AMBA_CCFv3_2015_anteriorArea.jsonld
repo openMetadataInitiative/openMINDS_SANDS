@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2015_anteriorArea",
     "name": "anterior area",
     "ontologyIdentifier": null,
     "relationAssessment": null,

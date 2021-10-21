@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "WHSSD_v4_primarySomatosensoryAreaTrunkRepresentation",
     "name": "primary somatosensory area, trunk representation",
     "ontologyIdentifier": null,
     "relationAssessment": null,

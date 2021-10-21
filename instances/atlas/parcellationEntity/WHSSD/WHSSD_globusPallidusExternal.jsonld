@@ -19,6 +19,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v3.01_globusPallidus"
         }
     ],
+    "lookupLabel": "WHSSD_globusPallidusExternal",
     "name": "globus pallidus external",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

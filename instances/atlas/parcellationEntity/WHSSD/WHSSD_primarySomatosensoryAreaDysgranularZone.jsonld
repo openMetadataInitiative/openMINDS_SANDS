@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_primarySomatosensoryAreaDysgranularZone"
         }
     ],
+    "lookupLabel": "WHSSD_primarySomatosensoryAreaDysgranularZone",
     "name": "primary somatosensory area, dysgranular zone",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

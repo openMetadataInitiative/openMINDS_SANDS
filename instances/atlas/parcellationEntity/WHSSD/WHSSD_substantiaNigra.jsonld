@@ -19,6 +19,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v3.01_substantiaNigra"
         }
     ],
+    "lookupLabel": "WHSSD_substantiaNigra",
     "name": "substantia nigra",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

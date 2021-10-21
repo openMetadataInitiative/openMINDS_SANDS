@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "WHSSD_v3.01_frontalAssociationCortex",
     "name": "frontal association cortex",
     "ontologyIdentifier": null,
     "relationAssessment": null,

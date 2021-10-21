@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_reuniensThalamicNucleus"
         }
     ],
+    "lookupLabel": "WHSSD_reuniensThalamicNucleus",
     "name": "reuniens thalamic nucleus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

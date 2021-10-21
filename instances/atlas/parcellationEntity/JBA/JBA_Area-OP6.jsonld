@@ -49,6 +49,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.5_Colin27-1998_Area-OP6_PM-v3.0_right"
         }
     ],
+    "lookupLabel": "JBA_Area-OP6",
     "name": "Area OP6 (Frontal Operculum)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

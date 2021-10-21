@@ -19,6 +19,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_perirhinalArea36"
         }
     ],
+    "lookupLabel": "WHSSD_perirhinalArea36",
     "name": "perirhinal area 36",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

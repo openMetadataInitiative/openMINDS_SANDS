@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_inferiorColliculusCentralNucleus"
         }
     ],
+    "lookupLabel": "WHSSD_inferiorColliculusCentralNucleus",
     "name": "inferior colliculus, central nucleus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

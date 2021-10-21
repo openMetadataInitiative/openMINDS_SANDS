@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Temporal-to-Parietal_PM-v10.0_left",
     "name": "Temporal-to-Parietal (GapMap)",
     "ontologyIdentifier": null,
     "relationAssessment": null,

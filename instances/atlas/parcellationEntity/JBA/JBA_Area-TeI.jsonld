@@ -49,6 +49,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Area-TeI_PM-v6.0_right"
         }
     ],
+    "lookupLabel": "JBA_Area-TeI",
     "name": "Area TeI (STG)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "WHSSD_v3_opticTractAndOpticChiasm",
     "name": "optic tract and optic chiasm",
     "ontologyIdentifier": null,
     "relationAssessment": null,

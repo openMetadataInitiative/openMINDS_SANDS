@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2017_ponsMotorRelated",
     "name": "pons, motor related",
     "ontologyIdentifier": null,
     "relationAssessment": null,

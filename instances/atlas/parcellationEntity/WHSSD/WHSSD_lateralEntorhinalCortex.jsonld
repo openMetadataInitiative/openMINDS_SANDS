@@ -19,6 +19,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_lateralEntorhinalCortex"
         }
     ],
+    "lookupLabel": "WHSSD_lateralEntorhinalCortex",
     "name": "lateral entorhinal cortex",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

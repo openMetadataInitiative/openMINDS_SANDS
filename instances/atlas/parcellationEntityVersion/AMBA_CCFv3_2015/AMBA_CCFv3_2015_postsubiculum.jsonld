@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2015_postsubiculum",
     "name": "postsubiculum",
     "ontologyIdentifier": null,
     "relationAssessment": null,

@@ -19,6 +19,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v3.01_striatum"
         }
     ],
+    "lookupLabel": "WHSSD_striatum",
     "name": "striatum",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

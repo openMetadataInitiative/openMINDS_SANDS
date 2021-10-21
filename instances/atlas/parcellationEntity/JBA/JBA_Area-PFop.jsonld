@@ -64,6 +64,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Area-PFop_PM-v11.0_left"
         }
     ],
+    "lookupLabel": "JBA_Area-PFop",
     "name": "Area PFop (IPL)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

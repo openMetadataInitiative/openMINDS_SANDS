@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_lateralPosteriorThalamicNucleusMediorostralPart"
         }
     ],
+    "lookupLabel": "WHSSD_lateralPosteriorThalamicNucleusMediorostralPart",
     "name": "lateral posterior thalamic nucleus, mediorostral part",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

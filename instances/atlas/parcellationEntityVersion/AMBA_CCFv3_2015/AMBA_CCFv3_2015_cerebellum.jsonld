@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2015_cerebellum",
     "name": "cerebellum",
     "ontologyIdentifier": null,
     "relationAssessment": null,

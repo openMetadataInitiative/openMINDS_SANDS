@@ -64,6 +64,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_IF_PM-v8.1_right"
         }
     ],
+    "lookupLabel": "JBA_IF",
     "name": "IF (Amygdala)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

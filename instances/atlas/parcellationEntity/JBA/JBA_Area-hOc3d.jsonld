@@ -64,6 +64,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-hOc3d_PM-v2.4_right"
         }
     ],
+    "lookupLabel": "JBA_Area-hOc3d",
     "name": "Area hOc3d (Cuneus)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

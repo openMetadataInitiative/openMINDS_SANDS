@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_intergeniculateLeaflet"
         }
     ],
+    "lookupLabel": "WHSSD_intergeniculateLeaflet",
     "name": "intergeniculate leaflet",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

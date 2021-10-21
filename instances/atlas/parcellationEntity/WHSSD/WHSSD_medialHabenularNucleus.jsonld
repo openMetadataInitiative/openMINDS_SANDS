@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_medialHabenularNucleus"
         }
     ],
+    "lookupLabel": "WHSSD_medialHabenularNucleus",
     "name": "medial habenular nucleus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

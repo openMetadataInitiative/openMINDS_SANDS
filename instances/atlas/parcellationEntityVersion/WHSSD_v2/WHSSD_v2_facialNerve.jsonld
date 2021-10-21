@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "WHSSD_v2_facialNerve",
     "name": "facial nerve",
     "ontologyIdentifier": null,
     "relationAssessment": null,

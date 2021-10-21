@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2015_dorsalSpinocerebellarTract",
     "name": "dorsal spinocerebellar tract",
     "ontologyIdentifier": null,
     "relationAssessment": null,

@@ -64,6 +64,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.2_Colin27-1998_Area-PGa_PM-v9.4_right"
         }
     ],
+    "lookupLabel": "JBA_Area-PGa",
     "name": "Area PGa (IPL)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

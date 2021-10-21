@@ -6,6 +6,7 @@
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
     "hasParent": null,
     "hasVersion": null,
+    "lookupLabel": "WHSSD_cerebralCortexIncludingTheNeocortexAndTheHippocampus",
     "name": "cerebral cortex including the neocortex and the hippocampus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

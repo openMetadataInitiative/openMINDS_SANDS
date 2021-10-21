@@ -25,6 +25,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Frontal-to-Occipital_PM-v10.0_right"
         }
     ],
+    "lookupLabel": "JBA_Frontal-to-Occipital",
     "name": "Frontal-to-Occipital (GapMap)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

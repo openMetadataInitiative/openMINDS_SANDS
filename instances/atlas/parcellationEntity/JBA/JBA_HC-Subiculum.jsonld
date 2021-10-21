@@ -25,6 +25,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_HC-Subiculum_PM-v13.0_left"
         }
     ],
+    "lookupLabel": "JBA_HC-Subiculum",
     "name": "HC-Subiculum (Hippocampus)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

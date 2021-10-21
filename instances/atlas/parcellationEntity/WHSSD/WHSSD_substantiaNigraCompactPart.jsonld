@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_substantiaNigraCompactPart"
         }
     ],
+    "lookupLabel": "WHSSD_substantiaNigraCompactPart",
     "name": "substantia nigra, compact part",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

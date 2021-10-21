@@ -61,6 +61,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Area-STS2_PM-v5.0_left"
         }
     ],
+    "lookupLabel": "JBA_Area-STS2",
     "name": "Area STS2 (STS)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

@@ -6,6 +6,7 @@
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
     "hasParent": null,
     "hasVersion": null,
+    "lookupLabel": "WHSSD_anteroventralThalamicNucleus",
     "name": "anteroventral thalamic nucleus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

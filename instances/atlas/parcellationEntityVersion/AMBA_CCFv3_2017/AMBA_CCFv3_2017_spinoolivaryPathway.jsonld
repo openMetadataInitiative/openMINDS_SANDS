@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2017_spinoolivaryPathway",
     "name": "spino-olivary pathway",
     "ontologyIdentifier": null,
     "relationAssessment": null,

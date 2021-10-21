@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2015_dorsalRoots",
     "name": "dorsal roots",
     "ontologyIdentifier": null,
     "relationAssessment": null,

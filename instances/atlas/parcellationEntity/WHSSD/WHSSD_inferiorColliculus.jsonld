@@ -13,6 +13,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v2_inferiorColliculus"
         }
     ],
+    "lookupLabel": "WHSSD_inferiorColliculus",
     "name": "inferior colliculus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2015_opticNerve",
     "name": "optic nerve",
     "ontologyIdentifier": null,
     "relationAssessment": null,

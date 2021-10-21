@@ -25,6 +25,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.5_Colin27-1998_Frontal-to-Temporal_PM-v10.0_right"
         }
     ],
+    "lookupLabel": "JBA_Frontal-to-Temporal",
     "name": "Frontal-to-Temporal (GapMap)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

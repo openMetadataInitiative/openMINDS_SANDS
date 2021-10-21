@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_ventralTegmentalArea"
         }
     ],
+    "lookupLabel": "WHSSD_ventralTegmentalArea",
     "name": "ventral tegmental area",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

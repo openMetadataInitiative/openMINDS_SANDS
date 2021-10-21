@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_nucleusSagulum"
         }
     ],
+    "lookupLabel": "WHSSD_nucleusSagulum",
     "name": "nucleus sagulum",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

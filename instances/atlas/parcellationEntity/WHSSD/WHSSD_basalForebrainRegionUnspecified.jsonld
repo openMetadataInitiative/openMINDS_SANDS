@@ -22,6 +22,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_basalForebrainRegionUnspecified"
         }
     ],
+    "lookupLabel": "WHSSD_basalForebrainRegionUnspecified",
     "name": "basal forebrain region, unspecified",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

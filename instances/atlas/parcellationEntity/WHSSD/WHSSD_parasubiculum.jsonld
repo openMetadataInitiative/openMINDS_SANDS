@@ -19,6 +19,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_parasubiculum"
         }
     ],
+    "lookupLabel": "WHSSD_parasubiculum",
     "name": "parasubiculum",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

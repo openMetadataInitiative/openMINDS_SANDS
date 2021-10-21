@@ -46,6 +46,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Subiculum_PM-v11.1_right"
         }
     ],
+    "lookupLabel": "JBA_Subiculum",
     "name": "Subiculum (Hippocampus)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

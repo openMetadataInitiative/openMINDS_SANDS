@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_zonaIncertaA11DopamineCells"
         }
     ],
+    "lookupLabel": "WHSSD_zonaIncertaA11DopamineCells",
     "name": "zona incerta, A11 dopamine cells",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

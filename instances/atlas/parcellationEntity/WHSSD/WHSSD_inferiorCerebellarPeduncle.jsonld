@@ -22,6 +22,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_inferiorCerebellarPeduncle"
         }
     ],
+    "lookupLabel": "WHSSD_inferiorCerebellarPeduncle",
     "name": "inferior cerebellar peduncle",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

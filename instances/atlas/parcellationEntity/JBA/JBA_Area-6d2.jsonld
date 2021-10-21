@@ -61,6 +61,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_Colin27-1998_Area-6d2_PM-v4.1_right"
         }
     ],
+    "lookupLabel": "JBA_Area-6d2",
     "name": "Area 6d2 (PreCG)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

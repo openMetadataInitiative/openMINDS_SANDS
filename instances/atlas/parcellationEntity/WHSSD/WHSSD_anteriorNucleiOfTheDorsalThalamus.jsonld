@@ -6,6 +6,7 @@
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
     "hasParent": null,
     "hasVersion": null,
+    "lookupLabel": "WHSSD_anteriorNucleiOfTheDorsalThalamus",
     "name": "anterior nuclei of the dorsal thalamus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

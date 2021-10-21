@@ -64,6 +64,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-3b_PM-v8.4_left"
         }
     ],
+    "lookupLabel": "JBA_Area-3b",
     "name": "Area 3b (PostCG)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2015_ventralAuditoryArea",
     "name": "ventral auditory area",
     "ontologyIdentifier": null,
     "relationAssessment": null,

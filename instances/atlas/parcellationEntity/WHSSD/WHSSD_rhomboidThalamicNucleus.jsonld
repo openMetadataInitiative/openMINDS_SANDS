@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_rhomboidThalamicNucleus"
         }
     ],
+    "lookupLabel": "WHSSD_rhomboidThalamicNucleus",
     "name": "rhomboid thalamic nucleus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_cochlea"
         }
     ],
+    "lookupLabel": "WHSSD_cochlea",
     "name": "cochlea",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

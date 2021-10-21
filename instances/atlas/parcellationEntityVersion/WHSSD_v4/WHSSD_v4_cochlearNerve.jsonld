@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "WHSSD_v4_cochlearNerve",
     "name": "cochlear nerve",
     "ontologyIdentifier": null,
     "relationAssessment": null,

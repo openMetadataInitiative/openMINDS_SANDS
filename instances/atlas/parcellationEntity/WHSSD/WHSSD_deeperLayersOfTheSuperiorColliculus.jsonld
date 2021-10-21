@@ -22,6 +22,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_deeperLayersOfTheSuperiorColliculus"
         }
     ],
+    "lookupLabel": "WHSSD_deeperLayersOfTheSuperiorColliculus",
     "name": "deeper layers of the superior colliculus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

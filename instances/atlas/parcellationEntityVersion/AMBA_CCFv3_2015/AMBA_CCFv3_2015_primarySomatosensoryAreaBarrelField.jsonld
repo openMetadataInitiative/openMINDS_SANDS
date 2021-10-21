@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2015_primarySomatosensoryAreaBarrelField",
     "name": "primary somatosensory area, barrel field",
     "ontologyIdentifier": null,
     "relationAssessment": null,

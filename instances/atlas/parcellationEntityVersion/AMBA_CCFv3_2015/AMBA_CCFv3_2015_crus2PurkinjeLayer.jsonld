@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2015_crus2PurkinjeLayer",
     "name": "crus 2, Purkinje layer",
     "ontologyIdentifier": null,
     "relationAssessment": null,

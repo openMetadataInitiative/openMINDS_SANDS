@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_dorsalLateralGeniculateNucleus"
         }
     ],
+    "lookupLabel": "WHSSD_dorsalLateralGeniculateNucleus",
     "name": "dorsal lateral geniculate nucleus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

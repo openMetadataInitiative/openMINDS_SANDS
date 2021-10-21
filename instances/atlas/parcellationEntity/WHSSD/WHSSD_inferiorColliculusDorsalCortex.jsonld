@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_inferiorColliculusDorsalCortex"
         }
     ],
+    "lookupLabel": "WHSSD_inferiorColliculusDorsalCortex",
     "name": "inferior colliculus, dorsal cortex",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_zonaIncertaCaudalPart"
         }
     ],
+    "lookupLabel": "WHSSD_zonaIncertaCaudalPart",
     "name": "zona incerta, caudal part",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

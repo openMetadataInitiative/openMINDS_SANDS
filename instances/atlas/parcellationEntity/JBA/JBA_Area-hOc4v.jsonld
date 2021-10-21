@@ -64,6 +64,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.2_MNI-ICBM-152-2009c-nonlin-asym_Area-hOc4v_PM-v3.4_right"
         }
     ],
+    "lookupLabel": "JBA_Area-hOc4v",
     "name": "Area hOc4v (LingG)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

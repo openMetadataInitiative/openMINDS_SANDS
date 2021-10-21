@@ -16,6 +16,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_lateralLemniscusVentralNucleus"
         }
     ],
+    "lookupLabel": "WHSSD_lateralLemniscusVentralNucleus",
     "name": "lateral lemniscus, ventral nucleus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

@@ -64,6 +64,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-FG4_PM-v6.1_left"
         }
     ],
+    "lookupLabel": "JBA_Area-FG4",
     "name": "Area FG4 (FusG)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

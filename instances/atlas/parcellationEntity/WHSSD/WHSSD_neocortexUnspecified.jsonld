@@ -19,6 +19,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v3.01_neocortex"
         }
     ],
+    "lookupLabel": "WHSSD_neocortexUnspecified",
     "name": "neocortex, unspecified",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

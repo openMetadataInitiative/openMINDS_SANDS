@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_temporalAssociationCortex"
         }
     ],
+    "lookupLabel": "WHSSD_temporalAssociationCortex",
     "name": "temporal association cortex",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

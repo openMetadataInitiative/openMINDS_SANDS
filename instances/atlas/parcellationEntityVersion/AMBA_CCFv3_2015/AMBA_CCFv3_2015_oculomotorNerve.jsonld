@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2015_oculomotorNerve",
     "name": "oculomotor nerve",
     "ontologyIdentifier": null,
     "relationAssessment": null,

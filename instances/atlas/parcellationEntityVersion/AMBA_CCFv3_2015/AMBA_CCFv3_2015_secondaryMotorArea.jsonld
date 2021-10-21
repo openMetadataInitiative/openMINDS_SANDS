@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2015_secondaryMotorArea",
     "name": "secondary motor area",
     "ontologyIdentifier": null,
     "relationAssessment": null,

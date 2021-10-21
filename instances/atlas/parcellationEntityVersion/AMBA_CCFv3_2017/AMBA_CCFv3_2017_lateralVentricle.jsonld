@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2017_lateralVentricle",
     "name": "lateral ventricle",
     "ontologyIdentifier": null,
     "relationAssessment": null,

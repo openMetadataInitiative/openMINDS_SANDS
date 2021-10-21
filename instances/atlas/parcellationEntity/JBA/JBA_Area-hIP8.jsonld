@@ -61,6 +61,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-hIP8_PM-v7.1_right"
         }
     ],
+    "lookupLabel": "JBA_Area-hIP8",
     "name": "Area hIP8 (IPS)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

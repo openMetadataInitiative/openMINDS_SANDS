@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_substantiaNigraReticularPart"
         }
     ],
+    "lookupLabel": "WHSSD_substantiaNigraReticularPart",
     "name": "substantia nigra, reticular part",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

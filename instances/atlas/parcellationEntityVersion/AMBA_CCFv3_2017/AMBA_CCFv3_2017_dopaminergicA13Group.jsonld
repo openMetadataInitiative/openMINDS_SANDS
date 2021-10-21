@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2017_dopaminergicA13Group",
     "name": "dopaminergic A13 group",
     "ontologyIdentifier": null,
     "relationAssessment": null,

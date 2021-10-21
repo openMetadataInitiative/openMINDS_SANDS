@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "WHSSD_v3_striatum",
     "name": "striatum",
     "ontologyIdentifier": null,
     "relationAssessment": null,

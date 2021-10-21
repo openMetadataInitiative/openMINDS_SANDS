@@ -64,6 +64,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Ch-4_PM-v4.2_left"
         }
     ],
+    "lookupLabel": "JBA_Ch-4",
     "name": "Ch 4 (Basal Forebrain)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

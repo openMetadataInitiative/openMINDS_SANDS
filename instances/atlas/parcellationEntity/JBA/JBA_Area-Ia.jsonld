@@ -61,6 +61,7 @@
             "@id": "https://openminds.ebrains.eu/instances/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-Ia_PM-v3.1_left"
         }
     ],
+    "lookupLabel": "JBA_Area-Ia",
     "name": "Area Ia (Insula)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_piriformCortexLayer1"
         }
     ],
+    "lookupLabel": "WHSSD_piriformCortexLayer1",
     "name": "piriform cortex, layer 1",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

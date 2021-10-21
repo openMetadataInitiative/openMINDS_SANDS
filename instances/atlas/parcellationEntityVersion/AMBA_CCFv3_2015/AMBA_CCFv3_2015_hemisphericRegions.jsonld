@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2015_hemisphericRegions",
     "name": "hemispheric regions",
     "ontologyIdentifier": null,
     "relationAssessment": null,

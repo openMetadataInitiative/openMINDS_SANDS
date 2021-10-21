@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_endopiriformNucleus"
         }
     ],
+    "lookupLabel": "WHSSD_endopiriformNucleus",
     "name": "endopiriform nucleus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

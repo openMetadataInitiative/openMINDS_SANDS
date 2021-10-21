@@ -10,6 +10,7 @@
         }
     ],
     "hasParent": null,
+    "lookupLabel": "AMBA_CCFv3_2017_cerebralNucleiRelated",
     "name": "cerebral nuclei related",
     "ontologyIdentifier": null,
     "relationAssessment": null,

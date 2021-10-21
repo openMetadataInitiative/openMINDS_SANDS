@@ -10,6 +10,7 @@
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_pregeniculateNucleus"
         }
     ],
+    "lookupLabel": "WHSSD_pregeniculateNucleus",
     "name": "pregeniculate nucleus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null

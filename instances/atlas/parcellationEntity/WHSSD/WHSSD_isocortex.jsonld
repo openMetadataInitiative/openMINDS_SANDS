@@ -6,6 +6,7 @@
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
     "hasParent": null,
     "hasVersion": null,
+    "lookupLabel": "WHSSD_isocortex",
     "name": "isocortex",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null
