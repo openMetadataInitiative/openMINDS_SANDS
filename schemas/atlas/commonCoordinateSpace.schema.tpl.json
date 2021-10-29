@@ -62,11 +62,16 @@
       ]
     },    
     "ontologyIdentifier": {
-      "type": "string",      
-      "_formats": [
-        "iri"
-      ],
-      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this common coordinate space."
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter the identifier(s) (IRI) of the related ontological term(s) matching this common coordinate space.",
+      "items": {
+        "_formats": [
+          "iri"        
+        ],
+        "type": "string"
+      }      
     },
     "releaseDate": {
       "type": "string",      
