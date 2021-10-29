@@ -32,13 +32,18 @@
     "name": {
       "type": "string",
       "_instruction": "Enter the name for this parcellation entity."
-    },      
+    },       
     "ontologyIdentifier": {
-      "type": "string",      
-      "_formats": [
-        "iri"
-      ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the ontological term matching this parcellation entity."
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter the identifier(s) (IRI) of the related ontological term(s) matching this parcellation entity.",
+      "items": {
+        "_formats": [
+          "iri"        
+        ],
+        "type": "string"
+      }      
     }, 
     "relatedUBERONTerm":{
       "_instruction": "Add the related UBERON parcellation term.",
