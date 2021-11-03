@@ -19,7 +19,8 @@
       "_instruction": "Add the globally unique and persistent digital identifier of this brain atlas.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/ISBN"
+        "https://openminds.ebrains.eu/core/ISBN",
+        "https://openminds.ebrains.eu/core/RRID"
       ]
     },    
     "hasTerminology": {
