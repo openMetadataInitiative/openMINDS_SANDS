@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Frontal-to-Temporal-II",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_overall"
+        }
+    ],
+    "hasVersion": null,
+    "lookupLabel": "JBA_Frontal-to-Temporal-II",
+    "name": "Frontal-to-Temporal-II (GapMap)",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": null
+}

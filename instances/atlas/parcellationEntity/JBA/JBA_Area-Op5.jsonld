@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Op5",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_frontal-operculum"
+        }
+    ],
+    "hasVersion": null,
+    "lookupLabel": "JBA_Area-Op5",
+    "name": "Area Op5 (Frontal Operculum)",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": null
+}
