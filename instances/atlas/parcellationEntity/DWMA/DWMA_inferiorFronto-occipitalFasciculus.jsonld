@@ -2,7 +2,7 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_fronto-occipitalFasciculus",
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_inferiorFronto-occipitalFasciculus",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
     "hasParent": [
       {
@@ -10,8 +10,8 @@
       }
     ],
     "hasVersion": null,
-    "lookupLabel": "DWMA_fronto-occipitalFasciculus",
-    "name": "fronto-occipital fasciculus",
+    "lookupLabel": "DWMA_inferiorFronto-occipitalFasciculus",
+    "name": "inferior fronto-occipital fasciculus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": "http://purl.obolibrary.org/obo/UBERON_0034754"
+    "relatedUBERONTerm": "http://purl.obolibrary.org/obo/UBERON_0034753"
 }
