@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_inferiorLongitudinalFasciculus",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_deepWhiteMatter"
+      }
+    ],
+    "hasVersion": null,
+    "lookupLabel": "DWMA_inferiorLongitudinalFasciculus",
+    "name": "inferior longitudinal fasciculus",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": "http://purl.obolibrary.org/obo/UBERON_0034743"
+}
