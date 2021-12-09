@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_temporalCingulateFibres",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_cingulum"
+      }
+    ],
+    "hasVersion": null,
+    "lookupLabel": "DWMA_temporalCingulateFibres",
+    "name": "temporal cingulate fibres",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": "http://purl.obolibrary.org/obo/UBERON_0022429"
+}
