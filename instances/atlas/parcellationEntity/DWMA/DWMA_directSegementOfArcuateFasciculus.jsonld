@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_directSegementOfArcuateFasciculus",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_deepWhiteMatter"
+      }
+    ],
+    "hasVersion": null,
+    "lookupLabel": "DWMA_directSegementOfArcuateFasciculus",
+    "name": "direct segement of arcuate fasciculus",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": null
+}
