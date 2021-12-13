@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/DWMA_2018",
+    "@type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+    "accessibility": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
+        }
+    ],
+    "author": null,
+    "coordinateSpace": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/MNI_ICBM_152_2009c_nonlin_asym"
+        }
+    ],
+    "copyright": null,
+    "custodian": null,
+    "description": null,
+    "digitalIdentifier": null,
+    "fullDocumentation": null,
+    "fullName": "Julich-Brain Atlas",
+    "funding": null,
+    "hasTerminologyVersion": {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationTerminologyVersion/DWMA_terminology_2018"
+    },
+    "homepage": null,
+    "howToCite": null,
+    "isAlternativeVersionOf": null,
+    "isNewVersionOf": null,
+    "keyword": null,
+    "license": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/licenses/ccByNcSa4.0"
+        }
+    ],
+    "ontologyIdentifier": null,
+    "otherContribution": null,
+    "relatedPublication": null,
+    "releaseDate": null,
+    "repository": null,
+    "shortName": "DWMA (2018)",
+    "supportChannel": null,
+    "versionIdentifier": "2018",
+    "versionInnovation": "This is the first released version of this brain atlas."
+}

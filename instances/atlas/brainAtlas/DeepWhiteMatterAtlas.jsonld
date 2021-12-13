@@ -1,0 +1,25 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/brainAtlas/DeepWhiteMatterAtlas",
+    "@type": "https://openminds.ebrains.eu/sands/BrainAtlas",
+    "author": null,
+    "custodian": null,
+    "description": null,
+    "digitalIdentifier": null,
+    "fullName": "Deep White Matter Atlas",
+    "hasTerminology": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationTerminology/DWMA_terminology"
+        }
+    ],
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/DWMA_2018"
+        }
+    ],
+    "homepage": null,
+    "howToCite": null,
+    "shortName": "DWMA"
+}
