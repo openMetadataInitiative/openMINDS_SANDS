@@ -9,7 +9,14 @@
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_cingulum"
       }
     ],
-    "hasVersion": null,
+    "hasVersion": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_temporalCingulateFibres_left"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_temporalCingulateFibres_right"
+      }
+    ],
     "lookupLabel": "DWMA_temporalCingulateFibres",
     "name": "temporal cingulate fibres",
     "ontologyIdentifier": null,

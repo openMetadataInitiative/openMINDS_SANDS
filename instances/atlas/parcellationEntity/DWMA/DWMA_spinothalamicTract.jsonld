@@ -9,7 +9,14 @@
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_deepWhiteMatter"
       }
     ],
-    "hasVersion": null,
+    "hasVersion": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_spinothalamicTract_left"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_spinothalamicTract_right"
+      }
+    ],
     "lookupLabel": "DWMA_spinothalamicTract",
     "name": "spinothalamic tract",
     "ontologyIdentifier": null,

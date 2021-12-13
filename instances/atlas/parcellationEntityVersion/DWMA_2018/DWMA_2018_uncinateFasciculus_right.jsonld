@@ -1,0 +1,21 @@
+
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_uncinateFasciculus_right",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": null,
+    "hasParent": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_deepWhiteMatter"
+      }
+    ],
+    "hasVersion": null,
+    "lookupLabel": "DWMA_2018_uncinateFasciculus_right",
+    "name": "uncinate fasciculus",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "DWMA 2018, right",
+    "versionInnovation": null
+}

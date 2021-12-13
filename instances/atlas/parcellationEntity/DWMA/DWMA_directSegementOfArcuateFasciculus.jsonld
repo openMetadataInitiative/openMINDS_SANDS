@@ -9,7 +9,14 @@
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_arcuateFasciculus"
       }
     ],
-    "hasVersion": null,
+    "hasVersion": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_directSegementOfArcuateFasciculus_left"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_directSegementOfArcuateFasciculus_right"
+      }
+    ],
     "lookupLabel": "DWMA_directSegementOfArcuateFasciculus",
     "name": "direct segement of arcuate fasciculus",
     "ontologyIdentifier": null,

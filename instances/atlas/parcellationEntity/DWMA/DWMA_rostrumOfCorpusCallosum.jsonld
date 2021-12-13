@@ -9,7 +9,14 @@
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_corpusCallosum"
       }
     ],
-    "hasVersion": null,
+    "hasVersion": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_rostrumOfCorpusCallosum_left"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_rostrumOfCorpusCallosum_right"
+      }
+    ],
     "lookupLabel": "DWMA_rostrumOfCorpusCallosum",
     "name": "rostrum of corpus callosum",
     "ontologyIdentifier": null,

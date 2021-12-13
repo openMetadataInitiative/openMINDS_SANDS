@@ -9,7 +9,14 @@
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_cingulum"
       }
     ],
-    "hasVersion": null,
+    "hasVersion": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_shortCingulateFibres_left"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_shortCingulateFibres_right"
+      }
+    ],
     "lookupLabel": "DWMA_shortCingulateFibres",
     "name": "short cingulate fibres",
     "ontologyIdentifier": null,

@@ -1,0 +1,20 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/ParcellationEntityVersion/DWMA_2018_anteriorThalamicRadiation_left",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": null,
+    "hasParent": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/ParcellationEntity/DWMA_thalamicRadiations"
+      }
+    ],
+    "hasVersion": null,
+    "lookupLabel": "DWMA_2018_anteriorThalamicRadiation_left",
+    "name": "anterior thalamic radiation",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "DWMA 2018, left",
+    "versionInnovation": null
+}
