@@ -4,7 +4,11 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_telencephalon",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
-    "hasParent": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_julich-brain"
+        }
+    ],
     "hasVersion": null,
     "lookupLabel": "JBA_telencephalon",
     "name": "telencephalon",
