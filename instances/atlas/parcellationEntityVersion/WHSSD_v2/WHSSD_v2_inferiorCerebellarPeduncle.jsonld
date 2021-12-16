@@ -4,11 +4,24 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v2_inferiorCerebellarPeduncle",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": [
-        {
-            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v2_inferiorCerebellarPeduncle"
-        }
-    ],
+    "hasAnnotation": {
+        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+        "bestViewPoint": null,
+        "criteria": null,
+        "criteriaQualityType": null,
+        "displayColor": "#34FF0D",
+        "inspiredBy": null,
+        "internalIdentifier": "7",
+        "laterality": [
+            {
+                "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+            }
+        ],
+        "visualizedIn": null
+    },
     "hasParent": null,
     "lookupLabel": "WHSSD_v2_inferiorCerebellarPeduncle",
     "name": "inferior cerebellar peduncle",

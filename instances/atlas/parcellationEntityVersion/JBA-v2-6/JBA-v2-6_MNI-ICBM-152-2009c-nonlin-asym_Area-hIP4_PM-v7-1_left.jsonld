@@ -4,11 +4,23 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Area-hIP4_PM-v7.1_left",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": [
-        {
-            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Area-hIP4_PM-v7.1_left"
-        }
-    ],
+    "hasAnnotation": {
+        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+        "bestViewPoint": null,
+        "criteria": null,
+        "criteriaQualityType": {
+            "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+        },
+        "displayColor": "#fe34b8",
+        "inspiredBy": null,
+        "internalIdentifier": "38",
+        "laterality": [
+            {
+                "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+            }
+        ],
+        "visualizedIn": null
+    },
     "hasParent": null,
     "lookupLabel": "JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Area-hIP4_PM-v7.1_left",
     "name": "Area hIP4 (IPS)",

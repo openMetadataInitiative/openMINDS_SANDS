@@ -4,11 +4,24 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_parietalAssociationCortexMedialArea",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": [
-        {
-            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v4_parietalAssociationCortexMedialArea"
-        }
-    ],
+    "hasAnnotation": {
+        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+        "bestViewPoint": null,
+        "criteria": null,
+        "criteriaQualityType": null,
+        "displayColor": "#6C006C",
+        "inspiredBy": null,
+        "internalIdentifier": "433",
+        "laterality": [
+            {
+                "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+            }
+        ],
+        "visualizedIn": null
+    },
     "hasParent": null,
     "lookupLabel": "WHSSD_v4_parietalAssociationCortexMedialArea",
     "name": "parietal association cortex, medial area",

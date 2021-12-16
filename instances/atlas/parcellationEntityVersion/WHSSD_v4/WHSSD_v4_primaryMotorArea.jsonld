@@ -4,11 +4,24 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_primaryMotorArea",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": [
-        {
-            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v4_primaryMotorArea"
-        }
-    ],
+    "hasAnnotation": {
+        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+        "bestViewPoint": null,
+        "criteria": null,
+        "criteriaQualityType": null,
+        "displayColor": "#99D9EA",
+        "inspiredBy": null,
+        "internalIdentifier": "408",
+        "laterality": [
+            {
+                "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+            }
+        ],
+        "visualizedIn": null
+    },
     "hasParent": null,
     "lookupLabel": "WHSSD_v4_primaryMotorArea",
     "name": "primary motor area",

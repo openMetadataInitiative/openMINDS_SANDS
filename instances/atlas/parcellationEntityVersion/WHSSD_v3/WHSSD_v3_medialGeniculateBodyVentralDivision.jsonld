@@ -4,11 +4,24 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v3_medialGeniculateBodyVentralDivision",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": [
-        {
-            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v3_medialGeniculateBodyVentralDivision"
-        }
-    ],
+    "hasAnnotation": {
+        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+        "bestViewPoint": null,
+        "criteria": null,
+        "criteriaQualityType": null,
+        "displayColor": "#833A1F",
+        "inspiredBy": null,
+        "internalIdentifier": "149",
+        "laterality": [
+            {
+                "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+            }
+        ],
+        "visualizedIn": null
+    },
     "hasParent": null,
     "lookupLabel": "WHSSD_v3_medialGeniculateBodyVentralDivision",
     "name": "medial geniculate body, ventral division",

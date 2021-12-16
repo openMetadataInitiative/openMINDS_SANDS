@@ -4,11 +4,23 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.5_Colin27-1998_Area-Id2_PM-v8.0_left",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": [
-        {
-            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/JBA-v2.5_Colin27-1998_Area-Id2_PM-v8.0_left"
-        }
-    ],
+    "hasAnnotation": {
+        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+        "bestViewPoint": null,
+        "criteria": null,
+        "criteriaQualityType": {
+            "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+        },
+        "displayColor": "#e17e49",
+        "inspiredBy": null,
+        "internalIdentifier": "99",
+        "laterality": [
+            {
+                "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+            }
+        ],
+        "visualizedIn": null
+    },
     "hasParent": null,
     "lookupLabel": "JBA-v2.5_Colin27-1998_Area-Id2_PM-v8.0_left",
     "name": "Area Id2 (Insula)",

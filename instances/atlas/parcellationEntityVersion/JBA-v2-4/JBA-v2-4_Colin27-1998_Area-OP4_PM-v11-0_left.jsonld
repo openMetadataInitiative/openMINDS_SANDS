@@ -4,11 +4,23 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.4_Colin27-1998_Area-OP4_PM-v11.0_left",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": [
-        {
-            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/JBA-v2.4_Colin27-1998_Area-OP4_PM-v11.0_left"
-        }
-    ],
+    "hasAnnotation": {
+        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+        "bestViewPoint": null,
+        "criteria": null,
+        "criteriaQualityType": {
+            "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+        },
+        "displayColor": "#595084",
+        "inspiredBy": null,
+        "internalIdentifier": "10",
+        "laterality": [
+            {
+                "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+            }
+        ],
+        "visualizedIn": null
+    },
     "hasParent": null,
     "lookupLabel": "JBA-v2.4_Colin27-1998_Area-OP4_PM-v11.0_left",
     "name": "Area OP4 (POperc)",

@@ -4,11 +4,23 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v1.18_Colin27-1998_Subiculum_PM-v11.1_left",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": [
-        {
-            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/JBA-v1.18_Colin27-1998_Subiculum_PM-v11.1_left"
-        }
-    ],
+    "hasAnnotation": {
+        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+        "bestViewPoint": null,
+        "criteria": null,
+        "criteriaQualityType": {
+            "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+        },
+        "displayColor": "#ff0a0a",
+        "inspiredBy": null,
+        "internalIdentifier": "84",
+        "laterality": [
+            {
+                "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+            }
+        ],
+        "visualizedIn": null
+    },
     "hasParent": null,
     "lookupLabel": "JBA-v1.18_Colin27-1998_Subiculum_PM-v11.1_left",
     "name": "Subiculum (Hippocampus)",

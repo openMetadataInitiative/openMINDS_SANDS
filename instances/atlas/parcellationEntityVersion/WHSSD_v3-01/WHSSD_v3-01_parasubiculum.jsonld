@@ -4,11 +4,24 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v3.01_parasubiculum",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": [
-        {
-            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/WHSSD_v3.01_parasubiculum"
-        }
-    ],
+    "hasAnnotation": {
+        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+        "bestViewPoint": null,
+        "criteria": null,
+        "criteriaQualityType": null,
+        "displayColor": "#173660",
+        "inspiredBy": null,
+        "internalIdentifier": "110",
+        "laterality": [
+            {
+                "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+            }
+        ],
+        "visualizedIn": null
+    },
     "hasParent": null,
     "lookupLabel": "WHSSD_v3.01_parasubiculum",
     "name": "parasubiculum",

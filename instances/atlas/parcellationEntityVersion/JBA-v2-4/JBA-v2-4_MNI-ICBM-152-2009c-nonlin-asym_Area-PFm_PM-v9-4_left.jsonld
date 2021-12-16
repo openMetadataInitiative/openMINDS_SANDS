@@ -4,11 +4,23 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_Area-PFm_PM-v9.4_left",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": [
-        {
-            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_Area-PFm_PM-v9.4_left"
-        }
-    ],
+    "hasAnnotation": {
+        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+        "bestViewPoint": null,
+        "criteria": null,
+        "criteriaQualityType": {
+            "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+        },
+        "displayColor": "#354c91",
+        "inspiredBy": null,
+        "internalIdentifier": "89",
+        "laterality": [
+            {
+                "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+            }
+        ],
+        "visualizedIn": null
+    },
     "hasParent": null,
     "lookupLabel": "JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_Area-PFm_PM-v9.4_left",
     "name": "Area PFm (IPL)",

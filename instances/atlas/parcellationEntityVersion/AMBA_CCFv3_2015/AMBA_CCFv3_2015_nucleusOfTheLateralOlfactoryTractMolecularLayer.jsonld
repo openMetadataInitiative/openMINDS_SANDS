@@ -4,11 +4,24 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3_2015_nucleusOfTheLateralOlfactoryTractMolecularLayer",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": [
-        {
-            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/AMBA_CCFv3_2015_nucleusOfTheLateralOlfactoryTractMolecularLayer"
-        }
-    ],
+    "hasAnnotation": {
+        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+        "bestViewPoint": null,
+        "criteria": null,
+        "criteriaQualityType": null,
+        "displayColor": "#95E4C8",
+        "inspiredBy": null,
+        "internalIdentifier": "260",
+        "laterality": [
+            {
+                "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+            }
+        ],
+        "visualizedIn": null
+    },
     "hasParent": null,
     "lookupLabel": "AMBA_CCFv3_2015_nucleusOfTheLateralOlfactoryTractMolecularLayer",
     "name": "nucleus of the lateral olfactory tract, molecular layer",

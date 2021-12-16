@@ -4,11 +4,23 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Area-OP9_PM-v6.0_right",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": [
-        {
-            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Area-OP9_PM-v6.0_right"
-        }
-    ],
+    "hasAnnotation": {
+        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+        "bestViewPoint": null,
+        "criteria": null,
+        "criteriaQualityType": {
+            "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+        },
+        "displayColor": "#af7b22",
+        "inspiredBy": null,
+        "internalIdentifier": "117",
+        "laterality": [
+            {
+                "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+            }
+        ],
+        "visualizedIn": null
+    },
     "hasParent": null,
     "lookupLabel": "JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Area-OP9_PM-v6.0_right",
     "name": "Area OP9 (Frontal Operculum)",

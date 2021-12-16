@@ -4,11 +4,23 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Area-5L_PM-v9.0_right",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": [
-        {
-            "@id": "https://openminds.ebrains.eu/instances/atlasAnnotation/JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Area-5L_PM-v9.0_right"
-        }
-    ],
+    "hasAnnotation": {
+        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+        "bestViewPoint": null,
+        "criteria": null,
+        "criteriaQualityType": {
+            "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+        },
+        "displayColor": "#b8b93a",
+        "inspiredBy": null,
+        "internalIdentifier": "83",
+        "laterality": [
+            {
+                "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+            }
+        ],
+        "visualizedIn": null
+    },
     "hasParent": null,
     "lookupLabel": "JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Area-5L_PM-v9.0_right",
     "name": "Area 5L (SPL)",

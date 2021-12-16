@@ -50,7 +50,7 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/Laterality"
       ]
-    }, 
+    },
     "visualizedIn": {
       "_instruction": "Add the (source) image file in which this atlas annotation is visualized in.",
       "_linkedTypes": [
