@@ -4,7 +4,11 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Frontal-to-Occipital",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
-    "hasParent": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_cerebral-cortex"
+        }
+    ],
     "hasVersion": [
         {
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Frontal-to-Occipital_PM-v10.0_right"

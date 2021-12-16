@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-8v1",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_middle-frontal-gyrus"
+        }
+    ],
+    "hasVersion": null,
+    "lookupLabel": "JBA_Area-8v1",
+    "name": "Area 8v1 (MFG)",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": null
+}
