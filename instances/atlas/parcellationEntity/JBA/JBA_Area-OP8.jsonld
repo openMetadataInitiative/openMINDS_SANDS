@@ -4,7 +4,11 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP8",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
-    "hasParent": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_frontal-operculum"
+        }
+    ],
     "hasVersion": [
         {
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Area-OP8_PM-v6.0_right"
@@ -62,7 +66,7 @@
         }
     ],
     "lookupLabel": "JBA_Area-OP8",
-    "name": "Area OP8 (Frontal Operculum)",
+    "name": "Area Op8 (Frontal Operculum)",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null
 }

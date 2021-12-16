@@ -26,7 +26,8 @@
       "_instruction": "Add the globally unique and persistent digital identifier of this brain atlas version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DOI",
-        "https://openminds.ebrains.eu/core/ISBN"
+        "https://openminds.ebrains.eu/core/ISBN",
+        "https://openminds.ebrains.eu/core/RRID"
       ]
     },
     "hasTerminologyVersion": {
@@ -57,11 +58,16 @@
       ]
     },
     "ontologyIdentifier": {
-      "type": "string",      
-      "_formats": [
-        "iri"
-      ],
-      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this brain atlas version."
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter the identifier(s) (IRI) of the related ontological term(s) matching this brain atlas version.",
+      "items": {
+        "_formats": [
+          "iri"        
+        ],
+        "type": "string"
+      }      
     }
   }
 }

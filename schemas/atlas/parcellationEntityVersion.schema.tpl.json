@@ -30,13 +30,18 @@
     "name": {
       "type": "string",
       "_instruction": "If necessary, enter a version specific name for this parcellation entity version. If left blank, the parcellation entity version will inherit the 'name' of it's corresponding parcellation entity."
-    },      
+    },     
     "ontologyIdentifier": {
-      "type": "string",      
-      "_formats": [
-        "iri"
-      ],
-      "_instruction": "Enter the internationalized resource identifier (IRI) pointing to the ontological term matching this parcellation entity version."
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter the identifier(s) (IRI) of the related ontological term(s) matching this parcellation entity version.",
+      "items": {
+        "_formats": [
+          "iri"        
+        ],
+        "type": "string"
+      }      
     }, 
     "relationAssessment": {
       "type": "array",      
