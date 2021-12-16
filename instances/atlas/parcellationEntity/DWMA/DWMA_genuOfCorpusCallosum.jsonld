@@ -20,5 +20,7 @@
     "lookupLabel": "DWMA_genuOfCorpusCallosum",
     "name": "genu of corpus callosum",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": "http://purl.obolibrary.org/obo/UBERON_0015599"
+    "relatedUBERONTerm": {
+        "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/genuOfCorpusCallosum"
+    }
 }

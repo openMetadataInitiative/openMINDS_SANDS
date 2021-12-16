@@ -20,5 +20,7 @@
     "lookupLabel": "DWMA_anteriorThalamicRadiation",
     "name": "anterior thalamic radiation",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": "http://purl.obolibrary.org/obo/UBERON_0034746"
+    "relatedUBERONTerm": {
+        "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/anteriorThalamicRadiation"
+    }
 }

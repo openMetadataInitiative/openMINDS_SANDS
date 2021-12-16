@@ -20,5 +20,7 @@
     "lookupLabel": "DWMA_rostrumOfCorpusCallosum",
     "name": "rostrum of corpus callosum",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": "http://purl.obolibrary.org/obo/UBERON_0015703"
+    "relatedUBERONTerm": {
+        "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/rostrumOfCorpusCallosum"
+    }
 }

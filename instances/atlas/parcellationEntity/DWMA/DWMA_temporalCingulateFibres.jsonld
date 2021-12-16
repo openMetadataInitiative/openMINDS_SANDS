@@ -20,5 +20,7 @@
     "lookupLabel": "DWMA_temporalCingulateFibres",
     "name": "temporal cingulate fibres",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": "http://purl.obolibrary.org/obo/UBERON_0022429"
+    "relatedUBERONTerm": {
+        "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/temporalCortexCingulum"
+    }
 }

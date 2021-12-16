@@ -20,5 +20,7 @@
     "lookupLabel": "DWMA_corticospinalTract",
     "name": "corticospinal tract",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": "http://purl.obolibrary.org/obo/UBERON_0002707"
+    "relatedUBERONTerm": {
+        "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/corticospinalTract"
+    }
 }

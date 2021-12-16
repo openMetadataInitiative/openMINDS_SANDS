@@ -13,5 +13,7 @@
     "lookupLabel": "DWMA_thalamicRadiations",
     "name": "thalamic radiations",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": "http://purl.obolibrary.org/obo/UBERON_0034745"
+    "relatedUBERONTerm": {
+        "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/radiationOfThalamus"
+    }
 }

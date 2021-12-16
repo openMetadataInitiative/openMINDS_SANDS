@@ -20,5 +20,7 @@
     "lookupLabel": "DWMA_externalCapsule",
     "name": "external capsule",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": "http://purl.obolibrary.org/obo/UBERON_0004545"
+    "relatedUBERONTerm": {
+        "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/externalCapsuleOfTelencephalon"
+    }
 }

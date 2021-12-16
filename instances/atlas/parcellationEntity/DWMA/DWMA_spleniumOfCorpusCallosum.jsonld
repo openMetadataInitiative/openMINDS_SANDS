@@ -20,5 +20,7 @@
     "lookupLabel": "DWMA_spleniumOfCorpusCallosum",
     "name": "splenium of corpus callosum",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": "http://purl.obolibrary.org/obo/UBERON_0015708"
+    "relatedUBERONTerm": {
+        "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/spleniumOfTheCorpusCallosum"
+    }
 }

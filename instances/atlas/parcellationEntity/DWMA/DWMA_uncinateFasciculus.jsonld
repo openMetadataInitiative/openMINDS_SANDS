@@ -21,5 +21,7 @@
     "lookupLabel": "DWMA_uncinateFasciculus",
     "name": "uncinate fasciculus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": "http://purl.obolibrary.org/obo/UBERON_0003044"
+    "relatedUBERONTerm": {
+        "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/uncinateFasciculus"
+    }
 }

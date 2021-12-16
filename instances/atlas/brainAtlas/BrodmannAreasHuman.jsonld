@@ -1,0 +1,180 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/brainAtlas/BrodmannAreasHuman",
+    "@type": "https://openminds.ebrains.eu/sands/BrainAtlas",
+    "author": null,
+    "custodian": null,
+    "description": null,
+    "digitalIdentifier": null,
+    "fullName": "Brodmann cortical parcellation scheme (Brodmann Areas) for human",
+    "hasTerminology": {
+		"@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
+		"definedIn": null,
+		"hasEntity": [
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_cerebralCortex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area6"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area7"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area8"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area8a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area9"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area10"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area11"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area12"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area13"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area14"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area15"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area16"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area17"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area18"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area19"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area20"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area21"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area22"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area23"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area24"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area25"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area26"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area27"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area28"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area29"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area30"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area31"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area32"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area33"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area34"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area35"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area36"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area37"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area38"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area39"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area40"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area41"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area42"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area43"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area44"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area45"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area46"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area47"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area48"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_area52"
+			}
+		],
+		"ontologyIdentifier": null
+	},
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/BA_1909"
+        }
+    ],
+    "homepage": null,
+    "howToCite": null,
+    "shortName": "BA human"
+}

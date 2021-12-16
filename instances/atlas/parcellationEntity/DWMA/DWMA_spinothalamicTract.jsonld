@@ -20,5 +20,7 @@
     "lookupLabel": "DWMA_spinothalamicTract",
     "name": "spinothalamic tract",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": "http://purl.obolibrary.org/obo/UBERON_0007703"
+    "relatedUBERONTerm": {
+        "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/spinothalamicTract"
+    }
 }

@@ -20,5 +20,7 @@
     "lookupLabel": "DWMA_fornix",
     "name": "fornix",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": "http://purl.obolibrary.org/obo/UBERON_0000052"
+    "relatedUBERONTerm": {
+        "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/fornixOfBrain"
+    }
 }

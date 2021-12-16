@@ -20,5 +20,7 @@
     "lookupLabel": "DWMA_inferiorLongitudinalFasciculus",
     "name": "inferior longitudinal fasciculus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": "http://purl.obolibrary.org/obo/UBERON_0034743"
+    "relatedUBERONTerm": {
+        "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/inferiorLongitudinalFasciculus"
+    }
 }
