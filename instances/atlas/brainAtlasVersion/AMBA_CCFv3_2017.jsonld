@@ -9,7 +9,9 @@
     },
     "atlasType": null,
     "author": null,
-    "coordinateSpace": null,
+    "coordinateSpace": {
+        "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/AMB_CCF_v3"
+    },
     "copyright": null,
     "custodian": null,
     "description": null,

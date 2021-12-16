@@ -1,0 +1,8 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AMBA_documentation",
+    "@type": "https://openminds.ebrains.eu/core/URL",
+    "URL": "help.brain-map.org/display/mousebrain/Documentation"
+}

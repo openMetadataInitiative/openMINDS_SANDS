@@ -18,7 +18,9 @@
             "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AMBA_CCFv3_2017"
         }
     ],
-    "homepage": null,
+    "homepage": {
+        "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AMBA_homepage"
+    },
     "howToCite": null,
     "shortName": "AMBA"
 }
