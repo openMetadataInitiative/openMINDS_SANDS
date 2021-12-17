@@ -9,11 +9,409 @@
     "description": null,
     "digitalIdentifier": null,
     "fullName": "Julich-Brain Atlas",
-    "hasTerminology": [
-        {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationTerminology/JBA_terminology"
-        }
-    ],
+    "hasTerminology": {
+		"@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
+		"definedIn": null,
+		"hasEntity": [
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-4p"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc4la"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Ig3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_HC-Prosubiculum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-5Ci"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TE-1.1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-PF"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_HC-Transsubiculum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-45"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc3v"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Frontal-to-Temporal"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Ch-123"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-p30"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_IF"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fo6"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-p24c"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-PGp"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_HATA"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-5M"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-PFop"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TE-2.1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc4v"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP6"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_HC-Subiculum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-FG4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Fastigial-Nucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Frontal-I"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-5L"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Frontal-II"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Ia"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-p24ab"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fp2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-p29"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_CA"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_LB"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc3d"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-25"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-3b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Frontal-to-Occipital"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_VTM"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-FG3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TE-1.0"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-6d2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-PGa"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_SF"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP7"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Interposed-Nucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id6"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-7PC"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TeI"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-PFm"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc4lp"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fo5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hPO1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fo1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-i30"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-7M"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP8"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-i29"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Ch-4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TE-1.2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_MF"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Ig1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP8"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-p32"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fo2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-6d1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP9"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_CA3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fo3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc6"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fp1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-FG2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc4d"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-44"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-4a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Dorsal-Dentate-Nucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-STS1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-s32"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-a30"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-PFt"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_CA2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Subiculum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-6d3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id7"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fo4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-6mp"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TI"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TE-2.2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-6ma"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Temporal-to-Parietal"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Entorhinal-Cortex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-s24"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_HC-Presubiculum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fo7"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_CA1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP6"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TE-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_DG"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Ig2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP7"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-PFcm"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-FG1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Ventral-Dentate-Nucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-3a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-a29"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-33"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-STS2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_CM"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_HC-Parasubiculum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-7A"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-7P"
+			}
+		],
+		"ontologyIdentifier": null
+	},
     "hasVersion": [
         {
             "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/JBA_v1.13_Colin27-1998"

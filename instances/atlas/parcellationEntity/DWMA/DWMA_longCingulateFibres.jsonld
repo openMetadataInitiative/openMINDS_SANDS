@@ -1,0 +1,24 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_longCingulateFibres",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_cingulum"
+      }
+    ],
+    "hasVersion": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_longCingulateFibres_left"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_longCingulateFibres_right"
+      }
+    ],
+    "lookupLabel": "DWMA_longCingulateFibres",
+    "name": "long cingulate fibres",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": null
+}

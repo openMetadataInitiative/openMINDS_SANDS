@@ -1,0 +1,20 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/ParcellationEntityVersion/DWMA_2018_anteriorSegementOfArcuateFasciculus_left",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": null,
+    "hasParent": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/ParcellationEntity/DWMA_arcuateFasciculus"
+      }
+    ],
+    "hasVersion": null,
+    "lookupLabel": "DWMA_2018_anteriorSegementOfArcuateFasciculus_left",
+    "name": "anterior segement of arcuate fasciculus",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "2018, left",
+    "versionInnovation": null
+}

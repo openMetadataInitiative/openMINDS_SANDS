@@ -1,0 +1,26 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_genuOfCorpusCallosum",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_corpusCallosum"
+      }
+    ],
+    "hasVersion": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_genuOfCorpusCallosum_left"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_genuOfCorpusCallosum_right"
+      }
+    ],
+    "lookupLabel": "DWMA_genuOfCorpusCallosum",
+    "name": "genu of corpus callosum",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": {
+        "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/genuOfCorpusCallosum"
+    }
+}

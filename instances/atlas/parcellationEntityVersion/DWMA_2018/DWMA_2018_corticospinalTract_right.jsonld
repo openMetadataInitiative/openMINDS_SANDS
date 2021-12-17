@@ -1,0 +1,20 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_corticospinalTract_right",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": null,
+    "hasParent": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/ParcellationEntity/DWMA_deepWhiteMatter"
+      }
+    ],
+    "hasVersion": null,
+    "lookupLabel": "DWMA_2018_corticospinalTract_right",
+    "name": "corticospinal tract",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "2018, right",
+    "versionInnovation": null
+}

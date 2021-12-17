@@ -1,8 +1,7 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
   "required": [
-    "hasEntity",    
-    "shortName"
+    "hasEntity"
   ],
   "properties": {
     "definedIn": {
@@ -13,10 +12,6 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File"
       ]
-    },
-    "fullName": {
-      "type": "string",
-      "_instruction": "Enter a descriptive full name for this parcellation terminology."
     },
     "hasEntity": {
       "type": "array",      
@@ -38,10 +33,6 @@
         ],
         "type": "string"
       }      
-    },  
-    "shortName": {
-      "type": "string",
-      "_instruction": "Enter a descriptive short name for this parcellation terminology."
     }
   }
 }

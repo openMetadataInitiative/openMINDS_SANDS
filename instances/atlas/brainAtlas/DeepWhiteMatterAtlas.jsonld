@@ -1,0 +1,99 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/brainAtlas/DeepWhiteMatterAtlas",
+    "@type": "https://openminds.ebrains.eu/sands/BrainAtlas",
+    "author": null,
+    "custodian": null,
+    "description": null,
+    "digitalIdentifier": null,
+    "fullName": "Deep White Matter Atlas",
+    "hasTerminology": {
+		"@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
+		"definedIn": null,
+		"hasEntity": [
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_anteriorSegementOfArcuateFasciculus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_anteriorThalamicRadiation"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_arcuateFasciculus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_bodyOfCorpusCallosum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_cingulum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_corpusCallosum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_corticospinalTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_deepWhiteMatter"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_directSegementOfArcuateFasciculus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_externalCapsule"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_fornix"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_genuOfCorpusCallosum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_inferiorFronto-occipitalFasciculus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_inferiorLongitudinalFasciculus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_longCingulateFibres"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_posteriorSegementOfArcuateFasciculus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_posteriorThalamicRadiation"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_rostrumOfCorpusCallosum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_shortCingulateFibres"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_spinothalamicTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_spleniumOfCorpusCallosum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_temporalCingulateFibres"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_thalamicRadiations"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_uncinateFasciculus"
+			}
+		],
+		"ontologyIdentifier": null
+	},
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/DWMA_2018"
+        }
+    ],
+    "homepage": null,
+    "howToCite": null,
+    "shortName": "DWMA"
+}
