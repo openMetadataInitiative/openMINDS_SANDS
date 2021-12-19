@@ -2,7 +2,7 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AMBA_homepage",
+    "@id": "https://openminds.ebrains.eu/instances/URL/AMBA_homepage",
     "@type": "https://openminds.ebrains.eu/core/URL",
     "URL": "https://mouse.brain-map.org/"
 }
