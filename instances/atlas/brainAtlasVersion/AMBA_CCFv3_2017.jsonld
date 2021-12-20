@@ -4,6 +4,7 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AMBA_CCFv3_2017",
     "@type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+    "abbreviation": "AMBA",
     "accessibility": {
         "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
     },
@@ -4018,7 +4019,7 @@
     "relatedPublication": null,
     "releaseDate": null,
     "repository": null,
-    "shortName": "AMBA (CCFv3, 2017)",
+    "shortName": "Allen Mouse Brain Atlas",
     "supportChannel": null,
     "versionIdentifier": "CCFv3, 2017",
     "versionInnovation": null
