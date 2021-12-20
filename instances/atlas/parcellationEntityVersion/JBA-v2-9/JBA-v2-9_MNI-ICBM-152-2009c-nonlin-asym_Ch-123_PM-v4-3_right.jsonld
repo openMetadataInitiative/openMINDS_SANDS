@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_MNI-ICBM-152-2009c-nonlin-asym_Ch-123_PM-v4.3_right",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "hasAnnotation": null,
+  "hasParent": null,
+  "lookupLabel": "JBA-v2.9_MNI-ICBM-152-2009c-nonlin-asym_Ch-123_PM-v4.3_right",
+  "name": "Ch 123 (Basal Forebrain)",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "JBA-v2.9_MNI-ICBM-152-2009c-nonlin-asym_PM-v4.3_right",
+  "versionInnovation": null
+}

@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_Colin27-1998_Area-IFS2_PM-v3.2_right",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "hasAnnotation": null,
+  "hasParent": null,
+  "lookupLabel": "JBA-v2.9_Colin27-1998_Area-IFS2_PM-v3.2_right",
+  "name": "Area IFS2 (IFS)",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "JBA-v2.9_Colin27-1998_PM-v3.2_right",
+  "versionInnovation": null
+}

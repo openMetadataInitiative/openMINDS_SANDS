@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_Colin27-1998_Frontal-to-Occipital_PM-v11.3_right",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "hasAnnotation": null,
+  "hasParent": null,
+  "lookupLabel": "JBA-v2.9_Colin27-1998_Frontal-to-Occipital_PM-v11.3_right",
+  "name": "Frontal-to-Occipital (GapMap)",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "JBA-v2.9_Colin27-1998_PM-v11.3_right",
+  "versionInnovation": null
+}
