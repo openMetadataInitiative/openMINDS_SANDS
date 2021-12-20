@@ -4,6 +4,7 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/BA_1909",
     "@type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+    "abbreviation": "BA (human)",
     "accessibility": {
         "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
     },
@@ -185,7 +186,7 @@
     "relatedPublication": null,
     "releaseDate": null,
     "repository": null,
-    "shortName": "BA human (1909)",
+    "shortName": "Brodmann Areas (human)",
     "supportChannel": null,
     "versionIdentifier": "1909",
     "versionInnovation": "This is the second released version of the human Brodmann cortical parcellation scheme."
