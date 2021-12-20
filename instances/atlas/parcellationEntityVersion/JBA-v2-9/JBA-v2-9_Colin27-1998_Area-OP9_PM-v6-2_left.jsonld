@@ -2,12 +2,12 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_Colin27-1998_Area-Op8_PM-v6.2_left",
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_Colin27-1998_Area-OP9_PM-v6.2_left",
   "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
   "hasAnnotation": null,
   "hasParent": null,
-  "lookupLabel": "JBA-v2.9_Colin27-1998_Area-Op8_PM-v6.2_left",
-  "name": "Area Op8 (Frontal Operculum)",
+  "lookupLabel": "JBA-v2.9_Colin27-1998_Area-OP9_PM-v6.2_left",
+  "name": "Area OP9 (Frontal Operculum)",
   "ontologyIdentifier": null,
   "relationAssessment": null,
   "versionIdentifier": "JBA-v2.9_Colin27-1998_PM-v6.2_left",
