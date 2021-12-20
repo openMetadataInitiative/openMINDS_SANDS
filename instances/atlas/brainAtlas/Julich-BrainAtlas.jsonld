@@ -4,11 +4,12 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/brainAtlas/Julich-BrainAtlas",
     "@type": "https://openminds.ebrains.eu/sands/BrainAtlas",
+    "abbreviation": "JBA",
     "author": null,
     "custodian": null,
     "description": null,
     "digitalIdentifier": null,
-    "fullName": "Julich-Brain Atlas",
+    "fullName": "Julich-Brain Cytoarchitectonic Atlas",
     "hasTerminology": {
 		"@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
 		"definedIn": null,
@@ -446,5 +447,5 @@
     ],
     "homepage": null,
     "howToCite": null,
-    "shortName": "JBA"
+    "shortName": "Julich-Brain Atlas"
 }
