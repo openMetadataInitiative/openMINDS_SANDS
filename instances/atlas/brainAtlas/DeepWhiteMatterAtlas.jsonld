@@ -4,11 +4,12 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/brainAtlas/DeepWhiteMatterAtlas",
     "@type": "https://openminds.ebrains.eu/sands/BrainAtlas",
+    "abbreviation": "DWMA",
     "author": null,
     "custodian": null,
     "description": null,
     "digitalIdentifier": null,
-    "fullName": "Deep White Matter Atlas",
+    "fullName": "Atlas of deep white matter fibre bundles",
     "hasTerminology": {
 		"@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
 		"definedIn": null,
@@ -95,5 +96,5 @@
     ],
     "homepage": null,
     "howToCite": null,
-    "shortName": "DWMA"
+    "shortName": "Deep White Matter Atlas"
 }
