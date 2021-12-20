@@ -4,6 +4,7 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/DWMA_2018",
     "@type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+    "abbreviation": "DWMA",
     "accessibility": {
         "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
     },
@@ -17,7 +18,7 @@
     "description": null,
     "digitalIdentifier": null,
     "fullDocumentation": null,
-    "fullName": "Deep White Matter Atlas",
+    "fullName": "Atlas of deep white matter fibre bundles",
     "funding": null,
     "hasTerminologyVersion": {
 		"@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
@@ -153,7 +154,7 @@
     "relatedPublication": null,
     "releaseDate": null,
     "repository": null,
-    "shortName": "DWMA (2018)",
+    "shortName": "Deep White Matter Atlas",
     "supportChannel": null,
     "versionIdentifier": "2018",
     "versionInnovation": "This is the first released version of this brain atlas."
