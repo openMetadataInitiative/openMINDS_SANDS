@@ -6,6 +6,10 @@
     "hasTerminology"
   ],
   "properties": {
+    "abbreviation": {
+      "type": "string",
+      "_instruction": "Enter the official abbreviation of this brain atlas."
+    },
     "author": {
       "type": "array",
       "minItems": 1,
