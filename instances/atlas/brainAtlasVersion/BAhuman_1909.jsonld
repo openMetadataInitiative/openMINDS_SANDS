@@ -8,7 +8,9 @@
     "accessibility": {
         "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
     },
-    "atlasType": null,
+    "atlasType": {
+        "@id": "https://openminds.ebrains.eu/instances/atlasType/parcellationScheme"
+    },
     "author": null,
     "coordinateSpace": null,
     "copyright": null,
