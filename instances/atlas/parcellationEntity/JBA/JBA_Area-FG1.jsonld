@@ -66,6 +66,18 @@
         },
         {
             "@id": "https://openminds.ebrains.eu/instances/JBA-v2.2_Colin27-1998_Area-FG1_PM-v1.4_left"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_MNI-ICBM-152-2009c-nonlin-asym_Area-FG1_PM-v3.2_right"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_Colin27-1998_Area-FG1_PM-v3.2_left"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_Colin27-1998_Area-FG1_PM-v3.2_right"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_MNI-ICBM-152-2009c-nonlin-asym_Area-FG1_PM-v3.2_left"
         }
     ],
     "lookupLabel": "JBA_Area-FG1",
