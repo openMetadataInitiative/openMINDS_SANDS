@@ -4,10 +4,13 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/JBA_v2.5_Colin27-1998",
     "@type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+    "abbreviation": "JBA",
     "accessibility": {
         "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
     },
-    "atlasType": null,
+    "atlasType": {
+        "@id": "https://openminds.ebrains.eu/instances/atlasType/probabilisticAtlas"
+    },
     "author": null,
     "coordinateSpace": {
         "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/Colin27_1998"
@@ -17,7 +20,7 @@
     "description": null,
     "digitalIdentifier": null,
     "fullDocumentation": null,
-    "fullName": "Julich-Brain Atlas",
+    "fullName": "Julich-Brain Cytoarchitectonic Atlas",
     "funding": null,
     "hasTerminologyVersion": {
 		"@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
@@ -789,7 +792,7 @@
     "relatedPublication": null,
     "releaseDate": null,
     "repository": null,
-    "shortName": "JBA (v2.5, Colin27 1998)",
+    "shortName": "Julich-Brain Atlas",
     "supportChannel": null,
     "versionIdentifier": "v2.5, Colin27 1998",
     "versionInnovation": null

@@ -4,10 +4,13 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/WHSSD_atlas_v2",
     "@type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+    "abbreviation": "WHSSD",
     "accessibility": {
         "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
     },
-    "atlasType": null,
+    "atlasType": {
+        "@id": "https://openminds.ebrains.eu/instances/atlasType/deterministicAtlas"
+    },
     "author": null,
     "coordinateSpace": {
         "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/WHSSD_v1.01"
@@ -281,7 +284,7 @@
     "relatedPublication": null,
     "releaseDate": "2015-02-02",
     "repository": null,
-    "shortName": "WHSSD rat brain atlas v2",
+    "shortName": "Waxholm Space rat brain atlas",
     "supportChannel": [
         "support@ebrains.eu",
         "https://www.nitrc.org/forum/forum.php?forum_id=9174"

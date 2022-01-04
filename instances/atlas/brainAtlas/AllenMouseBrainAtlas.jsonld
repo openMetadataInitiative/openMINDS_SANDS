@@ -4,6 +4,7 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/brainAtlas/AMBA",
     "@type": "https://openminds.ebrains.eu/sands/BrainAtlas",
+    "abbreviation": "AMBA"
     "author": null,
     "custodian": null,
     "description": null,
@@ -22,5 +23,5 @@
         "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AMBA_homepage"
     },
     "howToCite": null,
-    "shortName": "AMBA"
+    "shortName": "Allen Mouse Brain Atlas"
 }

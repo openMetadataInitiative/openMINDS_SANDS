@@ -6,8 +6,12 @@
     "hasTerminologyVersion",
     "license"
   ],
-  "properties": { 
-	"atlasType": {
+  "properties": {
+    "abbreviation": {
+      "type": "string",
+      "_instruction": "Enter the official abbreviation of this brain atlas version."
+    },
+    "atlasType": {
       "_instruction": "Add the type of this brain atlas version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/AtlasType"
