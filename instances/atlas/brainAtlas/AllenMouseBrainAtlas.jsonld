@@ -4,7 +4,7 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/brainAtlas/AMBA",
     "@type": "https://openminds.ebrains.eu/sands/BrainAtlas",
-    "abbreviation": "AMBA"
+    "abbreviation": "AMBA",
     "author": null,
     "custodian": null,
     "description": null,
