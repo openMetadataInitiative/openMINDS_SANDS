@@ -3,7 +3,7 @@
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
     "@id": "https://openminds.ebrains.eu/instances/serviceLink/JBA-v1.18_Colin27-1998_Area-Fo5_PM-v2.1_right",
-    "@type": "https://openminds.ebrains.eu/core/serviceLink",
+    "@type": "https://openminds.ebrains.eu/core/ServiceLink",
     "dataLocation": {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v1.18_Colin27-1998_Area-Fo5_PM-v2.1_right"
     },

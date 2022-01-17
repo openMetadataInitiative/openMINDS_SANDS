@@ -1,0 +1,319 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AAL1_SPM12_2018",
+    "@type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+    "abbreviation": "AAL1",
+    "accessibility": {
+        "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
+    },
+    "atlasType": {
+        "@id": "https://openminds.ebrains.eu/instances/atlasType/deterministicAtlas"
+    },
+    "author": null,
+    "coordinateSpace": {
+        "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/Colin27_2008"
+    },
+    "copyright": null,
+    "custodian": null,
+    "description": "The AAL1 atlas comprises an anatomical parcellation of the spatially normalized single-subject high-resolution T1 volume (Colin27, 2008) provided by the Montreal Neurological Institute (MNI) which can be used to automatically label individual subject brains of functional studies. The MNI single-subjectmain sulci were first delineated and further used as landmarks for the 3D definition of 45 anatomical volumes of interest (AVOI) in each hemisphere. This procedure was performed using a dedicated software which allowed a 3D following of the sulci course on the edited brain. Regions of interest were then drawn manually with the same software every 2mm on the axial slices of the high-resolution MNI single subject. The 90 AVOI were reconstructed and assigned a label. For automated anatomical labelling of functional studies according to this parcellation method, three procedures are proposed: (1) labelling of an extremum defined by a set of coordinates; (2) percentage of voxels belonging to teach of the AVOI intersected by a sphere centered by a set of coordinates; (3) percentage of voxels belonging to each of the AVOI intersected by an activated cluster. An interface with the Statistical Parametric Mapping (SPM) packages is provided as a freeware to researchers of the neuroimaging community to conduct the automated labelling procedures.",
+    "digitalIdentifier": null,
+    "fullDocumentation": null,
+    "fullName": "Automated Anatomical Labeling Atlas 1",
+    "funding": null,
+    "hasTerminologyVersion": {
+		"@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
+		"definedIn": null,
+		"hasEntityVersion": [
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_PRE_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_POST_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_RO_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_F1_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_F2_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_F3OP_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_F3T_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_F1M_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_SMA_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_PCL_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_F1O_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_F1MO_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_F2O_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_F3O_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_GR_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_OC_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_T1_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_HES_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_T2_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_T3_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_P1_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_P2_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_AG_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_SMG_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_PQ_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_O1_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_O2_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_O3_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_Q_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_V1_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_LING_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_FUSI_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_T1P_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_T2P_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_ACIN_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_MCIN_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_PCIN_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_HIP_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_PHIP_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_IN_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_AMYG_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_CAU_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_PUT_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_PAL_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_THA_left"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_PRE_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_POST_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_RO_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_F1_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_F2_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_F3OP_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_F3T_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_F1M_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_SMA_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_PCL_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_F1O_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_F1MO_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_F2O_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_F3O_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_GR_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_OC_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_T1_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_HES_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_T2_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_T3_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_P1_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_P2_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_AG_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_SMG_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_PQ_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_O1_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_O2_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_O3_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_Q_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_V1_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_LING_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_FUSI_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_T1P_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_T2P_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_ACIN_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_MCIN_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_PCIN_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_HIP_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_PHIP_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_IN_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_AMYG_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_CAU_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_PUT_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_PAL_right"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12_2018_THA_right"
+			}
+		],
+		"ontologyIdentifier": null
+	},
+    "homepage": null,
+    "howToCite": null,
+    "isAlternativeVersionOf": null,
+    "isNewVersionOf": null,
+    "keyword": null,
+    "license": {
+        "@id": "https://openminds.ebrains.eu/instances/licenses/ccByNcNd4.0"
+    },
+    "ontologyIdentifier": null,
+    "otherContribution": null,
+    "relatedPublication": null,
+    "releaseDate": "",
+    "repository": null,
+    "shortName": "AAL Atlas 1",
+    "supportChannel": null,
+    "versionIdentifier": "SPM12, 2018",
+    "versionInnovation": "This is the 2018 release of the SPM12 version of the AAL Atlas 1 containing 3D definitions of 45 anatomical volumes of interest in each hemisphere."
+}
