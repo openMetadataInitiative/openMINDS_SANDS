@@ -7,7 +7,7 @@
     "dataLocation": {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v1.18_Colin27-1998_Area-PFop_PM-v9.4_right"
     },
-    "name": "Show probability map in siibra Explorer",
+    "name": "probability map",
     "openDataIn": {
         "@id": "https://openminds.ebrains.eu/instances/URL/JBA-v1.18_Colin27-1998_Area-PFop_PM-v9.4_right"
     },
