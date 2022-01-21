@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/serviceLink/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-OP8_MPM_right",
+    "@type": "https://openminds.ebrains.eu/core/ServiceLink",
+    "dataLocation": {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-OP8_PM-v5.1_right"
+    },
+    "name": "maximum probability map",
+    "openDataIn": {
+        "@id": "https://openminds.ebrains.eu/instances/URL/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-OP8_MPM_right"
+    },
+    "service": {
+        "@id": "https://openminds.ebrains.eu/instances/service/siibraExplorer"
+    }
+}
