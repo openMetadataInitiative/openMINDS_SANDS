@@ -2,9 +2,7 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": [
-        "https://openminds.ebrains.eu/instances/serviceLink/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-Ig2_PM-v13.1_left"
-    ],
+    "@id": "https://openminds.ebrains.eu/instances/serviceLink/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-Ig2_PM-v13.1_left",
     "@type": "https://openminds.ebrains.eu/core/ServiceLink",
     "dataLocation": {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-Ig2_PM-v13.1_left"

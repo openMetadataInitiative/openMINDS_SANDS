@@ -2,9 +2,7 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": [
-        "https://openminds.ebrains.eu/instances/serviceLink/JBA-v2.9_Colin27-1998_Area-IFS4_PM-v3.2_left"
-    ],
+    "@id": "https://openminds.ebrains.eu/instances/serviceLink/JBA-v2.9_Colin27-1998_Area-IFS4_PM-v3.2_left",
     "@type": "https://openminds.ebrains.eu/core/ServiceLink",
     "dataLocation": {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_Colin27-1998_Area-IFS4_PM-v3.2_left"
