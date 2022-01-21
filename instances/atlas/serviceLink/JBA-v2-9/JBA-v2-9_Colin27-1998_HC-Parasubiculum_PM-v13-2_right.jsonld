@@ -1,0 +1,19 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": [
+        "https://openminds.ebrains.eu/instances/serviceLink/JBA-v2.9_Colin27-1998_HC-Parasubiculum_PM-v13.2_right"
+    ],
+    "@type": "https://openminds.ebrains.eu/core/ServiceLink",
+    "dataLocation": {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_Colin27-1998_HC-Parasubiculum_PM-v13.2_right"
+    },
+    "name": "probability map",
+    "openDataIn": {
+        "@id": "https://openminds.ebrains.eu/instances/URL/JBA-v2.9_Colin27-1998_HC-Parasubiculum_PM-v13.2_right"
+    },
+    "service": {
+        "@id": "https://openminds.ebrains.eu/instances/service/siibraExplorer"
+    }
+}

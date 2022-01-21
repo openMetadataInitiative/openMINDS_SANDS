@@ -1,0 +1,8 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/URL/JBA-v2.9_Colin27-1998_Area-hOc4la_PM-v5.2_left",
+    "@type": "https://openminds.ebrains.eu/core/URL",
+    "URL": "https://atlases.ebrains.eu/viewer/#/a:juelich:iav:atlas:v1.0.0:1/t:minds:core:referencespace:v1.0.0:7f39f7be-445b-47c0-9791-e971c0b6d992/p:minds:core:parcellationatlas:v1.0.0:94c1125b-b87e-45e4-901c-00daee7f2579-290/r:_cbb67f8::1s/@:0.0.0.-W000.._eCwg.2-FUe3._-s_W.2_evlu..7LIx..2nLoe~.4dGo5~.3p0i~..1LSm"
+}
