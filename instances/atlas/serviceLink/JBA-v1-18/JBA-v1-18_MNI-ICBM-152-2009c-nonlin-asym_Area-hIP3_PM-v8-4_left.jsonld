@@ -1,0 +1,19 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": [
+        "https://openminds.ebrains.eu/instances/serviceLink/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-hIP3_PM-v8.4_left"
+    ],
+    "@type": "https://openminds.ebrains.eu/core/ServiceLink",
+    "dataLocation": {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-hIP3_PM-v8.4_left"
+    },
+    "name": "probability map",
+    "openDataIn": {
+        "@id": "https://openminds.ebrains.eu/instances/URL/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-hIP3_PM-v8.4_left"
+    },
+    "service": {
+        "@id": "https://openminds.ebrains.eu/instances/service/siibraExplorer"
+    }
+}
