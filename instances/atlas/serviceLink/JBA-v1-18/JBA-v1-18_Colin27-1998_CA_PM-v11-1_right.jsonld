@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/serviceLink/JBA-v1.18_Colin27-1998_CA_PM-v11.1_right",
+    "@type": "https://openminds.ebrains.eu/core/ServiceLink",
+    "dataLocation": {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v1.18_Colin27-1998_CA_PM-v11.1_right"
+    },
+    "name": "probability map",
+    "openDataIn": {
+        "@type": "https://openminds.ebrains.eu/core/URL",
+        "URL": "https://atlases.ebrains.eu/viewer/#/a:juelich:iav:atlas:v1.0.0:1/t:minds:core:referencespace:v1.0.0:7f39f7be-445b-47c0-9791-e971c0b6d992/p:minds:core:parcellationatlas:v1.0.0:94c1125b-b87e-45e4-901c-00daee7f2579/r:jubrain%20colin%20v18%20right::2-/@:0.0.0.-W000.._eCwg.2-FUe3._-s_W.2_evlu..7LIx..1mGHX.1Uczv~.gWQV~..1LSm"
+    },
+    "service": {
+        "@id": "https://openminds.ebrains.eu/instances/service/siibraExplorer"
+    }
+}
