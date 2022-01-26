@@ -9,7 +9,8 @@
     },
     "name": "probability map",
     "openDataIn": {
-        "@id": "https://openminds.ebrains.eu/instances/URL/JBA-v1.18_MNI-ICBM-152-2009c-nonlin-asym_Area-hOc5_PM-v2.4_right"
+        "@type": "https://openminds.ebrains.eu/core/URL",
+        "URL": "https://atlases.ebrains.eu/viewer/#/a:juelich:iav:atlas:v1.0.0:1/t:minds:core:referencespace:v1.0.0:dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2/p:minds:core:parcellationatlas:v1.0.0:94c1125b-b87e-45e4-901c-00daee7f2579/r:jubrain%20mni152%20v18%20right::6/@:0.0.0.-W000.._eCwg.2-FUe3._-s_W.2_evlu..7LIx..2tqKG.3vtiD~.HfaV..1LSm"
     },
     "service": {
         "@id": "https://openminds.ebrains.eu/instances/service/siibraExplorer"
