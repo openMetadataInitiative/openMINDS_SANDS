@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_inferiorParietal\u2013LateralOccipital",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "hasAnnotation": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_hemisphere_right"
+    }
+  ],
+  "lookupLabel": null,
+  "name": "Inferior Parietal \u2013 Lateral Occipital",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "Superficial Fibre Bundles - Inferior Parietal \u2013 Lateral Occipital",
+  "versionInnovation": null
+}

@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_parsTriangularisInsula",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_hemisphere_right"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_parsTriangularisInsula"
+    }
+  ],
+  "lookupLabel": "SWMA_parsTriangularisInsula",
+  "name": "Pars Triangularis Insula",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

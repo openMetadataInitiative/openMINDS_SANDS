@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_rh_prc-sp_0",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "hasAnnotation": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_precentral\u2013SuperiorParietal"
+    }
+  ],
+  "lookupLabel": null,
+  "name": "rh_PrC-SP_0",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "Superficial Fibre Bundles - rh_PrC-SP_0",
+  "versionInnovation": null
+}

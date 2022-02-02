@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_postcentral\u2013SuperiorParietal",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "hasAnnotation": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_hemisphere_right"
+    }
+  ],
+  "lookupLabel": null,
+  "name": "Postcentral \u2013 Superior Parietal",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "Superficial Fibre Bundles - Postcentral \u2013 Superior Parietal",
+  "versionInnovation": null
+}

@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_fusiform\u2013LateralOccipital",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "hasAnnotation": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_hemisphere_right"
+    }
+  ],
+  "lookupLabel": null,
+  "name": "Fusiform \u2013 Lateral Occipital",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "Superficial Fibre Bundles - Fusiform \u2013 Lateral Occipital",
+  "versionInnovation": null
+}

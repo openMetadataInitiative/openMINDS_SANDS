@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_cuneusLingual",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "hasAnnotation": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_hemisphere_right"
+    }
+  ],
+  "lookupLabel": null,
+  "name": "Cuneus Lingual",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "Superficial Fibre Bundles - Cuneus Lingual",
+  "versionInnovation": null
+}

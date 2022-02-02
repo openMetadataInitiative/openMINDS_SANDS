@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_lateralOrbitofrontal\u2013RostralMiddleFrontal",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "hasAnnotation": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_hemisphere_right"
+    }
+  ],
+  "lookupLabel": null,
+  "name": "Lateral Orbitofrontal \u2013 Rostral Middle Frontal",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "Superficial Fibre Bundles - Lateral Orbitofrontal \u2013 Rostral Middle Frontal",
+  "versionInnovation": null
+}

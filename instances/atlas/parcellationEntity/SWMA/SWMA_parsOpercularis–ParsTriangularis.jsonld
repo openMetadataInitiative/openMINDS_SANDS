@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_parsOpercularis\u2013ParsTriangularis",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_hemisphere_right"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_parsOpercularis\u2013ParsTriangularis"
+    }
+  ],
+  "lookupLabel": "SWMA_parsOpercularis\u2013ParsTriangularis",
+  "name": "Pars Opercularis \u2013 Pars Triangularis",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

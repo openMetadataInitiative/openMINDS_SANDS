@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_rostralAnteriorCingulate\u2013SuperiorFrontal",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "hasAnnotation": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_hemisphere_left"
+    }
+  ],
+  "lookupLabel": null,
+  "name": "Rostral Anterior Cingulate \u2013 Superior Frontal",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "Superficial Fibre Bundles - Rostral Anterior Cingulate \u2013 Superior Frontal",
+  "versionInnovation": null
+}

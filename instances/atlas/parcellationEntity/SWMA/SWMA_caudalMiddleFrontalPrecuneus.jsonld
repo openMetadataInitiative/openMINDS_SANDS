@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_caudalMiddleFrontalPrecuneus",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_hemisphere_right"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_caudalMiddleFrontalPrecuneus"
+    }
+  ],
+  "lookupLabel": "SWMA_caudalMiddleFrontalPrecuneus",
+  "name": "Caudal Middle Frontal Precuneus",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

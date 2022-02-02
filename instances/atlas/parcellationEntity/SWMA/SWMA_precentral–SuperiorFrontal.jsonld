@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_precentral\u2013SuperiorFrontal",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_hemisphere_left"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_precentral\u2013SuperiorFrontal"
+    }
+  ],
+  "lookupLabel": "SWMA_precentral\u2013SuperiorFrontal",
+  "name": "Precentral \u2013 Superior Frontal",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

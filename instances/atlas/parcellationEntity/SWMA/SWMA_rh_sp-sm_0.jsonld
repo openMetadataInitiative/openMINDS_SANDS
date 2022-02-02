@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_rh_sp-sm_0",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_superiorParietalSupramarginal"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_rh_sp-sm_0"
+    }
+  ],
+  "lookupLabel": "SWMA_rh_sp-sm_0",
+  "name": "rh_SP-SM_0",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}
