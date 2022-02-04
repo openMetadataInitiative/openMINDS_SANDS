@@ -9,14 +9,7 @@
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_superficialFibreBundles"
     }
   ],
-  "hasVersion": [
-    {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_lh_MT-SM_0"
-    },
-    {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_rh_MT-SM_0"
-    }
-  ],
+  "hasVersion": null,
   "lookupLabel": "SWMA_MT-SM",
   "name": "MT-SM",
   "ontologyIdentifier": null,

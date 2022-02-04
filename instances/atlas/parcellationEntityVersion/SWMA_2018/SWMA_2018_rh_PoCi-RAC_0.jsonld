@@ -6,10 +6,10 @@
   "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
   "hasAnnotation": null,
   "hasParent": null,
-  "lookupLabel": "SWMA_v2018_rh_PoCi-RAC_0",
+  "lookupLabel": "SWMA_2018_rh_PoCi-RAC_0",
   "name": "rh_PoCi-RAC_0",
   "ontologyIdentifier": null,
   "relationAssessment": null,
-  "versionIdentifier": "v2018, rh",
+  "versionIdentifier": "2018, rh",
   "versionInnovation": null
 }

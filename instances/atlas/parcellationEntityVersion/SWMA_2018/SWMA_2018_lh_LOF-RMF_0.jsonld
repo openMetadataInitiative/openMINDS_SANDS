@@ -6,10 +6,10 @@
   "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
   "hasAnnotation": null,
   "hasParent": null,
-  "lookupLabel": "SWMA_v2018_lh_LOF-RMF_0",
+  "lookupLabel": "SWMA_2018_lh_LOF-RMF_0",
   "name": "lh_LOF-RMF_0",
   "ontologyIdentifier": null,
   "relationAssessment": null,
-  "versionIdentifier": "v2018, lh",
+  "versionIdentifier": "2018, lh",
   "versionInnovation": null
 }
