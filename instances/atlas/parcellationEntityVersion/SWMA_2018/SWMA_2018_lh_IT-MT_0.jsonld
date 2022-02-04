@@ -5,7 +5,11 @@
   "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_lh_IT-MT_0",
   "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
   "hasAnnotation": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_IT-MT"
+    }
+  ],
   "lookupLabel": "SWMA_2018_lh_IT-MT_0",
   "name": "lh_IT-MT_0",
   "ontologyIdentifier": null,
