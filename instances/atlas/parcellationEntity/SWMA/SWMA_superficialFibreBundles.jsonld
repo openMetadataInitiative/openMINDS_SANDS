@@ -7,11 +7,152 @@
   "hasParent": null,
   "hasVersion": [
     {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_superficialFibreBundles"
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_RAC-SF"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_PoCi-RAC"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_Op-Ins"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_RMF-SF"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_Fu-LO"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_MT-SM"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_CAC-PrCu"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_LOF-ST"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_IP-SM"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_LO-SP"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_IP-MT"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_PoC-Ins"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_PoCi-PrCu"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_CMF-PrC"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_PoCi-SF"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_Cu-Li"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_PoC-SP"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_SP-SM"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_PoC-PrC"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_CMF-Op"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_LOF-RMF"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_PrC-Ins"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_Op-SF"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_PrC-SM"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_ST-Ins"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_PoC-SM"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_CMF-PoC"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_Tr-SF"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_SM-Ins"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_MT-ST"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_LOF-MOF"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_CAC-PoCi"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_Op-PrC"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_LOF-Or"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_IT-MT"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_CMF-RMF"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_PrC-SP"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_IC-PrCu"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_CMF-SF"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_IP-SP"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_Op-Tr"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_IP-LO"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_PrC-SF"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_Or-Ins"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_IP-IT"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_ST-TT"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_Tr-Ins"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_MOF-ST"
     }
   ],
   "lookupLabel": "SWMA_superficialFibreBundles",
-  "name": "Superficial Fibre Bundles",
+  "name": "SWMA Superficial Fibre Bundles",
   "ontologyIdentifier": null,
   "relatedUBERONTerm": null
 }
