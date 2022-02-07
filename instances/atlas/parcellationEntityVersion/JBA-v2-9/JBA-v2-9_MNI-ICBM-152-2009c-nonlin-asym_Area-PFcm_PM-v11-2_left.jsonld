@@ -1,15 +1,15 @@
 {
-  "@context": {
-    "@vocab": "https://openminds.ebrains.eu/vocab/"
-  },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_MNI-ICBM-152-2009c-nonlin-asym_Area-PFcm_PM-v11.2_left",
-  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "hasAnnotation": null,
-  "hasParent": null,
-  "lookupLabel": "JBA-v2.9_MNI-ICBM-152-2009c-nonlin-asym_Area-PFcm_PM-v11.2_left",
-  "name": "Area PFcm (IPL)",
-  "ontologyIdentifier": null,
-  "relationAssessment": null,
-  "versionIdentifier": "JBA-v2.9_MNI-ICBM-152-2009c-nonlin-asym_PM-v11.2_left",
-  "versionInnovation": null
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_MNI-ICBM-152-2009c-nonlin-asym_Area-PFcm_PM-v11.2_left",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": null,
+    "hasParent": null,
+    "lookupLabel": "JBA-v2.9_MNI-ICBM-152-2009c-nonlin-asym_Area-PFcm_PM-v11.2_left",
+    "name": "Area PFcm (IPL)",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v2.9/11.2, l, MNI-152",
+    "versionInnovation": null
 }

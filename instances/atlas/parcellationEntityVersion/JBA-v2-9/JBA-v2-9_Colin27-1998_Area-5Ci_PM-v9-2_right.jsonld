@@ -1,15 +1,15 @@
 {
-  "@context": {
-    "@vocab": "https://openminds.ebrains.eu/vocab/"
-  },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_Colin27-1998_Area-5Ci_PM-v9.2_right",
-  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "hasAnnotation": null,
-  "hasParent": null,
-  "lookupLabel": "JBA-v2.9_Colin27-1998_Area-5Ci_PM-v9.2_right",
-  "name": "Area 5Ci (SPL)",
-  "ontologyIdentifier": null,
-  "relationAssessment": null,
-  "versionIdentifier": "JBA-v2.9_Colin27-1998_PM-v9.2_right",
-  "versionInnovation": null
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_Colin27-1998_Area-5Ci_PM-v9.2_right",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": null,
+    "hasParent": null,
+    "lookupLabel": "JBA-v2.9_Colin27-1998_Area-5Ci_PM-v9.2_right",
+    "name": "Area 5Ci (SPL)",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v2.9/9.2, r, Colin27",
+    "versionInnovation": null
 }
