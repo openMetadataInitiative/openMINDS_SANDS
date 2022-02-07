@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_somatosensoryCortex",
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_somatosensoryCortex"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_secondarySomatosensoryArea",
     "name": "secondary somatosensory area",
     "ontologyIdentifier": null,

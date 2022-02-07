@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_dorsallateralEntorhinalArea",
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_dorsallateralEntorhinalArea"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_parataenialThalamicNucleus",
     "name": "parataenial thalamic nucleus",
     "ontologyIdentifier": null,

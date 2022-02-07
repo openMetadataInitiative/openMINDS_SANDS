@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_ventricularSystem",
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_ventricularSystem"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_ventricularSystemUnspecified",
     "name": "ventricular system, unspecified",
     "ontologyIdentifier": null,

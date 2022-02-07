@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_hippocampalFormation",
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_hippocampalFormation"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_subiculum",
     "name": "subiculum",
     "ontologyIdentifier": null,

@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_ventralPosteriorNucleusOfTheThalamusParvicellularPart",
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_ventralPosteriorNucleusOfTheThalamusParvicellularPart"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_ventralPosteromedialThalamicNucleus",
     "name": "ventral posteromedial thalamic nucleus",
     "ontologyIdentifier": null,

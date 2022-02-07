@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_mammillotegmentalTract",
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_mammillotegmentalTract"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_striaMedullarisThalami",
     "name": "stria medullaris thalami",
     "ontologyIdentifier": null,

@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_mediofrontalCortex",
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_mediofrontalCortex"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_prelimbicArea",
     "name": "prelimbic area",
     "ontologyIdentifier": null,

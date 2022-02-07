@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_laterodorsalThalamicNucleiOfTheDorsalThalamus",
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_laterodorsalThalamicNucleiOfTheDorsalThalamus"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_laterodorsalThalamicNucleusVentrolateralPart",
     "name": "laterodorsal thalamic nucleus, ventrolateral part",
     "ontologyIdentifier": null,

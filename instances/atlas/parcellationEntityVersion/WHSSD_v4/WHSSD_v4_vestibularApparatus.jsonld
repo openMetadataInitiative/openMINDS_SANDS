@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_innerEar",
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_innerEar"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_vestibularApparatus",
     "name": "vestibular apparatus",
     "ontologyIdentifier": null,

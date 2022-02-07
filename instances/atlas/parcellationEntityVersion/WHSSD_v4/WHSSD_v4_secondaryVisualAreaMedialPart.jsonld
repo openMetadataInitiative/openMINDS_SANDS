@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_secondaryVisualCortex",
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_secondaryVisualCortex"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_secondaryVisualAreaMedialPart",
     "name": "secondary visual area, medial part",
     "ontologyIdentifier": null,

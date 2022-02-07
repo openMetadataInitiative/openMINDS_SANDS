@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_pretectum",
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_pretectum"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_pretectalRegion",
     "name": "pretectal region",
     "ontologyIdentifier": null,

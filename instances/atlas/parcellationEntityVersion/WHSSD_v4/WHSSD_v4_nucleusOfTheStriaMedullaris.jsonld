@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_epithalamus",
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_epithalamus"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_nucleusOfTheStriaMedullaris",
     "name": "nucleus of the stria medullaris",
     "ontologyIdentifier": null,

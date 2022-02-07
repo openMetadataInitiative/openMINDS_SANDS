@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_temporalRegion",
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_temporalRegion"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_temporalAssociationCortex",
     "name": "temporal association cortex",
     "ontologyIdentifier": null,

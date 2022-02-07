@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_pallidum",
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_pallidum"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_ventralPallidum",
     "name": "ventral pallidum",
     "ontologyIdentifier": null,

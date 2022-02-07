@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_cerebellarAndPrecerebellarWhiteMatter",
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_cerebellarAndPrecerebellarWhiteMatter"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_middleCerebellarPeduncle",
     "name": "middle cerebellar peduncle",
     "ontologyIdentifier": null,

@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_ventralMidlineGroupOfTheDorsalThalamus",
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_ventralMidlineGroupOfTheDorsalThalamus"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_submediusThalamicNucleus",
     "name": "submedius thalamic nucleus",
     "ontologyIdentifier": null,
