@@ -2,12 +2,12 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_mediodorsalNucleusOfHeDorsalThalamus",
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_mediodorsalNucleusOfTheDorsalThalamus",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
     "hasParent": null,
     "hasVersion": null,
-    "lookupLabel": "WHSSD_mediodorsalNucleusOfHeDorsalThalamus",
-    "name": "mediodorsal nucleus of he dorsal thalamus",
+    "lookupLabel": "WHSSD_mediodorsalNucleusOfTheDorsalThalamus",
+    "name": "mediodorsal nucleus of the dorsal thalamus",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null
 }

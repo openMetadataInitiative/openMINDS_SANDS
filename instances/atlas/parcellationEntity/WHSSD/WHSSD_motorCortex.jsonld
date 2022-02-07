@@ -2,12 +2,12 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_cortigofugalPathways",
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_motorCortex",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
     "hasParent": null,
     "hasVersion": null,
-    "lookupLabel": "WHSSD_cortigofugalPathways",
-    "name": "cortigofugal pathways",
+    "lookupLabel": "WHSSD_motorCortex",
+    "name": "motor cortex",
     "ontologyIdentifier": null,
     "relatedUBERONTerm": null
 }
