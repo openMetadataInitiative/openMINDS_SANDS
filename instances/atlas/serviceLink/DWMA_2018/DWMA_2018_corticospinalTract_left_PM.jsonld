@@ -9,6 +9,7 @@
     },
     "name": "probability map",
     "openDataIn": {
+        "@type": "https://openminds.ebrains.eu/core/URL",
         "URL": "https://atlases.ebrains.eu/viewer/#/a:juelich:iav:atlas:v1.0.0:1/t:minds:core:referencespace:v1.0.0:dafcffc5-4826-4bf1-8ff6-46b8a31ff8e2/p:juelich:iav:atlas:v1.0.0:5/r:fibre%20bundle%20long::B/@:0.0.0.-W000.._eCwg.2-FUe3._-s_W.2_evlu..7LIx..1LTS_~.1D85E~.14u8m..1LSm"
     },
     "service": {
