@@ -1,15 +1,15 @@
 {
-  "@context": {
-    "@vocab": "https://openminds.ebrains.eu/vocab/"
-  },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_Colin27-1998_Area-Ia1_PM-v5.1_left",
-  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "hasAnnotation": null,
-  "hasParent": null,
-  "lookupLabel": "JBA-v2.9_Colin27-1998_Area-Ia1_PM-v5.1_left",
-  "name": "Area Ia1 (Insula)",
-  "ontologyIdentifier": null,
-  "relationAssessment": null,
-  "versionIdentifier": "JBA-v2.9_Colin27-1998_PM-v5.1_left",
-  "versionInnovation": null
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_Colin27-1998_Area-Ia1_PM-v5.1_left",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": null,
+    "hasParent": null,
+    "lookupLabel": "JBA-v2.9_Colin27-1998_Area-Ia1_PM-v5.1_left",
+    "name": "Area Ia1 (Insula)",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v2.9/5.1, l, Colin27",
+    "versionInnovation": null
 }

@@ -11,408 +11,690 @@
     "digitalIdentifier": null,
     "fullName": "Julich-Brain Cytoarchitectonic Atlas",
     "hasTerminology": {
-		"@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
-		"definedIn": null,
-		"hasEntity": [
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-4p"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc4la"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Ig3"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_HC-Prosubiculum"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP4"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-5Ci"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TE-1.1"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-PF"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_HC-Transsubiculum"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-45"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc3v"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id5"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP5"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Frontal-to-Temporal"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Ch-123"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP1"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-p30"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-2"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP1"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_IF"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP3"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fo6"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-p24c"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP2"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-PGp"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_HATA"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-5M"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-PFop"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TE-2.1"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc4v"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP6"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc5"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_HC-Subiculum"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-FG4"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Fastigial-Nucleus"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP4"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Frontal-I"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-5L"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Frontal-II"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id1"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Ia"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-p24ab"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fp2"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-p29"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_CA"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_LB"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc3d"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-25"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-3b"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Frontal-to-Occipital"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_VTM"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-FG3"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TE-1.0"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-6d2"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-PGa"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_SF"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP5"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP7"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Interposed-Nucleus"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id6"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-7PC"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TeI"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-PFm"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc4lp"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fo5"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hPO1"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fo1"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-i30"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-7M"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP8"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-1"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-i29"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Ch-4"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TE-1.2"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_MF"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Ig1"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id2"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP3"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP8"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-p32"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fo2"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-6d1"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP9"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_CA3"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fo3"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id4"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc6"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fp1"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-FG2"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc4d"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-44"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc2"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-4a"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Dorsal-Dentate-Nucleus"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-STS1"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-s32"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-a30"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc1"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-PFt"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_CA2"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Subiculum"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-6d3"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id7"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fo4"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-6mp"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TI"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TE-2.2"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-6ma"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Temporal-to-Parietal"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Entorhinal-Cortex"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-s24"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_HC-Presubiculum"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fo7"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_CA1"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP6"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TE-3"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_DG"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Ig2"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP7"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-PFcm"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-FG1"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Ventral-Dentate-Nucleus"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-3a"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-a29"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id3"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-33"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP2"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-STS2"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_CM"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_HC-Parasubiculum"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-7A"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-7P"
-			}
-		],
-		"ontologyIdentifier": null
-	},
+        "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
+        "definedIn": null,
+        "hasEntity": [
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_frontal-lobe"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-6ma"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_parieto-occipital-sulcus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Frontal-to-Occipital"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_parietal-lobe"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-i30"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_lateral-geniculate-body"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Fastigial-Nucleus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Temporal-to-Parietal"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-p29"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_frontal-operculum"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-7P"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc3d"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_bed-nucleus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_dorsal-precentral-gyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_limbic-lobe"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-8v1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_mesial-precentral-gyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_emboliform-nucleus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_laterobasal-group"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_CM"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-PFm"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-5L"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Ph3"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Ph1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id4"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-6mp"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_CA1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP4"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_cerebral-cortex"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_HC-Presubiculum"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_granular-insula"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-a29"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-6d3"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-s24"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_magnocellular-group-within-septum"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id5"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fo2"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_dorsal-occipital-cortex"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-FG3"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Ia2"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-IFS4"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id2"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_LB"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_cerebellum"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_intraparietal-sulcus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_occiptal-lobe"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fo4"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_superior-frontal-gyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_superior-temporal-sulcus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP7"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_medial-orbitofrontal-cortex"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_inferior-frontal-gyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id8"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Frontal-I"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc4d"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id9"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-44"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-IFS2"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id10"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-7PC"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TE-1.1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_inferior-parietal-lobule"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_temporal-lobe"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_temporal-insula"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-7M"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc3v"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_IF"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id3"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-45"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fo7"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Frontal-to-Temporal"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_fusiform-gyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_SF"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-FG4"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_HC-Subiculum"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Ia"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP5"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id6"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-3a"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP2"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TI"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Dorsal-Dentate-Nucleus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP9"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-PGa"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_CGL"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Frontal-II"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_superior-parietal-lobule"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Heschls-gyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_BST"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fo1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fo6"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Interposed-Nucleus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_frontal-cingulate-gyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-PFop"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Ch-123"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-6d1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hPO1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_sublenticular-part-of-basal-forebrain"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-STS1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-5Ci"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP2"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc4v"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_collateral-sulcus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-p24c"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_precentral-gyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_superior-frontal-sulcus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc6"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-6d2"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_telencephalon"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc2"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_parietal-operculum"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_posterior-medial-superior-frontal-gyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-IFJ2"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_ventral-occipital-cortex"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP8"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-8v2"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-a30"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_middle-frontal-gyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fp2"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_diencephalon"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_basal-forebrain"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-FG1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_VTM"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-7A"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_occipital-cortex"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_inferior-frontal-sulcus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TeI"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Ph2"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-IFS1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-4p"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP3"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-p32"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_cerebellar-nuclei"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TE-3"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_HC-Transsubiculum"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Ig3"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TE-1.2"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-8d2"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TPJ"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_centromedial-group"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Ig1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_fiber-masses"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Subiculum"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Id7"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Ia3"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_amygdala"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-s32"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_magnocellular-group-within-horizontal-limb-of-diagnoal-band"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc5"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fo5"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TE-2.1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-PGp"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-STS2"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-5M"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-FG2"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_cerebral-nuclei"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_metencephalon"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc4lp"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc4la"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_CA2"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_HATA"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_postcentral-gyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Frontal-to-Temporal-I"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_fastigial-nucleus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP4"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-PF"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TE-1.0"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP7"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_parahippocampal-gyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-8d1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-p30"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_medial-geniculate-body"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP5"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Ig2"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_julich-brain"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fo3"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Fp1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP3"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_CA3"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-3b"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_dentate-nucleus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-IFJ1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_CA"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Ch-4"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_agranular-insula"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Entorhinal-Cortex"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-25"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_HC-Parasubiculum"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_ventral-striatum"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP6"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-i29"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP8"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_CGM"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_MF"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_DG"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-p24ab"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_frontal-pole"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-PFcm"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Ventral-Dentate-Nucleus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_superficial-group"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_lateral-occipital-cortex"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Frontal-to-Temporal-II"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_temporo-parietal-junction"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-4a"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-TE-2.2"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_HC-Prosubiculum"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_thalamus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_hippocampal-formation"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-Ia1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-OP6"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-CoS1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hOc1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_lateral-orbitofrontal-cortex"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-PFt"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_dysgranular-insula"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-hIP1"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_superior-temporal-gyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_globose-nucleus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-33"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_insula"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-2"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Area-IFS3"
+            }
+        ],
+        "ontologyIdentifier": null
+    },
     "hasVersion": [
         {
             "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/JBA_v1.13_Colin27-1998"
@@ -443,6 +725,12 @@
         },
         {
             "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/JBA_v2.6_MNI-ICBM-152-2009c-nonlin-asym"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/JBA_v2.9_Colin27-1998"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/JBA_v2.9_MNI-ICBM-152-2009c-nonlin-asym"
         }
     ],
     "homepage": null,

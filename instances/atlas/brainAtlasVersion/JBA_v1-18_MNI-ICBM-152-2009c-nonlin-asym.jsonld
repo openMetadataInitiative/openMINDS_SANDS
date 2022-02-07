@@ -684,6 +684,6 @@
     "repository": null,
     "shortName": "Julich-Brain Atlas",
     "supportChannel": null,
-    "versionIdentifier": "v1.18, MNI ICBM 152 2009c Nonlinear Asymmetric",
+    "versionIdentifier": "v1.18, MNI-152",
     "versionInnovation": "This is the first Julich-Brain Atlas version in MNI ICBM 152 (2009c Nonlinear Asymmetric)."
 }

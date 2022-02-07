@@ -1,15 +1,15 @@
 {
-  "@context": {
-    "@vocab": "https://openminds.ebrains.eu/vocab/"
-  },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_MNI-ICBM-152-2009c-nonlin-asym_Ch-4_PM-v4.3_left",
-  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "hasAnnotation": null,
-  "hasParent": null,
-  "lookupLabel": "JBA-v2.9_MNI-ICBM-152-2009c-nonlin-asym_Ch-4_PM-v4.3_left",
-  "name": "Ch 4 (Basal Forebrain)",
-  "ontologyIdentifier": null,
-  "relationAssessment": null,
-  "versionIdentifier": "JBA-v2.9_MNI-ICBM-152-2009c-nonlin-asym_PM-v4.3_left",
-  "versionInnovation": null
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_MNI-ICBM-152-2009c-nonlin-asym_Ch-4_PM-v4.3_left",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": null,
+    "hasParent": null,
+    "lookupLabel": "JBA-v2.9_MNI-ICBM-152-2009c-nonlin-asym_Ch-4_PM-v4.3_left",
+    "name": "Ch 4 (Basal Forebrain)",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v2.9/4.3, l, MNI-152",
+    "versionInnovation": null
 }

@@ -1,15 +1,15 @@
 {
-  "@context": {
-    "@vocab": "https://openminds.ebrains.eu/vocab/"
-  },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_Colin27-1998_Ventral-Dentate-Nucleus_PM-v6.3_right",
-  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "hasAnnotation": null,
-  "hasParent": null,
-  "lookupLabel": "JBA-v2.9_Colin27-1998_Ventral-Dentate-Nucleus_PM-v6.3_right",
-  "name": "Ventral Dentate Nucleus (Cerebellum)",
-  "ontologyIdentifier": null,
-  "relationAssessment": null,
-  "versionIdentifier": "JBA-v2.9_Colin27-1998_PM-v6.3_right",
-  "versionInnovation": null
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_Colin27-1998_Ventral-Dentate-Nucleus_PM-v6.3_right",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": null,
+    "hasParent": null,
+    "lookupLabel": "JBA-v2.9_Colin27-1998_Ventral-Dentate-Nucleus_PM-v6.3_right",
+    "name": "Ventral Dentate Nucleus (Cerebellum)",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v2.9/6.3, r, Colin27",
+    "versionInnovation": null
 }
