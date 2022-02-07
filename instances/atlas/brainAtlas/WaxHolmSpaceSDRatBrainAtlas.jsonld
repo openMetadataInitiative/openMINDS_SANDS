@@ -30,7 +30,7 @@
 				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_corpusCallosumAndAssociatedSubcorticalWhiteMatter"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_anteriorCommisure"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_anteriorCommissure"
 			},
 			{
 				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_anteriorCommissureAnteriorLimb"
@@ -57,7 +57,7 @@
 				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_fimbriaOfTheHippocampus"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_cortigofugalPathways"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_corticofugalPathways"
 			},
 			{
 				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_corticofugalTractAndCoronaRadiata"
@@ -399,7 +399,7 @@
 				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_infralimbicArea"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_motorcortex"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_motorCortex"
 			},
 			{
 				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_primaryMotorArea"
@@ -693,7 +693,7 @@
 				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_xiphoidThalamicNucleus"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_mediodorsalNucleusOfHeDorsalThalamus"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_mediodorsalNucleusOfTheDorsalThalamus"
 			},
 			{
 				"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_mediodorsalThalamicNucleusLateralPart"
