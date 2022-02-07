@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_nucleusAccumbens",
     "lookupLabel": "WHSSD_v4_nucleusAccumbensShell",
     "name": "nucleus accumbens, shell",
     "ontologyIdentifier": null,

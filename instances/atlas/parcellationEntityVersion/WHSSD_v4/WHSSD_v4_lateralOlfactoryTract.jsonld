@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_olfactoryWhiteMatter",
     "lookupLabel": "WHSSD_v4_lateralOlfactoryTract",
     "name": "lateral olfactory tract",
     "ontologyIdentifier": null,

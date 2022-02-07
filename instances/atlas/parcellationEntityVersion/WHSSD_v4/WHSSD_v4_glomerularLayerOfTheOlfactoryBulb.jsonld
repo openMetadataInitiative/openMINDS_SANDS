@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_olfactoryBulb",
     "lookupLabel": "WHSSD_v4_glomerularLayerOfTheOlfactoryBulb",
     "name": "glomerular layer of the olfactory bulb",
     "ontologyIdentifier": null,

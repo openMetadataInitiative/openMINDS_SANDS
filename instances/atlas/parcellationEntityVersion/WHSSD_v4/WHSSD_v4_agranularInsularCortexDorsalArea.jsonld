@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_agranularInsularCortex"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_agranularInsularCortexDorsalArea",
     "name": "agranular insular cortex dorsal area",
     "ontologyIdentifier": null,

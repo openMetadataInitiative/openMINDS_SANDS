@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_nonlaminatedPallium"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_endopiriformNucleus",
     "name": "endopiriform nucleus",
     "ontologyIdentifier": null,

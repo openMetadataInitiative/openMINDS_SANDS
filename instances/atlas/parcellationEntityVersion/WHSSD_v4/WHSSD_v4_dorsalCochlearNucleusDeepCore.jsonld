@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_cochlearNucleusDorsalPart"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_dorsalCochlearNucleusDeepCore",
     "name": "dorsal cochlear nucleus, deep core",
     "ontologyIdentifier": null,

@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_basalForebrainRegion",
     "lookupLabel": "WHSSD_v4_septalRegion",
     "name": "septal region",
     "ontologyIdentifier": null,

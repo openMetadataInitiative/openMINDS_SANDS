@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_tegmentum",
     "lookupLabel": "WHSSD_v4_periaqueductalGray",
     "name": "periaqueductal gray",
     "ontologyIdentifier": null,

@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_superiorOlivaryComplex",
     "lookupLabel": "WHSSD_v4_nucleusOfTheTrapezoidBody",
     "name": "nucleus of the trapezoid body",
     "ontologyIdentifier": null,

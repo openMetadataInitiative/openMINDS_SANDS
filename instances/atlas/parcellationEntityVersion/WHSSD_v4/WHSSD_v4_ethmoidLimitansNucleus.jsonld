@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_intralaminarNucleiOfTheDorsalThalamus"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_ethmoidLimitansNucleus",
     "name": "ethmoid-Limitans nucleus",
     "ontologyIdentifier": null,

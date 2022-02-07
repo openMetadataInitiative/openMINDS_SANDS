@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_piriformCortex",
     "lookupLabel": "WHSSD_v4_piriformCortexLayer2",
     "name": "piriform cortex, layer 2",
     "ontologyIdentifier": null,

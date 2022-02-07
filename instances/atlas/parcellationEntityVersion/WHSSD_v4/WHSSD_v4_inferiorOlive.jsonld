@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_myelencephalon",
     "lookupLabel": "WHSSD_v4_inferiorOlive",
     "name": "inferior olive",
     "ontologyIdentifier": null,

@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_cerebellum",
     "lookupLabel": "WHSSD_v4_molecularCellLayerOfTheCerebellum",
     "name": "molecular cell layer of the cerebellum",
     "ontologyIdentifier": null,

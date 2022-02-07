@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_anteriorCommisure"
+        }
+    ],
     "lookupLabel": "WHSSD_v3_anteriorCommissureAnteriorPart",
     "name": "anterior commissure, anterior part",
     "ontologyIdentifier": null,

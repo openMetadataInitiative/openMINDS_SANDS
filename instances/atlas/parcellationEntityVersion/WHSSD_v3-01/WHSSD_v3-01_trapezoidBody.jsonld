@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_cerebellarAndPrecerebellarWhiteMatter"
+        }
+    ],
     "lookupLabel": "WHSSD_v3.01_trapezoidBody",
     "name": "trapezoid body",
     "ontologyIdentifier": null,

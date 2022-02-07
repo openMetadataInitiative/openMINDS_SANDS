@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_whiteMatterOfTheTectum"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_commissureOfTheSuperiorColliculus",
     "name": "commissure of the superior colliculus",
     "ontologyIdentifier": null,

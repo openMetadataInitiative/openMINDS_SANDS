@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_mammillotegmentalTract",
     "lookupLabel": "WHSSD_v4_habenularCommissure",
     "name": "habenular commissure",
     "ontologyIdentifier": null,

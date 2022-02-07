@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_medialGeniculateComplexOfTheDorsalThalamus",
     "lookupLabel": "WHSSD_v4_medialGeniculateBodyDorsalDivision",
     "name": "medial geniculate body, dorsal division",
     "ontologyIdentifier": null,

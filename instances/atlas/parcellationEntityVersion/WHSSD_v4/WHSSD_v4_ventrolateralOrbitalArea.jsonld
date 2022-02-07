@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_orbitofrontalCortex",
     "lookupLabel": "WHSSD_v4_ventrolateralOrbitalArea",
     "name": "ventrolateral orbital area",
     "ontologyIdentifier": null,

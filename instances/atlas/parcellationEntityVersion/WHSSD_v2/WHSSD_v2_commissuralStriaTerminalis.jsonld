@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_thalamicTracts"
+        }
+    ],
     "lookupLabel": "WHSSD_v2_commissuralStriaTerminalis",
     "name": "commissural stria terminalis",
     "ontologyIdentifier": null,

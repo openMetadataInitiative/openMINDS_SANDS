@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_ventralMidlineGroupOfTheDorsalThalamus",
     "lookupLabel": "WHSSD_v4_ventromedialThalamicNucleus",
     "name": "ventromedial thalamic nucleus",
     "ontologyIdentifier": null,

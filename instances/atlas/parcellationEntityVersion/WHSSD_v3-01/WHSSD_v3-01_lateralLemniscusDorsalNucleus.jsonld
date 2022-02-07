@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_nucleiOfTheLateralLemniscus"
+        }
+    ],
     "lookupLabel": "WHSSD_v3.01_lateralLemniscusDorsalNucleus",
     "name": "lateral lemniscus, dorsal nucleus",
     "ontologyIdentifier": null,

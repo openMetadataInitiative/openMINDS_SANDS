@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_substantiaNigra",
     "lookupLabel": "WHSSD_v4_substantiaNigraLateralPart",
     "name": "substantia nigra, lateral part",
     "ontologyIdentifier": null,

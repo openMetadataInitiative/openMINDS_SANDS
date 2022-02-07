@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_opticFiberSystemAndSupraopticDecussation",
     "lookupLabel": "WHSSD_v4_opticNerve",
     "name": "optic nerve",
     "ontologyIdentifier": null,

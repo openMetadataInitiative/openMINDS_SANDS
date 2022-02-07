@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_posteriorComplexOfTheDorsalThalamus",
     "lookupLabel": "WHSSD_v4_posteriorThalamicNuclearGroupTriangularPart",
     "name": "posterior thalamic nuclear group, triangular part",
     "ontologyIdentifier": null,

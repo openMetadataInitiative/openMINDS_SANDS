@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_auditoryCortex",
     "lookupLabel": "WHSSD_v4_primaryAuditoryArea",
     "name": "primary auditory area",
     "ontologyIdentifier": null,

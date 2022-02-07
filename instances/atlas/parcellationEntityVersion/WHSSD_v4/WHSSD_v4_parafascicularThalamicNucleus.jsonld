@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_intralaminarNucleiOfTheDorsalThalamus",
     "lookupLabel": "WHSSD_v4_parafascicularThalamicNucleus",
     "name": "parafascicular thalamic nucleus",
     "ontologyIdentifier": null,

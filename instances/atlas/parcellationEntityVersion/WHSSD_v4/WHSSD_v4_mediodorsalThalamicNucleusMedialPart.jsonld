@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_mediodorsalNucleusOfTheDorsalThalamus",
     "lookupLabel": "WHSSD_v4_mediodorsalThalamicNucleusMedialPart",
     "name": "mediodorsal thalamic nucleus, medial part",
     "ontologyIdentifier": null,

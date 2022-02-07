@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_brain",
     "lookupLabel": "WHSSD_v4_spinalCord",
     "name": "spinal cord",
     "ontologyIdentifier": null,

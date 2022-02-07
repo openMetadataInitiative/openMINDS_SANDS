@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_dorsallateralEntorhinalArea",
     "lookupLabel": "WHSSD_v4_paraventricularThalamicNucleiAnteriorAndPosterior",
     "name": "paraventricular thalamic nuclei (anterior and posterior)",
     "ontologyIdentifier": null,
