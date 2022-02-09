@@ -12,14 +12,20 @@
             "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
         },
         "displayColor": "#be8493",
-        "inspiredBy": null,
+        "inspiredBy": [
+			{
+				"@id": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-hOc1_pub/4.0/Area-hOc1_l_N10_nlin2ICBM152asym2009c_4.0_publicP_f5279aa457d15d63fb420130e15fdbce.nii.gz"
+			}
+		],
         "internalIdentifier": "120",
         "laterality": [
             {
                 "@id": "https://openminds.ebrains.eu/instances/laterality/left"
             }
         ],
-        "visualizedIn": null
+        "visualizedIn": {
+			"@id": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas_pub/25/MPM/JuBrain_Map_icbm_v25_l_c12dc303cb4a3bb271646b6b65af0b54.nii.gz"
+		}
     },
     "hasParent": null,
     "lookupLabel": "JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Area-hOc1_PM-v4.0_left",

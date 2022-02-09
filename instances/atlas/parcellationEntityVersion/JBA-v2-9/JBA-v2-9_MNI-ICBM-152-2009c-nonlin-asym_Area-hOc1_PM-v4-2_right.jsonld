@@ -4,7 +4,29 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.9_MNI-ICBM-152-2009c-nonlin-asym_Area-hOc1_PM-v4.2_right",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": null,
+    "hasAnnotation": {
+		"@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+        "bestViewPoint": null,
+        "criteria": null,
+		"criteriaQualityType": {
+			"@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+		},
+		"displayColor": "#be8493",
+		"inspiredBy": [
+			{
+				"@id": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-hOc1_pub/4.2/Area-hOc1_r_N10_nlin2ICBM152asym2009c_4.2_publicP_d8d7a22f9ea3b0fbd6f983c15697d834.nii.gz"
+			}
+		],
+		"internalIdentifier": "8",
+		"laterality": [
+			{
+				"@id": "https://openminds.ebrains.eu/instances/laterality/right"
+			}
+		],
+		"visualizedIn": {
+			"@id": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas_pub/29/MPMs/GapMapPublicMPMAtlas_r_N10_nlin2StdICBM152asym2009c_29_publicDOI_57517b0a8dedb2ef53a661d40404e206.nii.gz"
+		}
+	},
     "hasParent": null,
     "lookupLabel": "JBA-v2.9_MNI-ICBM-152-2009c-nonlin-asym_Area-hOc1_PM-v4.2_right",
     "name": "Area hOc1 (V1, 17, CalcS)",
