@@ -1,0 +1,19 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_fusiformGyrus",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": [
+		{
+			"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_temporalLobe_medialAspect"
+		}
+	],
+    "hasVersion": null,
+    "lookupLabel": "DKA_fusiformGyrus",
+    "name": "fusiform gyrus",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": {
+		"@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/fusiformGyrus"
+	}
+}
