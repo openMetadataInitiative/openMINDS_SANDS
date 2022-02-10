@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_grayMatter"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_brain"
         }
     ],
     "lookupLabel": "WHSSD_v2_ventricularSystem",

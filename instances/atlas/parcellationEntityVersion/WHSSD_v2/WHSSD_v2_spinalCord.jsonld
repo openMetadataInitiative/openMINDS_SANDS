@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_ventricularSystem"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_spinalCord"
         }
     ],
     "lookupLabel": "WHSSD_v2_spinalCord",

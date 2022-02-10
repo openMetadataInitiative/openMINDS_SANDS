@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_ventralMidlineGroupOfTheDorsalThalamus"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_ventralNucleiOfTheDorsalThalamus"
         }
     ],
     "lookupLabel": "WHSSD_v4_submediusThalamicNucleus",
