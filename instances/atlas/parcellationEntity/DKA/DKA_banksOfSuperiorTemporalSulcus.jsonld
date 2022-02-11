@@ -1,0 +1,19 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_banksOfSuperiorTemporalSulcus",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": [
+		{
+			"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_temporalLobe_lateralAspect"
+		}
+	],
+    "hasVersion": null,
+    "lookupLabel": "DKA_banksOfSuperiorTemporalSulcus",
+    "name": "banks of superior temporal sulcus",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": {
+		"@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/banksOfSuperiorTemporalSulcus"
+	}
+}

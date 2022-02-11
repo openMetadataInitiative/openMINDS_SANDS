@@ -1,0 +1,19 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_medialOrbitalFrontalCortex",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": [
+		{
+			"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_orbitofrontalCortex"
+		}
+	],
+    "hasVersion": null,
+    "lookupLabel": "DKA_medialOrbitalFrontalCortex",
+    "name": "medial orbitofrontal cortex",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": {
+		"@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/medialOrbitalFrontalCortex"
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_parsTriangularis",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": [
+		{
+			"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_inferiorFrontalGyrus"
+		}
+	],
+    "hasVersion": null,
+    "lookupLabel": "DKA_parsTriangularis",
+    "name": "pars triangularis",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": {
+		"@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/triangularPartOfInferiorFrontalGyrus"
+	}
+}
