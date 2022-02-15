@@ -6,7 +6,20 @@
   "required": [
     "name"
   ],
-  "properties": {
+  "properties": {    
+    "alternativeName": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "If applicable, enter one or several alternative names, inlcuding abbreviations, for this parcellation entity.",
+      "items": {
+        "type": "string"
+      }
+    },      
+    "definition": {
+      "type": "string",
+      "_instruction": "Enter the definition for this parcellation entity."
+    },
     "hasParent": {      
       "type": "array",
       "minItems": 1,
