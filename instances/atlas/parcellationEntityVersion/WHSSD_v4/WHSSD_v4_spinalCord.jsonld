@@ -22,7 +22,7 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": "null",
+    "hasParent": null,
     "lookupLabel": "WHSSD_v4_spinalCord",
     "name": "spinal cord",
     "ontologyIdentifier": null,
