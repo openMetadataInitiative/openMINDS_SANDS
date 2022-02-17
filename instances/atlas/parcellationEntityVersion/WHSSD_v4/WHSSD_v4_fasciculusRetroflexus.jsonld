@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_mammillotegmentalTract"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_thalamicTracts"
         }
     ],
     "lookupLabel": "WHSSD_v4_fasciculusRetroflexus",
