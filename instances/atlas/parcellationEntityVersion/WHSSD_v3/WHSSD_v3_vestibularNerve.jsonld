@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_innerEar"
+        }
+    ],
     "lookupLabel": "WHSSD_v3_vestibularNerve",
     "name": "vestibular nerve",
     "ontologyIdentifier": null,

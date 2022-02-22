@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_lateralLemniscus"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_lateralLemniscusUnspecified",
     "name": "lateral lemniscus, unspecified",
     "ontologyIdentifier": null,

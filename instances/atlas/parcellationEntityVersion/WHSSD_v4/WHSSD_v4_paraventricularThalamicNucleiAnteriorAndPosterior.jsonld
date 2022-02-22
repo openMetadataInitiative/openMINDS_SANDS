@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_dorsalcaudalMidlineGroupOfTheDorsalThalamus"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_paraventricularThalamicNucleiAnteriorAndPosterior",
     "name": "paraventricular thalamic nuclei (anterior and posterior)",
     "ontologyIdentifier": null,

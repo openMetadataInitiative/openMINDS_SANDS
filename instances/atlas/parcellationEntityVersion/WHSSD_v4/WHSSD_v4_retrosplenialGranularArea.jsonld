@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_retrosplenialCortex"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_retrosplenialGranularArea",
     "name": "retrosplenial granular area",
     "ontologyIdentifier": null,

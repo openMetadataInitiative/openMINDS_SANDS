@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_medialLemniscus"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_medialLemniscusUnspecified",
     "name": "medial lemniscus, unspecified",
     "ontologyIdentifier": null,

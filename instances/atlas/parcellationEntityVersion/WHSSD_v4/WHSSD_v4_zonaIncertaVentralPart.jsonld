@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_zonaIncerta"
+        }
+    ],
     "lookupLabel": "WHSSD_v4_zonaIncertaVentralPart",
     "name": "zona incerta, ventral part",
     "ontologyIdentifier": null,

@@ -22,7 +22,11 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_hippocampalWhiteMatter"
+        }
+    ],
     "lookupLabel": "WHSSD_v3_ventralHippocampalCommissure",
     "name": "ventral hippocampal commissure",
     "ontologyIdentifier": null,
