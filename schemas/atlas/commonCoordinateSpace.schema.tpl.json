@@ -1,5 +1,8 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+  "_categories": [
+    "coordinateSpace"
+  ],
   "required": [
     "anatomicalAxesOrientation",   
     "axesOrigin",
