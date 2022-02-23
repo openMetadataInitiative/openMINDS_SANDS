@@ -33,9 +33,9 @@
     "relationAssessment": null,
     "versionIdentifier": "v1.01",
     "versionInnovation": null,
-    "correctedName": null,
+    "correctedName": "medial lemniscus, unspecified",
     "alternativeName": [
-        "mlx"
+        "ml-u"
     ],
-    "additionalRemarks": null
+    "additionalRemarks": "both .label file name and .mbat file name are \"medial lemniscus\", but name was changed to reflect the possibility for subdivision; for details, see atlas documentation"
 }

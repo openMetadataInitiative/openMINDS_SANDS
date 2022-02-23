@@ -37,5 +37,5 @@
     "alternativeName": [
         "DpCb"
     ],
-    "additionalRemarks": ".label file name \"granule cell level of the cerebellum\" does not match the name in the .mbat file (\"deeper cerebellum\"); name also was changed to reflect the possibility for subdivision; for details, see atlas documentation"
+    "additionalRemarks": "both .label file name and .mbat file name are \"deeper cerebellum\", but name was changed to reflect the possibility for subdivision; for details, see atlas documentation"
 }

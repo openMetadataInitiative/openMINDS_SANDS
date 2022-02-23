@@ -37,5 +37,5 @@
     "alternativeName": [
         "CC"
     ],
-    "additionalRemarks": " \"spinal cord\" (annotated)  had \"spinal cord\" (hierarchical term) as parent, which was removed in v3 and later versions; here that hierarchical term has not been added as a parcellation entity"
+    "additionalRemarks": "\"central canal\" and \"spinal cord\" (annotated)  had \"spinal cord\" (hierarchical term) as parent; this was changed in v3 and later versions (\"central canal\" has parent \"ventricular system\" and \"spinal cord\" has no parent structure; here that hierarchical term has not been added as a parcellation entity"
 }

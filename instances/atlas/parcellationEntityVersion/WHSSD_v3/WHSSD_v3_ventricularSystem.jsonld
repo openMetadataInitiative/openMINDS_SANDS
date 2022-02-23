@@ -33,10 +33,9 @@
     "relationAssessment": null,
     "versionIdentifier": "v3",
     "versionInnovation": null,
-    "correctedName": null,
+    "correctedName": "ventricular system, unspecified",
     "alternativeName": [
-        "V-u",
-        "ventricular system, unspecified"
+        "V-u"
     ],
-    "additionalRemarks": ".label file name \"ventricular system\" does not match the name in the .mbat file (\"ventricular system,unspecified\"); name also was changed to reflect the possibility for subdivision; for details, see atlas documentation"
+    "additionalRemarks": ".label file name \"ventricular system\" does not match the name in the .mbat file (\"ventricular system, unspecified\"); name also was changed to reflect the possibility for subdivision; for details, see atlas documentation"
 }

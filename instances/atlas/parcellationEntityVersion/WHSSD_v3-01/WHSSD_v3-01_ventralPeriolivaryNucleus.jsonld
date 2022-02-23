@@ -37,5 +37,5 @@
     "alternativeName": [
         "VPO"
     ],
-    "additionalRemarks": ".label file name \"ventral periolivary nuclei\" does not match the name in the .mbat file (\"ventral periolivary nucleus\") - changed to plural \"nuclei\"; for details, see atlas documentation"
+    "additionalRemarks": "both .label file name and .mbat file name are \"ventral periolivary nucleus\", but name was changed to plural \"nuclei\"; for details, see atlas documentation"
 }
