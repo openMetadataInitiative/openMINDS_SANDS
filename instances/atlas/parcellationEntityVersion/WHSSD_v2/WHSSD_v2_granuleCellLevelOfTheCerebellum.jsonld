@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_cerebellum"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/cerebellum"
         }
     ],
     "lookupLabel": "WHSSD_v2_granuleCellLevelOfTheCerebellum",
@@ -32,5 +32,11 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v2",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": "cerebellum, unspecified",
+    "alternativeName": [
+        "Cb-u",
+        "deeper cerebellum"
+    ],
+    "additionalRemarks": ".label file name \"granule cell level of the cerebellum\" does not match the name in the .mbat file (\"deeper cerebellum\"); name also was changed to reflect the possibility for subdivision; for details, see atlas documentation"
 }

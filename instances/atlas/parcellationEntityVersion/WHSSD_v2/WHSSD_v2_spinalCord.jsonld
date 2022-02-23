@@ -22,11 +22,20 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/none"
+        }
+    ],
     "lookupLabel": "WHSSD_v2_spinalCord",
     "name": "spinal cord",
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v2",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "SpC"
+    ],
+    "additionalRemarks": " \"spinal cord\" (annotated)  had \"spinal cord\" (hierarchical term) as parent, which was removed in v3 and later versions; here that hierarchical term has not been added as a parcellation entity"
 }

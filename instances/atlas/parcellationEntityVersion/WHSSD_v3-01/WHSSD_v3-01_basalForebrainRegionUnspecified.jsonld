@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_cerebrum"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/cerebrum"
         }
     ],
     "lookupLabel": "WHSSD_v3.01_basalForebrainRegionUnspecified",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3.01",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "BFR"
+    ],
+    "additionalRemarks": ".label file name \"basal forebrain region\" has been correct to .mbat file name \"basal forebrain region, unspecified\"; for details, see atlas documentation"
 }

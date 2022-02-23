@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_cornuAmmonis"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/cornu ammonis"
         }
     ],
     "lookupLabel": "WHSSD_v3_cornuAmmonis3",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "CA3"
+    ],
+    "additionalRemarks": null
 }

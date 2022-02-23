@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_pallidum"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/pallidum"
         }
     ],
     "lookupLabel": "WHSSD_v3.01_globusPallidus",
@@ -32,5 +32,11 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3.01",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "GP",
+        "globus pallidus external "
+    ],
+    "additionalRemarks": null
 }

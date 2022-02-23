@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_superiorColliculus"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/superior colliculus"
         }
     ],
     "lookupLabel": "WHSSD_v3.01_deeperLayersOfTheSuperiorColliculus",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3.01",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "SuD"
+    ],
+    "additionalRemarks": null
 }

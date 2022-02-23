@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_lateralPosteriorPulvinarComplexOfTheDorsalThalamus"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/lateral posterior (pulvinar) complex of the dorsal thalamus"
         }
     ],
     "lookupLabel": "WHSSD_v4_lateralPosteriorThalamicNucleusMediorostralPart",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v4",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "LP-mr"
+    ],
+    "additionalRemarks": null
 }

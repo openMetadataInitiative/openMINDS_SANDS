@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_ventricularSystem"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/ventricular system"
         }
     ],
     "lookupLabel": "WHSSD_v3_4thVentricle",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "4V"
+    ],
+    "additionalRemarks": null
 }

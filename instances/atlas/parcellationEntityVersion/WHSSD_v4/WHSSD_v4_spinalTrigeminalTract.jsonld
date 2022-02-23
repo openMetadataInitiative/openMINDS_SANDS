@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_whiteMatterOfTheBrainstem"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/white matter of the brainstem"
         }
     ],
     "lookupLabel": "WHSSD_v4_spinalTrigeminalTract",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v4",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "sp5t"
+    ],
+    "additionalRemarks": null
 }

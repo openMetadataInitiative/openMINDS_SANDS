@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_innerEar"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/inner ear"
         }
     ],
     "lookupLabel": "WHSSD_v3_cochlea",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "Co"
+    ],
+    "additionalRemarks": null
 }

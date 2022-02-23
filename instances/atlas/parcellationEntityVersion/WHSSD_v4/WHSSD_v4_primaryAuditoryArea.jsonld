@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_auditoryCortex"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/auditory cortex"
         }
     ],
     "lookupLabel": "WHSSD_v4_primaryAuditoryArea",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v4",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "Au1"
+    ],
+    "additionalRemarks": null
 }

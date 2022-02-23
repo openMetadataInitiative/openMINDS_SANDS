@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_thalamicTracts"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/thalamic tracts"
         }
     ],
     "lookupLabel": "WHSSD_v2_striaMedullarisOfTheThalamus",
@@ -32,5 +32,11 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v2",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "sm",
+        "stria medullaris thalami"
+    ],
+    "additionalRemarks": null
 }

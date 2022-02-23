@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_interbrain"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/interbrain"
         }
     ],
     "lookupLabel": "WHSSD_v3_pinealGland",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "Pi"
+    ],
+    "additionalRemarks": null
 }

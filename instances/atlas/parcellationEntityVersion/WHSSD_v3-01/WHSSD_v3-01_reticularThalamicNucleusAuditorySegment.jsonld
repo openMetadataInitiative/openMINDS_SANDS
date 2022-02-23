@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_reticularPrethalamicNucleus"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/reticular nucleus of the thalamus"
         }
     ],
     "lookupLabel": "WHSSD_v3.01_reticularThalamicNucleusAuditorySegment",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3.01",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "RTa"
+    ],
+    "additionalRemarks": null
 }

@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_cerebellarAndPrecerebellarWhiteMatter"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/cerebellar and precerebellar white matter"
         }
     ],
     "lookupLabel": "WHSSD_v2_inferiorCerebellarPeduncle",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v2",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "icp"
+    ],
+    "additionalRemarks": null
 }

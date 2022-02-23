@@ -22,11 +22,20 @@
         ],
         "visualizedIn": null
     },
-    "hasParent": null,
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/none"
+        }
+    ],
     "lookupLabel": "WHSSD_v2_innerEar",
     "name": "inner ear",
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v2",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "IE"
+    ],
+    "additionalRemarks": null
 }

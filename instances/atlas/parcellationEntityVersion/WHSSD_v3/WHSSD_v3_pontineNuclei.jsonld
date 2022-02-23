@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_pons"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/pons"
         }
     ],
     "lookupLabel": "WHSSD_v3_pontineNuclei",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "Pn"
+    ],
+    "additionalRemarks": null
 }

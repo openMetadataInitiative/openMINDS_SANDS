@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_anteriorCommisure"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/anterior commissure"
         }
     ],
     "lookupLabel": "WHSSD_v2_anteriorCommissure",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v2",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": "anterior commissure, intrabulbar part",
+    "alternativeName": [
+        "aci"
+    ],
+    "additionalRemarks": ".label file name \"anterior commissure\" has been correct to .mbat file name \"anterior commissure, intrabulbar part\"; for details, see atlas documentation"
 }

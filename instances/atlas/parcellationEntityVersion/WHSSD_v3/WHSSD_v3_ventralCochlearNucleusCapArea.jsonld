@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_cochlearNucleusVentralPart"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/cochlear nucleus, ventral part"
         }
     ],
     "lookupLabel": "WHSSD_v3_ventralCochlearNucleusCapArea",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "Cap"
+    ],
+    "additionalRemarks": null
 }

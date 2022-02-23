@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_parahippocampalRegion"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/parahippocampal region"
         }
     ],
     "lookupLabel": "WHSSD_v4_presubiculum",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v4",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "PrS"
+    ],
+    "additionalRemarks": null
 }

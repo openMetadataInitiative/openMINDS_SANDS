@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_entorhinalCortex"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/entorhinal cortex"
         }
     ],
     "lookupLabel": "WHSSD_v3.01_lateralEntorhinalCortex",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3.01",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "LEC"
+    ],
+    "additionalRemarks": null
 }

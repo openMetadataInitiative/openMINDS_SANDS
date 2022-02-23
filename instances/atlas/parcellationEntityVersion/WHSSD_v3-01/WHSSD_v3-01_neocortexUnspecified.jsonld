@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_isocortex"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/isocortex"
         }
     ],
     "lookupLabel": "WHSSD_v3.01_neocortexUnspecified",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3.01",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "Ncx"
+    ],
+    "additionalRemarks": ".label file name \"neocortex\" has been correct to .mbat file name \"neocortex, unspecified\"; for details, see atlas documentation"
 }

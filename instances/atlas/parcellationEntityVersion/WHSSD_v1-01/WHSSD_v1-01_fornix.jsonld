@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_hippocampalWhiteMatter"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/hippocampal white matter"
         }
     ],
     "lookupLabel": "WHSSD_v1.01_fornix",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v1.01",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "f"
+    ],
+    "additionalRemarks": null
 }

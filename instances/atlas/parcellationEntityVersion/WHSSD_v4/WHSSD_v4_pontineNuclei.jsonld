@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_metencephalon"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/metencephalon"
         }
     ],
     "lookupLabel": "WHSSD_v4_pontineNuclei",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v4",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "Pn"
+    ],
+    "additionalRemarks": null
 }

@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_midbrain"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/midbrain"
         }
     ],
     "lookupLabel": "WHSSD_v3_pretectalRegion",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "PT"
+    ],
+    "additionalRemarks": null
 }

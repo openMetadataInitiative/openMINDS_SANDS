@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_inferiorColliculus"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/inferior colliculus"
         }
     ],
     "lookupLabel": "WHSSD_v3_inferiorColliculusCentralNucleus",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "CNIC"
+    ],
+    "additionalRemarks": null
 }

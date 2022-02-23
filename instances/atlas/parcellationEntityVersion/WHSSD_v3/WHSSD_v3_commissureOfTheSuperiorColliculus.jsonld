@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_whiteMatterOfTheTectum"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/white matter of the tectum"
         }
     ],
     "lookupLabel": "WHSSD_v3_commissureOfTheSuperiorColliculus",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "csc"
+    ],
+    "additionalRemarks": null
 }

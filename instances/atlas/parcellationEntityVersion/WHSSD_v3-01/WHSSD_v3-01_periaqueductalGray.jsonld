@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_tegmentum"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/tegmentum"
         }
     ],
     "lookupLabel": "WHSSD_v3.01_periaqueductalGray",
@@ -32,5 +32,8 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3.01",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": null,
+    "additionalRemarks": null
 }

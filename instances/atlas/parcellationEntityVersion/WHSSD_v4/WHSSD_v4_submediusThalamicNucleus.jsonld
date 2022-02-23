@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_ventralNucleiOfTheDorsalThalamus"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/ventral nuclei of the dorsal thalamus"
         }
     ],
     "lookupLabel": "WHSSD_v4_submediusThalamicNucleus",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v4",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "SMT"
+    ],
+    "additionalRemarks": null
 }

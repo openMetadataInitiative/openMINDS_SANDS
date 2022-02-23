@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_cerebralCortexIncludingTheNeocortexAndTheHippocampus"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/cerebral cortex including the neocortex and the hippocampus"
         }
     ],
     "lookupLabel": "WHSSD_v2_cingulateCortexArea2",
@@ -32,5 +32,11 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v2",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "Cg2",
+        "cingulate area 2"
+    ],
+    "additionalRemarks": null
 }

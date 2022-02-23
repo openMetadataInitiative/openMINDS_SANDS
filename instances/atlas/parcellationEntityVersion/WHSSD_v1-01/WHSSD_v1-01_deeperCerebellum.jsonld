@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_cerebellum"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/cerebellum"
         }
     ],
     "lookupLabel": "WHSSD_v1.01_deeperCerebellum",
@@ -32,5 +32,11 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v1.01",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": "cerebellum, unspecified",
+    "alternativeName": [
+        "Cb-u",
+        "deeper cerebellum"
+    ],
+    "additionalRemarks": "both .label file name and .mbat file name are \"deeper cerebellum\", but name was changed to reflect the possibility for subdivision; for details, see atlas documentation"
 }

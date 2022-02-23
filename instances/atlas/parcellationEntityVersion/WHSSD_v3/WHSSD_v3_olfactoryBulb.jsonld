@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_olfactoryBulb"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/olfactory areas"
         }
     ],
     "lookupLabel": "WHSSD_v3_olfactoryBulb",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": "olfactory bulb, unspecified",
+    "alternativeName": [
+        "AuD"
+    ],
+    "additionalRemarks": "both .label file name and .mbat file name are \"olfactory bulb\", which is an error; for details, see atlas documentation"
 }

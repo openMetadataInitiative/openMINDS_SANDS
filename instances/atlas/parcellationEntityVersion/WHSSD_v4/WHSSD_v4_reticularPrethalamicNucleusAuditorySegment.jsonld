@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_reticularPrethalamicNucleus"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/reticular (pre)thalamic nucleus"
         }
     ],
     "lookupLabel": "WHSSD_v4_reticularPrethalamicNucleusAuditorySegment",
@@ -32,5 +32,11 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v4",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "RT-a",
+        "reticular thalamic nucleus, auditory segment"
+    ],
+    "additionalRemarks": null
 }

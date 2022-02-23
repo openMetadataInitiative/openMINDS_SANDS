@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_superiorOlivaryComplex"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/superior olivary complex"
         }
     ],
     "lookupLabel": "WHSSD_v3_superiorParaolivaryNucleus",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "SPN"
+    ],
+    "additionalRemarks": null
 }

@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_grayMatter"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/gray matter"
         }
     ],
     "lookupLabel": "WHSSD_v1.01_hypothalamicRegion",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v1.01",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": "hypothalamic region, unspecified",
+    "alternativeName": [
+        "HTh-u"
+    ],
+    "additionalRemarks": "both .label file name and .mbat file name are \"hypothalamic region\", but name was changed to reflect the possibility for subdivision; for details, see atlas documentation"
 }

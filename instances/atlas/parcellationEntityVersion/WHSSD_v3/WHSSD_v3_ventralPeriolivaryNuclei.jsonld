@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_superiorOlivaryComplex"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/superior olivary complex"
         }
     ],
     "lookupLabel": "WHSSD_v3_ventralPeriolivaryNuclei",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "VPO"
+    ],
+    "additionalRemarks": ".label file name \"ventral periolivary nuclei\" does not match the name in the .mbat file (\"ventral periolivary nucleus\") - changed to plural \"nuclei\"; for details, see atlas documentation"
 }

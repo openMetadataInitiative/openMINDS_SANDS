@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_corticofugalPathways"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/corticofugal pathways"
         }
     ],
     "lookupLabel": "WHSSD_v2_descendingCorticofugalPathways",
@@ -32,5 +32,11 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v2",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "ic-cp-lfp-py",
+        "corticofugal tract and corona radiata"
+    ],
+    "additionalRemarks": ".label file name \"descending corticofugal pathways\" does not match the name in the .mbat file (\"corticofugal pathways\"), which is an error; .label file name is correct; for details, see atlas documentation"
 }

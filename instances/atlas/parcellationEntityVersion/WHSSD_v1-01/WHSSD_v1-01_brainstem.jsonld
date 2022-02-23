@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_grayMatter"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/gray matter"
         }
     ],
     "lookupLabel": "WHSSD_v1.01_brainstem",
@@ -32,5 +32,11 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v1.01",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": "brainstem, unspecified",
+    "alternativeName": [
+        "BS-u",
+        "brain stem, unspecified"
+    ],
+    "additionalRemarks": ".label file name \"brainstem\" does not match the name in the .mbat file (\"brain stem\") - same meaning but different spelling; name also was changed to reflect the possibility for subdivision; for details, see atlas documentation"
 }

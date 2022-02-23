@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_substantiaNigra"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/substantia nigra"
         }
     ],
     "lookupLabel": "WHSSD_v4_substantiaNigraReticularPart",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v4",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "SN-r"
+    ],
+    "additionalRemarks": null
 }

@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_grayMatter"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/gray matter"
         }
     ],
     "lookupLabel": "WHSSD_v2_pontineNuclei",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v2",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "Pn"
+    ],
+    "additionalRemarks": null
 }

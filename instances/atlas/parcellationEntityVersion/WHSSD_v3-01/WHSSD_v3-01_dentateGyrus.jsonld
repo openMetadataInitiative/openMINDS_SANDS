@@ -24,7 +24,7 @@
     },
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_hippocampalFormation"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/hippocampal formation"
         }
     ],
     "lookupLabel": "WHSSD_v3.01_dentateGyrus",
@@ -32,5 +32,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3.01",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "DG"
+    ],
+    "additionalRemarks": null
 }
