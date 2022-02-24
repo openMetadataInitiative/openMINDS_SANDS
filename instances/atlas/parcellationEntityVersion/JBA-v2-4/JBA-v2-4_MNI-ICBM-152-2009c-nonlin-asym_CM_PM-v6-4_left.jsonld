@@ -4,23 +4,25 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_CM_PM-v6.4_left",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": {
-        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-        "bestViewPoint": null,
-        "criteria": null,
-        "criteriaQualityType": {
-            "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
-        },
-        "displayColor": "#c8c8c8",
-        "inspiredBy": null,
-        "internalIdentifier": "43",
-        "laterality": [
-            {
-                "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-            }
-        ],
-        "visualizedIn": null
-    },
+    "hasAnnotation": [
+        {
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "bestViewPoint": null,
+            "criteria": null,
+            "criteriaQualityType": {
+                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+            },
+            "displayColor": "#c8c8c8",
+            "inspiredBy": null,
+            "internalIdentifier": "43",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                }
+            ],
+            "visualizedIn": null
+        }
+    ],
     "hasParent": null,
     "lookupLabel": "JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_CM_PM-v6.4_left",
     "name": "CM (Amygdala)",

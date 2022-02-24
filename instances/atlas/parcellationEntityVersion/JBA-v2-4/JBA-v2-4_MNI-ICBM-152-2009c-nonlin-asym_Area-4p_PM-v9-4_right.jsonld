@@ -4,23 +4,25 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_Area-4p_PM-v9.4_right",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": {
-        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-        "bestViewPoint": null,
-        "criteria": null,
-        "criteriaQualityType": {
-            "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
-        },
-        "displayColor": "#745c7c",
-        "inspiredBy": null,
-        "internalIdentifier": "45",
-        "laterality": [
-            {
-                "@id": "https://openminds.ebrains.eu/instances/laterality/right"
-            }
-        ],
-        "visualizedIn": null
-    },
+    "hasAnnotation": [
+        {
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "bestViewPoint": null,
+            "criteria": null,
+            "criteriaQualityType": {
+                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+            },
+            "displayColor": "#745c7c",
+            "inspiredBy": null,
+            "internalIdentifier": "45",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "visualizedIn": null
+        }
+    ],
     "hasParent": null,
     "lookupLabel": "JBA-v2.4_MNI-ICBM-152-2009c-nonlin-asym_Area-4p_PM-v9.4_right",
     "name": "Area 4p (PreCG)",
