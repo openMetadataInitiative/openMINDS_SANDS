@@ -4,24 +4,26 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v1.01_anteriorCommissureAnteriorPart",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": {
-        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-        "bestViewPoint": null,
-        "criteria": null,
-        "criteriaQualityType": null,
-        "displayColor": "#7CFC00",
-        "inspiredBy": null,
-        "internalIdentifier": "36",
-        "laterality": [
-            {
-                "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/laterality/right"
-            }
-        ],
-        "visualizedIn": null
-    },
+    "hasAnnotation": [
+        {
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "bestViewPoint": null,
+            "criteria": null,
+            "criteriaQualityType": null,
+            "displayColor": "#7CFC00",
+            "inspiredBy": null,
+            "internalIdentifier": "36",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "visualizedIn": null
+        }
+    ],
     "hasParent": [
         {
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_anteriorCommisure"

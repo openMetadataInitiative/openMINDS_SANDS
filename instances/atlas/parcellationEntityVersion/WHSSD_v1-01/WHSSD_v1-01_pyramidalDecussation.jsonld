@@ -4,24 +4,26 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v1.01_pyramidalDecussation",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": {
-        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-        "bestViewPoint": null,
-        "criteria": null,
-        "criteriaQualityType": null,
-        "displayColor": "#7209D4",
-        "inspiredBy": null,
-        "internalIdentifier": "85",
-        "laterality": [
-            {
-                "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/laterality/right"
-            }
-        ],
-        "visualizedIn": null
-    },
+    "hasAnnotation": [
+        {
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "bestViewPoint": null,
+            "criteria": null,
+            "criteriaQualityType": null,
+            "displayColor": "#7209D4",
+            "inspiredBy": null,
+            "internalIdentifier": "85",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "visualizedIn": null
+        }
+    ],
     "hasParent": [
         {
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_corticofugalPathways"
