@@ -4,24 +4,26 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v3.01_cingulateCortexArea2",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": {
-        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-        "bestViewPoint": null,
-        "criteria": null,
-        "criteriaQualityType": null,
-        "displayColor": "#1D68EB",
-        "inspiredBy": null,
-        "internalIdentifier": "10",
-        "laterality": [
-            {
-                "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/laterality/right"
-            }
-        ],
-        "visualizedIn": null
-    },
+    "hasAnnotation": [
+        {
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "bestViewPoint": null,
+            "criteria": null,
+            "criteriaQualityType": null,
+            "displayColor": "#1D68EB",
+            "inspiredBy": null,
+            "internalIdentifier": "10",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "visualizedIn": null
+        }
+    ],
     "hasParent": [
         {
             "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_cingulateCortex"
