@@ -4,23 +4,25 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Area-TeI_PM-v6.0_left",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": {
-        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-        "bestViewPoint": null,
-        "criteria": null,
-        "criteriaQualityType": {
-            "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
-        },
-        "displayColor": "#174e5c",
-        "inspiredBy": null,
-        "internalIdentifier": "123",
-        "laterality": [
-            {
-                "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-            }
-        ],
-        "visualizedIn": null
-    },
+    "hasAnnotation": [
+        {
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "bestViewPoint": null,
+            "criteria": null,
+            "criteriaQualityType": {
+                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+            },
+            "displayColor": "#174e5c",
+            "inspiredBy": null,
+            "internalIdentifier": "123",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                }
+            ],
+            "visualizedIn": null
+        }
+    ],
     "hasParent": null,
     "lookupLabel": "JBA-v2.6_MNI-ICBM-152-2009c-nonlin-asym_Area-TeI_PM-v6.0_left",
     "name": "Area TeI (STG)",
