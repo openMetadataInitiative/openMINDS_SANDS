@@ -4,29 +4,31 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Area-hOc1_PM-v4.0_right",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": {
-        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-        "bestViewPoint": null,
-        "criteria": null,
-        "criteriaQualityType": {
-            "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
-        },
-        "displayColor": "#be8493",
-        "inspiredBy": [
-			{
-				"@id": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-hOc1_pub/4.0/Area-hOc1_r_N10_nlin2ICBM152asym2009c_4.0_publicP_f594e5c5e9b2f8cd1b3f31570acaacf9.nii.gz"
-			}
-		],
-        "internalIdentifier": "120",
-        "laterality": [
-            {
-                "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+    "hasAnnotation": [
+        {
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "bestViewPoint": null,
+            "criteria": null,
+            "criteriaQualityType": {
+                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+            },
+            "displayColor": "#be8493",
+            "inspiredBy": [
+                {
+                    "@id": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas-Area-hOc1_pub/4.0/Area-hOc1_r_N10_nlin2ICBM152asym2009c_4.0_publicP_f594e5c5e9b2f8cd1b3f31570acaacf9.nii.gz"
+                }
+            ],
+            "internalIdentifier": "120",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "visualizedIn": {
+                "@id": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas_pub/25/MPM/JuBrain_Map_icbm_v25_r_a579dfcd53146ad2358259f437a47c00.nii.gz"
             }
-        ],
-        "visualizedIn": {
-			"@id": "https://object.cscs.ch/v1/AUTH_227176556f3c4bb38df9feea4b91200c/hbp-d000001_jubrain-cytoatlas_pub/25/MPM/JuBrain_Map_icbm_v25_r_a579dfcd53146ad2358259f437a47c00.nii.gz"
-		}
-    },
+        }
+    ],
     "hasParent": null,
     "lookupLabel": "JBA-v2.5_MNI-ICBM-152-2009c-nonlin-asym_Area-hOc1_PM-v4.0_right",
     "name": "Area hOc1 (V1, 17, CalcS)",
