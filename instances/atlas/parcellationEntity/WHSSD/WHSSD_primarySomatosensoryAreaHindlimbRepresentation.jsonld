@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_primarySomatosensoryAreaHindlimbRepresentation",
     "name": "primary somatosensory area, hindlimb representation",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "S1-hl"
+    ],
+    "definition": null
 }

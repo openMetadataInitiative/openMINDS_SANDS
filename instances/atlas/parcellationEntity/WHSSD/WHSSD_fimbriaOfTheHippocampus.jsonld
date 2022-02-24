@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_fimbriaOfTheHippocampus",
     "name": "fimbria of the hippocampus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "fi"
+    ],
+    "definition": null
 }

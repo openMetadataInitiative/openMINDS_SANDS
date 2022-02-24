@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_cochlearNucleusVentralPart",
     "name": "cochlear nucleus, ventral part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "VCN"
+    ],
+    "definition": null
 }

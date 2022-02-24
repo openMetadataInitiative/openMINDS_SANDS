@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_piriformCortex",
     "name": "piriform cortex",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PIR"
+    ],
+    "definition": null
 }

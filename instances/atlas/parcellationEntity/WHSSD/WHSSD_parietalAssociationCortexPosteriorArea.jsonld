@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_parietalAssociationCortexPosteriorArea",
     "name": "parietal association cortex, posterior area",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PtP"
+    ],
+    "definition": null
 }

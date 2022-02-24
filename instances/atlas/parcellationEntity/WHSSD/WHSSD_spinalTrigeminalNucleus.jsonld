@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_spinalTrigeminalNucleus",
     "name": "spinal trigeminal nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Sp5n"
+    ],
+    "definition": null
 }

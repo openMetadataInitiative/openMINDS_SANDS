@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_parataenialThalamicNucleus",
     "name": "parataenial thalamic nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PT"
+    ],
+    "definition": null
 }

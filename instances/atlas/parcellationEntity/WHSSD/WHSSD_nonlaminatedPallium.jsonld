@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_nonlaminatedPallium",
     "name": "non-laminated pallium",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "N-LamP"
+    ],
+    "definition": null
 }

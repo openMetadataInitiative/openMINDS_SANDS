@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_zonaIncertaRostralPart",
     "name": "zona incerta, rostral part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "ZI-r"
+    ],
+    "definition": null
 }

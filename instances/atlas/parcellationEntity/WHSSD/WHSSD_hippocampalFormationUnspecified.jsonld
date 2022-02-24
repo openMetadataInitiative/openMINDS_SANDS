@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_hippocampalFormationUnspecified",
     "name": "hippocampal formation, unspecified",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "HF"
+    ],
+    "definition": null
 }

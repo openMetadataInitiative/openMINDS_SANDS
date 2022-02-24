@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_subgeniculateNucleus",
     "name": "subgeniculate nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "SubG"
+    ],
+    "definition": null
 }

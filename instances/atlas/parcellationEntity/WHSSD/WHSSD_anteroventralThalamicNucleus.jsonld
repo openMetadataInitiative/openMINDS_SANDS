@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_anteroventralThalamicNucleus",
     "name": "anteroventral thalamic nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "AV"
+    ],
+    "definition": null
 }

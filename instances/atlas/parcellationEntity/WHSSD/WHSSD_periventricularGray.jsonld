@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_periventricularGray",
     "name": "periventricular gray",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PVG"
+    ],
+    "definition": null
 }

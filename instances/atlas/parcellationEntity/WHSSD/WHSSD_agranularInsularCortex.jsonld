@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_agranularInsularCortex",
     "name": "agranular insular cortex",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "AI"
+    ],
+    "definition": null
 }

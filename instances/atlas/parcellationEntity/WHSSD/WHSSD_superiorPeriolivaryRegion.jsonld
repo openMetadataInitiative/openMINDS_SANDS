@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_superiorPeriolivaryRegion",
     "name": "superior periolivary region",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "SPR"
+    ],
+    "definition": null
 }

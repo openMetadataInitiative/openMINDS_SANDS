@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_lateralPosteriorThalamicNucleusMediorostralPart",
     "name": "lateral posterior thalamic nucleus, mediorostral part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "LP-mr"
+    ],
+    "definition": null
 }

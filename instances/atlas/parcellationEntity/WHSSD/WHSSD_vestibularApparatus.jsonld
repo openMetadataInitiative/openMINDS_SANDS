@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_vestibularApparatus",
     "name": "vestibular apparatus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "VeA"
+    ],
+    "definition": null
 }

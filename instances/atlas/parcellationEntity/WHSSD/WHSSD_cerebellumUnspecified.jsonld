@@ -25,5 +25,10 @@
     "lookupLabel": "WHSSD_cerebellumUnspecified",
     "name": "cerebellum, unspecified",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Cb-u",
+        "deeper cerebellum"
+    ],
+    "definition": null
 }

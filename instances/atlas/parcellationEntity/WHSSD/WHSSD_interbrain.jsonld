@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_interbrain",
     "name": "interbrain",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Dien"
+    ],
+    "definition": null
 }

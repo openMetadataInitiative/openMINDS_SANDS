@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_intralaminarNucleiOfTheDorsalThalamus",
     "name": "intralaminar nuclei of the dorsal thalamus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "ILM"
+    ],
+    "definition": null
 }

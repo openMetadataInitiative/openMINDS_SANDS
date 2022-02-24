@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_pontineNuclei",
     "name": "pontine nuclei",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Pn"
+    ],
+    "definition": null
 }

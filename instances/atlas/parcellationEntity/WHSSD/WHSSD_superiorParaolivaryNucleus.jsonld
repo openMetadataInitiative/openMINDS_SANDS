@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_superiorParaolivaryNucleus",
     "name": "superior paraolivary nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "SPN"
+    ],
+    "definition": null
 }

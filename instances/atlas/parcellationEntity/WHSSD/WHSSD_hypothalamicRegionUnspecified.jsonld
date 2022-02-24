@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_hypothalamicRegionUnspecified",
     "name": "hypothalamic region, unspecified",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "HTh-u"
+    ],
+    "definition": null
 }

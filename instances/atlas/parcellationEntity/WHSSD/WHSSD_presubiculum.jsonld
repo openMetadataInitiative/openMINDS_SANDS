@@ -22,5 +22,9 @@
     "lookupLabel": "WHSSD_presubiculum",
     "name": "presubiculum",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PrS"
+    ],
+    "definition": null
 }

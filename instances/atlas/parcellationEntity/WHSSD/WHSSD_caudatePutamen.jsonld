@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_caudatePutamen",
     "name": "caudate putamen",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "CPu"
+    ],
+    "definition": null
 }

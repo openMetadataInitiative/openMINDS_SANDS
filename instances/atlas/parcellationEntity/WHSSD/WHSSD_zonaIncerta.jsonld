@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_zonaIncerta",
     "name": "zona incerta",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "ZI"
+    ],
+    "definition": null
 }

@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_glomerularLayerOfTheOlfactoryBulb",
     "name": "glomerular layer of the olfactory bulb",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Gl"
+    ],
+    "definition": null
 }

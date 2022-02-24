@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_entorhinalCortex",
     "name": "entorhinal cortex",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "EC"
+    ],
+    "definition": null
 }

@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_mediofrontalCortex",
     "name": "mediofrontal cortex",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "MFC"
+    ],
+    "definition": null
 }

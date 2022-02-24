@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_dysgranularInsularCortex",
     "name": "dysgranular insular cortex",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "DI"
+    ],
+    "definition": null
 }

@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_tegmentum",
     "name": "tegmentum",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Tg"
+    ],
+    "definition": null
 }

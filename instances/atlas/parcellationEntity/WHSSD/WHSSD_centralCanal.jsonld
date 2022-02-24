@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_centralCanal",
     "name": "central canal",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "CC"
+    ],
+    "definition": null
 }

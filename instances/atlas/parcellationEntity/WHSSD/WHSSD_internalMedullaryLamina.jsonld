@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_internalMedullaryLamina",
     "name": "internal medullary lamina",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "iml"
+    ],
+    "definition": null
 }

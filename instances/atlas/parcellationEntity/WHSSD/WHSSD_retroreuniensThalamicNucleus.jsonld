@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_retroreuniensThalamicNucleus",
     "name": "retroreuniens thalamic nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "RRe"
+    ],
+    "definition": null
 }

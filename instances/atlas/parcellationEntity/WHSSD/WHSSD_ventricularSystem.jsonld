@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_ventricularSystem",
     "name": "ventricular system",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "V"
+    ],
+    "definition": null
 }

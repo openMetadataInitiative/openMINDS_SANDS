@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_ventralPosteriorNucleusOfTheThalamusParvicellularPart",
     "name": "ventral posterior nucleus of the thalamus, parvicellular part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "VP-pc"
+    ],
+    "definition": null
 }

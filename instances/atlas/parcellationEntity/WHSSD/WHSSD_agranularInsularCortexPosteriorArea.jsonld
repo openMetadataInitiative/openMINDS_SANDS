@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_agranularInsularCortexPosteriorArea",
     "name": "agranular insular cortex, posterior area",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "AI-p"
+    ],
+    "definition": null
 }

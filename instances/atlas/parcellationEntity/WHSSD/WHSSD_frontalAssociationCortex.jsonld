@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_frontalAssociationCortex",
     "name": "frontal association cortex",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "FrA"
+    ],
+    "definition": null
 }

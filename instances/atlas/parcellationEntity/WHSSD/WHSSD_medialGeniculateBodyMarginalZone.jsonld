@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_medialGeniculateBodyMarginalZone",
     "name": "medial geniculate body, marginal zone",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "MG-mz"
+    ],
+    "definition": null
 }

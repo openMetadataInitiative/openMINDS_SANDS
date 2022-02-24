@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_intermediodorsalThalamicNucleus",
     "name": "intermediodorsal thalamic nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "IMD"
+    ],
+    "definition": null
 }

@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_zonaIncertaVentralPart",
     "name": "zona incerta, ventral part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "ZI-v"
+    ],
+    "definition": null
 }

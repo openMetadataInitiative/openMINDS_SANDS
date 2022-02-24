@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_frontalAssociationArea3",
     "name": "frontal association area 3",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Fr3"
+    ],
+    "definition": null
 }

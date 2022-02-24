@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_cerebellarAndPrecerebellarWhiteMatter",
     "name": "cerebellar and precerebellar white matter",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "cbt"
+    ],
+    "definition": null
 }

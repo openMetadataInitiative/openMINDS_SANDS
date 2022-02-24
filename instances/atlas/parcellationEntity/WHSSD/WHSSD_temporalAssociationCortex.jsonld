@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_temporalAssociationCortex",
     "name": "temporal association cortex",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "TeA"
+    ],
+    "definition": null
 }

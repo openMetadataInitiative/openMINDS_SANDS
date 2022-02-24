@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_substantiaNigraCompactPart",
     "name": "substantia nigra, compact part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "SN-c"
+    ],
+    "definition": null
 }

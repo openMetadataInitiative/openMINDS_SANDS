@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_anteroventralThalamicNucleusDorsomedialPart",
     "name": "anteroventral thalamic nucleus, dorsomedial part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "AV-dm"
+    ],
+    "definition": null
 }

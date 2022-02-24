@@ -22,5 +22,9 @@
     "lookupLabel": "WHSSD_substantiaNigra",
     "name": "substantia nigra",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "SN"
+    ],
+    "definition": null
 }

@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_transverseFibersOfThePons",
     "name": "transverse fibers of the pons",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "tfp"
+    ],
+    "definition": null
 }

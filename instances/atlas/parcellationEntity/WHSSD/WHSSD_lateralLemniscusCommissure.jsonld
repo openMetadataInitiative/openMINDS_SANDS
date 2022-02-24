@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_lateralLemniscusCommissure",
     "name": "lateral lemniscus, commissure",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "ll-c"
+    ],
+    "definition": null
 }

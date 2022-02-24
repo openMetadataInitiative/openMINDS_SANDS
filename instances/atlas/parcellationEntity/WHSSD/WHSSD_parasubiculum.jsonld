@@ -22,5 +22,9 @@
     "lookupLabel": "WHSSD_parasubiculum",
     "name": "parasubiculum",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PaS"
+    ],
+    "definition": null
 }

@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_ventralStriatalRegionUnspecified",
     "name": "ventral striatal region, unspecified",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "VSR-u"
+    ],
+    "definition": null
 }

@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_ethmoidLimitansNucleus",
     "name": "ethmoid-Limitans nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Eth"
+    ],
+    "definition": null
 }

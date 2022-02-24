@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_submediusThalamicNucleus",
     "name": "submedius thalamic nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "SMT"
+    ],
+    "definition": null
 }

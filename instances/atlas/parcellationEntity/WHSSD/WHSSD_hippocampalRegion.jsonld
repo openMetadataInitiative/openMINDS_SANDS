@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_hippocampalRegion",
     "name": "hippocampal region",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "HR"
+    ],
+    "definition": null
 }

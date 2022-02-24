@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_facialNerveUnspecified",
     "name": "facial nerve, unspecified",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "7n-u"
+    ],
+    "definition": null
 }

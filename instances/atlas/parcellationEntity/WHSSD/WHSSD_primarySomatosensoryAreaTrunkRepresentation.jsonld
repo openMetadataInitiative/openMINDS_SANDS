@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_primarySomatosensoryAreaTrunkRepresentation",
     "name": "primary somatosensory area, trunk representation",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "S1-tr"
+    ],
+    "definition": null
 }

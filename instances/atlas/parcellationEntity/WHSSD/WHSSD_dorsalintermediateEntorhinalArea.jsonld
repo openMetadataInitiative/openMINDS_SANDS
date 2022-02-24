@@ -13,5 +13,7 @@
     "lookupLabel": "WHSSD_dorsalintermediateEntorhinalArea",
     "name": "dorsal-intermediate entorhinal area",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": null,
+    "definition": null
 }

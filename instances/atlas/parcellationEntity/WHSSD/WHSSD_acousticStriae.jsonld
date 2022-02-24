@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_acousticStriae",
     "name": "acoustic striae",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "as"
+    ],
+    "definition": null
 }

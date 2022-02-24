@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_paraventricularThalamicNucleiAnteriorAndPosterior",
     "name": "paraventricular thalamic nuclei (anterior and posterior)",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PV"
+    ],
+    "definition": null
 }

@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_nucleusSagulum",
     "name": "nucleus sagulum",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Sag"
+    ],
+    "definition": null
 }

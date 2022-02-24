@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_endopiriformNucleus",
     "name": "endopiriform nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Endo"
+    ],
+    "definition": null
 }

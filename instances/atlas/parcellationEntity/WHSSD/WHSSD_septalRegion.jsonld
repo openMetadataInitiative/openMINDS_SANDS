@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_septalRegion",
     "name": "septal region",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Sep"
+    ],
+    "definition": null
 }

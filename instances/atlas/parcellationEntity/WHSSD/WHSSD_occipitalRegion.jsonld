@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_occipitalRegion",
     "name": "occipital region",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Oc"
+    ],
+    "definition": null
 }

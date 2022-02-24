@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_ventralPosteromedialThalamicNucleus",
     "name": "ventral posteromedial thalamic nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "VPM"
+    ],
+    "definition": null
 }

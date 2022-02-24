@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_lateralOlfactoryTract",
     "name": "lateral olfactory tract",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "lot"
+    ],
+    "definition": null
 }

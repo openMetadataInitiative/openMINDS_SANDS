@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_dorsalCochlearNucleusDeepCore",
     "name": "dorsal cochlear nucleus, deep core",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "DCND"
+    ],
+    "definition": null
 }

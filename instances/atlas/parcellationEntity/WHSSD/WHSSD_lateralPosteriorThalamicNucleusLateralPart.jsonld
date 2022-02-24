@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_lateralPosteriorThalamicNucleusLateralPart",
     "name": "lateral posterior thalamic nucleus, lateral part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "LP-l"
+    ],
+    "definition": null
 }

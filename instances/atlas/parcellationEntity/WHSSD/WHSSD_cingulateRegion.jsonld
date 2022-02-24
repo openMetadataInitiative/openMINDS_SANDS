@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_cingulateRegion",
     "name": "cingulate region",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "CgR"
+    ],
+    "definition": null
 }

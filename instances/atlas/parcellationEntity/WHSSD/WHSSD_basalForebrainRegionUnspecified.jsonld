@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_basalForebrainRegionUnspecified",
     "name": "basal forebrain region, unspecified",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "BFR-u"
+    ],
+    "definition": null
 }

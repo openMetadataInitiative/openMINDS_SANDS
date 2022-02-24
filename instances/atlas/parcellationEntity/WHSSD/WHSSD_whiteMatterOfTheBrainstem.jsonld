@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_whiteMatterOfTheBrainstem",
     "name": "white matter of the brainstem",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "bsw"
+    ],
+    "definition": null
 }

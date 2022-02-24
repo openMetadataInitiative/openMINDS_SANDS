@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_medialLemniscusDecussation",
     "name": "medial lemniscus decussation",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "mlx"
+    ],
+    "definition": null
 }
