@@ -26,7 +26,10 @@
       "_instruction": "If necessary, enter a refined/correct name for this parcellation entity version."
     },  
     "hasAnnotation": {
-      "_instruction": "Add the atlas annotation which this parcellation entity version defines.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all atlas annotation which define this parcellation entity version.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/sands/AtlasAnnotation"
       ]

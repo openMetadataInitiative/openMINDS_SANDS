@@ -8,7 +8,10 @@
   ],
   "properties": {
     "hasAnnotation": {
-      "_instruction": "Add the custom annotation which this custom anatomical entity defines.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all custom annotation which define this custom anatomical entity.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/sands/CustomAnnotation"
       ]
