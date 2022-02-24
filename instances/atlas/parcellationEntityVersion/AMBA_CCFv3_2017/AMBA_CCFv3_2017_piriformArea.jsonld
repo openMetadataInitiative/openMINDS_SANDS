@@ -4,24 +4,26 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3_2017_piriformArea",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "hasAnnotation": {
-        "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-        "bestViewPoint": null,
-        "criteria": null,
-        "criteriaQualityType": null,
-        "displayColor": "#6ACBBA",
-        "inspiredBy": null,
-        "internalIdentifier": "961",
-        "laterality": [
-            {
-                "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/laterality/right"
-            }
-        ],
-        "visualizedIn": null
-    },
+    "hasAnnotation": [
+        {
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "bestViewPoint": null,
+            "criteria": null,
+            "criteriaQualityType": null,
+            "displayColor": "#6ACBBA",
+            "inspiredBy": null,
+            "internalIdentifier": "961",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "visualizedIn": null
+        }
+    ],
     "hasParent": null,
     "lookupLabel": "AMBA_CCFv3_2017_piriformArea",
     "name": "piriform area",
