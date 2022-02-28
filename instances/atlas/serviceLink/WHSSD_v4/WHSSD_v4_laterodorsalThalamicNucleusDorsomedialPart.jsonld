@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/serviceLink/WHSSD_v4_laterodorsalThalamicNucleusDorsomedialPart",
+    "@type": "https://openminds.ebrains.eu/core/ServiceLink",
+    "dataLocation": {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v4_laterodorsalThalamicNucleusDorsomedialPart"
+    },
+    "name": "map",
+    "openDataIn": {
+        "@type": "https://openminds.ebrains.eu/core/URL",
+        "URL": "https://atlases.ebrains.eu/viewer/#/a:minds:core:parcellationatlas:v1.0.0:522b368e-49a3-49fa-88d3-0870a307974a/t:minds:core:referencespace:v1.0.0:d5717c4a-0fa1-46e6-918c-b8003069ade8/p:minds:core:parcellationatlas:v1.0.0:ebb923ba-b4d5-4b82-8088-fa9215c2e1fe-v4/r:_d238531::3a/@:0.0.0.-W000.._eCwg.2-FUe3._-s_W.2_evlu..mr0..7qhU~.7pyX~.A6gX..8Yu"
+    },
+    "service": {
+        "@id": "https://openminds.ebrains.eu/instances/service/siibraExplorer"
+    }
+}

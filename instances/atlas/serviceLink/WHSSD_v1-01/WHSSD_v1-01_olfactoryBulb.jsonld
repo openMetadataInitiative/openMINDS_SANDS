@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/serviceLink/WHSSD_v1.01_olfactoryBulb",
+    "@type": "https://openminds.ebrains.eu/core/ServiceLink",
+    "dataLocation": {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSD_v1.01_olfactoryBulb"
+    },
+    "name": "map",
+    "openDataIn": {
+        "@type": "https://openminds.ebrains.eu/core/URL",
+        "URL": "https://atlases.ebrains.eu/viewer/#/a:minds:core:parcellationatlas:v1.0.0:522b368e-49a3-49fa-88d3-0870a307974a/t:minds:core:referencespace:v1.0.0:d5717c4a-0fa1-46e6-918c-b8003069ade8/p:minds:core:parcellationatlas:v1.0.0:11017b35-7056-4593-baad-3934d211daba/r:_1ef793::12/@:0.0.0.-W000.._eCwg.2-FUe3._-s_W.2_evlu..mr0..T_6~.PSzB.4ud_..8Yu"
+    },
+    "service": {
+        "@id": "https://openminds.ebrains.eu/instances/service/siibraExplorer"
+    }
+}
