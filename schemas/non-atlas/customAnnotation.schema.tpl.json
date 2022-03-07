@@ -7,6 +7,12 @@
     "visualizedIn"
   ],
   "properties": {   
+    "annotationType": {
+      "_instruction": "Add the type of this custom annotation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationType"
+      ]
+    },  
     "bestViewPoint": {      
       "_instruction": "Add the coordinate point identifying the best view of this custom annotation in space.",
       "_embeddedTypes": [

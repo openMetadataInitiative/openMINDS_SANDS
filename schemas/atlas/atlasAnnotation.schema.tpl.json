@@ -5,6 +5,12 @@
     "internalIdentifier"
   ],
   "properties": {   
+    "annotationType": {
+      "_instruction": "Add the type of this atlas annotation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationType"
+      ]
+    },  
     "bestViewPoint": {      
       "_instruction": "Add the coordinate point identifying the best view of this atlas annotation in space.",
       "_embeddedTypes": [
