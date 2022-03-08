@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_dorsalcaudalMidlineGroupOfTheDorsalThalamus",
     "name": "dorsal-caudal midline group of the dorsal thalamus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "DC-MID"
+    ],
+    "definition": null
 }

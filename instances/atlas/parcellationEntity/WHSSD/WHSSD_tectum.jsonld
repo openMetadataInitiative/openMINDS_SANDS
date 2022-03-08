@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_tectum",
     "name": "tectum",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Tc"
+    ],
+    "definition": null
 }

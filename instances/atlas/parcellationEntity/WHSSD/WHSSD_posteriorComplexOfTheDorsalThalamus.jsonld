@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_posteriorComplexOfTheDorsalThalamus",
     "name": "posterior complex of the dorsal thalamus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PoC"
+    ],
+    "definition": null
 }

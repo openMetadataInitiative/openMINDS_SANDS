@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_reticularPrethalamicNucleusUnspecified",
     "name": "reticular (pre)thalamic nucleus, unspecified",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "RT-u"
+    ],
+    "definition": null
 }

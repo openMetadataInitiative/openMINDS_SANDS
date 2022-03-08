@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_inferiorCerebellarPeduncle",
     "name": "inferior cerebellar peduncle",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "icp"
+    ],
+    "definition": null
 }

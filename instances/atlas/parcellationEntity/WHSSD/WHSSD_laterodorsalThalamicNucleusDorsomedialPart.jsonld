@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_laterodorsalThalamicNucleusDorsomedialPart",
     "name": "laterodorsal thalamic nucleus, dorsomedial part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "LD-dm"
+    ],
+    "definition": null
 }

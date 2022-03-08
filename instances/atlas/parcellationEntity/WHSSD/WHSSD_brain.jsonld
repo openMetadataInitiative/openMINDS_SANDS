@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_brain",
     "name": "brain",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "whole brain"
+    ],
+    "definition": null
 }

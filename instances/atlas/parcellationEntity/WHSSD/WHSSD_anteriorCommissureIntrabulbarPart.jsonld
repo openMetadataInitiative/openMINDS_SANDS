@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_anteriorCommissureIntrabulbarPart",
     "name": "anterior commissure, intrabulbar part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "aci"
+    ],
+    "definition": null
 }

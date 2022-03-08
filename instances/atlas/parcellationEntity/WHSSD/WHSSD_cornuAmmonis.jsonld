@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_cornuAmmonis",
     "name": "cornu ammonis",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "CA"
+    ],
+    "definition": null
 }

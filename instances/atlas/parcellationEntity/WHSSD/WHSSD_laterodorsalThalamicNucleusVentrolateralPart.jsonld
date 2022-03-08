@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_laterodorsalThalamicNucleusVentrolateralPart",
     "name": "laterodorsal thalamic nucleus, ventrolateral part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "LD-vl"
+    ],
+    "definition": null
 }

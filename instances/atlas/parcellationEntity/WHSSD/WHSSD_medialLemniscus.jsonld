@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_medialLemniscus",
     "name": "medial lemniscus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "ml"
+    ],
+    "definition": null
 }

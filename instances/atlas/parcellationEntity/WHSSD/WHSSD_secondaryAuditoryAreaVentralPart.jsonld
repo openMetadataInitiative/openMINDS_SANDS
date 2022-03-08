@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_secondaryAuditoryAreaVentralPart",
     "name": "secondary auditory area, ventral part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Au2-v"
+    ],
+    "definition": null
 }

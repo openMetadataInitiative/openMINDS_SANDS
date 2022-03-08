@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_interanteromedialThalamicNucleus",
     "name": "interanteromedial thalamic nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "IAM"
+    ],
+    "definition": null
 }

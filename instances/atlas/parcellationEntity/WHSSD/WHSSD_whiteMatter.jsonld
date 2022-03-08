@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_whiteMatter",
     "name": "white matter",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "wmt"
+    ],
+    "definition": null
 }

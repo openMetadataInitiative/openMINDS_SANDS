@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_facialNerve",
     "name": "facial nerve",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "7n"
+    ],
+    "definition": null
 }

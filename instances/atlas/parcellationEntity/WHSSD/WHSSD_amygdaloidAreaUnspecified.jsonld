@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_amygdaloidAreaUnspecified",
     "name": "amygdaloid area, unspecified",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Am-u"
+    ],
+    "definition": null
 }

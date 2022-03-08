@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_inferiorColliculusExternalCortex",
     "name": "inferior colliculus, external cortex",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "ECIC"
+    ],
+    "definition": null
 }

@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_secondaryMotorArea",
     "name": "secondary motor area",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "M2"
+    ],
+    "definition": null
 }

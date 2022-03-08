@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_prelimbicArea",
     "name": "prelimbic area",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PrL"
+    ],
+    "definition": null
 }

@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_striaTerminalis",
     "name": "stria terminalis",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "st"
+    ],
+    "definition": null
 }

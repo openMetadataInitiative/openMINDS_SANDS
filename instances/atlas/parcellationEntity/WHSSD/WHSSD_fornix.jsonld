@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_fornix",
     "name": "fornix",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "f"
+    ],
+    "definition": null
 }

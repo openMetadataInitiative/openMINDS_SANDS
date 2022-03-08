@@ -34,5 +34,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": "mammillotegmental tract",
+    "alternativeName": [
+        "mtg"
+    ],
+    "additionalRemarks": ".label file name \"mammillothalamic tract\" has been corrected to .mbat file name \"mammilotegmental tract\"; for details, see atlas documentation"
 }

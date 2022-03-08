@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_ventralCochlearNucleusPosteriorPart",
     "name": "ventral cochlear nucleus, posterior part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PVCN"
+    ],
+    "definition": null
 }

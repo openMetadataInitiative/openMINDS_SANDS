@@ -25,5 +25,10 @@
     "lookupLabel": "WHSSD_striaMedullarisThalami",
     "name": "stria medullaris thalami",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "sm",
+        "stria medullaris of the thalamus"
+    ],
+    "definition": null
 }

@@ -34,5 +34,12 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "ar",
+        "eml-ar",
+        "external medullary lamina, auditory radiation"
+    ],
+    "additionalRemarks": null
 }

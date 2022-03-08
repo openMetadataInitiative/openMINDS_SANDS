@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_visualCortex",
     "name": "visual cortex",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Vis"
+    ],
+    "definition": null
 }

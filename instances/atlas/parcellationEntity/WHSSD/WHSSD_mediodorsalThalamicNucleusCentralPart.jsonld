@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_mediodorsalThalamicNucleusCentralPart",
     "name": "mediodorsal thalamic nucleus, central part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "MD-c"
+    ],
+    "definition": null
 }

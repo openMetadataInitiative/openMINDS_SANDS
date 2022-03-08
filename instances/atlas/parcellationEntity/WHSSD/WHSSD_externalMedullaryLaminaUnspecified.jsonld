@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_externalMedullaryLaminaUnspecified",
     "name": "external medullary lamina, unspecified",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "eml-u"
+    ],
+    "definition": null
 }

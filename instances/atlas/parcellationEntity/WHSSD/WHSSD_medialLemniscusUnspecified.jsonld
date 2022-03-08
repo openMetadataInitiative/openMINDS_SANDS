@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_medialLemniscusUnspecified",
     "name": "medial lemniscus, unspecified",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "ml-u"
+    ],
+    "definition": null
 }

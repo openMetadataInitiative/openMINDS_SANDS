@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_alveusOfTheHippocampus",
     "name": "alveus of the hippocampus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "alv"
+    ],
+    "definition": null
 }

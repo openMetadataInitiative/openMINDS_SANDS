@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_corticofugalPathways",
     "name": "corticofugal pathways",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "cfp"
+    ],
+    "definition": null
 }

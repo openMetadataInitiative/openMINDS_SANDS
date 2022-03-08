@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_ventralCochlearNucleusGranuleCellLayer",
     "name": "ventral cochlear nucleus, granule cell layer",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "GCL"
+    ],
+    "definition": null
 }

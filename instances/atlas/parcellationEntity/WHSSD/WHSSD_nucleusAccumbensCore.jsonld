@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_nucleusAccumbensCore",
     "name": "nucleus accumbens, core",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "NAc-c"
+    ],
+    "definition": null
 }

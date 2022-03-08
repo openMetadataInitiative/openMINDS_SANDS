@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_4thVentricle",
     "name": "4th ventricle",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "4V"
+    ],
+    "definition": null
 }

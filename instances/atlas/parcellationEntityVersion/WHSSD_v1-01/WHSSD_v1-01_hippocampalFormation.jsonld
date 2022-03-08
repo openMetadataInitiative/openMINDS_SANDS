@@ -34,5 +34,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v1.01",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": "hippocampal formation, unspecified",
+    "alternativeName": [
+        "HF-u"
+    ],
+    "additionalRemarks": "both .label file name and .mbat file name are \"hippocampal formation\", which is an error; abbreviation for the corrected name has been added under \"alternativeName\"; for details, see atlas documentation"
 }

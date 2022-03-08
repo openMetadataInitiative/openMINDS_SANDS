@@ -13,5 +13,7 @@
     "lookupLabel": "WHSSD_medialEntorhinalField",
     "name": "medial entorhinal field",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": null,
+    "definition": null
 }

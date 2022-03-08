@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_opticFiberSystemAndSupraopticDecussation",
     "name": "optic fiber system and supraoptic decussation",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "ofs"
+    ],
+    "definition": null
 }

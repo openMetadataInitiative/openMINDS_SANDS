@@ -24,15 +24,16 @@
             "visualizedIn": null
         }
     ],
-    "hasParent": [
-        {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_medialGeniculateComplexOfTheDorsalThalamus"
-        }
-    ],
+    "hasParent": null,
     "lookupLabel": "WHSSD_v3.01_medialGeniculateBodyMedialDivision",
     "name": "medial geniculate body, medial division",
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3.01",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "MGM"
+    ],
+    "additionalRemarks": null
 }

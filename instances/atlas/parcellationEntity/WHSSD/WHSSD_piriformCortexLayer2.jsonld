@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_piriformCortexLayer2",
     "name": "piriform cortex, layer 2",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PIR2"
+    ],
+    "definition": null
 }

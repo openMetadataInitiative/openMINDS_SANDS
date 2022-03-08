@@ -19,5 +19,10 @@
     "lookupLabel": "WHSSD_reticularPrethalamicNucleusAuditorySegment",
     "name": "reticular (pre)thalamic nucleus, auditory segment",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "RT-a",
+        "reticular thalamic nucleus, auditory segment"
+    ],
+    "definition": null
 }

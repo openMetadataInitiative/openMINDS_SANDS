@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_nucleiOfTheLateralLemniscus",
     "name": "nuclei of the lateral lemniscus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "NLL"
+    ],
+    "definition": null
 }

@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_nucleusOfTheTrapezoidBody",
     "name": "nucleus of the trapezoid body",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "NTB"
+    ],
+    "definition": null
 }

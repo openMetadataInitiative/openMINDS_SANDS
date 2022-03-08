@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_primarySomatosensoryAreaFaceRepresentation",
     "name": "primary somatosensory area, face representation",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "S1-f"
+    ],
+    "definition": null
 }

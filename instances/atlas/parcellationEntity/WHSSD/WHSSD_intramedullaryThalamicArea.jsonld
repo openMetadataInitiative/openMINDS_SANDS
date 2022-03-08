@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_intramedullaryThalamicArea",
     "name": "intramedullary thalamic area",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "ima"
+    ],
+    "definition": null
 }

@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_whiteMatterOfTheTectum",
     "name": "white matter of the tectum",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "tew"
+    ],
+    "definition": null
 }

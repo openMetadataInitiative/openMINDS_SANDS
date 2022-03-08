@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_habenularCommissure",
     "name": "habenular commissure",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "hbc"
+    ],
+    "definition": null
 }

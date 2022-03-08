@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_olfactoryBulbUnspecified",
     "name": "olfactory bulb, unspecified",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "OB-u"
+    ],
+    "definition": null
 }

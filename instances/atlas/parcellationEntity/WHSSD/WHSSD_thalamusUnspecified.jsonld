@@ -22,5 +22,9 @@
     "lookupLabel": "WHSSD_thalamusUnspecified",
     "name": "thalamus, unspecified",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Thal-u"
+    ],
+    "definition": null
 }

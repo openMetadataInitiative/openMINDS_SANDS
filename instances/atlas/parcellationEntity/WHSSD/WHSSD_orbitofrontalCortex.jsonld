@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_orbitofrontalCortex",
     "name": "orbitofrontal cortex",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Orb"
+    ],
+    "definition": null
 }

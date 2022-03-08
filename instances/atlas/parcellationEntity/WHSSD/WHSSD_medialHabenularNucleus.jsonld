@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_medialHabenularNucleus",
     "name": "medial habenular nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "MHb"
+    ],
+    "definition": null
 }

@@ -30,5 +30,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v2",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "CC"
+    ],
+    "additionalRemarks": "\"central canal\" and \"spinal cord\" (annotated)  had \"spinal cord\" (hierarchical term) as parent; this was changed in v3 and later versions (\"central canal\" has parent \"ventricular system\" and \"spinal cord\" has no parent structure; no hierarchical term has been added to this parcellation entity version"
 }

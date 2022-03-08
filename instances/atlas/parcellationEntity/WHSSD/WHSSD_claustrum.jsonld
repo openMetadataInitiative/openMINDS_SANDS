@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_claustrum",
     "name": "claustrum",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "CLA"
+    ],
+    "definition": null
 }

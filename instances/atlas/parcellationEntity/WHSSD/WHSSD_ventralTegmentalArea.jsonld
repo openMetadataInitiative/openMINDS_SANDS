@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_ventralTegmentalArea",
     "name": "ventral tegmental area",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "VTA"
+    ],
+    "definition": null
 }

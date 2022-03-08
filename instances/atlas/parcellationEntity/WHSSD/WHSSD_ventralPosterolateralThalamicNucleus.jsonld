@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_ventralPosterolateralThalamicNucleus",
     "name": "ventral posterolateral thalamic nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "VPL"
+    ],
+    "definition": null
 }

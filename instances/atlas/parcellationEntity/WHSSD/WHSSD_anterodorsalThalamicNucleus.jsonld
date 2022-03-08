@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_anterodorsalThalamicNucleus",
     "name": "anterodorsal thalamic nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "AD"
+    ],
+    "definition": null
 }

@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_molecularCellLayerOfTheCerebellum",
     "name": "molecular cell layer of the cerebellum",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Cb-m"
+    ],
+    "definition": null
 }

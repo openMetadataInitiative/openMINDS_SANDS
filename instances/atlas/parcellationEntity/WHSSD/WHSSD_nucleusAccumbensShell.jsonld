@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_nucleusAccumbensShell",
     "name": "nucleus accumbens, shell",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "NAc-sh"
+    ],
+    "definition": null
 }

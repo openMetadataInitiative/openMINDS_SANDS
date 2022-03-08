@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_dorsalCochlearNucleusMolecularLayer",
     "name": "dorsal cochlear nucleus, molecular layer",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "DCNM"
+    ],
+    "definition": null
 }

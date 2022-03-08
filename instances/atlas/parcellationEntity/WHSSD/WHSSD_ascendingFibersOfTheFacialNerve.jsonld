@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_ascendingFibersOfTheFacialNerve",
     "name": "ascending fibers of the facial nerve",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "asc7"
+    ],
+    "definition": null
 }

@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_inferiorOlive",
     "name": "inferior olive",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "IO"
+    ],
+    "definition": null
 }

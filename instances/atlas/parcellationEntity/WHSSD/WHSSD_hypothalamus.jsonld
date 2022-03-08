@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_hypothalamus",
     "name": "hypothalamus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "HY"
+    ],
+    "definition": null
 }

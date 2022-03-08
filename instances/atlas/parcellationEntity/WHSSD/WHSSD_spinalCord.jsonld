@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_spinalCord",
     "name": "spinal cord",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "SpC"
+    ],
+    "definition": null
 }

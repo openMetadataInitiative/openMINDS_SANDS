@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_substantiaNigraReticularPart",
     "name": "substantia nigra, reticular part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "SN-r"
+    ],
+    "definition": null
 }

@@ -22,5 +22,9 @@
     "lookupLabel": "WHSSD_perirhinalArea35",
     "name": "perirhinal area 35",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PER35"
+    ],
+    "definition": null
 }

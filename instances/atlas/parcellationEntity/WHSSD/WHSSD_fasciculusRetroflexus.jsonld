@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_fasciculusRetroflexus",
     "name": "fasciculus retroflexus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "fr"
+    ],
+    "definition": null
 }

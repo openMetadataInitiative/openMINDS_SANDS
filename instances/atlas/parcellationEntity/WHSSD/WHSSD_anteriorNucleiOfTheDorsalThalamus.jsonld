@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_anteriorNucleiOfTheDorsalThalamus",
     "name": "anterior nuclei of the dorsal thalamus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "ANT"
+    ],
+    "definition": null
 }

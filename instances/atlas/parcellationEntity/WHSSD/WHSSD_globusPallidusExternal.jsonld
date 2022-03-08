@@ -22,5 +22,10 @@
     "lookupLabel": "WHSSD_globusPallidusExternal",
     "name": "globus pallidus external",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Gpe",
+        "globus pallidus"
+    ],
+    "definition": null
 }

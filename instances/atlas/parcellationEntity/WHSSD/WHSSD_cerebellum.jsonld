@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_cerebellum",
     "name": "cerebellum",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Cb"
+    ],
+    "definition": null
 }

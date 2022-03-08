@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_laminatedPallium",
     "name": "laminated pallium",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "LamP"
+    ],
+    "definition": null
 }

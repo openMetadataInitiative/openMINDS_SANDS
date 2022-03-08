@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_secondarySomatosensoryArea",
     "name": "secondary somatosensory area",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "S2"
+    ],
+    "definition": null
 }

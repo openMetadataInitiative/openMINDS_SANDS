@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_ventromedialThalamicNucleus",
     "name": "ventromedial thalamic nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "VM"
+    ],
+    "definition": null
 }

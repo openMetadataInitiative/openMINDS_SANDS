@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_peripeduncularNucleus",
     "name": "peripeduncular nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PP"
+    ],
+    "definition": null
 }

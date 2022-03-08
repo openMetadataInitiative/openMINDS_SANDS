@@ -25,5 +25,10 @@
     "lookupLabel": "WHSSD_corticofugalTractAndCoronaRadiata",
     "name": "corticofugal tract and corona radiata",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "ic-cp-lfp-py",
+        "descending corticofugal pathways"
+    ],
+    "definition": null
 }

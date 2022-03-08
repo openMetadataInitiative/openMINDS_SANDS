@@ -34,5 +34,12 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": "cerebellum, unspecified",
+    "alternativeName": [
+        "DpCb",
+        "Cb-u",
+        "deeper cerebellum"
+    ],
+    "additionalRemarks": ".label file name \"granule cell level of the cerebellum\" does not match the name in the .mbat file (\"deeper cerebellum\"); name was changed to reflect the possibility for subdivision; abbreviations for both the corrected name and the original name have been added under \"alternativeName\"; for details, see atlas documentation"
 }

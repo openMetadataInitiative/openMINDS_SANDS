@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_primaryVisualArea",
     "name": "primary visual area",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "V1"
+    ],
+    "definition": null
 }

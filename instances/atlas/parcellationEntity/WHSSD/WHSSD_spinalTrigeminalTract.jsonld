@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_spinalTrigeminalTract",
     "name": "spinal trigeminal tract",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "sp5t"
+    ],
+    "definition": null
 }

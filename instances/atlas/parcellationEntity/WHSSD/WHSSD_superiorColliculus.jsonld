@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_superiorColliculus",
     "name": "superior colliculus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Su"
+    ],
+    "definition": null
 }

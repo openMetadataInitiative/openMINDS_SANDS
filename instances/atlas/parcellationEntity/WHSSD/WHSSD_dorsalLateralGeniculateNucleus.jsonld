@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_dorsalLateralGeniculateNucleus",
     "name": "dorsal lateral geniculate nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "DLG"
+    ],
+    "definition": null
 }

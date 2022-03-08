@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_entopeduncularNucleus",
     "name": "entopeduncular nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "EP"
+    ],
+    "definition": null
 }

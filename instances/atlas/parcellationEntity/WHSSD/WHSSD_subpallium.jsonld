@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_subpallium",
     "name": "subpallium",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "SubPAL"
+    ],
+    "definition": null
 }

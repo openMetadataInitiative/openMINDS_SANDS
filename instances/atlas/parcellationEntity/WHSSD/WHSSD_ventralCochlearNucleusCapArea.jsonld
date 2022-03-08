@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_ventralCochlearNucleusCapArea",
     "name": "ventral cochlear nucleus, cap area",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Cap"
+    ],
+    "definition": null
 }

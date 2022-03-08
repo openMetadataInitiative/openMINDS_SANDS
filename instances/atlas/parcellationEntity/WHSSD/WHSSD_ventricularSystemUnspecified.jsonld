@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_ventricularSystemUnspecified",
     "name": "ventricular system, unspecified",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "V-u"
+    ],
+    "definition": null
 }

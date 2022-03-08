@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_centralMedialThalamicNucleus",
     "name": "central medial thalamic nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "CM"
+    ],
+    "definition": null
 }

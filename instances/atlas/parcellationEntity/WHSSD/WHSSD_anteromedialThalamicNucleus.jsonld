@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_anteromedialThalamicNucleus",
     "name": "anteromedial thalamic nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "AM"
+    ],
+    "definition": null
 }

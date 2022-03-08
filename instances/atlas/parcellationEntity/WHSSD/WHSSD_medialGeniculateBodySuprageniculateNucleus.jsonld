@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_medialGeniculateBodySuprageniculateNucleus",
     "name": "medial geniculate body, suprageniculate nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "MG-sg"
+    ],
+    "definition": null
 }

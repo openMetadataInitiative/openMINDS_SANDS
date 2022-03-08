@@ -26,7 +26,7 @@
     ],
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_anteriorCommisure"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_anteriorCommissure"
         }
     ],
     "lookupLabel": "WHSSD_v3_anteriorCommissurePosteriorPart",
@@ -34,5 +34,11 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "acp",
+        "anterior commissure, posterior limb"
+    ],
+    "additionalRemarks": null
 }

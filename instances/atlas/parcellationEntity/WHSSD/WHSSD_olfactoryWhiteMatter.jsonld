@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_olfactoryWhiteMatter",
     "name": "olfactory white matter",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "olf"
+    ],
+    "definition": null
 }

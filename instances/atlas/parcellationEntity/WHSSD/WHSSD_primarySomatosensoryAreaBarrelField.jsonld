@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_primarySomatosensoryAreaBarrelField",
     "name": "primary somatosensory area, barrel field",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "S1-bf"
+    ],
+    "definition": null
 }

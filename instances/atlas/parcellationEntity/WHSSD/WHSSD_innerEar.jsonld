@@ -16,5 +16,9 @@
     "lookupLabel": "WHSSD_innerEar",
     "name": "inner ear",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "IE"
+    ],
+    "definition": null
 }

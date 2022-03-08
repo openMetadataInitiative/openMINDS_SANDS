@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_auditoryCortex",
     "name": "auditory cortex",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Au"
+    ],
+    "definition": null
 }

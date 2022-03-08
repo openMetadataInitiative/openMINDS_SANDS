@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_superiorCerebellarPeduncleAndPrerubralField",
     "name": "superior cerebellar peduncle and prerubral field",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "scp-pr"
+    ],
+    "definition": null
 }

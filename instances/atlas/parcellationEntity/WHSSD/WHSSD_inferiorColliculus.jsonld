@@ -16,5 +16,9 @@
     "lookupLabel": "WHSSD_inferiorColliculus",
     "name": "inferior colliculus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "IC"
+    ],
+    "definition": null
 }

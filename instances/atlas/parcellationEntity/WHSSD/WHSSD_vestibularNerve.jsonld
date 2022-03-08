@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_vestibularNerve",
     "name": "vestibular nerve",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "8vn"
+    ],
+    "definition": null
 }

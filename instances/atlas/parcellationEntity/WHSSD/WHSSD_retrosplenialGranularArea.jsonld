@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_retrosplenialGranularArea",
     "name": "retrosplenial granular area",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "RSG"
+    ],
+    "definition": null
 }

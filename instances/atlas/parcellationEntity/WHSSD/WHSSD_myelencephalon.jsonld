@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_myelencephalon",
     "name": "myelencephalon",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Myel"
+    ],
+    "definition": null
 }

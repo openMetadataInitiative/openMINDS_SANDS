@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_lateralLemniscusDorsalNucleus",
     "name": "lateral lemniscus, dorsal nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "DLL"
+    ],
+    "definition": null
 }

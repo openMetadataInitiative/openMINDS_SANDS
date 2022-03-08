@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_subiculum",
     "name": "subiculum",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "SUB"
+    ],
+    "definition": null
 }

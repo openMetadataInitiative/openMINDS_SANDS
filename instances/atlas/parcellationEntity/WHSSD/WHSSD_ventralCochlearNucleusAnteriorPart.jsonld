@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_ventralCochlearNucleusAnteriorPart",
     "name": "ventral cochlear nucleus, anterior part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "AVCN"
+    ],
+    "definition": null
 }

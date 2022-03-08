@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_parahippocampalRegion",
     "name": "parahippocampal region",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PHR"
+    ],
+    "definition": null
 }

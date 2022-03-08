@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_postrhinalCortex",
     "name": "postrhinal cortex",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "POR"
+    ],
+    "definition": null
 }

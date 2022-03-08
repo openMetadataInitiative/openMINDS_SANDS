@@ -22,5 +22,9 @@
     "lookupLabel": "WHSSD_neocortexUnspecified",
     "name": "neocortex, unspecified",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Ncx-u"
+    ],
+    "definition": null
 }

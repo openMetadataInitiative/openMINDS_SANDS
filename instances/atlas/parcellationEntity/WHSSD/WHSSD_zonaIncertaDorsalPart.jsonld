@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_zonaIncertaDorsalPart",
     "name": "zona incerta, dorsal part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "ZI-d"
+    ],
+    "definition": null
 }

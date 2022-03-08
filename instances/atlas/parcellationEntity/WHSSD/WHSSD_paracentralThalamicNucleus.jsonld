@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_paracentralThalamicNucleus",
     "name": "paracentral thalamic nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PCN"
+    ],
+    "definition": null
 }

@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_pinealGland",
     "name": "pineal gland",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PG"
+    ],
+    "definition": null
 }

@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_motorCortex",
     "name": "motor cortex",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "M"
+    ],
+    "definition": null
 }

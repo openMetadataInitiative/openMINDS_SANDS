@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_commissureOfTheSuperiorColliculus",
     "name": "commissure of the superior colliculus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "csc"
+    ],
+    "definition": null
 }

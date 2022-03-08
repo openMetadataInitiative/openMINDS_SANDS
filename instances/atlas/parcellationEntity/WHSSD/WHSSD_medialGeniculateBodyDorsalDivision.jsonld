@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_medialGeniculateBodyDorsalDivision",
     "name": "medial geniculate body, dorsal division",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "MG-d"
+    ],
+    "definition": null
 }

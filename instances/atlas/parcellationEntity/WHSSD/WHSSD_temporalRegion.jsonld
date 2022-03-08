@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_temporalRegion",
     "name": "temporal region",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Te"
+    ],
+    "definition": null
 }

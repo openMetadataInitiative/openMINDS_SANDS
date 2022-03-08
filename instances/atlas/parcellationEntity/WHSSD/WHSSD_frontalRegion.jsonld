@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_frontalRegion",
     "name": "frontal region",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Front"
+    ],
+    "definition": null
 }

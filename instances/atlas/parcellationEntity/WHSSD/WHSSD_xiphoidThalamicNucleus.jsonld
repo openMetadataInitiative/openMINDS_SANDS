@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_xiphoidThalamicNucleus",
     "name": "xiphoid thalamic nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Xi"
+    ],
+    "definition": null
 }

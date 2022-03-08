@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_lateralLemniscusVentralNucleus",
     "name": "lateral lemniscus, ventral nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "VLL"
+    ],
+    "definition": null
 }
