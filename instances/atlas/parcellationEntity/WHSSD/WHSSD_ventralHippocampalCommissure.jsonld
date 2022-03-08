@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_ventralHippocampalCommissure",
     "name": "ventral hippocampal commissure",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "vhc"
+    ],
+    "definition": null
 }

@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_rhombencephalon",
     "name": "rhombencephalon",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Rho"
+    ],
+    "definition": null
 }

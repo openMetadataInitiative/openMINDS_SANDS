@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_nucleusAccumbens",
     "name": "nucleus accumbens",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "NAc"
+    ],
+    "definition": null
 }

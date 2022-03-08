@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_epithalamus",
     "name": "epithalamus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Thal-EPI"
+    ],
+    "definition": null
 }

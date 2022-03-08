@@ -34,5 +34,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": "medial entorhinal cortex",
+    "alternativeName": [
+        "MEC"
+    ],
+    "additionalRemarks": ".label file name \"entorhinal cortex\" has been corrected to .mbat file name \"medial entorhinal cortex\"; for details, see atlas documentation"
 }

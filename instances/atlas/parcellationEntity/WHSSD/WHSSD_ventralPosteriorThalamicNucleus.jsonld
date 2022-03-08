@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_ventralPosteriorThalamicNucleus",
     "name": "ventral posterior thalamic nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "VPN"
+    ],
+    "definition": null
 }

@@ -34,5 +34,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": "thalamus, unspecified",
+    "alternativeName": [
+        "Thal-u"
+    ],
+    "additionalRemarks": ".label file name \"thalamus\" has been corrected to .mbat file name \"thalamus, unspecified\"; for details, see atlas documentation"
 }

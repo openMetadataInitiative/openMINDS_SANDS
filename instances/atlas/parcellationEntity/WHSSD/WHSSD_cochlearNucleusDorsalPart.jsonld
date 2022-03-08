@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_cochlearNucleusDorsalPart",
     "name": "cochlear nucleus, dorsal part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "DCN"
+    ],
+    "definition": null
 }

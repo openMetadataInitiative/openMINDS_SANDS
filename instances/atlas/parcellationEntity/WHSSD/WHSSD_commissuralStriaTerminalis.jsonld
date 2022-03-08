@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_commissuralStriaTerminalis",
     "name": "commissural stria terminalis",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "cst"
+    ],
+    "definition": null
 }

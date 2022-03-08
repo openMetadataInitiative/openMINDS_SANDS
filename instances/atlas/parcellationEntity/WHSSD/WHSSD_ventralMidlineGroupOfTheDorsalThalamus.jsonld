@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_ventralMidlineGroupOfTheDorsalThalamus",
     "name": "ventral midline group of the dorsal thalamus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "V-MID"
+    ],
+    "definition": null
 }

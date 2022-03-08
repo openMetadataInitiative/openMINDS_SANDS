@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_mediodorsalNucleusOfTheDorsalThalamus",
     "name": "mediodorsal nucleus of the dorsal thalamus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "MD"
+    ],
+    "definition": null
 }

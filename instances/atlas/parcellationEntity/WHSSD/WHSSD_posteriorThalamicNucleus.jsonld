@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_posteriorThalamicNucleus",
     "name": "posterior thalamic nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Po"
+    ],
+    "definition": null
 }

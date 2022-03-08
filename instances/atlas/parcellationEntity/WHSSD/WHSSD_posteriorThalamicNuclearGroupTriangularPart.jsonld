@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_posteriorThalamicNuclearGroupTriangularPart",
     "name": "posterior thalamic nuclear group, triangular part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Po-t"
+    ],
+    "definition": null
 }

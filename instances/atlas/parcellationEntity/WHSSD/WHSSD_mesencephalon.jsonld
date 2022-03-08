@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_mesencephalon",
     "name": "mesencephalon",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Mes"
+    ],
+    "definition": null
 }

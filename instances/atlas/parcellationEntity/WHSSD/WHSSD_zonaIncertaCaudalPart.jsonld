@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_zonaIncertaCaudalPart",
     "name": "zona incerta, caudal part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "ZI-c"
+    ],
+    "definition": null
 }

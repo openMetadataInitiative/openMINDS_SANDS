@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_lateralPosteriorPulvinarComplexOfTheDorsalThalamus",
     "name": "lateral posterior (pulvinar) complex of the dorsal thalamus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "LP"
+    ],
+    "definition": null
 }

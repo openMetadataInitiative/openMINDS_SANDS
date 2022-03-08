@@ -25,5 +25,10 @@
     "lookupLabel": "WHSSD_anteriorCommissureAnteriorLimb",
     "name": "anterior commissure, anterior limb",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "aca",
+        "anterior commissure, anterior part"
+    ],
+    "definition": null
 }

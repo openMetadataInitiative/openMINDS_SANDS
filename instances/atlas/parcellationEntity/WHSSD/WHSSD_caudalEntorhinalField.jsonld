@@ -13,5 +13,7 @@
     "lookupLabel": "WHSSD_caudalEntorhinalField",
     "name": "caudal entorhinal field",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": null,
+    "definition": null
 }

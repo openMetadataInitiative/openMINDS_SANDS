@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_posteriorCommissure",
     "name": "posterior commissure",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "pc"
+    ],
+    "definition": null
 }

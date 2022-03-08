@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_agranularInsularCortexVentralArea",
     "name": "agranular insular cortex, ventral area",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "AI-v"
+    ],
+    "definition": null
 }

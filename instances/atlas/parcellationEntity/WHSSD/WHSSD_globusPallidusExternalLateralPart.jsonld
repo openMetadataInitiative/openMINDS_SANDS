@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_globusPallidusExternalLateralPart",
     "name": "globus pallidus external, lateral part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "GPe-l"
+    ],
+    "definition": null
 }

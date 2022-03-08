@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_ventralPallidum",
     "name": "ventral pallidum",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "VP"
+    ],
+    "definition": null
 }

@@ -26,7 +26,7 @@
     ],
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_anteriorCommisure"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSD_anteriorCommissure"
         }
     ],
     "lookupLabel": "WHSSD_v3.01_anteriorCommissureAnteriorPart",
@@ -34,5 +34,11 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3.01",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "aca",
+        "anterior commissure, anterior limb"
+    ],
+    "additionalRemarks": null
 }

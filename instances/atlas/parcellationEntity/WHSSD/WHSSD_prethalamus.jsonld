@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_prethalamus",
     "name": "prethalamus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Thal-Pre"
+    ],
+    "definition": null
 }

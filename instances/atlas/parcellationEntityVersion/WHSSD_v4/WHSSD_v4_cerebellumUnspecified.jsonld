@@ -34,5 +34,11 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v4",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "Cb-u",
+        "deeper cerebellum"
+    ],
+    "additionalRemarks": null
 }

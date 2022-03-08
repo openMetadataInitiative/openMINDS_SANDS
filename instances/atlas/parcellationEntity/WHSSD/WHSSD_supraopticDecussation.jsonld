@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_supraopticDecussation",
     "name": "supraoptic decussation",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "sox"
+    ],
+    "definition": null
 }

@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_cochlearNerve",
     "name": "cochlear nerve",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "8cn"
+    ],
+    "definition": null
 }

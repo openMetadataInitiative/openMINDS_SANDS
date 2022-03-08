@@ -19,5 +19,10 @@
     "lookupLabel": "WHSSD_externalMedullaryLaminaAuditoryRadiation",
     "name": "external medullary lamina, auditory radiation",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "eml-ar",
+        "auditory radiation"
+    ],
+    "definition": null
 }

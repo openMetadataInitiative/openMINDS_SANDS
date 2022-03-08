@@ -34,5 +34,11 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "PT",
+        "PRT"
+    ],
+    "additionalRemarks": null
 }

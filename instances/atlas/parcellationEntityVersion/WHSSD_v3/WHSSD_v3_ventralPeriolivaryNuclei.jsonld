@@ -34,5 +34,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "VPO"
+    ],
+    "additionalRemarks": ".label file name \"ventral periolivary nuclei\" does not match the name in the .mbat file (\"ventral periolivary nucleus\") - .label file name correct; for details, see atlas documentation"
 }

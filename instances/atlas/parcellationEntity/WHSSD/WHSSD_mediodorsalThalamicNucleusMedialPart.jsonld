@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_mediodorsalThalamicNucleusMedialPart",
     "name": "mediodorsal thalamic nucleus, medial part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "MD-m"
+    ],
+    "definition": null
 }

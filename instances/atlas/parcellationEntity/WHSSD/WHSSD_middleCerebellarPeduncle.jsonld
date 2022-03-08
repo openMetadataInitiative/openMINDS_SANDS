@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_middleCerebellarPeduncle",
     "name": "middle cerebellar peduncle",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "mcp"
+    ],
+    "definition": null
 }

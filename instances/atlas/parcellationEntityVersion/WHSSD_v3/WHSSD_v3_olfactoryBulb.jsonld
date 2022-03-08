@@ -34,5 +34,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": "olfactory bulb, unspecified",
+    "alternativeName": [
+        "OB-u"
+    ],
+    "additionalRemarks": "both .label file name and .mbat file name are \"olfactory bulb\", which is an error; abbreviation for the corrected name has been added under \"alternativeName\" instead of the abbreviation from the .mbat file; for details, see atlas documentation"
 }

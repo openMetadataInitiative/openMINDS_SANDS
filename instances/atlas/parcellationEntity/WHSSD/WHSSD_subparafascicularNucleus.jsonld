@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_subparafascicularNucleus",
     "name": "subparafascicular nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "SPF"
+    ],
+    "definition": null
 }

@@ -34,5 +34,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3.01",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "MSO"
+    ],
+    "additionalRemarks": null
 }

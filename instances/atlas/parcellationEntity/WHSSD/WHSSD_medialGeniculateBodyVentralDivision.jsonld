@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_medialGeniculateBodyVentralDivision",
     "name": "medial geniculate body, ventral division",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "MG-v"
+    ],
+    "definition": null
 }

@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_corpusCallosumAndAssociatedSubcorticalWhiteMatter",
     "name": "corpus callosum and associated subcortical white matter",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "cc-ec-cing-dwm"
+    ],
+    "definition": null
 }

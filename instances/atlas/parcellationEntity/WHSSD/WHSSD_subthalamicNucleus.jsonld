@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_subthalamicNucleus",
     "name": "subthalamic nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "STh"
+    ],
+    "definition": null
 }

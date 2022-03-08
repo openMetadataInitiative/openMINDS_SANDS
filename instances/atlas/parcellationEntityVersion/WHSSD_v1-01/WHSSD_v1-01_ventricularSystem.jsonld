@@ -34,5 +34,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v1.01",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": "ventricular system, unspecified",
+    "alternativeName": [
+        "V-u"
+    ],
+    "additionalRemarks": "both .label file name and .mbat file name are \"ventricular system\", but name was changed to reflect the possibility for subdivision; for details, see atlas documentation\n\"brain\" has been added as parent in accordance with later versions where that hierarchical term exists "
 }

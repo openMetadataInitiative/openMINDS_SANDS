@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_lateralLemniscusUnspecified",
     "name": "lateral lemniscus, unspecified",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "ll-u"
+    ],
+    "definition": null
 }

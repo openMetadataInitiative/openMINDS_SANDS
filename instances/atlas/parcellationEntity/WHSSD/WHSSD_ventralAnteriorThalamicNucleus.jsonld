@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_ventralAnteriorThalamicNucleus",
     "name": "ventral anterior thalamic nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "VA"
+    ],
+    "definition": null
 }

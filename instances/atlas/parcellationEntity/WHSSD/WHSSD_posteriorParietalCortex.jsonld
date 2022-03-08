@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_posteriorParietalCortex",
     "name": "posterior parietal cortex",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PPC"
+    ],
+    "definition": null
 }

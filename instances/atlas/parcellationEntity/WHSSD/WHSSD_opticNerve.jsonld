@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_opticNerve",
     "name": "optic nerve",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "2n"
+    ],
+    "definition": null
 }

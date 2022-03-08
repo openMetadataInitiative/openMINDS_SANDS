@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_opticTractAndOpticChiasm",
     "name": "optic tract and optic chiasm",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "opt-och"
+    ],
+    "definition": null
 }

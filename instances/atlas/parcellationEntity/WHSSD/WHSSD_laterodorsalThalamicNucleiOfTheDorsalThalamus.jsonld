@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_laterodorsalThalamicNucleiOfTheDorsalThalamus",
     "name": "laterodorsal thalamic nuclei of the dorsal thalamus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "LD"
+    ],
+    "definition": null
 }

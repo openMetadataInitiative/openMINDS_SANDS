@@ -34,5 +34,11 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v1.01",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": "brainstem, unspecified",
+    "alternativeName": [
+        "BS-u",
+        "brain stem, unspecified"
+    ],
+    "additionalRemarks": ".label file name \"brainstem\" does not match the name in the .mbat file (\"brain stem\") - same meaning but different spelling; name was also changed to reflect the possibility for subdivision; abbreviation for the corrected name has been added under \"alternativeName\"; for details, see atlas documentation"
 }

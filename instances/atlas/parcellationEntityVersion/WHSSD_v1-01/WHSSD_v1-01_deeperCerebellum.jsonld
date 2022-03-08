@@ -34,5 +34,11 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v1.01",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": "cerebellum, unspecified",
+    "alternativeName": [
+        "Cb-u",
+        ""
+    ],
+    "additionalRemarks": "both .label file name and .mbat file name are \"deeper cerebellum\", but name was changed to reflect the possibility for subdivision; abbreviation for the corrected name has been added under \"alternativeName\"; for details, see atlas documentation"
 }

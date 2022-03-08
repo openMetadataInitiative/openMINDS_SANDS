@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_granularInsularCortex",
     "name": "granular insular cortex",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "GI"
+    ],
+    "definition": null
 }

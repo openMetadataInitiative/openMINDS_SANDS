@@ -34,5 +34,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": "neocortex, unspecified",
+    "alternativeName": [
+        "Ncx-u"
+    ],
+    "additionalRemarks": ".label file name \"neocortex\" has been corrected to .mbat file name \"neocortex, unspecified\"; for details, see atlas documentation"
 }

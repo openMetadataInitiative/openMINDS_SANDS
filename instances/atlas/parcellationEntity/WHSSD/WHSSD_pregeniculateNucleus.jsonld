@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_pregeniculateNucleus",
     "name": "pregeniculate nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PrG"
+    ],
+    "definition": null
 }

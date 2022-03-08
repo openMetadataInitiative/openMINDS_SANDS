@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_periaqueductalGray",
     "name": "periaqueductal gray",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PAG"
+    ],
+    "definition": null
 }

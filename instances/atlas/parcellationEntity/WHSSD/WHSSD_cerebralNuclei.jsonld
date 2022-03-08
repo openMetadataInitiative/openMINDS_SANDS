@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_cerebralNuclei",
     "name": "cerebral nuclei",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "CNc"
+    ],
+    "definition": null
 }

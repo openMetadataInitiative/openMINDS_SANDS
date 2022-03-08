@@ -9,5 +9,11 @@
     "lookupLabel": "WHSSD_olfactoryBulb",
     "name": "olfactory bulb",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "OB",
+        "olfactory system",
+        "olfactory areas"
+    ],
+    "definition": null
 }

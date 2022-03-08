@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_nucleusOfTheStriaMedullaris",
     "name": "nucleus of the stria medullaris",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "SMn"
+    ],
+    "definition": null
 }

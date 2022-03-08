@@ -34,5 +34,10 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": "basal forebrain region, unspecified",
+    "alternativeName": [
+        "BFR-u"
+    ],
+    "additionalRemarks": ".label file name \"basal forebrain region\" has been corrected to .mbat file name \"basal forebrain region, unspecified\"; abbreviation for the corrected name has been added under \"alternativeName\" instead of the abbreviation from the .mbat file; for details, see atlas documentation"
 }

@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_telencephalon",
     "name": "telencephalon",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "medial "
+    ],
+    "definition": null
 }

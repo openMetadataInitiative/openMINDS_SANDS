@@ -9,5 +9,10 @@
     "lookupLabel": "WHSSD_medialGeniculateComplexOfTheDorsalThalamus",
     "name": "medial geniculate complex of the dorsal thalamus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "MG",
+        "medial geniculate body"
+    ],
+    "definition": null
 }

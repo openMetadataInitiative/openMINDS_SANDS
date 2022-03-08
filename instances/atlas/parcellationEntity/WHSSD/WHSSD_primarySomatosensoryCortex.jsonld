@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_primarySomatosensoryCortex",
     "name": "primary somatosensory cortex",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "S1"
+    ],
+    "definition": null
 }

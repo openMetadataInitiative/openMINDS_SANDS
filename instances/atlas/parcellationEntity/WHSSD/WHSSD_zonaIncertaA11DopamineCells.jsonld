@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_zonaIncertaA11DopamineCells",
     "name": "zona incerta, A11 dopamine cells",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "ZI-A11"
+    ],
+    "definition": null
 }

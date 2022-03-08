@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_primaryMotorArea",
     "name": "primary motor area",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "M1"
+    ],
+    "definition": null
 }

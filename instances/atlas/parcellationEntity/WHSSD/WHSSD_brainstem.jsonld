@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_brainstem",
     "name": "brainstem",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "BS"
+    ],
+    "definition": null
 }

@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_medullaOblongata",
     "name": "medulla oblongata",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "MOb"
+    ],
+    "definition": null
 }

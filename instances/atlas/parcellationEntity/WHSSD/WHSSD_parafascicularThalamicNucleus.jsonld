@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_parafascicularThalamicNucleus",
     "name": "parafascicular thalamic nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PF"
+    ],
+    "definition": null
 }

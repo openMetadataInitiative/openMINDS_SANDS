@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_mammillotegmentalTract",
     "name": "mammillotegmental tract",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "mtg"
+    ],
+    "definition": null
 }

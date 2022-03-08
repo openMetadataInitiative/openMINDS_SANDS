@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_superficialGrayLayerOfTheSuperiorColliculus",
     "name": "superficial gray layer of the superior colliculus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "SuG"
+    ],
+    "definition": null
 }

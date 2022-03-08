@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_parietalRegion",
     "name": "parietal region",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Par"
+    ],
+    "definition": null
 }

@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_primarySomatosensoryAreaDysgranularZone",
     "name": "primary somatosensory area, dysgranular zone",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "S1-dz"
+    ],
+    "definition": null
 }

@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_perirhinalCortex",
     "name": "perirhinal cortex",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PER"
+    ],
+    "definition": null
 }

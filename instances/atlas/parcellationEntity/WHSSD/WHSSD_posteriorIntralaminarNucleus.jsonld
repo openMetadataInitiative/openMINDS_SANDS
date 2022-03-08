@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_posteriorIntralaminarNucleus",
     "name": "posterior intralaminar nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PIL"
+    ],
+    "definition": null
 }

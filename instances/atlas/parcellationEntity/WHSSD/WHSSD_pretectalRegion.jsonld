@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_pretectalRegion",
     "name": "pretectal region",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "PRT"
+    ],
+    "definition": null
 }

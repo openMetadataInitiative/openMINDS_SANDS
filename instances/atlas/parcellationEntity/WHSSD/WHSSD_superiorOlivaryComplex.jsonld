@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_superiorOlivaryComplex",
     "name": "superior olivary complex",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "SO"
+    ],
+    "definition": null
 }

@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_bedNucleusOfTheStriaTerminalis",
     "name": "bed nucleus of the stria terminalis",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "BNST"
+    ],
+    "definition": null
 }

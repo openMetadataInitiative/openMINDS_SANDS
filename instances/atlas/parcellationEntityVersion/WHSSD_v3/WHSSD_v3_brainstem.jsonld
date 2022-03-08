@@ -34,5 +34,11 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v3",
-    "versionInnovation": null
+    "versionInnovation": null,
+    "correctedName": "brainstem, unspecified",
+    "alternativeName": [
+        "BS-u",
+        "brain stem, unspecified"
+    ],
+    "additionalRemarks": ".label file name \"brainstem\" has been corrected to .mbat file name \"brainstem, unspecified\"; for details, see atlas documentation"
 }

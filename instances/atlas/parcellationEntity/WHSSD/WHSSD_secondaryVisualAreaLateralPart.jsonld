@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_secondaryVisualAreaLateralPart",
     "name": "secondary visual area, lateral part",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "V2L"
+    ],
+    "definition": null
 }

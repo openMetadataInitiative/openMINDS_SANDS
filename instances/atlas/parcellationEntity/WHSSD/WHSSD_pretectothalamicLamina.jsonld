@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_pretectothalamicLamina",
     "name": "pretectothalamic lamina",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "ptl"
+    ],
+    "definition": null
 }

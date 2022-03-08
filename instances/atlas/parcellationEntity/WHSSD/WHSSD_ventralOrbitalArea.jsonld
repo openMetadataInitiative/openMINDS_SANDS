@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_ventralOrbitalArea",
     "name": "ventral orbital area",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "VO"
+    ],
+    "definition": null
 }

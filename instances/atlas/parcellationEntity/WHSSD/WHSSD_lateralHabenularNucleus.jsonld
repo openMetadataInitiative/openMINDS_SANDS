@@ -13,5 +13,9 @@
     "lookupLabel": "WHSSD_lateralHabenularNucleus",
     "name": "lateral habenular nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "LHb"
+    ],
+    "definition": null
 }

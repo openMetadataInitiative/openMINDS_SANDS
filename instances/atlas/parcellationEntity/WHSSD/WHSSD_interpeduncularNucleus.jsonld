@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_interpeduncularNucleus",
     "name": "interpeduncular nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "IP"
+    ],
+    "definition": null
 }

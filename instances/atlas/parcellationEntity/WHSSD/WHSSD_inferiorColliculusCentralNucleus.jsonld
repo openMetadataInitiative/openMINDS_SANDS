@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_inferiorColliculusCentralNucleus",
     "name": "inferior colliculus, central nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "CNIC"
+    ],
+    "definition": null
 }

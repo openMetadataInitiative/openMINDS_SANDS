@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_dorsalThalamus",
     "name": "dorsal thalamus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "Thal-D"
+    ],
+    "definition": null
 }

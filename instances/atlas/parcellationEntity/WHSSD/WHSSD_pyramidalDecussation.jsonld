@@ -25,5 +25,9 @@
     "lookupLabel": "WHSSD_pyramidalDecussation",
     "name": "pyramidal decussation",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "pyx"
+    ],
+    "definition": null
 }

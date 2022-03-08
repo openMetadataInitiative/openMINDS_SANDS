@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_thalamicTracts",
     "name": "thalamic tracts",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "tht"
+    ],
+    "definition": null
 }

@@ -9,5 +9,9 @@
     "lookupLabel": "WHSSD_retrosplenialCortex",
     "name": "retrosplenial cortex",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "RS"
+    ],
+    "definition": null
 }

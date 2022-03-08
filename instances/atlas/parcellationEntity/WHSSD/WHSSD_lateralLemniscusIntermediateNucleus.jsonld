@@ -19,5 +19,9 @@
     "lookupLabel": "WHSSD_lateralLemniscusIntermediateNucleus",
     "name": "lateral lemniscus, intermediate nucleus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+    "relatedUBERONTerm": null,
+    "alternativeName": [
+        "ILL"
+    ],
+    "definition": null
 }
