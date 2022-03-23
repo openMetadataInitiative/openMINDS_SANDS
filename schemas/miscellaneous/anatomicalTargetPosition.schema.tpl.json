@@ -1,0 +1,38 @@
+{
+    "_type": "https://openminds.ebrains.eu/sands/AnatomicalTargetPosition",
+    "required": [
+        "anatomicalTarget",
+        "targetIdentificationType"
+    ],
+    "properties": {
+        "anatomicalTarget": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "_instruction": "Add the anatomical target(s) for this position.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/sands/ParcellationEntity",
+                "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+                "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
+                "https://openminds.ebrains.eu/controlledTerms/CellType",
+                "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation"
+            ]
+        },
+        "targetIdentificationType": {
+            "_instruction": "Add the target identification type used to get to this anatomical position.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/controlledTerms/AnatomicalIdentificationType"
+            ]
+        },
+        "coordinates": {
+            "_instruction": "If possible, add the coordinates that best represent this anatomical position.",
+            "_linkedTypes": [
+                "https://openminds.ebrains.eu/sands/CoordinatePoint"
+            ]
+        },
+        "additionalRemarks": {
+            "type": "string",
+            "_instruction": "Enter any additional remarks that are needed to interpret the properties of this anatomical target position (e.g., what exatly the coordinates represent: central position, bottom, left corner edge, etc)."
+        }
+    }
+}
