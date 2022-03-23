@@ -1,0 +1,17 @@
+{
+    "_type": "https://openminds.ebrains.eu/sands/Circle",
+    "_categories": [
+        "mathematicalShapes"
+    ],
+    "required": [
+        "diameter"
+    ],
+    "properties": {
+        "diameter": {
+            "_instruction": "Define the diameter of this circle.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        }
+    }
+}
