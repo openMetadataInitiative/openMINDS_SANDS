@@ -1,0 +1,15 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_pallidum",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": null,
+    "hasVersion": null,
+    "lookupLabel": "Aseg_pallidum",
+    "name": "pallidum",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": {
+      "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/pallidum"
+    }
+}
