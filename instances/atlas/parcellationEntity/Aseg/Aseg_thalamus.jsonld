@@ -9,7 +9,5 @@
     "lookupLabel": "Aseg_thalamus",
     "name": "thalamus",
     "ontologyIdentifier": null,
-    "relatedUBERONTerm": {
-      "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/thalamicComplex"
-    }
+    "relatedUBERONTerm": null
 }
