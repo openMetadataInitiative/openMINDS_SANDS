@@ -1,0 +1,13 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_thalamus",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "hasParent": null,
+    "hasVersion": null,
+    "lookupLabel": "Aseg_thalamus",
+    "name": "thalamus",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": null
+}
