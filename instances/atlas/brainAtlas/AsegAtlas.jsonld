@@ -78,8 +78,8 @@
           "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_unknown"
         }
       ],
-		"ontologyIdentifier": null
-    "hasVersion": null
+    "ontologyIdentifier": null,
+    "hasVersion": null,
     "homepage": null,
     "howToCite": null,
     "shortName": "Aseg Atlas"
