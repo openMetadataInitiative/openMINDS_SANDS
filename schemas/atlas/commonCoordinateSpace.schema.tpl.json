@@ -37,11 +37,17 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File"
       ]
-    },    
+    },  
+    "description": {
+      "type": "string",
+      "_instruction": "Enter a description of this common coordinate space."
+    },  
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this common coordinate space.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/DOI"
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/ISBN",
+        "https://openminds.ebrains.eu/core/RRID"
       ]
     },
     "fullName": {
