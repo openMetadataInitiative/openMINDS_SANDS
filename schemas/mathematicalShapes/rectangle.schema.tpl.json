@@ -1,20 +1,21 @@
 {
-    "_type": "https://openminds.ebrains.eu/sands/Ellipse",
+    "_type": "https://openminds.ebrains.eu/sands/Rectangle",
     "_categories": [
         "mathematicalShapes"
     ],
     "required": [
-        "diameter"
+        "length",
+        "width"
     ],
     "properties": {
-        "semiMinorAxisLength": {
-            "_instruction": "Define the semi-minor axis length of this ellipse.",
+        "length": {
+            "_instruction": "Define the length of this rectangle.",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/QuantitativeValue"
             ]
         },
-        "semiMajorAxisLength": {
-            "_instruction": "Define the semi-major axis length of this ellipse.",
+        "width": {
+            "_instruction": "Define the length of this rectangle.",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/QuantitativeValue"
             ]

@@ -4,11 +4,11 @@
         "mathematicalShapes"
     ],
     "required": [
-        "diameter"
+        "radius"
     ],
     "properties": {
-        "diameter": {
-            "_instruction": "Define the diameter of this circle.",
+        "radius": {
+            "_instruction": "Define the radius of this circle.",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/QuantitativeValue"
             ]
