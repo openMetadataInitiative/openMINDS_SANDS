@@ -1,0 +1,24 @@
+{
+    "_type": "https://openminds.ebrains.eu/sands/Ellipse",
+    "_categories": [
+        "mathematicalShapes"
+    ],
+    "required": [
+        "semiMinorAxis",
+        "semiMajorAxis"
+    ],
+    "properties": {
+        "semiMinorAxis": {
+            "_instruction": "Define the length of the semi-minor axis of this ellipse.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        },
+        "semiMajorAxis": {
+            "_instruction": "Define the length of the semi-major axis of this ellipse.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        }
+    }
+}

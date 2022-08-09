@@ -1,0 +1,24 @@
+{
+    "_type": "https://openminds.ebrains.eu/sands/Rectangle",
+    "_categories": [
+        "mathematicalShapes"
+    ],
+    "required": [
+        "length",
+        "width"
+    ],
+    "properties": {
+        "length": {
+            "_instruction": "Define the length of this rectangle.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        },
+        "width": {
+            "_instruction": "Define the width of this rectangle.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        }
+    }
+}
