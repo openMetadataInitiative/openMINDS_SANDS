@@ -15,7 +15,7 @@
             ]
         },
         "width": {
-            "_instruction": "Define the length of this rectangle.",
+            "_instruction": "Define the width of this rectangle.",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/QuantitativeValue"
             ]
