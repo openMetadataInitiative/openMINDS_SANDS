@@ -9,13 +9,13 @@
     ],
     "properties": {
         "semiMinorAxis": {
-            "_instruction": "Define the semi-minor axis length of this ellipse.",
+            "_instruction": "Define the length of the semi-minor axis of this ellipse.",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/QuantitativeValue"
             ]
         },
         "semiMajorAxis": {
-            "_instruction": "Define the semi-major axis length of this ellipse.",
+            "_instruction": "Define the length of the semi-major axis of this ellipse.",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/QuantitativeValue"
             ]
