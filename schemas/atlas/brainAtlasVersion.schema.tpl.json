@@ -78,6 +78,18 @@
         ],
         "type": "string"
       }      
+    },
+    "studiedSpecimen": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several specimen (subjects and/or tissue samples) or specimen sets (subject groups and/or tissue sample collections) that were used to create this atlas version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Subject",
+        "https://openminds.ebrains.eu/core/SubjectGroup",
+        "https://openminds.ebrains.eu/core/TissueSample",
+        "https://openminds.ebrains.eu/core/TissueSampleCollection"
+      ]
     }
   }
 }
