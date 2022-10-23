@@ -93,6 +93,18 @@
       "type": "string",
       "_instruction": "Enter a short name (alias) for this common coordinate space that could be used as a shortened title for visualization in cases where there is only little space for display."
     },
+    "studiedSpecimen": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several specimen (subjects and/or tissue samples) or specimen sets (subject groups and/or tissue sample collections) that were used to create this common coordinate space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Subject",
+        "https://openminds.ebrains.eu/core/SubjectGroup",
+        "https://openminds.ebrains.eu/core/TissueSample",
+        "https://openminds.ebrains.eu/core/TissueSampleCollection"
+      ]
+    },
     "versionIdentifier": {
       "type": "string",
       "_instruction": "Enter the version identifier of this common coordinate space."
