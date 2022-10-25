@@ -173,6 +173,9 @@
 			},
 			{
 				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA_1909_area52"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA_1909_cerebralCortex"
 			}
 		],
 		"ontologyIdentifier": null
