@@ -2,12 +2,12 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://openminds.ebrains.eu/instances/ParcellationEntityVersion/DWMA_2018_spleniumOfCorpusCallosum_left",
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_spleniumOfCorpusCallosum_left",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
     "hasAnnotation": null,
     "hasParent": [
       {
-        "@id": "https://openminds.ebrains.eu/instances/ParcellationEntity/DWMA_corpusCallosum"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_corpusCallosum"
       }
     ],
     "hasVersion": null,
