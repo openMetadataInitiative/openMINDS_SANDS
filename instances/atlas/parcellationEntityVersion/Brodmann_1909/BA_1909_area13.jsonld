@@ -7,7 +7,7 @@
     "hasAnnotation": null,
     "hasParent": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA_cerebralCortex"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_cerebralCortex"
         }
     ],
     "lookupLabel": "BA_1909_area13",
