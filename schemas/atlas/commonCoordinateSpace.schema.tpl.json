@@ -93,7 +93,7 @@
       "type": "string",
       "_instruction": "Enter a short name (alias) for this common coordinate space that could be used as a shortened title for visualization in cases where there is only little space for display."
     },
-    "studiedSpecimen": {
+    "usedSpecimen": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
