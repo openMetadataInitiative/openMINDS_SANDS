@@ -3,14 +3,17 @@
     "@context": {
         "@vocab": "https://openminds.ebrains.eu/vocab/"
     },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA_1909_cerebralCortex",
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA_1909_area1",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
     "hasAnnotation": null,
-    "hasParent": null,
-    "hasVersion": null,
-    "lookupLabel": "BA_1909_cerebralCortex",
-    "name": "Brodmann cerebral cortex",
-    "ontologyIdentifier": "http://purl.obolibrary.org/obo/UBERON_0000956",
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA_cerebralCortex"
+        }
+    ],
+    "lookupLabel": "BA_1909_area1",
+    "name": "Brodmann area 1",
+    "ontologyIdentifier": "http://purl.obolibrary.org/obo/UBERON_0006099",
     "relationAssessment": null,
     "versionIdentifier": "1909",
     "versionInnovation": null
