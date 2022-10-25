@@ -79,7 +79,7 @@
         "type": "string"
       }      
     },
-    "studiedSpecimen": {
+    "usedSpecimen": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
