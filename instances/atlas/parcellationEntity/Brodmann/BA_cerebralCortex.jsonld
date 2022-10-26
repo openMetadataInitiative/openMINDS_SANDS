@@ -4,10 +4,13 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA_cerebralCortex",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+    "alternativeName": ["Brodmann area"] 
     "hasParent": null,
     "hasVersion": null,
     "lookupLabel": "BA_cerebralCortex",
     "name": "Brodmann cerebral cortex",
-    "ontologyIdentifier": "http://purl.obolibrary.org/obo/UBERON_0000956",
-    "relatedUBERONTerm": null
+    "ontologyIdentifier": "http://purl.obolibrary.org/obo/UBERON_0013529",
+    "relatedUBERONTerm": {
+        "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/cerebralCortex"
+    }
 }
