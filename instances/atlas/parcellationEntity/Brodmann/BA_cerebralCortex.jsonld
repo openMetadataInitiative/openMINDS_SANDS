@@ -6,7 +6,7 @@
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
     "alternativeName": [
       "Brodmann area"
-    ] 
+    ],
     "hasParent": null,
     "hasVersion": null,
     "lookupLabel": "BA_cerebralCortex",
