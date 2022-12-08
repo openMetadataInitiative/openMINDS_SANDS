@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/Schaefer400p7n_2018",
+    "@type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+    "abbreviation": "Schaefer400p7n",
+    "accessibility": {
+        "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
+    },
+    "atlasType": null,
+    "author": null,
+    "coordinateSpace": null,
+    "copyright": null,
+    "custodian": null,
+    "description": null,
+    "digitalIdentifier": null,
+    "fullDocumentation": null,
+    "fullName": "Schaefer Atlas with 400 parcels in 7 networks",
+    "funding": null,
+    "hasTerminologyVersion": {
+		  "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
+		  "definedIn": null,
+		  "hasEntityVersion":null,
+      "ontologyIdentifier": null
+	  },
+    "homepage": null,
+    "howToCite": null,
+    "isAlternativeVersionOf": null,
+    "isNewVersionOf": null,
+    "keyword": null,
+    "license": {
+        "@id": "https://openminds.ebrains.eu/instances/licenses/mit"
+    },
+    "ontologyIdentifier": null,
+    "otherContribution": null,
+    "relatedPublication": null,
+    "releaseDate": null,
+    "repository": null,
+    "shortName": "Schaefer Atlas 400p/7n",
+    "supportChannel": null,
+    "versionIdentifier": "2018",
+    "versionInnovation": null
+}
