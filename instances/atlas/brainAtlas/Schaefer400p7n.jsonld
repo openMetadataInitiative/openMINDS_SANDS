@@ -1,0 +1,27 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/brainAtlas/Schaefer400p7n",
+    "@type": "https://openminds.ebrains.eu/sands/BrainAtlas",
+    "abbreviation": "Schaefer400p7n",
+    "author": null,
+    "custodian": null,
+    "description": null,
+    "digitalIdentifier": null,
+    "fullName": "Schaefer Atlas with 400 parcels in 7 networks",
+    "hasTerminology": {
+		  "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
+		  "definedIn": null,
+		  "hasEntity": null
+		  "ontologyIdentifier": null
+	  },
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/Schaefer400p7n_2018"
+        }
+    ],
+    "homepage": null,
+    "howToCite": null,
+    "shortName": "Schaefer Atlas 400p/7n"
+}
