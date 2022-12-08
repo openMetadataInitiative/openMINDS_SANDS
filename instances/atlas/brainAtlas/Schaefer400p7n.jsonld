@@ -11,10 +11,10 @@
   "digitalIdentifier": null,
   "fullName": "Schaefer Atlas with 400 parcels in 7 networks",
   "hasTerminology": {
-	  "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
-	  "definedIn": null,
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
+    "definedIn": null,
     "hasEntity": null,
-		"ontologyIdentifier": null
+    "ontologyIdentifier": null
   },
   "hasVersion": [
     {
