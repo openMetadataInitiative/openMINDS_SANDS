@@ -4,7 +4,7 @@
 
 # openMINDS_SANDS
 
-The openMINDS_SANDS repository is part of the **open** **M**etadata **I**nitiative for **N**euroscience **D**ata **S**tructures (openMINDS). It provides metadata schemas for for **S**patial **A**nchoring of **N**euroscience **D**ata **S**tructures, including brain atlas definitions.
+The openMINDS_SANDS repository is part of the **open** **M**etadata **I**nitiative for **N**euroscience **D**ata **S**tructures (openMINDS). It provides metadata schemas for **S**patial **A**nchoring of **N**euroscience **D**ata **S**tructures, including brain atlas definitions.
 
 For more information please go to the [main openMINDS repository](https://github.com/HumanBrainProject/openMINDS).
 
