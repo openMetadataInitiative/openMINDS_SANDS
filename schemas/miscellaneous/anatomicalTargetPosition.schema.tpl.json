@@ -26,7 +26,7 @@
         },
         "coordinates": {
             "_instruction": "If possible, add the coordinates that best represent this anatomical position.",
-            "_linkedTypes": [
+            "_embeddedTypes": [
                 "https://openminds.ebrains.eu/sands/CoordinatePoint"
             ]
         },
