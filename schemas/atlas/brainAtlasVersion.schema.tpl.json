@@ -70,7 +70,9 @@
     "ontologyIdentifier": {
       "type": "string",
       "_instruction": "Enter the identifier (IRI) of the related ontological term matching this brain atlas version.",
-      "_formats": "iri"
+      "_formats": [
+        "iri"
+      ]
     },
     "usedSpecimen": {
       "type": "array",
