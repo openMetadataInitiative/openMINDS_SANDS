@@ -1,5 +1,9 @@
-<a href="https://github.com/HumanBrainProject/openMINDS_SANDS/blob/v1/img/openMINDS_SANDS_logo.png">
-    <img src="https://github.com/HumanBrainProject/openMINDS_SANDS/blob/v3/img/light_openMINDS-SANDS-logo.png" alt="openMINDS SANDS logo" title="openMINDS SANDS" align="right" height="70" />
+<a href="/img/light_openMINDS-SANDS-logo.png">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="/img/dark_openMINDS-SANDS-logo.png">
+    <source media="(prefers-color-scheme: light)" srcset="/img/light_openMINDS-SANDS-logo.png">
+    <img alt="openMINDS SANDS logo" src="/img/light_openMINDS-SANDS-logo.png" title="openMINDS SANDS" align="right" height="70">
+  </picture>
 </a>
 
 # openMINDS_SANDS
