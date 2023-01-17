@@ -15,6 +15,7 @@
                 "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
                 "https://openminds.ebrains.eu/sands/CustomAnatomicalEntity",
                 "https://openminds.ebrains.eu/controlledTerms/CellType",
+                "https://openminds.ebrains.eu/controlledTerms/SubcellularEntity",
                 "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation"
             ]
         },
@@ -33,10 +34,6 @@
         "additionalRemarks": {
             "type": "string",
             "_instruction": "Enter any additional remarks that are needed to interpret the properties of this anatomical target position (e.g., what exatly the coordinates represent: central position, bottom, left corner edge, etc)."
-        },
-        "lookupLabel": {
-            "type": "string",
-            "_instruction": "Enter a lookup label for this anatomical location that may help you to more easily find it again."
         }
     }
 }
