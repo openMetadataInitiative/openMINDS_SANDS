@@ -112,7 +112,7 @@
           "iri"        
         ],
         "type": "string"
-      }      
+      }
     },
     "releaseDate": {
       "type": "string",      
