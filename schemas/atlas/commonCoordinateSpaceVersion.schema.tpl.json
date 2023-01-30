@@ -48,11 +48,7 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File"
       ]
-    },  
-    "description": {
-      "type": "string",
-      "_instruction": "Enter a description of this common coordinate space version."
-    },  
+    },
     "digitalIdentifier": {
       "_instruction": "Add the globally unique and persistent digital identifier of this common coordinate space version.",
       "_linkedTypes": [
@@ -60,10 +56,6 @@
         "https://openminds.ebrains.eu/core/ISBN",
         "https://openminds.ebrains.eu/core/RRID"
       ]
-    },
-    "fullName": {
-      "type": "string",
-      "_instruction": "Enter a descriptive full name for this common coordinate space version."
     },
     "isAlternativeVersionOf": {
       "type": "array",
@@ -79,16 +71,6 @@
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
       ]
-    },
-    "homepage": {
-      "_instruction": "Add the uniform resource locator (URL) to the homepage of this common coordinate space version.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/URL"
-      ]
-    },
-    "howToCite": {
-      "type": "string",
-      "_instruction": "Enter the preferred citation text for this common coordinate space version. Leave blank if citation text can be extracted from the assigned digital identifier."
     },
     "license": {
       "_instruction": "Add the license for this common coordinate space version.",
@@ -113,17 +95,6 @@
         ],
         "type": "string"
       }
-    },
-    "releaseDate": {
-      "type": "string",      
-      "_formats": [
-        "date"
-      ],
-      "_instruction": "Enter the date of first publication of this common coordinate space version."
-    },
-    "shortName": {
-      "type": "string",
-      "_instruction": "Enter a short name (alias) for this common coordinate space version that could be used as a shortened title for visualization in cases where there is only little space for display."
     },
     "usedSpecimen": {
       "type": "array",
