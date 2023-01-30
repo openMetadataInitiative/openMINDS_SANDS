@@ -1,0 +1,60 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+  "_extends": "/core/schemas/products/researchProduct.schema.tpl.json",
+  "_categories": [
+    "coordinateSpace"
+  ],
+  "required": [
+    "usedSpecies"
+  ],
+  "properties": {
+    "abbreviation": {
+      "type": "string",
+      "_instruction": "Enter the official abbreviation of this common coordinate space."
+    },
+    "author": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "If necessary, add one or several authors (person or organization) that contributed to the production and publication of this common coordinate space.",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
+    },
+    "digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this common coordinate space. Note that this digital identifier will be used to reference all attached common coordinate space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/ISBN",
+        "https://openminds.ebrains.eu/core/RRID"
+      ]
+    },
+    "hasVersion": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several versions of this common coordinate space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+      ]
+    },
+    "ontologyIdentifier": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter the identifier(s) (IRI) of the related ontological term(s) matching this common coordinate space.",
+      "items": {
+        "_formats": [
+          "iri"        
+        ],
+        "type": "string"
+      }
+    },
+    "usedSpecies": {
+      "_instruction": "Add the species of the specimen that were used to create this common coordinate space.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Species"
+      ]
+    }
+  }
+}
