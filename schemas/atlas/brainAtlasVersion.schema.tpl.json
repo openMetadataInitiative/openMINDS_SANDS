@@ -27,9 +27,9 @@
       ]
     },  
     "coordinateSpace": {
-      "_instruction": "Add the common coordinate space in which this brain atlas version exists in.",
+      "_instruction": "Add the common coordinate space version in which this brain atlas version exists in.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpace"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
       ]
     },
     "digitalIdentifier": {
