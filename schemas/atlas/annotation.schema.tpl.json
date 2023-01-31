@@ -12,12 +12,9 @@
       ]
     },
     "anchorPoint": {
-      "type": "array",      
-      "minItems": 3,
-      "maxItems": 3,
-      "_instruction": "Add three-dimensional coordinates ([x, y, z]) that define the anchor point of the annotation in the given coordinate space version.",
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      "_instruction": "Add the anchor point for this annotation (e.g., the centroid).",
+      "_linkedTypes": [
+      "https://openminds.ebrains.eu/sands/CoordinatePoint"
       ]
     },
     "criteria": {
