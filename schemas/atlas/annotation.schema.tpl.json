@@ -6,7 +6,7 @@
   ],
   "properties": {   
     "criteriaType": {
-      "_instruction": "Add the border type of this annotation.",
+      "_instruction": "Add the criteria type for this annotation.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/AnnotationCriteriaType"
       ]
@@ -62,7 +62,7 @@
       ]
     },
     "type": {
-      "_instruction": "Add the topology type of this annotation.",
+      "_instruction": "Add the geometry type of this annotation.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/controlledTerms/AnnotationType"
       ]
