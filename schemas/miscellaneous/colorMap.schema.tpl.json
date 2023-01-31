@@ -1,0 +1,23 @@
+{
+    "_type": "https://openminds.ebrains.eu/sands/colorMap",
+    "required": [
+        "name",
+        "value"
+    ],
+    "properties": {
+      "codeSource": {
+        "type": "string",
+        "_instruction": "Enter the code to retieve the color map values (e.g., 'import matplotlib as mpl; cmap = mpl.get_cmap(name)')."
+      },
+      "name": {
+        "type": "string",
+        "_instruction": "Enter name of the color map."
+      },
+      "programmingLanguage": {
+        "_instruction": "Add the programming language which the color map is defined in.",
+        "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/ProgrammingLanguage"
+        ]
+      }  
+    }
+}
