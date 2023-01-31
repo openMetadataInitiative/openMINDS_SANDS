@@ -5,10 +5,10 @@
     "type"
   ],
   "properties": {   
-    "borderType": {
+    "criteriaType": {
       "_instruction": "Add the border type of this annotation.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/AnnotationBorderType"
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationCriteriaType"
       ]
     },
     "centroid": {
