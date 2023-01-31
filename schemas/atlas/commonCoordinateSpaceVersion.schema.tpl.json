@@ -6,8 +6,7 @@
   ],
   "required": [
     "anatomicalAxesOrientation",   
-    "axesOrigin", 
-    "digitalIdentifier",
+    "axesOrigin",
     "nativeUnit"
   ],
   "properties": {
