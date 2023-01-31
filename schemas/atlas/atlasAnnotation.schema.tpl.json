@@ -1,6 +1,6 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-  "_extends": "annotation.schema.tpl.json",
+  "_extends": "atlas/annotation.schema.tpl.json",
   "required": [
     "coordinateSpace"
   ],
