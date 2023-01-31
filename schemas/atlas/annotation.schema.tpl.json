@@ -11,11 +11,11 @@
         "https://openminds.ebrains.eu/controlledTerms/AnnotationCriteriaType"
       ]
     },
-    "centroid": {
+    "anchorPoint": {
       "type": "array",      
       "minItems": 3,
       "maxItems": 3,
-      "_instruction": "Add three-dimensional coordinates ([x, y, z]) that define the geometric center of the annotation in the given coordinate space version.",
+      "_instruction": "Add three-dimensional coordinates ([x, y, z]) that define the anchor point of the annotation in the given coordinate space version.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
