@@ -15,7 +15,7 @@
     },
     "specification": {
       "_instruction": "Add the non-parametric or parametric specification of this annotation.",
-      "_embeddedTypes": [
+      "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File",
         "https://openminds.ebrains.eu/core/PropertyValueList"
       ]
