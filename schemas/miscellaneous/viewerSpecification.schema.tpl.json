@@ -11,7 +11,7 @@
                 "https://openminds.ebrains.eu/sands/CoordinatePoint"
             ]
         },
-        "targetPosition": {
+        "cameraPosition": {
             "_instruction": "Add the camera position that the viewer should use.",
             "_linkedTypes": [
                 "https://openminds.ebrains.eu/sands/CoordinatePoint"
