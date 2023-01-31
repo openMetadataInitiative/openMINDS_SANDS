@@ -12,7 +12,7 @@
       ]
     },
     "anchorPoint": {
-      "_instruction": "Add the anchor point for this annotation (e.g., the centroid).",
+      "_instruction": "Add the anchor point for this annotation (e.g., its centroid).",
       "_linkedTypes": [
       "https://openminds.ebrains.eu/sands/CoordinatePoint"
       ]
