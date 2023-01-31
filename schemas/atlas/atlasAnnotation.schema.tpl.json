@@ -1,0 +1,21 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+  "_extends": "annotation.schema.tpl.json",
+  "required": [
+    "coordinateSpace"
+  ],
+  "properties": {   
+    "coordinateSpaceVersion": {
+      "_instruction": "Add the coordinate space version for this annotation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+      ]
+    },
+    "specification": {
+      "_instruction": "Add the non-parametric specification of this annotation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ]
+    }
+  }
+}
