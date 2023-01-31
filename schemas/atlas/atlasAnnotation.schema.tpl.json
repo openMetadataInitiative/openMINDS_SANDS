@@ -5,7 +5,7 @@
     "coordinateSpace"
   ],
   "properties": {   
-    "coordinateSpaceVersion": {
+    "coordinateSpace": {
       "_instruction": "Add the coordinate space version for this annotation.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
