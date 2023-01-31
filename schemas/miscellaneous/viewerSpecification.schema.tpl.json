@@ -1,12 +1,12 @@
 {
-    "_type": "https://openminds.ebrains.eu/sands/viewerSpecification",
+    "_type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
     "required": [
-        "targetPosition",
+        "anchorPoint",
         "targetIdentificationType"
     ],
     "properties": {
-        "targetPosition": {
-            "_instruction": "Add the target position that the viewer should use. Either state the centroid of the annotation again or state another coordinate point.",
+        "anchorPoint": {
+            "_instruction": "Add the anchor point that the viewer should use. Either state the anchor point of the annotation again or state another coordinate point.",
             "_linkedTypes": [
                 "https://openminds.ebrains.eu/sands/CoordinatePoint"
             ]
