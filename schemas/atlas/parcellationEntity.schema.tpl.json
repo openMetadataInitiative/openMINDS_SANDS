@@ -61,7 +61,8 @@
     "relatedUBERONTerm":{
       "_instruction": "Add the related UBERON parcellation term.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation"
+        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation",
+        "https://openminds.ebrains.eu/controlledTerms/Organ"
       ]
     }
   }
