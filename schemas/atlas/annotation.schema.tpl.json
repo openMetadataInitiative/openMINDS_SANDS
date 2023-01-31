@@ -1,6 +1,6 @@
 {
   "required": [
-    "borderType",
+    "criteriaType",
     "criteriaQualityType",
     "type"
   ],
