@@ -8,7 +8,7 @@
     "properties": {
       "codeSource": {
         "type": "string",
-        "_instruction": "Enter the code to retieve the color map values (e.g., 'import matplotlib as mpl; cmap = mpl.get_cmap(name)')."
+        "_instruction": "Enter the code to retrieve the color map values (e.g., 'import matplotlib as mpl; cmap = mpl.get_cmap(name)')."
       },
       "name": {
         "type": "string",
