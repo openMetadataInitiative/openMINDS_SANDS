@@ -1,75 +1,22 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/CustomAnnotation",
+  "_extends": "atlas/annotation.schema.tpl.json",
   "required": [
-    "coordinateSpace",
-    "criteriaQualityType",
-    "internalIdentifier",    
-    "visualizedIn"
+    "coordinateSpace"
   ],
   "properties": {   
-    "annotationType": {
-      "_instruction": "Add the type of this custom annotation.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/AnnotationType"
-      ]
-    },  
-    "bestViewPoint": {      
-      "_instruction": "Add the coordinate point identifying the best view of this custom annotation in space.",
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/sands/CoordinatePoint"
-      ]
-    },
     "coordinateSpace": {
-      "_instruction": "Add the coordinate space in which this custom annotation exists.",
+      "_instruction": "Add the coordinate space for this annotation.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
         "https://openminds.ebrains.eu/sands/CustomCoordinateSpace"
       ]
     },
-    "criteria": {
-      "_instruction": "Add the protocol execution defining the criteria that were applied to produce this custom annotation.",
+    "specification": {
+      "_instruction": "Add the non-parametric or parametric specification of this annotation.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/ProtocolExecution"
-      ]
-    },
-    "criteriaQualityType": {
-      "_instruction": "Add the quality type of the stated criteria used to define this custom annotation.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType"
-      ]
-    },        
-    "displayColor": {
-      "_instruction": "Enter the preferred display color (HEX) for this custom annotation.",
-      "type": "string",
-      "pattern": "^#[0-9A-Fa-f]{6}$"
-    },
-    "inspiredBy": {
-      "type": "array",      
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add one or several (source) files that inspired the definition of this custom annotation.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File"
-      ]
-    },    
-    "internalIdentifier": {
-      "type": "string",
-      "_instruction": "Enter the identifier used for this custom annotation within the file it is stored in."
-    },
-    "laterality": {
-      "type": "array",
-      "maxItems": 2,      
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add one or both sides of the body, bilateral organ or bilateral organ part that this custom annotation is defined in.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Laterality"
-      ]
-    },
-    "visualizedIn": {
-      "_instruction": "Add the (source) image file in which this custom annotation is visualized in.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/core/File"
+        "https://openminds.ebrains.eu/core/File",
+        "https://openminds.ebrains.eu/core/PropertyValueList"
       ]
     }
   }
