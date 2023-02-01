@@ -1,5 +1,5 @@
 {
-    "_type": "https://openminds.ebrains.eu/sands/singleColor",
+    "_type": "https://openminds.ebrains.eu/sands/SingleColor",
     "required": [
         "value"
     ],
