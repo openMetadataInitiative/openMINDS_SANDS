@@ -1,0 +1,30 @@
+{
+	"@context": {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/WHSSD",
+	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+	"abbreviation": "WHSSD"
+	"author": null,
+	"custodian": null,
+	"description": null,
+	"digitalIdentifier": null,
+	"fullName": "Waxholm Space of the Sprague Dawley Rat Brain (coordinate space)",
+	"hasVersion": [
+		{
+			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/WHSSD_v1.01"
+		},
+		{
+			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/WHSSD_v1"
+		}
+	],
+	"homepage": {
+		"@id": "https://www.nitrc.org/projects/whs-sd-atlas"
+	},
+	"howToCite": null,
+  "ontologyIdentifier": null,
+	"shortName": "WHS of the SD Rat Brain"
+	"usedSpecies": {
+		"@id": "https://openminds.ebrains.eu/instances/species/rattusNorvegicus"
+	}
+}

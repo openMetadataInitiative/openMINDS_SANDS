@@ -1,0 +1,27 @@
+{
+	"@context": {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/MNI-ICBM152-linear",
+	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+	"abbreviation": "ICBM152l"
+	"author": null,
+	"custodian": null,
+	"description": "",
+	"digitalIdentifier": null,
+	"fullName": "Linear ICBM Average Brain (ICBM152) Stereotaxic Registration Model",
+	"hasVersion": [
+		{
+			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/MNI-ICBM152-linear_2001"
+		}
+	],
+	"homepage": {
+		"@id": "https://www.mcgill.ca/bic/software/tools-data-analysis/anatomical-mri/atlases"
+	},
+	"howToCite": "Mazziotta JC, Toga AW, Evans AC, Fox P, and Lancaster J; 'A probabilistic atlas of the human brain: theory and rationale for its development'; NeuroImage; 1995 Jun; 2(2a):89–101. [doi: 10.1006/nimg.1995.1012](https://doi.org/10.1006/nimg.1995.1012)\nMazziotta JC, Toga AW, Evans AC, Fox P, Lancaster J, Zilles K, Woods R, Paus T, Simpson G, Pike B, Holmes C, Collins L, Thompson P, MacDonald D, Iacoboni M, Schormann T, Amunts K, Palomero-Gallagher N, Geyer S, Parsons L, Narr K, Kabani N, Le Goualher G, Boomsma D, Cannon T, Kawashima R and Mazoyer B; 'A probabilistic atlas and reference system for the human brain: International Consortium for Brain Mapping (ICBM)'; Phil. Trans. R. Soc. Lond. B; 2001 Aug, 356(1412):1293–1322. [doi: 10.1098/rstb.2001.0915](http://doi.org/10.1098/rstb.2001.0915)\nMazziotta J, Toga A, Evans A, Fox P, Lancaster J, Zilles K, Woods R, Paus T, Simpson G, Pike B, Holmes C, Collins L, Thompson P, MacDonald D, Iacoboni M, Schormann T, Amunts K, Palomero-Gallagher N, Geyer S, Parsons L, Narr K, Kabani N, Le Goualher G, Feidler J, Smith K, Boomsma D, Hulshoff Pol H, Cannon T, Kawashima R, and Mazoyer B; 'A four-dimensional probabilistic atlas of the human brain'; J Am Med Inform Assoc; 2001 Sep-Oct; 8(5):401-30. [doi: 10.1136/jamia.2001.0080401](https://doi.org/10.1136%2Fjamia.2001.0080401)",
+  "ontologyIdentifier": null,
+	"shortName": "ICBM152 linear"
+	"usedSpecies": {
+		"@id": "https://openminds.ebrains.eu/instances/species/homoSapiens"
+	}
+}

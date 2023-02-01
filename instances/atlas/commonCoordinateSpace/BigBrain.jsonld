@@ -1,0 +1,27 @@
+{
+	"@context": {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/BigBrain",
+	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+	"abbreviation": "BigBrain"
+	"author": null,
+	"custodian": null,
+	"description": null,
+	"digitalIdentifier": null,
+	"fullName": "BigBrain Whole-Brain Model",
+	"hasVersion": [
+		{
+			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/BigBrain_2015"
+		}
+	],
+	"homepage": {
+		"@id": "https://bigbrainproject.org/"
+	},
+	"howToCite": null,
+  "ontologyIdentifier": null,
+	"shortName": "BigBrain Model"
+	"usedSpecies": {
+		"@id": "https://openminds.ebrains.eu/instances/species/homoSapiens"
+	}
+}

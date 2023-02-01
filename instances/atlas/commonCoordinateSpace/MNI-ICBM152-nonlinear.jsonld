@@ -1,0 +1,27 @@
+{
+	"@context": {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/MNI-ICBM152-nonlinear",
+	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+	"abbreviation": "ICBM152nl"
+	"author": null,
+	"custodian": null,
+	"description": "",
+	"digitalIdentifier": null,
+	"fullName": "MNI ICBM152 non-linear 6th generation symmetric Average Brain Stereotaxic Registration Model",
+	"hasVersion": [
+		{
+			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/MNI-ICBM152-nonlinear_2006"
+		}
+	],
+	"homepage": {
+		"@id": "https://www.mcgill.ca/bic/software/tools-data-analysis/anatomical-mri/atlases"
+	},
+	"howToCite": "Grabner G, Janke AL, Budge MM, Smith D, Pruessner J, and Collins DL 'Symmetric atlasing and model based segmentation: an application to the hippocampus in older adults'; Med Image Comput Comput Assist Interv; 2006; 9(Pt 2):58-66. [doi: 10.1007/11866763_8](https://doi.org/10.1007/11866763_8)",
+  "ontologyIdentifier": null,
+	"shortName": "ICBM152 nonlinear"
+	"usedSpecies": {
+		"@id": "https://openminds.ebrains.eu/instances/species/homoSapiens"
+	}
+}
