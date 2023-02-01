@@ -1,8 +1,7 @@
 {
     "_type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
     "required": [
-        "anchorPoint",
-        "targetIdentificationType"
+        "anchorPoint"
     ],
     "properties": {
         "anchorPoint": {
