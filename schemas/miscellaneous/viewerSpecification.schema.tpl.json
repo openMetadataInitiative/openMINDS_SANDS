@@ -6,13 +6,13 @@
     "properties": {
         "anchorPoint": {
             "_instruction": "Add the anchor point that the viewer should use. Either state the anchor point of the annotation again or state another coordinate point.",
-            "_linkedTypes": [
+            "_embeddedTypes": [
                 "https://openminds.ebrains.eu/sands/CoordinatePoint"
             ]
         },
         "cameraPosition": {
             "_instruction": "Add the camera position that the viewer should use.",
-            "_linkedTypes": [
+            "_embeddedTypes": [
                 "https://openminds.ebrains.eu/sands/CoordinatePoint"
             ]
         },
