@@ -2,7 +2,8 @@
     "_type": "https://openminds.ebrains.eu/sands/ColorMap",
     "required": [
         "name",
-        "value"
+        "value",
+        "programmingLanguage"
     ],
     "properties": {
       "codeSource": {
