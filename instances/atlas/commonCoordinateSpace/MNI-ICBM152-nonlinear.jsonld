@@ -4,7 +4,7 @@
 	},
 	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/MNI-ICBM152-nonlinear",
 	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
-	"abbreviation": "ICBM152nl"
+	"abbreviation": "ICBM152nl",
 	"author": null,
 	"custodian": null,
 	"description": "",
