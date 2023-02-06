@@ -4,7 +4,7 @@
 	},
 	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/MNI-ICBM152-nonlinear-2009",
 	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
-	"abbreviation": "ICBM152nl2009"
+	"abbreviation": "ICBM152nl2009",
 	"author": null,
 	"custodian": null,
 	"description": "",
