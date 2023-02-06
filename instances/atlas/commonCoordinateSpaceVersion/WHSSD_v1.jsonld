@@ -2,7 +2,7 @@
 	"@context": {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1.01",
+	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1",
 	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
 	"abbreviation": "WHSSD",
 	"accessibility": null,
@@ -26,9 +26,7 @@
 	},
 	"howToCite": null,
 	"isAlternativeVersionOf": null,
-	"isNewVersionOf": {
-		"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/WHSSD_v1"
-	},
+	"isNewVersionOf": null,
 	"keyword": null,
 	"license": null,
 	"nativeUnit": null,

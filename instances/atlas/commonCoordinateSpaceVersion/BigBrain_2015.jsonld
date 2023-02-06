@@ -1,25 +1,43 @@
 {
-    "@context": {
-        "@vocab": "https://openminds.ebrains.eu/vocab/"
-    },
-    "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/BigBrain_v1",
-    "@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
-    "anatomicalAxesOrientation": null,
-    "axesOrigin": null,
-    "defaultImage": null,
-    "digitalIdentifier": null,
-    "homepage": {
-        "@id": "https://bigbrainproject.org/"
-    },
-    "howToCite": null,
-    "fullName": "The BigBrain whole-brain model", 
-    "nativeUnit": [
-        {
-            "@id": "https://openminds.ebrains.eu/instances/unitOfMeasurement/micrometer"
-        }
-    ],
-    "ontologyIdentifier": null,
-    "releaseDate": "2013-06-21",
-    "shortName": "BigBrain model",
-    "versionIdentifier": "2015"
+	"@context": {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/BigBrain_v1"
+	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+	"abbreviation": null,
+	"accessibility": null,
+	"anatomicalAxesOrientation": null,
+  "author": null,
+	"axesOrigin": null,
+	"copyright": null,
+	"custodian": null,
+	"defaultImage": null,
+	"description": null,
+	"digitalIdentifier": null,
+	"fullDocumentation": null,
+	"fullName": "BigBrain Whole-Brain Model",
+	"funding": null,
+	"homepage": {
+		"@id": "https://bigbrainproject.org/"
+	},
+	"howToCite": null,
+	"isAlternativeVersionOf": null,
+	"isNewVersionOf": null,
+	"keyword": null,
+	"license": null,
+	"nativeUnit": [
+		{
+			"@id": "https://openminds.ebrains.eu/instances/unitOfMeasurement/micrometer"
+		}
+	],
+	"ontologyIdentifier": null,
+	"otherContribution": null,
+	"relatedPublication": null,
+	"releaseDate": "2013-06-21",
+	"repository": null,
+	"supportChannel": null,
+	"shortName": "BigBrain Model",
+	"usedSpecimen": null,
+	"versionIdentifier": "2015",
+	"versionInnovation": null
 }
