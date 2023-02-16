@@ -4,11 +4,11 @@
     "hasEntity"
   ],
   "properties": {
-    "definedIn": {
+    "dataLocation": {
       "type": "array",      
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several files in which this parcellation terminology is stored in.",
+      "_instruction": "Add the location of all files in which this parcellation terminology is stored.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File"
       ]
@@ -17,7 +17,7 @@
       "type": "array",      
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several parcellation entities which belong to this parcellation terminology.",
+      "_instruction": "Add all parcellation entities which belong to this parcellation terminology.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/ParcellationEntity"
       ]
@@ -26,12 +26,12 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Enter the identifier(s) (IRI) of the related ontological term(s) matching this parcellation terminology.",
+      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the related ontological terms matching this parcellation terminology.",
       "items": {
+        "type": "string",
         "_formats": [
           "iri"        
-        ],
-        "type": "string"
+        ]
       }      
     }
   }
