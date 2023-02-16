@@ -6,7 +6,7 @@
   ],
   "properties": {   
     "coordinateSpace": {
-      "_instruction": "Add the coordinate space for this annotation.",
+      "_instruction": "Add the coordinate space for this custom annotation.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
         "https://openminds.ebrains.eu/sands/CustomCoordinateSpace"
