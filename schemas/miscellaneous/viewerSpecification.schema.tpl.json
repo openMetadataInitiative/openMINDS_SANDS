@@ -1,31 +1,31 @@
 {
-    "_type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
-    "required": [
-        "anchorPoint"
-    ],
-    "properties": {
-        "anchorPoint": {
-            "_instruction": "Add the anchor point that the viewer should use. Either state the anchor point of the annotation again or state another coordinate point.",
-            "_embeddedTypes": [
-                "https://openminds.ebrains.eu/sands/CoordinatePoint"
-            ]
-        },
-        "cameraPosition": {
-            "_instruction": "Add the camera position that the viewer should use.",
-            "_embeddedTypes": [
-                "https://openminds.ebrains.eu/sands/CoordinatePoint"
-            ]
-        },
-        "preferredDisplayColor": {
-            "_instruction": "Add the preferred color for the annotation that the viewer should display.",
-            "_linkedTypes": [
-                "https://openminds.ebrains.eu/sands/SingleColor",
-                "https://openminds.ebrains.eu/sands/ColorMap"
-            ]
-        },        
-      "additionalRemarks": {
-            "type": "string",
-            "_instruction": "Enter any additional remarks that are needed to interpret the properties of the viewer specification."
-        }
+  "_type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+  "required": [
+    "anchorPoint"
+  ],
+  "properties": {    
+    "additionalRemarks": {
+      "type": "string",
+      "_instruction": "Enter any additional remarks concerning this viewer specification."
+    },
+    "anchorPoint": {
+      "_instruction": "Enter the anchor point that a viewer should use. Either state the anchor point of the annotation again or state another coordinate point.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/sands/CoordinatePoint"
+      ]
+    },
+    "cameraPosition": {
+      "_instruction": "Enter the camera position that a viewer should use.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/sands/CoordinatePoint"
+      ]
+    },
+    "preferredDisplayColor": {  
+      "_instruction": "Add the preferred color that a viewer should display.",
+      "_linkedTypes": [        
+        "https://openminds.ebrains.eu/sands/ColorMap",
+        "https://openminds.ebrains.eu/sands/SingleColor"
+      ]
     }
+  }
 }
