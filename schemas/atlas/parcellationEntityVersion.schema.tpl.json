@@ -1,35 +1,40 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
   "_categories": [
+    "anatomicalLocation",
     "studyTarget"
   ],
   "required": [
     "name",
     "versionIdentifier"  
   ],
-  "properties": {    
+  "properties": {        
+    "abbreviation": {
+      "type": "string",
+      "_instruction": "Enter the official abbreviation of this parcellation entity version."
+    },
     "additionalRemarks": {
       "type": "string",
-      "_instruction": "Enter additional remarks about the parcellation entity version."
+      "_instruction": "Enter any additional remarks concerning this parcellation entity version."
     },
     "alternativeName": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "If applicable, enter one or several alternative names, inlcuding abbreviations, for this parcellation entity version.",
+      "_instruction": "Enter any alternative names, including any alternative abbreviations, for this parcellation entity version.",
       "items": {
         "type": "string"
       }
     },  
     "correctedName": {
       "type": "string",
-      "_instruction": "If necessary, enter a refined/correct name for this parcellation entity version."
+      "_instruction": "Enter the refined or corrected name of this parcellation entity version."
     },  
     "hasAnnotation": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all atlas annotation which define this parcellation entity version.",
+      "_instruction": "Add all atlas annotations which define this parcellation entity version.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/sands/AtlasAnnotation"
       ]
@@ -38,7 +43,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add the defined anatomical parent structure (version) for this parcellation entity version, or several if required.",
+      "_instruction": "Add all anatomical parent structures (or version of the structures) for this parcellation entity as defined within corresponding brain atlas version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/ParcellationEntity",       
         "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
@@ -46,29 +51,29 @@
     },
     "lookupLabel": {
       "type": "string",
-      "_instruction": "Enter a lookup label for this parcellation entity version."
+      "_instruction": "Enter a lookup label for this parcellation entity version that may help you to find this instance more easily."
     },
     "name": {
       "type": "string",
-      "_instruction": "Enter the version specific name for this parcellation entity version."
+      "_instruction": "Enter the name of this parcellation entity version."
     },     
     "ontologyIdentifier": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Enter the identifier(s) (IRI) of the related ontological term(s) matching this parcellation entity version.",
-      "items": {
+      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the related ontological terms matching this parcellation entity version.",
+      "items": {      
+        "type": "string",
         "_formats": [
           "iri"        
-        ],
-        "type": "string"
+        ]
       }      
     }, 
     "relationAssessment": {
       "type": "array",      
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several relations of this parcellation entity version to parcellation entity versions of other parcellation terminology versions.",
+      "_instruction": "Add all relations (qualitative or quantitative) of this parcellation entity version to other anatomical entities.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/sands/QualitativeRelationAssessment",
         "https://openminds.ebrains.eu/sands/QuantitativeRelationAssessment"
@@ -80,7 +85,7 @@
     },
     "versionInnovation": {
       "type": "string",
-      "_instruction": "Enter a short description of the novelties/peculiarities of this parcellation entity version."
+      "_instruction": "Enter a short description (or summary) of the novelties/peculiarities of this parcellation entity version in comparison to its preceding versions. If this parcellation entity version is the first version, leave blank."
     }
   }
 }
