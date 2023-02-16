@@ -1,19 +1,19 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
   "required": [
-    "hasEntityVersion"
+    "hasEntity"
   ],
   "properties": {
-    "definedIn": {
+    "dataLocation": {
       "type": "array",      
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several files in which this parcellation terminology version is stored in.",
+      "_instruction": "Add the location of all files in which this parcellation terminology version is stored.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/File"
       ]
     },
-    "hasEntityVersion": {
+    "hasEntity": {
       "type": "array",      
       "minItems": 1,
       "uniqueItems": true,
@@ -26,12 +26,12 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Enter the identifier(s) (IRI) of the related ontological term(s) matching this parcellation terminology version.",
-      "items": {
+      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the related ontological terms matching this parcellation terminology version.",
+      "items": {        
+        "type": "string",
         "_formats": [
           "iri"        
-        ],
-        "type": "string"
+        ]
       }      
     }
   }
