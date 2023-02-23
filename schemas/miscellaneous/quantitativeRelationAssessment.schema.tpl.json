@@ -18,7 +18,7 @@
       ]
     },    
     "quantitativeOverlap": {
-      "_instruction": "Add the quantitative overlap between the two anatomical entities preferably expressed in percentage.",
+      "_instruction": "Enter the quantitative overlap between the two anatomical entities, preferably expressed in percentage.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue",
         "https://openminds.ebrains.eu/core/QuantitativeValueRange"

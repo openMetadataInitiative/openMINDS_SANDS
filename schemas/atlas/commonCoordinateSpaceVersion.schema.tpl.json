@@ -1,0 +1,111 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+  "_extends": "/core/schemas/products/researchProductVersion.schema.tpl.json",
+  "_categories": [
+    "coordinateSpace"
+  ],
+  "required": [
+    "anatomicalAxesOrientation",   
+    "axesOrigin",
+    "nativeUnit"
+  ],
+  "properties": {
+    "abbreviation": {
+      "type": "string",
+      "_instruction": "Enter the official abbreviation of this common coordinate space version."
+    },
+    "anatomicalAxesOrientation": {
+      "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (stated as XYZ) for this common coordinate space version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/AnatomicalAxesOrientation"
+      ]
+    },
+    "author": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "If necessary, add one or several authors (person or organization) that contributed to the production and publication of this common coordinate space version. Note that these authors will overwrite the once provided in the common coordinate space product this version belongs to.",
+      "_linkedCategories": [
+        "legalPerson"
+      ]
+    },
+    "axesOrigin": {
+      "type": "array",        
+      "maxItems": 3,    
+      "minItems": 2,
+      "uniqueItems": true,
+      "_instruction": "Enter the origin of this common coordinate space version (central point where axes intersect; 2D: [x, y] or 3D:[x, y, z]).",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    },
+    "defaultImage": {
+      "type": "array",      
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several image files used as visual representation of this common coordinate space version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ]
+    },
+    "digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this common coordinate space version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/DOI",
+        "https://openminds.ebrains.eu/core/ISBN",
+        "https://openminds.ebrains.eu/core/RRID"
+      ]
+    },
+    "isAlternativeVersionOf": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all common coordinate space versions that can be used alternatively to this common coordinate space version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+      ]
+    },
+    "isNewVersionOf": {
+      "_instruction": "Add the common coordinate space version preceding this common coordinate space version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
+      ]
+    },
+    "license": {
+      "_instruction": "Add the license for this common coordinate space version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/License"
+      ]
+    },
+    "nativeUnit": {
+      "_instruction": "Add the native unit that is used for this common coordinate space version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/UnitOfMeasurement"
+      ]
+    },    
+    "ontologyIdentifier": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter the identifier(s) (IRI) of the related ontological term(s) matching this common coordinate space version.",
+      "items": {
+        "_formats": [
+          "iri"        
+        ],
+        "type": "string"
+      }
+    },
+    "usedSpecimen": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several specimen (subjects and/or tissue samples) or specimen sets (subject groups and/or tissue sample collections) that were used to create this common coordinate space version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Subject",
+        "https://openminds.ebrains.eu/core/SubjectGroup",
+        "https://openminds.ebrains.eu/core/TissueSample",
+        "https://openminds.ebrains.eu/core/TissueSampleCollection"
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "required": [
+    "criteriaType",
+    "criteriaQualityType",
+    "type"
+  ],
+  "properties": {   
+    "criteriaType": {
+      "_instruction": "Add the criteria type for this annotation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationCriteriaType"
+      ]
+    },
+    "anchorPoint": {
+      "_instruction": "Add the anchor point for this annotation (e.g., its centroid).",
+      "_embeddedTypes": [
+      "https://openminds.ebrains.eu/sands/CoordinatePoint"
+      ]
+    },
+    "criteria": {
+      "_instruction": "Add the protocol execution defining the criteria that were applied to produce this annotation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/ProtocolExecution"
+      ]
+    },
+    "criteriaQualityType": {
+      "_instruction": "Add the quality type of the stated criteria used to define this annotation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/CriteriaQualityType"
+      ]
+    },
+    "inspiredBy": {
+      "type": "array",      
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or several (source) files that inspired the definition of this annotation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/File"
+      ]
+    },    
+    "internalIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the identifier used for this annotation within the file it is stored in."
+    },
+    "laterality": {
+      "type": "array",
+      "maxItems": 2,      
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add one or both sides of the body, bilateral organ or bilateral organ part that this annotation is defined in.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Laterality"
+      ]
+    },
+    "preferredVisualization": {
+      "_instruction": "Add preferred viewer specifications to visualize this annotation.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/sands/ViewerSpecification"
+      ]
+    },
+    "type": {
+      "_instruction": "Add the geometry type of this annotation.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/AnnotationType"
+      ]
+    }
+  }
+}

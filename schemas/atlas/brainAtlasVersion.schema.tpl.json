@@ -27,9 +27,9 @@
       ]
     },  
     "coordinateSpace": {
-      "_instruction": "Add the common coordinate space in which this brain atlas version exists in.",
+      "_instruction": "Add the common coordinate space version in which this brain atlas version exists in.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpace"
+        "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
       ]
     },
     "digitalIdentifier": {
@@ -68,16 +68,23 @@
       ]
     },
     "ontologyIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the identifier (IRI) of the related ontological term matching this brain atlas version.",
+      "_formats": [
+        "iri"
+      ]
+    },
+    "usedSpecimen": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Enter the identifier(s) (IRI) of the related ontological term(s) matching this brain atlas version.",
-      "items": {
-        "_formats": [
-          "iri"        
-        ],
-        "type": "string"
-      }      
+      "_instruction": "Add one or several specimen (subjects and/or tissue samples) or specimen sets (subject groups and/or tissue sample collections) that were used to create this atlas version.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/core/Subject",
+        "https://openminds.ebrains.eu/core/SubjectGroup",
+        "https://openminds.ebrains.eu/core/TissueSample",
+        "https://openminds.ebrains.eu/core/TissueSampleCollection"
+      ]
     }
   }
 }

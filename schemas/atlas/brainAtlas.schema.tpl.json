@@ -14,13 +14,13 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several authors (person or organization) that contributed to the production and publication of this brain atlas.",
+      "_instruction": "Add all parties that contributed to this brain atlas as authors.",
       "_linkedCategories": [
         "legalPerson"
       ]
     },
     "digitalIdentifier": {
-      "_instruction": "Add the globally unique and persistent digital identifier of this brain atlas.",
+      "_instruction": "Add the globally unique and persistent digital identifier of this research product. Note that this digital identifier will be used to reference all attached research product versions.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/core/DOI",
         "https://openminds.ebrains.eu/core/ISBN",
@@ -28,7 +28,7 @@
       ]
     },    
     "hasTerminology": {
-      "_instruction": "Add the parcellation terminology for this brain atlas.",
+      "_instruction": "Enter the parcellation terminology of this brain atlas.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/sands/ParcellationTerminology"
       ]
@@ -37,10 +37,17 @@
       "type": "array",      
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add one or several brain atlas versions that belong to this brain atlas.",
+      "_instruction": "Add versions of this brain atlas.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
       ]
+    },
+    "ontologyIdentifier": {
+      "type": "string",
+      "_formats": [
+        "iri"
+      ],      
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the related ontological term matching this brain atlas."
     }
   }
 }
