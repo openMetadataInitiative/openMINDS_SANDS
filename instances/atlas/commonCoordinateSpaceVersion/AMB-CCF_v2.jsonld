@@ -5,12 +5,12 @@
 	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v2"
 	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
 	"abbreviation": "AMB CCF",
-	"accessibility": null,
-	"anatomicalAxesOrientation": [
-		{
-			"@id": "https://openminds.ebrains.eu/instances/anatomicalAxesOrientation/PIR"
-		}
-	],
+	"accessibility": {
+    "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
+  },
+	"anatomicalAxesOrientation": {
+	  "@id": "https://openminds.ebrains.eu/instances/anatomicalAxesOrientation/PIR"
+	},
   "author": null,
 	"axesOrigin": null,
 	"copyright": null,
@@ -21,17 +21,17 @@
 	"fullDocumentation": null,
 	"fullName": "Allen Mouse Brain Common Coordinate Framework",
 	"funding": null,
-	"homepage": ": {
-		"@id": "http://atlas.brain-map.org/"
-	},
-	"howToCite": null,
+	"homepage": ": "http://atlas.brain-map.org/",
+	"howToCite": "Oh S, Harris J, Ng L, et al.; 'A mesoscale connectome of the mouse brain.'; Nature; Apr 2014; 508(7495):207–214. [doi: 10.1038/nature13186](https://doi.org/10.1038/nature13186)",
 	"isAlternativeVersionOf": null,
 	"isNewVersionOf": {
 		"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v1"
 	},
 	"keyword": null,
 	"license": null,
-	"nativeUnit": null,
+	"nativeUnit": {
+		"@id": "https://openminds.ebrains.eu/instances/unitOfMeasurement/micrometer"
+	},
 	"ontologyIdentifier": null,
 	"otherContribution": null,
 	"relatedPublication": null,
@@ -41,5 +41,5 @@
 	"shortName": "Allen Mouse Brain CCF",
 	"usedSpecimen": null,
 	"versionIdentifier": "v2",
-	"versionInnovation": null
+	"versionInnovation": "The second version of the 'Allen Mouse Brain Common Coordinate Framework' (CCFv2) is a 3D reconstruction of a whole brain at 100µm resolution."
 }

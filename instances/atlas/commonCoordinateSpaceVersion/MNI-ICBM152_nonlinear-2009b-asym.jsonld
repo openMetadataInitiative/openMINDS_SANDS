@@ -2,9 +2,9 @@
 	"@context": {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/MNIColin27_2008"
+	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/MNI-ICBM152_nonlinear-2009b-asym"
 	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
-	"abbreviation": "Colin 27",
+	"abbreviation": "ICBM152",
 	"accessibility": null,
 	"anatomicalAxesOrientation": null,
   "author": null,
@@ -15,15 +15,11 @@
 	"description": null,
 	"digitalIdentifier": null,
 	"fullDocumentation": null,
-	"fullName": "MNI Colin 27 Average Brain Stereotaxic Registration Model",
+	"fullName": "MNI ICBM152 Average Brain Stereotaxic Registration Model",
 	"funding": null,
-	"homepage": "https://www.mcgill.ca/bic/software/tools-data-analysis/anatomical-mri/atlases",
+	"homepage": "https://www.mcgill.ca/bic/software/tools-data-analysis/anatomical-mri/atlases/icbm152-non-linear-2009",
 	"howToCite": null,
-	"isAlternativeVersionOf": [
-		{
-			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/MNIColin27_1998"
-		}
-	],
+	"isAlternativeVersionOf": null,
 	"isNewVersionOf": null,
 	"keyword": null,
 	"license": null,
@@ -33,11 +29,11 @@
 	"ontologyIdentifier": null,
 	"otherContribution": null,
 	"relatedPublication": null,
-	"releaseDate": "2006-08-01",
+	"releaseDate": "2009-07-01",
 	"repository": null,
 	"supportChannel": null,
-	"shortName": "MNI Colin 27 Average Brain",
+	"shortName": "MNI ICBM152",
 	"usedSpecimen": null,
-	"versionIdentifier": "2008",
+	"versionIdentifier": "2009b nonlinear asymmetric",
 	"versionInnovation": null
 }

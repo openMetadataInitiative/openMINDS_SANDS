@@ -4,7 +4,7 @@
 	},
 	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/MNIColin27_1998"
 	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
-	"abbreviation": "Colin 27 (1998)",
+	"abbreviation": "Colin 27",
 	"accessibility": null,
 	"anatomicalAxesOrientation": null,
   "author": null,
@@ -15,11 +15,9 @@
 	"description": null,
 	"digitalIdentifier": null,
 	"fullDocumentation": null,
-	"fullName": "MNI Colin 27 Average Brain Stereotaxic Registration Model original version 1998",
+	"fullName": "MNI Colin 27 Average Brain Stereotaxic Registration Model",
 	"funding": null,
-	"homepage": {
-		"@id": "https://www.mcgill.ca/bic/software/tools-data-analysis/anatomical-mri/atlases"
-	},
+	"homepage": "https://www.mcgill.ca/bic/software/tools-data-analysis/anatomical-mri/atlases",
 	"howToCite": null,
 	"isAlternativeVersionOf": [
 		{
@@ -29,18 +27,16 @@
 	"isNewVersionOf": null,
 	"keyword": null,
 	"license": null,
-	"nativeUnit": [
-		{
+	"nativeUnit": {
 			"@id": "https://openminds.ebrains.eu/instances/unitOfMeasurement/millimeter"
-		}
-	],
+	},
 	"ontologyIdentifier": null,
 	"otherContribution": null,
 	"relatedPublication": null,
 	"releaseDate": "1998-06-01",
 	"repository": null,
 	"supportChannel": null,
-	"shortName": "MNI Colin 27 Average Brain (1998)",
+	"shortName": "MNI Colin 27 Average Brain",
 	"usedSpecimen": null,
 	"versionIdentifier": "1998",
 	"versionInnovation": null

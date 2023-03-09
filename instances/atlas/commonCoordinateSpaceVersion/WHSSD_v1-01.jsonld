@@ -6,11 +6,9 @@
 	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
 	"abbreviation": "WHSSD",
 	"accessibility": null,
-	"anatomicalAxesOrientation": [
-		{
-			"@id": "https://openminds.ebrains.eu/instances/anatomicalAxesOrientation/RAS"
-		}
-	],
+	"anatomicalAxesOrientation": {
+		"@id": "https://openminds.ebrains.eu/instances/anatomicalAxesOrientation/RAS"
+	},
   "author": null,
 	"axesOrigin": null,
 	"copyright": null,
@@ -21,9 +19,7 @@
 	"fullDocumentation": null,
 	"fullName": "Waxholm Space of the Sprague Dawley Rat Brain (coordinate space)",
 	"funding": null,
-	"homepage": {
-		"@id": "https://www.nitrc.org/projects/whs-sd-atlas"
-	},
+	"homepage": "https://www.nitrc.org/projects/whs-sd-atlas",
 	"howToCite": null,
 	"isAlternativeVersionOf": null,
 	"isNewVersionOf": {
@@ -31,7 +27,9 @@
 	},
 	"keyword": null,
 	"license": null,
-	"nativeUnit": null,
+	"nativeUnit": {
+		"@id": "https://openminds.ebrains.eu/instances/unitOfMeasurement/micrometer"
+	},
 	"ontologyIdentifier": null,
 	"otherContribution": null,
 	"relatedPublication": null,

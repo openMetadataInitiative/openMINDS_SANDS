@@ -5,12 +5,12 @@
 	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v1"
 	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
 	"abbreviation": "AMB CCF",
-	"accessibility": null,
-	"anatomicalAxesOrientation": [
-		{
-			"@id": "https://openminds.ebrains.eu/instances/anatomicalAxesOrientation/PIR"
-		}
-	],
+	"accessibility": {
+    "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
+  },
+	"anatomicalAxesOrientation": {
+		"@id": "https://openminds.ebrains.eu/instances/anatomicalAxesOrientation/PIR"
+	},
   "author": null,
 	"axesOrigin": null,
 	"copyright": null,
@@ -21,15 +21,15 @@
 	"fullDocumentation": null,
 	"fullName": "Allen Mouse Brain Common Coordinate Framework",
 	"funding": null,
-	"homepage": ": {
-		"@id": "http://atlas.brain-map.org/"
-	},
-	"howToCite": null,
+	"homepage": ": "http://atlas.brain-map.org/",
+	"howToCite": "Lein E, Hawrylycz M, Ao N, et al.; 'Genome-wide atlas of gene expression in the adult mouse brain.'; Nature; Jan 2007; 445(7124):168–176. [doi: 10.1038/nature05453](https://doi.org/10.1038/nature05453)",
 	"isAlternativeVersionOf": null,
 	"isNewVersionOf": null,
 	"keyword": null,
 	"license": null,
-	"nativeUnit": null,
+	"nativeUnit": {
+		"@id": "https://openminds.ebrains.eu/instances/unitOfMeasurement/micrometer"
+  },
 	"ontologyIdentifier": null,
 	"otherContribution": null,
 	"relatedPublication": null,
@@ -39,5 +39,5 @@
 	"shortName": "Allen Mouse Brain CCF",
 	"usedSpecimen": null,
 	"versionIdentifier": "v1",
-	"versionInnovation": null
+	"versionInnovation": "The first version of the 'Allen Mouse Brain Common Coordinate Framework' (CCFv1) is a 3D reconstruction of one brain hemisphere at 200µm resolution."
 }

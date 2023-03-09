@@ -1,0 +1,25 @@
+{
+	"@context": {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/MEBRAINStemplate",
+	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+	"abbreviation": "MEBRAINStemplate",
+	"author": null,
+	"custodian": null,
+	"description": "The 'MEBRAINS population-based monkey brain template' is a multi-subject based, multi-modal, volume and surface brain template for macaque monkeys.",
+	"digitalIdentifier": null,
+	"fullName": "MEBRAINS population-based monkey brain template",
+	"hasVersion": [
+		{
+			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/MEBRAINStemplate_v1.0"
+		}
+	],
+	"homepage": null,
+	"howToCite": null,
+  "ontologyIdentifier": null,
+	"shortName": "MEBRAINS brain template"
+	"usedSpecies": {
+		"@id": "https://openminds.ebrains.eu/instances/species/macacaMulatta"
+	}
+}

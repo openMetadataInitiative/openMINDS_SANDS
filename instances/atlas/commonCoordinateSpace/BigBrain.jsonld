@@ -7,17 +7,15 @@
 	"abbreviation": "BigBrain",
 	"author": null,
 	"custodian": null,
-	"description": null,
+	"description": "The 'BigBrain Whole-Brain Model' is a 3D reconstruction of a human brain in extremely high resolution.",
 	"digitalIdentifier": null,
 	"fullName": "BigBrain Whole-Brain Model",
 	"hasVersion": [
 		{
-			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/BigBrain_2015"
+			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/BigBrain_2015"
 		}
 	],
-	"homepage": {
-		"@id": "https://bigbrainproject.org/"
-	},
+	"homepage": "https://bigbrainproject.org/",
 	"howToCite": null,
   "ontologyIdentifier": null,
 	"shortName": "BigBrain Model"

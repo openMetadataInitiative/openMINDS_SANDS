@@ -5,12 +5,12 @@
 	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3"
 	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
 	"abbreviation": "AMB CCF",
-	"accessibility": null,
-	"anatomicalAxesOrientation": [
-		{
-			"@id": "https://openminds.ebrains.eu/instances/anatomicalAxesOrientation/PIR"
-		}
-	],
+	"accessibility": {
+    "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
+  },
+	"anatomicalAxesOrientation": {
+		"@id": "https://openminds.ebrains.eu/instances/anatomicalAxesOrientation/PIR"
+	},
   "author": null,
 	"axesOrigin": null,
 	"copyright": null,
@@ -21,17 +21,17 @@
 	"fullDocumentation": null,
 	"fullName": "Allen Mouse Brain Common Coordinate Framework",
 	"funding": null,
-	"homepage": ": {
-		"@id": "http://atlas.brain-map.org/"
-	},
-	"howToCite": null,
+	"homepage": ": "http://atlas.brain-map.org/",
+	"howToCite": "Wang Q, Ding S-L, Li Y, et al.; 'The Allen Mouse Brain Common Coordinate Framework: A 3D Reference Atlas.'; Cell; May 2020; 181(4):936-953.e20. [doi: 10.1016/j.cell.2020.04.007](https://doi.org/10.1016/j.cell.2020.04.007)",
 	"isAlternativeVersionOf": null,
 	"isNewVersionOf": {
 		"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v2"
 	},
 	"keyword": null,
 	"license": null,
-	"nativeUnit": null,
+	"nativeUnit": {
+		"@id": "https://openminds.ebrains.eu/instances/unitOfMeasurement/micrometer"
+	},
 	"ontologyIdentifier": null,
 	"otherContribution": null,
 	"relatedPublication": null,
@@ -41,5 +41,5 @@
 	"shortName": "Allen Mouse Brain CCF",
 	"usedSpecimen": null,
 	"versionIdentifier": "v3",
-	"versionInnovation": null
+	"versionInnovation": "The third version of the 'Allen Mouse Brain Common Coordinate Framework' (CCFv3) is a 3D reconstruction of a whole brain at 10µm resolution."
 }

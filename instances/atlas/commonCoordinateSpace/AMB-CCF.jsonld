@@ -7,23 +7,21 @@
 	"abbreviation": "AMB CCF",
 	"author": null,
 	"custodian": null,
-	"description": null,
+	"description": "The 'Allen Mouse Brain Common Coordinate Framework' is a 3D reconstruction of an averaged adult mouse brain.",
 	"digitalIdentifier": null,
 	"fullName": "Allen Mouse Brain Common Coordinate Framework",
 	"hasVersion": [
 		{
-			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/AMB-CCF_v3"
+			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3"
 		},
 		{
-			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/AMB-CCF_v2"
+			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v2"
 		},
 		{
-			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/AMB-CCF_v1"
+			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v1"
 		}
 	],
-	"homepage": {
-		"@id": "http://atlas.brain-map.org/"
-	},
+	"homepage": "http://atlas.brain-map.org/",
 	"howToCite": null,
   "ontologyIdentifier": null,
 	"shortName": "Allen Mouse Brain CCF"
