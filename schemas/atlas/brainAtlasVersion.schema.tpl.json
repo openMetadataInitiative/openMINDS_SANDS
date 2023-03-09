@@ -50,7 +50,7 @@
       ]
     },
     "isNewVersionOf": {
-      "_instruction": "Add brain atlas version preceding this brain atlas version.",
+      "_instruction": "Add the brain atlas version preceding this brain atlas version.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/BrainAtlasVersion"
       ]
