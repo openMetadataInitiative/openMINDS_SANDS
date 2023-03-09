@@ -22,9 +22,8 @@
     },
     "preferredDisplayColor": {  
       "_instruction": "Add the preferred color that a viewer should display.",
-      "_linkedTypes": [        
-        "https://openminds.ebrains.eu/sands/ColorMap",
-        "https://openminds.ebrains.eu/sands/SingleColor"
+      "_linkedCategories": [        
+        "color"
       ]
     }
   }
