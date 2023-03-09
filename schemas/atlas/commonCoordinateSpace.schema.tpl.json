@@ -51,10 +51,9 @@
       }
     },
     "usedSpecies": {
-      "_instruction": "Add the species or strain that was used for the creation of this common coordinate space.",
+      "_instruction": "Add the species that was used for the creation of this common coordinate space.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/Species",   
-        "https://openminds.ebrains.eu/core/Strain"
+        "https://openminds.ebrains.eu/controlledTerms/Species"
       ]
     }
   }
