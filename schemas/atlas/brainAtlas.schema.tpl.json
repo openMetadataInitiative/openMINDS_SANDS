@@ -48,6 +48,12 @@
         "iri"
       ],      
       "_instruction": "Enter the internationalized resource identifier (IRI) to the related ontological term matching this brain atlas."
+    },
+    "usedSpecies": {
+      "_instruction": "Add the species that was used for the creation of this brain atlas.",
+      "_linkedTypes": [
+        "https://openminds.ebrains.eu/controlledTerms/Species"
+      ]
     }
   }
 }
