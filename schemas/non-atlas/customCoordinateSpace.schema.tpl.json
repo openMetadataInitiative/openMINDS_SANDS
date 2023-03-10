@@ -21,7 +21,7 @@
       "minItems": 2,      
       "maxItems": 3,    
       "uniqueItems": true,
-      "_instruction": "Enter the origin (central point where all axes intersect) of this common coordinate space for two-dimensional spaces as [x, y] or for three-dimensional space as [x, y, z].",
+      "_instruction": "Enter the origin (central point where all axes intersect) of this custom coordinate space for two-dimensional spaces as [x, y] or for three-dimensional space as [x, y, z].",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
