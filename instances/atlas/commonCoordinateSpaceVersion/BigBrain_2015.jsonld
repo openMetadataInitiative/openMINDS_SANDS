@@ -8,9 +8,24 @@
 	"accessibility": {
     "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
   },
-	"anatomicalAxesOrientation": null,
+	"anatomicalAxesOrientation": {
+		"@id": "https://openminds.ebrains.eu/instances/anatomicalAxesOrientation/RAS"
+	},
   "author": null,
-	"axesOrigin": null,
+	"axesOrigin": [
+    {
+      "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+      "value": 3338.5795590551184,
+    },
+    {
+      "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+      "value": 3500.0,
+    },
+    {
+      "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+      "value": 2776.899244094488,
+    }
+  ],
 	"copyright": null,
 	"custodian": [
     {

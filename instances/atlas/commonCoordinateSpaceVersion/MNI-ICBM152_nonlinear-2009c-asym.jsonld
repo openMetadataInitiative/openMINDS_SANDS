@@ -6,9 +6,24 @@
 	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
 	"abbreviation": "ICBM152",
 	"accessibility": null,
-	"anatomicalAxesOrientation": null,
+	"anatomicalAxesOrientation": {
+		"@id": "https://openminds.ebrains.eu/instances/anatomicalAxesOrientation/RAS"
+	},
   "author": null,
-	"axesOrigin": null,
+	"axesOrigin": [
+    {
+      "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+      "value": 96.0,
+    },
+    {
+      "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+      "value": 132.0,
+    },
+    {
+      "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+      "value": 78.0,
+    }
+  ],
 	"copyright": null,
 	"custodian": null,
 	"defaultImage": null,

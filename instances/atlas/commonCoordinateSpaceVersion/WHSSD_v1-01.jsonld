@@ -10,7 +10,20 @@
 		"@id": "https://openminds.ebrains.eu/instances/anatomicalAxesOrientation/RAS"
 	},
   "author": null,
-	"axesOrigin": null,
+	"axesOrigin": [
+    {
+      "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+      "value": 243.9999936,
+    },
+    {
+      "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+      "value": 622.9999808,
+    },
+    {
+      "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+      "value": 247.9999936,
+    }
+  ],
 	"copyright": null,
 	"custodian": null,
 	"defaultImage": null,

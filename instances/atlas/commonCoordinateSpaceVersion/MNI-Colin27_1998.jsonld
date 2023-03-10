@@ -6,9 +6,24 @@
 	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
 	"abbreviation": "Colin 27",
 	"accessibility": null,
-	"anatomicalAxesOrientation": null,
+	"anatomicalAxesOrientation": {
+		"@id": "https://openminds.ebrains.eu/instances/anatomicalAxesOrientation/RAS"
+	},
   "author": null,
-	"axesOrigin": null,
+	"axesOrigin": [
+    {
+      "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+      "value": 75.0,
+    },
+    {
+      "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+      "value": 111.0,
+    },
+    {
+      "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+      "value": 67.0,
+    }
+  ],
 	"copyright": null,
 	"custodian": null,
 	"defaultImage": null,
