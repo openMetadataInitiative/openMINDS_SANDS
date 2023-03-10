@@ -2,7 +2,7 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/brainAtlas/DeepWhiteMatterAtlas",
+  "@id": "https://openminds.ebrains.eu/instances/brainAtlas/DWMA",
   "@type": "https://openminds.ebrains.eu/sands/BrainAtlas",
   "abbreviation": "DWMA",
   "author": null,
