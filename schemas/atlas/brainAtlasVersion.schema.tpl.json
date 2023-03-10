@@ -21,7 +21,7 @@
       ]
     },  
     "coordinateSpace": {
-      "_instruction": "Add the common coordinate space version in which this brain atlas version exists in.",
+      "_instruction": "Add the specific common coordinate space in which this brain atlas version exists.",
       "_linkedTypes": [
         "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion"
       ]
@@ -35,7 +35,7 @@
       ]
     },
     "hasTerminology": {
-      "_instruction": "Enter the parcellation terminology version of this brain atlas version.",
+      "_instruction": "Enter the specific parcellation terminology of this brain atlas version.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion"
       ]
