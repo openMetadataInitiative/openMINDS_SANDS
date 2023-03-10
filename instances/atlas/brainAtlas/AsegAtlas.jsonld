@@ -12,7 +12,7 @@
   "fullName": "Aseg Atlas",
   "hasTerminology": {
     "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
-    "definedIn": null,
+    "dataLocation": null,
     "hasEntity": [
       {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_cerebralWhiteMatter"
@@ -83,5 +83,8 @@
   "hasVersion": null,
   "homepage": null,
   "howToCite": null,
-  "shortName": "Aseg Atlas"
+  "shortName": "Aseg Atlas",
+	"usedSpecies": {
+		"@id": "https://openminds.ebrains.eu/instances/species/homoSapiens"
+	}
 }
