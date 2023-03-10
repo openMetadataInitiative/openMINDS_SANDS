@@ -216,5 +216,8 @@
   ],
   "homepage": "https://www.gin.cnrs.fr/en/tools/aal/",
   "howToCite": null,
-  "shortName": "AAL Atlas 1"
+  "shortName": "AAL Atlas 1",
+	"usedSpecies": {
+		"@id": "https://openminds.ebrains.eu/instances/species/homoSapiens"
+	}
 }
