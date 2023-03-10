@@ -1,27 +1,25 @@
 {
-    "@context": {
-        "@vocab": "https://openminds.ebrains.eu/vocab/"
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/brainAtlas/AMBA",
+  "@type": "https://openminds.ebrains.eu/sands/BrainAtlas",
+  "abbreviation": "AMBA",
+  "author": null,
+  "custodian": null,
+  "description": null,
+  "digitalIdentifier": null,
+  "fullName": "Allen Mouse Brain Atlas",
+  "hasTerminology": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AMBA_CCFv3-2015"
     },
-    "@id": "https://openminds.ebrains.eu/instances/brainAtlas/AMBA",
-    "@type": "https://openminds.ebrains.eu/sands/BrainAtlas",
-    "abbreviation": "AMBA",
-    "author": null,
-    "custodian": null,
-    "description": null,
-    "digitalIdentifier": null,
-    "fullName": "Allen Mouse Brain Atlas",
-    "hasTerminology": null,
-    "hasVersion": [
-        {
-            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AMBA_CCFv3_2015"
-        },
-        {
-            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AMBA_CCFv3_2017"
-        }
-    ],
-    "homepage": {
-        "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AMBA_homepage"
-    },
-    "howToCite": null,
-    "shortName": "Allen Mouse Brain Atlas"
+    {
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AMBA_CCFv3-2017"
+    }
+  ],
+  "homepage": "https://mouse.brain-map.org/",
+  "howToCite": null,
+  "shortName": "Allen Mouse Brain Atlas"
 }
