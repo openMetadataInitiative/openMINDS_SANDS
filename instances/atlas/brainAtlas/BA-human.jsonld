@@ -9,7 +9,7 @@
   "custodian": null,
   "description": null,
   "digitalIdentifier": null,
-  "fullName": "Brodmann cortical parcellation scheme (Brodmann Areas) for human",
+  "fullName": "Brodmann Cortical Parcellation Scheme (human)",
   "hasTerminology": {
     "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
     "dataLocation": null,
@@ -172,7 +172,7 @@
   },
   "hasVersion": [
     {
-		  "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/BA-human_1909"
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/BA-human_1909"
     }
   ],
   "homepage": null,
