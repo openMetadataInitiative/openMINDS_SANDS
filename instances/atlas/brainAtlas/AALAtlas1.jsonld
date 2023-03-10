@@ -199,24 +199,22 @@
 	},
     "hasVersion": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AAL1_SPM12_v0"
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AAL1_SPM12-v0"
         },
         {
-            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AAL1_SPM8_v0"
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AAL1_SPM8-v0"
         },
         {
             "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AAL1_SPM5_v0"
         },
         {
-            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AAL1_SPM2_v0"
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AAL1_SPM2-v0"
         },
         {
-            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AAL1_SPM99_v0"
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AAL1_SPM99-v0"
         }
     ],
-    "homepage": {
-        "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AAL_homepage"
-    },
+    "homepage": "https://www.gin.cnrs.fr/en/tools/aal/",
     "howToCite": null,
     "shortName": "AAL Atlas 1"
 }
