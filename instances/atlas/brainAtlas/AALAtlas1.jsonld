@@ -12,7 +12,7 @@
   "fullName": "Automated Anatomical Labeling Atlas 1",
   "hasTerminology": {
     "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
-    "definedIn": null,
+    "dataLocation": null,
     "hasEntity": [
       {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_centralRegion"
