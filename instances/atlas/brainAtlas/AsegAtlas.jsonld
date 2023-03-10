@@ -1,87 +1,87 @@
 {
-    "@context": {
-        "@vocab": "https://openminds.ebrains.eu/vocab/"
-    },
-    "@id": "https://openminds.ebrains.eu/instances/brainAtlas/AsegAtlas",
-    "@type": "https://openminds.ebrains.eu/sands/BrainAtlas",
-    "abbreviation": "Aseg",
-    "author": null,
-    "custodian": null,
-    "description": "The Aseg Atlas is an automated whole brain segmentation that is based on probablistic information on the location of structures of a manual labeled training set (cf., [Fischl et al., 2002](https://doi.org/10.1016/S0896-6273(02)00569-X)).",
-    "digitalIdentifier": null,
-    "fullName": "Aseg Atlas",
-    "hasTerminology": {
-      "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
-      "definedIn": null,
-      "hasEntity": [
-        {
-          "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_cerebralWhiteMatter"
-        },
-        {
-          "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_cerebralCortex"
-        },
-        {
-          "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_lateralVentricle"
-        },
-        {
-          "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_inferiorLateralVentricle"
-        },
-        {
-          "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_cerebellumWhiteMatter"
-        },
-        {
-          "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_cerebellumCortex"
-        },
-        {
-          "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_thalamus"
-        },
-        {
-          "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_caudate"
-        },
-        {
-          "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_putamen"
-        },
-        {
-          "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_pallidum"
-        },
-        {
-          "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_hippocampus"
-        },
-        {
-          "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_amygdala"
-        },
-        {
-          "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_lesion"
-        },
-        {
-          "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_accumbensArea"
-        },
-        {
-          "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_ventralDiencephalon"
-        },
-        {
-          "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_vessel"
-        },
-        {
-          "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_thirdVentricle"
-        },
-        {
-          "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_fourthVentricle"
-        },
-        {
-          "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_brainStem"
-        },
-        {
-          "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_cerebrospinalFluid"
-        },
-        {
-          "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_unknown"
-        }
-      ],
-      "ontologyIdentifier": null
-    },
-    "hasVersion": null,
-    "homepage": null,
-    "howToCite": null,
-    "shortName": "Aseg Atlas"
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/brainAtlas/AsegAtlas",
+  "@type": "https://openminds.ebrains.eu/sands/BrainAtlas",
+  "abbreviation": "Aseg",
+  "author": null,
+  "custodian": null,
+  "description": "The Aseg Atlas is an automated whole brain segmentation that is based on probablistic information on the location of structures of a manual labeled training set (cf., [Fischl et al., 2002](https://doi.org/10.1016/S0896-6273(02)00569-X)).",
+  "digitalIdentifier": null,
+  "fullName": "Aseg Atlas",
+  "hasTerminology": {
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
+    "definedIn": null,
+    "hasEntity": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_cerebralWhiteMatter"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_cerebralCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_lateralVentricle"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_inferiorLateralVentricle"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_cerebellumWhiteMatter"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_cerebellumCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_thalamus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_caudate"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_putamen"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_pallidum"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_hippocampus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_amygdala"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_lesion"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_accumbensArea"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_ventralDiencephalon"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_vessel"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_thirdVentricle"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_fourthVentricle"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_brainStem"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_cerebrospinalFluid"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Aseg_unknown"
+      }
+    ],
+    "ontologyIdentifier": null
+  },
+  "hasVersion": null,
+  "homepage": null,
+  "howToCite": null,
+  "shortName": "Aseg Atlas"
 }
