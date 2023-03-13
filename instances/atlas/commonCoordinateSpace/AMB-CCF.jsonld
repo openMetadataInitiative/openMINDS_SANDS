@@ -12,6 +12,9 @@
 	"fullName": "Allen Mouse Brain Common Coordinate Framework",
 	"hasVersion": [
 		{
+			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3-RAS"
+		},
+		{
 			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3"
 		},
 		{
