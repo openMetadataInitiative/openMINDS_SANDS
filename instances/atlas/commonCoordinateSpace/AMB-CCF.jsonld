@@ -21,7 +21,7 @@
 			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v1"
 		}
 	],
-	"homepage": "http://atlas.brain-map.org/",
+	"homepage": "https://portal.brain-map.org/",
 	"howToCite": null,
   "ontologyIdentifier": null,
 	"shortName": "Allen Mouse Brain CCF"
