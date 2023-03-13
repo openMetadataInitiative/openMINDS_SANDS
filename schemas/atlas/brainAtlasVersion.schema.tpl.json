@@ -61,6 +61,10 @@
         "https://openminds.ebrains.eu/core/License"
       ]
     },
+    "majorVersionIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the identifier of the major version release this research product version belongs to."
+    },
     "ontologyIdentifier": {
       "type": "string",
       "_instruction": "Enter the internationalized resource identifier (IRI) to the related ontological term matching this brain atlas version.",
