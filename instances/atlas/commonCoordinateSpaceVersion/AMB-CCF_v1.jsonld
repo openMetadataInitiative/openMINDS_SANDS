@@ -21,7 +21,7 @@
 	"fullDocumentation": null,
 	"fullName": "Allen Mouse Brain Common Coordinate Framework",
 	"funding": null,
-	"homepage": ": "https://portal.brain-map.org/",
+	"homepage": "https://portal.brain-map.org/",
 	"howToCite": "Lein E, Hawrylycz M, Ao N, et al.; 'Genome-wide atlas of gene expression in the adult mouse brain.'; Nature; Jan 2007; 445(7124):168–176. [doi: 10.1038/nature05453](https://doi.org/10.1038/nature05453)",
 	"isAlternativeVersionOf": null,
 	"isNewVersionOf": null,
