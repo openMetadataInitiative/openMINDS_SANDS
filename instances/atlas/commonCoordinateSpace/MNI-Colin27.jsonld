@@ -4,7 +4,7 @@
 	},
 	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/MNI-Colin27",
 	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
-	"abbreviation": "Colin 27",
+	"abbreviation": "MNI-Colin27",
 	"author": null,
 	"custodian": null,
 	"description": "The 'MNI Colin 27 Average Brain Stereotaxic Registration Model' is a stereotaxic average of 27 T1-weighted MRI scans of the same individual. It was created at the Montreal Neurological Institute (MNI) in a two step process: (1) each of the 27 T1-weighted scans were registered to stereotaxic space using MRITOTAL (an automated volumetric registration procedure) and resampled onto a 1mm grid. All 27 scans were averaged together to create an initial average. (2) The initial average volume was used as a target for a second phase of registration where each original T1-weighted MRI was re-registered in stereotaxic space. This two-step procedure has the advantage of removing the small variance in intra-subject mapping in stereotaxic space associated with the use of a multi-subject average resulting in an average brain stereotaxic registration model with high signal-to-noise ratio and structure definition.",
