@@ -36,7 +36,9 @@
 	"funding": null,
 	"homepage": "https://portal.brain-map.org/",
 	"howToCite": "Wang Q, Ding S-L, Li Y, et al.; 'The Allen Mouse Brain Common Coordinate Framework: A 3D Reference Atlas.'; Cell; May 2020; 181(4):936-953.e20. [doi: 10.1016/j.cell.2020.04.007](https://doi.org/10.1016/j.cell.2020.04.007)",
-	"isAlternativeVersionOf": null,
+	"isAlternativeVersionOf": [
+    {"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3"}
+  ],
 	"isNewVersionOf": {
 		"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v2"
 	},
