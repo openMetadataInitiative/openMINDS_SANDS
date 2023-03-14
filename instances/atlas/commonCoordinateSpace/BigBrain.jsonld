@@ -1,0 +1,25 @@
+{
+	"@context": {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/BigBrain",
+	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+	"abbreviation": "BigBrain",
+	"author": null,
+	"custodian": null,
+	"description": "The 'BigBrain Whole-Brain Model' is a 3D reconstruction of a human brain in extremely high resolution.",
+	"digitalIdentifier": null,
+	"fullName": "BigBrain Whole-Brain Model",
+	"hasVersion": [
+		{
+			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/BigBrain_2015"
+		}
+	],
+	"homepage": "https://bigbrainproject.org/",
+	"howToCite": null,
+  "ontologyIdentifier": null,
+	"shortName": "BigBrain Model"
+	"usedSpecies": {
+		"@id": "https://openminds.ebrains.eu/instances/species/homoSapiens"
+	}
+}

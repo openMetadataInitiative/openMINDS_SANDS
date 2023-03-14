@@ -1,0 +1,63 @@
+{
+	"@context": {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/BigBrain_2015"
+	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+	"abbreviation": "BigBrain",
+	"accessibility": {
+    "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
+  },
+	"anatomicalAxesOrientation": {
+		"@id": "https://openminds.ebrains.eu/instances/anatomicalAxesOrientation/RAS"
+	},
+  "author": null,
+	"axesOrigin": [
+    {
+      "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+      "value": 3338.5795590551184,
+    },
+    {
+      "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+      "value": 3500.0,
+    },
+    {
+      "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+      "value": 2776.899244094488,
+    }
+  ],
+	"copyright": null,
+	"custodian": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/person/evansAlanC"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/person/amuntsKatrin"
+    }
+  ],
+	"defaultImage": null,
+	"description": null,
+	"digitalIdentifier": null,
+	"fullDocumentation": null,
+	"fullName": "BigBrain Whole-Brain Model",
+	"funding": null,
+	"homepage": "https://bigbrainproject.org/",
+	"howToCite": null,
+	"isAlternativeVersionOf": null,
+	"isNewVersionOf": null,
+	"keyword": null,
+	"license": null,
+	"nativeUnit": {
+		"@id": "https://openminds.ebrains.eu/instances/unitOfMeasurement/micrometer"
+	},
+	"ontologyIdentifier": null,
+	"otherContribution": null,
+	"relatedPublication": null,
+	"releaseDate": "2013-06-21",
+	"repository": null,
+	"supportChannel": null,
+	"shortName": "BigBrain Model",
+	"usedSpecimen": null,
+	"versionIdentifier": "2015",
+	"versionInnovation": "The 'BigBrain Whole-Brain Model' (2015) is an ultrahigh-resolution three-dimensional (3D) model of a brain from a male human subject, deceased at the age of 65 years, at nearly cellular resolution of 20 micrometers. The model is based on a full 3D reconstruction from digital scans of 7404 histological coronal sections, which were stained for cell bodies."
+}

@@ -1,0 +1,43 @@
+{
+	"@context": {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/MNI-ICBM152_nonlinear-2009a-sym"
+	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+	"abbreviation": "ICBM152",
+	"accessibility": null,
+	"anatomicalAxesOrientation": null,
+  "author": null,
+	"axesOrigin": null,
+	"copyright": null,
+	"custodian": null,
+	"defaultImage": null,
+	"description": null,
+	"digitalIdentifier": null,
+	"fullDocumentation": null,
+	"fullName": "MNI ICBM152 Average Brain Stereotaxic Registration Model",
+	"funding": null,
+	"homepage": {
+		"@id": "https://www.mcgill.ca/bic/software/tools-data-analysis/anatomical-mri/atlases/icbm152-non-linear-2009"
+	},
+	"howToCite": null,
+	"isAlternativeVersionOf": null,
+	"isNewVersionOf": null,
+	"keyword": null,
+	"license": null,
+	"nativeUnit": [
+		{
+			"@id": "https://openminds.ebrains.eu/instances/unitOfMeasurement/millimeter"
+		}
+	],
+	"ontologyIdentifier": null,
+	"otherContribution": null,
+	"relatedPublication": null,
+	"releaseDate": "2009-07-01",
+	"repository": null,
+	"supportChannel": null,
+	"shortName": "MNI ICBM152",
+	"usedSpecimen": null,
+	"versionIdentifier": "2009a nonlinear symmetric",
+	"versionInnovation": null
+}

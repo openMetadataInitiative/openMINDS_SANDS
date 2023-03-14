@@ -1,0 +1,34 @@
+{
+	"@context": {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/AMB-CCF",
+	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+	"abbreviation": "AMB CCF",
+	"author": null,
+	"custodian": null,
+	"description": "The 'Allen Mouse Brain Common Coordinate Framework' is a 3D reconstruction of an averaged adult mouse brain.",
+	"digitalIdentifier": null,
+	"fullName": "Allen Mouse Brain Common Coordinate Framework",
+	"hasVersion": [
+		{
+			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3-RAS"
+		},
+		{
+			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v3"
+		},
+		{
+			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v2"
+		},
+		{
+			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/AMB-CCF_v1"
+		}
+	],
+	"homepage": "https://portal.brain-map.org/",
+	"howToCite": null,
+  "ontologyIdentifier": null,
+	"shortName": "Allen Mouse Brain CCF"
+	"usedSpecies": {
+		"@id": "https://openminds.ebrains.eu/instances/species/musMusculus"
+	}
+}
