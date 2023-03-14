@@ -7,7 +7,7 @@
 	"abbreviation": "ICBM152",
 	"author": null,
 	"custodian": null,
-	"description": "The MNI ICBM152 Average Brain Stereotaxic Registration Model is an average of T1-weighted magnetic resonance imaging (MRI) scans from 152 normative young adults.",
+	"description": "The 'MNI ICBM152 Average Brain Stereotaxic Registration Model' is an average of T1-weighted magnetic resonance imaging (MRI) scans from 152 normative young adults.",
 	"digitalIdentifier": null,
 	"fullName": "MNI ICBM152 Average Brain Stereotaxic Registration Model",
 	"hasVersion": [
