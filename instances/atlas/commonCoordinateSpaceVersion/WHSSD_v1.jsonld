@@ -7,7 +7,7 @@
 	"abbreviation": "WHSSD",
 	"accessibility": null,
 	"anatomicalAxesOrientation": {
-		"@id": "https://openminds.ebrains.eu/instances/anatomicalAxesOrientation/RAS"
+		"@id": "https://openminds.ebrains.eu/instances/anatomicalAxesOrientation/ALS"
 	},
   "author": null,
 	"axesOrigin": null,
