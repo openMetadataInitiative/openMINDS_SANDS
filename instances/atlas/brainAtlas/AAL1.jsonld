@@ -1,0 +1,223 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/brainAtlas/AAL1",
+  "@type": "https://openminds.ebrains.eu/sands/BrainAtlas",
+  "abbreviation": "AAL1",
+  "author": null,
+  "custodian": null,
+  "description": null,
+  "digitalIdentifier": null,
+  "fullName": "Automated Anatomical Labeling Atlas 1",
+  "hasTerminology": {
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
+    "dataLocation": null,
+    "hasEntity": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_centralRegion"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_PRE"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_POST"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_RO"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_frontalLobe"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_frontalLobeLateralSurface"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_F1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_F2"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_F3OP"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_F3T"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_frontalLobeMedialSurface"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_F1M"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_SMA"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_PCL"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_frontalLobeOrbitalSurface"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_F1O"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_F1MO"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_F2O"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_F3O"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_GR"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_OC"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_temporalLobe"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_temporalLobeLateralSurface"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_T1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_HES"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_T2"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_T3"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_parietalLobe"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_parietalLobeLateralSurface"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_P1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_P2"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_AG"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_SMG"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_parietalLobeMedialSurface"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_PQ"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_occipitalLobe"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_occipitalLobeLateralSurface"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_O1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_O2"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_O3"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_occipitalLobeMedialAndInferiorSurface"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_Q"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_V1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_LING"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_FUSI"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_limbicLobe"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_T1P"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_T2P"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_ACIN"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_MCIN"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_PCIN"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_HIP"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_PHIP"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_IN"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_sub-corticalGrayNuclei"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_AMYG"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_CAU"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_PUT"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_PAL"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_THA"
+      }
+    ],
+    "ontologyIdentifier": null
+  },
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AAL1_SPM12-v0"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AAL1_SPM8-v0"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AAL1_SPM5_v0"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AAL1_SPM2-v0"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AAL1_SPM99-v0"
+    }
+  ],
+  "homepage": "https://www.gin.cnrs.fr/en/tools/aal/",
+  "howToCite": null,
+  "shortName": "AAL Atlas 1",
+	"usedSpecies": {
+		"@id": "https://openminds.ebrains.eu/instances/species/homoSapiens"
+	}
+}

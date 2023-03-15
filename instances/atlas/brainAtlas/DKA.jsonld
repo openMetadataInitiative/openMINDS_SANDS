@@ -1,0 +1,168 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/brainAtlas/DKA",
+  "@type": "https://openminds.ebrains.eu/sands/BrainAtlas",
+  "abbreviation": "DKA",
+  "author": null,
+  "custodian": null,
+  "description": null,
+  "digitalIdentifier": null,
+  "fullName": "Desikan-Killiany Atlas",
+  "hasTerminology": {
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
+    "dataLocation": null,
+    "hasEntity": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_anteriorCingulateCortex"
+      },	
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_banksOfSuperiorTemporalSulcus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_caudalAnteriorCingulateCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_caudalMiddleFrontalGyrus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_cerebralCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_cingulateCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_corpusCallosum"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_cuneusCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_entorhinalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_frontalLobe"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_frontalPole"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_fusiformGyrus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_inferiorFrontalGyrus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_inferiorParietalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_inferiorTemporalGyrus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_insula"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_isthmusOfCingulateCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_lateralOccipitalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_lateralOrbitalFrontalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_lingualGyrus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_medialOrbitalFrontalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_middleFrontalGyrus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_middleTemporalGyrus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_occipitalLobe"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_orbitofrontalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_parahippocampalGyrus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_paracentralLobule"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_parietalLobe"
+      },	
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_parsOpercularis"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_parsOrbitalis"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_parsTriangularis"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_pericalcarineCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_postcentralGyrus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_posteriorCingulateCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_precentralGyrus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_precuneusCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_rostralAnteriorCingulateCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_rostralMiddleFrontalGyrus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_superiorFrontalGyrus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_superiorParietalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_superiorTemporalGyrus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_supramarginalGyrus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_temporalLobe"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_temporalLobe_medialAspect"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_temporalLobe_lateralAspect"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_temporalPole"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_transverseTemporalCortex"
+      }
+    ],
+    "ontologyIdentifier": null
+  },
+  "hasVersion": null,
+  "homepage": null,
+  "howToCite": null,
+  "shortName": "DK Atlas",
+  "usedSpecies": {
+    "@id": "https://openminds.ebrains.eu/instances/species/homoSapiens"
+  }
+}

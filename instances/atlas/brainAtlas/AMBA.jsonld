@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/brainAtlas/AMBA",
+  "@type": "https://openminds.ebrains.eu/sands/BrainAtlas",
+  "abbreviation": "AMBA",
+  "author": null,
+  "custodian": null,
+  "description": null,
+  "digitalIdentifier": null,
+  "fullName": "Allen Mouse Brain Atlas",
+  "hasTerminology": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AMBA_CCFv3-2015"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AMBA_CCFv3-2017"
+    }
+  ],
+  "homepage": "https://portal.brain-map.org/",
+  "howToCite": null,
+  "shortName": "Allen Mouse Brain Atlas",
+	"usedSpecies": {
+		"@id": "https://openminds.ebrains.eu/instances/species/musMusculus"
+	}
+}
