@@ -1,8 +1,5 @@
 Mars_Areas
 {
-"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/VCcm"
-},
-{
 "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/VCl"
 },
 {

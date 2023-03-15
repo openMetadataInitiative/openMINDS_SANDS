@@ -6,7 +6,7 @@ region_names.remove(region_names[0])
 print(region_names)
 
 # generate json code for integration
-with open("/openMINDS_SANDS/helper_code/MarsAtlasRegions.txt", 'w') as f:
+with open("/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/helper_code/MarsAtlasRegions.txt", 'w') as f:
     f.write("Mars_Areas\n")
     open = "{"
     close = "}"
