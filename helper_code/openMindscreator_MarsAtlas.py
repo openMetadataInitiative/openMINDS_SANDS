@@ -1,4 +1,6 @@
-import openMINDS.version_manager
+import openMINDS
+import openMINDS
+
 import json
 
 
@@ -11,6 +13,9 @@ dataset_identifiers = ["https://doi.org/10.1002/hbm.23121"]
 
 # Initialise the local copy of openMINDS
 openMINDS.version_manager.init()
+
+# Das heir checken um schemas zu adden!!!!!!!!!!!!!!!!!!
+openMINDS.Schema_Discovery()
 
 # Select which version of openMINDS to use
 openMINDS.version_manager.version_selection('v2.0.0')
@@ -37,11 +42,15 @@ for i in dataset_identifiers:
         doi = mycollection.add_core_DOI()
         mycollection.get(doi).identifier = i
 
+# schema creation Brain atlas
+
+#MarsAtlas = mycollection.add_SANDS_BrainAtlas()
+## import of scraped data with json import
+
 # save your collection
 mycollection.save("./myFirstOpenMINDSMetadataCollection/")
 
-# schema creation Brain atlas
-## import of scraped data with json import
+
 
 # Getting help for properties
-#mycollection.help_core_actors_person()
+mycollection.help_sands_atlas_brainAtlas()
