@@ -1037,7 +1037,7 @@
   ],
   "homepage": "https://www.nitrc.org/projects/whs-sd-atlas/",
   "howToCite": "Please refer to the atlas by its RRID: SCR_017124, and cite the first publication (Papp et al., 2014) along with the atlas version(s) you have used.",
-  "shortName": "Waxholm Space Atlas of the Sprague Dawley",
+  "shortName": "Waxholm Space rat brain atlas",
   "usedSpecies": {
     "@id": "https://openminds.ebrains.eu/instances/species/rattusNorvegicus"
   }
