@@ -27,7 +27,7 @@
 	"homepage": "https://portal.brain-map.org/",
 	"howToCite": null,
   "ontologyIdentifier": null,
-	"shortName": "Allen Mouse Brain CCF"
+	"shortName": "Allen Mouse Brain CCF",
 	"usedSpecies": {
 		"@id": "https://openminds.ebrains.eu/instances/species/musMusculus"
 	}
