@@ -21,7 +21,7 @@
 	"homepage": "https://www.nitrc.org/projects/whs-sd-atlas",
 	"howToCite": null,
   "ontologyIdentifier": null,
-	"shortName": "WHS of the SD Rat Brain"
+	"shortName": "WHS of the SD Rat Brain",
 	"usedSpecies": {
 		"@id": "https://openminds.ebrains.eu/instances/species/rattusNorvegicus"
 	}
