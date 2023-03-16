@@ -10,7 +10,7 @@
   "properties": {        
     "abbreviation": {
       "type": "string",
-      "_instruction": "Enter the official abbreviation of this parcellation entity.",
+      "_instruction": "Enter the official abbreviation of this parcellation entity."
     },  
     "alternativeName": {
       "type": "array",
