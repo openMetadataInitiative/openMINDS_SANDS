@@ -18,7 +18,7 @@
 	"homepage": null,
 	"howToCite": null,
   "ontologyIdentifier": null,
-	"shortName": "MEBRAINS brain template"
+	"shortName": "MEBRAINS brain template",
 	"usedSpecies": {
 		"@id": "https://openminds.ebrains.eu/instances/species/macacaMulatta"
 	}
