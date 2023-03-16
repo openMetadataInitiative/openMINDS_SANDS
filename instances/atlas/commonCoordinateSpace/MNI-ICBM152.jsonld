@@ -39,7 +39,7 @@
 	"homepage": "https://www.mcgill.ca/bic/software/tools-data-analysis/anatomical-mri/atlases",
 	"howToCite": null,
   "ontologyIdentifier": null,
-	"shortName": "MNI ICBM152"
+	"shortName": "MNI ICBM152",
 	"usedSpecies": {
 		"@id": "https://openminds.ebrains.eu/instances/species/homoSapiens"
 	}
