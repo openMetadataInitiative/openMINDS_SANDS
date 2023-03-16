@@ -2,7 +2,7 @@
 	"@context": {
 		"@vocab": "https://openminds.ebrains.eu/vocab/"
 	},
-	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/MNI-ICBM152_nonlinear-2009b-asym"
+	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/MNI-ICBM152_nonlinear-2009b-asym",
 	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
 	"abbreviation": "ICBM152",
 	"accessibility": null,
