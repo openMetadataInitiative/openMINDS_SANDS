@@ -1,17 +1,11 @@
-###isnatnz für eine person
-### context gibt das vokabulär für dieses file vor (in diesem fall schemas (types), und  properties)
 {
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  ### @id ist das subjekt, ein DOI/IRI für diese peron die angelegt wird
   "@id": "https://openminds.ebrains.eu/instances/person/auziasGuillaume",
-  ### type seztt das schema fest, im main github sind die schemas definiert
   "@type": [
     "https://openminds.ebrains.eu/core/Person"
   ],
-  ### jetzt kommen verschiedene prädikate, die jeweils auf das objekt mappen
-  ### digital identifier ist dabei ein prädikat des person schemas, das in demf all orcids enthägt
   "digitalIdentifier": {
     "@id": "https://orcid.org/0000-0002-0414-5691"
   },

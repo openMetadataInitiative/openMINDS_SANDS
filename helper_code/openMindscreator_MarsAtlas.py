@@ -9,10 +9,13 @@ dataset_identifiers = ["https://doi.org/10.1002/hbm.23121"]
 
 # Initialise the local copy of openMINDS, set version, iitialize helper and collection
 openMINDS.version_manager.init()
-openMINDS.version_manager.version_selection('v2.0.0')
+openMINDS.version_manager.version_selection('v3')
+openMINDS.version_manager.
 helper = openMINDS.Helper()
 atlas = helper.create_collection()
 
+# variables for constructing correct JSON-LD documents
+json_person = "https://openminds.ebrains.eu/instances/"
 
 # schema creation persons and ORCIDS
 for i in enumerate(givenNames):
@@ -21,20 +24,25 @@ for i in enumerate(givenNames):
         atlas.get(person).familyName = str(familyNames[i[0]])
         # ORCIDS
         orcid = atlas.add_core_ORCID()
-        atlas.get(orcid).identifier = orcid[i[0]]
+        atlas.get(orcid).identifier = ORCIDs[i[0]]
         # add ORCIDs to person instances
-        atlas.get(person).digitalIdentifier = orcid
+        atlas.get(person).digitalIdentifier = [{"@id": orcid}]
+        # change @ids from local host to actual orcid
+
+
 
 # schema creation DOIs
-
 for i in dataset_identifiers:
         # dois
         doi = atlas.add_core_DOI()
         atlas.get(doi).identifier = i
 
+atlas.save("./myFirstOpenMINDSMetadataCollection/")
+
 # schema creation brain atlas version
-marsAtlas = atlas.add_SANDS_brainAtlasVersion(fullName="MarsAtlas", coordinateSpace=, versionInnovation=, releaseDate=, \
-                                              hasTerminology= , shortName= , versionIdentifier=   )
+marsAtlas = atlas.add_SANDS_brainAtlasVersion(coordinateSpace= {"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/MNI-ICBM152_nonlinear-2009c-asym"})
+
+
 marsAtlasPlusSubcortical = atlas.add_SANDS_brainAtlasVersion(fullName="MarsAtlas + subcortical",coordinateSpace=,versionInnovation=, \
                                        releaseDate=, hasTerminology= , shortName= , versionIdentifier=  )
 # schema creation Brain atlas
@@ -46,7 +54,7 @@ marsAtlas = atlas.add_SANDS_brainAtlas(fullName = "MarsAtlas", hasVersion =,  )
 ## import of scraped data with json import
 
 # save your collection
-atlas.save("./myFirstOpenMINDSMetadataCollection/")
+
 
 with open('/home/kiwitz1/PycharmProjects/OpenMinds/myFirstOpenMINDSMetadataCollection/ORCID/257af828-c40e-11ed-a866-00155daeebba', 'r') as fobj:
     data = json.load(fobj)

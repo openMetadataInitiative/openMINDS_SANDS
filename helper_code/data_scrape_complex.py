@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # URL of the website containing the table
-url = 'https://meca-brain.org/software/marsatlas/'
+url = 'http://meca-brain.org/software/marsatlas-subcortical/'
 
 # Make a request to the website and get the HTML content
 response = requests.get(url)
