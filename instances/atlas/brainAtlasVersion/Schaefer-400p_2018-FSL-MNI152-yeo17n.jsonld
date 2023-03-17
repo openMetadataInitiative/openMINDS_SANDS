@@ -2,13 +2,12 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/Schaefer400p7n_2018",
+  "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/Schaefer-400p_2018-FSL-MNI152-yeo17n",
   "@type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
-  "abbreviation": "Schaefer400p7n",
+  "abbreviation": "Schaefer-400p",
   "accessibility": {
     "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
   },
-  "atlasType": null,
   "author": null,
   "coordinateSpace": null,
   "copyright": null,
@@ -16,12 +15,12 @@
   "description": null,
   "digitalIdentifier": null,
   "fullDocumentation": null,
-  "fullName": "Schaefer Atlas with 400 parcels in 7 networks",
+  "fullName": "Schaefer Atlas with 400 Parcellation",
   "funding": null,
-  "hasTerminologyVersion": {
+  "hasTerminology": {
     "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
-    "definedIn": null,
-    "hasEntityVersion":null,
+    "dataLocation": null,
+    "hasEntity":null,
     "ontologyIdentifier": null
   },
   "homepage": null,
@@ -32,13 +31,18 @@
   "license": {
     "@id": "https://openminds.ebrains.eu/instances/licenses/mit"
   },
+  "majorVersionIdentifier": "2018",
   "ontologyIdentifier": null,
   "otherContribution": null,
   "relatedPublication": null,
   "releaseDate": null,
   "repository": null,
-  "shortName": "Schaefer Atlas 400p/7n",
+  "shortName": "Schaefer Atlas (400p)",
   "supportChannel": null,
-  "versionIdentifier": "2018",
+  "type": {
+    "@id": "https://openminds.ebrains.eu/instances/atlasType/deterministicAtlas"
+  },
+  "usedSpecimen": null,
+  "versionIdentifier": "2018, FSL-MNI152, yeo17n",
   "versionInnovation": null
 }

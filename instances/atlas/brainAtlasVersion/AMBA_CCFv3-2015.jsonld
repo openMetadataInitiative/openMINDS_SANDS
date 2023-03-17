@@ -1,0 +1,3910 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/AMBA_CCFv3-2015",
+  "@type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+  "abbreviation": "AMBA",
+  "accessibility": {
+    "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
+  },
+  "author": null,
+  "coordinateSpace": {
+    "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/AMB-CCF_v3"
+  },
+  "copyright": null,
+  "custodian": null,
+  "description": null,
+  "digitalIdentifier": null,
+  "fullDocumentation": null,
+  "fullName": "Allen Mouse Brain Atlas",
+  "funding": null,
+  "hasTerminology": {
+		"@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
+		"dataLocation": null,
+		"hasEntity": [
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_root"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_basicCellGroupsAndRegions"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cerebrum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cerebralCortex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticalPlate"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_isocortex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_frontalPoleCerebralCortex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_frontalPoleLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_frontalPoleLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_somatomotorAreas"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_somatomotorAreasLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_somatomotorAreasLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_somatomotorAreasLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_somatomotorAreasLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_somatomotorAreasLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primaryMotorArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primaryMotorAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primaryMotorAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primaryMotorAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primaryMotorAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primaryMotorAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_secondaryMotorArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_secondaryMotorAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_secondaryMotorAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_secondaryMotorAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_secondaryMotorAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_secondaryMotorAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_somatosensoryAreas"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_somatosensoryAreasLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_somatosensoryAreasLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_somatosensoryAreasLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_somatosensoryAreasLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_somatosensoryAreasLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_somatosensoryAreasLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaNose"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaNoseLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaNoseLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaNoseLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaNoseLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaNoseLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaNoseLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaBarrelField"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaBarrelFieldLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaBarrelFieldLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaBarrelFieldLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaBarrelFieldLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaBarrelFieldLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaBarrelFieldLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_rostrolateralLateralVisualArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_rostrolateralLateralVisualAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_rostrolateralLateralVisualAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_rostrolateralLateralVisualAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_rostrolateralLateralVisualArealayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_rostrolateralLateralVisualAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_rostrolateralLateralVisualAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaLowerLimb"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaLowerLimbLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaLowerLimbLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaLowerLimbLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaLowerLimbLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaLowerLimbLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaLowerLimbLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaMouth"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaMouthLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaMouthLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaMouthLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaMouthLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaMouthLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaMouthLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaUpperLimb"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaUpperLimbLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaUpperLimbLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaUpperLimbLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaUpperLimbLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaUpperLimbLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaUpperLimbLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaTrunk"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaTrunkLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaTrunkLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaTrunkLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaTrunkLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaTrunkLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaTrunkLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaUnassigned"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaUnassignedLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaUnassignedLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaUnassignedLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaUnassignedLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaUnassignedLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primarySomatosensoryAreaUnassignedLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_supplementalSomatosensoryArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_supplementalSomatosensoryAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_supplementalSomatosensoryAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_supplementalSomatosensoryAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_supplementalSomatosensoryAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_supplementalSomatosensoryAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_supplementalSomatosensoryAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_gustatoryAreas"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_gustatoryAreasLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_gustatoryAreasLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_gustatoryAreasLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_gustatoryAreasLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_gustatoryAreasLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_gustatoryAreasLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_visceralArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_visceralAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_visceralAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_visceralAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_visceralAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_visceralAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_visceralAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_auditoryAreas"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalAuditoryArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalAuditoryAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalAuditoryAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalAuditoryAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalAuditoryAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalAuditoryAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalAuditoryAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_laterolateralAnteriorVisualArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_laterolateralAnteriorVisualAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_laterolateralAnteriorVisualAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_laterolateralAnteriorVisualAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_laterolateralAnteriorVisualArealayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_laterolateralAnteriorVisualAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_laterolateralAnteriorVisualAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primaryAuditoryArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primaryAuditoryAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primaryAuditoryAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primaryAuditoryAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primaryAuditoryAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primaryAuditoryAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primaryAuditoryAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteriorAuditoryArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteriorAuditoryAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteriorAuditoryAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteriorAuditoryAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteriorAuditoryAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteriorAuditoryAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteriorAuditoryAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralAuditoryArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralAuditoryAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralAuditoryAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralAuditoryAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralAuditoryAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralAuditoryAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralAuditoryAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_visualAreas"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_visualAreasLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_visualAreasLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_visualAreasLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_visualAreasLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_visualAreasLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_visualAreasLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anterolateralVisualArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anterolateralVisualAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anterolateralVisualAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anterolateralVisualAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anterolateralVisualAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anterolateralVisualAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anterolateralVisualAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteromedialVisualArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteromedialVisualAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteromedialVisualAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteromedialVisualAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteromedialVisualAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteromedialVisualAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteromedialVisualAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralVisualArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralVisualAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralVisualAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralVisualAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralVisualAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralVisualAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralVisualAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primaryVisualArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primaryVisualAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primaryVisualAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primaryVisualAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primaryVisualAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primaryVisualAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primaryVisualAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posterolateralVisualArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posterolateralVisualAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posterolateralVisualAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posterolateralVisualAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posterolateralVisualAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posterolateralVisualAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posterolateralVisualAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteromedialVisualArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteromedialVisualAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteromedialVisualAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteromedialVisualAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteromedialVisualAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteromedialVisualAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteromedialVisualAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_laterointermediateArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_laterointermediateAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_laterointermediateAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_laterointermediateAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_laterointermediateAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_laterointermediateAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_laterointermediateAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_postrhinalArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_postrhinalAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_postrhinalAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_postrhinalAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_postrhinalAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_postrhinalAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_postrhinalAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorCingulateArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorCingulateAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorCingulateAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorCingulateAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorCingulateAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorCingulateAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorCingulateAreaDorsalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorCingulateAreaDorsalPartLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorCingulateAreaDorsalPartLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorCingulateAreaDorsalPartLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorCingulateAreaDorsalPartLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorCingulateAreaDorsalPartLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorCingulateAreaVentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorCingulateAreaVentralPartLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorCingulateAreaVentralPartLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorCingulateAreaVentralPartLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorCingulateAreaVentralPart6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorCingulateAreaVentralPart6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_prelimbicArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_prelimbicAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_prelimbicAreaLayer2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_prelimbicAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_prelimbicAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_prelimbicAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_prelimbicAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_infralimbicArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_infralimbicAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_infralimbicAreaLayer2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_infralimbicAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_infralimbicAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_infralimbicAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_infralimbicAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaLateralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaLateralPartLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaLateralPartLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaLateralPartLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaLateralPartLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaLateralPartLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaMedialPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaMedialPartLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaMedialPartLayer2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaMedialPartLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaMedialPartLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaMedialPartLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaVentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaVentrolateralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaVentrolateralPartLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaVentrolateralPartLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaVentrolateralPartLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaVentrolateralPartLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_orbitalAreaVentrolateralPartLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_agranularInsularArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_agranularInsularAreaDorsalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_agranularInsularAreaDorsalPartLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_agranularInsularAreaDorsalPartLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_agranularInsularAreaDorsalPartLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_agranularInsularAreaDorsalPartLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_agranularInsularAreaDorsalPartLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_agranularInsularAreaPosteriorPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_agranularInsularAreaPosteriorPartLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_agranularInsularAreaPosteriorPartLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_agranularInsularAreaPosteriorPartLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_agranularInsularAreaPosteriorPartLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_agranularInsularAreaPosteriorPartLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_agranularInsularAreaVentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_agranularInsularAreaVentralPartLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_agranularInsularAreaVentralPartLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_agranularInsularAreaVentralPartLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_agranularInsularAreaVentralPartLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_agranularInsularAreaVentralPartLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrosplenialArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrosplenialAreaLateralAgranularPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrosplenialAreaLateralAgranularPartLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrosplenialAreaLateralAgranularPartLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrosplenialAreaLateralAgranularPartLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrosplenialAreaLateralAgranularPartLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrosplenialAreaLateralAgranularPartLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mediomedialAnteriorVisualArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mediomedialAnteriorVisualAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mediomedialAnteriorVisualAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mediomedialAnteriorVisualAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mediomedialAnteriorVisualArealayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mediomedialAnteriorVisualAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mediomedialAnteriorVisualAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mediomedialPosteriorVisualArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mediomedialPosteriorVisualAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mediomedialPosteriorVisualAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mediomedialPosteriorVisualAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mediomedialPosteriorVisualArealayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mediomedialPosteriorVisualAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mediomedialPosteriorVisualAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialVisualArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialVisualAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialVisualAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialVisualAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialVisualArealayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialVisualAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialVisualAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrosplenialAreaDorsalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrosplenialAreaDorsalPartLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrosplenialAreaDorsalPartLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrosplenialAreaDorsalPartLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrosplenialAreaDorsalPartLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrosplenialAreaDorsalPartLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrosplenialAreaDorsalPartLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrosplenialAreaVentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrosplenialAreaVentralPartLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrosplenialAreaVentralPartLayer2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrosplenialAreaVentralPartLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrosplenialAreaVentralPartLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrosplenialAreaVentralPartLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrosplenialAreaVentralPartLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteriorParietalAssociationAreas"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteriorParietalAssociationAreasLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteriorParietalAssociationAreasLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteriorParietalAssociationAreasLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteriorParietalAssociationAreasLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteriorParietalAssociationAreasLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteriorParietalAssociationAreasLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_rostrolateralVisualArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_rostrolateralAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_rostrolateralAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_rostrolateralAreaLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_rostrolateralAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_rostrolateralAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_rostrolateralAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_temporalAssociationAreas"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_temporalAssociationAreasLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_temporalAssociationAreasLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_temporalAssociationAreasLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_temporalAssociationAreasLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_temporalAssociationAreasLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_temporalAssociationAreasLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_perirhinalArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_perirhinalAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_perirhinalAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_perirhinalAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_perirhinalAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_perirhinalAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ectorhinalArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ectorhinalAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ectorhinalAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ectorhinalAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ectorhinalAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ectorhinalAreaLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_olfactoryAreas"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mainOlfactoryBulb"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mainOlfactoryBulbGlomerularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mainOlfactoryBulbGranuleLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mainOlfactoryBulbInnerPlexiformLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mainOlfactoryBulbMitralLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mainOlfactoryBulbOuterPlexiformLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_accessoryOlfactoryBulb"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_accessoryOlfactoryBulbGlomerularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_accessoryOlfactoryBulbGranularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_accessoryOlfactoryBulbMitralLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorOlfactoryNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorOlfactoryNucleusDorsalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorOlfactoryNucleusExternalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorOlfactoryNucleusLateralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorOlfactoryNucleusMedialPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorOlfactoryNucleusPosteroventralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorOlfactoryNucleusLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorOlfactoryNucleusLayer2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_taeniaTecta"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_taeniaTectaDorsalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_taeniaTectaDorsalPartLayers14"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_taeniaTectaDorsalPartLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_taeniaTectaDorsalPartLayer2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_taeniaTectaDorsalPartLayer3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_taeniaTectaDorsalPartLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_taeniaTectaVentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_taeniaTectaVentralPartLayers13"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_taeniaTectaVentralPartLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_taeniaTectaVentralPartLayer2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_taeniaTectaVentralPartLayer3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalPeduncularArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalPeduncularAreaLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalPeduncularAreaLayer2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalPeduncularAreaLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalPeduncularAreaLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalPeduncularAreaLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_piriformArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_piriformAreaLayers13"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_piriformAreaMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_piriformAreaPyramidalLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_piriformAreaPolymorphLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfTheLateralOlfactoryTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfTheLateralOlfactoryTractLayers13"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfTheLateralOlfactoryTractMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfTheLateralOlfactoryTractPyramidalLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfTheLateralOlfactoryTractLayer3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticalAmygdalarArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticalAmygdalarAreaAnteriorPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticalAmygdalarAreaAnteriorPartLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticalAmygdalarAreaAnteriorPartLayer2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticalAmygdalarAreaAnteriorPartLayer3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticalAmygdalarAreaPosteriorPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticalAmygdalarAreaPosteriorPartLateralZone"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticalAmygdalarAreaPosteriorPartLateralZoneLayers12"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticalAmygdalarAreaPosteriorPartLateralZoneLayers13"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticalAmygdalarAreaPosteriorPartLateralZoneLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticalAmygdalarAreaPosteriorPartLateralZoneLayer2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticalAmygdalarAreaPosteriorPartLateralZoneLayer3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticalAmygdalarAreaPosteriorPartMedialZone"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticalAmygdalarAreaPosteriorPartMedialZoneLayers12"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticalAmygdalarAreaPosteriorPartMedialZoneLayers13"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticalAmygdalarAreaPosteriorPartMedialZoneLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticalAmygdalarAreaPosteriorPartMedialZoneLayer2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticalAmygdalarAreaPosteriorPartMedialZoneLayer3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_piriformamygdalarArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_piriformamygdalarAreaLayers13"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_piriformamygdalarAreaMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_piriformamygdalarAreaPyramidalLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_piriformamygdalarAreaPolymorphLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_postpiriformTransitionArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_postpiriformTransitionAreaLayers13"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_postpiriformTransitionAreaLayers1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_postpiriformTransitionAreaLayers2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_postpiriformTransitionAreaLayers3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_hippocampalFormation"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_hippocampalRegion"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ammonsHorn"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fieldCA1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fieldCA1StratumLacunosummoleculare"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fieldCA1StratumOriens"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fieldCA1PyramidalLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fieldCA1StratumRadiatum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fieldCA2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fieldCA2StratumLacunosummoleculare"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fieldCA2StratumOriens"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fieldCA2PyramidalLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fieldCA2StratumRadiatum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fieldCA3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fieldCA3StratumLacunosummoleculare"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fieldCA3StratumLucidum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fieldCA3StratumOriens"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fieldCA3PyramidalLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fieldCA3StratumRadiatum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dentateGyrus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dentateGyrusMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dentateGyrusPolymorphLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dentateGyrusGranuleCellLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dentateGyrusSubgranularZone"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dentateGyrusCrest"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dentateGyrusCrestMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dentateGyrusCrestPolymorphLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dentateGyrusCrestGranuleCellLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dentateGyrusLateralBlade"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dentateGyrusLateralBladeMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dentateGyrusLateralBladePolymorphLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dentateGyrusLateralBladeGranuleCellLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dentateGyrusMedialBlade"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dentateGyrusMedialBladeMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dentateGyrusMedialBladePolymorphLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dentateGyrusMedialBladeGranuleCellLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fasciolaCinerea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_induseumGriseum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrohippocampalRegion"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaLateralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaLateralPartLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaLateralPartLayer2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaLateralPartLayer2-3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaLateralPartLayer2a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaLateralPartLayer2b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaLateralPartLayer3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaLateralPartLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaLateralPartLayer4-5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaLateralPartLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaLateralPartLayer5-6"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaLateralPartLayer6a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaLateralPartLayer6b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaMedialPartDorsalZone"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaMedialPartDorsalZoneLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaMedialPartDorsalZoneLayer2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaMedialPartDorsalZoneLayer2a"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaMedialPartDorsalZoneLayer2b"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaMedialPartDorsalZoneLayer3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaMedialPartDorsalZoneLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaMedialPartDorsalZoneLayer5"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaMedialPartDorsalZoneLayer5-6"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaMedialPartDorsalZoneLayer6"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaMedialPartVentralZone"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaMedialPartVentralZoneLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaMedialPartVentralZoneLayer2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaMedialPartVentralZoneLayer3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaMedialPartVentralZoneLayer4"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_entorhinalAreaMedialPartVentralZoneLayer5-6"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parasubiculum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parasubiculumLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parasubiculumLayer2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parasubiculumLayer3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_postsubiculum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_postsubiculumLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_postsubiculumLayer2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_postsubiculumLayer3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_presubiculum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_presubiculumLayer1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_presubiculumLayer2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_presubiculumLayer3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_subiculum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_subiculumDorsalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_subiculumDorsalPartMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_subiculumDorsalPartPyramidalLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_subiculumDorsalPartStratumRadiatum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_subiculumVentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_subiculumVentralPartMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_subiculumVentralPartPyramidalLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_subiculumVentralPartStratumRadiatum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_prosubiculum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_prosubiculumDorsalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_prosubiculumDorsalPartMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_prosubiculumDorsalPartPyramidalLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_prosubiculumDorsalPartStratumRadiatum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_prosubiculumVentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_prosubiculumVentralPartMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_prosubiculumVentralPartPyramidalLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_prosubiculumVentralPartStratumRadiatum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_areaProstriata"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticalSubplate"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_layer6bIsocortex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_claustrum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_endopiriformNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_endopiriformNucleusDorsalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_endopiriformNucleusVentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralAmygdalarNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_basolateralAmygdalarNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_basolateralAmygdalarNucleusAnteriorPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_basolateralAmygdalarNucleusPosteriorPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_basolateralAmygdalarNucleusVentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_basomedialAmygdalarNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_basomedialAmygdalarNucleusAnteriorPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_basomedialAmygdalarNucleusPosteriorPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteriorAmygdalarNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cerebralNuclei"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_striatum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_striatumDorsalRegion"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_caudoputamen"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_striatumVentralRegion"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusAccumbens"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fundusOfStriatum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_olfactoryTubercle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_islandsOfCalleja"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_majorIslandOfCalleja"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_olfactoryTubercleLayers13"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_olfactoryTubercleMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_olfactoryTuberclePyramidalLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_olfactoryTuberclePolymorphLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralSeptalComplex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralSeptalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralSeptalNucleusCaudalCaudodorsalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralSeptalNucleusRostralRostroventralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralSeptalNucleusVentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_septofimbrialNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_septohippocampalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_striatumlikeAmygdalarNuclei"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorAmygdalarArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_bedNucleusOfTheAccessoryOlfactoryTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_centralAmygdalarNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_centralAmygdalarNucleusCapsularPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_centralAmygdalarNucleusLateralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_centralAmygdalarNucleusMedialPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_intercalatedAmygdalarNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialAmygdalarNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialAmygdalarNucleusAnterodorsalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialAmygdalarNucleusAnteroventralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialAmygdalarNucleusPosterodorsalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialAmygdalarNucleusPosterodorsalPartSublayerA"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialAmygdalarNucleusPosterodorsalPartSublayerB"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialAmygdalarNucleusPosterodorsalPartSublayerC"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialAmygdalarNucleusPosteroventralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pallidum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pallidumDorsalRegion"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_globusPallidusExternalSegment"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_globusPallidusInternalSegment"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pallidumVentralRegion"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_substantiaInnominata"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_magnocellularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pallidumMedialRegion"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialSeptalComplex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialSeptalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_diagonalBandNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_triangularNucleusOfSeptum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pallidumCaudalRegion"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_bedNucleiOfTheStriaTerminalis"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_bedNucleiOfTheStriaTerminalisAnteriorDivision"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_bedNucleiOfTheStriaTerminalisAnteriorDivisionAnterolateralArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_bedNucleiOfTheStriaTerminalisAnteriorDivisionAnteromedialArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_bedNucleiOfTheStriaTerminalisAnteriorDivisionDorsomedialNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_bedNucleiOfTheStriaTerminalisAnteriorDivisionFusiformNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_bedNucleiOfTheStriaTerminalisAnteriorDivisionJuxtacapsularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_bedNucleiOfTheStriaTerminalisAnteriorDivisionMagnocellularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_bedNucleiOfTheStriaTerminalisAnteriorDivisionOvalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_bedNucleiOfTheStriaTerminalisAnteriorDivisionRhomboidNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_bedNucleiOfTheStriaTerminalisAnteriorDivisionVentralNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_bedNucleiOfTheStriaTerminalisPosteriorDivision"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_bedNucleiOfTheStriaTerminalisPosteriorDivisionDorsalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_bedNucleiOfTheStriaTerminalisPosteriorDivisionPrincipalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_bedNucleiOfTheStriaTerminalisPosteriorDivisionInterfascicularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_bedNucleiOfTheStriaTerminalisPosteriorDivisionTransverseNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_bedNucleiOfTheStriaTerminalisPosteriorDivisionStrialExtension"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_bedNucleusOfTheAnteriorCommissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_brainStem"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_interbrain"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_thalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_thalamusSensorymotorCortexRelated"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralGroupOfTheDorsalThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralAnteriorlateralComplexOfTheThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralMedialNucleusOfTheThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralPosteriorComplexOfTheThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralPosterolateralNucleusOfTheThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralPosterolateralNucleusOfTheThalamusParvicellularPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralPosteromedialNucleusOfTheThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralPosteromedialNucleusOfTheThalamusParvicellularPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_subparafascicularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_subparafascicularNucleusMagnocellularPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_subparafascicularNucleusParvicellularPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_subparafascicularArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_peripeduncularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_geniculateGroupDorsalThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialGeniculateComplex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialGeniculateComplexDorsalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialGeniculateComplexVentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialGeniculateComplexMedialPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalPartOfTheLateralGeniculateComplex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalPartOfTheLateralGeniculateComplexShell"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalPartOfTheLateralGeniculateComplexCore"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalPartOfTheLateralGeniculateComplexIpsilateralZone"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_thalamusPolymodalAssociationCortexRelated"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralGroupOfTheDorsalThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralPosteriorNucleusOfTheThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteriorComplexOfTheThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteriorLimitingNucleusOfTheThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_suprageniculateNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorGroupOfTheDorsalThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteroventralNucleusOfThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteromedialNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteromedialNucleusDorsalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteromedialNucleusVentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anterodorsalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_interanteromedialNucleusOfTheThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_interanterodorsalNucleusOfTheThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralDorsalNucleusOfThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialGroupOfTheDorsalThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_intermediodorsalNucleusOfTheThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mediodorsalNucleusOfThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mediodorsalNucleusOfTheThalamusCentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mediodorsalNucleusOfTheThalamusLateralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mediodorsalNucleusOfTheThalamusMedialPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_submedialNucleusOfTheThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_perireunensisNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_midlineGroupOfTheDorsalThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paraventricularNucleusOfTheThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parataenialNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfReunions"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_intralaminarNucleiOfTheDorsalThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_rhomboidNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_centralMedialNucleusOfTheThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paracentralNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_centralLateralNucleusOfTheThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parafascicularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_reticularNucleusOfTheThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_geniculateGroupVentralThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_intergeniculateLeafletOfTheLateralGeniculateComplex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralPartOfTheLateralGeniculateComplex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralPartOfTheLateralGeniculateComplexLateralZone"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralPartOfTheLateralGeniculateComplexMedialZone"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_subgeniculateNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_epithalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialHabenula"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralHabenula"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pinealBody"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_hypothalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_periventricularZone"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_supraopticNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_accessorySupraopticGroup"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusCircularis"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paraventricularHypothalamicNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paraventricularHypothalamicNucleusMagnocellularDivision"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paraventricularHypothalamicNucleusMagnocellularDivisionAnteriorMagnocellularPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paraventricularHypothalamicNucleusMagnocellularDivisionMedialMagnocellularPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paraventricularHypothalamicNucleusMagnocellularDivisionPosteriorMagnocellularPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paraventricularHypothalamicNucleusMagnocellularDivisionPosteriorMagnocellularPartLateralZone"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paraventricularHypothalamicNucleusMagnocellularDivisionPosteriorMagnocellularPartMedialZone"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paraventricularHypothalamicNucleusParvicellularDivision"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paraventricularHypothalamicNucleusParvicellularDivisionAnteriorParvicellularPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paraventricularHypothalamicNucleusParvicellularDivisionMedialParvicellularPartDorsalZone"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paraventricularHypothalamicNucleusParvicellularDivisionPeriventricularPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_periventricularHypothalamicNucleusAnteriorPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_periventricularHypothalamicNucleusIntermediatePart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_arcuateHypothalamicNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_periventricularRegion"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anterodorsalPreopticNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorHypothalamicArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteroventralPreopticNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteroventralPeriventricularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsomedialNucleusOfTheHypothalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsomedialNucleusOfTheHypothalamusAnteriorPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsomedialNucleusOfTheHypothalamusPosteriorPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsomedialNucleusOfTheHypothalamusVentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medianPreopticNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialPreopticArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_vascularOrganOfTheLaminaTerminalis"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posterodorsalPreopticNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parastrialNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_suprachiasmaticPreopticNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_periventricularHypothalamicNucleusPosteriorPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_periventricularHypothalamicNucleusPreopticPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_subparaventricularZone"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_suprachiasmaticNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_subfornicalOrgan"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventrolateralPreopticNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_hypothalamicMedialZone"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorHypothalamicNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorHypothalamicNucleusAnteriorPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorHypothalamicNucleusCentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorHypothalamicNucleusDorsalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorHypothalamicNucleusPosteriorPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mammillaryBody"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralMammillaryNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialMammillaryNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialMammillaryNucleusMedianPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_supramammillaryNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_supramammillaryNucleusLateralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_supramammillaryNucleusMedialPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_tuberomammillaryNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_tuberomammillaryNucleusDorsalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_tuberomammillaryNucleusVentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialPreopticNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialPreopticNucleusCentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialPreopticNucleusLateralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialPreopticNucleusMedialPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalPremammillaryNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralPremammillaryNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paraventricularHypothalamicNucleusDescendingDivision"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paraventricularHypothalamicNucleusDescendingDivisionDorsalParvicellularPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paraventricularHypothalamicNucleusDescendingDivisionFornicealPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paraventricularHypothalamicNucleusDescendingDivisionLateralParvicellularPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paraventricularHypothalamicNucleusDescendingDivisionMedialParvicellularPartVentralZone"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventromedialHypothalamicNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventromedialHypothalamicNucleusAnteriorPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventromedialHypothalamicNucleusCentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventromedialHypothalamicNucleusDorsomedialPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventromedialHypothalamicNucleusVentrolateralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteriorHypothalamicNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_hypothalamicLateralZone"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralHypothalamicArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralPreopticArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_preparasubthalamicNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parasubthalamicNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retrochiasmaticArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_subthalamicNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_tuberalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_zonaIncerta"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dopaminergicA13Group"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fieldsOfForel"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medianEminence"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_midbrain"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_midbrainSensoryRelated"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorColliculusSensoryRelated"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorColliculusOpticLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorColliculusSuperficialGrayLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorColliculusZonalLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_inferiorColliculus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_inferiorColliculusCentralNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_inferiorColliculusDorsalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_inferiorColliculusExternalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfTheBrachiumOfTheInferiorColliculus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusSagulum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parabigeminalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_midbrainTrigeminalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_midbrainMotorRelated"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_substantiaNigraReticularPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralTegmentalArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_midbrainReticularNucleusRetrorubralArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_midbrainReticularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_midbrainReticularNucleusMagnocellularPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_midbrainReticularNucleusMagnocellularPartGeneral"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_midbrainReticularNucleusParvicellularPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorColliculusMotorRelated"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorColliculusMotorRelatedDeepGrayLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorColliculusMotorRelatedDeepWhiteLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorColliculusMotorRelatedIntermediateWhiteLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorColliculusMotorRelatedIntermediateGrayLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorColliculusMotorRelatedIntermediateGrayLayerSublayerA"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorColliculusMotorRelatedIntermediateGrayLayerSublayerB"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorColliculusMotorRelatedIntermediateGrayLayerSublayerC"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_periaqueductalGray"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_precommissuralNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_interstitialNucleusOfCajal"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfDarkschewitsch"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pretectalRegion"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorPretectalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialPretectalArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfTheOpticTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfThePosteriorCommissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_olivaryPretectalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteriorPretectalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cuneiformNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_redNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_oculomotorNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_edingerWestphalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_trochlearNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralTegmentalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorTegmentalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralTerminalNucleusOfTheAccessoryOpticTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalTerminalNucleusOfTheAccessoryOpticTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialTerminalNucleusOfTheAccessoryOpticTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_substantiaNigraLateralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_midbrainBehavioralStateRelated"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_substantiaNigraCompactPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pedunculopontineNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_midbrainRapheNuclei"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_interfascicularNucleusRaphe"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_interpeduncularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_rostralLinearNucleusRaphe"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_centralLinearNucleusRaphe"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalNucleusRaphe"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_hindbrain"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pons"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ponsSensoryRelated"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfTheLateralLemniscus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfTheLateralLemniscusDorsalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfTheLateralLemniscusHorizontalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfTheLateralLemniscusVentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_principalSensoryNucleusOfTheTrigeminal"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parabrachialNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_koellikerFuseSubnucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parabrachialNucleusLateralDivision"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parabrachialNucleusLateralDivisionCentralLateralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parabrachialNucleusLateralDivisionDorsalLateralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parabrachialNucleusLateralDivisionExternalLateralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parabrachialNucleusLateralDivisionSuperiorLateralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parabrachialNucleusLateralDivisionVentralLateralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parabrachialNucleusMedialDivision"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parabrachialNucleusMedialDivisionExternalMedialPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parabrachialNucleusMedialDivisionMedialMedialPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parabrachialNucleusMedialDivisionVentralMedialPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorOlivaryComplex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorOlivaryComplexPeriolivaryRegion"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorOlivaryComplexMedialPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorOlivaryComplexLateralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ponsMotorRelated"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_barringtonsNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalTegmentalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralTegmentalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pontineCentralGray"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pontineGray"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pontineReticularNucleusCaudalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pontineReticularNucleusVentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_supragenualNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorSalivatoryNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_supratrigeminalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_tegmentalReticularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_motorNucleusOfTrigeminal"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ponsBehavioralStateRelated"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorCentralNucleusRaphe"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorCentralNucleusRapheLateralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorCentralNucleusRapheMedialPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_locusCeruleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_laterodorsalTegmentalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusIncertus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pontineReticularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusRaphePontis"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_subceruleusNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_sublaterodorsalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medulla"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medullaSensoryRelated"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_areaPostrema"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cochlearNuclei"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_granularLaminaOfTheCochlearNuclei"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cochlearNucleusSubpedunclularGranularRegion"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalCochlearNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralCochlearNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalColumnNuclei"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cuneateNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_gracileNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_externalCuneateNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfTheTrapezoidBody"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfTheSolitaryTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfTheSolitaryTractCentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfTheSolitaryTractCommissuralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfTheSolitaryTractGelatinousPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfTheSolitaryTractLateralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfTheSolitaryTractMedialPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_spinalNucleusOfTheTrigeminalCaudalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_spinalNucleusOfTheTrigeminalInterpolarPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_spinalNucleusOfTheTrigeminalOralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_spinalNucleusOfTheTrigeminalOralPartCaudalDorsomedialPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_spinalNucleusOfTheTrigeminalOralPartMiddleDorsomedialPartDorsalZone"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_spinalNucleusOfTheTrigeminalOralPartMiddleDorsomedialPartVentralZone"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_spinalNucleusOfTheTrigeminalOralPartRostralDorsomedialPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_spinalNucleusOfTheTrigeminalOralPartVentrolateralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusZ"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medullaMotorRelated"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_abducensNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_accessoryAbducensNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_facialMotorNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_accessoryFacialMotorNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_efferentVestibularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusAmbiguus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusAmbiguusDorsalDivision"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusAmbiguusVentralDivision"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalMotorNucleusOfTheVagusNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_efferentCochlearGroup"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_gigantocellularReticularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_infracerebellarNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_inferiorOlivaryComplex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_intermediateReticularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_inferiorSalivatoryNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_linearNucleusOfTheMedulla"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralReticularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralReticularNucleusMagnocellularPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralReticularNucleusParvicellularPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_magnocellularReticularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medullaryReticularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medullaryReticularNucleusDorsalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medullaryReticularNucleusVentralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parvicellularReticularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parasolitaryNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paragigantocellularReticularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paragigantocellularReticularNucleusDorsalPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paragigantocellularReticularNucleusLateralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_perihypoglossalNuclei"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusIntercalatus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusOfRoller"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusPrepositus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paramedianReticularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parapyramidalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parapyramidalNucleusDeepPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parapyramidalNucleusSuperficialPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_vestibularNuclei"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralVestibularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialVestibularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_spinalVestibularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorVestibularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusX"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_hypoglossalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusY"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_interstitialNucleusOfTheVestibularNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medullaBehavioralStateRelated"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusRapheMagnus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusRaphePallidus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nucleusRapheObscurus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cerebellum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cerebellarCortex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_vermalRegions"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lingulaI"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lingulaIMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lingulaIPurkinjeLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lingulaIGranularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_centralLobule"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lobuleII"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lobuleIIMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lobuleIIPurkinjeLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lobuleIIGranularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lobuleIII"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lobuleIIIMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lobuleIIIPurkinjeLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lobuleIIIGranularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_culmen"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lobuleIV"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lobuleIVMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lobuleIVPurkinjeLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lobuleIVGranularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lobuleV"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lobuleVMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lobuleVPurkinjeLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lobuleVGranularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lobulesIV-V"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lobulesIV-VMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lobulesIV-VPurkinjeLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lobulesIV-VGranularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_decliveVI"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_decliveVIMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_decliveVIPurkinjeLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_decliveVIGranularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_foliumtuberVermisVII"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_foliumtuberVermisVIIMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_foliumtuberVermisVIIPurkinjeLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_foliumtuberVermisVIIGranularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pyramusVIII"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pyramusVIIIMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pyramusVIIIPurkinjeLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pyramusVIIIGranularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_uvulaIX"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_uvulaIXMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_uvulaIXPurkinjeLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_uvulaIXGranularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nodulusX"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nodulusXMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nodulusXPurkinjeLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nodulusXGranularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_hemisphericRegions"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_simpleLobule"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_simpleLobuleMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_simpleLobulePurkinjeLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_simpleLobuleGranularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ansiformLobule"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_crus1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_crus1MolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_crus1PurkinjeLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_crus1GranularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_crus2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_crus2MolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_crus2PurkinjeLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_crus2GranularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paramedianLobule"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paramedianLobuleMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paramedianLobulePurkinjeLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paramedianLobuleGranularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_copulaPyramidis"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_copulaPyramidisMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_copulaPyramidisPurkinjeLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_copulaPyramidisGranularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paraflocculus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paraflocculusMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paraflocculusPurkinjeLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paraflocculusGranularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_flocculus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_flocculusMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_flocculusPurkinjeLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_flocculusGranularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cerebellarCortexMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cerebellarCortexPurkinjeLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cerebellarCortexGranularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cerebellarNuclei"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fastigialNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_interposedNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dentateNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fiberTracts"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cranialNerves"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_terminalNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_vomeronasalNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_olfactoryNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_olfactoryNerveLayerOfMainOlfactoryBulb"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralOlfactoryTractGeneral"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralOlfactoryTractBody"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalLimb"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_accessoryOlfactoryTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorCommissureOlfactoryLimb"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_opticNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_accessoryOpticTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_brachiumOfTheSuperiorColliculus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorColliculusCommissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_opticChiasm"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_opticTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_tectothalamicPathway"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_oculomotorNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialLongitudinalFascicle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteriorCommissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_trochlearNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_trochlearNerveDecussation"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_abducensNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_trigeminalNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_motorRootOfTheTrigeminalNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_sensoryRootOfTheTrigeminalNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_midbrainTractOfTheTrigeminalNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_spinalTractOfTheTrigeminalNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_facialNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_intermediateNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_genuOfTheFacialNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_vestibulocochlearNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_efferentCochleovestibularBundle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_vestibularNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cochlearNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_trapezoidBody"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_intermediateAcousticStria"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalAcousticStria"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralLemniscus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_inferiorColliculusCommissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_brachiumOfTheInferiorColliculus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_glossopharyngealNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_vagusNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_solitaryTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_accessorySpinalNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_hypoglossalNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralRoots"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalRoots"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cervicothalamicTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsolateralFascicle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalCommissureOfTheSpinalCord"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralCommissureOfTheSpinalCord"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fasciculusProprius"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalColumn"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cuneateFascicle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_gracileFascicle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_internalArcuateFibers"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialLemniscus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_spinothalamicTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralSpinothalamicTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralSpinothalamicTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_spinocervicalTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_spinoolivaryPathway"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_spinoreticularPathway"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_spinovestibularPathway"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_spinotectalPathway"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_spinohypothalamicPathway"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_spinotelenchephalicPathway"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_hypothalamohypophysialTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cerebellumRelatedFiberTracts"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cerebellarCommissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cerebellarPeduncles"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorCerebelarPeduncles"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_superiorCerebellarPeduncleDecussation"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_spinocerebellarTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_uncinateFascicle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralSpinocerebellarTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_middleCerebellarPeduncle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_inferiorCerebellarPeduncle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalSpinocerebellarTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cuneocerebellarTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_juxtarestiformBody"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_bulbocerebellarTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_olivocerebellarTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_reticulocerebellarTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_trigeminocerebellarTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_arborVitae"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_supracallosalCerebralWhiteMatter"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralForebrainBundleSystem"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corpusCallosum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corpusCallosumAnteriorForceps"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_externalCapsule"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corpusCallosumExtremeCapsule"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_genuOfCorpusCallosum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corpusCallosumPosteriorForceps"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corpusCallosumRostrum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corpusCallosumBody"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corpusCallosumSplenium"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticospinalTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_internalCapsule"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cerebalPeduncle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticotectalTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticorubralTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticopontineTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticobulbarTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pyramid"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pyramidalDecussation"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticospinalTractCrossed"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_corticospinalTractUncrossed"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_thalamusRelated"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_externalMedullaryLaminaOfTheThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_internalMedullaryLaminaOfTheThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_middleThalamicCommissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_thalamicPeduncles"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_opticRadiation"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_auditoryRadiation"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_extrapyramidalFiberSystems"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cerebralNucleiRelated"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pallidothalmicPathway"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nigrostriatalTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nigrothalamicFibers"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pallidotegmentalFascicle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_striatonigralPathway"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_subthalamicFascicle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_tectospinalPathway"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_directTectospinalPathway"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_doralTegmentalDecussation"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_crossedTectospinalPathway"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_rubrospinalTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralTegmentalDecussation"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_rubroreticularTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_centralTegmentalBundle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retriculospinalTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retriculospinalTractLateralPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retriculospinalTractMedialPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_vestibulospinalPathway"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialForebrainBundleSystem"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cerebrumRelated"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_amygdalarCapsule"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ansaPeduncularis"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_anteriorCommissureTemporalLimb"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cingulumBundle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fornixSystem"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_alveus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalFornix"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fimbria"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_precommissuralFornixGeneral"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_precommissuralFornixDiagonalBand"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_postcommissuralFornix"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialCorticohypothalmicTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_columnsOfTheFornix"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_hippocampalCommissures"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalHippocampalCommissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventralHippocampalCommissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_perforantPath"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_angularPath"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_longitudinalAssociationBundle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_striaTerminalis"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_commissuralBranchOfStriaTerminalis"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_hypothalamusRelated"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_medialForebrainBundle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventrolateralHypothalamicTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_preopticCommissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_supraopticCommissures"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_supraopticCommissuresAnterior"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_supraopticCommissuresDorsal"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_supraopticCommissuresVentral"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_premammillaryCommissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_supramammillaryDecussation"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_propriohypothalamicPathways"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_propriohypothalamicPathwaysDorsal"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_propriohypothalamicPathwaysLateral"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_propriohypothalamicPathwaysMedial"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_propriohypothalamicPathwaysVentral"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_periventricularBundleOfTheHypothalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mammillaryRelated"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_principalMammillaryTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mammilothalmicTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mammillotegmentalTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_mammillaryPeduncle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalThalamusRelated"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_periventricularBundleOfTheThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_epithalamusRelated"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_striaMedullaris"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fasciculusRetroflexus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_habenularCommissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_pinealStalk"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_midbrainRelated"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalLongitudinalFascicle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_dorsalTegmentalTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ventricularSystems"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralVentricle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_rhinocele"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_subependymalZone"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_choroidPlexus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_choroidFissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_interventricularForamen"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_thirdVentricle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_cerebralAqueduct"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_fourthVentricle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_lateralRecess"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_centralCanalSpinalCordmedulla"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_grooves"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_groovesOfTheCerebralCortex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_endorhinalGroove"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_hippocampalFissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_rhinalFissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_rhinalIncisure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_groovesOfTheCerebellarCortex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_precentralFissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_preculminateFissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_primaryFissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posteriorSuperiorFissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_prepyramidalFissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_secondaryFissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_posterolateralFissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_nodularFissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_simpleFissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_intercruralFissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_ansoparamedianFissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_intraparafloccularFissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_paramedianSulcus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_parafloccularSulcus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_interpeduncularFossa"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2015_retina"
+			}
+		],
+		"ontologyIdentifier": null
+	},
+  "homepage": null,
+  "howToCite": null,
+  "isAlternativeVersionOf": null,
+  "isNewVersionOf": null,
+  "keyword": null,
+  "license": null,
+  "majorVersionIdentifier": null,
+  "ontologyIdentifier": null,
+  "otherContribution": null,
+  "relatedPublication": null,
+  "releaseDate": null,
+  "repository": null,
+  "shortName": "Allen Mouse Brain Atlas",
+  "supportChannel": null,
+  "type": {
+    "@id": "https://openminds.ebrains.eu/instances/atlasType/deterministicAtlas"
+  },
+  "usedSpecimen": null,
+  "versionIdentifier": "CCFv3, 2015",
+  "versionInnovation": null
+}

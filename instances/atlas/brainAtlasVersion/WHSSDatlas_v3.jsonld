@@ -1,0 +1,410 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/WHSSDatlas_v3",
+  "@type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+  "abbreviation": "WHSSDatlas",
+  "accessibility": {
+    "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
+  },
+  "author": null,
+  "coordinateSpace": {
+    "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/WHSSD_v1.01"
+  },
+  "copyright": null,
+  "custodian": null,
+  "description": null,
+  "digitalIdentifier": null,
+  "fullDocumentation": null,
+  "fullName": "Waxholm Space Atlas of the Sprague Dawley Rat Brain",
+  "funding": null,
+  "hasTerminology": {
+		"@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
+		"dataLocation": null,
+		"hasEntity": [
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_descendingCorticofugalPathways"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_substantiaNigra"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_subthalamicNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_molecularLayerOfTheCerebellum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_granuleCellLevelOfTheCerebellum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_alveusOfTheHippocampus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_inferiorCerebellarPeduncle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_cingulateCortexArea2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_striatum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_globusPallidus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_entopeduncularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_ventricularSystem"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_medialLemniscus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_facialNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_anteriorCommissureAnteriorPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_anteriorCommissurePosteriorPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_ventralHippocampalCommissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_thalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_septalRegion"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_opticNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_opticTractAndOpticChiasm"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_pinealGland"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_spinalCord"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_commissureOfTheSuperiorColliculus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_brainstem"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_hypothalamicRegion"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_superficialGrayLayerOfTheSuperiorColliculus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_periaqueductalGray"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_fornix"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_mammillothalamicTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_commissuralStriaTerminalis"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_deeperLayersOfTheSuperiorColliculus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_periventricularGray"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_genuOfTheFacialNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_pontineNuclei"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_fimbriaOfTheHippocampus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_fasciculusRetroflexus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_striaMedullarisOfTheThalamus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_striaTerminalis"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_posteriorCommissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_glomerularLayerOfTheAccessoryOlfactoryBulb"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_glomerularLayerOfTheOlfactoryBulb"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_olfactoryBulb"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_corpusCallosumAndAssociatedSubcorticalWhiteMatter"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_brachiumOfTheSuperiorColliculus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_inferiorColliculusCommissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_centralCanal"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_interpeduncularNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_ascendingFibersOfTheFacialNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_anteriorCommissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_inferiorOlive"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_spinalTrigeminalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_spinalTrigeminalTract"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_frontalAssociationCortex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_middleCerebellarPeduncle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_transverseFibersOfThePons"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_habenularCommissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_nucleusOfTheStriaMedullaris"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_basalForebrainRegion"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_supraopticDecussation"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_medialLemniscusDecussation"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_pyramidalDecussation"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_neocortex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_bedNucleusOfTheStriaTerminalis"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_pretectalRegion"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_cornuAmmonis3"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_dentateGyrus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_cornuAmmonis2"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_cornuAmmonis1"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_fasciolaCinereum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_subiculum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_postrhinalCortex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_presubiculum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_parasubiculum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_perirhinalArea35"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_perirhinalArea36"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_entorhinalCortex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_lateralEntorhinalCortex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_vestibularApparatus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_cochlea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_cochlearNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_vestibularNerve"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_ventralCochlearNucleusGranuleCellLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_4thVentricle"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_dorsalCochlearNucleusMolecularLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_dorsalCochlearNucleusFusiformAndGranuleLayer"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_dorsalCochlearNucleusDeepCore"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_acousticStriae"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_trapezoidBody"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_nucleusOfTheTrapezoidBody"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_superiorParaolivaryNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_medialSuperiorOlive"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_lateralSuperiorOlive"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_superiorPeriolivaryRegion"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_ventralPeriolivaryNuclei"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_lateralLemniscusVentralNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_lateralLemniscusIntermediateNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_lateralLemniscusDorsalNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_lateralLemniscusCommissure"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_lateralLemniscus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_inferiorColliculusDorsalCortex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_inferiorColliculusCentralNucleus"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_inferiorColliculusExternalCortex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_inferiorColliculusBrachium"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_medialGeniculateBodyMedialDivision"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_medialGeniculateBodyDorsalDivision"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_medialGeniculateBodyVentralDivision"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_medialGeniculateBodyMarginalZone"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_primaryAuditoryCortex"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_secondaryAuditoryCortexDorsalArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_secondaryAuditoryCortexVentralArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_auditoryRadiation"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_ventralCochlearNucleusAnteriorPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_ventralCochlearNucleusPosteriorPart"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_ventralCochlearNucleusCapArea"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_spiralGanglion"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_nucleusSagulum"
+			},
+			{
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_reticularThalamicNucleusAuditorySegment"
+			}
+		],
+		"ontologyIdentifier": null
+	},
+  "homepage": null,
+  "howToCite": "Please refer to the atlas by its RRID: SCR_017124, and cite the first publication (Papp et al., 2014) along with the publication for the atlas version you have used (see Related publications below).",
+  "isAlternativeVersionOf": null,
+  "isNewVersionOf": {
+    "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/WHSSDatlas_v2"
+  },
+  "keyword": null,
+  "license": {
+    "@id": "https://openminds.ebrains.eu/instances/licenses/ccBySa4.0"
+  },
+  "majorVersionIdentifier": null,
+  "ontologyIdentifier": null,
+  "otherContribution": null,
+  "relatedPublication": null,
+  "releaseDate": "2019-05-15",
+  "repository": null,
+  "shortName": "Waxholm Space Rat Brain Atlas",
+  "supportChannel": [
+    "support@ebrains.eu",
+    "https://www.nitrc.org/forum/forum.php?forum_id=9174"
+  ],
+  "type": {
+    "@id": "https://openminds.ebrains.eu/instances/atlasType/deterministicAtlas"
+  },
+  "usedSpecimen": null,
+  "versionIdentifier": "v3",
+  "versionInnovation": "Anatomical delineations of 118 brain regions and white matter tracts in the Sprague Dawley rat brain, based on observations in a high resolution magnetic resonance imaging (MRI) volume (DOI: 10.25493/DTSG-ZBS). Version 3 of the Waxholm Space atlas of the Sprague Dawley rat brain contains 41 new and 10 updated delineations related or adjacent to the ascending the auditory system. 65 delineations have remained unchanged relative to v2. This dataset is hosted on NITRC.org and includes: WHS_SD_rat_atlas_v3.nii.gz: delineation file with anatomical structures; WHS_SD_rat_atlas_v3.label: text file naming anatomical structures; MBAT_WHS_SD_rat_atlas_v3.zip: file describing a suggested hierarchy of the anatomical structures. Note: The licence was changed to from CC BY-SA-NC to CC BY-SA on October 1, 2021."
+}
