@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Mars_ACC",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_Colin27_1998_cortexAndSubcortex_ACC"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_HipHop138_cortex_ACC.jsonld"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_individual_cortex_ACC.jsonld"
+        }
+    ],
+    "lookupLabel": "Mars_ACC",
+    "name": "ACC",
+    "ontologyIdentifier": null,
+    "relatedUBERONTerm": null
+}

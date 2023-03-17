@@ -10,7 +10,6 @@ dataset_identifiers = ["https://doi.org/10.1002/hbm.23121"]
 # Initialise the local copy of openMINDS, set version, iitialize helper and collection
 openMINDS.version_manager.init()
 openMINDS.version_manager.version_selection('v3')
-openMINDS.version_manager.
 helper = openMINDS.Helper()
 atlas = helper.create_collection()
 
