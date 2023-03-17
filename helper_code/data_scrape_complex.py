@@ -4,7 +4,10 @@ from bs4 import BeautifulSoup
 # URL of the website containing the table
 url = 'http://meca-brain.org/software/marsatlas-subcortical/'
 
-# Make a request to the website and get the HTML content
+# Make a request to the website ang the table
+# url = 'http://meca-brain.org/software/marsatlas-subcortical/'
+#
+# # Make a request to the website nd get the HTML content
 response = requests.get(url)
 html_content = response.content
 

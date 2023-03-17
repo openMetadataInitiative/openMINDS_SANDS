@@ -168,37 +168,31 @@
 	},
     "hasVersion": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/MarsAtlas_individual_v1"
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/Mars_individual_cortex"
         },
         {
-            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/MarsAtlas_HipHop138_v1"
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/Mars_individual_cortexAndSubcortex"
         },
         {
-            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/MarsAtlas_Colin27_1998_v1"
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/Mars_HipHop138_cortex"
         },
         {
-            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/MarsAtlas_individual_v2"
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/Mars_Colin27_1998_cortexAndSubcortex"
         },
-        {
-            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/MarsAtlas_Colin27_1998_v1"
-        }
     ],
     "homepage": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/MarsAtlas_individual_v1_homepage"
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/MarsAtlas_individual_cortex_homepage"
         },
         {
-            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/MarsAtlas_HipHop138_v1_homepage"
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/MarsAtlas_individual_cortexAndSubcortex_homepage"
         },
         {
-            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/MarsAtlas_Colin27_1998_v1_homepage"
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/MarsAtlas_HipHop138_cortex_homepage"
         },
         {
-            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/MarsAtlas_individual_v2_homepage"
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/MarsAtlas_Colin27_1998_cortexAndSubcortex_homepage"
         },
-        {
-            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/MarsAtlas_Colin27_1998_v1_homepage"
-        }
     ],
     "howToCite": null,
     "shortName": "MarsAtlas"
