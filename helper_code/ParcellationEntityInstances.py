@@ -3,7 +3,6 @@ import openMINDS.version_manager
 import json
 import glob
 
-
 def generate_entities(path, versions, abbreviation, *args):
     """create person directories, files and instances ind a semi-automatic manner"""
     for list in args:
