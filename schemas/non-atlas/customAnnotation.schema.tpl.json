@@ -4,7 +4,7 @@
   "required": [
     "coordinateSpace"
   ],
-  "properties": {   
+  "properties": {
     "coordinateSpace": {
       "_instruction": "Add the coordinate space for this custom annotation.",
       "_linkedTypes": [

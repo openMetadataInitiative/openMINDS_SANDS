@@ -4,13 +4,16 @@
     "criteriaType",
     "type"
   ],
-  "properties": {       
+  "properties": {
     "anchorPoint": {
-      "_instruction": "Enter the anchor point for this annotation (e.g., its centroid).",
+      "type": "array",      
+      "minItems": 2,
+      "maxItems": 3,
+      "_instruction": "Enter the coordinates of the anchor point for this annotation (e.g., its centroid in two dimensional space as [x, y] or in three dimensional space as [x, y, z]).",
       "_embeddedTypes": [
-      "https://openminds.ebrains.eu/sands/CoordinatePoint"
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
-    },    
+    },
     "criteria": {
       "_instruction": "Add the protocol execution defining the criteria that were applied to produce this annotation.",
       "_linkedTypes": [

@@ -9,9 +9,12 @@
       "_instruction": "Enter any additional remarks concerning this viewer specification."
     },
     "anchorPoint": {
-      "_instruction": "Enter the anchor point that a viewer should use. Either state the anchor point of the annotation again or state another coordinate point.",
+      "type": "array",      
+      "minItems": 2,
+      "maxItems": 3,
+      "_instruction": "Enter the coordinates of the anchor point that a viewer should use. Either state the anchor point of the annotation again or state another coordinate point.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/sands/CoordinatePoint"
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
     },
     "cameraPosition": {
