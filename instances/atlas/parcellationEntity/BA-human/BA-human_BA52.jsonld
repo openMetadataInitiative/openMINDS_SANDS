@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA-human_BA52",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": "BA52",
+  "alternateName": [
+    "Brodmann's area 52",
+    "human BA52",
+    "human Brodmann area 52",
+    "human Brodmann's area 52"
+  ],
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA-human_cerebralCortex"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA52"
+    }
+  ],
+  "lookupLabel": "BA-human_BA52",
+  "name": "Brodmann area 52",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}
