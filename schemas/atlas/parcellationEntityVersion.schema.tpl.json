@@ -17,7 +17,7 @@
       "type": "string",
       "_instruction": "Enter any additional remarks concerning this parcellation entity version."
     },
-    "alternativeName": {
+    "alternateName": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
