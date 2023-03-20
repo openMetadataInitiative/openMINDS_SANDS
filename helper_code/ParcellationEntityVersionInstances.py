@@ -35,3 +35,4 @@ for area in all_entitites:
             with open(f"{path}{version}{sep}{version}{us}{area[0]}{j}", "w") as p:
                 p.write("")
 
+# to
