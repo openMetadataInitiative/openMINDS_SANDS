@@ -1,16 +1,7 @@
 {
   "_type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
   "_extends": "atlas/annotation.schema.tpl.json",
-  "properties": {   
-    "anchorPoint": {
-      "type": "array",      
-      "minItems": 2,
-      "maxItems": 3,
-      "_instruction": "Enter the coordinates of the anchor point for this annotation (e.g., its centroid in two dimensional space as [x, y] or in three dimensional space as [x, y, z]).",
-      "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
-      ]
-    },
+  "properties": {
     "specification": {
       "_instruction": "Add the non-parametric specification of this annotation.",
       "_linkedTypes": [
