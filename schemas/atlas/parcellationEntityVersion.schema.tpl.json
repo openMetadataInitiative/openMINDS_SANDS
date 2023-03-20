@@ -21,7 +21,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Enter any alternative names, including any alternative abbreviations, for this parcellation entity version.",
+      "_instruction": "Enter any alternate names, including any alternative abbreviations, for this parcellation entity version.",
       "items": {
         "type": "string"
       }
