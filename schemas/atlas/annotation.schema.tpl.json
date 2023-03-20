@@ -4,13 +4,7 @@
     "criteriaType",
     "type"
   ],
-  "properties": {       
-    "anchorPoint": {
-      "_instruction": "Enter the anchor point for this annotation (e.g., its centroid).",
-      "_embeddedTypes": [
-      "https://openminds.ebrains.eu/sands/CoordinatePoint"
-      ]
-    },    
+  "properties": {
     "criteria": {
       "_instruction": "Add the protocol execution defining the criteria that were applied to produce this annotation.",
       "_linkedTypes": [
