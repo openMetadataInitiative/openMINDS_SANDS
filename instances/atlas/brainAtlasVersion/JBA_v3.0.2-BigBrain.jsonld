@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/JBA_v3.0.2-BigBrain",
+  "@type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+  "abbreviation": "JBA",
+  "accessibility": {
+    "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
+  },
+  "author": null,
+  "coordinateSpace": {
+    "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/BigBrain_2015"
+  },
+  "copyright": null,
+  "custodian": null,
+  "description": null,
+  "digitalIdentifier": null,
+  "fullDocumentation": null,
+  "fullName": "Julich-Brain Cytoarchitectonic Atlas",
+  "funding": null,
+  "hasTerminology": {
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
+    "dataLocation": null,
+    "hasEntity": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-6d1_int"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-6d2_int"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-6d3_int"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-6ma_int"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-MFG1_deep"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-MFG2_deep"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-SFS1_deep"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-SFS2_deep"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-STS1_int"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-STS2_int"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-TE-1.0_int"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-TE-1.1_int"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-TE-1.2_int"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-TE-3_int"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-hIP4_int"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-hIP5_int"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-hIP6_int"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-hIP7_int"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-hIP8_int"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-hOc1_deep"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-hOc2_deep"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-hOc3v_deep"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-hOc5_deep"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-hOc6_int"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Area-hPO1_int"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_CGM.CGMd_deep"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_CGM.CGMm_deep"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_CGM.CGMv_deep"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Entorhinal-Cortex_int"
+      }
+    ],
+    "ontologyIdentifier": null
+  },
+  "homepage": "https://julich-brain-atlas.de/",
+  "howToCite": null,
+  "isAlternativeVersionOf": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/JBA_v3.0.2-Colin27"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/JBA_v3.0.2-fsaverage"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/JBA_v3.0.2-MNI152"
+    }
+  ],
+  "isNewVersionOf": {
+    "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/JBA_v2.9-BigBrain"
+  },
+  "keyword": null,
+  "license": {
+    "@id": "https://openminds.ebrains.eu/instances/licenses/ccByNcSa4.0"
+  },
+  "majorVersionIdentifier": "v3.0.2",
+  "ontologyIdentifier": null,
+  "otherContribution": null,
+  "relatedPublication": null,
+  "releaseDate": null,
+  "repository": null,
+  "shortName": "Julich-Brain Atlas",
+  "supportChannel": "julich-brain@fz-juelich.de",
+  "type": {
+    "@id": "https://openminds.ebrains.eu/instances/atlasType/deterministicAtlas"
+  },
+  "usedSpecimen": null,
+  "versionIdentifier": "v3.0.2, BigBrain",
+  "versionInnovation": null
+}
