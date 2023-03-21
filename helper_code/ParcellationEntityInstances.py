@@ -1,16 +1,20 @@
 import os
 import openMINDS.version_manager
 
-# generate directories and filenames for parcellation entity instances
+# ________________________________________________________________________________________________________#
+# generate directories and filenames for parcellation entity instances by hand
+# (usefull to specify the correct jsonld names which is not supported by the python library yet
+
+# helper variables
 s1 = "Mars_"
 j = ".jsonld"
-# from the data scraper
+
+# data from the data scraper
 entities = region_names_cortex + region_names_subcortex
 directories = {}
-path = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntity/Mars/"
-
+directory = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntity/Mars/"
 for index, entity in enumerate(entities):
-    directories[index] = path + s1 + entity + j
+    directories[index] = directory + s1 + entity + j
 
 # generate files
 for directory in directories.values():
@@ -18,14 +22,15 @@ for directory in directories.values():
         p.write("")
     p.close()
 
-# generate parcellation entity instances
-# loop over every file in the parcellation entity folder of the Mars atlas and create isntances
+#____________________________________________________________________________________________________________#
+# generate parcellation entity instances with the python library
+# (useful to create the content of the jsonld)
+
 # intialize openMinds instance creator
 openMINDS.version_manager.init()
 openMINDS.version_manager.version_selection('v3')
 helper = openMINDS.Helper()
 atlas = helper.create_collection()
-directory = '/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntity/Mars'
 
 
 def find_files(directory, partial_name):
@@ -36,7 +41,7 @@ def find_files(directory, partial_name):
                 results.append(os.path.join(root, file))
     return results
 
-
+# loop over parcellation entitites and add version infos
 for filename in os.listdir(directory):
     if os.path.isfile(os.path.join(directory, filename)):
         # strip the area name from the filename
@@ -44,7 +49,6 @@ for filename in os.listdir(directory):
         area = str.replace(stripped_filename, "Mars_", "")
 
         # create parcellation entity instance
-        global parcellation_entity
         parcellation_entity = atlas.add_SANDS_parcellationEntity(name=area)
         atlas.get(parcellation_entity).lookupLabel = stripped_filename
         atlas.get(parcellation_entity).name = area
@@ -62,6 +66,7 @@ for filename in os.listdir(directory):
 
         # check whether the list entries are part of the version list and add the version to the
         # parcellation entity instance
+        has_version_listOfdic = []
         for index, version in enumerate(file_paths):
             # strip the last part of the strings
             print(os.path.dirname(file_paths[index]))
@@ -69,7 +74,10 @@ for filename in os.listdir(directory):
                 print("CHECK")
                 stripped_version_area = os.path.basename(file_paths[index])
                 stripped_version_area = str.replace(stripped_version_area, ".jsonld", "")
-                atlas.get(parcellation_entity).hasVersion = [{"@id": f"{parcellation_entity}{stripped_version_area}", }]
+                has_version_dic = {"@id": f"{version_https}{stripped_version_area}"}
+                has_version_listOfdic.append(has_version_dic)
+        atlas.get(parcellation_entity).hasVersion = has_version_listOfdic
 
 atlas.save("./myFirstOpenMINDSMetadataCollection/")
 
+# now loop over the jsonls generated in the second  step and add the info to the files generated in the first step
