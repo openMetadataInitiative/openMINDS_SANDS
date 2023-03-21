@@ -4,6 +4,9 @@
   },
   "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_ST-TT",
   "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": null,
+  "definition": null,
   "hasParent": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_superficialWhiteMatter"

@@ -4,6 +4,9 @@
   },
   "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_PoCi-PrCu_0",
   "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": null,
+  "definition": null,
   "hasParent": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_PoCi-PrCu"
@@ -11,7 +14,7 @@
   ],
   "hasVersion": [
     {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_lh_PoCi-PrCu_0"
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_PoCi-PrCu_0"
     }
   ],
   "lookupLabel": "SWMA_PoCi-PrCu_0",
