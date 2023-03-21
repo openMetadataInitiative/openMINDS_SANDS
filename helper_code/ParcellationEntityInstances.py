@@ -1,9 +1,16 @@
 import os
 import openMINDS.version_manager
 
-# ________________________________________________________________________________________________________#
-# generate directories and filenames for parcellation entity instances by hand
-# (usefull to specify the correct jsonld names which is not supported by the python library yet
+# data and helper variables
+path_to_entity_version = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/" \
+                         "parcellationEntityVersion/"
+version_https = "https://openminds.ebrains.eu/instances/parcellationEntityVersion/"
+atlas_versions = [
+    "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntityVersion/Mars_individual_cortex",
+    "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntityVersion/Mars_individual_cortexAndSubcortex",
+    "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntityVersion/Mars_HipHop138_cortex",
+    "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntityVersion/Mars_Colin27_1998_cortexAndSubcortex"]
+directory = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntity/Mars/"
 
 # helper variables
 s1 = "Mars_"
@@ -11,8 +18,12 @@ j = ".jsonld"
 
 # data from the data scraper
 entities = region_names_cortex + region_names_subcortex
+
+# ________________________________________________________________________________________________________#
+# generate directories and filenames for parcellation entity instances by hand
+# (usefull to specify the correct jsonld names which is not supported by the python library yet
+
 directories = {}
-directory = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntity/Mars/"
 for index, entity in enumerate(entities):
     directories[index] = directory + s1 + entity + j
 
@@ -53,12 +64,6 @@ for filename in os.listdir(directory):
         atlas.get(parcellation_entity).lookupLabel = stripped_filename
         atlas.get(parcellation_entity).name = area
 
-        # add the versions to hasVersion
-        path_to_entity_version = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/" \
-                                 "parcellationEntityVersion/"
-        version_https = "https://openminds.ebrains.eu/instances/parcellationEntityVersion/"
-        atlas_versions = ["/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntityVersion/Mars_individual_cortex", "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntityVersion/Mars_individual_cortexAndSubcortex", "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntityVersion/Mars_HipHop138_cortex","/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntityVersion/Mars_Colin27_1998_cortexAndSubcortex"]
-
         # loop over the directories and files of the parcellatio entity versions and  find the str matching to area
         file_paths = find_files(path_to_entity_version, area)
         for path in file_paths:
@@ -80,4 +85,7 @@ for filename in os.listdir(directory):
 
 atlas.save("./myFirstOpenMINDSMetadataCollection/")
 
+#_______________________________________________________________________________________________________________#
 # now loop over the jsonls generated in the second  step and add the info to the files generated in the first step
+
+
