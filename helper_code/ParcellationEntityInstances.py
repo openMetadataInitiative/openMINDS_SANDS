@@ -1,19 +1,18 @@
 import os
 import openMINDS.version_manager
-import glob
 
 # generate directories and filenames for parcellation entity instances
 s1 = "Mars_"
-j =".jsonld"
+j = ".jsonld"
 # from the data scraper
 entities = region_names_cortex + region_names_subcortex
 directories = {}
 path = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntity/Mars/"
 
-for index,entity in enumerate(entities):
-    directories[index] = path + s1 + entity +j
+for index, entity in enumerate(entities):
+    directories[index] = path + s1 + entity + j
 
-#generate files
+# generate files
 for directory in directories.values():
     with open(directory, "w") as p:
         p.write("")
@@ -29,6 +28,15 @@ atlas = helper.create_collection()
 directory = '/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntity/Mars'
 
 
+def find_files(directory, partial_name):
+    results = []
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            if partial_name in file:
+                results.append(os.path.join(root, file))
+    return results
+
+
 for filename in os.listdir(directory):
     if os.path.isfile(os.path.join(directory, filename)):
         # strip the area name from the filename
@@ -36,39 +44,32 @@ for filename in os.listdir(directory):
         area = str.replace(stripped_filename, "Mars_", "")
 
         # create parcellation entity instance
-        global parcellation_entity = atlas.add_SANDS_parcellationEntity(name = area)
+        global parcellation_entity
+        parcellation_entity = atlas.add_SANDS_parcellationEntity(name=area)
         atlas.get(parcellation_entity).lookupLabel = stripped_filename
-        atlas.get(parcellation_entity).nane = area
+        atlas.get(parcellation_entity).name = area
 
         # add the versions to hasVersion
         path_to_entity_version = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/" \
                                  "parcellationEntityVersion/"
         version_https = "https://openminds.ebrains.eu/instances/parcellationEntityVersion/"
-        atlas_versions = ["Mars_individual_cortex", "Mars_individual_cortexAndSubcortex", "Mars_HipHop138_cortex",
-                          "Mars_Colin27_1998_cortexAndSubcortex"]
+        atlas_versions = ["/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntityVersion/Mars_individual_cortex", "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntityVersion/Mars_individual_cortexAndSubcortex", "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntityVersion/Mars_HipHop138_cortex","/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntityVersion/Mars_Colin27_1998_cortexAndSubcortex"]
 
         # loop over the directories and files of the parcellatio entity versions and  find the str matching to area
-
-        def find_files(pattern, path):
-            files = []
-            for filename in glob.iglob(os.path.join(path, '**', pattern), recursive=True):
-                if os.path.isfile(filename):
-                    files.append(filename)
-            if not files:
-                return f"No file matching pattern {pattern} found in {path}"
-            return files
-
-
-        file_paths = find_files(area, path_to_entity_version)
-
+        file_paths = find_files(path_to_entity_version, area)
         for path in file_paths:
             print(path)
 
-        # check whether the list entries are part of the version list and add the version to the parcellation entity instance
-        for version in file_paths:
-            if (file_paths[version]) in atlas_versions:
-                stripped_version_area = os.path.basename(file_paths[version])
+        # check whether the list entries are part of the version list and add the version to the
+        # parcellation entity instance
+        for index, version in enumerate(file_paths):
+            # strip the last part of the strings
+            print(os.path.dirname(file_paths[index]))
+            if (os.path.dirname(file_paths[index])) in atlas_versions:
+                print("CHECK")
+                stripped_version_area = os.path.basename(file_paths[index])
                 stripped_version_area = str.replace(stripped_version_area, ".jsonld", "")
-                atlas.get(parcellation_entity).hasVersion = [{"@id": f"{parcellation_entity}{stripped_version_area}"]
+                atlas.get(parcellation_entity).hasVersion = [{"@id": f"{parcellation_entity}{stripped_version_area}", }]
 
 atlas.save("./myFirstOpenMINDSMetadataCollection/")
+
