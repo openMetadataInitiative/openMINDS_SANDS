@@ -1,13 +1,16 @@
 {
-    "@context": {
-        "@vocab": "https://openminds.ebrains.eu/vocab/"
-    },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_deepWhiteMatter",
-    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
-    "hasParent": null,
-    "hasVersion": null,
-    "lookupLabel": "DWMA_deepWhiteMatter",
-    "name": "deep white matter",
-    "ontologyIdentifier": null,
-    "relatedUBERONTerm": null
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_deepWhiteMatter",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": null,
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": null,
+  "lookupLabel": "DWMA_deepWhiteMatter",
+  "name": "deep white matter",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
 }

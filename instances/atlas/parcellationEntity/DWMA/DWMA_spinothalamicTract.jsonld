@@ -1,26 +1,26 @@
 {
-    "@context": {
-        "@vocab": "https://openminds.ebrains.eu/vocab/"
-    },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_spinothalamicTract",
-    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
-    "hasParent": [
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_deepWhiteMatter"
-      }
-    ],
-    "hasVersion": [
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_spinothalamicTract_left"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_spinothalamicTract_right"
-      }
-    ],
-    "lookupLabel": "DWMA_spinothalamicTract",
-    "name": "spinothalamic tract",
-    "ontologyIdentifier": null,
-    "relatedUBERONTerm": {
-        "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/spinothalamicTract"
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_spinothalamicTract",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": null,
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_deepWhiteMatter"
     }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_spinothalamicTract"
+    }
+  ],
+  "lookupLabel": "DWMA_spinothalamicTract",
+  "name": "spinothalamic tract",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": {
+    "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/spinothalamicTract"
+  }
 }
