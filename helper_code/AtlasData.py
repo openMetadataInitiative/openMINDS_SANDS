@@ -11,21 +11,26 @@ dataset_identifiers = ["https://doi.org/10.1002/hbm.23121"]
 # variables for constructing correct JSON-LD documents
 json_person = "https://openminds.ebrains.eu/instances/"
 
-# add connections to other metadata instances
-# email_openminds = mycollection.add_core_contactInformation(email="openminds@ebrains.eu")
-# mycollection.get(person_open).contactInformation = email_openminds
-## import of scraped data with json import
+# generate parcellation enetity regions for the atlas instance instance
+with open("/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/helper_code/MarsAtlasRegions_subcortex.txt", 'w') as f:
+    open = "{"
+    close = "}"
+    instance = "\"@id\": \"https://openminds.ebrains.eu/instances/parcellationEntity/"
 
-# pretty printing
+    for index, area in enumerate(region_names_subcortex):
+        f.write(f"{open}\n")
+        f.write(f"{instance}{region_names[index]}\"\n")
+        f.write(f"{close},\n")
+f.close()
 
-with open('/home/kiwitz1/PycharmProjects/OpenMinds/myFirstOpenMINDSMetadataCollection/ORCID/257af828-c40e-11ed-a866-00155daeebba', 'r') as fobj:
-    data = json.load(fobj)
+with open("/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/helper_code/MarsAtlasRegions_cortex.txt", 'w') as d:
+    open = "{"
+    close = "}"
+    instance = "\"@id\": \"https://openminds.ebrains.eu/instances/parcellationEntity/"
 
-print(data)
-
-with open('/home/kiwitz1/PycharmProjects/OpenMinds/myFirstOpenMINDSMetadataCollection/ORCID/pretty.json', "w") as test:
-    json.dump(data, test)
-
-atlas_json = json.loads("./myFirstOpenMINDSMetadataCollection/")
-
+    for index, area in enumerate(region_names_cortex):
+        d.write(f"{open}\n")
+        d.write(f"{instance}{region_names[index]}\"\n")
+        d.write(f"{close},\n")
+d.close()
 
