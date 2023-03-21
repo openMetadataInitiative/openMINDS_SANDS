@@ -1,5 +1,6 @@
 import os
 import openMINDS.version_manager
+import json
 
 # data and helper variables
 path_to_entity_version = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/" \
