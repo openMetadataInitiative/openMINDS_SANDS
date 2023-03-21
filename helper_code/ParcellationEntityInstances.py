@@ -28,6 +28,7 @@ helper = openMINDS.Helper()
 atlas = helper.create_collection()
 directory = '/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntity/Mars'
 
+
 for filename in os.listdir(directory):
     if os.path.isfile(os.path.join(directory, filename)):
         # strip the area name from the filename
