@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_isocortex",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "Icx"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": null,
+  "lookupLabel": "WHSSDatlas_isocortex",
+  "name": "isocortex",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

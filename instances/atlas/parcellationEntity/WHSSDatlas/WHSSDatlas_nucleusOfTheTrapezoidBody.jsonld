@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_nucleusOfTheTrapezoidBody",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "NTB"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_nucleusOfTheTrapezoidBody"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3.01_nucleusOfTheTrapezoidBody"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_nucleusOfTheTrapezoidBody"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_nucleusOfTheTrapezoidBody",
+  "name": "nucleus of the trapezoid body",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

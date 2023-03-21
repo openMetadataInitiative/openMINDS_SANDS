@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_brain",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "whole brain"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": null,
+  "lookupLabel": "WHSSDatlas_brain",
+  "name": "brain",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

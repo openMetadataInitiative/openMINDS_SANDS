@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_globusPallidusExternalLateralPart",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "GPe-l"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_globusPallidusExternalLateralPart"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_globusPallidusExternalLateralPart",
+  "name": "globus pallidus external, lateral part",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

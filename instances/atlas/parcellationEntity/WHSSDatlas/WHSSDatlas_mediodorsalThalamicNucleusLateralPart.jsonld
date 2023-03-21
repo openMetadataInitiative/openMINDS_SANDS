@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_mediodorsalThalamicNucleusLateralPart",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "MD-l"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_mediodorsalThalamicNucleusLateralPart"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_mediodorsalThalamicNucleusLateralPart",
+  "name": "mediodorsal thalamic nucleus, lateral part",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

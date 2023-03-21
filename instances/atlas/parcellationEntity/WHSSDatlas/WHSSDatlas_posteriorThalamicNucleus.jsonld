@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_posteriorThalamicNucleus",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "Po"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_posteriorThalamicNucleus"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_posteriorThalamicNucleus",
+  "name": "posterior thalamic nucleus",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_temporalRegion",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "Te"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": null,
+  "lookupLabel": "WHSSDatlas_temporalRegion",
+  "name": "temporal region",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

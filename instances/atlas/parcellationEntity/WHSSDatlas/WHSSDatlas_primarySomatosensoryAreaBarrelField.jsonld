@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_primarySomatosensoryAreaBarrelField",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "S1-bf"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_primarySomatosensoryAreaBarrelField"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_primarySomatosensoryAreaBarrelField",
+  "name": "primary somatosensory area, barrel field",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

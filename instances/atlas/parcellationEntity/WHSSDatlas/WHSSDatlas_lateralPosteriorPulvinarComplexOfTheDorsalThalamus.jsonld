@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_lateralPosteriorPulvinarComplexOfTheDorsalThalamus",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "LP"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": null,
+  "lookupLabel": "WHSSDatlas_lateralPosteriorPulvinarComplexOfTheDorsalThalamus",
+  "name": "lateral posterior (pulvinar) complex of the dorsal thalamus",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

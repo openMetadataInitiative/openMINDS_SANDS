@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_lateralPosteriorThalamicNucleusMediorostralPart",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "LP-mr"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_lateralPosteriorThalamicNucleusMediorostralPart"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_lateralPosteriorThalamicNucleusMediorostralPart",
+  "name": "lateral posterior thalamic nucleus, mediorostral part",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

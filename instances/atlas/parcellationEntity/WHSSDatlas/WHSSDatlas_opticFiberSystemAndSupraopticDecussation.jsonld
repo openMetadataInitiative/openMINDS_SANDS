@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_opticFiberSystemAndSupraopticDecussation",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "ofs"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": null,
+  "lookupLabel": "WHSSDatlas_opticFiberSystemAndSupraopticDecussation",
+  "name": "optic fiber system and supraoptic decussation",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_ventralCochlearNucleusGranuleCellLayer",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "GCL"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_ventralCochlearNucleusGranuleCellLayer"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3.01_ventralCochlearNucleusGranuleCellLayer"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_ventralCochlearNucleusGranuleCellLayer"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_ventralCochlearNucleusGranuleCellLayer",
+  "name": "ventral cochlear nucleus, granule cell layer",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

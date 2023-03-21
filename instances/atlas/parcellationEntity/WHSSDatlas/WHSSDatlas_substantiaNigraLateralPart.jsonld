@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_substantiaNigraLateralPart",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "SN-l"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_substantiaNigraLateralPart"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_substantiaNigraLateralPart",
+  "name": "substantia nigra, lateral part",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_paraventricularThalamicNucleiAnteriorAndPosterior",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "PV"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_paraventricularThalamicNucleiAnteriorAndPosterior"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_paraventricularThalamicNucleiAnteriorAndPosterior",
+  "name": "paraventricular thalamic nuclei (anterior and posterior)",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

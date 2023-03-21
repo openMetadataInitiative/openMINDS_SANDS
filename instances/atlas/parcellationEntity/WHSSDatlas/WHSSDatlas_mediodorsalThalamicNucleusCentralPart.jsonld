@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_mediodorsalThalamicNucleusCentralPart",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "MD-c"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_mediodorsalThalamicNucleusCentralPart"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_mediodorsalThalamicNucleusCentralPart",
+  "name": "mediodorsal thalamic nucleus, central part",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

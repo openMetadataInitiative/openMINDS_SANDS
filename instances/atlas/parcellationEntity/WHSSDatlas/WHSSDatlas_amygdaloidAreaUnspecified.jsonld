@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_amygdaloidAreaUnspecified",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "Am-u"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_amygdaloidAreaUnspecified"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_amygdaloidAreaUnspecified",
+  "name": "amygdaloid area, unspecified",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

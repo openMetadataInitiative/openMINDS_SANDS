@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_ventralStriatalRegionUnspecified",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "VSR-u"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_ventralStriatalRegionUnspecified"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_ventralStriatalRegionUnspecified",
+  "name": "ventral striatal region, unspecified",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

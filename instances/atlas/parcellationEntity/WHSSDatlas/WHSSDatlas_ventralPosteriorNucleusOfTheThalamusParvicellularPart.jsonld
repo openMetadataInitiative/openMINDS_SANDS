@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_ventralPosteriorNucleusOfTheThalamusParvicellularPart",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "VP-pc"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_ventralPosteriorNucleusOfTheThalamusParvicellularPart"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_ventralPosteriorNucleusOfTheThalamusParvicellularPart",
+  "name": "ventral posterior nucleus of the thalamus, parvicellular part",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_agranularInsularCortexDorsalArea",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "AI-d"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_agranularInsularCortexDorsalArea"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_agranularInsularCortexDorsalArea",
+  "name": "agranular insular cortex dorsal area",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

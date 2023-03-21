@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_parietalAssociationCortexLateralArea",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "lPPC"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_parietalAssociationCortexLateralArea"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_parietalAssociationCortexLateralArea",
+  "name": "parietal association cortex, lateral area",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

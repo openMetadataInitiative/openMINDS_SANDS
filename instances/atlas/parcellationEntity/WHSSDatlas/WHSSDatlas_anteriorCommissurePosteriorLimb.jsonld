@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_anteriorCommissurePosteriorLimb",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "acp",
+    "anterior commissure, posterior part"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1.01_anteriorCommissurePosteriorPart"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v2_anteriorCommissurePosteriorPart"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_anteriorCommissurePosteriorPart"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3.01_anteriorCommissurePosteriorPart"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_anteriorCommissurePosteriorLimb"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_anteriorCommissurePosteriorLimb",
+  "name": "anterior commissure, posterior limb",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}
