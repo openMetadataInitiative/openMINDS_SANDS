@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_medialGeniculateBodySuprageniculateNucleus",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "MG-sg"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_medialGeniculateBodySuprageniculateNucleus"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_medialGeniculateBodySuprageniculateNucleus",
+  "name": "medial geniculate body, suprageniculate nucleus",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

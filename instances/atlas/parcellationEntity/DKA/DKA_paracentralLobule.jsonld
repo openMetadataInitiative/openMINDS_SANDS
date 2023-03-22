@@ -1,19 +1,22 @@
 {
-    "@context": {
-        "@vocab": "https://openminds.ebrains.eu/vocab/"
-    },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_paracentralLobule",
-    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
-    "hasParent": [
-		{
-			"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_frontalLobe"
-		}
-	],
-    "hasVersion": null,
-    "lookupLabel": "DKA_paracentralLobule",
-    "name": "paracentral lobule",
-    "ontologyIdentifier": null,
-    "relatedUBERONTerm": {
-		"@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/paracentralLobule"
-	}
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_paracentralLobule",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": null,
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_frontalLobe"
+    }
+  ],
+  "hasVersion": null,
+  "lookupLabel": "DKA_paracentralLobule",
+  "name": "paracentral lobule",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": {
+    "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/paracentralLobule"
+  }
 }

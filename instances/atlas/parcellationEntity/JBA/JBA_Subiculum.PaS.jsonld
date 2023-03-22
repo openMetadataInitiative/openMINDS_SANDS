@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Subiculum.PaS",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": null,
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Subiculum"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.5-Colin27_Subiculum.PaS_PM-v13.0"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.5-MNI152_Subiculum.PaS_PM-v13.0"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.6-MNI152_Subiculum.PaS_PM-v13.0"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-BigBrain_Subiculum.PaS_PM-v13.0"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-Colin27_Subiculum.PaS_PM-v13.2"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-MNI152_Subiculum.PaS_PM-v13.2"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Subiculum.PaS_PM-v13.2"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Subiculum.PaS_PM-v13.2"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-Colin27_Subiculum.PaS_PM-v13.2"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-MNI152_Subiculum.PaS_PM-v13.2"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-fsaverage_Subiculum.PaS_PM-v13.2"
+    }
+  ],
+  "lookupLabel": "JBA_Subiculum.PaS",
+  "name": "Subiculum.PaS (Hippocampus)",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

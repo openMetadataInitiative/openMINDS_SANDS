@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA-human_BA8a",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": "BA8a",
+  "alternateName": [
+    "Brodmann's area 8a",
+    "human BA8a",
+    "human Brodmann area 8a",
+    "human Brodmann's area 8a"
+  ],
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA-human_cerebralCortex"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA8a"
+    }
+  ],
+  "lookupLabel": "BA-human_BA8a",
+  "name": "Brodmann area 8a",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

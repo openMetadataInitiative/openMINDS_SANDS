@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_cerebellarNuclei",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": null,
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_cerebellum"
+    }
+  ],
+  "hasVersion": null,
+  "lookupLabel": "JBA_cerebellarNuclei",
+  "name": "cerebellar nuclei",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_CGL.lam3",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": null,
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_CGL"
+    }
+  ],
+  "hasVersion": null,
+  "lookupLabel": "JBA_CGL.lam3",
+  "name": "CGL.lam3 (Metathalamus)",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

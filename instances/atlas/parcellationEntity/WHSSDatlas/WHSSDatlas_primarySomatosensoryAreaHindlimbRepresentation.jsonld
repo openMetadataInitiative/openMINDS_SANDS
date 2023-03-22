@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_primarySomatosensoryAreaHindlimbRepresentation",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "S1-hl"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_primarySomatosensoryAreaHindlimbRepresentation"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_primarySomatosensoryAreaHindlimbRepresentation",
+  "name": "primary somatosensory area, hindlimb representation",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

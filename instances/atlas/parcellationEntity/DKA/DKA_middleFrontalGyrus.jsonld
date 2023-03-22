@@ -1,19 +1,22 @@
 {
-    "@context": {
-        "@vocab": "https://openminds.ebrains.eu/vocab/"
-    },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_middleFrontalGyrus",
-    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
-    "hasParent": [
-		{
-			"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_frontalLobe"
-		}
-	],
-    "hasVersion": null,
-    "lookupLabel": "DKA_middleFrontalGyrus",
-    "name": "middle frontal gyrus",
-    "ontologyIdentifier": null,
-    "relatedUBERONTerm": {
-		"@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/middleFrontalGyrus"
-	}
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_middleFrontalGyrus",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": null,
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKA_frontalLobe"
+    }
+  ],
+  "hasVersion": null,
+  "lookupLabel": "DKA_middleFrontalGyrus",
+  "name": "middle frontal gyrus",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": {
+    "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/middleFrontalGyrus"
+  }
 }

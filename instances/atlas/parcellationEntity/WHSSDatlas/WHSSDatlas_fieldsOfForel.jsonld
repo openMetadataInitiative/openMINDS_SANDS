@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_fieldsOfForel",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "FoF"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_fieldsOfForel"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_fieldsOfForel",
+  "name": "fields of Forel",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

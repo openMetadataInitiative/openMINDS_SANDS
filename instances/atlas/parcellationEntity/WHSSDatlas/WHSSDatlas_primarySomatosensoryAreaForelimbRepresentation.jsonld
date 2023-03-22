@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_primarySomatosensoryAreaForelimbRepresentation",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "S1-fl"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_primarySomatosensoryAreaForelimbRepresentation"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_primarySomatosensoryAreaForelimbRepresentation",
+  "name": "primary somatosensory area, forelimb representation",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

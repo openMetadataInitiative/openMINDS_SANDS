@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_pregeniculateNucleus",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "PrG"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_pregeniculateNucleus"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_pregeniculateNucleus",
+  "name": "pregeniculate nucleus",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

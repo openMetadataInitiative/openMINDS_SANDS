@@ -1,0 +1,39 @@
+{
+	"@context": {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/fsaverage_6",
+	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+	"abbreviation": "fsaverage",
+	"accessibility": null,
+	"anatomicalAxesOrientation": null,
+  "author": null,
+	"axesOrigin": null,
+	"copyright": null,
+	"custodian": null,
+	"defaultImage": null,
+	"description": null,
+	"digitalIdentifier": null,
+	"fullDocumentation": null,
+	"fullName": "FsAverage Surface Space",
+	"funding": null,
+	"homepage": null,
+	"howToCite": null,
+	"isAlternativeVersionOf": null,
+	"isNewVersionOf": null,
+	"keyword": null,
+	"license": null,
+	"nativeUnit": {
+		"@id": "https://openminds.ebrains.eu/instances/unitOfMeasurement/millimeter"
+	},
+	"ontologyIdentifier": null,
+	"otherContribution": null,
+	"relatedPublication": null,
+	"releaseDate": null,
+	"repository": null,
+	"supportChannel": null,
+	"shortName": "FsAverage Surface Space",
+	"usedSpecimen": null,
+	"versionIdentifier": "6",
+	"versionInnovation": "This FsAverage Surface Space version has about 41k vertices per hemisphere."
+}

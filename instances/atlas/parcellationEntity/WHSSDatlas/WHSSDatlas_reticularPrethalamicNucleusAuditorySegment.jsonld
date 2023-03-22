@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_reticularPrethalamicNucleusAuditorySegment",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "RT-a",
+    "reticular thalamic nucleus, auditory segment"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_reticularThalamicNucleusAuditorySegment"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3.01_reticularThalamicNucleusAuditorySegment"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_reticularPrethalamicNucleusAuditorySegment"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_reticularPrethalamicNucleusAuditorySegment",
+  "name": "reticular (pre)thalamic nucleus, auditory segment",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}
