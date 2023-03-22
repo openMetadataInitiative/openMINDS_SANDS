@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_PoC-SM_1",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "hasAnnotation": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_PoC-SM"
+    }
+  ],
+  "lookupLabel": "SWMA_2018_PoC-SM_1",
+  "name": "PoC-SM_1",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "2018",
+  "versionInnovation": null
+}

@@ -1,0 +1,20 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_shortCingulateFibres",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": null,
+    "hasParent": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_cingulum"
+      }
+    ],
+    "hasVersion": null,
+    "lookupLabel": "DWMA_2018_shortCingulateFibres",
+    "name": "short cingulate fibres",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "2018",
+    "versionInnovation": null
+}
