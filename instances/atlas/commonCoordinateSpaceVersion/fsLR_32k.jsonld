@@ -1,0 +1,39 @@
+{
+	"@context": {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/fsLR_32k",
+	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+	"abbreviation": "fsLR",
+	"accessibility": null,
+	"anatomicalAxesOrientation": null,
+  "author": null,
+	"axesOrigin": null,
+	"copyright": null,
+	"custodian": null,
+	"defaultImage": null,
+	"description": null,
+	"digitalIdentifier": null,
+	"fullDocumentation": null,
+	"fullName": "Unbiased FsAverage Left–Right Hybrid Surface Space",
+	"funding": null,
+	"homepage": null,
+	"howToCite": null,
+	"isAlternativeVersionOf": null,
+	"isNewVersionOf": null,
+	"keyword": null,
+	"license": null,
+	"nativeUnit": {
+		"@id": "https://openminds.ebrains.eu/instances/unitOfMeasurement/millimeter"
+	},
+	"ontologyIdentifier": null,
+	"otherContribution": null,
+	"relatedPublication": null,
+	"releaseDate": null,
+	"repository": null,
+	"supportChannel": null,
+	"shortName": "fsLR Surface Space",
+	"usedSpecimen": null,
+	"versionIdentifier": "32k",
+	"versionInnovation": "This fsLR Surface Space version has about 32492 (32k) vertices per hemisphere."
+}

@@ -1,0 +1,37 @@
+{
+	"@context": {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/fsaverage",
+	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+	"abbreviation": "fsaverage",
+	"author": null,
+	"custodian": null,
+	"description": null,
+	"digitalIdentifier": null,
+	"fullName": "FsAverage Surface Space",
+	"hasVersion": [
+		{
+			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/fsaverage_3"
+		},
+		{
+			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/fsaverage_4"
+		},
+		{
+			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/fsaverage_5"
+		},
+		{
+			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/fsaverage_6"
+		},
+		{
+			"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/fsaverage_7"
+		}
+	],
+	"homepage": null,
+	"howToCite": null,
+  "ontologyIdentifier": null,
+	"shortName": "FsAverage Surface Space",
+	"usedSpecies": {
+		"@id": "https://openminds.ebrains.eu/instances/species/homoSapiens"
+	}
+}

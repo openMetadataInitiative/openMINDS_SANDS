@@ -1,0 +1,375 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/JBA_v1.18-Colin27",
+  "@type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+  "abbreviation": "JBA",
+  "accessibility": {
+    "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
+  },
+  "author": null,
+  "coordinateSpace": {
+    "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/MNI-Colin27_1998"
+  },
+  "copyright": null,
+  "custodian": null,
+  "description": null,
+  "digitalIdentifier": null,
+  "fullDocumentation": null,
+  "fullName": "Julich-Brain Cytoarchitectonic Atlas",
+  "funding": null,
+  "hasTerminology": {
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
+    "dataLocation": null,
+    "hasEntity": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-1_PM-v8.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-2_PM-v3.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-25_PM-v16.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-33_PM-v16.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-3a_PM-v8.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-3b_PM-v8.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-44_PM-v7.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-45_PM-v7.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-4a_PM-v9.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-4p_PM-v9.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-5Ci_PM-v8.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-5L_PM-v8.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-5M_PM-v8.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-6d1_PM-v4.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-6d2_PM-v4.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-6d3_PM-v4.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-6ma_PM-v9.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-6mp_PM-v9.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-7A_PM-v8.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-7M_PM-v8.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-7P_PM-v8.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-7PC_PM-v8.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-FG1_PM-v1.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-FG2_PM-v1.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-FG3_PM-v6.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-FG4_PM-v6.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-Fo1_PM-v3.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-Fo2_PM-v3.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-Fo3_PM-v3.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-Fo4_PM-v2.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-Fo5_PM-v2.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-Fo6_PM-v2.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-Fo7_PM-v2.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-Fp1_PM-v2.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-Fp2_PM-v2.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-Ia_PM-v3.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-Id1_PM-v13.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-Id2_PM-v7.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-Id3_PM-v7.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-Id4_PM-v3.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-Id5_PM-v3.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-Id6_PM-v3.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-Id7_PM-v6.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-Ig1_PM-v13.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-Ig2_PM-v13.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-Ig3_PM-v3.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-OP1_PM-v9.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-OP2_PM-v9.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-OP3_PM-v9.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-OP4_PM-v9.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-OP8_PM-v5.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-OP9_PM-v5.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-PF_PM-v9.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-PFcm_PM-v9.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-PFm_PM-v9.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-PFop_PM-v9.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-PFt_PM-v9.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-PGa_PM-v9.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-PGp_PM-v9.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-STS1_PM-v3.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-STS2_PM-v3.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-TE-1.0_PM-v5.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-TE-1.1_PM-v5.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-TE-1.2_PM-v5.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-TE-3_PM-v5.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-hIP1_PM-v6.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-hIP2_PM-v6.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-hIP3_PM-v8.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-hIP4_PM-v7.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-hIP5_PM-v7.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-hIP6_PM-v7.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-hIP7_PM-v7.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-hIP8_PM-v7.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-hOc1_PM-v2.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-hOc2_PM-v2.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-hOc3d_PM-v2.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-hOc3v_PM-v3.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-hOc4d_PM-v2.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-hOc4la_PM-v3.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-hOc4lp_PM-v3.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-hOc4v_PM-v3.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-hOc5_PM-v2.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-hOc6_PM-v7.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-hPO1_PM-v7.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-p24ab_PM-v16.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-p24c_PM-v16.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-p32_PM-v16.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-s24_PM-v16.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Area-s32_PM-v16.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_CA_PM-v11.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_CM_PM-v6.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Ch-123_PM-v4.2"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Ch-4_PM-v4.2"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_DG_PM-v11.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Dorsal-Dentate-Nucleus_PM-v6.2"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Entorhinal-Cortex_PM-v11.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Fastigial-Nucleus_PM-v6.2"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_HATA_PM-v11.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_IF_PM-v6.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Interposed-Nucleus_PM-v6.2"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_LB_PM-v6.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_MF_PM-v6.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_SF_PM-v6.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Subiculum_PM-v11.1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_VTM_PM-v6.4"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v1.18-Colin27_Ventral-Dentate-Nucleus_PM-v6.2"
+      }
+    ],
+    "ontologyIdentifier": null
+  },
+  "homepage": "https://julich-brain-atlas.de/",
+  "howToCite": null,
+  "isAlternativeVersionOf": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/JBA_v1.18-MNI152"
+    }
+  ],
+  "isNewVersionOf": {
+    "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/JBA_v1.13-Colin27"
+  },
+  "keyword": null,
+  "license": {
+    "@id": "https://openminds.ebrains.eu/instances/licenses/ccByNcSa4.0"
+  },
+  "majorVersionIdentifier": "v1.18",
+  "ontologyIdentifier": null,
+  "otherContribution": null,
+  "relatedPublication": null,
+  "releaseDate": null,
+  "repository": null,
+  "shortName": "Julich-Brain Atlas",
+  "supportChannel": "julich-brain@fz-juelich.de",
+  "type": {
+    "@id": "https://openminds.ebrains.eu/instances/atlasType/probabilisticAtlas"
+  },
+  "usedSpecimen": null,
+  "versionIdentifier": "v1.18, Colin27",
+  "versionInnovation": null
+}
