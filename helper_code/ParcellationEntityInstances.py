@@ -49,7 +49,11 @@ def find_files(directory, partial_name):
     results = []
     for root, dirs, files in os.walk(directory):
         for file in files:
-            if partial_name in file:
+            # if partial_name in file # works
+            print(file)
+            print(os.path.splitext(file)[0])
+            # string needs to be cut right, tht should solve it
+            if partial_name == os.path.splitext(file)[0]:
                 results.append(os.path.join(root, file))
     return results
 
