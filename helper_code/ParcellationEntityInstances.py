@@ -84,9 +84,44 @@ for filename in os.listdir(directory):
                 has_version_listOfdic.append(has_version_dic)
         atlas.get(parcellation_entity).hasVersion = has_version_listOfdic
 
-atlas.save("./myFirstOpenMINDSMetadataCollection/")
+atlas.save("./instances/")
 
 #_______________________________________________________________________________________________________________#
 # now loop over the jsonls generated in the second  step and add the info to the files generated in the first step
 
+# loop over the directory of step 1 and extract region names
+areas = []
+for filename in os.listdir(directory):
+    if filename.endswith('.jsonld'):  # Check if the file is a JSON-LD file
+        stripped_filename = str.replace(filename, ".jsonld", "")
+        area = str.replace(stripped_filename, "Mars_", "")
+        areas.append(area)
 
+# Set the directory of step 2
+auto_path = "/home/kiwitz1/PycharmProjects/OpenMinds/instances/parcellationEntity/"
+
+# loop over the areas [] from step 1 and for each area check wehtehr it has a match in the jsonld files (SHOULD BE THE case
+matched_jsonlds = []
+for area in areas:
+    for filename in os.listdir(auto_path):
+        if filename.endswith('.jsonld'):  # Check if the file is a JSON-LD file
+            file_path = os.path.join(auto_path, filename)
+            with open(file_path, 'r') as f:
+                data = json.load(f)
+                content = json.dumps(data)
+                if area == data["name"]:
+                    matched_jsonlds.append(content)
+
+# assert that both list have the same length
+assert len(matched_jsonlds) == len(areas)
+
+# Print the matched contents
+print(matched_jsonlds)
+
+# loop over the files from step 1 and insert the contents from the matched jsolds list
+for index, filename in enumerate(os.listdir(directory)):
+    if filename.endswith('.jsonld'): # Check if the file is a JSON-LD file
+        file_path = os.path.join(directory, filename)
+        with open(file_path, 'w') as f:
+            f.write(matched_jsonlds[index])
+        f.close()
