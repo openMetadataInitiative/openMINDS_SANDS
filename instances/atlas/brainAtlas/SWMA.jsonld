@@ -204,6 +204,9 @@
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_ST-TT_0"
       },
       {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_superficialWhiteMatter"
+      },
+      {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_Tr-Ins_0"
       },
       {
