@@ -27,25 +27,13 @@
 				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_anteriorSegementOfArcuateFasciculus"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_anteriorThalamicRadiation"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_bodyOfCorpusCallosum"
-			},
-			{
 				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_corticospinalTract"
 			},
 			{
 				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_directSegementOfArcuateFasciculus"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_externalCapsule"
-			},
-			{
 				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_fornix"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_genuOfCorpusCallosum"
 			},
 			{
 				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_inferiorFronto-occipitalFasciculus"
@@ -60,19 +48,7 @@
 				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_posteriorSegementOfArcuateFasciculus"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_posteriorThalamicRadiation"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_rostrumOfCorpusCallosum"
-			},
-			{
 				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_shortCingulateFibres"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_spinothalamicTract"
-			},
-			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_spleniumOfCorpusCallosum"
 			},
 			{
 				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_temporalCingulateFibres"
