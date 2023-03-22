@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.4-MNI152_Area-STS1_PM-v3.1",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "abbreviation": null,
+  "additionalRemarks": null,
+  "alternateName": null,
+  "correctedName": null,
+  "hasAnnotation": [
+    {
+      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+      "anchorPoint": null,
+      "criteria": null,
+      "criteriaQualityType": {
+        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+      },
+      "criteriaType": {
+        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/probabalisticAnnotation"
+      },
+      "inspiredBy": null,
+      "internalIdentifier": null,
+      "laterality": [
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        }
+      ],
+      "preferredVisualization": null,
+      "specification": null,
+      "type": null
+    },
+    {
+      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+      "anchorPoint": null,
+      "criteria": null,
+      "criteriaQualityType": {
+        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+      },
+      "criteriaType": {
+        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/probabalisticAnnotation"
+      },
+      "inspiredBy": null,
+      "internalIdentifier": null,
+      "laterality": [
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+        }
+      ],
+      "preferredVisualization": null,
+      "specification": null,
+      "type": null
+    }
+  ],
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_superiorTemporalSulcus"
+    }
+  ],
+  "lookupLabel": "JBA_v2.4-MNI152_Area-STS1_PM-v3.1",
+  "name": "Area STS1 (STS)",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "v2.4-MNI152, PM-v3.1",
+  "versionInnovation": null
+}
