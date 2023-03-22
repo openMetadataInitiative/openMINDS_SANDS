@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA29",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "abbreviation": "BA29",
+  "additionalRemarks": null,
+  "alternateName": [
+    "Brodmann's area 29",
+    "human Brodmann area 29",
+    "human Brodmann's area 29",
+    "humanBA29"
+  ],
+  "correctedName": null,
+  "hasAnnotation": [
+    {
+      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+      "anchorPoint": null,
+      "criteria": null,
+      "criteriaQualityType": {
+        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/asserted"
+      },
+      "criteriaType": null,
+      "inspiredBy": null,
+      "internalIdentifier": null,
+      "laterality": [
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        },
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+        }
+      ],
+      "preferredVisualization": null,
+      "specification": null,
+      "type": null
+    }
+  ],
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA-human_cerebralCortex"
+    }
+  ],
+  "lookupLabel": "BA-human_1909_BA29",
+  "name": "Brodmann area 29",
+  "ontologyIdentifier": "http://purl.obolibrary.org/obo/UBERON_0004717",
+  "relationAssessment": null,
+  "versionIdentifier": "1909",
+  "versionInnovation": null
+}
