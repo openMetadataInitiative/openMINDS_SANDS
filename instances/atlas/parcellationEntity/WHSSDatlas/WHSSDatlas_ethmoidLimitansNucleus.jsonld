@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_ethmoidLimitansNucleus",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "Eth"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_ethmoidLimitansNucleus"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_ethmoidLimitansNucleus",
+  "name": "ethmoid-Limitans nucleus",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

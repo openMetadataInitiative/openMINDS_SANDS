@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_ventromedialThalamicNucleus",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "VM"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_ventromedialThalamicNucleus"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_ventromedialThalamicNucleus",
+  "name": "ventromedial thalamic nucleus",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

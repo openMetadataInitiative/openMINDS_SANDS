@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_dorsalCochlearNucleusFusiformAndGranuleLayer",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "DCNFG"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_dorsalCochlearNucleusFusiformAndGranuleLayer"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3.01_dorsalCochlearNucleusFusiformAndGranuleLayer"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_dorsalCochlearNucleusFusiformAndGranuleLayer"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_dorsalCochlearNucleusFusiformAndGranuleLayer",
+  "name": "dorsal cochlear nucleus, fusiform and granule layer",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

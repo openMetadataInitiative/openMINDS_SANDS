@@ -4,6 +4,9 @@
   },
   "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_IP-LO_1",
   "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": null,
+  "definition": null,
   "hasParent": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_IP-LO"
@@ -11,7 +14,7 @@
   ],
   "hasVersion": [
     {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_lh_IP-LO_1"
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_IP-LO_1"
     }
   ],
   "lookupLabel": "SWMA_IP-LO_1",

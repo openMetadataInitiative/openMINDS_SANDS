@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_posteriorThalamicNuclearGroupTriangularPart",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "Po-t"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_posteriorThalamicNuclearGroupTriangularPart"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_posteriorThalamicNuclearGroupTriangularPart",
+  "name": "posterior thalamic nuclear group, triangular part",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_dorsalintermediateEntorhinalArea",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": null,
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1.01_dorsalintermediateEntorhinalArea"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_dorsalintermediateEntorhinalArea",
+  "name": "dorsal-intermediate entorhinal area",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

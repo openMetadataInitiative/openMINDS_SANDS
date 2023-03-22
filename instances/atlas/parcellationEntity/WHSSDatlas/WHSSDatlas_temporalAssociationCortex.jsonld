@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_temporalAssociationCortex",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "TeA"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_temporalAssociationCortex"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_temporalAssociationCortex",
+  "name": "temporal association cortex",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

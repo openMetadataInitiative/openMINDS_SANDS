@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_frontalAssociationArea3",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "Fr3"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_frontalAssociationArea3"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_frontalAssociationArea3",
+  "name": "frontal association area 3",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

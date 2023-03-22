@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_LB.Bm",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": null,
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_LB"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_LB.Bm_PM-v8.2"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-Colin27_LB.Bm_PM-v8.2"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-MNI152_LB.Bm_PM-v8.2"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-fsaverage_LB.Bm_PM-v8.2"
+    }
+  ],
+  "lookupLabel": "JBA_LB.Bm",
+  "name": "LB.Bm (Amygdala)",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

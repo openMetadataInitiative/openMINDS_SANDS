@@ -1,26 +1,26 @@
 {
-    "@context": {
-        "@vocab": "https://openminds.ebrains.eu/vocab/"
-    },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_corticospinalTract",
-    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
-    "hasParent": [
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_deepWhiteMatter"
-      }
-    ],
-    "hasVersion": [
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_corticospinalTract_left"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_corticospinalTract_right"
-      }
-    ],
-    "lookupLabel": "DWMA_corticospinalTract",
-    "name": "corticospinal tract",
-    "ontologyIdentifier": null,
-    "relatedUBERONTerm": {
-        "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/corticospinalTract"
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_corticospinalTract",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": null,
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DWMA_deepWhiteMatter"
     }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DWMA_2018_corticospinalTract"
+    }
+  ],
+  "lookupLabel": "DWMA_corticospinalTract",
+  "name": "corticospinal tract",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": {
+    "@id": "https://openminds.ebrains.eu/instances/UBERONParcellation/corticospinalTract"
+  }
 }

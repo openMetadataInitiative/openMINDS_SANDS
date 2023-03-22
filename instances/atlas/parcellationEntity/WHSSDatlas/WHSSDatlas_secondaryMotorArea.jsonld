@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_secondaryMotorArea",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "M2"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_secondaryMotorArea"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_secondaryMotorArea",
+  "name": "secondary motor area",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

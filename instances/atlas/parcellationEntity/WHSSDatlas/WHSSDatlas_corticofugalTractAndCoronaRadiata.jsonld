@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_corticofugalTractAndCoronaRadiata",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "ic-cp-lfp-py",
+    "descending corticofugal pathways"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1.01_descendingCorticofugalPathways"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v2_descendingCorticofugalPathways"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_descendingCorticofugalPathways"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3.01_descendingCorticofugalPathways"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_corticofugalTractAndCoronaRadiata"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_corticofugalTractAndCoronaRadiata",
+  "name": "corticofugal tract and corona radiata",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

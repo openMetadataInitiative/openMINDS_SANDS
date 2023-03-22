@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_anteriorCommissureAnteriorLimb",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "aca",
+    "anterior commissure, anterior part"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1.01_anteriorCommissureAnteriorPart"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v2_anteriorCommissureAnteriorPart"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_anteriorCommissureAnteriorPart"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3.01_anteriorCommissureAnteriorPart"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_anteriorCommissureAnteriorLimb"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_anteriorCommissureAnteriorLimb",
+  "name": "anterior commissure, anterior limb",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

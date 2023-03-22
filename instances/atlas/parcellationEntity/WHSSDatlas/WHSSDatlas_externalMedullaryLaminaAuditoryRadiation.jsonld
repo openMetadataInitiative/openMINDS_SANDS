@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_externalMedullaryLaminaAuditoryRadiation",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "eml-ar",
+    "auditory radiation"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_auditoryRadiation"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3.01_auditoryRadiation"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_externalMedullaryLaminaAuditoryRadiation"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_externalMedullaryLaminaAuditoryRadiation",
+  "name": "external medullary lamina, auditory radiation",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

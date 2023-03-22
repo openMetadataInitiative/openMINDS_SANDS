@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_xiphoidThalamicNucleus",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "Xi"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_xiphoidThalamicNucleus"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_xiphoidThalamicNucleus",
+  "name": "xiphoid thalamic nucleus",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

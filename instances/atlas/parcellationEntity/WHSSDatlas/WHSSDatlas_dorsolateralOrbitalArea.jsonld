@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_dorsolateralOrbitalArea",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "DLO"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_dorsolateralOrbitalArea"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_dorsolateralOrbitalArea",
+  "name": "dorsolateral orbital area",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

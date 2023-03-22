@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_posteriorComplexOfTheDorsalThalamus",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "PoC"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": null,
+  "lookupLabel": "WHSSDatlas_posteriorComplexOfTheDorsalThalamus",
+  "name": "posterior complex of the dorsal thalamus",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_nucleusAccumbensCore",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "NAc-c"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_nucleusAccumbensCore"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_nucleusAccumbensCore",
+  "name": "nucleus accumbens, core",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

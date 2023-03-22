@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA-human_BA22",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": "BA22",
+  "alternateName": [
+    "Brodmann's area 22",
+    "human BA22",
+    "human Brodmann area 22",
+    "human Brodmann's area 22"
+  ],
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA-human_cerebralCortex"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA22"
+    }
+  ],
+  "lookupLabel": "BA-human_BA22",
+  "name": "Brodmann area 22",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

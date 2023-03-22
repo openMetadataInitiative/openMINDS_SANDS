@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_ventrolateralOrbitalArea",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "VLO"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_ventrolateralOrbitalArea"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_ventrolateralOrbitalArea",
+  "name": "ventrolateral orbital area",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

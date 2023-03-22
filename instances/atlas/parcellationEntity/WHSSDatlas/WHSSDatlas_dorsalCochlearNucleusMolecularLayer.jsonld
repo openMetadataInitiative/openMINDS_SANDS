@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_dorsalCochlearNucleusMolecularLayer",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "DCNM"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_dorsalCochlearNucleusMolecularLayer"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3.01_dorsalCochlearNucleusMolecularLayer"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_dorsalCochlearNucleusMolecularLayer"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_dorsalCochlearNucleusMolecularLayer",
+  "name": "dorsal cochlear nucleus, molecular layer",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

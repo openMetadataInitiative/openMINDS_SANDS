@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA-human_BA7",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": "BA7",
+  "alternateName": [
+    "Brodmann's area 7",
+    "human BA7",
+    "human Brodmann area 7",
+    "human Brodmann's area 7"
+  ],
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/BA-human_cerebralCortex"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA7"
+    }
+  ],
+  "lookupLabel": "BA-human_BA7",
+  "name": "Brodmann area 7",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

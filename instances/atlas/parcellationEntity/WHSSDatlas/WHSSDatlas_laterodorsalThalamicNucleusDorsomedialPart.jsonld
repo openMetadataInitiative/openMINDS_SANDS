@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_laterodorsalThalamicNucleusDorsomedialPart",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "LD-dm"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_laterodorsalThalamicNucleusDorsomedialPart"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_laterodorsalThalamicNucleusDorsomedialPart",
+  "name": "laterodorsal thalamic nucleus, dorsomedial part",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

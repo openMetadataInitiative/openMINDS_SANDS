@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_secondaryAuditoryAreaDorsalPart",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": [
+    "Au2-d"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_secondaryAuditoryCortexDorsalArea"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3.01_secondaryAuditoryCortexDorsalArea"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_secondaryAuditoryAreaDorsalPart"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_secondaryAuditoryAreaDorsalPart",
+  "name": "secondary auditory area, dorsal part",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}
