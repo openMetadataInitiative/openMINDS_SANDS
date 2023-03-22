@@ -2,8 +2,11 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_superficialWhiteMatter",
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_superficialWhiteMatter",
   "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": "SWM",
+  "alternateName": null,
+  "definition": null,
   "hasParent": null,
   "hasVersion": null,
   "lookupLabel": "SWMA_superficialWhiteMatter",

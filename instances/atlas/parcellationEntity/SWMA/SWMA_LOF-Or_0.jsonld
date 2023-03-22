@@ -2,16 +2,19 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_LOF-Or_0",
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_LOF-Or_0",
   "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": null,
+  "definition": null,
   "hasParent": [
     {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_LOF-Or"
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SWMA_superficialWhiteMatter"
     }
   ],
   "hasVersion": [
     {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_lh_LOF-Or_0"
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_LOF-Or_0"
     }
   ],
   "lookupLabel": "SWMA_LOF-Or_0",
