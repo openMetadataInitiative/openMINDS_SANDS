@@ -1,0 +1,244 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/SWMA_2018",
+  "@type": "https://openminds.ebrains.eu/sands/BrainAtlasVersion",
+  "abbreviation": "SWMA",
+  "accessibility": {
+    "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
+  },
+  "author": null,
+  "coordinateSpace": {
+    "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/MNI-ICBM152_nonlinear-2009c-asym"
+  },
+  "copyright": null,
+  "custodian": null,
+  "description": null,
+  "digitalIdentifier": null,
+  "fullDocumentation": null,
+  "fullName": "Atlas of Superficial White Matter Fibre Bundles",
+  "funding": null,
+  "hasTerminology": {
+		"@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
+		"dataLocation": null,
+		"hasEntity": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_CAC-PoCi_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_CAC-PrCu_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_CMF-Op_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_CMF-PoC_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_CMF-PrC_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_CMF-PrC_1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_CMF-RMF_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_CMF-SF_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_CMF-SF_1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_Cu-Li_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_Fu-LO_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_Fu-LO_1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_IC-PrCu_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_IP-IT_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_IP-LO_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_IP-LO_1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_IP-MT_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_IP-SM_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_IP-SP_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_IP-SP_1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_IT-MT_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_IT-MT_1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_IT-MT_2"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_LO-SP_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_LOF-MOF_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_LOF-Or_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_LOF-RMF_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_LOF-RMF_1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_LOF-ST_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_MOF-ST_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_MT-SM_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_MT-ST_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_Op-Ins_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_Op-PrC_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_Op-SF_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_Op-Tr_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_Or-Ins_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_PoC-Ins_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_PoC-PrC_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_PoC-PrC_1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_PoC-PrC_2"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_PoC-PrC_3"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_PoC-SM_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_PoC-SM_1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_PoC-SP_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_PoC-SP_1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_PoCi-PrCu_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_PoCi-PrCu_1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_PoCi-PrCu_2"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_PoCi-RAC_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_PoCi-SF_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_PrC-Ins_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_PrC-SF_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_PrC-SM_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_PrC-SP_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_RAC-SF_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_RAC-SF_1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_RMF-SF_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_RMF-SF_1"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_SM-Ins_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_SP-SM_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_ST-Ins_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_ST-TT_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_Tr-Ins_0"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/SWMA_2018_Tr-SF_0"
+      }
+    ],
+		"ontologyIdentifier": null
+	},
+  "homepage": null,
+  "howToCite": null,
+  "isAlternativeVersionOf": null,
+  "isNewVersionOf": null,
+  "keyword": null,
+  "license": {
+    "@id": "https://openminds.ebrains.eu/instances/licenses/ccByNcSa4.0"
+  },
+  "majorVersionIdentifier": null,
+  "ontologyIdentifier": null,
+  "otherContribution": null,
+  "relatedPublication": null,
+  "releaseDate": null,
+  "repository": null,
+  "shortName": "Superficial White Matter Atlas",
+  "supportChannel": null,
+  "type": null,
+  "usedSpecimen": null,
+  "versionIdentifier": "2018",
+  "versionInnovation": "This is the first released version of this brain atlas."
+}
