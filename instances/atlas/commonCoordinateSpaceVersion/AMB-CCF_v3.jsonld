@@ -15,15 +15,15 @@
 	"axesOrigin": [
     {
       "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-      "value": 0.0,
+      "value": 0.0
     },
     {
       "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-      "value": 0.0,
+      "value": 0.0
     },
     {
       "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-      "value": 0.0,
+      "value": 0.0
     }
   ],
 	"copyright": null,
