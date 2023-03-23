@@ -6,6 +6,7 @@ import json
 path_to_entity_version = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/" \
                          "parcellationEntityVersion/"
 version_https = "https://openminds.ebrains.eu/instances/parcellationEntityVersion/"
+entity_https = "https://openminds.ebrains.eu/instances/parcellationEntity/"
 atlas_versions = [
     "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntityVersion/Mars_individual_cortex",
     "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntityVersion/Mars_individual_cortexAndSubcortex",
@@ -49,11 +50,10 @@ def find_files(directory, partial_name):
     results = []
     for root, dirs, files in os.walk(directory):
         for file in files:
-            # if partial_name in file # works
-            print(file)
-            print(os.path.splitext(file)[0])
+            if any (part == partial_name for part in str.replace(file, ".jsonld", "").split("_")):
+                print("Yep")
             # string needs to be cut right, tht should solve it
-            if partial_name == os.path.splitext(file)[0]:
+            # if partial_name == os.path.splitext(file)[0]:
                 results.append(os.path.join(root, file))
     return results
 
@@ -104,7 +104,7 @@ for filename in os.listdir(directory):
 # Set the directory of step 2
 auto_path = "/home/kiwitz1/PycharmProjects/OpenMinds/instances/parcellationEntity/"
 
-# loop over the areas [] from step 1 and for each area check wehtehr it has a match in the jsonld files (SHOULD BE THE case
+# loop over the areas [] from above and for each area check wehtehr it has a match in the jsonld files generated in step 2 (SHOULD BE THE case
 matched_jsonlds = []
 for area in areas:
     for filename in os.listdir(auto_path):
@@ -129,3 +129,18 @@ for index, filename in enumerate(os.listdir(directory)):
         with open(file_path, 'w') as f:
             f.write(matched_jsonlds[index])
         f.close()
+
+#______________________________________________________________________________________________________________#
+# as a final step, change the @id for each file to the appropiate identifier
+
+for filename in os.listdir(directory):
+    if filename.endswith('.jsonld'):  # Check if the file is a JSON-LD file
+        file_path = os.path.join(auto_path, filename)
+        with open(file_path, 'r+') as f:
+            data = json.load(f)
+            data["@id"] = entity_https + data["lookupLabel"]
+            content = json.dumps(data)
+            f.write(content)
+        f.close()
+
+
