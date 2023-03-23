@@ -133,14 +133,14 @@ for index, filename in enumerate(os.listdir(directory)):
 #______________________________________________________________________________________________________________#
 # as a final step, change the @id for each file to the appropiate identifier
 
-for filename in os.listdir(directory):
-    if filename.endswith('.jsonld'):  # Check if the file is a JSON-LD file
-        file_path = os.path.join(auto_path, filename)
-        with open(file_path, 'r+') as f:
-            data = json.load(f)
-            data["@id"] = entity_https + data["lookupLabel"]
-            content = json.dumps(data)
-            f.write(content)
-        f.close()
+# for filename in os.listdir(directory):
+#     if filename.endswith('.jsonld'):  # Check if the file is a JSON-LD file
+#         file_path = os.path.join(directory, filename)
+#         with open(file_path, 'r') as f:
+#             data = json.load(f)
+#             data["@id"] = entity_https + data["lookupLabel"]
+#             content = json.dumps(data)
+#             f.write(content)
+#         f.close()
 
 
