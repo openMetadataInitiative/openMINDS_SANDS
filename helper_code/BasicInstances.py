@@ -14,7 +14,7 @@ familyNames_subcortex = ["Brovelli", "Badier", "Bonini", "Bartolomei", "Coulon",
 givenNames_subcortex = ["Andrea", "Jean-Michael", "Francesca", "Fabrice", "Olivier", "Guillaume"]
 ORCIDs_mars = ["https://orcid.org/0000-0002-0414-5691", "https://orcid.org/0000-0002-5342-1330", "https://orcid.org/0000-0003-4752-1228"]
 ORCIDs_subcortex = ["https://orcid.org/0000-0002-5342-1330", "https://orcid.org/0000-0002-7272-6455", "", "", "https://orcid.org/0000-0003-4752-1228", "https://orcid.org/0000-0002-0414-5691"]
-
+ORCID_https = "https://orcid.org/"
 # documentation schemas
 full_documentation =  [("Mars", "https://doi.org/10.1002/hbm.23121"),("Mars_cortexAndSubcortex", "https://doi.org/10.1523/JNEUROSCI.1672-16.2016")]
 
@@ -34,10 +34,10 @@ directories_DOI = {}
 j = ".jsonld"
 
 for index, ORCID in enumerate(ORCIDs_mars):
-    directories_ORCID_mars[index] = directory_digitalIdentifier_ORCID + "ORCID_" + str.lower(familyNames_mars[index]) + givenNames_mars[index].capitalize() + "_" + os.path.basename(ORCID) + j
+    directories_ORCID_mars[index] = directory_digitalIdentifier_ORCID + "ORCID_" + str.lower(familyNames_mars[index].replace("-","")) + givenNames_mars[index].replace("-","").capitalize() + "_" + os.path.basename(ORCID) + j
 for index, ORCID in enumerate(ORCIDs_subcortex):
-    directories_ORCID_subcortex[index] = directory_digitalIdentifier_ORCID + "ORCID_" + str.lower(familyNames_subcortex[index]) + \
-                                                                                  givenNames_subcortex[index].capitalize() + "_" + os.path.basename(ORCID) + j
+    directories_ORCID_subcortex[index] = directory_digitalIdentifier_ORCID + "ORCID_" + str.lower(familyNames_subcortex[index].replace("-","")) + \
+                                                                                  givenNames_subcortex[index].replace("-","").capitalize() + "_" + os.path.basename(ORCID) + j
 for index, person in enumerate(familyNames_mars):
     directories_person_mars[index] = directory_person + str.lower(familyNames_mars[index].replace("-","")) + givenNames_mars[index].replace("-","").capitalize() + j
 
@@ -109,54 +109,135 @@ for filename in os.listdir(directory_digitalIdentifier_DOI):
 
 basic.save("./instances/")
 
+def find_path(directory, partial_name):
+    result = []
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            if any (part == partial_name for part in str.replace(file, ".jsonld", "").split("_")):
+                result.append(os.path.join(root, file))
+    return result
+
+
 # loop over persons and create instances, this is a bit tricky and needs to be done with regular expressions
 for filename in os.listdir(directory_person):
     if os.path.isfile(os.path.join(directory_person, filename)):
         # strip the area name from the filename
         stripped_name = filename.replace(".jsonld", "")
         # create a 2-element list split by capitalized letters [0] = family name, [-1] = givenName
-        stripped_name = re.findall(r'[a-z]+|[A-Z][a-z]*', stripped_name)
-        print(stripped_name)
+        stripped_name_re = re.findall(r'[a-z]+|[A-Z][a-z]*', stripped_name)
+        print(stripped_name_re)
         # check whether the stripped name exists in the respective lists (a lot of str handling involved here)
-        if (any(stripped_name[0].lower() == s.lower().replace("-","") for s in familyNames_mars) and any(stripped_name[1].lower() == s.lower().replace("-","") for s in givenNames_mars))\
-                or (any(stripped_name[0].lower() == t.lower().replace("-","") for t in familyNames_subcortex) and any(stripped_name[1].lower() == t.lower().replace("-","") for t in givenNames_subcortex)):
+        if (any(stripped_name_re[0].lower() == s.lower().replace("-","") for s in familyNames_mars) and any(stripped_name_re[1].lower() == s.lower().replace("-","") for s in givenNames_mars))\
+                or (any(stripped_name_re[0].lower() == t.lower().replace("-","") for t in familyNames_subcortex) and any(stripped_name_re[1].lower() == t.lower().replace("-","") for t in givenNames_subcortex)):
             # create person instance
-            person = basic.add_core_person(givenName=stripped_name[1].capitalize())
+            person = basic.add_core_person(givenName=stripped_name_re[1].capitalize())
             # add family name
-            basic.get(person).familyName = stripped_name[0].capitalize()
-            # add the ORCID
-            basic.get(person).digitalIdentifier = stripped_name[0].capitalize()
+            basic.get(person).familyName = stripped_name_re[0].capitalize()
+
+        # add the ORCID, loop over the ORCID directory and extract the orcid from the filname
+        orcid_path = find_path(directory_digitalIdentifier_ORCID, stripped_name)
+        print(orcid_path)
+        orcid_complete = ORCID_https + os.path.basename(orcid_path[0]).replace(".jsonld", "")
+        basic.get(person).digitalIdentifier = {"@id": f"{orcid_complete}"}
+
 basic.save("./instances/")
 
 
 #_________________________________________________________#
-# automatic creation
-
-# Initialise the local copy of openMINDS, set version, iitialize helper and collection
-openMINDS.version_manager.init()
-openMINDS.version_manager.version_selection('v3')
-helper = openMINDS.Helper()
-basic = helper.create_collection()
 
 
-# schema creation persons and ORCIDS
-for i in enumerate(givenNames):
-        # persons
-        person = atlas.add_core_person(givenName = givenNames[i[0]])
-        atlas.get(person).familyName = str(familyNames[i[0]])
-        # ORCIDS
-        orcid = atlas.add_core_ORCID()
-        atlas.get(orcid).identifier = ORCIDs[i[0]]
-        # add ORCIDs to person instances
-        atlas.get(person).basicIdentifier = [{"@id": orcid}]
-        # change @ids from local host to actual orcid
+# final step: copying the contents back to the manually created files
+
+# Set the directory of step 2
+doi_path = "/home/kiwitz1/PycharmProjects/OpenMinds/instances/DOI/"
+orcid_path = "/home/kiwitz1/PycharmProjects/OpenMinds/instances/ORCID/"
+person_path = "/home/kiwitz1/PycharmProjects/OpenMinds/instances/person/"
+
+# loop over DOIS from step 1
+dois = []
+for filename in os.listdir(directory_digitalIdentifier_DOI):
+    if filename.endswith('.jsonld'):  # Check if the file is a JSON-LD file
+        stripped_doi = os.path.basename(filename).split("_")[-1].replace(".jsonld", "").replace("$", "/")
+        dois.append(stripped_doi)
+
+# loop over orcids from step 1
+orcids = []
+orcid_https = "https://orcid.org/"
+for filename in os.listdir(directory_digitalIdentifier_ORCID):
+    if filename.endswith('.jsonld'):  # Check if the file is a JSON-LD file
+        stripped_orcid = os.path.basename(filename).split("_")[-1].replace(".jsonld", "")
+        orcids.append(orcid_https + stripped_orcid)
+
+# loop over persons from step 1
+persons = []
+for filename in os.listdir(directory_person):
+    if filename.endswith('.jsonld'):  # Check if the file is a JSON-LD file
+        stripped_person = filename.replace(".jsonld", "")
+        persons.append(stripped_person)
 
 
 
-# schema creation DOIs
-for i in dataset_identifiers:
-        # dois
-        doi = atlas.add_core_DOI()
-        atlas.get(doi).identifier = i
+# loop over the dois and check whether they match   the jsonld files generated in step 2 (SHOULD BE THE case)
+matched_dois = []
+for doi in dois:
+    for filename in os.listdir(doi_path):
+        if filename.endswith('.jsonld'):  # Check if the file is a JSON-LD file
+            file_path = os.path.join(doi_path, filename)
+            with open(file_path, 'r') as f:
+                data = json.load(f)
+                content = json.dumps(data)
+                if doi == data["identifier"]:
+                    matched_dois.append(content)
 
-atlas.save("./myFirstOpenMINDSMetadataCollection/")
+# loop over the orcids and check whether they match  the jsonld files generated in step 2 (SHOULD BE THE case)
+matched_orcids = []
+for identifier in orcids:
+    if identifier == orcid_https:
+        continue
+    for filename in os.listdir(orcid_path):
+        if filename.endswith('.jsonld'):  # Check if the file is a JSON-LD file
+            file_path = os.path.join(orcid_path, filename)
+            with open(file_path, 'r') as f:
+                data = json.load(f)
+                content = json.dumps(data)
+                if identifier == data["identifier"]:
+                    matched_orcids.append(content)
+
+
+# loop over the persons and check whether they match  the jsonld files generated in step 2 (SHOULD BE THE case)
+matched_persons = []
+for person in persons:
+    for filename in os.listdir(person_path):
+        if filename.endswith('.jsonld'):  # Check if the file is a JSON-LD file
+            file_path = os.path.join(person_path, filename)
+            with open(file_path, 'r') as f:
+                data = json.load(f)
+                content = json.dumps(data)
+                if person.lower() == str.lower(data["familyName"] + data["givenName"]):
+                    matched_persons.append(content)
+
+
+for index, filename in enumerate(os.listdir(directory_digitalIdentifier_DOI)):
+    if filename.endswith('.jsonld'): # Check if the file is a JSON-LD file
+        file_path = os.path.join(directory_digitalIdentifier_DOI, filename)
+        with open(file_path, 'w') as f:
+            f.write(matched_dois[index])
+        f.close()
+
+
+for index, filename in enumerate(os.listdir(directory_person)):
+    if filename.endswith('.jsonld'): # Check if the file is a JSON-LD file
+        file_path = os.path.join(directory_person, filename)
+        with open(file_path, 'w') as f:
+            f.write(matched_persons[index])
+        f.close()
+## needs to be redone
+# loop over the files from step 1 and insert the contents from the matched jsolds list
+for index, filename in enumerate(os.listdir(directory_digitalIdentifier_ORCID)):
+    if any(not char.isdigit() for char in os.path.basename(filename)):
+        continue
+    if filename.endswith('.jsonld'): # Check if the file is a JSON-LD file
+        file_path = os.path.join(directory_digitalIdentifier_ORCID, filename)
+        with open(file_path, 'w') as f:
+            f.write(matched_orcids[index])
+        f.close()

@@ -51,9 +51,6 @@ def find_files(directory, partial_name):
     for root, dirs, files in os.walk(directory):
         for file in files:
             if any (part == partial_name for part in str.replace(file, ".jsonld", "").split("_")):
-                print("Yep")
-            # string needs to be cut right, tht should solve it
-            # if partial_name == os.path.splitext(file)[0]:
                 results.append(os.path.join(root, file))
     return results
 
@@ -71,8 +68,6 @@ for filename in os.listdir(directory):
 
         # loop over the directories and files of the parcellatio entity versions and  find the str matching to area
         file_paths = find_files(path_to_entity_version, area)
-        for path in file_paths:
-            print(path)
 
         # check whether the list entries are part of the version list and add the version to the
         # parcellation entity instance
