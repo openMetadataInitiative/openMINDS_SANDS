@@ -1,0 +1,56 @@
+{
+	"@context": {
+		"@vocab": "https://openminds.ebrains.eu/vocab/"
+	},
+	"@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpaceVersion/MEBRAINStemplate_v1.0",
+	"@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpaceVersion",
+	"abbreviation": "MEBRAINStemplate",
+	"accessibility": {
+    "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
+  },
+	"anatomicalAxesOrientation": {
+		"@id": "https://openminds.ebrains.eu/instances/anatomicalAxesOrientation/RAS"
+	},
+  "author": null,
+	"axesOrigin": [
+    {
+      "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+      "value": 108.0
+    },
+    {
+      "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+      "value": 128.0
+    },
+    {
+      "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+      "value": 70.0
+    }
+  ],
+	"copyright": null,
+	"custodian": null,
+	"defaultImage": null,
+	"description": null,
+	"digitalIdentifier": null,
+	"fullDocumentation": null,
+	"fullName": "MEBRAINS population-based monkey brain template",
+	"funding": null,
+	"homepage": null,
+	"howToCite": null,
+	"isAlternativeVersionOf": null,
+	"isNewVersionOf": null,
+	"keyword": null,
+	"license": null,
+	"nativeUnit": {
+		"@id": "https://openminds.ebrains.eu/instances/unitOfMeasurement/micrometer"
+	},
+	"ontologyIdentifier": null,
+	"otherContribution": null,
+	"relatedPublication": null,
+	"releaseDate": null,
+	"repository": null,
+	"supportChannel": null,
+	"shortName": "MEBRAINS brain template",
+	"usedSpecimen": null,
+	"versionIdentifier": "v1.0",
+	"versionInnovation": "The first version of the 'MEBRAINS population-based monkey brain template' (v1.0) is a population average brain of T1- and T2-weighted MRI scans from 10 macaque brains. In addition, 9 CT scans of the same monkeys (one missing) are registered to the T1 modality and co-registered to the population average."
+}
