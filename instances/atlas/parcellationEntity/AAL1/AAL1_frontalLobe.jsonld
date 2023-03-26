@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_frontalLobe",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": null,
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_brain"
+    }
+  ],
+  "hasVersion": null,
+  "lookupLabel": "AAL1_frontalLobe",
+  "name": "frontal lobe",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

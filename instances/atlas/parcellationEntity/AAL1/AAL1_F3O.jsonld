@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_F3O",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": "F3O",
+  "alternateName": [
+    "F3O",
+    "Frontal_Inf_Orb"
+  ],
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_frontalLobe"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12-v4_F3O"
+    }
+  ],
+  "lookupLabel": "AAL1_F3O",
+  "name": "inferior frontal gyrus, orbital part",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

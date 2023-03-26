@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_brain",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": null,
+  "alternateName": null,
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": null
+    }
+  ],
+  "hasVersion": null,
+  "lookupLabel": "AAL1_brain",
+  "name": "brain",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}
