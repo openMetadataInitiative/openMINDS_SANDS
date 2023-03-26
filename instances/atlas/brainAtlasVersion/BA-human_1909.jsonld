@@ -22,154 +22,154 @@
 		"dataLocation": null,
 		"hasEntity": [
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area1"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA1"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area2"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA2"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area3"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA3"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area4"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA4"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area5"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA5"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area6"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA6"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area7"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA7"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area8"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA8"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area8a"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA8a"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area9"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA9"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area10"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA10"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area11"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA11"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area12"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA12"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area13"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA13"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area14"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA14"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area15"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA15"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area16"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA16"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area17"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA17"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area18"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA18"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area19"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA19"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area20"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA20"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area21"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA21"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area22"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA22"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area23"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA23"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area24"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA24"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area25"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA25"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area26"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA26"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area27"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA27"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area28"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA28"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area29"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA29"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area30"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA30"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area31"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA31"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area32"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA32"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area33"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA33"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area34"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA34"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area35"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA35"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area36"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA36"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area37"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA37"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area38"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA38"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area39"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA39"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area40"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA40"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area41"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA41"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area42"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA42"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area43"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA43"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area44"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA44"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area45"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA45"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area46"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA46"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area47"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA47"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area48"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA48"
 			},
 			{
-				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_area52"
+				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_BA52"
 			},
 			{
 				"@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/BA-human_1909_cerebralCortex"
