@@ -30,9 +30,6 @@
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_frontalLobe"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_frontalLobeLateralSurface"
-      },
-      {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_F1"
       },
       {
@@ -45,9 +42,6 @@
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_F3T"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_frontalLobeMedialSurface"
-      },
-      {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_F1M"
       },
       {
@@ -55,9 +49,6 @@
       },
       {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_PCL"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_frontalLobeOrbitalSurface"
       },
       {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_F1O"
@@ -81,9 +72,6 @@
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_temporalLobe"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_temporalLobeLateralSurface"
-      },
-      {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_T1"
       },
       {
@@ -99,9 +87,6 @@
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_parietalLobe"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_parietalLobeLateralSurface"
-      },
-      {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_P1"
       },
       {
@@ -114,16 +99,10 @@
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_SMG"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_parietalLobeMedialSurface"
-      },
-      {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_PQ"
       },
       {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_occipitalLobe"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_occipitalLobeLateralSurface"
       },
       {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_O1"
@@ -133,9 +112,6 @@
       },
       {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_O3"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_occipitalLobeMedialAndInferiorSurface"
       },
       {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_Q"
@@ -177,7 +153,7 @@
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_IN"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_sub-corticalGrayNuclei"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_subcorticalGrayNuclei"
       },
       {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_AMYG"
