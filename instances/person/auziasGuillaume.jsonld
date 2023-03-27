@@ -1,1 +1,0 @@
-{"@id": "https://localhost/person/b17df236-ca6b-11ed-8daf-00155daee5e8", "@type": "https://openminds.ebrains.eu/core/Person", "digitalIdentifier": {"@id": "https://orcid.org/ORCID_auziasGuillaume_0000-0002-0414-5691"}, "familyName": "Auzias", "givenName": "Guillaume", "@context": {"@vocab": "https://openminds.ebrains.eu/vocab/"}}

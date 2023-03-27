@@ -1,1 +1,0 @@
-{"@id": "https://localhost/person/b17d2996-ca6b-11ed-8daf-00155daee5e8", "@type": "https://openminds.ebrains.eu/core/Person", "digitalIdentifier": {"@id": "https://orcid.org/ORCID_coulonOlivier_0000-0003-4752-1228"}, "familyName": "Coulon", "givenName": "Olivier", "@context": {"@vocab": "https://openminds.ebrains.eu/vocab/"}}
