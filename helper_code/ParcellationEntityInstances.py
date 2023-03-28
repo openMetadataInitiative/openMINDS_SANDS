@@ -2,6 +2,37 @@ import os
 import openMINDS.version_manager
 import json
 
+#
+# def generate_entities(path, *args):
+#     """create person directories, files and instances ind a semi-automatic manner"""
+#     for list in args:
+#         for area in list:
+#             if area is None:
+#                     continue
+#             else:
+#                 entity_path = f"{path}{area}{j}"
+#                 entity_instance_generation(area, entity_path)
+#
+#
+# def entity_instance_generation(area, entity_path):
+#     if not os.path.isfile(entity_path):
+#         # create entity isntance
+#         entity = basic.add_SANDS_parcellationEntity(givenName=item[name].get("givenName"))
+#         # add family name and ORCID
+#         basic.get(author).familyName = item[name].get("familyName")
+#         basic.get(author).digitalIdentifier = {"@id": item[name].get("ORCID")}
+#         basic.save(p)
+#         # copy contents of created file
+#         latest = max(glob.glob("./instances/person/*jsonld"))
+#         with open(latest, 'r') as f:
+#             data = json.load(f)
+#         # write content to new file
+#         json_target = open(person_path, "w")
+#         json.dump(data, json_target, indent=6)
+#         json_target.close()
+#
+
+
 # data and helper variables
 path_to_entity_version = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/" \
                          "parcellationEntityVersion/"
@@ -140,4 +171,22 @@ for filename in os.listdir(directory):
             p.write(content)
             p.close()
 
-
+#
+#
+# if __name__ == '__main__':
+#
+#     # directories and variables
+#     entity_dir = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntity/Mars"
+#     os.mkdir(entity_dir)
+#
+#     j = ".jsonld"
+#     p = "./instances/"
+#
+#     # intialize openMinds instance creator
+#     openMINDS.version_manager.init()
+#     openMINDS.version_manager.version_selection('v3')
+#     helper = openMINDS.Helper()
+#     basic = helper.create_collection()
+#
+#     # function calling
+#     generate_entities(entity_dir, mars_cortex_authors, mars_cortexAndSubcotex_authors)
