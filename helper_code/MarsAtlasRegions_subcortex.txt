@@ -1,4 +1,3 @@
-Mars_Areas
 {
 "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Thalamus"
 },

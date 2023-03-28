@@ -1,0 +1,123 @@
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/VCcm"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/VCl"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/VCs"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Cu"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/VCrm"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/ITCm"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/ITCr"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/MTCc"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/STCc"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/STCr"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/MTCr"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/IPCv"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/IPCd"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SPC"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/SPCm"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/PCm"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Sv"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Sdl"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Sdm"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/ICC"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/PCC"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/MCC"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/ACC"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Mv"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Mdl"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Mdm"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/PMrv"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/PMdl"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/PMdm"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/PFcdl"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/PFcdm"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/PFrvl"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Pfrdli"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Pfrdls"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/PFrd"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/PFrm"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/OFCvl"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/OFCv"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/OFCvm"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/PFCvm"
+},
+{
+"@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Insula"
+},

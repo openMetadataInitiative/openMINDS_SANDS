@@ -1,0 +1,12 @@
+{
+      "@id": "https://localhost/person/5179a49a-cd75-11ed-a139-00155daee9ff",
+      "@type": "https://openminds.ebrains.eu/core/Person",
+      "digitalIdentifier": {
+            "@id": null
+      },
+      "familyName": "Bartolomei",
+      "givenName": "Fabrice",
+      "@context": {
+            "@vocab": "https://openminds.ebrains.eu/vocab/"
+      }
+}

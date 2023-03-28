@@ -1,29 +1,104 @@
-
-# generate parcellation enetity regions for the atlas instance instance
-with open("/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/helper_code/MarsAtlasRegions_subcortex.txt", 'w') as f:
-    open = "{"
-    close = "}"
-    instance = "\"@id\": \"https://openminds.ebrains.eu/instances/parcellationEntity/"
-
-    for index, area in enumerate(region_names_subcortex):
-        f.write(f"{open}\n")
-        f.write(f"{instance}{region_names[index]}\"\n")
-        f.write(f"{close},\n")
-f.close()
-
-with open("/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/helper_code/MarsAtlasRegions_cortex.txt", 'w') as d:
-    open = "{"
-    close = "}"
-    instance = "\"@id\": \"https://openminds.ebrains.eu/instances/parcellationEntity/"
-
-    for index, area in enumerate(region_names_cortex):
-        d.write(f"{open}\n")
-        d.write(f"{instance}{region_names[index]}\"\n")
-        d.write(f"{close},\n")
-d.close()
+import os.path
+import glob
+import openMINDS.version_manager
+import json
 
 
+def author_gen(listofdic):
+    author_listofdic = []
+    person_https = "https://openminds.ebrains.eu/instances/person/"
+    for item in listofdic:
+        for name in item.keys():
+            if name is None:
+                continue
+            else:
+                author_dic = {"@id":f"{person_https}{name}"}
+                author_listofdic.append(author_dic)
+    return author_listofdic
 
 
-# schema creation Brain atlas
-marsAtlas = atlas.add_SANDS_brainAtlas(fullName = "MarsAtlas", hasVersion =,  )
+def entity_gen(*lists):
+    # entity creation
+    has_entity_listofdic = []
+    entity_https = "https://openminds.ebrains.eu/instances/parcellationEntity/"
+    for list in lists:
+        for item in list:
+            entity_dic = {"@id" : f"{entity_https}{item}"}
+            has_entity_listofdic.append(entity_dic)
+            print(has_entity_listofdic)
+    return has_entity_listofdic
+
+
+def terminology_gen(*lists):
+    # terminology creation
+    has_terminology_dic = {}
+    has_terminology_dic["@type"] = "https://openminds.ebrains.eu/sands/ParcellationTerminology"
+    has_terminology_dic["definedIn"] = None
+    has_terminology_dic["hasEntity"] = entity_gen(*lists)
+    return has_terminology_dic
+
+
+def version_gen(listofdic):
+    has_version_listofdic = []
+    version_https = "https://openminds.ebrains.eu/instances/brainAtlasVersion/"
+    for dic in listofdic:
+        for version in dic.keys():
+            has_version_dic = {"@id" : f"{version_https}{version}"}
+            has_version_listofdic.append(has_version_dic)
+    return has_version_listofdic
+
+
+def generate_atlas(path, mars_authors, regions_cortex, regions_subcortex, docu, info, sName, fName):
+    # generate atlas
+    atlas = basic.add_SANDS_brainAtlas(description=info, shortName=sName, fullName=fName,
+                                   author=author_gen(mars_authors),
+                                   hasTerminology=terminology_gen(regions_cortex, regions_subcortex),
+                                   hasVersion=version_gen(docu))
+    basic.get(atlas).custodian = [{"@id": "https://openminds.ebrains.eu/instances/person/brovelliAndrea"}]
+    basic.get(atlas).digitalIdentifier = [{"@id": "https://openminds.ebrains.eu/instances/digitalIdentifier/DOI_Mars_10.1002.hbm.23121"}]
+    basic.get(atlas).homepage = [{"@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/Mars_homepage"},
+                             {"@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/Mars_cortexAndSubcortex_homepage"}]
+    basic.save("./instances/")
+    # copy contents
+    latest = max(glob.glob("./instances/atlas/*jsonld"))
+    with open(latest, 'r') as f:
+        data = json.load(f)
+        f.close()
+    # write content to new file
+    json_target = open(path, "w")
+    json.dump(data, json_target, indent=6)
+    json_target.close()
+
+
+def person_instance_generation(item, name, person_path):
+    if not os.path.isfile(person_path):
+        # create person isntance
+        author = basic.add_core_person(givenName=item[name].get("givenName"))
+        # add family name and ORCID
+        basic.get(author).familyName = item[name].get("familyName")
+        basic.get(author).digitalIdentifier = {"@id": item[name].get("ORCID")}
+        basic.save(p)
+        # copy contents of created file
+        latest = max(glob.glob("./instances/person/*jsonld"))
+        with open(latest, 'r') as f:
+            data = json.load(f)
+        # write content to new file
+        json_target = open(person_path, "w")
+        json.dump(data, json_target, indent=6)
+        json_target.close()
+
+
+if __name__ == '__main__':
+
+    # directories and variables
+    atlas_dir = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/brainAtlas/MarsAtlas.jsonld"
+
+    # intialize openMinds instance creator
+    openMINDS.version_manager.init()
+    openMINDS.version_manager.version_selection('v3')
+    helper = openMINDS.Helper()
+    basic = helper.create_collection()
+
+    # function call
+    generate_atlas(atlas_path, mars_cortex_authors, region_names_cortex, region_names_subcortex,
+                   full_documentation, description, shortName, fullName)

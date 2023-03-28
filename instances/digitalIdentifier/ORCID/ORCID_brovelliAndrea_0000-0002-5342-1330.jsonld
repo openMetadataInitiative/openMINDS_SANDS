@@ -1,0 +1,8 @@
+{
+      "@id": "https://localhost/ORCID/517b2d06-cd75-11ed-a139-00155daee9ff",
+      "@type": "https://openminds.ebrains.eu/core/ORCID",
+      "identifier": "https://orcid.org/0000-0002-5342-1330",
+      "@context": {
+            "@vocab": "https://openminds.ebrains.eu/vocab/"
+      }
+}

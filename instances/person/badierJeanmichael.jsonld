@@ -1,0 +1,12 @@
+{
+      "@id": "https://localhost/person/51789b5e-cd75-11ed-a139-00155daee9ff",
+      "@type": "https://openminds.ebrains.eu/core/Person",
+      "digitalIdentifier": {
+            "@id": "https://orcid.org/0000-0002-7272-6455"
+      },
+      "familyName": "Badier",
+      "givenName": "Jean-Michael",
+      "@context": {
+            "@vocab": "https://openminds.ebrains.eu/vocab/"
+      }
+}
