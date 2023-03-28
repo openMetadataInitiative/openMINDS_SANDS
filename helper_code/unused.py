@@ -53,3 +53,99 @@ basic.save("./instances/")
 
 
 #__________________________---------------------------------------------#
+
+# final step: copying the contents back to the manually created files
+
+# Set the directory of step 2
+doi_path = "/home/kiwitz1/PycharmProjects/OpenMinds/instances/DOI/"
+orcid_path = "/home/kiwitz1/PycharmProjects/OpenMinds/instances/ORCID/"
+person_path = "/home/kiwitz1/PycharmProjects/OpenMinds/instances/person/"
+
+# loop over DOIS from step 1
+dois = []
+for filename in os.listdir(directory_digitalIdentifier_DOI):
+    if filename.endswith('.jsonld'):  # Check if the file is a JSON-LD file
+        stripped_doi = os.path.basename(filename).split("_")[-1].replace(".jsonld", "").replace("$", "/")
+        dois.append(stripped_doi)
+
+# loop over orcids from step 1
+orcids = []
+orcid_https = "https://orcid.org/"
+for filename in os.listdir(directory_digitalIdentifier_ORCID):
+    if filename.endswith('.jsonld'):  # Check if the file is a JSON-LD file
+        stripped_orcid = os.path.basename(filename).split("_")[-1].replace(".jsonld", "")
+        orcids.append(orcid_https + stripped_orcid)
+
+# loop over persons from step 1
+persons = []
+for filename in os.listdir(directory_person):
+    if filename.endswith('.jsonld'):  # Check if the file is a JSON-LD file
+        stripped_person = filename.replace(".jsonld", "")
+        persons.append(stripped_person)
+
+
+
+# loop over the dois and check whether they match   the jsonld files generated in step 2 (SHOULD BE THE case)
+matched_dois = []
+for doi in dois:
+    for filename in os.listdir(doi_path):
+        if filename.endswith('.jsonld'):  # Check if the file is a JSON-LD file
+            file_path = os.path.join(doi_path, filename)
+            with open(file_path, 'r') as f:
+                data = json.load(f)
+                content = json.dumps(data)
+                if doi == data["identifier"]:
+                    matched_dois.append(content)
+
+# loop over the orcids and check whether they match  the jsonld files generated in step 2 (SHOULD BE THE case)
+matched_orcids = []
+for identifier in orcids:
+    if identifier == orcid_https:
+        continue
+    for filename in os.listdir(orcid_path):
+        if filename.endswith('.jsonld'):  # Check if the file is a JSON-LD file
+            file_path = os.path.join(orcid_path, filename)
+            with open(file_path, 'r') as f:
+                data = json.load(f)
+                content = json.dumps(data)
+                if identifier == data["identifier"]:
+                    matched_orcids.append(content)
+
+
+# loop over the persons and check whether they match  the jsonld files generated in step 2 (SHOULD BE THE case)
+matched_persons = []
+for person in persons:
+    for filename in os.listdir(person_path):
+        if filename.endswith('.jsonld'):  # Check if the file is a JSON-LD file
+            file_path = os.path.join(person_path, filename)
+            with open(file_path, 'r') as f:
+                data = json.load(f)
+                content = json.dumps(data)
+                if person.lower() == str.lower(data["familyName"] + data["givenName"]):
+                    matched_persons.append(content)
+
+
+for index, filename in enumerate(os.listdir(directory_digitalIdentifier_DOI)):
+    if filename.endswith('.jsonld'): # Check if the file is a JSON-LD file
+        file_path = os.path.join(directory_digitalIdentifier_DOI, filename)
+        with open(file_path, 'w') as f:
+            f.write(matched_dois[index])
+        f.close()
+
+
+for index, filename in enumerate(os.listdir(directory_person)):
+    if filename.endswith('.jsonld'): # Check if the file is a JSON-LD file
+        file_path = os.path.join(directory_person, filename)
+        with open(file_path, 'w') as f:
+            f.write(matched_persons[index])
+        f.close()
+## needs to be redone
+# loop over the files from step 1 and insert the contents from the matched jsolds list
+for index, filename in enumerate(os.listdir(directory_digitalIdentifier_ORCID)):
+    if any(not char.isdigit() for char in os.path.basename(filename)):
+        continue
+    if filename.endswith('.jsonld'): # Check if the file is a JSON-LD file
+        file_path = os.path.join(directory_digitalIdentifier_ORCID, filename)
+        with open(file_path, 'w') as f:
+            f.write(matched_orcids[index])
+        f.close()

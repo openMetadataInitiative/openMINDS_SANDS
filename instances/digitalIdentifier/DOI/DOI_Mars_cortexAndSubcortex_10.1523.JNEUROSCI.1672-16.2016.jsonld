@@ -1,0 +1,8 @@
+{
+      "@id": "https://localhost/DOI/41c13e0c-cd50-11ed-a98b-00155daee9ff",
+      "@type": "https://openminds.ebrains.eu/core/DOI",
+      "identifier": "https://doi.org/10.1523/JNEUROSCI.1672-16.2016",
+      "@context": {
+            "@vocab": "https://openminds.ebrains.eu/vocab/"
+      }
+}
