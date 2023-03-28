@@ -60,7 +60,7 @@ def generate_atlas(path, mars_authors, regions_cortex, regions_subcortex, docu, 
                              {"@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/Mars_cortexAndSubcortex_homepage"}]
     basic.save("./instances/")
     # copy contents
-    latest = max(glob.glob("./instances/atlas/*jsonld"))
+    latest = max(glob.glob("./instances/brainAtlas/*jsonld"))
     with open(latest, 'r') as f:
         data = json.load(f)
         f.close()
@@ -68,24 +68,6 @@ def generate_atlas(path, mars_authors, regions_cortex, regions_subcortex, docu, 
     json_target = open(path, "w")
     json.dump(data, json_target, indent=6)
     json_target.close()
-
-
-def person_instance_generation(item, name, person_path):
-    if not os.path.isfile(person_path):
-        # create person isntance
-        author = basic.add_core_person(givenName=item[name].get("givenName"))
-        # add family name and ORCID
-        basic.get(author).familyName = item[name].get("familyName")
-        basic.get(author).digitalIdentifier = {"@id": item[name].get("ORCID")}
-        basic.save(p)
-        # copy contents of created file
-        latest = max(glob.glob("./instances/person/*jsonld"))
-        with open(latest, 'r') as f:
-            data = json.load(f)
-        # write content to new file
-        json_target = open(person_path, "w")
-        json.dump(data, json_target, indent=6)
-        json_target.close()
 
 
 if __name__ == '__main__':
@@ -100,5 +82,5 @@ if __name__ == '__main__':
     basic = helper.create_collection()
 
     # function call
-    generate_atlas(atlas_path, mars_cortex_authors, region_names_cortex, region_names_subcortex,
+    generate_atlas(atlas_dir, mars_cortex_authors, region_names_cortex, region_names_subcortex,
                    full_documentation, description, shortName, fullName)

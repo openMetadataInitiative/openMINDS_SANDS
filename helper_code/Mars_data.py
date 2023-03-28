@@ -16,7 +16,6 @@ abbreviation = "Mars"
 fullName = "MarsAtlas"
 shortName = "MarsAtlas"
 homepage = [{"Mars" : "https://meca-brain.org/software/marsatlas/"}, {"Mars_cortexAndSubcortex": "https://meca-brain.org/software/marsatlas-subcortical/"}]
-custodian
 # data scraper creates list of entities
 #region_names_cortex
 #region_names subcortex

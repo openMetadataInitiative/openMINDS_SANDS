@@ -1,5 +1,5 @@
 {
-      "@id": "https://localhost/person/51789b5e-cd75-11ed-a139-00155daee9ff",
+      "@id": "https://localhost/person/2c8b8ed8-cd79-11ed-a139-00155daee9ff",
       "@type": "https://openminds.ebrains.eu/core/Person",
       "digitalIdentifier": {
             "@id": "https://orcid.org/0000-0002-7272-6455"
