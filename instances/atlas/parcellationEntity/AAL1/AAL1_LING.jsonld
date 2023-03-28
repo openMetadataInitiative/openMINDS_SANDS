@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_LING",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": "LING",
+  "alternateName": [
+    "LING",
+    "Lingual"
+  ],
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_occipitalLobe"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12-v4_LING"
+    }
+  ],
+  "lookupLabel": "AAL1_LING",
+  "name": "lingual gyrus",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

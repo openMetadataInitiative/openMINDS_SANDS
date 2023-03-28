@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_MCIN",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": "MCIN",
+  "alternateName": [
+    "CINM",
+    "Cingulum_Mid"
+  ],
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_limbicLobe"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12-v4_MCIN"
+    }
+  ],
+  "lookupLabel": "AAL1_MCIN",
+  "name": "median cingulate and paracingulate gyri",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

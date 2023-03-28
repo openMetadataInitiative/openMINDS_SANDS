@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_T3",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": "T3",
+  "alternateName": [
+    "T3",
+    "Temporal_Inf"
+  ],
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_temporalLobe"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12-v4_T3"
+    }
+  ],
+  "lookupLabel": "AAL1_T3",
+  "name": "inferior temporal gyrus",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

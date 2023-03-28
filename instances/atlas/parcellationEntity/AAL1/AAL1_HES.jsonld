@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_HES",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": "HES",
+  "alternateName": [
+    "HESCHL",
+    "Heschl"
+  ],
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_temporalLobe"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12-v4_HES"
+    }
+  ],
+  "lookupLabel": "AAL1_HES",
+  "name": "Heschl gyrus",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

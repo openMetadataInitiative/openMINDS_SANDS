@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_PHIP",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": "PHIP",
+  "alternateName": [
+    "PARA_HIPPO",
+    "ParaHippocampal"
+  ],
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_limbicLobe"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12-v4_PHIP"
+    }
+  ],
+  "lookupLabel": "AAL1_PHIP",
+  "name": "parahippocampal gyrus",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

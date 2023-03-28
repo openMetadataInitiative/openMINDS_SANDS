@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_F1MO",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": "F1MO",
+  "alternateName": [
+    "FMO",
+    "Frontal_Med_Orb"
+  ],
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_frontalLobe"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12-v4_F1MO"
+    }
+  ],
+  "lookupLabel": "AAL1_F1MO",
+  "name": "superior frontal gyrus, medial orbital",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

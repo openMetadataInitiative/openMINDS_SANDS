@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_THA",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": "THA",
+  "alternateName": [
+    "THA",
+    "Thalamus"
+  ],
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_subcorticalGrayNuclei"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12-v4_THA"
+    }
+  ],
+  "lookupLabel": "AAL1_THA",
+  "name": "thalamus",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

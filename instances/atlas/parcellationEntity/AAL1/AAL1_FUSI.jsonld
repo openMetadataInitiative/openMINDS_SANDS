@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_FUSI",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": "FUSI",
+  "alternateName": [
+    "FUSI",
+    "Fusiform"
+  ],
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/AAL1_occipitalLobe"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AAL1_SPM12-v4_FUSI"
+    }
+  ],
+  "lookupLabel": "AAL1_FUSI",
+  "name": "fusiform gyrus",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}
