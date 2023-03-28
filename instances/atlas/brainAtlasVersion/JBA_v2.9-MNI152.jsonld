@@ -411,16 +411,19 @@
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-MNI152_Fastigial-Nucleus_PM-v6.3"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-MNI152_Frontal-I_PM-v11.2"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-MNI152_Frontal-I_PM-v11.3"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-MNI152_Frontal-II_PM-v11.2"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-MNI152_Frontal-II_PM-v11.3"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-MNI152_Frontal-to-Occipital_PM-v11.2"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-MNI152_Frontal-to-Occipital_PM-v11.3"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-MNI152_Frontal-to-Temporal-II_PM-v11.2"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-MNI152_Frontal-to-Temporal-I_PM-v11.3"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-MNI152_Frontal-to-Temporal-II_PM-v11.3"
       },
       {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-MNI152_HATA_PM-v13.2"
@@ -456,7 +459,7 @@
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-MNI152_Subiculum.Sub_PM-v13.2"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-MNI152_Temporal-to-Parietal_PM-v11.2"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-MNI152_Temporal-to-Parietal_PM-v11.3"
       },
       {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-MNI152_VTM_PM-v8.2"
