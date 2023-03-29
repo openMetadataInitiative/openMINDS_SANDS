@@ -9,7 +9,7 @@ mars_cortexAndSubcotex_authors = [{"brovelliAndrea" : {"familyName" : "Brovelli"
                                   {"bartolomeiFabrice" : {"familyName" : "Bartolomei", "givenName" : "Fabrice", "ORCID" : None}},
                                   {"coulonOlivier" : {"familyName" : "Coulon", "givenName" : "Olivier", "ORCID" : "https://orcid.org/0000-0003-4752-1228"}},
                                   {"auziasGuillaume" : {"familyName" : "Auzias", "givenName" : "Guillaume", "ORCID" : "https://orcid.org/0000-0002-0414-5691"}}]
-full_documentation =  [{"Mars": "https://doi.org/10.1002/hbm.23121"},{"Mars_cortexAndSubcortex": "https://doi.org/10.1523/JNEUROSCI.1672-16.2016"}]
+full_documentation =  [{"Mars_cortex": "https://doi.org/10.1002/hbm.23121"},{"Mars_cortexAndSubcortex": "https://doi.org/10.1523/JNEUROSCI.1672-16.2016"}]
 
 description = "MarsAtlas is a model of cortical parcellation. It can be applied to any cortical surface via the HipHop parameterization pipeline, available in the BrainVisa Cortical Surface Toolbox, under the Anatomy category."
 abbreviation = "Mars"
@@ -17,8 +17,12 @@ fullName = "MarsAtlas"
 shortName = "MarsAtlas"
 homepage = [{"Mars" : "https://meca-brain.org/software/marsatlas/"}, {"Mars_cortexAndSubcortex": "https://meca-brain.org/software/marsatlas-subcortical/"}]
 # versions is a list of all versions stored as dictionaries with reference spaces and areas attached IMPORTANT
-versions = [{"Mars_v1_cortex": {"reference_spaces": ["HipHop138"], "areas": region_names_cortex}},
-            {"Mars_v2_cortexAndSubcortex": {"reference_spaces" : ["Colin27_1998"], "areas" : region_names_cortex + region_names_subcortex}}]
+versions = [{"Mars_v1_cortex": {"reference_space": "HipHop138", "areas": region_names_cortex, "accessibility": "freeAccess",
+                                "atlasType": "parcellationScheme", "version_identifier": "v1", "version_innovation": "This is the first version of this research product",
+                                "release_date": "2016-01-27", "short_name": "Mars_v1_c", "homepage": "https://meca-brain.org/software/marsatlas/", "license":"CeCILL-B", "digitalIdentifier": "https://doi.org/10.1002/hbm.23121", "full_doc_name": "Mars_cortex"}},
+            {"Mars_v2_cortexAndSubcortex": {"reference_space" : "Colin27_1998", "areas" : region_names_cortex + region_names_subcortex,
+                                            "accessibility": "freeAccess", "atlasType": "parcellationScheme", "version_identifier": "v2",
+                                            "version_innovation": "This is the second version of this research product", "release_date": "2017-01-25", "short_name": "Mars_v2_cs", "homepage": "https://meca-brain.org/software/marsatlas-subcortical/", "license":"CeCILL-B", "digitalIdentifier": "https://doi.org/10.1523/JNEUROSCI.1672-16.2016", "full_doc_name": "Mars_cortexAndSubcortex"}}]
 
 
 # data scraper creates list of entities
