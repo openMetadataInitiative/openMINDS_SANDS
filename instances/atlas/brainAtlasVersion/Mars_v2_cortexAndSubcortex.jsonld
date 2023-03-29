@@ -1,5 +1,5 @@
 {
-      "@id": "https://localhost/brainAtlasVersion/5b677e6a-ce46-11ed-ac19-00155daeefa3",
+      "@id": "https://localhost/brainAtlasVersion/c4331fea-ce4a-11ed-ac19-00155daeefa3",
       "@type": "https://openminds.ebrains.eu/SANDS/BrainAtlasVersion",
       "accessibility": {
             "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
@@ -35,148 +35,148 @@
             "definedIn": null,
             "hasEntity": [
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_VCcm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_VCcm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_VCl"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_VCl"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_VCs"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_VCs"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Cu"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_Cu"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_VCrm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_VCrm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_ITCm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_ITCm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_ITCr"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_ITCr"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_MTCc"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_MTCc"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_STCc"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_STCc"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_STCr"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_STCr"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_MTCr"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_MTCr"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_IPCv"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_IPCv"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_IPCd"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_IPCd"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_SPC"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_SPC"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_SPCm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_SPCm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PCm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_PCm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Sv"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_Sv"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Sdl"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_Sdl"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Sdm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_Sdm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_ICC"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_ICC"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PCC"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_PCC"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_MCC"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_MCC"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_ACC"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_ACC"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Mv"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_Mv"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Mdl"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_Mdl"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Mdm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_Mdm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PMrv"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_PMrv"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PMdl"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_PMdl"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PMdm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_PMdm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PFcdl"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_PFcdl"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PFcdm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_PFcdm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PFrvl"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_PFrvl"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Pfrdli"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_Pfrdli"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Pfrdls"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_Pfrdls"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PFrd"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_PFrd"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PFrm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_PFrm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_OFCvl"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_OFCvl"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_OFCv"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_OFCv"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_OFCvm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_OFCvm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PFCvm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_PFCvm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Insula"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_Insula"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Thalamus"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_Thalamus"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Caudate"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_Caudate"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Puttamen"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_Puttamen"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Pallidum"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_Pallidum"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Hippocampus"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_Hippocampus"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Amygdala"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_Amygdala"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Accumbens"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_Accumbens"
                   }
             ]
       },
