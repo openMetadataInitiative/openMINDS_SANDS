@@ -83,4 +83,4 @@ if __name__ == '__main__':
 
     # function call
     generate_atlas(atlas_dir, mars_cortex_authors, region_names_cortex, region_names_subcortex,
-                   full_documentation, description, shortName, fullName, homepage)
+                   versions, description, shortName, fullName, homepage)
