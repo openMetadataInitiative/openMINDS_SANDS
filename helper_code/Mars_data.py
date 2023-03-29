@@ -19,10 +19,10 @@ homepage = [{"Mars" : "https://meca-brain.org/software/marsatlas/"}, {"Mars_cort
 # versions is a list of all versions stored as dictionaries with reference spaces and areas attached IMPORTANT
 versions = [{"Mars_v1_cortex": {"reference_spaces": ["HipHop138"], "areas": region_names_cortex, "accessibility": "freeAccess",
                                 "atlasType": "parcellationScheme", "version_identifier": "v1", "version_innovation": "This is the first version of this research product",
-                                "release_date": "2016-01-27", "short_name": "Mars_v1_c"}},
+                                "release_date": "2016-01-27", "short_name": "Mars_v1_c", "homepage": "https://meca-brain.org/software/marsatlas/", "license":""}},
             {"Mars_v2_cortexAndSubcortex": {"reference_spaces" : ["Colin27_1998"], "areas" : region_names_cortex + region_names_subcortex,
                                             "accessibility": "freeAccess", "atlasType": "parcellationScheme", "version_identifier": "v2",
-                                            "version_innovation": "This is the second version of this research product", "release_date": "2017-01-25", "short_name": "Mars_v2_cs"}}]
+                                            "version_innovation": "This is the second version of this research product", "release_date": "2017-01-25", "short_name": "Mars_v2_cs", "homepage": "https://meca-brain.org/software/marsatlas-subcortical/"}}]
 
 
 # data scraper creates list of entities
