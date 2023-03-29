@@ -73,7 +73,8 @@ def generate_atlas(path, mars_authors, regions_cortex, regions_subcortex, docu, 
 if __name__ == '__main__':
 
     # directories and variables
-    atlas_dir = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/brainAtlas/MarsAtlas.jsonld"
+    j = ".jsonld"
+    atlas_dir = f"/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/brainAtlas/{fullName}{j}"
 
     # intialize openMinds instance creator
     openMINDS.version_manager.init()
