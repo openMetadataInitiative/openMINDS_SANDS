@@ -1,0 +1,17 @@
+{
+      "@id": "https://localhost/parcellationEntity/3068bc34-ce1d-11ed-ac19-00155daeefa3",
+      "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+      "hasVersion": [
+            {
+                  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_PMdm"
+            },
+            {
+                  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_PMdm"
+            }
+      ],
+      "lookupLabel": "Mars_PMdm",
+      "name": "PMdm",
+      "@context": {
+            "@vocab": "https://openminds.ebrains.eu/vocab/"
+      }
+}

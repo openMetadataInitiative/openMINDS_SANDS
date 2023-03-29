@@ -1,0 +1,17 @@
+{
+      "@id": "https://localhost/parcellationEntity/306d538e-ce1d-11ed-ac19-00155daeefa3",
+      "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+      "hasVersion": [
+            {
+                  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_Pfrdls"
+            },
+            {
+                  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_Pfrdls"
+            }
+      ],
+      "lookupLabel": "Mars_Pfrdls",
+      "name": "Pfrdls",
+      "@context": {
+            "@vocab": "https://openminds.ebrains.eu/vocab/"
+      }
+}

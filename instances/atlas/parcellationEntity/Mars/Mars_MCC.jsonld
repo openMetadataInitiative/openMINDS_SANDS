@@ -1,0 +1,17 @@
+{
+      "@id": "https://localhost/parcellationEntity/30630032-ce1d-11ed-ac19-00155daeefa3",
+      "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+      "hasVersion": [
+            {
+                  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_MCC"
+            },
+            {
+                  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_MCC"
+            }
+      ],
+      "lookupLabel": "Mars_MCC",
+      "name": "MCC",
+      "@context": {
+            "@vocab": "https://openminds.ebrains.eu/vocab/"
+      }
+}

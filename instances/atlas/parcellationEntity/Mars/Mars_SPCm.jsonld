@@ -1,0 +1,17 @@
+{
+      "@id": "https://localhost/parcellationEntity/305bc7e0-ce1d-11ed-ac19-00155daeefa3",
+      "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+      "hasVersion": [
+            {
+                  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_SPCm"
+            },
+            {
+                  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_SPCm"
+            }
+      ],
+      "lookupLabel": "Mars_SPCm",
+      "name": "SPCm",
+      "@context": {
+            "@vocab": "https://openminds.ebrains.eu/vocab/"
+      }
+}

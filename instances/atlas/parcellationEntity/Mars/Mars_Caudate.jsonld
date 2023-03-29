@@ -1,0 +1,14 @@
+{
+      "@id": "https://localhost/parcellationEntity/30767414-ce1d-11ed-ac19-00155daeefa3",
+      "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+      "hasVersion": [
+            {
+                  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_Caudate"
+            }
+      ],
+      "lookupLabel": "Mars_Caudate",
+      "name": "Caudate",
+      "@context": {
+            "@vocab": "https://openminds.ebrains.eu/vocab/"
+      }
+}
