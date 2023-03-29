@@ -48,16 +48,15 @@ def version_gen(listofdic):
     return has_version_listofdic
 
 
-def generate_atlas(path, mars_authors, regions_cortex, regions_subcortex, docu, info, sName, fName):
+def generate_atlas(path, mars_authors, regions_cortex, regions_subcortex, docu, info, sName, fName, page):
     # generate atlas
     atlas = basic.add_SANDS_brainAtlas(description=info, shortName=sName, fullName=fName,
                                    author=author_gen(mars_authors),
                                    hasTerminology=terminology_gen(regions_cortex, regions_subcortex),
                                    hasVersion=version_gen(docu))
     basic.get(atlas).custodian = [{"@id": "https://openminds.ebrains.eu/instances/person/brovelliAndrea"}]
-    basic.get(atlas).digitalIdentifier = [{"@id": "https://openminds.ebrains.eu/instances/digitalIdentifier/DOI_Mars_10.1002.hbm.23121"}]
-    basic.get(atlas).homepage = [{"@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/Mars_v1_cortex_homepage"},
-                             {"@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/Mars_v2_cortexAndSubcortex_homepage"}]
+    basic.get(atlas).digitalIdentifier = [{"@id": "https://openminds.ebrains.eu/instances/digitalIdentifier/DOI_Mars_cortex_10.1002.hbm.23121"}]
+    basic.get(atlas).homepage = page
     basic.save("./instances/")
     # copy contents
     latest = max(glob.glob("./instances/brainAtlas/*jsonld"))
@@ -84,4 +83,4 @@ if __name__ == '__main__':
 
     # function call
     generate_atlas(atlas_dir, mars_cortex_authors, region_names_cortex, region_names_subcortex,
-                   full_documentation, description, shortName, fullName)
+                   full_documentation, description, shortName, fullName, homepage)

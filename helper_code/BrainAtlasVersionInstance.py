@@ -35,12 +35,20 @@ def generate_atlas_versions(entity_path, versions):
                 short_name = dic.get(version).get("short_name")
 
                 # docu
-                docu_https = "https://openminds.ebrains.eu/core/DOI/"
+                docu_https = "https://openminds.ebrains.eu/instances/digitalIdentifier/"
                 doi_str = "https://doi.org/"
                 doi = dic.get(version).get("digitalIdentifier")
                 doi_stripped = doi.replace(doi_str, "").replace("/", ".")
                 full_doc_name = dic.get(version).get("full_doc_name")
                 docu_dic = {"@id": f"{docu_https}DOI_{full_doc_name}_{doi_stripped}"}
+
+                # authors
+                authors_list_of_dic = []
+                author_https = "https://openminds.ebrains.eu/instances/person/"
+                authors = dic.get(version).get("authors")
+                for author in authors:
+                    author_dic = {"@id": f"{author_https}{author}"}
+                    authors_list_of_dic.append(author_dic)
 
                 # terminology
                 has_entity_listofdic = []
@@ -58,6 +66,7 @@ def generate_atlas_versions(entity_path, versions):
                                                                   releaseDate= release_date, shortName= short_name, hasTerminology= terminology_dic,
                                                                   fullDocumentation= docu_dic, versionIdentifier=version_identifier)
                 basic.get(atlas_version).homepage = dic.get(version).get("homepage")
+                basic.get(atlas_version).author = authors_list_of_dic
                 basic.get(atlas_version).type = {"@id": f"https://openminds.ebrains.eu/instances/atlasType/{dic.get(version).get('atlasType')}"}
                 basic.save("./instances/")
 
