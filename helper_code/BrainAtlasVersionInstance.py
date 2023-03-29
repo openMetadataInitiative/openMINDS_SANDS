@@ -55,7 +55,7 @@ def generate_atlas_versions(entity_path, versions):
                 parcellation_entity_version_https = "https://openminds.ebrains.eu/instances/parcellationEntityVersion/"
                 version_entities = dic.get(version).get("areas")
                 for area in version_entities:
-                    entity_version_dic= {"@id": f"{parcellation_entity_version_https}{short_name}_{area}"}
+                    entity_version_dic= {"@id": f"{parcellation_entity_version_https}{version}_{area}"}
                     has_entity_listofdic.append(entity_version_dic)
                 terminology_dic = {"@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
                                    "definedIn": None, "hasEntity": has_entity_listofdic}
