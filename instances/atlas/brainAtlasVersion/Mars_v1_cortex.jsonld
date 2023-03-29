@@ -1,14 +1,25 @@
 {
-      "@id": "https://localhost/brainAtlasVersion/025ada34-ce40-11ed-ac19-00155daeefa3",
+      "@id": "https://localhost/brainAtlasVersion/5b65f41e-ce46-11ed-ac19-00155daeefa3",
       "@type": "https://openminds.ebrains.eu/SANDS/BrainAtlasVersion",
       "accessibility": {
             "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
       },
+      "author": [
+            {
+                  "@id": "https://openminds.ebrains.eu/instances/person/auziasGuillaume"
+            },
+            {
+                  "@id": "https://openminds.ebrains.eu/instances/person/brovelliAndrea"
+            },
+            {
+                  "@id": "https://openminds.ebrains.eu/instances/person/coulonOlivier"
+            }
+      ],
       "coordinateSpace": {
             "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/HipHop138"
       },
       "fullDocumentation": {
-            "@id": "https://openminds.ebrains.eu/core/DOI/DOI_Mars_cortex_10.1002.hbm.23121"
+            "@id": "https://openminds.ebrains.eu/instances/digitalIdentifier/DOI_Mars_cortex_10.1002.hbm.23121"
       },
       "hasTerminology": {
             "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",

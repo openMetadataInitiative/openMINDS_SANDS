@@ -1,14 +1,34 @@
 {
-      "@id": "https://localhost/brainAtlasVersion/025c41d0-ce40-11ed-ac19-00155daeefa3",
+      "@id": "https://localhost/brainAtlasVersion/5b677e6a-ce46-11ed-ac19-00155daeefa3",
       "@type": "https://openminds.ebrains.eu/SANDS/BrainAtlasVersion",
       "accessibility": {
             "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
       },
+      "author": [
+            {
+                  "@id": "https://openminds.ebrains.eu/instances/person/brovelliAndrea"
+            },
+            {
+                  "@id": "https://openminds.ebrains.eu/instances/person/badierJeanmichael"
+            },
+            {
+                  "@id": "https://openminds.ebrains.eu/instances/person/boniniFrancesca"
+            },
+            {
+                  "@id": "https://openminds.ebrains.eu/instances/person/bartolomeiFabrice"
+            },
+            {
+                  "@id": "https://openminds.ebrains.eu/instances/person/coulonOlivier"
+            },
+            {
+                  "@id": "https://openminds.ebrains.eu/instances/person/auziasGuillaume"
+            }
+      ],
       "coordinateSpace": {
             "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/Colin27_1998"
       },
       "fullDocumentation": {
-            "@id": "https://openminds.ebrains.eu/core/DOI/DOI_Mars_cortexAndSubcortex_10.1523.JNEUROSCI.1672-16.2016"
+            "@id": "https://openminds.ebrains.eu/instances/digitalIdentifier/DOI_Mars_cortexAndSubcortex_10.1523.JNEUROSCI.1672-16.2016"
       },
       "hasTerminology": {
             "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
