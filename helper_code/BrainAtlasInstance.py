@@ -56,8 +56,8 @@ def generate_atlas(path, mars_authors, regions_cortex, regions_subcortex, docu, 
                                    hasVersion=version_gen(docu))
     basic.get(atlas).custodian = [{"@id": "https://openminds.ebrains.eu/instances/person/brovelliAndrea"}]
     basic.get(atlas).digitalIdentifier = [{"@id": "https://openminds.ebrains.eu/instances/digitalIdentifier/DOI_Mars_10.1002.hbm.23121"}]
-    basic.get(atlas).homepage = [{"@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/Mars_homepage"},
-                             {"@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/Mars_cortexAndSubcortex_homepage"}]
+    basic.get(atlas).homepage = [{"@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/Mars_v1_cortex_homepage"},
+                             {"@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/Mars_v2_cortexAndSubcortex_homepage"}]
     basic.save("./instances/")
     # copy contents
     latest = max(glob.glob("./instances/brainAtlas/*jsonld"))
