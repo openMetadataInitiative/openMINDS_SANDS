@@ -16,10 +16,11 @@ abbreviation = "Mars"
 fullName = "MarsAtlas"
 shortName = "MarsAtlas"
 homepage = [{"Mars" : "https://meca-brain.org/software/marsatlas/"}, {"Mars_cortexAndSubcortex": "https://meca-brain.org/software/marsatlas-subcortical/"}]
-# versions is a list of all versions stored as dictionaries with reference spaces attached IMPORTANT
-versions = [{"Mars_v1_cortex": ["HipHop138"]}, {"Mars_v2_cortexAndSubcortex": ["Colin27_1998"]}]
+# versions is a list of all versions stored as dictionaries with reference spaces and areas attached IMPORTANT
+versions = [{"Mars_v1_cortex": {"reference_spaces": ["HipHop138"], "areas": region_names_cortex}},
+            {"Mars_v2_cortexAndSubcortex": {"reference_spaces" : ["Colin27_1998"], "areas" : region_names_cortex + region_names_subcortex}}]
 
-reference spaces
+
 # data scraper creates list of entities
 #region_names_cortex
 #region_names subcortex
