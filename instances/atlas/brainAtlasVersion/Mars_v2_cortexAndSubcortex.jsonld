@@ -1,0 +1,177 @@
+{
+      "@id": "https://localhost/brainAtlasVersion/025c41d0-ce40-11ed-ac19-00155daeefa3",
+      "@type": "https://openminds.ebrains.eu/SANDS/BrainAtlasVersion",
+      "accessibility": {
+            "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
+      },
+      "coordinateSpace": {
+            "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/Colin27_1998"
+      },
+      "fullDocumentation": {
+            "@id": "https://openminds.ebrains.eu/core/DOI/DOI_Mars_cortexAndSubcortex_10.1523.JNEUROSCI.1672-16.2016"
+      },
+      "hasTerminology": {
+            "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
+            "definedIn": null,
+            "hasEntity": [
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_VCcm"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_VCl"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_VCs"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Cu"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_VCrm"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_ITCm"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_ITCr"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_MTCc"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_STCc"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_STCr"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_MTCr"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_IPCv"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_IPCd"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_SPC"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_SPCm"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PCm"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Sv"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Sdl"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Sdm"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_ICC"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PCC"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_MCC"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_ACC"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Mv"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Mdl"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Mdm"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PMrv"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PMdl"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PMdm"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PFcdl"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PFcdm"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PFrvl"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Pfrdli"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Pfrdls"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PFrd"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PFrm"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_OFCvl"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_OFCv"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_OFCvm"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_PFCvm"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Insula"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Thalamus"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Caudate"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Puttamen"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Pallidum"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Hippocampus"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Amygdala"
+                  },
+                  {
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cs_Accumbens"
+                  }
+            ]
+      },
+      "homepage": "https://meca-brain.org/software/marsatlas-subcortical/",
+      "license": {
+            "@id": "https://openminds.ebrains.eu/instances/licenses/CeCILL-B"
+      },
+      "releaseDate": "2017-01-25",
+      "shortName": "Mars_v2_cs",
+      "type": {
+            "@id": "https://openminds.ebrains.eu/instances/atlasType/parcellationScheme"
+      },
+      "versionIdentifier": "v2",
+      "versionInnovation": "This is the second version of this research product",
+      "@context": {
+            "@vocab": "https://openminds.ebrains.eu/vocab/"
+      }
+}
