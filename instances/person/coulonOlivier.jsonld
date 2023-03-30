@@ -2,10 +2,10 @@
       "@id": "https://openminds.ebrains.eu/instances/person/coulonOlivier",
       "@type": "https://openminds.ebrains.eu/core/Person",
       "digitalIdentifier": {
-            "@id": null
+            "@id": "https://orcid.org/0000-0003-4752-1228"
       },
-      "familyName": "Bartolomei",
-      "givenName": "Fabrice",
+      "familyName": "Coulon",
+      "givenName": "Olivier",
       "@context": {
             "@vocab": "https://openminds.ebrains.eu/vocab/"
       }

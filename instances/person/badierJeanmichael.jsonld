@@ -2,10 +2,10 @@
       "@id": "https://openminds.ebrains.eu/instances/person/badierJeanmichael",
       "@type": "https://openminds.ebrains.eu/core/Person",
       "digitalIdentifier": {
-            "@id": null
+            "@id": "https://orcid.org/0000-0002-7272-6455"
       },
-      "familyName": "Bartolomei",
-      "givenName": "Fabrice",
+      "familyName": "Badier",
+      "givenName": "Jean-Michael",
       "@context": {
             "@vocab": "https://openminds.ebrains.eu/vocab/"
       }
