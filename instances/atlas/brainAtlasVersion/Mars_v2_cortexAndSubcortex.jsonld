@@ -1,5 +1,5 @@
 {
-      "@id": "https://localhost/brainAtlasVersion/c4331fea-ce4a-11ed-ac19-00155daeefa3",
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/Mars_v2_cortexAndSubcortex",
       "@type": "https://openminds.ebrains.eu/SANDS/BrainAtlasVersion",
       "accessibility": {
             "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"

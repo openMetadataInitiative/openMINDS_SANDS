@@ -37,6 +37,8 @@ def entity_instance_generation(area, abbreviation, entity_path, versions):
         latest = max(glob.glob("./instances/parcellationEntity/*jsonld"))
         with open(latest, 'r') as f:
             data = json.load(f)
+            entity_name = os.path.basename(entity_path).replace(j, "")
+            data["@id"] = f"https://openminds.ebrains.eu/instances/parcellationEntity/{entity_name}"
         # write content to new file
         json_target = open(entity_path, "w")
         json.dump(data, json_target, indent=6)
@@ -56,6 +58,6 @@ if __name__ == '__main__':
     openMINDS.version_manager.version_selection('v3')
     helper = openMINDS.Helper()
     basic = helper.create_collection()
-
+# TODO check whether this can be done with the functions list instead of passing two liss
     # function calling
     generate_entities(entity_dir, versions, abbreviation, region_names_cortex, region_names_subcortex)

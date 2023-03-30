@@ -74,6 +74,7 @@ def generate_atlas_versions(entity_path, versions):
             latest = max(glob.glob("./instances/brainAtlasVersion/*jsonld"))
             with open(latest, 'r') as f:
                 data = json.load(f)
+                data["@id"] = f"https://openminds.ebrains.eu/instances/brainAtlasVersion/{version}"
             # write content to new file
             json_target = open(f"{entity_path}{version}{j}", "w")
             json.dump(data, json_target, indent=6)

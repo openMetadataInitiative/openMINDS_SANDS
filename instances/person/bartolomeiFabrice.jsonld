@@ -1,5 +1,5 @@
 {
-      "@id": "https://localhost/person/7ed08eb0-ce4a-11ed-ac19-00155daeefa3",
+      "@id": "https://openminds.ebrains.eu/instances/person/bartolomeiFabrice",
       "@type": "https://openminds.ebrains.eu/core/Person",
       "digitalIdentifier": {
             "@id": null

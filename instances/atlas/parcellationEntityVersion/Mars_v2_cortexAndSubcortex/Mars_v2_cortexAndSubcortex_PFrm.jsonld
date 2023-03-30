@@ -1,0 +1,10 @@
+{
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cortexAndSubcortex_PFrm",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+    "lookupLabel": "Mars_v2_cortexAndSubcortex_PFrm",
+    "name": "PFrm",
+    "versionIdentifier": "v2",
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    }
+}

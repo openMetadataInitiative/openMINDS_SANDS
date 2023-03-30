@@ -1,5 +1,5 @@
 {
-      "@id": "https://localhost/person/7eceac30-ce4a-11ed-ac19-00155daeefa3",
+      "@id": "https://openminds.ebrains.eu/instances/person/brovelliAndrea",
       "@type": "https://openminds.ebrains.eu/core/Person",
       "digitalIdentifier": {
             "@id": "https://orcid.org/0000-0002-5342-1330"

@@ -62,6 +62,8 @@ def generate_atlas(path, mars_authors, regions_cortex, regions_subcortex, docu, 
     latest = max(glob.glob("./instances/brainAtlas/*jsonld"))
     with open(latest, 'r') as f:
         data = json.load(f)
+        atlas_name = os.path.basename(path).replace(j, "")
+        data["@id"] = f"https://openminds.ebrains.eu/instances/brainAtlas/{atlas_name}"
         f.close()
     # write content to new file
     json_target = open(path, "w")

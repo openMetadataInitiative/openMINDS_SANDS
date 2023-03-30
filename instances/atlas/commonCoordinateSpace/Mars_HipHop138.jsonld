@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/Mars_HipHop138",
+    "@type": "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
+    "anatomicalAxesOrientation": null,
+    "axesOrigin": null,
+    "defaultImage": null,
+    "digitalIdentifier": null,
+    "homepage": "https://meca-brain.org/software/hiphop138/",
+    "howToCite": null,
+    "fullName": "Cortical Surface group template for the MarsAtlas",
+    "nativeUnit": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/unitOfMeasurement/millimeter"
+        }
+    ],
+    "ontologyIdentifier": null,
+    "releaseDate": null,
+    "shortName": "HipHop138",
+    "versionIdentifier": "v1"
+}

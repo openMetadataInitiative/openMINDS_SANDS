@@ -1,5 +1,5 @@
 {
-      "@id": "https://localhost/ORCID/7ed23ef4-ce4a-11ed-ac19-00155daeefa3",
+      "@id": "https://openminds.ebrains.eu/instances/ORCID/ORCID_brovelliAndrea_0000-0002-5342-1330",
       "@type": "https://openminds.ebrains.eu/core/ORCID",
       "identifier": "https://orcid.org/0000-0002-5342-1330",
       "@context": {

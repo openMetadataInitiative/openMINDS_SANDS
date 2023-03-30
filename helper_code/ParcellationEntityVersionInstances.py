@@ -1,38 +1,59 @@
 import os
-# list of subcortical vs cortical from the scrype script
-# combine scrapes into unified datastructure
-entities = region_names_cortex + region_names_subcortex
-entities_label = [0] * (len(region_names_cortex)+len(region_names_subcortex))
-for index in range(len(entities_label)):
-    if index < len(region_names_cortex):
-        entities_label[index] = "c"
-    else:
-        entities_label[index] = "s"
-all_entitites = zip(entities, entities_label)
-all_entitites = list(all_entitites)
+import openMINDS.version_manager
+import json
+import glob
 
-# create percellation entity version directories
-atlas_versions = ["Mars_individual_cortex", "Mars_individual_cortexAndSubcortex", "Mars_HipHop138_cortex", "Mars_Colin27_1998_cortexAndSubcortex"]
-cortex_versions = ["Mars_individual_cortex", "Mars_HipHop138_cortex"]
-cortexAndSubcortex_versions = ["Mars_individual_cortexAndSubcortex", "Mars_Colin27_1998_cortexAndSubcortex"]
-path = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntityVersion/"
-j = ".jsonld"
-sep = "/"
-us = "_"
-print(all_entitites)
-for version in atlas_versions:
-    os.mkdir(f"{path}{version}")
+def generate_entity_versions(path, versions):
+    """create person directories, files and instances ind a semi-automatic manner"""
+    # if not os.path.isfile(path):
+        for dic in versions:
+            for version in dic.keys():
+                print(version)
+                for area in dic.get(version).get("areas"):
+                    # if area is None:
+                        # continue
+                    # elif not os.path.isdir(f"{path}{version}/"):
+                        print(f"{path}{version}/")
 
-# create instance files for each parcellation entity version directory
-for area in all_entitites:
-    # create jsonlds for the subcortex atlases (they always include corttex and subcortex)
-    for version in cortexAndSubcortex_versions:
-        with open(f"{path}{version}{sep}{version}{us}{area[0]}{j}", "w") as z:
-            z.write("")
-    # create the atlases that only onvolve corticla parcellations
-    if area[1] == "c":
-        for version in cortex_versions:
-            with open(f"{path}{version}{sep}{version}{us}{area[0]}{j}", "w") as p:
-                p.write("")
+                        entity_ver_path = f"{path}{version}/"
+                        entity_ver_file_path = f"{entity_ver_path}{version}_{area}{j}"
+                        version_identifier = dic.get(version).get("version_identifier")
+                        entity_version_instance_generation(entity_ver_file_path, area, version_identifier, version)
 
-# to
+
+def entity_version_instance_generation(file_path, area, identifier, version):
+    if not os.path.isfile(file_path):
+        # create entity version isntance
+        entity_version = basic.add_SANDS_parcellationEntityVersion(name=area, versionIdentifier=identifier)
+        basic.get(entity_version).lookupLabel = f"{version}_{area}"
+        basic.save("./instances/")
+
+        # copy contents of created file
+        latest = max(glob.glob("./instances/parcellationEntityVersion/*jsonld"))
+        with open(latest, 'r') as f:
+            data = json.load(f)
+            entity_ver_name = os.path.basename(file_path).replace(j, "")
+            data["@id"] = f"https://openminds.ebrains.eu/instances/parcellationEntityVersion/{entity_ver_name}"
+        # write content to new file
+        json_target = open(file_path, "w")
+        json.dump(data, json_target, indent=4)
+        json_target.close()
+
+
+if __name__ == '__main__':
+
+    # directories and variables
+    entity_ver_dir = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntityVersion/"
+    j = ".jsonld"
+    for dic in versions:
+        for version in dic.keys():
+            os.mkdir(f"{entity_ver_dir}{version}/")
+    # intialize openMinds instance creator
+    openMINDS.version_manager.init()
+    openMINDS.version_manager.version_selection('v3')
+    helper = openMINDS.Helper()
+    basic = helper.create_collection()
+
+
+    # function calling
+    generate_entity_versions(entity_ver_dir, versions)
