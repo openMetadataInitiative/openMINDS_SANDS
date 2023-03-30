@@ -56,6 +56,6 @@ if __name__ == '__main__':
     openMINDS.version_manager.version_selection('v3')
     helper = openMINDS.Helper()
     basic = helper.create_collection()
-
+# TODO check whether this can be done with the functions list instead of passing two liss
     # function calling
     generate_entities(entity_dir, versions, abbreviation, region_names_cortex, region_names_subcortex)

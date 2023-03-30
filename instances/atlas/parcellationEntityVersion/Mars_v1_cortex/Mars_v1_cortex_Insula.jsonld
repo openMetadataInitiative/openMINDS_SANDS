@@ -1,0 +1,10 @@
+{
+    "@id": "https://localhost/parcellationEntityVersion/9b6ba75c-cef0-11ed-9247-00155dfd5828",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+    "lookupLabel": "Mars_v1_cortex_Insula",
+    "name": "Insula",
+    "versionIdentifier": "v1",
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    }
+}
