@@ -1,4 +1,4 @@
-{
+
 "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/VCcm"
 },
 {
