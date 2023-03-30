@@ -1,0 +1,10 @@
+{
+    "@id": "https://localhost/parcellationEntityVersion/9ba43e82-cef0-11ed-9247-00155dfd5828",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+    "lookupLabel": "Mars_v2_cortexAndSubcortex_ACC",
+    "name": "ACC",
+    "versionIdentifier": "v2",
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    }
+}

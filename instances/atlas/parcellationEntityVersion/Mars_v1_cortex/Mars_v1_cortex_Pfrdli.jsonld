@@ -1,0 +1,10 @@
+{
+    "@id": "https://localhost/parcellationEntityVersion/9b5622e2-cef0-11ed-9247-00155dfd5828",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+    "lookupLabel": "Mars_v1_cortex_Pfrdli",
+    "name": "Pfrdli",
+    "versionIdentifier": "v1",
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    }
+}
