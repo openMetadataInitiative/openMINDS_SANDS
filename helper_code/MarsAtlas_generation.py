@@ -312,6 +312,10 @@ def entity_version_instance_generation(file_path, area, identifier, version):
 
 if __name__ == '__main__':
 
+    # get Mars Data
+    region_names_cortex, region_names_subcortex = MarsDataScrape.datascrape()
+    mars_cortex_authors, mars_cortexAndSubcotex_authors, full_documentation, description, abbreviation, fullName, shortName, homepage, versions = Mars_data_structures.data_structures(region_names_cortex, region_names_subcortex)
+
     # helper vars
     j = ".jsonld"
     p = "./instances/"
@@ -344,9 +348,6 @@ if __name__ == '__main__':
     openMINDS.version_manager.version_selection('v3')
     helper = openMINDS.Helper()
     basic = helper.create_collection()
-
-    region_names_cortex, region_names_subcortex = MarsDataScrape.datascrape()
-    mars_cortex_authors, mars_cortexAndSubcotex_authors, full_documentation, description, abbreviation, fullName, shortName, homepage, versions = Mars_data_structures.data_structures(region_names_cortex, region_names_subcortex)
 
     # function calling
     generate_persons(person_dir, mars_cortex_authors, mars_cortexAndSubcotex_authors)
