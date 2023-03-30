@@ -26,6 +26,8 @@ def orcid_instance_generation(orcid, orcid_path):
         latest = max(glob.glob("./instances/ORCID/*jsonld"))
         with open(latest, 'r') as f:
             data = json.load(f)
+            orcid_name = os.path.basename(orcid_path).replace(j, "")
+            data["@id"] = f"https://openminds.ebrains.eu/instances/ORCID/{orcid_name}"
         # write content to new file
         json_target = open(orcid_path, "w")
         json.dump(data, json_target, indent=6)
@@ -55,6 +57,8 @@ def doi_instance_generation(doi, doi_path):
         latest = max(glob.glob("./instances/DOI/*jsonld"))
         with open(latest, 'r') as f:
             data = json.load(f)
+            doi_name = os.path.basename(doi_path).replace(j, "")
+            data["@id"] = f"https://openminds.ebrains.eu/instances/DOI/{doi_name}"
             f.close()
         # write content to new file
         json_target = open(doi_path, "w")
@@ -86,6 +90,8 @@ def person_instance_generation(item, name, person_path):
         latest = max(glob.glob("./instances/person/*jsonld"))
         with open(latest, 'r') as f:
             data = json.load(f)
+            person_name = os.path.basename(person_path).replace(j, "")
+            data["@id"] = f"https://openminds.ebrains.eu/instances/person/{person_name}"
         # write content to new file
         json_target = open(person_path, "w")
         json.dump(data, json_target, indent=6)

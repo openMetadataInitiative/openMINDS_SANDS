@@ -1,5 +1,5 @@
 {
-      "@id": "https://localhost/brainAtlas/8128ef12-ce4b-11ed-ac19-00155daeefa3",
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlas/MarsAtlas",
       "@type": "https://openminds.ebrains.eu/SANDS/BrainAtlas",
       "author": [
             {

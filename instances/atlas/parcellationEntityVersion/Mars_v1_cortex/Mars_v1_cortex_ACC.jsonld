@@ -1,5 +1,5 @@
 {
-    "@id": "https://localhost/parcellationEntityVersion/9b3dae42-cef0-11ed-9247-00155dfd5828",
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_ACC",
     "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
     "lookupLabel": "Mars_v1_cortex_ACC",
     "name": "ACC",

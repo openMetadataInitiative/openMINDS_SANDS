@@ -17,7 +17,7 @@ fullName = "MarsAtlas"
 shortName = "MarsAtlas"
 homepage = "https://meca-brain.org/software/marsatlas/"
 # versions is a list of all versions stored as dictionaries with reference spaces and areas attached IMPORTANT
-versions = [{"Mars_v1_cortex": {"reference_space": "HipHop138", "areas": region_names_cortex, "accessibility": "freeAccess",
+versions = [{"Mars_v1_cortex": {"reference_space": "Mars_HipHop138", "areas": region_names_cortex, "accessibility": "freeAccess",
                                 "atlasType": "parcellationScheme", "version_identifier": "v1", "version_innovation": "This is the first version of this research product",
                                 "release_date": "2016-01-27", "short_name": "Mars_v1_c", "homepage": "https://meca-brain.org/software/marsatlas/", "license":"CeCILL-B", "digitalIdentifier": "https://doi.org/10.1002/hbm.23121", "full_doc_name": "Mars_cortex", "authors": ["auziasGuillaume", "brovelliAndrea", "coulonOlivier"]}},
             {"Mars_v2_cortexAndSubcortex": {"reference_space" : "Colin27_1998", "areas" : region_names_cortex + region_names_subcortex,
