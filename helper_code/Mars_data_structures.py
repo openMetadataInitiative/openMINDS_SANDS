@@ -1,6 +1,6 @@
 import MarsDataScrape
 
-def data_structures():
+def data_structures(lista , listb):
     # atlas info
     mars_cortex_authors = [{"auziasGuillaume" : {"familyName" : "Auzias", "givenName" : "Guillaume", "ORCID" : "https://orcid.org/0000-0002-0414-5691"}},
                            {"brovelliAndrea" : {"familyName" : "Brovelli", "givenName" : "Andrea", "ORCID" : "https://orcid.org/0000-0002-5342-1330"}},
@@ -20,12 +20,12 @@ def data_structures():
     shortName = "MarsAtlas"
     homepage = "https://meca-brain.org/software/marsatlas/"
     # versions is a list of all versions stored as dictionaries with reference spaces and areas attached IMPORTANT
-    versions = [{"Mars_v1_cortex": {"reference_space": "Mars_HipHop138", "areas": region_names_cortex, "accessibility": "freeAccess",
+    versions = [{"Mars_v1_cortex": {"reference_space": "Mars_HipHop138", "areas": lista, "accessibility": "freeAccess",
                                     "atlasType": "parcellationScheme", "version_identifier": "v1", "version_innovation": "This is the first version of this research product",
                                     "release_date": "2016-01-27", "short_name": "Mars_v1_c", "homepage": "https://meca-brain.org/software/marsatlas/",
                                     "license":"CeCILL-B", "digitalIdentifier": "https://doi.org/10.1002/hbm.23121", "full_doc_name": "Mars_cortex",
                                     "authors": ["auziasGuillaume", "brovelliAndrea", "coulonOlivier"]}},
-                {"Mars_v2_cortexAndSubcortex": {"reference_space" : "Colin27_1998", "areas" : region_names_cortex + region_names_subcortex, "accessibility": "freeAccess",
+                {"Mars_v2_cortexAndSubcortex": {"reference_space" : "Colin27_1998", "areas" : lista + listb, "accessibility": "freeAccess",
                                                 "atlasType": "parcellationScheme", "version_identifier": "v2", "version_innovation": "This is the second version of this research product",
                                                 "release_date": "2017-01-25", "short_name": "Mars_v2_cs", "homepage": "https://meca-brain.org/software/marsatlas-subcortical/",
                                                 "license":"CeCILL-B", "digitalIdentifier": "https://doi.org/10.1523/JNEUROSCI.1672-16.2016", "full_doc_name": "Mars_cortexAndSubcortex",
@@ -36,6 +36,5 @@ def data_structures():
 
 if __name__ == '__main__':
 
-    Mars_DataScrape.datascrape()
-    mars_cortex_authors, mars_cortexAndSubcotex_authors, full_documentation, description, abbreviation, fullName, shortName, homepage, versions = data_structures()
-    region_names_cortex, region_names_subcortex = datascrape()
+    region_names_cortex, region_names_subcortex = MarsDataScrape. datascrape()
+    mars_cortex_authors, mars_cortexAndSubcotex_authors, full_documentation, description, abbreviation, fullName, shortName, homepage, versions = data_structures(region_names_cortex, region_names_subcortex)
