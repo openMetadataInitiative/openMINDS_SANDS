@@ -1,0 +1,12 @@
+{
+      "@id": "https://openminds.ebrains.eu/instances/person/brovelliAndrea",
+      "@type": "https://openminds.ebrains.eu/core/Person",
+      "digitalIdentifier": {
+            "@id": null
+      },
+      "familyName": "Bartolomei",
+      "givenName": "Fabrice",
+      "@context": {
+            "@vocab": "https://openminds.ebrains.eu/vocab/"
+      }
+}
