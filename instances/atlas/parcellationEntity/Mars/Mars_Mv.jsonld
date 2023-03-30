@@ -1,5 +1,5 @@
 {
-      "@id": "https://localhost/parcellationEntity/3064973a-ce1d-11ed-ac19-00155daeefa3",
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Mars_Mv",
       "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
       "hasVersion": [
             {

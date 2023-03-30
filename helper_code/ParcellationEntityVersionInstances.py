@@ -33,7 +33,7 @@ def entity_version_instance_generation(file_path, area, identifier, version):
         with open(latest, 'r') as f:
             data = json.load(f)
             entity_ver_name = os.path.basename(file_path).replace(j, "")
-            data["@id"] = f"https://openminds.ebrains.eu/instances/parcellationEntity/{entity_ver_name}"
+            data["@id"] = f"https://openminds.ebrains.eu/instances/parcellationEntityVersion/{entity_ver_name}"
         # write content to new file
         json_target = open(file_path, "w")
         json.dump(data, json_target, indent=4)

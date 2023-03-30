@@ -1,7 +1,7 @@
 {
       "@id": "https://openminds.ebrains.eu/instances/ORCID/ORCID_auziasGuillaume_0000-0002-0414-5691",
       "@type": "https://openminds.ebrains.eu/core/ORCID",
-      "identifier": "https://orcid.org/0000-0002-7272-6455",
+      "identifier": "https://orcid.org/0000-0002-0414-5691",
       "@context": {
             "@vocab": "https://openminds.ebrains.eu/vocab/"
       }

@@ -1,5 +1,5 @@
 {
-      "@id": "https://localhost/brainAtlasVersion/5b65f41e-ce46-11ed-ac19-00155daeefa3",
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/Mars_v1_cortex",
       "@type": "https://openminds.ebrains.eu/SANDS/BrainAtlasVersion",
       "accessibility": {
             "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
@@ -26,127 +26,127 @@
             "definedIn": null,
             "hasEntity": [
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_VCcm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_VCcm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_VCl"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_VCl"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_VCs"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_VCs"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_Cu"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_Cu"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_VCrm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_VCrm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_ITCm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_ITCm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_ITCr"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_ITCr"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_MTCc"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_MTCc"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_STCc"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_STCc"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_STCr"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_STCr"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_MTCr"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_MTCr"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_IPCv"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_IPCv"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_IPCd"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_IPCd"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_SPC"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_SPC"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_SPCm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_SPCm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_PCm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_PCm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_Sv"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_Sv"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_Sdl"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_Sdl"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_Sdm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_Sdm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_ICC"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_ICC"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_PCC"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_PCC"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_MCC"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_MCC"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_ACC"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_ACC"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_Mv"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_Mv"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_Mdl"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_Mdl"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_Mdm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_Mdm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_PMrv"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_PMrv"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_PMdl"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_PMdl"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_PMdm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_PMdm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_PFcdl"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_PFcdl"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_PFcdm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_PFcdm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_PFrvl"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_PFrvl"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_Pfrdli"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_Pfrdli"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_Pfrdls"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_Pfrdls"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_PFrd"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_PFrd"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_PFrm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_PFrm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_OFCvl"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_OFCvl"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_OFCv"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_OFCv"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_OFCvm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_OFCvm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_PFCvm"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_PFCvm"
                   },
                   {
-                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_c_Insula"
+                        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_cortex_Insula"
                   }
             ]
       },
