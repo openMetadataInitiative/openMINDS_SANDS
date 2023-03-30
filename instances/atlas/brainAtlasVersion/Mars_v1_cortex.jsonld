@@ -16,7 +16,7 @@
             }
       ],
       "coordinateSpace": {
-            "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/HipHop138"
+            "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/Mars_HipHop138"
       },
       "fullDocumentation": {
             "@id": "https://openminds.ebrains.eu/instances/digitalIdentifier/DOI_Mars_cortex_10.1002.hbm.23121"
