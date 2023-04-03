@@ -14,9 +14,6 @@
   ],
   "hasVersion": [
     {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Tuberculum_PM-v4.0"
-    },
-    {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-Colin27_Tuberculum_PM-v4.0"
     },
     {

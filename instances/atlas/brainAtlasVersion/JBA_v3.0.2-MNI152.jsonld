@@ -546,9 +546,6 @@
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-MNI152_STN_PM-v5.0"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-MNI152_Subiculum_PM-v13.2"
-      },
-      {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-MNI152_Subiculum.PaS_PM-v13.2"
       },
       {

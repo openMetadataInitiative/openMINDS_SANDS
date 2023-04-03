@@ -210,12 +210,6 @@
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Area-Ig3_PM-v5.1"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Area-MFG1_"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Area-MFG2_"
-      },
-      {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Area-OP1_PM-v12.2"
       },
       {
@@ -271,12 +265,6 @@
       },
       {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Area-Ph3_PM-v7.2"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Area-SFS1_"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Area-SFS2_"
       },
       {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Area-STS1_PM-v5.3"
@@ -405,28 +393,25 @@
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Entorhinal-Cortex_PM-v13.2"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Frontal-I_PM-v11.2"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Frontal-I_PM-v11.3"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Frontal-II_PM-v11.2"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Frontal-II_PM-v11.3"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Frontal-to-Occipital_PM-v11.2"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Frontal-to-Occipital_PM-v11.3"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Frontal-to-Temporal-I_"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Frontal-to-Temporal-I_PM-v11.3"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Frontal-to-Temporal-II_PM-v11.2"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Frontal-to-Temporal-II_PM-v11.3"
       },
       {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_HATA_PM-v13.2"
       },
       {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_HC-Transsubiculum_PM-v13.2"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Subiculum_"
       },
       {
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Subiculum.PaS_PM-v13.2"
@@ -441,10 +426,7 @@
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Subiculum.Sub_PM-v13.2"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Temporal-to-Parietal_PM-v11.2"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Tuberculum_"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Temporal-to-Parietal_PM-v11.3"
       }
     ],
     "ontologyIdentifier": null

@@ -9,12 +9,18 @@
   "definition": null,
   "hasParent": [
     {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_cerebralCortex"
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/JBA_Frontal-to-Temporal"
     }
   ],
   "hasVersion": [
     {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Frontal-to-Temporal-I_PM-v11.4"
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-Colin27_Frontal-to-Temporal-I_PM-v11.3"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-MNI152_Frontal-to-Temporal-I_PM-v11.3"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.9-fsaverage_Frontal-to-Temporal-I_PM-v11.3"
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-Colin27_Frontal-to-Temporal-I_PM-v11.4"

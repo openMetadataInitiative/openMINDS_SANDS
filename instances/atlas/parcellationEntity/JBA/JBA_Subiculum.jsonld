@@ -33,18 +33,6 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v2.4-MNI152_Subiculum_PM-v11.1"
-    },
-    {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-BigBrain_Subiculum_PM-v11.1"
-    },
-    {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-Colin27_Subiculum_PM-v13.2"
-    },
-    {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-MNI152_Subiculum_PM-v13.2"
-    },
-    {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/JBA_v3.0.2-fsaverage_Subiculum_PM-v13.2"
     }
   ],
   "lookupLabel": "JBA_Subiculum",
