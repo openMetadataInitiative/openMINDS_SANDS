@@ -2,7 +2,7 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3_2017_retrohippocampalRegion",
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/AMBA_CCFv3-2017_retrohippocampalRegion",
   "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
   "abbreviation": null,
   "additionalRemarks": null,
@@ -43,10 +43,10 @@
     }
   ],
   "hasParent": null,
-  "lookupLabel": "AMBA_CCFv3_2017_retrohippocampalRegion",
+  "lookupLabel": "AMBA_CCFv3-2017_retrohippocampalRegion",
   "name": "retrohippocampal region",
   "ontologyIdentifier": null,
   "relationAssessment": null,
-  "versionIdentifier": "CCFv3 2017",
+  "versionIdentifier": "CCFv3, 2017",
   "versionInnovation": null
 }
