@@ -116,23 +116,23 @@ def author_gen(listofdic):
     return author_listofdic
 
 
-def entity_gen(*lists):
+def entity_gen(*lists, name):
     # entity creation
     has_entity_listofdic = []
     entity_https = "https://openminds.ebrains.eu/instances/parcellationEntity/"
     for list in lists:
         for item in list:
-            entity_dic = {"@id" : f"{entity_https}{item}"}
+            entity_dic = {"@id" : f"{entity_https}{name}_{item}"}
             has_entity_listofdic.append(entity_dic)
     return has_entity_listofdic
 
 
-def terminology_gen(*lists):
+def terminology_gen(*lists, name):
     # terminology creation
     has_terminology_dic = {}
     has_terminology_dic["@type"] = "https://openminds.ebrains.eu/sands/ParcellationTerminology"
     has_terminology_dic["definedIn"] = None
-    has_terminology_dic["hasEntity"] = entity_gen(*lists)
+    has_terminology_dic["hasEntity"] = entity_gen(*lists, name)
     return has_terminology_dic
 
 
@@ -150,7 +150,7 @@ def generate_atlas(path, mars_authors, regions_cortex, regions_subcortex, docu, 
     # generate atlas
     atlas = basic.add_SANDS_brainAtlas(description=info, shortName=sName, fullName=fName,
                                    author=author_gen(mars_authors),
-                                   hasTerminology=terminology_gen(regions_cortex, regions_subcortex),
+                                   hasTerminology=terminology_gen(regions_cortex, regions_subcortex, sName),
                                    hasVersion=version_gen(docu))
     basic.get(atlas).custodian = [{"@id": "https://openminds.ebrains.eu/instances/person/brovelliAndrea"}]
     basic.get(atlas).digitalIdentifier = [{"@id": f"{maindoc}"}]
@@ -249,7 +249,7 @@ def generate_entities(path, versions, abbreviation, *args):
             if area is None:
                     continue
             else:
-                entity_path = f"{path}{abbreviation}_{area}{j}"
+                entity_path = f"{path}{abbreviation}_{area.lower()}{j}"
                 entity_instance_generation(area, abbreviation, entity_path, versions)
 
 
@@ -266,7 +266,7 @@ def entity_instance_generation(area, abbreviation, entity_path, versions):
         for dic in versions:
             for version in dic.keys():
                 if any(area == version_area for version_area in dic.get(version).get("areas")):
-                    has_version_dic = {"@id": f"{entity_version_https}{version}_{area}"}
+                    has_version_dic = {"@id": f"{entity_version_https}{version}_{area.lower()}"}
                     has_version_listOfdic.append(has_version_dic)
         basic.get(entity).hasVersion = has_version_listOfdic
         basic.save(p)
@@ -292,7 +292,7 @@ def generate_entity_versions(path, versions):
         for version in dic.keys():
             for area in dic.get(version).get("areas"):
                 entity_ver_path = f"{path}{version}/"
-                entity_ver_file_path = f"{entity_ver_path}{version}_{area}{j}"
+                entity_ver_file_path = f"{entity_ver_path}{version}_{area.lower()}{j}"
                 version_identifier = dic.get(version).get("version_identifier")
                 entity_version_instance_generation(entity_ver_file_path, area, version_identifier, version)
 
