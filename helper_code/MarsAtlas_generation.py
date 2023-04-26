@@ -146,14 +146,14 @@ def version_gen(listofdic):
     return has_version_listofdic
 
 
-def generate_atlas(path, mars_authors, regions_cortex, regions_subcortex, docu, info, sName, fName, page):
+def generate_atlas(path, mars_authors, regions_cortex, regions_subcortex, docu, info, sName, fName, page, maindoc):
     # generate atlas
     atlas = basic.add_SANDS_brainAtlas(description=info, shortName=sName, fullName=fName,
                                    author=author_gen(mars_authors),
                                    hasTerminology=terminology_gen(regions_cortex, regions_subcortex),
                                    hasVersion=version_gen(docu))
     basic.get(atlas).custodian = [{"@id": "https://openminds.ebrains.eu/instances/person/brovelliAndrea"}]
-    basic.get(atlas).digitalIdentifier = [{"@id": "https://openminds.ebrains.eu/instances/digitalIdentifier/DOI_Mars_cortex_10.1002.hbm.23121"}]
+    basic.get(atlas).digitalIdentifier = [{"@id": f"{maindoc}"}]
     basic.get(atlas).homepage = page
     basic.save(p)
     # copy contents
@@ -196,12 +196,12 @@ def generate_atlas_versions(entity_path, versions):
                 # shortname
                 short_name = dic.get(version).get("short_name")
                 # docu
-                docu_https = "https://openminds.ebrains.eu/instances/digitalIdentifier/"
-                doi_str = "https://doi.org/"
-                doi = dic.get(version).get("digitalIdentifier")
-                doi_stripped = doi.replace(doi_str, "").replace("/", ".")
-                full_doc_name = dic.get(version).get("full_doc_name")
-                docu_dic = {"@id": f"{docu_https}DOI_{full_doc_name}_{doi_stripped}"}
+                # docu_https = "https://openminds.ebrains.eu/instances/digitalIdentifier/"
+                # doi_str = "https://doi.org/"
+                # doi = dic.get(version).get("digitalIdentifier")
+                # doi_stripped = doi.replace(doi_str, "").replace("/", ".")
+                DOI = dic.get(version).get("digitalIdentifier")
+                docu_dic = {"@id": f"{DOI}"}
                 # authors
                 authors_list_of_dic = []
                 author_https = "https://openminds.ebrains.eu/instances/person/"
@@ -361,7 +361,7 @@ if __name__ == '__main__':
     generate_dois(doi_dir, full_documentation)
     generate_orcids(orcid_dir, mars_cortex_authors, mars_cortexAndSubcotex_authors)
     generate_atlas(atlas_dir, mars_cortex_authors, region_names_cortex, region_names_subcortex,
-                   versions, description, shortName, fullName, homepage)
+                   versions, description, shortName, fullName, homepage, main_documentation)
     generate_atlas_versions(atlas_version_dir, versions)
     generate_entities(entity_dir, versions, abbreviation, region_names_cortex, region_names_subcortex)
     generate_entity_versions(entity_ver_dir, versions)
