@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitallobe_pericalcarinecortex_lh",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_occipitallobe_pericalcarinecortex_lh"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dktSurf40_occipitallobe_pericalcarinecortex_lh"
+        }
+    ],
+    "lookupLabel": "DKT_occipitalLobe_pericalcarineCortex_lH",
+    "name": "occipitalLobe_pericalcarineCortex_lH"
+}

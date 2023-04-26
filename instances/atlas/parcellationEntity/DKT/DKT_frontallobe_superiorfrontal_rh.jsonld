@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontallobe_superiorfrontal_rh",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe_superiorfrontal_rh"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dktSurf40_frontallobe_superiorfrontal_rh"
+        }
+    ],
+    "lookupLabel": "DKT_frontalLobe_superiorFrontal_rH",
+    "name": "frontalLobe_superiorFrontal_rH"
+}

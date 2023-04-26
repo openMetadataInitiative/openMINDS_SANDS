@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_temporallobemedialaspect_entorhinalcortex",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+    "lookupLabel": "DKT_dkt31VolProb_temporalLobeMedialAspect_entorhinalCortex",
+    "name": "temporalLobeMedialAspect_entorhinalCortex",
+    "versionIdentifier": "v2"
+}

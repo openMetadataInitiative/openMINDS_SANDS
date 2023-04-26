@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporallobelateralaspect_superiortemporalgyrus",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolLabels_temporallobelateralaspect_superiortemporalgyrus"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_temporallobelateralaspect_superiortemporalgyrus"
+        }
+    ],
+    "lookupLabel": "DKT_temporalLobeLateralAspect_superiorTemporalGyrus",
+    "name": "temporalLobeLateralAspect_superiorTemporalGyrus"
+}

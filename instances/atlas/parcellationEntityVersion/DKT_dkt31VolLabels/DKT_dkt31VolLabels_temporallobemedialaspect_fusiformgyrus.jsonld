@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolLabels_temporallobemedialaspect_fusiformgyrus",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+    "lookupLabel": "DKT_dkt31VolLabels_temporalLobeMedialAspect_fusiformGyrus",
+    "name": "temporalLobeMedialAspect_fusiformGyrus",
+    "versionIdentifier": "v1"
+}

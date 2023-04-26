@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietallobe_supramarginalgyrus_rh",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+    "lookupLabel": "DKT_dkt31Surf101_parietalLobe_supraMarginalGyrus_rH",
+    "name": "parietalLobe_supraMarginalGyrus_rH",
+    "versionIdentifier": "v3"
+}

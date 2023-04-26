@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietallobe_supramarginalgyrus",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolLabels_parietallobe_supramarginalgyrus"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_parietallobe_supramarginalgyrus"
+        }
+    ],
+    "lookupLabel": "DKT_parietalLobe_supraMarginalGyrus",
+    "name": "parietalLobe_supraMarginalGyrus"
+}

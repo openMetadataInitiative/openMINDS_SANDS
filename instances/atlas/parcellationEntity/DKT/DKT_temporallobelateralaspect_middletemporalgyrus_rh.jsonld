@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporallobelateralaspect_middletemporalgyrus_rh",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporallobelateralaspect_middletemporalgyrus_rh"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dktSurf40_temporallobelateralaspect_middletemporalgyrus_rh"
+        }
+    ],
+    "lookupLabel": "DKT_temporalLobeLateralAspect_middleTemporalGyrus_rH",
+    "name": "temporalLobeLateralAspect_middleTemporalGyrus_rH"
+}

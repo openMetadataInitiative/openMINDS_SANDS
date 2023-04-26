@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe_precentralgyrus_lh",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+    "lookupLabel": "DKT_dkt31Surf101_frontalLobe_precentralGyrus_lH",
+    "name": "frontalLobe_precentralGyrus_lH",
+    "versionIdentifier": "v3"
+}

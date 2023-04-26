@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dktSurf40_cingulatecortex_rostralanterior_rh",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+    "lookupLabel": "DKT_dktSurf40_cingulateCortex_rostralAnterior_rH",
+    "name": "cingulateCortex_rostralAnterior_rH",
+    "versionIdentifier": "v4"
+}

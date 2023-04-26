@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_frontallobe_inferiorfrontalgyrusparsorbitalis",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+    "lookupLabel": "DKT_dkt31VolProb_frontalLobe_inferiorFrontalGyrusParsOrbitalis",
+    "name": "frontalLobe_inferiorFrontalGyrusParsOrbitalis",
+    "versionIdentifier": "v2"
+}

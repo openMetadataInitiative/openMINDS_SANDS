@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe_lateraldivision_rh",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+    "lookupLabel": "DKT_dkt31Surf101_frontalLobe_lateralDivision_rH",
+    "name": "frontalLobe_lateralDivision_rH",
+    "versionIdentifier": "v3"
+}

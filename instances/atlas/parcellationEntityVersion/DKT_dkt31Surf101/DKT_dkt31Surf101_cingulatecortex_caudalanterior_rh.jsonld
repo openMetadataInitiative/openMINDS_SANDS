@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_cingulatecortex_caudalanterior_rh",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+    "lookupLabel": "DKT_dkt31Surf101_cingulateCortex_caudalAnterior_rH",
+    "name": "cingulateCortex_caudalAnterior_rH",
+    "versionIdentifier": "v3"
+}

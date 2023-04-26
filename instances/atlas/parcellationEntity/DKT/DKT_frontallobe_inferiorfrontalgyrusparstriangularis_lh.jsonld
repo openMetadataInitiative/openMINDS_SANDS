@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontallobe_inferiorfrontalgyrusparstriangularis_lh",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe_inferiorfrontalgyrusparstriangularis_lh"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dktSurf40_frontallobe_inferiorfrontalgyrusparstriangularis_lh"
+        }
+    ],
+    "lookupLabel": "DKT_frontalLobe_inferiorFrontalGyrusParsTriangularis_lH",
+    "name": "frontalLobe_inferiorFrontalGyrusParsTriangularis_lH"
+}

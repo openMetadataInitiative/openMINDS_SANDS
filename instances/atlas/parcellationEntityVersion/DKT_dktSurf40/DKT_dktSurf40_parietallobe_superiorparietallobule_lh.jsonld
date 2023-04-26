@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dktSurf40_parietallobe_superiorparietallobule_lh",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+    "lookupLabel": "DKT_dktSurf40_parietalLobe_superiorParietalLobule_lH",
+    "name": "parietalLobe_superiorParietalLobule_lH",
+    "versionIdentifier": "v4"
+}

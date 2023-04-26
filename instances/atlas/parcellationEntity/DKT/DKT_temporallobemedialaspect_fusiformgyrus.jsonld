@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporallobemedialaspect_fusiformgyrus",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolLabels_temporallobemedialaspect_fusiformgyrus"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_temporallobemedialaspect_fusiformgyrus"
+        }
+    ],
+    "lookupLabel": "DKT_temporalLobeMedialAspect_fusiformGyrus",
+    "name": "temporalLobeMedialAspect_fusiformGyrus"
+}

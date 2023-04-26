@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitallobe_lingualgyrus_rh",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_occipitallobe_lingualgyrus_rh"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dktSurf40_occipitallobe_lingualgyrus_rh"
+        }
+    ],
+    "lookupLabel": "DKT_occipitalLobe_lingualGyrus_rH",
+    "name": "occipitalLobe_lingualGyrus_rH"
+}

@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dktSurf40_temporallobelateralaspect_inferiortemporalgyrus_rh",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+    "lookupLabel": "DKT_dktSurf40_temporalLobeLateralAspect_inferiorTemporalGyrus_rH",
+    "name": "temporalLobeLateralAspect_inferiorTemporalGyrus_rH",
+    "versionIdentifier": "v4"
+}

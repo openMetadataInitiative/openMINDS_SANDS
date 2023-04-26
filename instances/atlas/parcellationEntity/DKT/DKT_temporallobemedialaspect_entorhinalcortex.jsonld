@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporallobemedialaspect_entorhinalcortex",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolLabels_temporallobemedialaspect_entorhinalcortex"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_temporallobemedialaspect_entorhinalcortex"
+        }
+    ],
+    "lookupLabel": "DKT_temporalLobeMedialAspect_entorhinalCortex",
+    "name": "temporalLobeMedialAspect_entorhinalCortex"
+}

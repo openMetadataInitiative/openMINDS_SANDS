@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporallobemedialaspect_parahippocampalgyrus_lh",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporallobemedialaspect_parahippocampalgyrus_lh"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dktSurf40_temporallobemedialaspect_parahippocampalgyrus_lh"
+        }
+    ],
+    "lookupLabel": "DKT_temporalLobeMedialAspect_parahippocampalGyrus_lH",
+    "name": "temporalLobeMedialAspect_parahippocampalGyrus_lH"
+}

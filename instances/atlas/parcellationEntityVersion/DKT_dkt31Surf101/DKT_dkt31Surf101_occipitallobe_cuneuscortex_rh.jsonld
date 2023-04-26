@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_occipitallobe_cuneuscortex_rh",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+    "lookupLabel": "DKT_dkt31Surf101_occipitalLobe_cuneusCortex_rH",
+    "name": "occipitalLobe_cuneusCortex_rH",
+    "versionIdentifier": "v3"
+}

@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_temporallobemedialaspect_parahippocampalgyrus",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+    "lookupLabel": "DKT_dkt31VolProb_temporalLobeMedialAspect_parahippocampalGyrus",
+    "name": "temporalLobeMedialAspect_parahippocampalGyrus",
+    "versionIdentifier": "v2"
+}

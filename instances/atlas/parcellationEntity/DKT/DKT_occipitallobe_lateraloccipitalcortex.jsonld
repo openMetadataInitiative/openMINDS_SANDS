@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitallobe_lateraloccipitalcortex",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolLabels_occipitallobe_lateraloccipitalcortex"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_occipitallobe_lateraloccipitalcortex"
+        }
+    ],
+    "lookupLabel": "DKT_occipitalLobe_lateralOccipitalCortex",
+    "name": "occipitalLobe_lateralOccipitalCortex"
+}

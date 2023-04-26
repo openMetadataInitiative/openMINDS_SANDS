@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietallobe_inferiorparietallobule_lh",
+    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+    "lookupLabel": "DKT_dkt31Surf101_parietalLobe_inferiorParietalLobule_lH",
+    "name": "parietalLobe_inferiorParietalLobule_lH",
+    "versionIdentifier": "v3"
+}
