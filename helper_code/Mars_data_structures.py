@@ -22,12 +22,12 @@ def data_structures(lista , listb):
     # versions is a list of all versions stored as dictionaries with reference spaces and areas attached IMPORTANT
     versions = [{"Mars_v1": {"reference_space": "Mars_HipHop138", "areas": lista, "accessibility": "freeAccess",
                                     "atlasType": "parcellationScheme", "version_identifier": "v1", "version_innovation": "This is the first version of this research product",
-                                    "release_date": "2016-01-27", "short_name": "Mars_v1_c", "homepage": "https://meca-brain.org/software/marsatlas/",
+                                    "release_date": "2016-01-27", "short_name": "Mars_v1", "homepage": "https://meca-brain.org/software/marsatlas/",
                                     "license":"CeCILL-B", "digitalIdentifier": "https://doi.org/10.1002/hbm.23121", "full_doc_name": "Mars_cortex",
                                     "authors": ["auziasGuillaume", "brovelliAndrea", "coulonOlivier"]}},
                 {"Mars_v2": {"reference_space" : "Colin27_1998", "areas" : lista + listb, "accessibility": "freeAccess",
                                                 "atlasType": "parcellationScheme", "version_identifier": "v2", "version_innovation": "This is the second version of this research product",
-                                                "release_date": "2017-01-25", "short_name": "Mars_v2_cs", "homepage": "https://meca-brain.org/software/marsatlas-subcortical/",
+                                                "release_date": "2017-01-25", "short_name": "Mars_v2", "homepage": "https://meca-brain.org/software/marsatlas-subcortical/",
                                                 "license":"CeCILL-B", "digitalIdentifier": "https://doi.org/10.1523/JNEUROSCI.1672-16.2016", "full_doc_name": "Mars_cortexAndSubcortex",
                                                 "authors": ["brovelliAndrea", "badierJeanmichael", "boniniFrancesca", "bartolomeiFabrice", "coulonOlivier", "auziasGuillaume"]}}]
 

@@ -153,8 +153,7 @@ def generate_atlas(path, mars_authors, regions_cortex, regions_subcortex, docu, 
                                    hasTerminology=terminology_gen(sName, regions_cortex, regions_subcortex),
                                    hasVersion=version_gen(docu))
     basic.get(atlas).custodian = [{"@id": "https://openminds.ebrains.eu/instances/person/brovelliAndrea"}]
-    print(maindoc[0])
-    basic.get(atlas).digitalIdentifier = [{"@id": f"{maindoc[0]}"}]
+    basic.get(atlas).digitalIdentifier = [{"@id": f"{maindoc}"}]
     basic.get(atlas).homepage = page
     basic.save(p)
     # copy contents
