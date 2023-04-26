@@ -32,7 +32,7 @@ def orcid_instance_generation(orcid, orcid_path):
             data["@id"] = f"https://openminds.ebrains.eu/instances/ORCID/{orcid_name}"
         # write content to new file
         json_target = open(orcid_path, "w")
-        json.dump(data, json_target, indent=2, sort_keys=True)
+        json.dump(data, json_target, indent=4, sort_keys=True)
         json_target.write("\n")
         json_target.close()
 
@@ -65,7 +65,7 @@ def doi_instance_generation(doi, doi_path):
             f.close()
         # write content to new file
         json_target = open(doi_path, "w")
-        json.dump(data, json_target, indent=2, sort_keys=True)
+        json.dump(data, json_target, indent=4, sort_keys=True)
         json_target.write("\n")
         json_target.close()
 
@@ -98,7 +98,7 @@ def person_instance_generation(item, name, person_path):
             data["@id"] = f"https://openminds.ebrains.eu/instances/person/{person_name}"
         # write content to new file
         json_target = open(person_path, "w")
-        json.dump(data, json_target, indent=2, sort_keys=True)
+        json.dump(data, json_target, indent=4, sort_keys=True)
         json_target.write("\n")
         json_target.close()
 
@@ -116,23 +116,23 @@ def author_gen(listofdic):
     return author_listofdic
 
 
-def entity_gen(*lists, name):
+def entity_gen(name, *lists):
     # entity creation
     has_entity_listofdic = []
     entity_https = "https://openminds.ebrains.eu/instances/parcellationEntity/"
     for list in lists:
         for item in list:
-            entity_dic = {"@id" : f"{entity_https}{name}_{item}"}
+            entity_dic = {"@id" : f"{entity_https}{name}_{item.lower()}"}
             has_entity_listofdic.append(entity_dic)
     return has_entity_listofdic
 
 
-def terminology_gen(*lists, name):
+def terminology_gen(name, *lists):
     # terminology creation
     has_terminology_dic = {}
     has_terminology_dic["@type"] = "https://openminds.ebrains.eu/sands/ParcellationTerminology"
     has_terminology_dic["definedIn"] = None
-    has_terminology_dic["hasEntity"] = entity_gen(*lists, name)
+    has_terminology_dic["hasEntity"] = entity_gen(name, *lists)
     return has_terminology_dic
 
 
@@ -150,10 +150,11 @@ def generate_atlas(path, mars_authors, regions_cortex, regions_subcortex, docu, 
     # generate atlas
     atlas = basic.add_SANDS_brainAtlas(description=info, shortName=sName, fullName=fName,
                                    author=author_gen(mars_authors),
-                                   hasTerminology=terminology_gen(regions_cortex, regions_subcortex, sName),
+                                   hasTerminology=terminology_gen(sName, regions_cortex, regions_subcortex),
                                    hasVersion=version_gen(docu))
     basic.get(atlas).custodian = [{"@id": "https://openminds.ebrains.eu/instances/person/brovelliAndrea"}]
-    basic.get(atlas).digitalIdentifier = [{"@id": f"{maindoc}"}]
+    print(maindoc[0])
+    basic.get(atlas).digitalIdentifier = [{"@id": f"{maindoc[0]}"}]
     basic.get(atlas).homepage = page
     basic.save(p)
     # copy contents
@@ -165,7 +166,7 @@ def generate_atlas(path, mars_authors, regions_cortex, regions_subcortex, docu, 
         f.close()
     # write content to new file
     json_target = open(path, "w")
-    json.dump(data, json_target, indent=2, sort_keys=True)
+    json.dump(data, json_target, indent=4, sort_keys=True)
     json_target.write("\n")
     json_target.close()
 
@@ -214,7 +215,7 @@ def generate_atlas_versions(entity_path, versions):
                 parcellation_entity_version_https = "https://openminds.ebrains.eu/instances/parcellationEntityVersion/"
                 version_entities = dic.get(version).get("areas")
                 for area in version_entities:
-                    entity_version_dic= {"@id": f"{parcellation_entity_version_https}{version}_{area}"}
+                    entity_version_dic= {"@id": f"{parcellation_entity_version_https}{version}_{area.lower()}"}
                     has_entity_listofdic.append(entity_version_dic)
                 terminology_dic = {"@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
                                    "definedIn": None, "hasEntity": has_entity_listofdic}
@@ -236,7 +237,7 @@ def generate_atlas_versions(entity_path, versions):
                 data["@id"] = f"https://openminds.ebrains.eu/instances/brainAtlasVersion/{version}"
             # write content to new file
             json_target = open(f"{entity_path}{version}{j}", "w")
-            json.dump(data, json_target, indent=2, sort_keys=True)
+            json.dump(data, json_target, indent=4, sort_keys=True)
             json_target.write("\n")
             json_target.close()
 
@@ -279,7 +280,7 @@ def entity_instance_generation(area, abbreviation, entity_path, versions):
             data["@id"] = f"https://openminds.ebrains.eu/instances/parcellationEntity/{entity_name}"
         # write content to new file
         json_target = open(entity_path, "w")
-        json.dump(data, json_target, indent=2, sort_keys=True)
+        json.dump(data, json_target, indent=4, sort_keys=True)
         json_target.write("\n")
         json_target.close()
 
@@ -312,7 +313,7 @@ def entity_version_instance_generation(file_path, area, identifier, version):
             data["@id"] = f"https://openminds.ebrains.eu/instances/parcellationEntityVersion/{entity_ver_name}"
         # write content to new file
         json_target = open(file_path, "w")
-        json.dump(data, json_target, indent=2, sort_keys=True)
+        json.dump(data, json_target, indent=4, sort_keys=True)
         json_target.write("\n")
         json_target.close()
 
@@ -321,7 +322,7 @@ if __name__ == '__main__':
 
     # get Mars Data
     region_names_cortex, region_names_subcortex = MarsDataScrape.datascrape()
-    mars_cortex_authors, mars_cortexAndSubcotex_authors, full_documentation, description, abbreviation, fullName, shortName, homepage, versions = Mars_data_structures.data_structures(region_names_cortex, region_names_subcortex)
+    mars_cortex_authors, mars_cortexAndSubcotex_authors, full_documentation, main_documentation, description, abbreviation, fullName, shortName, homepage, versions = Mars_data_structures.data_structures(region_names_cortex, region_names_subcortex)
 
     # helper vars
     j = ".jsonld"

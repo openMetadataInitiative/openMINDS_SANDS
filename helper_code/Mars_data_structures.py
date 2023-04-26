@@ -13,11 +13,11 @@ def data_structures(lista , listb):
                                       {"coulonOlivier" : {"familyName" : "Coulon", "givenName" : "Olivier", "ORCID" : "https://orcid.org/0000-0003-4752-1228"}},
                                       {"auziasGuillaume" : {"familyName" : "Auzias", "givenName" : "Guillaume", "ORCID" : "https://orcid.org/0000-0002-0414-5691"}}]
     full_documentation =  [{"Mars_cortex": "https://doi.org/10.1002/hbm.23121"},{"Mars_cortexAndSubcortex": "https://doi.org/10.1523/JNEUROSCI.1672-16.2016"}]
-    main_documentation = ["https://doi.org/10.1002/hbm.23121"]
+    main_documentation = "https://doi.org/10.1002/hbm.23121"
     description = "MarsAtlas is a model of cortical parcellation. It can be applied to any cortical surface via the HipHop parameterization pipeline, available in the BrainVisa Cortical Surface Toolbox, under the Anatomy category."
     abbreviation = "Mars"
     fullName = "MarsAtlas"
-    shortName = "MarsAtlas"
+    shortName = "Mars"
     homepage = "https://meca-brain.org/software/marsatlas/"
     # versions is a list of all versions stored as dictionaries with reference spaces and areas attached IMPORTANT
     versions = [{"Mars_v1": {"reference_space": "Mars_HipHop138", "areas": lista, "accessibility": "freeAccess",
@@ -31,10 +31,10 @@ def data_structures(lista , listb):
                                                 "license":"CeCILL-B", "digitalIdentifier": "https://doi.org/10.1523/JNEUROSCI.1672-16.2016", "full_doc_name": "Mars_cortexAndSubcortex",
                                                 "authors": ["brovelliAndrea", "badierJeanmichael", "boniniFrancesca", "bartolomeiFabrice", "coulonOlivier", "auziasGuillaume"]}}]
 
-    return (mars_cortex_authors, mars_cortexAndSubcotex_authors, full_documentation, description, abbreviation, fullName, shortName, homepage, versions)
+    return (mars_cortex_authors, mars_cortexAndSubcotex_authors, full_documentation, main_documentation, description, abbreviation, fullName, shortName, homepage, versions)
 
 
 if __name__ == '__main__':
 
     region_names_cortex, region_names_subcortex = MarsDataScrape. datascrape()
-    mars_cortex_authors, mars_cortexAndSubcotex_authors, full_documentation, description, abbreviation, fullName, shortName, homepage, versions = data_structures(region_names_cortex, region_names_subcortex)
+    mars_cortex_authors, mars_cortexAndSubcotex_authors, full_documentation, main_documentation, description, abbreviation, fullName, shortName, homepage, versions = data_structures(region_names_cortex, region_names_subcortex)
