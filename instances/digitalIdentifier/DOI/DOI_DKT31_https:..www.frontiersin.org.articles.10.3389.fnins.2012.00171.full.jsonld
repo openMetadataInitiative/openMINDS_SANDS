@@ -1,8 +1,0 @@
-{
-    "@context": {
-        "@vocab": "https://openminds.ebrains.eu/vocab/"
-    },
-    "@id": "https://openminds.ebrains.eu/instances/DOI/DOI_DKT31_https:..www.frontiersin.org.articles.10.3389.fnins.2012.00171.full",
-    "@type": "https://openminds.ebrains.eu/core/DOI",
-    "identifier": "https://www.frontiersin.org/articles/10.3389/fnins.2012.00171/full"
-}

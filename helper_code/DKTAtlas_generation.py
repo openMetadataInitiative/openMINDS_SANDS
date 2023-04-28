@@ -249,7 +249,7 @@ def generate_entities(path, versions, abbreviation, *args):
             if area is None:
                     continue
             else:
-                entity_path = f"{path}{abbreviation}_{area.lower()}{j}"
+                entity_path = f"{path}{abbreviation}_{area}{j}"
                 entity_instance_generation(area, abbreviation, entity_path, versions)
 
 
@@ -266,7 +266,7 @@ def entity_instance_generation(area, abbreviation, entity_path, versions):
         for dic in versions:
             for version in dic.keys():
                 if any(area == version_area for version_area in dic.get(version).get("areas")):
-                    has_version_dic = {"@id": f"{entity_version_https}{version}_{area.lower()}"}
+                    has_version_dic = {"@id": f"{entity_version_https}{version}_{area}"}
                     has_version_listOfdic.append(has_version_dic)
         basic.get(entity).hasVersion = has_version_listOfdic
         basic.save(p)
@@ -366,7 +366,7 @@ if __name__ == '__main__':
     generate_dois(doi_dir, full_documentation)
     generate_orcids(orcid_dir, DKT_authors)
     generate_atlas(atlas_dir, DKT_authors,
-                   versions, description, shortName, fullName, homepage, main_documentation, areas, areas_surf)
+                   versions, description, shortName, fullName, homepage, main_documentation, areas)
     generate_atlas_versions(atlas_version_dir, versions)
-    generate_entities(entity_dir, versions, abbreviation, areas, areas_surf)
+    generate_entities(entity_dir, versions, abbreviation, areas)
     generate_entity_versions(entity_ver_dir, versions)

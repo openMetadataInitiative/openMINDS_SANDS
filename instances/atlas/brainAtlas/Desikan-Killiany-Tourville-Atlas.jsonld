@@ -14,7 +14,7 @@
     ],
     "custodian": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/person/brovelliAndrea"
+            "@id": "https://openminds.ebrains.eu/instances/person/kleinArno"
         }
     ],
     "description": "Mindboggle-101 surface and volume brain atlases (anatomical labels from a population of brains).",
@@ -29,283 +29,97 @@
         "definedIn": null,
         "hasEntity": [
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobeMedialAspect_entorhinalCortex"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobe-entorhinalCortex"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobeMedialAspect_parahippocampalGyrus"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobe-parahippGyrus"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobeMedialAspect_fusiformGyrus"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobe-fusiformGyrus"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobeLateralAspect_superiorTemporalGyrus"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobe-supTemporalGyrus"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobeLateralAspect_middleTemporalGyrus"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobe-midTemporalGyrus"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobeLateralAspect_inferiorTemporalGyrus"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobe-infTemporalGyrus"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobeLateralAspect_transverseTemporalGyrus"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobe-transTemporalGyrus"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_superiorFrontal"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-supFrontal"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_middleFrontalGyrusRostral"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-midFrontalGyrus-rostral"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_middleFrontalGyrusCaudal"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-midFrontalGyrus-caudal"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_inferiorFrontalGyrusParsOpercularis"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-infFrontalGyrus-parsOpercularis"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_inferiorFrontalGyrusParsOrbitalis"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-infFrontalGyrus-parsOrbitalis"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_inferiorFrontalGyrusParsTriangularis"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-infFrontalGyrus-parsTriangularis"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_orbitofrontalGyrus"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-orbitofrontalGyrus"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_lateralDivision"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-lateralDivision"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_medialDivision"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-medialDivision"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_precentralGyrus"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-precGyrus"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_paracentralLobule"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-paracLobule"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe_poscentralGyrus"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe-postcGyrus"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe_supraMarginalGyrus"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe-supraMarginalGyrus"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe_superiorParietalLobule"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe-supParietalLobule"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe_inferiorParietalLobule"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe-infParietalLobule"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe_precuneus"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe-precuneus"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitalLobe_lingualGyrus"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitalLobe-lingGyrus"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitalLobe_pericalcarineCortex"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitalLobe-pericalcCortex"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitalLobe_cuneusCortex"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitalLobe-cuneus"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitalLobe_lateralOccipitalCortex"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitalLobe-latOccipitalCortex"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_cingulateCortex_rostralAnterior"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_cingulateCortex-rostralAnterior"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_cingulateCortex_caudalAnterior"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_cingulateCortex-caudalAnterior"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_cingulateCortex_posterior"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_cingulateCortex-posterior"
             },
             {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_cingulateCortex_isthmus"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobeMedialAspect_entorhinalCortex_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobeMedialAspect_parahippocampalGyrus_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobeMedialAspect_fusiformGyrus_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobeLateralAspect_superiorTemporalGyrus_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobeLateralAspect_middleTemporalGyrus_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobeLateralAspect_inferiorTemporalGyrus_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobeLateralAspect_transverseTemporalGyrus_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_superiorFrontal_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_middleFrontalGyrusRostral_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_middleFrontalGyrusCaudal_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_inferiorFrontalGyrusParsOpercularis_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_inferiorFrontalGyrusParsOrbitalis_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_inferiorFrontalGyrusParsTriangularis_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_orbitofrontalGyrus_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_lateralDivision_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_medialDivision_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_precentralGyrus_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_paracentralLobule_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe_poscentralGyrus_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe_supraMarginalGyrus_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe_superiorParietalLobule_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe_inferiorParietalLobule_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe_precuneus_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitalLobe_lingualGyrus_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitalLobe_pericalcarineCortex_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitalLobe_cuneusCortex_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitalLobe_lateralOccipitalCortex_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_cingulateCortex_rostralAnterior_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_cingulateCortex_caudalAnterior_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_cingulateCortex_posterior_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_cingulateCortex_isthmus_lH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobeMedialAspect_entorhinalCortex_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobeMedialAspect_parahippocampalGyrus_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobeMedialAspect_fusiformGyrus_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobeLateralAspect_superiorTemporalGyrus_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobeLateralAspect_middleTemporalGyrus_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobeLateralAspect_inferiorTemporalGyrus_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobeLateralAspect_transverseTemporalGyrus_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_superiorFrontal_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_middleFrontalGyrusRostral_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_middleFrontalGyrusCaudal_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_inferiorFrontalGyrusParsOpercularis_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_inferiorFrontalGyrusParsOrbitalis_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_inferiorFrontalGyrusParsTriangularis_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_orbitofrontalGyrus_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_lateralDivision_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_medialDivision_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_precentralGyrus_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe_paracentralLobule_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe_poscentralGyrus_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe_supraMarginalGyrus_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe_superiorParietalLobule_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe_inferiorParietalLobule_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe_precuneus_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitalLobe_lingualGyrus_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitalLobe_pericalcarineCortex_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitalLobe_cuneusCortex_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitalLobe_lateralOccipitalCortex_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_cingulateCortex_rostralAnterior_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_cingulateCortex_caudalAnterior_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_cingulateCortex_posterior_rH"
-            },
-            {
-                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_cingulateCortex_isthmus_rH"
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_cingulateCortex-isthmus"
             }
         ]
     },
