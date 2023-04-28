@@ -32,7 +32,7 @@ def orcid_instance_generation(orcid, orcid_path):
             data["@id"] = f"https://openminds.ebrains.eu/instances/ORCID/{orcid_name}"
         # write content to new file
         json_target = open(orcid_path, "w")
-        json.dump(data, json_target, indent=4, sort_keys=True)
+        json.dump(data, json_target, indent=2, sort_keys=True)
         json_target.write("\n")
         json_target.close()
 
@@ -65,7 +65,7 @@ def doi_instance_generation(doi, doi_path):
             f.close()
         # write content to new file
         json_target = open(doi_path, "w")
-        json.dump(data, json_target, indent=4, sort_keys=True)
+        json.dump(data, json_target, indent=2, sort_keys=True)
         json_target.write("\n")
         json_target.close()
 
@@ -98,7 +98,7 @@ def person_instance_generation(item, name, person_path):
             data["@id"] = f"https://openminds.ebrains.eu/instances/person/{person_name}"
         # write content to new file
         json_target = open(person_path, "w")
-        json.dump(data, json_target, indent=4, sort_keys=True)
+        json.dump(data, json_target, indent=2, sort_keys=True)
         json_target.write("\n")
         json_target.close()
 
@@ -165,7 +165,7 @@ def generate_atlas(path, mars_authors, docu, info, sName, fName, page, maindoc, 
         f.close()
     # write content to new file
     json_target = open(path, "w")
-    json.dump(data, json_target, indent=4, sort_keys=True)
+    json.dump(data, json_target, indent=2, sort_keys=True)
     json_target.write("\n")
     json_target.close()
 
@@ -236,7 +236,7 @@ def generate_atlas_versions(entity_path, versions):
                 data["@id"] = f"https://openminds.ebrains.eu/instances/brainAtlasVersion/{version}"
             # write content to new file
             json_target = open(f"{entity_path}{version}{j}", "w")
-            json.dump(data, json_target, indent=4, sort_keys=True)
+            json.dump(data, json_target, indent=2, sort_keys=True)
             json_target.write("\n")
             json_target.close()
 
@@ -279,7 +279,7 @@ def entity_instance_generation(area, abbreviation, entity_path, versions):
             data["@id"] = f"https://openminds.ebrains.eu/instances/parcellationEntity/{entity_name}"
         # write content to new file
         json_target = open(entity_path, "w")
-        json.dump(data, json_target, indent=4, sort_keys=True)
+        json.dump(data, json_target, indent=2, sort_keys=True)
         json_target.write("\n")
         json_target.close()
 
@@ -312,7 +312,7 @@ def entity_version_instance_generation(file_path, area, identifier, version):
             data["@id"] = f"https://openminds.ebrains.eu/instances/parcellationEntityVersion/{entity_ver_name}"
         # write content to new file
         json_target = open(file_path, "w")
-        json.dump(data, json_target, indent=4, sort_keys=True)
+        json.dump(data, json_target, indent=2, sort_keys=True)
         json_target.write("\n")
         json_target.close()
 
