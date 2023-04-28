@@ -1,10 +1,10 @@
 {
-    "@context": {
-        "@vocab": "https://openminds.ebrains.eu/vocab/"
-    },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_parietallobe-supparietallobule",
-    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
-    "lookupLabel": "DKT_dktSurf40_cingulateCortex-isthmus_rH",
-    "name": "cingulateCortex-isthmus_rH",
-    "versionIdentifier": "v4"
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_parietallobe-supparietallobule",
+  "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+  "lookupLabel": "DKT_dktSurf40_cingulateCortex-isthmus_rH",
+  "name": "cingulateCortex-isthmus_rH",
+  "versionIdentifier": "v4"
 }
