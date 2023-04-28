@@ -1,10 +1,10 @@
 {
-    "@context": {
-        "@vocab": "https://openminds.ebrains.eu/vocab/"
-    },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_pcm",
-    "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
-    "lookupLabel": "Mars_v1_PCm",
-    "name": "PCm",
-    "versionIdentifier": "v1"
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v1_pcm",
+  "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+  "lookupLabel": "DKT_dktSurf40_cingulateCortex-isthmus_rH",
+  "name": "cingulateCortex-isthmus_rH",
+  "versionIdentifier": "v4"
 }

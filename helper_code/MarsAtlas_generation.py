@@ -20,7 +20,7 @@ def generate_orcids(path, *args):
 
 
 def orcid_instance_generation(orcid, orcid_path):
-    if not os.path.isfile(orcid_path):
+    #if not os.path.isfile(orcid_path):
         # create and save DOI instance
         basic.add_core_ORCID(identifier=orcid)
         basic.save(p)
@@ -52,7 +52,7 @@ def generate_dois(path, list):
 
 
 def doi_instance_generation(doi, doi_path):
-    if not os.path.isfile(doi_path):
+    #if not os.path.isfile(doi_path):
         # create and save DOI instance
         basic.add_core_DOI(identifier=doi)
         basic.save(p)
@@ -83,7 +83,7 @@ def generate_persons(path, *args):
 
 
 def person_instance_generation(item, name, person_path):
-    if not os.path.isfile(person_path):
+    #if not os.path.isfile(person_path):
         # create person isntance
         author = basic.add_core_person(givenName=item[name].get("givenName"))
         # add family name and ORCID
@@ -172,7 +172,7 @@ def generate_atlas(path, mars_authors, regions_cortex, regions_subcortex, docu, 
 
 
 def generate_atlas_versions(entity_path, versions):
-    if not os.path.isfile(entity_path):
+    #if not os.path.isfile(entity_path):
         for dic in versions:
             for version in dic.keys():
                 # retrieve license data
@@ -196,10 +196,6 @@ def generate_atlas_versions(entity_path, versions):
                 # shortname
                 short_name = dic.get(version).get("short_name")
                 # docu
-                # docu_https = "https://openminds.ebrains.eu/instances/digitalIdentifier/"
-                # doi_str = "https://doi.org/"
-                # doi = dic.get(version).get("digitalIdentifier")
-                # doi_stripped = doi.replace(doi_str, "").replace("/", ".")
                 DOI = dic.get(version).get("digitalIdentifier")
                 docu_dic = {"@id": f"{DOI}"}
                 # authors
@@ -254,7 +250,7 @@ def generate_entities(path, versions, abbreviation, *args):
 
 
 def entity_instance_generation(area, abbreviation, entity_path, versions):
-    if not os.path.isfile(entity_path):
+    #if not os.path.isfile(entity_path):
 
         # create entity isntance
         entity = basic.add_SANDS_parcellationEntity(name=area)
@@ -298,7 +294,7 @@ def generate_entity_versions(path, versions):
 
 
 def entity_version_instance_generation(file_path, area, identifier, version):
-    if not os.path.isfile(file_path):
+    #if not os.path.isfile(file_path):
         # create entity version isntance
         entity_version = basic.add_SANDS_parcellationEntityVersion(name=area, versionIdentifier=identifier)
         basic.get(entity_version).lookupLabel = f"{version}_{area}"
@@ -350,12 +346,12 @@ if __name__ == '__main__':
         os.mkdir(atlas_version_dir)
     # parcellation entity dir
     entity_dir = f"/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntity/{abbreviation}/"
-    os.mkdir(entity_dir)
+    os.makedirs(entity_dir, exist_ok=True)
     # parcellation entity version dirs
     entity_ver_dir = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntityVersion/"
     for dic in versions:
         for version in dic.keys():
-            os.mkdir(f"{entity_ver_dir}{version}/")
+            os.makedirs(f"{entity_ver_dir}{version}/", exist_ok=True)
 
     # intialize openMinds instance creator
     openMINDS.version_manager.init()
