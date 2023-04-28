@@ -1,0 +1,142 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/brainAtlas/Desikan-Killiany-Tourville-Atlas",
+    "@type": "https://openminds.ebrains.eu/SANDS/BrainAtlas",
+    "author": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/person/kleinArno"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/person/tourvilleJason"
+        }
+    ],
+    "custodian": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/person/kleinArno"
+        }
+    ],
+    "description": "Mindboggle-101 surface and volume brain atlases (anatomical labels from a population of brains).",
+    "digitalIdentifier": [
+        {
+            "@id": "https://doi.org/10.3389/fnins.2012.00171"
+        }
+    ],
+    "fullName": "Desikan-Killiany-Tourville-Atlas",
+    "hasTerminology": {
+        "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
+        "definedIn": null,
+        "hasEntity": [
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobe-entorhinalCortex"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobe-parahippGyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobe-fusiformGyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobe-supTemporalGyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobe-midTemporalGyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobe-infTemporalGyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_temporalLobe-transTemporalGyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-supFrontal"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-midFrontalGyrus-rostral"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-midFrontalGyrus-caudal"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-infFrontalGyrus-parsOpercularis"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-infFrontalGyrus-parsOrbitalis"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-infFrontalGyrus-parsTriangularis"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-orbitofrontalGyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-lateralDivision"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-medialDivision"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-precGyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_frontalLobe-paracLobule"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe-postcGyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe-supraMarginalGyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe-supParietalLobule"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe-infParietalLobule"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_parietalLobe-precuneus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitalLobe-lingGyrus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitalLobe-pericalcCortex"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitalLobe-cuneus"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_occipitalLobe-latOccipitalCortex"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_cingulateCortex-rostralAnterior"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_cingulateCortex-caudalAnterior"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_cingulateCortex-posterior"
+            },
+            {
+                "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT_cingulateCortex-isthmus"
+            }
+        ]
+    },
+    "hasVersion": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/DKT_dkt31VolLabels"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/DKT_dkt31VolProb"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/DKT_dkt31Surf101"
+        },
+        {
+            "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/DKT_dktSurf40"
+        }
+    ],
+    "homepage": "https://osf.io/kgdey/wiki/home/",
+    "shortName": "DKT"
+}
