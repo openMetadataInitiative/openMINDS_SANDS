@@ -4,7 +4,7 @@
   },
   "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-paraclobule_lh",
   "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
-  "lookupLabel": "DKT_dktSurf40_cingulateCortex-isthmus_rH",
-  "name": "cingulateCortex-isthmus_rH",
-  "versionIdentifier": "v4"
+  "lookupLabel": "DKT_dkt31Surf101_frontalLobe-paracLobule_lH",
+  "name": "frontalLobe-paracLobule_lH",
+  "versionIdentifier": "v3"
 }

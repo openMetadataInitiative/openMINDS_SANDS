@@ -4,7 +4,7 @@
   },
   "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dktSurf40_frontallobe-inffrontalgyrus-parsopercularis_rh",
   "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
-  "lookupLabel": "DKT_dktSurf40_cingulateCortex-isthmus_rH",
-  "name": "cingulateCortex-isthmus_rH",
+  "lookupLabel": "DKT_dktSurf40_frontalLobe-infFrontalGyrus-parsOpercularis_rH",
+  "name": "frontalLobe-infFrontalGyrus-parsOpercularis_rH",
   "versionIdentifier": "v4"
 }

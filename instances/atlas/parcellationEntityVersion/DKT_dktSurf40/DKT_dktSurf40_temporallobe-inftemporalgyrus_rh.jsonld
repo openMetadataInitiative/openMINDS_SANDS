@@ -4,7 +4,7 @@
   },
   "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dktSurf40_temporallobe-inftemporalgyrus_rh",
   "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
-  "lookupLabel": "DKT_dktSurf40_cingulateCortex-isthmus_rH",
-  "name": "cingulateCortex-isthmus_rH",
+  "lookupLabel": "DKT_dktSurf40_temporalLobe-infTemporalGyrus_rH",
+  "name": "temporalLobe-infTemporalGyrus_rH",
   "versionIdentifier": "v4"
 }

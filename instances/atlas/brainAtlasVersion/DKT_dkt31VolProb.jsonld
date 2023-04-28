@@ -9,189 +9,126 @@
   },
   "author": [
     {
-      "@id": "https://openminds.ebrains.eu/instances/person/brovelliAndrea"
+      "@id": "https://openminds.ebrains.eu/instances/person/kleinArno"
     },
     {
-      "@id": "https://openminds.ebrains.eu/instances/person/badierJeanmichael"
-    },
-    {
-      "@id": "https://openminds.ebrains.eu/instances/person/boniniFrancesca"
-    },
-    {
-      "@id": "https://openminds.ebrains.eu/instances/person/bartolomeiFabrice"
-    },
-    {
-      "@id": "https://openminds.ebrains.eu/instances/person/coulonOlivier"
-    },
-    {
-      "@id": "https://openminds.ebrains.eu/instances/person/auziasGuillaume"
+      "@id": "https://openminds.ebrains.eu/instances/person/tourvilleJason"
     }
   ],
   "coordinateSpace": {
-    "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/Colin27_1998"
+    "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/MNI_ICBM_152_2009c_nonlin_asym"
   },
   "fullDocumentation": {
-    "@id": "https://doi.org/10.1523/JNEUROSCI.1672-16.2016"
+    "@id": "https://doi.org/10.3389/fnins.2012.00171"
   },
   "hasTerminology": {
     "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
     "definedIn": null,
     "hasEntity": [
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_vccm"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_temporallobe-entorhinalcortex"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_vcl"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_temporallobe-parahippgyrus"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_vcs"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_temporallobe-fusiformgyrus"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_cu"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_temporallobe-suptemporalgyrus"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_vcrm"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_temporallobe-midtemporalgyrus"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_itcm"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_temporallobe-inftemporalgyrus"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_itcr"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_temporallobe-transtemporalgyrus"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_mtcc"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_frontallobe-supfrontal"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_stcc"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_frontallobe-midfrontalgyrus-rostral"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_stcr"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_frontallobe-midfrontalgyrus-caudal"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_mtcr"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_frontallobe-inffrontalgyrus-parsopercularis"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_ipcv"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_frontallobe-inffrontalgyrus-parsorbitalis"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_ipcd"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_frontallobe-inffrontalgyrus-parstriangularis"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_spc"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_frontallobe-orbitofrontalgyrus"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_spcm"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_frontallobe-lateraldivision"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_pcm"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_frontallobe-medialdivision"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_sv"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_frontallobe-precgyrus"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_sdl"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_frontallobe-paraclobule"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_sdm"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_parietallobe-postcgyrus"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_icc"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_parietallobe-supramarginalgyrus"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_pcc"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_parietallobe-supparietallobule"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_mcc"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_parietallobe-infparietallobule"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_acc"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_parietallobe-precuneus"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_mv"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_occipitallobe-linggyrus"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_mdl"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_occipitallobe-pericalccortex"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_mdm"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_occipitallobe-cuneus"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_pmrv"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_occipitallobe-latoccipitalcortex"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_pmdl"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_cingulatecortex-rostralanterior"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_pmdm"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_cingulatecortex-caudalanterior"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_pfcdl"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_cingulatecortex-posterior"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_pfcdm"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_pfrvl"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_pfrdli"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_pfrdls"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_pfrd"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_pfrm"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_ofcvl"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_ofcv"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_ofcvm"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_pfcvm"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_insula"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_thalamus"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_caudate"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_puttamen"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_pallidum"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_hippocampus"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_amygdala"
-      },
-      {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_v2_accumbens"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_cingulatecortex-isthmus"
       }
     ]
   },
-  "homepage": "https://meca-brain.org/software/marsatlas-subcortical/",
+  "homepage": "https://osf.io/kgdey/",
   "license": {
-    "@id": "https://openminds.ebrains.eu/instances/licenses/CeCILL-B"
+    "@id": "https://openminds.ebrains.eu/instances/licenses/CC BY-NC-ND 3.0"
   },
-  "releaseDate": "2017-01-25",
-  "shortName": "Mars_v2",
+  "releaseDate": "2016-07-11",
+  "shortName": "dkt31VolProb",
   "type": {
-    "@id": "https://openminds.ebrains.eu/instances/atlasType/parcellationScheme"
+    "@id": "https://openminds.ebrains.eu/instances/atlasType/probabilisticAtlas"
   },
   "versionIdentifier": "v2",
-  "versionInnovation": "This is the second version of this research product"
+  "versionInnovation": "Joint fusion label probabilitiy version of the DKT atlas"
 }

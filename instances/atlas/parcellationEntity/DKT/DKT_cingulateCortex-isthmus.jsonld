@@ -6,10 +6,10 @@
   "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
   "hasVersion": [
     {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolLabels_cingulatecortex-isthmus"
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolLabels_cingulateCortex-isthmus"
     },
     {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_cingulatecortex-isthmus"
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_cingulateCortex-isthmus"
     }
   ],
   "lookupLabel": "DKT_cingulateCortex-isthmus",

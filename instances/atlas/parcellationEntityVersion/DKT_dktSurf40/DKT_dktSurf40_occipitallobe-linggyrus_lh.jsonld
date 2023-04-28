@@ -4,7 +4,7 @@
   },
   "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dktSurf40_occipitallobe-linggyrus_lh",
   "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
-  "lookupLabel": "DKT_dktSurf40_cingulateCortex-isthmus_rH",
-  "name": "cingulateCortex-isthmus_rH",
+  "lookupLabel": "DKT_dktSurf40_occipitalLobe-lingGyrus_lH",
+  "name": "occipitalLobe-lingGyrus_lH",
   "versionIdentifier": "v4"
 }
