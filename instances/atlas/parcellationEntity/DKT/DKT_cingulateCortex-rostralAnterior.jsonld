@@ -6,12 +6,12 @@
   "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
   "hasVersion": [
     {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolLabels_cingulatecortex-isthmus"
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolLabels_cingulateCortex-rostralAnterior"
     },
     {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_cingulatecortex-isthmus"
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_cingulateCortex-rostralAnterior"
     }
   ],
-  "lookupLabel": "DKT_cingulateCortex-isthmus",
-  "name": "cingulateCortex-isthmus"
+  "lookupLabel": "DKT_cingulateCortex-rostralAnterior",
+  "name": "cingulateCortex-rostralAnterior"
 }

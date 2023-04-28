@@ -6,12 +6,12 @@
   "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
   "hasVersion": [
     {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolLabels_cingulatecortex-isthmus"
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolLabels_temporalLobe-transTemporalGyrus"
     },
     {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_cingulatecortex-isthmus"
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31VolProb_temporalLobe-transTemporalGyrus"
     }
   ],
-  "lookupLabel": "DKT_cingulateCortex-isthmus",
-  "name": "cingulateCortex-isthmus"
+  "lookupLabel": "DKT_temporalLobe-transTemporalGyrus",
+  "name": "temporalLobe-transTemporalGyrus"
 }

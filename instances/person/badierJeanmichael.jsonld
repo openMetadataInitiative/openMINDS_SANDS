@@ -5,8 +5,8 @@
   "@id": "https://openminds.ebrains.eu/instances/person/badierJeanmichael",
   "@type": "https://openminds.ebrains.eu/core/Person",
   "digitalIdentifier": {
-    "@id": "https://orcid.org/0000-0002-7197-2427"
+    "@id": "https://orcid.org/0000-0002-7272-6455"
   },
-  "familyName": "Tourville",
-  "givenName": "Jason"
+  "familyName": "Badier",
+  "givenName": "Jean-Michael"
 }

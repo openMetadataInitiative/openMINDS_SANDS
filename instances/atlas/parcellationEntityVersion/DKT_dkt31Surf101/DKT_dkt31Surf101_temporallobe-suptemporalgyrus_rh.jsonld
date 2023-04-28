@@ -4,7 +4,7 @@
   },
   "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporallobe-suptemporalgyrus_rh",
   "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
-  "lookupLabel": "DKT_dktSurf40_cingulateCortex-isthmus_rH",
-  "name": "cingulateCortex-isthmus_rH",
-  "versionIdentifier": "v4"
+  "lookupLabel": "DKT_dkt31Surf101_temporalLobe-supTemporalGyrus_rH",
+  "name": "temporalLobe-supTemporalGyrus_rH",
+  "versionIdentifier": "v3"
 }
