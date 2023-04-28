@@ -26,190 +26,190 @@
     "definedIn": null,
     "hasEntity": [
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporallobe-entorhinalcortex_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporalLobe-entorhinalCortex_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporallobe-parahippgyrus_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporalLobe-parahippGyrus_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporallobe-fusiformgyrus_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporalLobe-fusiformGyrus_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporallobe-suptemporalgyrus_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporalLobe-supTemporalGyrus_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporallobe-midtemporalgyrus_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporalLobe-midTemporalGyrus_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporallobe-inftemporalgyrus_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporalLobe-infTemporalGyrus_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporallobe-transtemporalgyrus_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporalLobe-transTemporalGyrus_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-supfrontal_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-supFrontal_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-midfrontalgyrus-rostral_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-midFrontalGyrus-rostral_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-midfrontalgyrus-caudal_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-midFrontalGyrus-caudal_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-inffrontalgyrus-parsopercularis_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-infFrontalGyrus-parsOpercularis_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-inffrontalgyrus-parsorbitalis_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-infFrontalGyrus-parsOrbitalis_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-inffrontalgyrus-parstriangularis_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-infFrontalGyrus-parsTriangularis_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-orbitofrontalgyrus_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-orbitofrontalGyrus_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-lateraldivision_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-lateralDivision_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-medialdivision_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-medialDivision_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-precgyrus_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-precGyrus_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-paraclobule_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-paracLobule_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietallobe-postcgyrus_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietalLobe-postcGyrus_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietallobe-supramarginalgyrus_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietalLobe-supraMarginalGyrus_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietallobe-supparietallobule_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietalLobe-supParietalLobule_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietallobe-infparietallobule_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietalLobe-infParietalLobule_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietallobe-precuneus_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietalLobe-precuneus_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_occipitallobe-linggyrus_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_occipitalLobe-lingGyrus_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_occipitallobe-pericalccortex_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_occipitalLobe-pericalcCortex_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_occipitallobe-cuneus_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_occipitalLobe-cuneus_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_occipitallobe-latoccipitalcortex_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_occipitalLobe-latOccipitalCortex_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_cingulatecortex-rostralanterior_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_cingulateCortex-rostralAnterior_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_cingulatecortex-caudalanterior_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_cingulateCortex-caudalAnterior_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_cingulatecortex-posterior_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_cingulateCortex-posterior_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_cingulatecortex-isthmus_lh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_cingulateCortex-isthmus_lH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporallobe-entorhinalcortex_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporalLobe-entorhinalCortex_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporallobe-parahippgyrus_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporalLobe-parahippGyrus_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporallobe-fusiformgyrus_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporalLobe-fusiformGyrus_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporallobe-suptemporalgyrus_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporalLobe-supTemporalGyrus_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporallobe-midtemporalgyrus_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporalLobe-midTemporalGyrus_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporallobe-inftemporalgyrus_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporalLobe-infTemporalGyrus_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporallobe-transtemporalgyrus_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_temporalLobe-transTemporalGyrus_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-supfrontal_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-supFrontal_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-midfrontalgyrus-rostral_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-midFrontalGyrus-rostral_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-midfrontalgyrus-caudal_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-midFrontalGyrus-caudal_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-inffrontalgyrus-parsopercularis_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-infFrontalGyrus-parsOpercularis_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-inffrontalgyrus-parsorbitalis_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-infFrontalGyrus-parsOrbitalis_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-inffrontalgyrus-parstriangularis_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-infFrontalGyrus-parsTriangularis_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-orbitofrontalgyrus_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-orbitofrontalGyrus_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-lateraldivision_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-lateralDivision_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-medialdivision_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-medialDivision_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-precgyrus_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-precGyrus_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontallobe-paraclobule_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_frontalLobe-paracLobule_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietallobe-postcgyrus_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietalLobe-postcGyrus_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietallobe-supramarginalgyrus_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietalLobe-supraMarginalGyrus_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietallobe-supparietallobule_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietalLobe-supParietalLobule_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietallobe-infparietallobule_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietalLobe-infParietalLobule_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietallobe-precuneus_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_parietalLobe-precuneus_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_occipitallobe-linggyrus_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_occipitalLobe-lingGyrus_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_occipitallobe-pericalccortex_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_occipitalLobe-pericalcCortex_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_occipitallobe-cuneus_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_occipitalLobe-cuneus_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_occipitallobe-latoccipitalcortex_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_occipitalLobe-latOccipitalCortex_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_cingulatecortex-rostralanterior_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_cingulateCortex-rostralAnterior_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_cingulatecortex-caudalanterior_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_cingulateCortex-caudalAnterior_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_cingulatecortex-posterior_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_cingulateCortex-posterior_rH"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_cingulatecortex-isthmus_rh"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dkt31Surf101_cingulateCortex-isthmus_rH"
       }
     ]
   },
