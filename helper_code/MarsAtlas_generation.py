@@ -325,14 +325,14 @@ if __name__ == '__main__':
 
     # person dir
     person_dir = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/person/"
-    #os.mkdir(person_dir)
+    os.mkdir(person_dir)
     # identifier dirs
     identifier_dir = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/digitalIdentifier/"
-    #os.mkdir(identifier_dir)
+    os.mkdir(identifier_dir)
     doi_dir = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/digitalIdentifier/DOI/"
-    #os.mkdir(doi_dir)
+    os.mkdir(doi_dir)
     orcid_dir = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/digitalIdentifier/ORCID/"
-    #os.mkdir(orcid_dir)
+    os.mkdir(orcid_dir)
 
     # atlas dir
     atlas_dir = f"/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/brainAtlas/{fullName}{j}"
