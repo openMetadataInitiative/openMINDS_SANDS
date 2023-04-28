@@ -210,7 +210,7 @@ def generate_atlas_versions(entity_path, versions):
                 parcellation_entity_version_https = "https://openminds.ebrains.eu/instances/parcellationEntityVersion/"
                 version_entities = dic.get(version).get("areas")
                 for area in version_entities:
-                    entity_version_dic= {"@id": f"{parcellation_entity_version_https}{version}_{area.lower()}"}
+                    entity_version_dic= {"@id": f"{parcellation_entity_version_https}{version}_{area}"}
                     has_entity_listofdic.append(entity_version_dic)
                 terminology_dic = {"@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
                                    "definedIn": None, "hasEntity": has_entity_listofdic}
@@ -288,7 +288,7 @@ def generate_entity_versions(path, versions):
         for version in dic.keys():
             for area in dic.get(version).get("areas"):
                 entity_ver_path = f"{path}{version}/"
-                entity_ver_file_path = f"{entity_ver_path}{version}_{area.lower()}{j}"
+                entity_ver_file_path = f"{entity_ver_path}{version}_{area}{j}"
                 version_identifier = dic.get(version).get("version_identifier")
                 entity_version_instance_generation(entity_ver_file_path, area, version_identifier, version)
 

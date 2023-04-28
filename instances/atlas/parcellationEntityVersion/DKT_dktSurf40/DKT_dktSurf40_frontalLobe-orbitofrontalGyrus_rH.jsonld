@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKT_dktSurf40_frontalLobe-orbitofrontalGyrus_rH",
+  "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+  "lookupLabel": "DKT_dktSurf40_frontalLobe-orbitofrontalGyrus_rH",
+  "name": "frontalLobe-orbitofrontalGyrus_rH",
+  "versionIdentifier": "v4"
+}
