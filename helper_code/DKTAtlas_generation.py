@@ -209,16 +209,31 @@ def generate_atlas_versions(entity_path, versions):
                 has_entity_listofdic = []
                 parcellation_entity_version_https = "https://openminds.ebrains.eu/instances/parcellationEntityVersion/"
                 version_entities = dic.get(version).get("areas")
-                for area in version_entities:
+                for area in version_entities.keys():
                     entity_version_dic= {"@id": f"{parcellation_entity_version_https}{version}_{area}"}
                     has_entity_listofdic.append(entity_version_dic)
                 terminology_dic = {"@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
                                    "definedIn": None, "hasEntity": has_entity_listofdic}
+                # altVersion
+                altVersion_list_of_dic = []
+                Version_https = "https://openminds.ebrains.eu/instances/brainAtlasVersion/"
+                altVersions = dic.get(version).get("altVersion")
+                for altVersion in altVersions:
+                    altVersion_dic = {"@id": f"{Version_https}{altVersion}"}
+                    altVersion_list_of_dic.append(altVersion_dic)
+                # newVersion
+                newVersion_list_of_dic = []
+                newVersions = dic.get(version).get("newVersion")
+                for newVersion in newVersions:
+                    newVersion_dic = {"@id": f"{Version_https}{newVersion}"}
+                    newVersion_list_of_dic.append(newVersion_dic)
+
                 # create atlas version instance
                 atlas_version = basic.add_SANDS_brainAtlasVersion(license= license_dic, coordinateSpace= coordinate_space_dic,
                                                                   versionInnovation= version_innovation, accessibility= accessibility_dic,
                                                                   releaseDate= release_date, shortName= short_name, hasTerminology= terminology_dic,
-                                                                  fullDocumentation= docu_dic, versionIdentifier=version_identifier)
+                                                                  fullDocumentation= docu_dic, versionIdentifier=version_identifier, isAlternativeVersionOF=altVersion_list_of_dic,
+                                                                  isNewVersionOf=newVersion_list_of_dic)
                 basic.get(atlas_version).homepage = dic.get(version).get("homepage")
                 basic.get(atlas_version).author = authors_list_of_dic
                 basic.get(atlas_version).type = {"@id": f"https://openminds.ebrains.eu/instances/atlasType/"
@@ -316,7 +331,7 @@ def entity_version_instance_generation(file_path, area, identifier, version):
 if __name__ == '__main__':
 
     # get DKT Data
-    DKT_authors, full_documentation, main_documentation, description, abbreviation, fullName, shortName, homepage,areas, areas_surf, versions = DKT_data_structures.data_structures()
+    DKT_authors, full_documentation, main_documentation, description, abbreviation, fullName, shortName, homepage, areas, versions = DKT_data_structures.data_structures()
     # helper vars
     j = ".jsonld"
     p = "./instances/"
@@ -333,7 +348,7 @@ if __name__ == '__main__':
     os.mkdir(orcid_dir)
 
     # atlas dir
-    atlas_dir = f"/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/brainAtlas/{fullName}{j}"
+    atlas_dir = f"/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/brainAtlas/{abbreviation}{j}"
     # atlas version dir
     atlas_version_dir = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/brainAtlasVersion/"
 
@@ -359,5 +374,5 @@ if __name__ == '__main__':
     generate_atlas(atlas_dir, DKT_authors,
                    versions, description, shortName, fullName, homepage, main_documentation, areas)
     generate_atlas_versions(atlas_version_dir, versions)
-    generate_entities(entity_dir, versions, abbreviation, areas)
-    generate_entity_versions(entity_ver_dir, versions)
+    #generate_entities(entity_dir, versions, abbreviation, areas)
+    #generate_entity_versions(entity_ver_dir, versions)

@@ -56,9 +56,9 @@ def data_structures():
                                             "full_doc_name": "DKTA_p40-fsaverage", "authors": ["kleinArno", "tourvilleJason"]}},
                 ]
 
-    return (DKT_authors, full_documentation, main_documentation, description, abbreviation, fullName, shortName, homepage,areas, areas_surf, versions)
+    return (DKT_authors, full_documentation, main_documentation, description, abbreviation, fullName, shortName, homepage, areas, versions)
 
 
 if __name__ == '__main__':
 
-    DKT_authors, full_documentation, main_documentation, description, abbreviation, fullName, shortName, homepage,areas, areas_surf, versions = data_structures()
+    DKT_authors, full_documentation, main_documentation, description, abbreviation, fullName, shortName, homepage,areas, versions = data_structures()
