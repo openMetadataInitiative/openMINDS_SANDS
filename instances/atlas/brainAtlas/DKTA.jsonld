@@ -1,0 +1,139 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/brainAtlas/DKTA",
+  "@type": "https://openminds.ebrains.eu/SANDS/BrainAtlas",
+  "author": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/person/kleinArno"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/person/tourvilleJason"
+    }
+  ],
+  "custodian": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/person/kleinArno"
+    }
+  ],
+  "description": "Mindboggle-101 surface and volume brain atlases (anatomical labels from a population of brains).",
+  "digitalIdentifier": [
+    {
+      "@id": "https://doi.org/10.3389/fnins.2012.00171"
+    }
+  ],
+  "fullName": "Desikan-Killiany-Tourville Atlas",
+  "hasTerminology": {
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology",
+    "definedIn": null,
+    "hasEntity": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_caudalAnteriorCingulate"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_caudalMiddleFrontal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_cuneus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_entorhinal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_fusiform"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_inferiorParietal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_inferiorTemporal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_isthmusCingulate"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_lateralOccipital"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_lateralOrbitofrontal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_lingual"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_medialOrbitofrontal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_middleTemporal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_parahippocampal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_paracentral"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_parsOpercularis"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_parsOrbitalis"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_parsTriangularis"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_pericalcarine"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_postcentral"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_posteriorCingulate"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_precentral"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_precuneus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_rostralAnteriorCingulate"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_rostralMiddleFrontal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_superiorFrontal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_superiorParietal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_superiorTemporal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_supramarginal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_transverseTemporal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKT Atlas_insula"
+      }
+    ]
+  },
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/DKTA_p101-MNI152"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/DKTA_p101-fsaverage"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/DKTA_p40-fsaverage"
+    }
+  ],
+  "homepage": "https://osf.io/kgdey/wiki/home/",
+  "shortName": "DKT Atlas"
+}

@@ -218,22 +218,26 @@ def generate_atlas_versions(entity_path, versions):
                 altVersion_list_of_dic = []
                 Version_https = "https://openminds.ebrains.eu/instances/brainAtlasVersion/"
                 altVersions = dic.get(version).get("altVersion")
-                for altVersion in altVersions:
-                    altVersion_dic = {"@id": f"{Version_https}{altVersion}"}
-                    altVersion_list_of_dic.append(altVersion_dic)
+                if altVersions is not None:
+                    for altVersion in altVersions:
+                        altVersion_dic = {"@id": f"{Version_https}{altVersion}"}
+                        altVersion_list_of_dic.append(altVersion_dic)
                 # newVersion
                 newVersion_list_of_dic = []
                 newVersions = dic.get(version).get("newVersion")
-                for newVersion in newVersions:
-                    newVersion_dic = {"@id": f"{Version_https}{newVersion}"}
-                    newVersion_list_of_dic.append(newVersion_dic)
+                if newVersions is not None:
+                    for newVersion in newVersions:
+                        newVersion_dic = {"@id": f"{Version_https}{newVersion}"}
+                        newVersion_list_of_dic.append(newVersion_dic)
 
                 # create atlas version instance
                 atlas_version = basic.add_SANDS_brainAtlasVersion(license= license_dic, coordinateSpace= coordinate_space_dic,
                                                                   versionInnovation= version_innovation, accessibility= accessibility_dic,
                                                                   releaseDate= release_date, shortName= short_name, hasTerminology= terminology_dic,
-                                                                  fullDocumentation= docu_dic, versionIdentifier=version_identifier, isAlternativeVersionOF=altVersion_list_of_dic,
-                                                                  isNewVersionOf=newVersion_list_of_dic)
+                                                                  fullDocumentation= docu_dic, versionIdentifier=version_identifier)
+
+                basic.get(atlas_version).isAlternativeVersionOf = altVersion_list_of_dic
+                basic.get(atlas_version).isNewVersionOf = newVersion_list_of_dic
                 basic.get(atlas_version).homepage = dic.get(version).get("homepage")
                 basic.get(atlas_version).author = authors_list_of_dic
                 basic.get(atlas_version).type = {"@id": f"https://openminds.ebrains.eu/instances/atlasType/"
@@ -244,6 +248,7 @@ def generate_atlas_versions(entity_path, versions):
             latest = max(glob.glob("./instances/brainAtlasVersion/*jsonld"))
             with open(latest, 'r') as f:
                 data = json.load(f)
+                data = replace_empty_lists(data)
                 data["@id"] = f"https://openminds.ebrains.eu/instances/brainAtlasVersion/{version}"
             # write content to new file
             json_target = open(f"{entity_path}{version}{j}", "w")
@@ -326,6 +331,17 @@ def entity_version_instance_generation(file_path, area, identifier, version):
         json.dump(data, json_target, indent=2, sort_keys=True)
         json_target.write("\n")
         json_target.close()
+
+
+def replace_empty_lists(obj):
+    if isinstance(obj, list) and not obj:
+        return None
+    elif isinstance(obj, dict):
+        return {k: replace_empty_lists(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [replace_empty_lists(elem) for elem in obj]
+    else:
+        return obj
 
 
 if __name__ == '__main__':

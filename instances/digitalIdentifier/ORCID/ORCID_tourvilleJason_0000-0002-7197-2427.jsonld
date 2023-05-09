@@ -1,0 +1,8 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/ORCID/ORCID_tourvilleJason_0000-0002-7197-2427",
+  "@type": "https://openminds.ebrains.eu/core/ORCID",
+  "identifier": "https://orcid.org/0000-0002-7197-2427"
+}
