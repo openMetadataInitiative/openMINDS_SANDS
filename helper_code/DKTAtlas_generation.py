@@ -352,6 +352,7 @@ if __name__ == '__main__':
     j = ".jsonld"
     p = "./instances/"
 
+
     # person dir
     person_dir = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/person/"
     os.mkdir(person_dir)
