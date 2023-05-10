@@ -391,5 +391,5 @@ if __name__ == '__main__':
     generate_atlas(atlas_dir, DKT_authors,
                    versions, description, shortName, fullName, homepage, main_documentation, areas)
     generate_atlas_versions(atlas_version_dir, versions)
-    #generate_entities(entity_dir, versions, abbreviation, areas)
+    generate_entities(entity_dir, versions, abbreviation, areas)
     #generate_entity_versions(entity_ver_dir, versions)
