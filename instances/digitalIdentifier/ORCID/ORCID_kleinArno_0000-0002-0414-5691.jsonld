@@ -1,8 +1,0 @@
-{
-  "@context": {
-    "@vocab": "https://openminds.ebrains.eu/vocab/"
-  },
-  "@id": "https://openminds.ebrains.eu/instances/ORCID/ORCID_kleinArno_0000-0002-0414-5691",
-  "@type": "https://openminds.ebrains.eu/core/ORCID",
-  "identifier": "https://orcid.org/0000-0002-0414-5691"
-}
