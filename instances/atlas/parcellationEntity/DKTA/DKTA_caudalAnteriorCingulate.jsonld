@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKTA_caudalAnteriorCingulate",
+  "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+  "hasVersion": null,
+  "lookupLabel": "DKTA_https://localhost/parcellationEntity/b3e6ef2e-f328-11ed-b26f-00155d76b461",
+  "name": "caudalAnteriorCingulate"
+}

@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKTA_supramarginal",
+  "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+  "hasVersion": null,
+  "lookupLabel": "DKTA_https://localhost/parcellationEntity/b4016a48-f328-11ed-b26f-00155d76b461",
+  "name": "supramarginal"
+}

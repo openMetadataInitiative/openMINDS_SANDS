@@ -124,7 +124,8 @@ def entity_gen(name, *lists):
         children_areas = list[0]
         for item in children_areas:
             entity_dic = {"@id" : f"{entity_https}{name}_{item}"}
-            has_entity_listofdic.append(entity_dic)
+            if not entity_dic in has_entity_listofdic:
+                has_entity_listofdic.append(entity_dic)
     return has_entity_listofdic
 
 
@@ -261,7 +262,7 @@ def terminology_versions(dic, version):
     has_entity_listofdic = []
     parcellation_entity_version_https = "https://openminds.ebrains.eu/instances/parcellationEntityVersion/"
     version_entities = dic.get(version).get("areas")
-    for area in version_entities.keys():
+    for area in version_entities[0]:
         entity_version_dic = {"@id": f"{parcellation_entity_version_https}{version}_{area}"}
         has_entity_listofdic.append(entity_version_dic)
     terminology_dic = {"@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
@@ -306,19 +307,29 @@ def generate_entities(path, versions, abbreviation):
     for dic in versions:
         for version in dic.keys():
             # solution: change data structures to indidictae how many levels of parents tehre are and loop over them
-
-            entities = flatten_dict(dic.get(version).get("areas"))
-            print(entities)
-            for entity in entities:
-                # check whether this entity is a primary structure (or parent structure) and extract the different versions of this eneity,
-                entity_version_list = []
-                if entity in version["areas"].keys():
-                    print(f"{entity} is part of the areas of {version}")
-                    entity_version_list = search_version(versions, entity)
-                entity_path = f"{path}{abbreviation}_{entity}{j}"
-                parent_structure_list = get_first_value(version["areas"], entity)
-                entity_instance_generation(entity, abbreviation, entity_path, entity_version_list, parent_structure_list)
-
+            entities = dic.get(version).get("areas")
+            # loop over child-parent list of lists to retrieve info, entity-level means: child: 1st parent: 2nd paretns etc.
+            for k, entity_level in enumerate(entities):
+                for i, entity in enumerate(entity_level):
+                    # retrieve version list for each entity, this can be done more ellegatnly in the furture
+                    entity_version_list = []
+                    if k == 0:
+                        for dic in versions:
+                            for version in dic.keys():
+                                if any(entity == version_area for version_area in dic.get(version).get("areas")):
+                                    entity_version_list.append(version)
+                                    print(entity_version_list)
+                    # set entity  path
+                    entity_path = f"{path}{abbreviation}_{entity}{j}"
+                    # retrieve parent structure list using the index (i) and checking adjacent lists in the entitites
+                    # [k+1] ensures that the child is skipped and only the parenting structures are searched for
+                    # might need to be updated if different parent structures on the same lavel are included
+                    parent_structure_list = []
+                    if k < len(entities) - 1:
+                        if entities[k+1] is not None:
+                            parent_structure_list = entities[k+1][i]
+                    # finaly generate the entitiy instance
+                    entity_instance_generation(entity, abbreviation, entity_path, entity_version_list, parent_structure_list)
 
 def entity_instance_generation(entity, abbreviation, entity_path, entity_version_list, parent_structure_list):
     if not os.path.isfile(entity_path):
@@ -337,13 +348,14 @@ def entity_instance_generation(entity, abbreviation, entity_path, entity_version
         basic.get(entity).hasVersion = has_version_listOfdic
         basic.save(p)
 
-        # parent structures
+        # parent structures TODO CONTINUE HERE: only first parent or others as well?
         has_parent_listOfdic = []
         parent_https = "https://openminds.ebrains.eu/instances/parcellationEntity/"
         if parent_structure_list:
             for parent in parent_structure_list:
-                has_parent_dic = {"@id": f"{parent_https}{abbreviation}_{parent}"}
-                has_parent_listOfdic.append(has_parent_dic)
+                if parent is not None:
+                    has_parent_dic = {"@id": f"{parent_https}{abbreviation}_{parent}"}
+                    has_parent_listOfdic.append(has_parent_dic)
 
         # copy contents of created file
         latest = max(glob.glob("./instances/parcellationEntity/*jsonld"))
