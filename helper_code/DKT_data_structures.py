@@ -12,25 +12,22 @@ def data_structures():
     shortName = "DKT Atlas"
     homepage = "https://osf.io/kgdey/wiki/home/"
 
-    # Data Structures for PEs
-    # areas = ["caudalAnteriorCingulate", "caudalMiddleFrontal","cuneus",
-    #          "entorhinal", "fusiform", "inferiorParietal",
-    #          "inferiorTemporal", "isthmusCingulate", "lateralOccipital",
-    #          "lateralOrbitofrontal","lingual","medialOrbitofrontal",
-    #          "middleTemporal","parahippocampal","paracentral","parsOpercularis",
-    #          "parsOrbitalis","parsTriangularis", "pericalcarine", "postcentral", "posteriorCingulate", "precentral", "precuneus",
-    #          "rostralAnteriorCingulate", "rostralMiddleFrontal", "superiorFrontal", "superiorParietal", "superiorTemporal", "supramarginal", "transverseTemporal", "insula"]
 
-    areas_1stParent = ["medialTemporalLobe", "lateralTemporalLobe", "frontalLobe", "parietalLobe", "occipitalLobe", "cingulateCortex"]
-    areas_2ndParent = ["brain"]
-    areas_parent_matched = {"caudalAnteriorCingulate": "cingulateCortex", "caudalMiddleFrontal": "frontalLobe", "cuneus": "occipitalLobe",
-             "entorhinal": "medialTemporalLobe", "fusiform": "medialTemporalLobe", "inferiorParietal": "parietalLobe",
-             "inferiorTemporal": "lateralTemporalLobe", "isthmusCingulate": "cingulateCortex", "lateralOccipital": "occipitalLobe",
-             "lateralOrbitofrontal": "frontalLobe", "lingual": "occipitalLobe", "medialOrbitofrontal": "frontalLobe",
-             "middleTemporal": "lateralTemporalLobe" ,"parahippocampal": "medialTemporalLobe","paracentral": "frontalLobe", "parsOpercularis": "frontalLobe",
-             "parsOrbitalis": "frontalLobe", "parsTriangularis": "frontalLobe", "pericalcarine": "occipitalLobe", "postcentral": "parietalLobe", "posteriorCingulate": "cingulateCortex", "precentral": "frontalLobe", "precuneus": "parietalLobe",
-             "rostralAnteriorCingulate": "cingulateCortex", "rostralMiddleFrontal": "frontalLobe", "superiorFrontal": "frontalLobe", "superiorParietal": "parietalLobe", "superiorTemporal": "lateralTemporalLobe", "supramarginal": "parietalLobe", "transverseTemporal": "lateralTemporalLobe", "insula": None}
-    areas = {outer_key: {outer_value: areas_2ndParent[0]} for outer_key, outer_value in areas_parent_matched.items()}
+    # areas_parent_matched = {"caudalAnteriorCingulate": "cingulateCortex", "caudalMiddleFrontal": "frontalLobe", "cuneus": "occipitalLobe",
+    #          "entorhinal": "medialTemporalLobe", "fusiform": "medialTemporalLobe", "inferiorParietal": "parietalLobe",
+    #          "inferiorTemporal": "lateralTemporalLobe", "isthmusCingulate": "cingulateCortex", "lateralOccipital": "occipitalLobe",
+    #          "lateralOrbitofrontal": "frontalLobe", "lingual": "occipitalLobe", "medialOrbitofrontal": "frontalLobe",
+    #          "middleTemporal": "lateralTemporalLobe" ,"parahippocampal": "medialTemporalLobe","paracentral": "frontalLobe", "parsOpercularis": "frontalLobe",
+    #          "parsOrbitalis": "frontalLobe", "parsTriangularis": "frontalLobe", "pericalcarine": "occipitalLobe", "postcentral": "parietalLobe", "posteriorCingulate": "cingulateCortex", "precentral": "frontalLobe", "precuneus": "parietalLobe",
+    #          "rostralAnteriorCingulate": "cingulateCortex", "rostralMiddleFrontal": "frontalLobe", "superiorFrontal": "frontalLobe", "superiorParietal": "parietalLobe", "superiorTemporal": "lateralTemporalLobe", "supramarginal": "parietalLobe", "transverseTemporal": "lateralTemporalLobe", "insula": None}
+    # IMPORTANT = ALSO STORE CHILDEREN IN THE FIRST LIST
+    areas_children = ['caudalAnteriorCingulate', 'caudalMiddleFrontal', 'cuneus', 'entorhinal', 'fusiform', 'inferiorParietal', 'inferiorTemporal', 'isthmusCingulate', 'lateralOccipital', 'lateralOrbitofrontal', 'lingual', 'medialOrbitofrontal', 'middleTemporal', 'parahippocampal', 'paracentral', 'parsOpercularis', 'parsOrbitalis', 'parsTriangularis', 'pericalcarine', 'postcentral', 'posteriorCingulate', 'precentral', 'precuneus', 'rostralAnteriorCingulate', 'rostralMiddleFrontal', 'superiorFrontal', 'superiorParietal', 'superiorTemporal', 'supramarginal', 'transverseTemporal', 'insula']
+    areas_1st_parent = ['cingulateCortex', 'frontalLobe', 'occipitalLobe', 'medialTemporalLobe', 'medialTemporalLobe', 'parietalLobe', 'lateralTemporalLobe', 'cingulateCortex', 'occipitalLobe', 'frontalLobe', 'occipitalLobe', 'frontalLobe', 'lateralTemporalLobe', 'medialTemporalLobe', 'frontalLobe', 'frontalLobe', 'frontalLobe', 'frontalLobe', 'occipitalLobe', 'parietalLobe', 'cingulateCortex', 'frontalLobe', 'parietalLobe', 'cingulateCortex', 'frontalLobe', 'frontalLobe', 'parietalLobe', 'lateralTemporalLobe', 'parietalLobe', 'lateralTemporalLobe', None]
+    # areas_2nd_parent = ["brain" for _ in range(len(areas_1st_parent))]
+    # areas = {outer_key: {outer_value: areas_2ndParent[0]} for outer_key, outer_value in areas_parent_matched.items()}
+    areas_2nd_parent = ['brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', None]
+    # IMPORTANT = ALSO STORE CHILDEREN IN THE FIRST LIST
+    areas = [areas_children, areas_1st_parent, areas_2nd_parent]
 
  # Data Structures for all VERSIONS (BAVs, PEVs)
 

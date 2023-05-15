@@ -121,7 +121,8 @@ def entity_gen(name, *lists):
     has_entity_listofdic = []
     entity_https = "https://openminds.ebrains.eu/instances/parcellationEntity/"
     for list in lists:
-        for item in list:
+        children_areas = list[0]
+        for item in children_areas:
             entity_dic = {"@id" : f"{entity_https}{name}_{item}"}
             has_entity_listofdic.append(entity_dic)
     return has_entity_listofdic
@@ -304,6 +305,8 @@ def generate_entities(path, versions, abbreviation):
     """create person directories, files and instances ind a semi-automatic manner"""
     for dic in versions:
         for version in dic.keys():
+            # solution: change data structures to indidictae how many levels of parents tehre are and loop over them
+
             entities = flatten_dict(dic.get(version).get("areas"))
             print(entities)
             for entity in entities:
