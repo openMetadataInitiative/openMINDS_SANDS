@@ -116,25 +116,22 @@ def author_gen(listofdic):
     return author_listofdic
 
 
-def entity_gen(name, *lists):
+def entity_gen(name, *entities):
     # entity creation
     has_entity_listofdic = []
     entity_https = "https://openminds.ebrains.eu/instances/parcellationEntity/"
-    for list in lists:
-        children_areas = list[0]
-        for item in children_areas:
-            entity_dic = {"@id" : f"{entity_https}{name}_{item}"}
-            if not entity_dic in has_entity_listofdic:
-                has_entity_listofdic.append(entity_dic)
+    for area in entities:
+        entity_dic = {"@id" : f"{entity_https}{name}_{area}"}
+        has_entity_listofdic.append(entity_dic)
     return has_entity_listofdic
 
 
-def terminology_gen(name, *lists):
+def terminology_gen(name, *areas):
     # terminology creation
     has_terminology_dic = {}
     has_terminology_dic["@type"] = "https://openminds.ebrains.eu/sands/ParcellationTerminology"
     has_terminology_dic["definedIn"] = None
-    has_terminology_dic["hasEntity"] = entity_gen(name, *lists)
+    has_terminology_dic["hasEntity"] = entity_gen(name, *areas)
     return has_terminology_dic
 
 
@@ -148,12 +145,12 @@ def version_gen(listofdic):
     return has_version_listofdic
 
 
-def generate_atlas(path, mars_authors, docu, info, sName, fName, page, maindoc, abbreviation, *regions):
+def generate_atlas(path, mars_authors, versions, info, sName, fName, page, maindoc, abbreviation, *areas):
     # generate atlas
     atlas = basic.add_SANDS_brainAtlas(description=info, shortName=sName, fullName=fName,
                                        author=author_gen(mars_authors),
-                                       hasTerminology=terminology_gen(abbreviation, *regions),
-                                       hasVersion=version_gen(docu))
+                                       hasTerminology=terminology_gen(abbreviation, *areas),
+                                       hasVersion=version_gen(versions))
     basic.get(atlas).custodian = [{"@id": "https://openminds.ebrains.eu/instances/person/kleinArno"}]
     basic.get(atlas).digitalIdentifier = [{"@id": f"{maindoc}"}]
     basic.get(atlas).homepage = page
@@ -172,7 +169,7 @@ def generate_atlas(path, mars_authors, docu, info, sName, fName, page, maindoc, 
     json_target.close()
 
 
-def generate_atlas_versions(entity_path, versions):
+def generate_atlas_versions(entity_path, versions, areas_versions_hierachry):
     if not os.path.isfile(entity_path):
         for dic in versions:
             for version in dic.keys():
@@ -195,11 +192,11 @@ def generate_atlas_versions(entity_path, versions):
                 # authors
                 authors_list_of_dic = authors_version(dic, version)
                 # terminology
-                terminology_dic = terminology_versions(dic, version)
+                terminology_dic = terminology_versions(version, areas_versions_hierachry)
                 # altVersion
-                Version_https, altVersion_list_of_dic = alternativeVersions(dic, version)
+                version_https, altVersion_list_of_dic = alternativeVersions(dic, version)
                 # newVersion
-                newVersion_list_of_dic = newerVersion(Version_https, dic, version)
+                newVersion_list_of_dic = newerVersion(version_https, dic, version)
                 # create atlas version instance
                 atlasVersionInstance_creation(accessibility_dic, altVersion_list_of_dic, authors_list_of_dic,
                                               coordinate_space_dic, dic, docu_dic, license_dic, newVersion_list_of_dic,
@@ -237,32 +234,36 @@ def atlasVersionInstance_creation(accessibility_dic, altVersion_list_of_dic, aut
     basic.save(p)
 
 
-def newerVersion(Version_https, dic, version):
+def newerVersion(version_https, dic, version):
     newVersion_list_of_dic = []
     newVersions = dic.get(version).get("newVersion")
     if newVersions is not None:
+        print("Not None!")
         for newVersion in newVersions:
-            newVersion_dic = {"@id": f"{Version_https}{newVersion}"}
+            newVersion_dic = {"@id": f"{version_https}{newVersion}"}
             newVersion_list_of_dic.append(newVersion_dic)
+            print(newVersion_list_of_dic)
     return newVersion_list_of_dic
 
 
 def alternativeVersions(dic, version):
     altVersion_list_of_dic = []
-    Version_https = "https://openminds.ebrains.eu/instances/brainAtlasVersion/"
+    version_https = "https://openminds.ebrains.eu/instances/brainAtlasVersion/"
     altVersions = dic.get(version).get("altVersion")
     if altVersions is not None:
+        print("Not None!")
         for altVersion in altVersions:
-            altVersion_dic = {"@id": f"{Version_https}{altVersion}"}
+            altVersion_dic = {"@id": f"{version_https}{altVersion}"}
             altVersion_list_of_dic.append(altVersion_dic)
-    return Version_https, altVersion_list_of_dic
+            print(altVersion_list_of_dic)
+    return version_https, altVersion_list_of_dic
 
 
-def terminology_versions(dic, version):
+def terminology_versions(version, areas_versions_hierachry):
     has_entity_listofdic = []
     parcellation_entity_version_https = "https://openminds.ebrains.eu/instances/parcellationEntityVersion/"
-    version_entities = dic.get(version).get("areas")
-    for area in version_entities[0]:
+    version_entities = areas_versions_hierachry.get(version)[0]
+    for area in version_entities:
         entity_version_dic = {"@id": f"{parcellation_entity_version_https}{version}_{area}"}
         has_entity_listofdic.append(entity_version_dic)
     terminology_dic = {"@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
@@ -302,36 +303,33 @@ def license(dic, version):
     return license_dic
 
 
-def generate_entities(path, versions, abbreviation):
-    """create person directories, files and instances ind a semi-automatic manner"""
-    for dic in versions:
-        for version in dic.keys():
-            # solution: change data structures to indidictae how many levels of parents tehre are and loop over them
-            entities = dic.get(version).get("areas")
-            # loop over child-parent list of lists to retrieve info, entity-level means: child: 1st parent: 2nd paretns etc.
-            for k, entity_level in enumerate(entities):
-                for i, entity in enumerate(entity_level):
-                    # retrieve version list for each entity, this can be done more ellegatnly in the furture
-                    entity_version_list = []
-                    if k == 0:
-                        for dic in versions:
-                            for version in dic.keys():
-                                if any(entity == version_area for version_area in dic.get(version).get("areas")):
-                                    entity_version_list.append(version)
-                                    print(entity_version_list)
-                    # set entity  path
-                    entity_path = f"{path}{abbreviation}_{entity}{j}"
-                    # retrieve parent structure list using the index (i) and checking adjacent lists in the entitites
-                    # [k+1] ensures that the child is skipped and only the parenting structures are searched for
-                    # might need to be updated if different parent structures on the same lavel are included
-                    parent_structure_list = []
-                    if k < len(entities) - 1:
-                        if entities[k+1] is not None:
-                            parent_structure_list = entities[k+1][i]
-                    # finaly generate the entitiy instance
-                    entity_instance_generation(entity, abbreviation, entity_path, entity_version_list, parent_structure_list)
+def generate_entities(path, abbreviation, areas_versions_hierachry, *args):
+    """create parcellation entitites using unique children and parent structures previously defined
+    in the data structure module, +args is used to """
+    # parent structures TODO CONTINUE HERE: include bollean to determine whether parent structures need to be generated based on versions or not, this right here works if that is to be the case
+
+    for area in args:
+
+        #version and parent structures as well as the path for the entity generation
+        parent_structure_list = []
+        entity_version_list = []
+        entity_path = f"{path}{abbreviation}_{area}{j}"
+
+        # check whether they are part of a specific version, add version
+        for version, areas_version in areas_versions_hierachry.items():
+            if any(area in tuple for tuple in areas_version):
+                entity_version_list.append(version)
+                # loop over the areas of the version to extract the parent structures
+                for i, tuple in enumerate(areas_version):
+                    if area in tuple:
+                        parent_structure_list.extend(areas_version[i][tuple.index(area):])
+                        break
+        # create entity
+        entity_instance_generation(area, abbreviation, entity_path, entity_version_list, parent_structure_list)
 
 def entity_instance_generation(entity, abbreviation, entity_path, entity_version_list, parent_structure_list):
+    # parent structures TODO CONTINUE HERE: include bollean to determine whether parent structures need to be generated based on versions or not
+
     if not os.path.isfile(entity_path):
 
         # create entity isntance
@@ -459,7 +457,8 @@ def get_first_value(data_list, search_term):
 if __name__ == '__main__':
 
     # get DKT Data
-    DKT_authors, full_documentation, main_documentation, description, abbreviation, fullName, shortName, homepage, areas, versions = DKT_data_structures.data_structures()
+    DKT_authors, full_documentation, main_documentation, description, abbreviation, fullName, \
+        shortName, homepage, versions, areas_versions_hierachry, areas_unique, parents_unique = DKT_data_structures.data_structures()
     # helper vars
     j = ".jsonld"
     p = "./instances/"
@@ -500,7 +499,7 @@ if __name__ == '__main__':
     generate_dois(doi_dir, full_documentation)
     generate_orcids(orcid_dir, DKT_authors)
     generate_atlas(atlas_dir, DKT_authors,
-                   versions, description, shortName, fullName, homepage, main_documentation, abbreviation, areas)
-    generate_atlas_versions(atlas_version_dir, versions)
-    generate_entities(entity_dir, versions, abbreviation)
+                   versions, description, shortName, fullName, homepage, main_documentation, abbreviation, areas_unique, parents_unique)
+    generate_atlas_versions(atlas_version_dir, versions, areas_versions_hierachry)
+    generate_entities(entity_dir, versions, abbreviation, areas_versions_hierachry, areas_unique, parents_unique)
     #generate_entity_versions(entity_ver_dir, versions)
