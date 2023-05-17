@@ -5,8 +5,8 @@
   "@id": "https://openminds.ebrains.eu/instances/person/kleinArno",
   "@type": "https://openminds.ebrains.eu/core/Person",
   "digitalIdentifier": {
-    "@id": "https://orcid.org/0000-0002-7197-2427"
+    "@id": "https://orcid.org/0000-0002-0414-5691"
   },
-  "familyName": "Tourville",
-  "givenName": "Jason"
+  "familyName": "Klein",
+  "givenName": "Arno"
 }

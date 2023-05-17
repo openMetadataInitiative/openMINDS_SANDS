@@ -22,18 +22,7 @@ def data_structures():
     # zip list to store as tuples
     areas = list(zip(areas_children, areas_1st_parent, areas_2nd_parent))
 
-    # unique areas for BA
-    areas_unique = set()
-    for value_list in areas_versions_hierachry.values():
-        for tuple_value in value_list:
-            first_entry = tuple_value[0]
-            areas_unique.add(first_entry)
 
-    # unique parents
-    parents_unique = set()
-    for value_list in areas_versions_hierachry.values():
-        for tuple_value in value_list:
-            parents_unique.update(tuple_value[1:])
 
     # atlas info
     DKT_authors = [{"kleinArno" : {"familyName" : "Klein", "givenName" : "Arno", "ORCID" : "https://orcid.org/0000-0002-0414-5691"}},
@@ -73,6 +62,18 @@ def data_structures():
     # area for each version for BAVs and PE
     areas_versions_hierachry = {"DKTA_p101-MNI152": areas, "DKTA_p101-fsaverage": areas, "DKTA_p40-fsaverage": areas}
 
+    # unique areas for BA
+    areas_unique = set()
+    for value_list in areas_versions_hierachry.values():
+        for tuple_value in value_list:
+            first_entry = tuple_value[0]
+            areas_unique.add(first_entry)
+
+    # unique parents
+    parents_unique = set()
+    for value_list in areas_versions_hierachry.values():
+        for tuple_value in value_list:
+            parents_unique.update(tuple_value[1:])
 
     return (DKT_authors, full_documentation, main_documentation, description, abbreviation, fullName, shortName, homepage, versions, areas_versions_hierachry, areas_unique, parents_unique)
 

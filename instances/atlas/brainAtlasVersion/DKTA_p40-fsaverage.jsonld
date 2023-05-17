@@ -29,10 +29,94 @@
         "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_caudalAnteriorCingulate"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_cingulateCortex"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_caudalMiddleFrontal"
       },
       {
-        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_brain"
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_cuneus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_entorhinal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_fusiform"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_inferiorParietal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_inferiorTemporal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_isthmusCingulate"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_lateralOccipital"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_lateralOrbitofrontal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_lingual"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_medialOrbitofrontal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_middleTemporal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_parahippocampal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_paracentral"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_parsOpercularis"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_parsOrbitalis"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_parsTriangularis"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_pericalcarine"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_postcentral"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_posteriorCingulate"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_precentral"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_precuneus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_rostralAnteriorCingulate"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_rostralMiddleFrontal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_superiorFrontal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_superiorParietal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_superiorTemporal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_supramarginal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_transverseTemporal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_insula"
       }
     ]
   },

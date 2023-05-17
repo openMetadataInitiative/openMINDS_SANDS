@@ -120,9 +120,11 @@ def entity_gen(name, *entities):
     # entity creation
     has_entity_listofdic = []
     entity_https = "https://openminds.ebrains.eu/instances/parcellationEntity/"
-    for area in entities:
-        entity_dic = {"@id" : f"{entity_https}{name}_{area}"}
-        has_entity_listofdic.append(entity_dic)
+    for set in entities:
+        for area in set:
+            if area is not None:
+                entity_dic = {"@id" : f"{entity_https}{name}_{area}"}
+                has_entity_listofdic.append(entity_dic)
     return has_entity_listofdic
 
 
@@ -262,7 +264,9 @@ def alternativeVersions(dic, version):
 def terminology_versions(version, areas_versions_hierachry):
     has_entity_listofdic = []
     parcellation_entity_version_https = "https://openminds.ebrains.eu/instances/parcellationEntityVersion/"
-    version_entities = areas_versions_hierachry.get(version)[0]
+    # the following variable defines that we just want the "child" structure, we may improve this in the future for cases where
+    # we have version specific parent structures
+    version_entities = (t[0] for t in areas_versions_hierachry[version])
     for area in version_entities:
         entity_version_dic = {"@id": f"{parcellation_entity_version_https}{version}_{area}"}
         has_entity_listofdic.append(entity_version_dic)
@@ -303,7 +307,7 @@ def license(dic, version):
     return license_dic
 
 
-def generate_entities(path, abbreviation, areas_versions_hierachry, parent_versions=False, areas_unique, parents_unique):
+def generate_entities(path, abbreviation, areas_versions_hierachry, areas_unique, parents_unique):
     """create parcellation entitites using unique children and parent structures previously defined
     in the data structure module"""
 
@@ -336,25 +340,25 @@ def version_parent_extraction(abbreviation, area, areas_versions_hierachry, path
                 # loop over the areas of the version to extract the parent structures
             for i, tuple in enumerate(areas_version):
                 if area in tuple:
-                    parent_structure_list.extend(areas_version[i][tuple.index(area):])
-                    break
+                    parent_structure_list.extend(areas_version[i][tuple.index(area)+1:])
+                    continue
     return entity_path, entity_version_list, parent_structure_list
 
 
-def entity_instance_generation(entity, abbreviation, entity_path, entity_version_list, parent_structure_list):
+def entity_instance_generation(area, abbreviation, entity_path, entity_version_list, parent_structure_list):
     """instance creation of parcellation entitites"""
     if not os.path.isfile(entity_path):
 
         # create entity isntance
-        entity = basic.add_SANDS_parcellationEntity(name=entity)
-        basic.get(entity).lookupLabel = f"{abbreviation}_{entity}"
+        entity = basic.add_SANDS_parcellationEntity(name=area)
+        basic.get(entity).lookupLabel = f"{abbreviation}_{area}"
 
         # add entity version creation
         has_version_listOfdic = []
         entity_version_https = "https://openminds.ebrains.eu/instances/parcellationEntityVersion/"
         if entity_version_list:
             for version in entity_version_list:
-                has_version_dic = {"@id": f"{entity_version_https}{version}_{entity}"}
+                has_version_dic = {"@id": f"{entity_version_https}{version}_{area}"}
                 has_version_listOfdic.append(has_version_dic)
         basic.get(entity).hasVersion = has_version_listOfdic
 
@@ -513,5 +517,5 @@ if __name__ == '__main__':
     generate_atlas(atlas_dir, DKT_authors,
                    versions, description, shortName, fullName, homepage, main_documentation, abbreviation, areas_unique, parents_unique)
     generate_atlas_versions(atlas_version_dir, versions, areas_versions_hierachry)
-    generate_entities(entity_dir, versions, abbreviation, areas_versions_hierachry, areas_unique, parents_unique)
+    generate_entities(entity_dir, abbreviation, areas_versions_hierachry, areas_unique, parents_unique)
     #generate_entity_versions(entity_ver_dir, versions)
