@@ -303,40 +303,53 @@ def license(dic, version):
     return license_dic
 
 
-def generate_entities(path, abbreviation, areas_versions_hierachry, *args):
+def generate_entities(path, abbreviation, areas_versions_hierachry, parent_versions=False, areas_unique, parents_unique):
     """create parcellation entitites using unique children and parent structures previously defined
-    in the data structure module, +args is used to """
-    # parent structures TODO CONTINUE HERE: include bollean to determine whether parent structures need to be generated based on versions or not, this right here works if that is to be the case
+    in the data structure module"""
 
-    for area in args:
-
+    for area in areas_unique:
         #version and parent structures as well as the path for the entity generation
-        parent_structure_list = []
-        entity_version_list = []
-        entity_path = f"{path}{abbreviation}_{area}{j}"
-
-        # check whether they are part of a specific version, add version
-        for version, areas_version in areas_versions_hierachry.items():
-            if any(area in tuple for tuple in areas_version):
-                entity_version_list.append(version)
-                # loop over the areas of the version to extract the parent structures
-                for i, tuple in enumerate(areas_version):
-                    if area in tuple:
-                        parent_structure_list.extend(areas_version[i][tuple.index(area):])
-                        break
+        entity_path, entity_version_list, parent_structure_list = version_parent_extraction(abbreviation, area,
+                                                                                            areas_versions_hierachry,
+                                                                                            path)
         # create entity
         entity_instance_generation(area, abbreviation, entity_path, entity_version_list, parent_structure_list)
 
-def entity_instance_generation(entity, abbreviation, entity_path, entity_version_list, parent_structure_list):
-    # parent structures TODO CONTINUE HERE: include bollean to determine whether parent structures need to be generated based on versions or not
+    for area in parents_unique:
+        #version and parent structures as well as the path for the entity generation
+        entity_path, entity_version_list, parent_structure_list = version_parent_extraction(abbreviation, area,
+                                                                                            areas_versions_hierachry,
+                                                                                   path, parent_versions=False)
+        # create entity
+        entity_instance_generation(area, abbreviation, entity_path, entity_version_list, parent_structure_list)
 
+
+def version_parent_extraction(abbreviation, area, areas_versions_hierachry, path, parent_versions=True):
+    parent_structure_list = []
+    entity_version_list = []
+    entity_path = f"{path}{abbreviation}_{area}{j}"
+    # check whether they are part of a specific version, add version
+    for version, areas_version in areas_versions_hierachry.items():
+        if any(area in tuple for tuple in areas_version):
+            if parent_versions:
+                entity_version_list.append(version)
+                # loop over the areas of the version to extract the parent structures
+            for i, tuple in enumerate(areas_version):
+                if area in tuple:
+                    parent_structure_list.extend(areas_version[i][tuple.index(area):])
+                    break
+    return entity_path, entity_version_list, parent_structure_list
+
+
+def entity_instance_generation(entity, abbreviation, entity_path, entity_version_list, parent_structure_list):
+    """instance creation of parcellation entitites"""
     if not os.path.isfile(entity_path):
 
         # create entity isntance
         entity = basic.add_SANDS_parcellationEntity(name=entity)
         basic.get(entity).lookupLabel = f"{abbreviation}_{entity}"
 
-        # entity version creation
+        # add entity version creation
         has_version_listOfdic = []
         entity_version_https = "https://openminds.ebrains.eu/instances/parcellationEntityVersion/"
         if entity_version_list:
@@ -344,16 +357,15 @@ def entity_instance_generation(entity, abbreviation, entity_path, entity_version
                 has_version_dic = {"@id": f"{entity_version_https}{version}_{entity}"}
                 has_version_listOfdic.append(has_version_dic)
         basic.get(entity).hasVersion = has_version_listOfdic
-        basic.save(p)
 
-        # parent structures TODO CONTINUE HERE: only first parent or others as well?
+        # add parent structures
         has_parent_listOfdic = []
         parent_https = "https://openminds.ebrains.eu/instances/parcellationEntity/"
         if parent_structure_list:
-            for parent in parent_structure_list:
-                if parent is not None:
-                    has_parent_dic = {"@id": f"{parent_https}{abbreviation}_{parent}"}
-                    has_parent_listOfdic.append(has_parent_dic)
+            has_parent_dic = {"@id": f"{parent_https}{abbreviation}_{parent_structure_list[0]}"}
+            has_parent_listOfdic.append(has_parent_dic)
+        basic.get(entity).hasParent = has_parent_listOfdic
+        basic.save(p)
 
         # copy contents of created file
         latest = max(glob.glob("./instances/parcellationEntity/*jsonld"))
