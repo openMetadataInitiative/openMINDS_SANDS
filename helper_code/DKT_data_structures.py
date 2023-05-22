@@ -1,6 +1,6 @@
 
 def data_structures():
-    # Brain Area Info for each version (can be the same)
+    # Brain Area Info for each version (can be the same) THIS NEEDS TO BE SAME LENGTH FOR ALL AREAS
     areas_children = ['caudalAnteriorCingulate', 'caudalMiddleFrontal', 'cuneus', 'entorhinal', 'fusiform',
                       'inferiorParietal', 'inferiorTemporal', 'isthmusCingulate', 'lateralOccipital',
                       'lateralOrbitofrontal', 'lingual', 'medialOrbitofrontal', 'middleTemporal', 'parahippocampal',
@@ -44,19 +44,25 @@ def data_structures():
                                       "version_innovation": "Joint fusion volume atlas version of the DKT atlas",
                                       "release_date": "2016-07-11", "short_name": "DKT Atlas", "homepage": "https://osf.io/kgdey/",
                                       "license":"CC BY-NC-ND 3.0", "digitalIdentifier": "https://doi.org/10.3389/fnins.2012.00171",
-                                      "full_doc_name": "DKTA_p101-MNI152", "authors": ["kleinArno", "tourvilleJason"], "altVersion": ["DKTA_p101-fsaverage"]}},
+                                      "full_doc_name": "DKTA_p101-MNI152", "authors": ["kleinArno", "tourvilleJason"], "altVersion": ["DKTA_p101-fsaverage"],
+                                      "criteriaQualityType": "asserted", "annotationCriteriaType": ["deterministicAnnotation", "probabalisticAnnotation"],
+                                      "laterality": ["left", "right"]}},
                 {"DKTA_p101-fsaverage": {"reference_space" : "MNI_ICBM_152_2009c_nonlin_asym",
                                              "accessibility": "freeAccess", "atlasType": "parcellationScheme", "version_identifier": "101 participants, fsaverage",
                                              "version_innovation": "Cortical surface atlas version of the DKT atlas derived from 101 participants",
                                              "release_date": "2016-07-11", "short_name": "DKT Atlas", "homepage": "https://osf.io/kgdey/",
                                              "license":"CC BY-NC-ND 3.0", "digitalIdentifier": "https://doi.org/10.3389/fnins.2012.00171",
-                                             "full_doc_name": "DKTA_p101-fsaverage", "authors": ["kleinArno", "tourvilleJason"], "altVersion": ["DKTA_p101-MNI152"], "newVersion": ["DKTA_p40-fsaverage"]}},
+                                             "full_doc_name": "DKTA_p101-fsaverage", "authors": ["kleinArno", "tourvilleJason"], "altVersion": ["DKTA_p101-MNI152"], "newVersion": ["DKTA_p40-fsaverage"],
+                                             "criteriaQualityType": "asserted", "annotationCriteriaType": ["deterministicAnnotation"],
+                                             "laterality": ["left", "right"]}},
                 {"DKTA_p40-fsaverage": {"reference_space": "fsaverage_5",
                                             "accessibility": "freeAccess", "atlasType": "parcellationScheme", "version_identifier": "40 participants, fsaverage",
                                             "version_innovation": "Cortical surface atlas version of the DKT atlas from 40 participants",
                                             "release_date": "2016-07-11", "short_name": "DKT Atlas", "homepage": "https://osf.io/kgdey/",
                                             "license": "CC BY-NC-ND 3.0", "digitalIdentifier": " https://doi.org/10.3389/fnins.2012.00171",
-                                            "full_doc_name": "DKTA_p40-fsaverage", "authors": ["kleinArno", "tourvilleJason"]}},
+                                            "full_doc_name": "DKTA_p40-fsaverage", "authors": ["kleinArno", "tourvilleJason"],
+                                            "criteriaQualityType": "asserted", "annotationCriteriaType": ["deterministicAnnotation"],
+                                            "laterality": ["left", "right"]}}
                 ]
 
     # area for each version for BAVs and PE

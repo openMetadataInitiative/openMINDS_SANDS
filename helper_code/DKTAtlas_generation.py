@@ -313,36 +313,44 @@ def generate_entities(path, abbreviation, areas_versions_hierachry, areas_unique
 
     for area in areas_unique:
         #version and parent structures as well as the path for the entity generation
-        entity_path, entity_version_list, parent_structure_list = version_parent_extraction(abbreviation, area,
-                                                                                            areas_versions_hierachry,
-                                                                                            path)
+        entity_path = f"{path}{abbreviation}_{area}{j}"
+        entity_version_list = version_extraction_PE(area, areas_versions_hierachry)
+        parent_structure_list = parent_extraction_PE(area, areas_versions_hierachry)
         # create entity
-        entity_instance_generation(area, abbreviation, entity_path, entity_version_list, parent_structure_list)
+        if area is not None:
+            entity_instance_generation(area, abbreviation, entity_path, entity_version_list, parent_structure_list)
 
     for area in parents_unique:
         #version and parent structures as well as the path for the entity generation
-        entity_path, entity_version_list, parent_structure_list = version_parent_extraction(abbreviation, area,
-                                                                                            areas_versions_hierachry,
-                                                                                   path, parent_versions=False)
+        entity_path = f"{path}{abbreviation}_{area}{j}"
+        entity_version_list = version_extraction_PE(area, areas_versions_hierachry, parent_versions=False)
+        parent_structure_list = parent_extraction_PE(area, areas_versions_hierachry)
         # create entity
-        entity_instance_generation(area, abbreviation, entity_path, entity_version_list, parent_structure_list)
+        if area is not None:
+            entity_instance_generation(area, abbreviation, entity_path, entity_version_list, parent_structure_list)
 
 
-def version_parent_extraction(abbreviation, area, areas_versions_hierachry, path, parent_versions=True):
-    parent_structure_list = []
+def version_extraction_PE(area, areas_versions_hierachry, parent_versions=True):
     entity_version_list = []
-    entity_path = f"{path}{abbreviation}_{area}{j}"
     # check whether they are part of a specific version, add version
     for version, areas_version in areas_versions_hierachry.items():
         if any(area in tuple for tuple in areas_version):
             if parent_versions:
                 entity_version_list.append(version)
-                # loop over the areas of the version to extract the parent structures
+    return entity_version_list
+
+
+def parent_extraction_PE(area, areas_versions_hierachry):
+    parent_structure_list = []
+    # check whether they are part of a specific version, add version
+    for version, areas_version in areas_versions_hierachry.items():
+        if any(area in tuple for tuple in areas_version):
+            # loop over the areas of the version to extract the parent structures
             for i, tuple in enumerate(areas_version):
-                if area in tuple:
+                if area in tuple and area is not None:
                     parent_structure_list.extend(areas_version[i][tuple.index(area)+1:])
                     continue
-    return entity_path, entity_version_list, parent_structure_list
+    return parent_structure_list
 
 
 def entity_instance_generation(area, abbreviation, entity_path, entity_version_list, parent_structure_list):
@@ -385,23 +393,50 @@ def entity_instance_generation(area, abbreviation, entity_path, entity_version_l
         json_target.close()
 
 
-def generate_entity_versions(path, versions):
+def generate_entity_versions(path, areas_versions_hierachry, versions):
     """create person directories, files and instances ind a semi-automatic manner"""
     # if not os.path.isfile(path):
-    for dic in versions:
-        for version in dic.keys():
-            for area in dic.get(version).get("areas"):
-                entity_ver_path = f"{path}{version}/"
-                entity_ver_file_path = f"{entity_ver_path}{version}_{area}{j}"
-                version_identifier = dic.get(version).get("version_identifier")
-                entity_version_instance_generation(entity_ver_file_path, area, version_identifier, version)
+    for version, areas_version in areas_versions_hierachry.items():
+        entity_ver_path = f"{path}{version}/"
+        version_identifier = dic.get(version).get("version_identifier")
+        for area_tuple in areas_version:
+            area = area_tuple[0]
+            parent = area_tuple[1]
+            entity_ver_file_path = f"{entity_ver_path}{version}_{area}{j}"
+            entity_version_instance_generation(entity_ver_file_path, area, parent, version, versions)
 
 
-def entity_version_instance_generation(file_path, area, identifier, version):
+def entity_version_instance_generation(file_path, area, parent, version, versions):
     if not os.path.isfile(file_path):
-        # create entity version isntance
-        entity_version = basic.add_SANDS_parcellationEntityVersion(name=area, versionIdentifier=identifier)
+        # get version identifier
+        for dic in versions:
+           if version in dic.keys():
+               global version_identifier = dic.get(version).get("version_identifier")
+               global criteriaQualityType = dic.get(version).get("criteriaQualityType")
+               global annotationCriteriaType = dic.get(version).get("annotationCriteriaType")
+               global laterality = dic.get(version).get("laterality")
+               break
+
+        # intiliaize instance
+        entity_version = basic.add_SANDS_parcellationEntityVersion(name=area, versionIdentifier=version_identifier)
         basic.get(entity_version).lookupLabel = f"{version}_{area}"
+
+        # parent info
+        has_parent_listOfdic = []
+        parent_https = "https://openminds.ebrains.eu/instances/parcellationEntity/"
+        if parent is not None:
+            has_parent_dic = {"@id": f"{parent_https}{abbreviation}_{parent}"}
+            has_parent_listOfdic.append(has_parent_dic)
+        basic.get(entity_version).hasParent = has_parent_listOfdic
+
+
+        # annotation info needs annotation instance info in den sta structures,
+        for quality in range(criteriaQualityType):
+            for criteria in range(annotationCriteriaType):
+                for lat in range(laterality):
+                    basic.get(entity_version).hasAnnotation = basic.add_SANDS_annotationCriteriaType(
+                        criteriaQualityType=quality,criteriaType=criteria,laterality=lat)
+
         basic.save(p)
 
         # copy contents of created file
@@ -410,6 +445,7 @@ def entity_version_instance_generation(file_path, area, identifier, version):
             data = json.load(f)
             entity_ver_name = os.path.basename(file_path).replace(j, "")
             data["@id"] = f"https://openminds.ebrains.eu/instances/parcellationEntityVersion/{entity_ver_name}"
+
         # write content to new file
         json_target = open(file_path, "w")
         json.dump(data, json_target, indent=2, sort_keys=True)
@@ -518,4 +554,4 @@ if __name__ == '__main__':
                    versions, description, shortName, fullName, homepage, main_documentation, abbreviation, areas_unique, parents_unique)
     generate_atlas_versions(atlas_version_dir, versions, areas_versions_hierachry)
     generate_entities(entity_dir, abbreviation, areas_versions_hierachry, areas_unique, parents_unique)
-    #generate_entity_versions(entity_ver_dir, versions)
+    generate_entity_versions(entity_ver_dir, areas_versions_hierachry, versions)
