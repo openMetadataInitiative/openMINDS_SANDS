@@ -398,7 +398,6 @@ def generate_entity_versions(path, areas_versions_hierachry, versions):
     # if not os.path.isfile(path):
     for version, areas_version in areas_versions_hierachry.items():
         entity_ver_path = f"{path}{version}/"
-        version_identifier = dic.get(version).get("version_identifier")
         for area_tuple in areas_version:
             area = area_tuple[0]
             parent = area_tuple[1]
@@ -411,10 +410,16 @@ def entity_version_instance_generation(file_path, area, parent, version, version
         # get version identifier
         for dic in versions:
            if version in dic.keys():
-               global version_identifier = dic.get(version).get("version_identifier")
-               global criteriaQualityType = dic.get(version).get("criteriaQualityType")
-               global annotationCriteriaType = dic.get(version).get("annotationCriteriaType")
-               global laterality = dic.get(version).get("laterality")
+               global version_identifier
+               version_identifier = dic.get(version).get("version_identifier")
+               global criteriaQualityType
+               criteriaQualityType = dic.get(version).get("criteriaQualityType")
+               global annotationCriteriaType
+               annotationCriteriaType = dic.get(version).get("annotationCriteriaType")
+               global laterality
+               laterality = dic.get(version).get("laterality")
+               global type
+               type = dic.get(version).get("annotationType")
                break
 
         # intiliaize instance
@@ -431,11 +436,13 @@ def entity_version_instance_generation(file_path, area, parent, version, version
 
 
         # annotation info needs annotation instance info in den sta structures,
-        for quality in range(criteriaQualityType):
-            for criteria in range(annotationCriteriaType):
-                for lat in range(laterality):
-                    basic.get(entity_version).hasAnnotation = basic.add_SANDS_annotationCriteriaType(
-                        criteriaQualityType=quality,criteriaType=criteria,laterality=lat)
+        for quality in criteriaQualityType:
+            for criteria in annotationCriteriaType:
+                for lat in laterality:
+                    annotation = basic.add_SANDS_atlasAnnotation(criteriaQualityType=quality, criteriaType=criteria,
+                                                                 type=type)
+                    basic.get(annotation).laterality = lat
+                    basic.get(entity_version).hasAnnotation = annotation
 
         basic.save(p)
 
@@ -443,6 +450,7 @@ def entity_version_instance_generation(file_path, area, parent, version, version
         latest = max(glob.glob("./instances/parcellationEntityVersion/*jsonld"))
         with open(latest, 'r') as f:
             data = json.load(f)
+            data = replace_empty_lists(data)
             entity_ver_name = os.path.basename(file_path).replace(j, "")
             data["@id"] = f"https://openminds.ebrains.eu/instances/parcellationEntityVersion/{entity_ver_name}"
 

@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-fsaverage_insula",
+  "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+  "hasAnnotation": "https://localhost/atlasAnnotation/2c8b802c-f8ae-11ed-a85b-00155d457650",
+  "hasParent": [],
+  "lookupLabel": "DKTA_p101-fsaverage_insula",
+  "name": "insula",
+  "versionIdentifier": "101 participants, fsaverage"
+}

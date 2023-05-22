@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_precentral",
+  "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+  "hasAnnotation": "https://localhost/atlasAnnotation/2b938c78-f8ae-11ed-a85b-00155d457650",
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKTA_frontalLobe"
+    }
+  ],
+  "lookupLabel": "DKTA_p101-MNI152_precentral",
+  "name": "precentral",
+  "versionIdentifier": "101 participants, MNI"
+}
