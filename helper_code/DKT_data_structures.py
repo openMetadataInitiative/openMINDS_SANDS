@@ -22,8 +22,6 @@ def data_structures():
     # zip list to store as tuples
     areas = list(zip(areas_children, areas_1st_parent, areas_2nd_parent))
 
-
-
     # atlas info
     DKT_authors = [{"kleinArno" : {"familyName" : "Klein", "givenName" : "Arno", "ORCID" : "https://orcid.org/0000-0002-0414-5691"}},
                    {"tourvilleJason" : {"familyName" : "Tourville", "givenName" : "Jason", "ORCID" : "https://orcid.org/0000-0002-7197-2427"}}]
@@ -36,14 +34,13 @@ def data_structures():
     shortName = "DKT Atlas"
     homepage = "https://osf.io/kgdey/wiki/home/"
 
-
     # Data Structures for all VERSIONS (BAVs, PEVs)
     # version info
     versions = [{"DKTA_p101-MNI152": {"reference_space": "MNI_ICBM_152_2009c_nonlin_asym",
                                       "accessibility": "freeAccess", "atlasType": "parcellationScheme", "version_identifier": "101 participants, MNI",
                                       "version_innovation": "Joint fusion volume atlas version of the DKT atlas",
                                       "release_date": "2016-07-11", "short_name": "DKT Atlas", "homepage": "https://osf.io/kgdey/",
-                                      "license":"CC BY-NC-ND 3.0", "digitalIdentifier": "https://doi.org/10.3389/fnins.2012.00171",
+                                      "license": "CC BY-NC-ND 3.0", "digitalIdentifier": "https://doi.org/10.3389/fnins.2012.00171",
                                       "full_doc_name": "DKTA_p101-MNI152", "authors": ["kleinArno", "tourvilleJason"], "altVersion": ["DKTA_p101-fsaverage"],
                                       "criteriaQualityType": ["asserted"], "annotationCriteriaType": ["deterministicAnnotation", "probabalisticAnnotation"],
                                       "laterality": ["left", "right"], "annotationType": ["annotationMask"]}},

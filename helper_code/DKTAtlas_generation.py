@@ -407,7 +407,7 @@ def generate_entity_versions(path, areas_versions_hierachry, versions):
 
 def entity_version_instance_generation(file_path, area, parent, version, versions):
     if not os.path.isfile(file_path):
-        # get version identifier
+        # get version identifier and annotation infos
         for dic in versions:
            if version in dic.keys():
                global version_identifier
@@ -434,19 +434,14 @@ def entity_version_instance_generation(file_path, area, parent, version, version
             has_parent_listOfdic.append(has_parent_dic)
         basic.get(entity_version).hasParent = has_parent_listOfdic
 
+        # annotation info
+        has_annotation_listOfdic = get_annotation(annotationCriteriaType, criteriaQualityType, laterality, type)
+        basic.get(entity_version).hasAnnotation = has_annotation_listOfdic
 
-        # annotation info needs annotation instance info in den sta structures,
-        for quality in criteriaQualityType:
-            for criteria in annotationCriteriaType:
-                for lat in laterality:
-                    annotation = basic.add_SANDS_atlasAnnotation(criteriaQualityType=quality, criteriaType=criteria,
-                                                                 type=type)
-                    basic.get(annotation).laterality = lat
-                    basic.get(entity_version).hasAnnotation = annotation
-
+        # save instance
         basic.save(p)
 
-        # copy contents of created file
+        # copy contents of saved instance
         latest = max(glob.glob("./instances/parcellationEntityVersion/*jsonld"))
         with open(latest, 'r') as f:
             data = json.load(f)
@@ -454,11 +449,35 @@ def entity_version_instance_generation(file_path, area, parent, version, version
             entity_ver_name = os.path.basename(file_path).replace(j, "")
             data["@id"] = f"https://openminds.ebrains.eu/instances/parcellationEntityVersion/{entity_ver_name}"
 
+
         # write content to new file
         json_target = open(file_path, "w")
         json.dump(data, json_target, indent=2, sort_keys=True)
         json_target.write("\n")
         json_target.close()
+
+
+def get_annotation(annotationCriteriaType, criteriaQualityType, laterality, type):
+    has_annotation_listOfdic = []
+    for quality in criteriaQualityType:
+        for criteria in annotationCriteriaType:
+            for lat in laterality:
+                annotation = addon.add_SANDS_atlasAnnotation(criteriaQualityType=quality, criteriaType=criteria,
+                                                             type=type)
+                addon.get(annotation).laterality = lat
+                addon.save(p)
+                latest = max(glob.glob("./instances/atlasAnnotation/*jsonld"))
+                with open(latest, 'r') as f:
+                    data = json.load(f)
+                    data = replace_empty_lists(data)
+                    del data["@id"]
+                    data["laterality"] = {"@id": f"https://openminds.ebrains.eu/instances/laterality/{lat}"}
+                    data["criteriaType"] = {"@id": f"https://openminds.ebrains.eu/instances/annotationCriteriaType/{criteria}"}
+                    data["criteriaQualityType"] = {"@id": f"https://openminds.ebrains.eu/instances/criteriaQualityType/{quality}"}
+                    data["type"] = {"@id": f"https://openminds.ebrains.eu/controlledTerms/AnnotationType/{type}"}
+                    has_annotation_listOfdic.append(data)
+                f.close()
+    return has_annotation_listOfdic
 
 
 def replace_empty_lists(obj):
@@ -470,48 +489,6 @@ def replace_empty_lists(obj):
         return [replace_empty_lists(elem) for elem in obj]
     else:
         return obj
-
-def flatten_dict(d):
-    flat = set()
-    for key, value in d.items():
-        if isinstance(value, dict):
-            flat.update(flatten_dict(value))
-        else:
-            flat.add(key)
-            flat.add(value)
-    return flat
-
-
-def search_version(data, search_term):
-    results = []
-    if isinstance(data, dict):
-        for key, value in data.items():
-            if isinstance(value, dict) or isinstance(value, list):
-                results += search_version(value, search_term)
-            elif search_term in str(value) and key in data:
-                results.append(key)
-    elif isinstance(data, list):
-        for item in data:
-            results += search_version(item, search_term)
-    elif search_term in str(data):
-        pass
-    return results
-
-
-def get_first_value(data_list, search_term):
-    result_list = []
-    for data in data_list:
-        for key, value in data.items():
-            if key == search_term:
-                if isinstance(value, dict):
-                    result_list.append(next(iter(value.values())))
-                else:
-                    result_list.append(value)
-            elif isinstance(value, dict):
-                result = get_first_value([value], search_term)
-                if result:
-                    result_list.append(result[0])
-    return result_list
 
 
 if __name__ == '__main__':
@@ -553,6 +530,7 @@ if __name__ == '__main__':
     openMINDS.version_manager.version_selection('v3')
     helper = openMINDS.Helper()
     basic = helper.create_collection()
+    addon = helper.create_collection()
 
     # function calling
     generate_persons(person_dir, DKT_authors)

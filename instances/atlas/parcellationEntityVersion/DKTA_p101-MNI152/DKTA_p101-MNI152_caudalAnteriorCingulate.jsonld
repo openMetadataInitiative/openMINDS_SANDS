@@ -4,7 +4,6 @@
   },
   "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_caudalAnteriorCingulate",
   "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
-  "hasAnnotation": "https://localhost/atlasAnnotation/2b1c3394-f8ae-11ed-a85b-00155d457650",
   "hasParent": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKTA_cingulateCortex"

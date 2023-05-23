@@ -4,8 +4,7 @@
   },
   "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_insula",
   "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
-  "hasAnnotation": "https://localhost/atlasAnnotation/2bcd3dd8-f8ae-11ed-a85b-00155d457650",
-  "hasParent": [],
+  "hasParent": null,
   "lookupLabel": "DKTA_p101-MNI152_insula",
   "name": "insula",
   "versionIdentifier": "101 participants, MNI"
