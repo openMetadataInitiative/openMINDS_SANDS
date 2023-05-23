@@ -123,17 +123,15 @@ def entity_gen(name, *entities):
     for set in entities:
         for area in set:
             if area is not None:
-                entity_dic = {"@id" : f"{entity_https}{name}_{area}"}
+                entity_dic = {"@id": f"{entity_https}{name}_{area}"}
                 has_entity_listofdic.append(entity_dic)
     return has_entity_listofdic
 
 
 def terminology_gen(name, *areas):
     # terminology creation
-    has_terminology_dic = {}
-    has_terminology_dic["@type"] = "https://openminds.ebrains.eu/sands/ParcellationTerminology"
-    has_terminology_dic["definedIn"] = None
-    has_terminology_dic["hasEntity"] = entity_gen(name, *areas)
+    has_terminology_dic = {"@type": "https://openminds.ebrains.eu/sands/ParcellationTerminology", "definedIn": None,
+                           "hasEntity": entity_gen(name, *areas)}
     return has_terminology_dic
 
 
@@ -312,7 +310,7 @@ def generate_entities(path, abbreviation, areas_versions_hierachry, areas_unique
     in the data structure module"""
 
     for area in areas_unique:
-        #version and parent structures as well as the path for the entity generation
+        # version and parent structures as well as the path for the entity generation
         entity_path = f"{path}{abbreviation}_{area}{j}"
         entity_version_list = version_extraction_PE(area, areas_versions_hierachry)
         parent_structure_list = parent_extraction_PE(area, areas_versions_hierachry)
@@ -321,7 +319,7 @@ def generate_entities(path, abbreviation, areas_versions_hierachry, areas_unique
             entity_instance_generation(area, abbreviation, entity_path, entity_version_list, parent_structure_list)
 
     for area in parents_unique:
-        #version and parent structures as well as the path for the entity generation
+        # version and parent structures as well as the path for the entity generation
         entity_path = f"{path}{abbreviation}_{area}{j}"
         entity_version_list = version_extraction_PE(area, areas_versions_hierachry, parent_versions=False)
         parent_structure_list = parent_extraction_PE(area, areas_versions_hierachry)
@@ -471,6 +469,7 @@ def get_annotation(annotationCriteriaType, criteriaQualityType, laterality, type
                     data = json.load(f)
                     data = replace_empty_lists(data)
                     del data["@id"]
+                    del data["@context"]
                     data["laterality"] = {"@id": f"https://openminds.ebrains.eu/instances/laterality/{lat}"}
                     data["criteriaType"] = {"@id": f"https://openminds.ebrains.eu/instances/annotationCriteriaType/{criteria}"}
                     data["criteriaQualityType"] = {"@id": f"https://openminds.ebrains.eu/instances/criteriaQualityType/{quality}"}

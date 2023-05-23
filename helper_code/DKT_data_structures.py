@@ -43,7 +43,7 @@ def data_structures():
                                       "license": "CC BY-NC-ND 3.0", "digitalIdentifier": "https://doi.org/10.3389/fnins.2012.00171",
                                       "full_doc_name": "DKTA_p101-MNI152", "authors": ["kleinArno", "tourvilleJason"], "altVersion": ["DKTA_p101-fsaverage"],
                                       "criteriaQualityType": ["asserted"], "annotationCriteriaType": ["deterministicAnnotation", "probabalisticAnnotation"],
-                                      "laterality": ["left", "right"], "annotationType": ["annotationMask"]}},
+                                      "laterality": ["left", "right"], "annotationType": "annotationMask"}},
                 {"DKTA_p101-fsaverage": {"reference_space" : "MNI_ICBM_152_2009c_nonlin_asym",
                                              "accessibility": "freeAccess", "atlasType": "parcellationScheme", "version_identifier": "101 participants, fsaverage",
                                              "version_innovation": "Cortical surface atlas version of the DKT atlas derived from 101 participants",
@@ -51,7 +51,7 @@ def data_structures():
                                              "license":"CC BY-NC-ND 3.0", "digitalIdentifier": "https://doi.org/10.3389/fnins.2012.00171",
                                              "full_doc_name": "DKTA_p101-fsaverage", "authors": ["kleinArno", "tourvilleJason"], "altVersion": ["DKTA_p101-MNI152"], "newVersion": ["DKTA_p40-fsaverage"],
                                              "criteriaQualityType": ["asserted"], "annotationCriteriaType": ["deterministicAnnotation"],
-                                             "laterality": ["left", "right"], "annotationType": ["annotationSurface"]}},
+                                             "laterality": ["left", "right"], "annotationType": "annotationSurface"}},
                 {"DKTA_p40-fsaverage": {"reference_space": "fsaverage_5",
                                             "accessibility": "freeAccess", "atlasType": "parcellationScheme", "version_identifier": "40 participants, fsaverage",
                                             "version_innovation": "Cortical surface atlas version of the DKT atlas from 40 participants",
@@ -59,7 +59,7 @@ def data_structures():
                                             "license": "CC BY-NC-ND 3.0", "digitalIdentifier": " https://doi.org/10.3389/fnins.2012.00171",
                                             "full_doc_name": "DKTA_p40-fsaverage", "authors": ["kleinArno", "tourvilleJason"],
                                             "criteriaQualityType": ["asserted"], "annotationCriteriaType": ["deterministicAnnotation"],
-                                            "laterality": ["left", "right"], "annotationType": ["annotationSurface"]}}
+                                            "laterality": ["left", "right"], "annotationType": "annotationSurface"}}
                 ]
 
     # area for each version for BAVs and PE
