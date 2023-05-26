@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKTA_caudalAnteriorCingulate",
+  "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKTA_cingulateCortex"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_caudalAnteriorCingulate"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-fsaverage_caudalAnteriorCingulate"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_caudalAnteriorCingulate"
+    }
+  ],
+  "lookupLabel": "DKTA_caudalAnteriorCingulate",
+  "name": "caudalAnteriorCingulate"
+}
