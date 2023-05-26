@@ -4,11 +4,7 @@
   },
   "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKTA_insula",
   "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
-  "hasParent": [
-    {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKTA_None"
-    }
-  ],
+  "hasParent": null,
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_insula"

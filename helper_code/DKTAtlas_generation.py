@@ -343,7 +343,7 @@ def parent_extraction_PE(area, areas_versions_hierachry):
             for i, tuple in enumerate(areas_version):
                 if area in tuple and area is not None:
                     parent_structure_list.extend(areas_version[i][tuple.index(area)+1:])
-                    [x for x in parent_structure_list if x is not None]
+                    parent_structure_list= [x for x in parent_structure_list if x is not None]
                     continue
     return parent_structure_list
 
