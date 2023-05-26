@@ -238,11 +238,9 @@ def newerVersion(version_https, dic, version):
     newVersion_list_of_dic = []
     newVersions = dic.get(version).get("newVersion")
     if newVersions is not None:
-        print("Not None!")
         for newVersion in newVersions:
             newVersion_dic = {"@id": f"{version_https}{newVersion}"}
             newVersion_list_of_dic.append(newVersion_dic)
-            print(newVersion_list_of_dic)
     return newVersion_list_of_dic
 
 
@@ -251,11 +249,9 @@ def alternativeVersions(dic, version):
     version_https = "https://openminds.ebrains.eu/instances/brainAtlasVersion/"
     altVersions = dic.get(version).get("altVersion")
     if altVersions is not None:
-        print("Not None!")
         for altVersion in altVersions:
             altVersion_dic = {"@id": f"{version_https}{altVersion}"}
             altVersion_list_of_dic.append(altVersion_dic)
-            print(altVersion_list_of_dic)
     return version_https, altVersion_list_of_dic
 
 
@@ -347,6 +343,7 @@ def parent_extraction_PE(area, areas_versions_hierachry):
             for i, tuple in enumerate(areas_version):
                 if area in tuple and area is not None:
                     parent_structure_list.extend(areas_version[i][tuple.index(area)+1:])
+                    [x for x in parent_structure_list if x is not None]
                     continue
     return parent_structure_list
 

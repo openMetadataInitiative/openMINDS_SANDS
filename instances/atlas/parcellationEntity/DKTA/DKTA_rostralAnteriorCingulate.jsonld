@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKTA_rostralAnteriorCingulate",
+  "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKTA_cingulateCortex"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_rostralAnteriorCingulate"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-fsaverage_rostralAnteriorCingulate"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_rostralAnteriorCingulate"
+    }
+  ],
+  "lookupLabel": "DKTA_rostralAnteriorCingulate",
+  "name": "rostralAnteriorCingulate"
+}
