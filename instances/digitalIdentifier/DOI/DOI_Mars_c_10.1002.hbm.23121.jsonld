@@ -1,0 +1,8 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/DOI/DOI_Mars_c_10.1002.hbm.23121",
+  "@type": "https://openminds.ebrains.eu/core/DOI",
+  "identifier": "https://doi.org/10.1002/hbm.23121"
+}

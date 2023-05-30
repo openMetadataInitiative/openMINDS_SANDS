@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Mars_ventrolateralOrbitoFrontalCortex",
+  "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Mars_orbitoFrontal"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_ventrolateralOrbitoFrontalCortex"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_cs_ventrolateralOrbitoFrontalCortex"
+    }
+  ],
+  "lookupLabel": "Mars_ventrolateralOrbitoFrontalCortex",
+  "name": "ventrolateralOrbitoFrontalCortex"
+}

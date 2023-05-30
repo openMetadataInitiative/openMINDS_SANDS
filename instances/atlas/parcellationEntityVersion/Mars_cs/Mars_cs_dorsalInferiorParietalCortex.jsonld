@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_cs_dorsalInferiorParietalCortex",
+  "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+  "hasAnnotation": [
+    {
+      "@type": "https://openminds.ebrains.eu/SANDS/AtlasAnnotation",
+      "criteriaQualityType": {
+        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+      },
+      "criteriaType": {
+        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+      },
+      "laterality": {
+        "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+      },
+      "type": {
+        "@id": "https://openminds.ebrains.eu/controlledTerms/AnnotationType/annotationSurface"
+      }
+    },
+    {
+      "@type": "https://openminds.ebrains.eu/SANDS/AtlasAnnotation",
+      "criteriaQualityType": {
+        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+      },
+      "criteriaType": {
+        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+      },
+      "laterality": {
+        "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+      },
+      "type": {
+        "@id": "https://openminds.ebrains.eu/controlledTerms/AnnotationType/annotationSurface"
+      }
+    }
+  ],
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Mars_parietal"
+    }
+  ],
+  "lookupLabel": "Mars_cs_dorsalInferiorParietalCortex",
+  "name": "dorsalInferiorParietalCortex",
+  "versionIdentifier": "Mars Cortex + Subcortex, Collin27"
+}
