@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Mars_caudalDorsomedialPrefrontalCortex",
+  "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Mars_frontal"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_caudalDorsomedialPrefrontalCortex"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_cs_caudalDorsomedialPrefrontalCortex"
+    }
+  ],
+  "lookupLabel": "Mars_caudalDorsomedialPrefrontalCortex",
+  "name": "caudalDorsomedialPrefrontalCortex"
+}

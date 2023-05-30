@@ -1,0 +1,8 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/DOI/DOI_Mars_cs_10.1523.JNEUROSCI.1672-16.2016",
+  "@type": "https://openminds.ebrains.eu/core/DOI",
+  "identifier": "https://doi.org/10.1523/JNEUROSCI.1672-16.2016"
+}

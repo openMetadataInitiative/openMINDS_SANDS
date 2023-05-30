@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Mars_isthmusCingulateCortex",
+  "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Mars_cingular"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_isthmusCingulateCortex"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_cs_isthmusCingulateCortex"
+    }
+  ],
+  "lookupLabel": "Mars_isthmusCingulateCortex",
+  "name": "isthmusCingulateCortex"
+}
