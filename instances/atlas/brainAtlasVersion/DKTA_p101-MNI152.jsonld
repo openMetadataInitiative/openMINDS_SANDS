@@ -1,0 +1,140 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/DKTA_p101-MNI152",
+  "@type": "https://openminds.ebrains.eu/SANDS/BrainAtlasVersion",
+  "accessibility": {
+    "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
+  },
+  "author": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/person/kleinArno"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/person/tourvilleJason"
+    }
+  ],
+  "coordinateSpace": {
+    "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/MNI_ICBM_152_2009c_nonlin_asym"
+  },
+  "fullDocumentation": {
+    "@id": "https://doi.org/10.3389/fnins.2012.00171"
+  },
+  "hasTerminology": {
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
+    "definedIn": null,
+    "hasEntity": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_caudalAnteriorCingulate"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_caudalMiddleFrontal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_cuneus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_entorhinal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_fusiform"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_inferiorParietal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_inferiorTemporal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_isthmusCingulate"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_lateralOccipital"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_lateralOrbitofrontal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_lingual"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_medialOrbitofrontal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_middleTemporal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_parahippocampal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_paracentral"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_parsOpercularis"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_parsOrbitalis"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_parsTriangularis"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_pericalcarine"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_postcentral"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_posteriorCingulate"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_precentral"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_precuneus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_rostralAnteriorCingulate"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_rostralMiddleFrontal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_superiorFrontal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_superiorParietal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_superiorTemporal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_supramarginal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_transverseTemporal"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_insula"
+      }
+    ]
+  },
+  "homepage": "https://osf.io/kgdey/",
+  "isAlternativeVersionOf": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/DKTA_p101-fsaverage"
+    }
+  ],
+  "isNewVersionOf": null,
+  "license": {
+    "@id": "https://openminds.ebrains.eu/instances/licenses/ccByNcNd3.0"
+  },
+  "releaseDate": "2016-07-11",
+  "shortName": "DKT Atlas",
+  "type": {
+    "@id": "https://openminds.ebrains.eu/instances/atlasType/parcellationScheme"
+  },
+  "versionIdentifier": "101 participants, MNI",
+  "versionInnovation": "Joint fusion volume atlas version of the DKT atlas"
+}

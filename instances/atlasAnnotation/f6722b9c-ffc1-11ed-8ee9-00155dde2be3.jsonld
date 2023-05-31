@@ -1,0 +1,1 @@
+{"@id": "https://localhost/atlasAnnotation/f6722b9c-ffc1-11ed-8ee9-00155dde2be3", "@type": "https://openminds.ebrains.eu/SANDS/AtlasAnnotation", "criteriaQualityType": "asserted", "criteriaType": "deterministicAnnotation", "laterality": "left", "type": "annotationSurface", "@context": {"@vocab": "https://openminds.ebrains.eu/vocab/"}}

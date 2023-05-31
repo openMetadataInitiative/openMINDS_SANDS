@@ -1,0 +1,1 @@
+{"@id": "https://localhost/parcellationEntity/f517ad44-ffc1-11ed-8ee9-00155dde2be3", "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity", "hasParent": [], "hasVersion": [], "lookupLabel": "DKTA_brain", "name": "brain", "@context": {"@vocab": "https://openminds.ebrains.eu/vocab/"}}

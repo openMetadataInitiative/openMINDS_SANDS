@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKTA_posteriorCingulate",
+  "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKTA_cingulateCortex"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-MNI152_posteriorCingulate"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-fsaverage_posteriorCingulate"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p40-fsaverage_posteriorCingulate"
+    }
+  ],
+  "lookupLabel": "DKTA_posteriorCingulate",
+  "name": "posteriorCingulate"
+}
