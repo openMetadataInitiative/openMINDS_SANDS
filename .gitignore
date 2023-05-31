@@ -1,3 +1,10 @@
 target
 expanded
 venv
+/.github/
+/.idea/
+/code_dump/
+/examples/
+/img/
+/schemas/
+/tests/
