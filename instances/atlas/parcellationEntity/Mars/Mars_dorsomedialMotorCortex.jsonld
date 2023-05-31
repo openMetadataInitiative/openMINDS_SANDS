@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Mars_dorsomedialMotorCortex",
+  "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Mars_frontal"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_dorsomedialMotorCortex"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_cs_dorsomedialMotorCortex"
+    }
+  ],
+  "lookupLabel": "Mars_dorsomedialMotorCortex",
+  "name": "dorsomedialMotorCortex"
+}
