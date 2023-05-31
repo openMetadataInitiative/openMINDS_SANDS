@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/person/tourvilleJason",
+  "@type": "https://openminds.ebrains.eu/core/Person",
+  "digitalIdentifier": {
+    "@id": "https://orcid.org/0000-0002-7197-2427"
+  },
+  "familyName": "Tourville",
+  "givenName": "Jason"
+}
