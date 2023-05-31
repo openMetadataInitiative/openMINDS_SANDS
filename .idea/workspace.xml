@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56f4f992-f492-4202-9599-d35442bfa253" name="Changes" comment="branch setup">
+    <list default="true" id="56f4f992-f492-4202-9599-d35442bfa253" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helper_code/MarsAtlas_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/helper_code/MarsAtlas_generation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helper_code/Mars_data_structures.py" beforeDir="false" afterPath="$PROJECT_DIR$/helper_code/Mars_data_structures.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
