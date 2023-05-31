@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/person/bartolomeiFabrice",
+  "@type": "https://openminds.ebrains.eu/core/Person",
+  "digitalIdentifier": {
+    "@id": null
+  },
+  "familyName": "Bartolomei",
+  "givenName": "Fabrice"
+}

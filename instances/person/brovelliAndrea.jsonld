@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/person/brovelliAndrea",
+  "@type": "https://openminds.ebrains.eu/core/Person",
+  "digitalIdentifier": {
+    "@id": "https://orcid.org/0000-0002-5342-1330"
+  },
+  "familyName": "Brovelli",
+  "givenName": "Andrea"
+}

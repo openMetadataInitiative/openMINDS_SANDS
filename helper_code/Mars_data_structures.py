@@ -122,7 +122,7 @@ def data_structures():
                             "laterality": ["left", "right"], "annotationType": "annotationSurface"}},
                 {"Mars_cs": {"reference_space": "Colin27_1998",
                              "accessibility": "freeAccess", "atlasType": "parcellationScheme",
-                             "version_identifier": "Mars Cortex + Subcortex, Collin27",
+                             "version_identifier": "Mars Cortex + Subcortex, Colin27",
                              "version_innovation": "Mars Cortex + Subcortex Atlas",
                              "release_date": "2017-01-25", "short_name": "Mars_cs",
                              "homepage": "https://meca-brain.org/software/marsatlas-subcortical/",

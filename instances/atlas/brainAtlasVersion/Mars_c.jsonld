@@ -1,0 +1,173 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/Mars_c",
+  "@type": "https://openminds.ebrains.eu/SANDS/BrainAtlasVersion",
+  "accessibility": {
+    "@id": "https://openminds.ebrains.eu/instances/productAccessibility/freeAccess"
+  },
+  "author": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/person/auziasGuillaume"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/person/brovelliAndrea"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/person/coulonOlivier"
+    }
+  ],
+  "coordinateSpace": {
+    "@id": "https://openminds.ebrains.eu/instances/commonCoordinateSpace/Mars_HipHop138"
+  },
+  "fullDocumentation": {
+    "@id": "https://doi.org/10.1002/hbm.23121"
+  },
+  "hasTerminology": {
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationTerminologyVersion",
+    "definedIn": null,
+    "hasEntity": [
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_caudalMedialVisualCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_lateralVisualCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_superiorVisualCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_cuneus"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_rostralMedialVisualCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_medialInferiorTemporalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_rostralInferiorTemporalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_caudalMiddleTemporalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_caudalSuperiorTemporalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_rostralSuperiorTemporalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_rostralMiddleTemporalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_ventralInferiorParietalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_dorsalInferiorParietalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_superiorParietalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_medialSuperiorParietalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_medialParietalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_ventralSomatosensoryCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_dorsolateralSomatosensoryCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_dorsomedialSomatosensoryCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_isthmusCingulateCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_posteriorCingulateCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_midCingulateCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_anteriorCingulateCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_ventralMotorCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_dorsolateralMotorCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_dorsomedialMotorCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_rostralVentralPremotorCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_dorsolateralPremotorCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_dorsomedialPremotorCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_caudalDorsolateralPrefrontalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_caudalDorsomedialPrefrontalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_rostralVentrolateralPrefrontalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_rostralDorsolateralInferiorPrefrontalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_rostralDorsolateralSuperiorPrefrontalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_rostralDorsalPrefrontalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_rostralMedialPrefrontalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_ventrolateralOrbitoFrontalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_ventralOrbitoFrontalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_ventromedialOrbitoFrontalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_ventromedialPrefrontalCortex"
+      },
+      {
+        "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_insularCortex"
+      }
+    ]
+  },
+  "homepage": "https://meca-brain.org/software/marsatlas/",
+  "isAlternativeVersionOf": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/Mars_cs"
+    }
+  ],
+  "isNewVersionOf": null,
+  "license": {
+    "@id": "https://openminds.ebrains.eu/instances/licenses/cEcILL-B"
+  },
+  "releaseDate": "2016-01-27",
+  "shortName": "Mars_c",
+  "type": {
+    "@id": "https://openminds.ebrains.eu/instances/atlasType/parcellationScheme"
+  },
+  "versionIdentifier": "Mars Cortex, Mars_HipHop138 template",
+  "versionInnovation": "Mars Cortex Atlas"
+}
