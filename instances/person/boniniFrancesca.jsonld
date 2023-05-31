@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/person/boniniFrancesca",
+  "@type": "https://openminds.ebrains.eu/core/Person",
+  "digitalIdentifier": {
+    "@id": null
+  },
+  "familyName": "Bonini",
+  "givenName": "Francesca"
+}
