@@ -25,7 +25,7 @@ def orcid_instance_generation(orcid, orcid_path):
         basic.add_core_ORCID(identifier=orcid)
         basic.save(p)
         # copy contents of created file
-        latest = max(glob.glob("./instances/ORCID/*jsonld"))
+        latest = max(glob.glob(f"{p}ORCID/*jsonld"))
         with open(latest, 'r') as f:
             data = json.load(f)
             orcid_name = os.path.basename(orcid_path).replace(j, "")
@@ -57,7 +57,7 @@ def doi_instance_generation(doi, doi_path):
         basic.add_core_DOI(identifier=doi)
         basic.save(p)
         # copy contents of created file
-        latest = max(glob.glob("./instances/DOI/*jsonld"))
+        latest = max(glob.glob(f"{p}DOI/*jsonld"))
         with open(latest, 'r') as f:
             data = json.load(f)
             doi_name = os.path.basename(doi_path).replace(j, "")
@@ -91,7 +91,7 @@ def person_instance_generation(item, name, person_path):
         basic.get(author).digitalIdentifier = {"@id": item[name].get("ORCID")}
         basic.save(p)
         # copy contents of created file
-        latest = max(glob.glob("./instances/person/*jsonld"))
+        latest = max(glob.glob(f"{p}person/*jsonld"))
         with open(latest, 'r') as f:
             data = json.load(f)
             person_name = os.path.basename(person_path).replace(j, "")
@@ -156,7 +156,7 @@ def generate_atlas(path, mars_authors, versions, info, sName, fName, page, maind
     basic.get(atlas).homepage = page
     basic.save(p)
     # copy contents
-    latest = max(glob.glob("./instances/brainAtlas/*jsonld"))
+    latest = max(glob.glob(f"{p}brainAtlas/*jsonld"))
     with open(latest, 'r') as f:
         data = json.load(f)
         atlas_name = os.path.basename(path).replace(j, "")
@@ -204,7 +204,7 @@ def generate_atlas_versions(entity_path, versions, areas_versions_hierachry):
                                               version_innovation)
 
             # copy contents of created file
-            latest = max(glob.glob("./instances/brainAtlasVersion/*jsonld"))
+            latest = max(glob.glob(f"{p}brainAtlasVersion/*jsonld"))
             with open(latest, 'r') as f:
                 data = json.load(f)
                 data = replace_empty_lists(data)
@@ -375,7 +375,7 @@ def entity_instance_generation(area, abbreviation, entity_path, entity_version_l
         basic.save(p)
 
         # copy contents of created file
-        latest = max(glob.glob("./instances/parcellationEntity/*jsonld"))
+        latest = max(glob.glob(f"{p}parcellationEntity/*jsonld"))
         with open(latest, 'r') as f:
             data = json.load(f)
             data = replace_empty_lists(data)
@@ -437,7 +437,7 @@ def entity_version_instance_generation(file_path, area, parent, version, version
         basic.save(p)
 
         # copy contents of saved instance
-        latest = max(glob.glob("./instances/parcellationEntityVersion/*jsonld"))
+        latest = max(glob.glob(f"{p}parcellationEntityVersion/*jsonld"))
         with open(latest, 'r') as f:
             data = json.load(f)
             data = replace_empty_lists(data)
@@ -461,7 +461,7 @@ def get_annotation(annotationCriteriaType, criteriaQualityType, laterality, type
                                                              type=type)
                 addon.get(annotation).laterality = lat
                 addon.save(p)
-                latest = max(glob.glob("./instances/atlasAnnotation/*jsonld"))
+                latest = max(glob.glob(f"{p}atlasAnnotation/*jsonld"))
                 with open(latest, 'r') as f:
                     data = json.load(f)
                     data = replace_empty_lists(data)
@@ -494,7 +494,7 @@ if __name__ == '__main__':
         shortName, homepage, versions, areas_versions_hierachry, areas_unique, parents_unique = DKT_data_structures.data_structures()
     # helper vars
     j = ".jsonld"
-    p = "./instances/"
+    p = "./instances/PythonLibrary/"
 
     # person dir
     person_dir = "/home/kiwitz1/PycharmProjects/openMINDS_SANDS/instances/person/"
