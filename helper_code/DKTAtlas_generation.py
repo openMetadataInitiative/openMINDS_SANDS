@@ -497,26 +497,26 @@ if __name__ == '__main__':
     p = "./instances/"
 
     # person dir
-    person_dir = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/person/"
+    person_dir = "/home/kiwitz1/PycharmProjects/openMINDS_SANDS/instances/person/"
     os.mkdir(person_dir)
     # identifier dirs
-    identifier_dir = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/digitalIdentifier/"
+    identifier_dir = "/home/kiwitz1/PycharmProjects/openMINDS_SANDS/instances/digitalIdentifier/"
     os.mkdir(identifier_dir)
-    doi_dir = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/digitalIdentifier/DOI/"
+    doi_dir = "/home/kiwitz1/PycharmProjects/openMINDS_SANDS/instances/digitalIdentifier/DOI/"
     os.mkdir(doi_dir)
-    orcid_dir = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/digitalIdentifier/ORCID/"
+    orcid_dir = "/home/kiwitz1/PycharmProjects/openMINDS_SANDS/instances/digitalIdentifier/ORCID/"
     os.mkdir(orcid_dir)
 
     # atlas dir
-    atlas_dir = f"/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/brainAtlas/{fullName}{j}"
+    atlas_dir = f"/home/kiwitz1/PycharmProjects/openMINDS_SANDS/instances/atlas/brainAtlas/{fullName}{j}"
     # atlas version dir
-    atlas_version_dir = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/brainAtlasVersion/"
+    atlas_version_dir = "/home/kiwitz1/PycharmProjects/openMINDS_SANDS/instances/atlas/brainAtlasVersion/"
 
     # parcellation entity dir
-    entity_dir = f"/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntity/{abbreviation}/"
+    entity_dir = f"/home/kiwitz1/PycharmProjects/openMINDS_SANDS/instances/atlas/parcellationEntity/{abbreviation}/"
     os.mkdir(entity_dir)
     # parcellation entity version dirs
-    entity_ver_dir = "/home/kiwitz1/PycharmProjects/OpenMinds/openMINDS_SANDS/instances/atlas/parcellationEntityVersion/"
+    entity_ver_dir = "/home/kiwitz1/PycharmProjects/openMINDS_SANDS/instances/atlas/parcellationEntityVersion/"
     for dic in versions:
         for version in dic.keys():
             os.mkdir(f"{entity_ver_dir}{version}/")
