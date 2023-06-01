@@ -477,6 +477,7 @@ def get_annotation(annotationCriteriaType, criteriaQualityType, laterality, type
     return has_annotation_listOfdic
 
 
+
 def replace_empty_lists(obj):
     if isinstance(obj, list) and not obj:
         return None
