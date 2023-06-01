@@ -4,11 +4,186 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73243dd5-8337-4d2f-a3f7-aeb8f9499299" name="Changes" comment="branch setup" />
+    <list default="true" id="73243dd5-8337-4d2f-a3f7-aeb8f9499299" name="Changes" comment="branch setup">
+      <change afterPath="$PROJECT_DIR$/helper_code/DKTAtlas_generation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper_code/MarsAtlas_generation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper_code/Mars_data_structures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/brainAtlas/Desikan-Killiany-Tourville Atlas.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/brainAtlas/MarsAtlas.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/brainAtlasVersion/Mars_c.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/brainAtlasVersion/Mars_cs.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_accumbens.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_amygdala.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_anteriorCingulateCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_brain.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_caudalDorsolateralPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_caudalDorsomedialPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_caudalMedialVisualCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_caudalMiddleTemporalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_caudalSuperiorTemporalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_caudate.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_cingular.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_cuneus.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_dorsalInferiorParietalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_dorsolateralMotorCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_dorsolateralPremotorCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_dorsolateralSomatosensoryCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_dorsomedialMotorCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_dorsomedialPremotorCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_dorsomedialSomatosensoryCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_frontal.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_hippocampus.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_insula.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_insularCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_isthmusCingulateCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_lateralVisualCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_medialInferiorTemporalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_medialParietalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_medialSuperiorParietalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_midCingulateCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_occipital.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_orbitoFrontal.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_pallidum.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_parietal.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_posteriorCingulateCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_putamen.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_rostralDorsalPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_rostralDorsolateralInferiorPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_rostralDorsolateralSuperiorPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_rostralInferiorTemporalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_rostralMedialPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_rostralMedialVisualCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_rostralMiddleTemporalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_rostralSuperiorTemporalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_rostralVentralPremotorCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_rostralVentrolateralPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_subcortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_superiorParietalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_superiorVisualCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_temporal.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_thalamus.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_ventralInferiorParietalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_ventralMotorCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_ventralOrbitoFrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_ventralSomatosensoryCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_ventrolateralOrbitoFrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_ventromedialOrbitoFrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntity/Mars/Mars_ventromedialPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_anteriorCingulateCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_caudalDorsolateralPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_caudalDorsomedialPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_caudalMedialVisualCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_caudalMiddleTemporalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_caudalSuperiorTemporalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_cuneus.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_dorsalInferiorParietalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_dorsolateralMotorCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_dorsolateralPremotorCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_dorsolateralSomatosensoryCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_dorsomedialMotorCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_dorsomedialPremotorCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_dorsomedialSomatosensoryCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_insularCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_isthmusCingulateCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_lateralVisualCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_medialInferiorTemporalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_medialParietalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_medialSuperiorParietalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_midCingulateCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_posteriorCingulateCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_rostralDorsalPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_rostralDorsolateralInferiorPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_rostralDorsolateralSuperiorPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_rostralInferiorTemporalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_rostralMedialPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_rostralMedialVisualCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_rostralMiddleTemporalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_rostralSuperiorTemporalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_rostralVentralPremotorCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_rostralVentrolateralPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_superiorParietalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_superiorVisualCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_ventralInferiorParietalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_ventralMotorCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_ventralOrbitoFrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_ventralSomatosensoryCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_ventrolateralOrbitoFrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_ventromedialOrbitoFrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_c/Mars_c_ventromedialPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_accumbens.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_amygdala.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_anteriorCingulateCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_caudalDorsolateralPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_caudalDorsomedialPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_caudalMedialVisualCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_caudalMiddleTemporalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_caudalSuperiorTemporalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_caudate.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_cuneus.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_dorsalInferiorParietalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_dorsolateralMotorCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_dorsolateralPremotorCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_dorsolateralSomatosensoryCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_dorsomedialMotorCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_dorsomedialPremotorCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_dorsomedialSomatosensoryCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_hippocampus.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_insularCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_isthmusCingulateCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_lateralVisualCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_medialInferiorTemporalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_medialParietalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_medialSuperiorParietalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_midCingulateCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_pallidum.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_posteriorCingulateCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_putamen.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_rostralDorsalPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_rostralDorsolateralInferiorPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_rostralDorsolateralSuperiorPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_rostralInferiorTemporalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_rostralMedialPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_rostralMedialVisualCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_rostralMiddleTemporalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_rostralSuperiorTemporalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_rostralVentralPremotorCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_rostralVentrolateralPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_superiorParietalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_superiorVisualCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_thalamus.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_ventralInferiorParietalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_ventralMotorCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_ventralOrbitoFrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_ventralSomatosensoryCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_ventrolateralOrbitoFrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_ventromedialOrbitoFrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/atlas/parcellationEntityVersion/Mars_cs/Mars_cs_ventromedialPrefrontalCortex.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/digitalIdentifier/DOI/DOI_Mars_c_10.1002.hbm.23121.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/digitalIdentifier/DOI/DOI_Mars_cs_10.1523.JNEUROSCI.1672-16.2016.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/digitalIdentifier/ORCID/ORCID_auziasGuillaume_0000-0002-0414-5691.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/digitalIdentifier/ORCID/ORCID_badierJeanmichael_0000-0002-7272-6455.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/digitalIdentifier/ORCID/ORCID_brovelliAndrea_0000-0002-5342-1330.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/digitalIdentifier/ORCID/ORCID_coulonOlivier_0000-0003-4752-1228.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/person/auziasGuillaume.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/person/badierJeanmichael.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/person/bartolomeiFabrice.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/person/boniniFrancesca.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/person/brovelliAndrea.jsonld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances/person/coulonOlivier.jsonld" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -25,15 +200,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "/home/kiwitz1/PycharmProjects/openMINDS_SANDS",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kiwitz1/PycharmProjects/openMINDS_SANDS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PythonContentEntriesConfigurable&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/helper_code" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="branch setup">
