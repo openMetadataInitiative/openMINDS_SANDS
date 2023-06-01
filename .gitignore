@@ -1,6 +1,7 @@
 target
 expanded
 venv
+/code_dump/
 /.github/
 /.idea/
 /code_dump/
@@ -8,3 +9,11 @@ venv
 /img/
 /schemas/
 /tests/
+/venv/
+/img/
+/examples/
+/.idea/
+/.github/
+/schemas/
+/tests/
+/venv/

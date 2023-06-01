@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Mars_medialInferiorTemporalCortex",
+  "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntity",
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/Mars_temporal"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_c_medialInferiorTemporalCortex"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/Mars_cs_medialInferiorTemporalCortex"
+    }
+  ],
+  "lookupLabel": "Mars_medialInferiorTemporalCortex",
+  "name": "medialInferiorTemporalCortex"
+}
