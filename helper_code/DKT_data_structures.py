@@ -11,7 +11,7 @@ def data_structures():
     areas_1st_parent = ['cingulateCortex', 'frontalLobe', 'occipitalLobe', 'medialTemporalLobe', 'medialTemporalLobe',
                         'parietalLobe', 'lateralTemporalLobe', 'cingulateCortex', 'occipitalLobe', 'frontalLobe',
                         'occipitalLobe', 'frontalLobe', 'lateralTemporalLobe', 'medialTemporalLobe', 'frontalLobe',
-                        'frontalLobe', 'frontalLobe', 'frontalLobe', 'occipitalLobe', 'parietalLobe', 'cingulateCortex',
+                        "frontalLobe", 'frontalLobe', 'frontalLobe', 'occipitalLobe', 'parietalLobe', 'cingulateCortex',
                         "frontalLobe", 'parietalLobe', 'cingulateCortex', 'frontalLobe', 'frontalLobe', 'parietalLobe',
                         'lateralTemporalLobe', 'parietalLobe', 'lateralTemporalLobe', None]
     # areas = {outer_key: {outer_value: areas_2ndParent[0]} for outer_key, outer_value in areas_parent_matched.items()}
