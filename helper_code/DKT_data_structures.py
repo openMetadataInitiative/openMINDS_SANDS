@@ -8,16 +8,16 @@ def data_structures():
                       'postcentral', 'posteriorCingulate', 'precentral', 'precuneus', 'rostralAnteriorCingulate',
                       'rostralMiddleFrontal', 'superiorFrontal', 'superiorParietal', 'superiorTemporal',
                       'supramarginal', 'transverseTemporal', 'insula']
-    areas_1st_parent = ["cingulateCortex", 'frontalLobe', 'occipitalLobe', 'medialTemporalLobe', 'medialTemporalLobe',
+    areas_1st_parent = ['cingulateCortex', 'frontalLobe', 'occipitalLobe', 'medialTemporalLobe', 'medialTemporalLobe',
                         'parietalLobe', 'lateralTemporalLobe', 'cingulateCortex', 'occipitalLobe', 'frontalLobe',
                         'occipitalLobe', 'frontalLobe', 'lateralTemporalLobe', 'medialTemporalLobe', 'frontalLobe',
                         'frontalLobe', 'frontalLobe', 'frontalLobe', 'occipitalLobe', 'parietalLobe', 'cingulateCortex',
                         'frontalLobe', 'parietalLobe', 'cingulateCortex', 'frontalLobe', 'frontalLobe', 'parietalLobe',
                         'lateralTemporalLobe', 'parietalLobe', 'lateralTemporalLobe', None]
     # areas = {outer_key: {outer_value: areas_2ndParent[0]} for outer_key, outer_value in areas_parent_matched.items()}
-    areas_2nd_parent = ["brain", 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain',
+    areas_2nd_parent = ['brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain',
                         'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain',
-                        'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', None]
+                        "brain", 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', 'brain', None]
 
     # zip list to store as tuples
     areas = list(zip(areas_children, areas_1st_parent, areas_2nd_parent))

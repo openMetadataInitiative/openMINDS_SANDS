@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/DKTA_p101-fsaverage_isthmusCingulate",
+  "@type": "https://openminds.ebrains.eu/SANDS/ParcellationEntityVersion",
+  "hasAnnotation": [
+    {
+      "@type": "https://openminds.ebrains.eu/SANDS/AtlasAnnotation",
+      "criteriaQualityType": {
+        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/asserted"
+      },
+      "criteriaType": {
+        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+      },
+      "laterality": {
+        "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+      },
+      "type": {
+        "@id": "https://openminds.ebrains.eu/controlledTerms/AnnotationType/annotationSurface"
+      }
+    },
+    {
+      "@type": "https://openminds.ebrains.eu/SANDS/AtlasAnnotation",
+      "criteriaQualityType": {
+        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/asserted"
+      },
+      "criteriaType": {
+        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+      },
+      "laterality": {
+        "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+      },
+      "type": {
+        "@id": "https://openminds.ebrains.eu/controlledTerms/AnnotationType/annotationSurface"
+      }
+    }
+  ],
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/DKTA_cingulateCortex"
+    }
+  ],
+  "lookupLabel": "DKTA_p101-fsaverage_isthmusCingulate",
+  "name": "isthmusCingulate",
+  "versionIdentifier": "101 participants, fsaverage"
+}
