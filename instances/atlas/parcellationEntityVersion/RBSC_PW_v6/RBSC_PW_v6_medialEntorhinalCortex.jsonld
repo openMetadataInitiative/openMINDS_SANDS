@@ -1,0 +1,39 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/RBSC_PW_v6_medialEntorhinalCortex",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "hasAnnotation": [
+        {
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "bestViewPoint": null,
+            "criteria": null,
+            "criteriaQualityType": null,
+            "displayColor": null,
+            "inspiredBy": null,
+            "internalIdentifier": null,
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "visualizedIn": null
+        }
+    ],
+    "hasParent": null,
+    "lookupLabel": "RBSC_PW_v6_medialEntorhinalCortex",
+    "name": "medial entorhinal cortex",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v6",
+    "versionInnovation": null,
+    "correctedName": null,
+    "alternativeName": [
+        "MEnt"
+    ],
+    "additionalRemarks": null
+}
