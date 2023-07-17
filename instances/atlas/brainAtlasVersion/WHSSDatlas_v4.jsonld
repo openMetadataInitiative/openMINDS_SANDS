@@ -16,7 +16,7 @@
   "custodian": null,
   "description": null,
   "digitalIdentifier": "https://scicrunch.org/resolver/RRID:SCR_017124",
-  "fullDocumentation": null,
+  "fullDocumentation": "https://doi.org/10.21203/rs.3.rs-2466303/v1",
   "fullName": "Waxholm Space Atlas of the Sprague Dawley Rat Brain",
   "funding": null,
   "hasTerminology": {
@@ -705,7 +705,12 @@
   "majorVersionIdentifier": null,
   "ontologyIdentifier": null,
   "otherContribution": null,
-  "relatedPublication": null,
+  "relatedPublication": [
+	"https://doi.org/10.1016/j.neuroimage.2014.04.001",
+	"https://doi.org/10.1016/j.neuroimage.2014.10.017",
+	"https://doi.org/10.1016/j.neuroimage.2014.12.080",
+	"https://doi.org/10.1016/j.neuroimage.2019.05.016"  
+	],
   "releaseDate": "2021-10-01",
   "repository": null,
   "shortName": "Waxholm Space Rat Brain Atlas",
