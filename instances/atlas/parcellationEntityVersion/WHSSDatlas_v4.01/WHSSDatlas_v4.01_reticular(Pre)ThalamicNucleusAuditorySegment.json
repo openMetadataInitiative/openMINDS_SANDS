@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_reticular(Pre)ThalamicNucleusAuditorySegment",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "abbreviation": "RT-a",
+  "additionalRemarks": null,
+  "alternateName": [
+    "RT-a",
+    "reticular thalamic nucleus, auditory segment"
+  ],
+  "correctedName": null,
+  "hasAnnotation": [
+    {
+      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+      "anchorPoint": [
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 242.373259
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 556.652362
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 292.244195
+        }
+      ],
+      "criteria": "In sMRI, the reticular thalamic nucleus is hard to distinguish, particularly the auditory segment, which was arbitrarily delineated by extrapolation from the coordinates of electrophysiological rat studies, according to which it is situated in the caudal 1mm of the nucleus ventral to the visual segment, reaching slightly caudal to the rostral pole of the dorsal lateral geniculate body, and 0.7\u20130.8mm away from the rostral tip of the medial geniculate body.\" [Osen et al., 2019, Neuroimage",
+      "criteriaQualityType": {
+        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+      },
+      "criteriaType": {
+        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+      },
+      "inspiredBy": null,
+      "internalIdentifier": "164",
+      "laterality": [
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        },
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+        }
+      ],
+      "preferredVisualization": {
+        "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+        "additionalRemarks": null,
+        "anchorPoint": null,
+        "cameraPosition": null,
+        "preferredDisplayColor": {
+          "@id": "https://openminds.ebrains.eu/instances/singleColor/#6E00FF"
+        }
+      },
+      "specification": null,
+      "type": null
+    }
+  ],
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_reticular(Pre)ThalamicNucleus"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_v4.01_reticular(Pre)ThalamicNucleusAuditorySegment",
+  "name": "Reticular (pre)thalamic nucleus, auditory segment",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "v4.01",
+  "versionInnovation": null
+}

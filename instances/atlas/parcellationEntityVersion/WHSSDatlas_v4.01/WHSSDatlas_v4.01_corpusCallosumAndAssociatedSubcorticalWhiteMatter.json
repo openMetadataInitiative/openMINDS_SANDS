@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_corpusCallosumAndAssociatedSubcorticalWhiteMatter",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "abbreviation": "cc-ec-cing-dwm",
+  "additionalRemarks": null,
+  "alternateName": [
+    "cc-ec-cing-dwm"
+  ],
+  "correctedName": null,
+  "hasAnnotation": [
+    {
+      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+      "anchorPoint": [
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 243.186072
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 578.95934
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 342.132421
+        }
+      ],
+      "criteria": "The corpus callosum, deep cerebral white matter, external capsule, and cingulum constitute a continuous body of subcortical white matter and were delineated as one structure. These structures were differentiated from the cerebral cortex on basis of a distinct difference in FA.value (high signal intensity) and principal diffusion orientation in the DTI maps. The cingulum was not separately delineated here, but is readily identified in DTI maps due to its anteroposterior fiber orientation contrasting the mediolaterally oriented callosal fibers. The boundary ofthe external capsule toward the dorsal striatum was clearly seen on basis of gray and white matter contrast visible in the T2-weighted and T2*-weighted images. The ventral part of the external capsule forms a thin sheet confining the striatum, and further posterior encompassing the hippocampal formation and the subiculum. The most ventral aspect of this thin sheet is anteriorly best distinguished in DTI (mostly dorsoventral orientation), while the posterior part is best seen in the T2*-weighted images (low signal intensity).\" [Papp et al., 2014, Neuroimage",
+      "criteriaQualityType": {
+        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+      },
+      "criteriaType": {
+        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+      },
+      "inspiredBy": null,
+      "internalIdentifier": "67",
+      "laterality": [
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        },
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+        }
+      ],
+      "preferredVisualization": {
+        "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+        "additionalRemarks": null,
+        "anchorPoint": null,
+        "cameraPosition": null,
+        "preferredDisplayColor": {
+          "@id": "https://openminds.ebrains.eu/instances/singleColor/#FF6E00"
+        }
+      },
+      "specification": null,
+      "type": null
+    }
+  ],
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_whiteMatter"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_v4.01_corpusCallosumAndAssociatedSubcorticalWhiteMatter",
+  "name": "corpus callosum and associated subcortical white matter",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "v4.01",
+  "versionInnovation": null
+}

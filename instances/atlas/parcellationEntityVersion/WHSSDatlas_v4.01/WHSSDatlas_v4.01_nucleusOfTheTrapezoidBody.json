@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_nucleusOfTheTrapezoidBody",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "abbreviation": "NTB",
+  "additionalRemarks": null,
+  "alternateName": [
+    "NTB"
+  ],
+  "correctedName": null,
+  "hasAnnotation": [
+    {
+      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+      "anchorPoint": [
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 243.291521
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 384.402933
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 180.045633
+        }
+      ],
+      "criteria": "The nucleus of the trapezoid body is situated dorsomedially in the superior olivary complex. It is composed of glycinergic cells interposed in rows between the thick fascicles of trapezoid fibres immediately dorsolateral to the pyramidal tract. In sMRI, it can be distinguished from its surroundings as a mixture of voxels of contrasting intensities varying from bright to dark probably reflecting the rows of cells between the fibre fascicles seen in cell-myelin staining. In DTI, it exhibits various shades of dark purple, the bluish tinge probably reflecting the dorsal bend of the trapezoid fibres, while the darker voxels might indicate the cell rows.\" [Osen et al., 2019, Neuroimage",
+      "criteriaQualityType": {
+        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+      },
+      "criteriaType": {
+        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+      },
+      "inspiredBy": null,
+      "internalIdentifier": "131",
+      "laterality": [
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        },
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+        }
+      ],
+      "preferredVisualization": {
+        "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+        "additionalRemarks": null,
+        "anchorPoint": null,
+        "cameraPosition": null,
+        "preferredDisplayColor": {
+          "@id": "https://openminds.ebrains.eu/instances/singleColor/#00FF51"
+        }
+      },
+      "specification": null,
+      "type": null
+    }
+  ],
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_superiorOlivaryComplex"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_v4.01_nucleusOfTheTrapezoidBody",
+  "name": "Nucleus of the trapezoid body",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "v4.01",
+  "versionInnovation": null
+}
