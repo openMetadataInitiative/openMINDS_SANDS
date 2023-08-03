@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_lateralPosteriorThalamicNucleusLateralPart",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "abbreviation": "LP-l",
+  "additionalRemarks": null,
+  "alternateName": [
+    "LP-l"
+  ],
+  "correctedName": null,
+  "hasAnnotation": [
+    {
+      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+      "anchorPoint": [
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 240.084778868064
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 528.898851323071
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 322.830302748453
+        }
+      ],
+      "criteria": "The lateral posterior nucleus as a whole is discernible in the sMRI, particularly in the sagittal plane, where it is mostly bordered by the external medullary lamina ventrally and appears slightly darker and more striated in T2* than the laterodorsal nucleus rostrally. The lateral border can be distinguished in the coronal plane, with the intramedullary thalamic area appearing as a thin dark strip separating the lateral posterior nucleus from the dorsal lateral geniculate nucleus. The medial border is best appreciated in the coronal and horizontal planes of the sMRI, where the lateral posterior nucleus appears slightly brighter than the adjacent centromedial nucleus anteriorly and pretectothalamic lamina posteriorly. The lateral posterior nucleus has been subdivided into a mediorostral, mediocaudal, and lateral part. Subtle differences between these subregions can be seen in the sMRI, but their delineation has been guided by other reference atlases.",
+      "criteriaQualityType": {
+        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+      },
+      "criteriaType": {
+        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+      },
+      "inspiredBy": null,
+      "internalIdentifier": "283",
+      "laterality": [
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        },
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+        }
+      ],
+      "preferredVisualization": {
+        "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+        "additionalRemarks": null,
+        "anchorPoint": null,
+        "cameraPosition": null,
+        "preferredDisplayColor": {
+          "@id": "https://openminds.ebrains.eu/instances/singleColor/#C7573D"
+        }
+      },
+      "specification": null,
+      "type": null
+    }
+  ],
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_lateralPosterior(Pulvinar)ComplexOfTheDorsalThalamus"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_v4.01_lateralPosteriorThalamicNucleusLateralPart",
+  "name": "Lateral posterior thalamic nucleus, lateral part",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "v4.01",
+  "versionInnovation": "unchanged"
+}

@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_secondaryAuditoryAreaDorsalPart",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "abbreviation": "Au2-d",
+  "additionalRemarks": null,
+  "alternateName": [
+    "Au2-d",
+    "secondary auditory cortex, dorsal area"
+  ],
+  "correctedName": null,
+  "hasAnnotation": [
+    {
+      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+      "anchorPoint": [
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 234.161196911196
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 509.79559730306
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 353.452481799496
+        }
+      ],
+      "criteria": "'The auditory cortex is situated in the temporal region of the cerebral cortex, occupying the lateralmost part of the brain. Several alternative parcellation schemes have been proposed on the basis of cytoarchitectonic criteria, differences in myelination and neurotransmitter densities, and connectivity. In sMRI and DTI, the temporal cortex presents no obvious criteria for segmentation. To nevertheless include the auditory cortex in the present atlas, we here chose to base our delineation on the rat brain atlas of Paxinos and Watson (2007). In this parcellation, the auditory cortex consists of three parallel, horizontally oriented areas, with the primary auditory cortex (Au1) in the middle flanked by the secondary auditory cortex dorsal (AuD) and the secondary auditory cortex ventral (AuV). The three areas were topographically redrawn by combining information from Paxinos and Watson (2007) atlas diagrams spatially registered to the sMRI template, and measurements of distances from the rhinal fissure and the earlier delineated perirhinal regions. The external part of the auditory radiation, in the internal capsule between the reticular thalamic nucleus and the neocortex, could not be distinguished in sMRI and DTI.'\n- Kjonigsen LJ, Lillehaug S, Bjaalie JG, Witter MP, Leergaard TB (2015) Waxholm Space atlas of the rat brain hippocampal region: Three-dimensional delineations based on magnetic resonance and diffusion tensor imaging. NeuroImage 108, 441-449. DOI:",
+      "criteriaQualityType": {
+        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+      },
+      "criteriaType": {
+        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+      },
+      "inspiredBy": null,
+      "internalIdentifier": "152",
+      "laterality": [
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        },
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+        }
+      ],
+      "preferredVisualization": {
+        "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+        "additionalRemarks": null,
+        "anchorPoint": null,
+        "cameraPosition": null,
+        "preferredDisplayColor": {
+          "@id": "https://openminds.ebrains.eu/instances/singleColor/#F0FFFF"
+        }
+      },
+      "specification": null,
+      "type": null
+    }
+  ],
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_secondaryAuditoryArea"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_v4.01_secondaryAuditoryAreaDorsalPart",
+  "name": "Secondary auditory area, dorsal part",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "v4.01",
+  "versionInnovation": "unchanged"
+}
