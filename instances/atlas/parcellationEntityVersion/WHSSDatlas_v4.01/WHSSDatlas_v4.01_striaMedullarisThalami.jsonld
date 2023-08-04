@@ -28,7 +28,7 @@
           "value": 297.550247859396
         }
       ],
-      "criteria": "'based on observed contrast in the T2*-weighted images and DTI maps.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001]",
+      "criteria": "'based on observed contrast in the T2*-weighted images and DTI maps.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },

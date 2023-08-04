@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_fasciculusRetroflexus",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "abbreviation": null,
+    "additionalRemarks": null,
+    "alternateName": [
+        "fr"
+    ],
+    "correctedName": null,
+    "hasAnnotation": [
+        {
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "anchorPoint": [
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 526.367673179396
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 268.155075830031
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 271.236917611695
+                }
+            ],
+            "criteria": "The fasciculus retroflexus provides a prominent landmark at the diencephalic\u2013mesencephalic boundary, and was delineated based on contrast in the T2*-weighted images and DTI maps \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+            "criteriaQualityType": {
+                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+            },
+            "criteriaType": {
+                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+            },
+            "inspiredBy": null,
+            "internalIdentifier": "60",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "preferredVisualization": {
+                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+                "additionalRemarks": null,
+                "anchorPoint": null,
+                "cameraPosition": null,
+                "preferredDisplayColor": {
+                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#F44345"
+                }
+            },
+            "specification": null,
+            "type": null
+        }
+    ],
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_thalamicTracts"
+        }
+    ],
+    "lookupLabel": "WHSSDatlas_v1_fasciculusRetroflexus",
+    "name": "fasciculus retroflexus",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v1",
+    "versionInnovation": "First delineated in version 1"
+}

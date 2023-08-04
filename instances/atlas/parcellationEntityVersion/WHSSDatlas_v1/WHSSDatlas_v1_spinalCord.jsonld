@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_spinalCord",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "abbreviation": null,
+    "additionalRemarks": null,
+    "alternateName": [
+        "SpC"
+    ],
+    "correctedName": null,
+    "hasAnnotation": [
+        {
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "anchorPoint": [
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 114.423993175917
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 266.749998930681
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 166.754357471203
+                }
+            ],
+            "criteria": "'The spinal cord was defined as starting at the last coronal level showing the occipital bone. The spinal cord was delineated approximately 8.62 mm posterior to the skull until leaving the field of view. The outer boundaries of the spinal cord were identified using bright T2 and T2* signal originating from the cerebrospinal fluid in the subarachnoid space. The central canal and the surrounding gray matter, as well as fibers extending from the descending pathways, were delineated separately' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+            "criteriaQualityType": {
+                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+            },
+            "criteriaType": {
+                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+            },
+            "inspiredBy": null,
+            "internalIdentifier": "45",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "preferredVisualization": {
+                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+                "additionalRemarks": null,
+                "anchorPoint": null,
+                "cameraPosition": null,
+                "preferredDisplayColor": {
+                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#86FF5A"
+                }
+            },
+            "specification": null,
+            "type": null
+        }
+    ],
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_spinalCord"
+        }
+    ],
+    "lookupLabel": "WHSSDatlas_v1_spinalCord",
+    "name": "spinal cord",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v1",
+    "versionInnovation": "First delineated in version 1"
+}

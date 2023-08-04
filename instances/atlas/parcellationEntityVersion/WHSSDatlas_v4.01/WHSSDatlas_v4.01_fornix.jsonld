@@ -27,7 +27,7 @@
           "value": 256.383110584177
         }
       ],
-      "criteria": "'The fornix was distinguished by its distinct trajectory and its lower T2* intensity. The interpretation of DTI orientations in these regions was aided by inspection of corresponding myelin stained histological material.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001]",
+      "criteria": "'The fornix was distinguished by its distinct trajectory and its lower T2* intensity. The interpretation of DTI orientations in these regions was aided by inspection of corresponding myelin stained histological material.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },

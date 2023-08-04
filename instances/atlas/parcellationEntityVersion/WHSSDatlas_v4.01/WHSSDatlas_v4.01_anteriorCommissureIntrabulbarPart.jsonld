@@ -28,7 +28,7 @@
           "value": 254.84509997003
         }
       ],
-      "criteria": "'The anterior commissure was delineated based on its high contrast in both T2* and DTI maps'. The intrabulbar part contains the part of the anterior commissure situated inside the olfactory bulb. \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001]",
+      "criteria": "'The anterior commissure was delineated based on its high contrast in both T2* and DTI maps'. The intrabulbar part contains the part of the anterior commissure situated inside the olfactory bulb. \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },

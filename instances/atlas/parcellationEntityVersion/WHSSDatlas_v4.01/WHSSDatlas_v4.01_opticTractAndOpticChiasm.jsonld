@@ -27,7 +27,7 @@
           "value": 217.992785757448
         }
       ],
-      "criteria": "'The optic chiasm and tract were delineated together as one structure on basis of high FA values and DTI orientations. The optic tract was readily followed to the point where it adjoins the descending peduncle and curves laterally around the thalamus.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001]",
+      "criteria": "'The optic chiasm and tract were delineated together as one structure on basis of high FA values and DTI orientations. The optic tract was readily followed to the point where it adjoins the descending peduncle and curves laterally around the thalamus.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },

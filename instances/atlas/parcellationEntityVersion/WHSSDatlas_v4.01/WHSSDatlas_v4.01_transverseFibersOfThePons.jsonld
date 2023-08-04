@@ -27,7 +27,7 @@
           "value": 187.024219721311
         }
       ],
-      "criteria": "'The transverse fibers of the pons were delineated on the basis of low T2* and high FA values and identified as a continuous white matter layer covering the external surface of the pontine nuclei. The transition to the middle cerebellar peduncle was set where the fibers leave the surface of pontine nuclei.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001]",
+      "criteria": "'The transverse fibers of the pons were delineated on the basis of low T2* and high FA values and identified as a continuous white matter layer covering the external surface of the pontine nuclei. The transition to the middle cerebellar peduncle was set where the fibers leave the surface of pontine nuclei.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },

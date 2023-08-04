@@ -1,0 +1,69 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_medialEntorhinalField",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "abbreviation": null,
+    "additionalRemarks": null,
+    "alternateName": null,
+    "correctedName": null,
+    "hasAnnotation": [
+        {
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "anchorPoint": [
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 443.836936978899
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 268.043951744375
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 242.833955936466
+                }
+            ],
+            "criteria": "'Delineations of structures in the hippocampal and parahippocampal regions were taken from a parallel investigation of hippocampal boundaries in the same MRI/DTI material based on criteria provided by Kjonigsen et al. (2011).' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+            "criteriaQualityType": {
+                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+            },
+            "criteriaType": {
+                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+            },
+            "inspiredBy": null,
+            "internalIdentifier": "90",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "preferredVisualization": {
+                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+                "additionalRemarks": null,
+                "anchorPoint": null,
+                "cameraPosition": null,
+                "preferredDisplayColor": {
+                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#41FF27"
+                }
+            },
+            "specification": null,
+            "type": null
+        }
+    ],
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_cerebralCortexIncludingTheNeocortexAndTheHippocampus"
+        }
+    ],
+    "lookupLabel": "WHSSDatlas_v1_medialEntorhinalField",
+    "name": "medial entorhinal field",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v1",
+    "versionInnovation": "First delineated in version 1"
+}

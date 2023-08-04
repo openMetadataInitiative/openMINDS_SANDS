@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_alveusOfTheHippocampus",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "abbreviation": null,
+    "additionalRemarks": null,
+    "alternateName": [
+        "alv"
+    ],
+    "correctedName": null,
+    "hasAnnotation": [
+        {
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "anchorPoint": [
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 531.826303968055
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 248.137259795358
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 277.736211629648
+                }
+            ],
+            "criteria": "'The dorsal hippocampal commissure and its continuation in the alveus form a very thin layer with a thickness close to the voxel size employed. In the present version of the atlas, these structures were not separately delineated along the dorsal aspect ofthe hippocampus, but included as part of the corpus callosum and associated subcortical white matter. The alveus was, however, delineated as a separate structure along the lateral and anterior aspects of the hippocampal formation, distinguished from the medially adjoining fimbria by a slight difference in T2* signal intensity.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+            "criteriaQualityType": {
+                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+            },
+            "criteriaType": {
+                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+            },
+            "inspiredBy": null,
+            "internalIdentifier": "6",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "preferredVisualization": {
+                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+                "additionalRemarks": null,
+                "anchorPoint": null,
+                "cameraPosition": null,
+                "preferredDisplayColor": {
+                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#FF00FF"
+                }
+            },
+            "specification": null,
+            "type": null
+        }
+    ],
+    "hasParent": [
+        {
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_hippocampalWhiteMatter"
+        }
+    ],
+    "lookupLabel": "WHSSDatlas_v1_alveusOfTheHippocampus",
+    "name": "alveus of the hippocampus",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v1",
+    "versionInnovation": "First delineated in version 1"
+}
