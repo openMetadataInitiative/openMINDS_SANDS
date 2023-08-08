@@ -19,6 +19,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_inferiorColliculusBrachium"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_inferiorColliculusBrachium"
     }
   ],
   "lookupLabel": "WHSSDatlas_inferiorColliculusBrachium",

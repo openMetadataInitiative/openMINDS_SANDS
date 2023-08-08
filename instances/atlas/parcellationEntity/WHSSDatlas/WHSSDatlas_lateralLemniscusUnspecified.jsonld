@@ -19,6 +19,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_lateralLemniscusUnspecified"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_lateralLemniscusUnspecified"
     }
   ],
   "lookupLabel": "WHSSDatlas_lateralLemniscusUnspecified",

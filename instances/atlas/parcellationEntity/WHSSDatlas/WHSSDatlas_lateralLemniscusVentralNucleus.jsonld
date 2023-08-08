@@ -19,6 +19,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_lateralLemniscusVentralNucleus"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_lateralLemniscusVentralNucleus"
     }
   ],
   "lookupLabel": "WHSSDatlas_lateralLemniscusVentralNucleus",

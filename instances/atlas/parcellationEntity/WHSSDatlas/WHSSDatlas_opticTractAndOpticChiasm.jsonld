@@ -12,6 +12,9 @@
   "hasParent": null,
   "hasVersion": [
     {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_opticTractAndOpticChiasm"
+    },
+    {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1.01_opticTractAndOpticChiasm"
     },
     {
@@ -25,6 +28,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_opticTractAndOpticChiasm"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_opticTractAndOpticChiasm"
     }
   ],
   "lookupLabel": "WHSSDatlas_opticTractAndOpticChiasm",

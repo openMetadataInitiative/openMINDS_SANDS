@@ -19,6 +19,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_superiorParaolivaryNucleus"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_superiorParaolivaryNucleus"
     }
   ],
   "lookupLabel": "WHSSDatlas_superiorParaolivaryNucleus",

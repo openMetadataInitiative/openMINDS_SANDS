@@ -13,6 +13,9 @@
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_posteriorThalamicNucleus"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_posteriorThalamicNucleus"
     }
   ],
   "lookupLabel": "WHSSDatlas_posteriorThalamicNucleus",

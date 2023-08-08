@@ -19,6 +19,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_ventralCochlearNucleusCapArea"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_ventralCochlearNucleusCapArea"
     }
   ],
   "lookupLabel": "WHSSDatlas_ventralCochlearNucleusCapArea",

@@ -20,6 +20,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_reticularPrethalamicNucleusAuditorySegment"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_reticular(Pre)ThalamicNucleusAuditorySegment"
     }
   ],
   "lookupLabel": "WHSSDatlas_reticularPrethalamicNucleusAuditorySegment",

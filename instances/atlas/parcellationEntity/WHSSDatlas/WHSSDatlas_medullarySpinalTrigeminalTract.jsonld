@@ -16,7 +16,10 @@
   ],
   "hasVersion": [
     {
-      "@id" : "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_medullarySpinalTrigeminalTract"
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_medullarySpinalTrigeminalTract"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_medullarySpinalTrigeminalTract"
     }
   ],
   "lookupLabel": "WHSSDatlas_medullarySpinalTrigeminalTract",

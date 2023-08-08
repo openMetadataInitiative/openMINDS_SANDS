@@ -13,6 +13,9 @@
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_dysgranularInsularCortex"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_dysgranularInsularCortex"
     }
   ],
   "lookupLabel": "WHSSDatlas_dysgranularInsularCortex",

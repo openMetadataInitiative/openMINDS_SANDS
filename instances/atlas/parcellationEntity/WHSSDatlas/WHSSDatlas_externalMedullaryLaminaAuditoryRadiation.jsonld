@@ -20,6 +20,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_externalMedullaryLaminaAuditoryRadiation"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_externalMedullaryLaminaAuditoryRadiation"
     }
   ],
   "lookupLabel": "WHSSDatlas_externalMedullaryLaminaAuditoryRadiation",

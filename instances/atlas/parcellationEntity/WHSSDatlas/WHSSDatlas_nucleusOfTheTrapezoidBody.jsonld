@@ -19,6 +19,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_nucleusOfTheTrapezoidBody"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_nucleusOfTheTrapezoidBody"
     }
   ],
   "lookupLabel": "WHSSDatlas_nucleusOfTheTrapezoidBody",

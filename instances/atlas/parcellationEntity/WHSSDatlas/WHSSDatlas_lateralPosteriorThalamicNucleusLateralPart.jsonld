@@ -13,6 +13,9 @@
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_lateralPosteriorThalamicNucleusLateralPart"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_lateralPosteriorThalamicNucleusLateralPart"
     }
   ],
   "lookupLabel": "WHSSDatlas_lateralPosteriorThalamicNucleusLateralPart",

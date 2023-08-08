@@ -13,6 +13,9 @@
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_prelimbicArea"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_prelimbicArea"
     }
   ],
   "lookupLabel": "WHSSDatlas_prelimbicArea",

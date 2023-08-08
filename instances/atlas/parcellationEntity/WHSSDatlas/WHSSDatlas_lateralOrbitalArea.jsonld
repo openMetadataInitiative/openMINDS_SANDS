@@ -13,6 +13,9 @@
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_lateralOrbitalArea"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_lateralOrbitalArea"
     }
   ],
   "lookupLabel": "WHSSDatlas_lateralOrbitalArea",

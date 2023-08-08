@@ -12,6 +12,9 @@
   "hasParent": null,
   "hasVersion": [
     {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_frontalAssociationCortex"
+    },
+    {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1.01_frontalAssociationCortex"
     },
     {
@@ -25,6 +28,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_frontalAssociationCortex"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_frontalAssociationCortex"
     }
   ],
   "lookupLabel": "WHSSDatlas_frontalAssociationCortex",

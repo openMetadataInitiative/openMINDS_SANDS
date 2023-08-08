@@ -26,6 +26,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_striaMedullarisThalami"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_striaMedullarisThalami"
     }
   ],
   "lookupLabel": "WHSSDatlas_striaMedullarisThalami",

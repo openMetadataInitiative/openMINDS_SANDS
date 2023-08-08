@@ -13,6 +13,9 @@
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_nucleusOfTheLateralOlfactoryTract"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_nucleusOfTheLateralOlfactoryTract"
     }
   ],
   "lookupLabel": "WHSSDatlas_nucleusOfTheLateralOlfactoryTract",

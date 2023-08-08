@@ -17,6 +17,9 @@
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_trigeminalNerve"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_trigeminalNerve"
     }
   ],
   "lookupLabel": "WHSSDatlas_trigeminalNerve",

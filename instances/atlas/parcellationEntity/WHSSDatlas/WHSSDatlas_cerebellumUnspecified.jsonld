@@ -26,6 +26,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_cerebellumUnspecified"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_cerebellumUnspecified"
     }
   ],
   "lookupLabel": "WHSSDatlas_cerebellumUnspecified",

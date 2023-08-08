@@ -13,6 +13,9 @@
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_anteroventralThalamicNucleusVentrolateralPart"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_anteroventralThalamicNucleusVentrolateralPart"
     }
   ],
   "lookupLabel": "WHSSDatlas_anteroventralThalamicNucleusVentrolateralPart",

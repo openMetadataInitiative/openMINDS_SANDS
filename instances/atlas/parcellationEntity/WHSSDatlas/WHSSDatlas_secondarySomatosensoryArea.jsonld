@@ -13,6 +13,9 @@
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_secondarySomatosensoryArea"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_secondarySomatosensoryArea"
     }
   ],
   "lookupLabel": "WHSSDatlas_secondarySomatosensoryArea",

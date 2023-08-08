@@ -12,6 +12,9 @@
   "hasParent": null,
   "hasVersion": [
     {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_glomerularLayerOfTheOlfactoryBulb"
+    },
+    {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1.01_glomerularLayerOfTheOlfactoryBulb"
     },
     {
@@ -25,6 +28,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_glomerularLayerOfTheOlfactoryBulb"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_glomerularLayerOfTheOlfactoryBulb"
     }
   ],
   "lookupLabel": "WHSSDatlas_glomerularLayerOfTheOlfactoryBulb",

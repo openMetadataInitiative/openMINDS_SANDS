@@ -19,6 +19,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_dorsalCochlearNucleusMolecularLayer"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_dorsalCochlearNucleusMolecularLayer"
     }
   ],
   "lookupLabel": "WHSSDatlas_dorsalCochlearNucleusMolecularLayer",

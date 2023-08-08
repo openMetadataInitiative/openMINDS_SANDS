@@ -19,6 +19,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_ventralCochlearNucleusAnteriorPart"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_ventralCochlearNucleusAnteriorPart"
     }
   ],
   "lookupLabel": "WHSSDatlas_ventralCochlearNucleusAnteriorPart",

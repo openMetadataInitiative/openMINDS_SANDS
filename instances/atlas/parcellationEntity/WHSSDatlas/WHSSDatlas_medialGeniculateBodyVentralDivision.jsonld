@@ -19,6 +19,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_medialGeniculateBodyVentralDivision"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_medialGeniculateBodyVentralDivision"
     }
   ],
   "lookupLabel": "WHSSDatlas_medialGeniculateBodyVentralDivision",

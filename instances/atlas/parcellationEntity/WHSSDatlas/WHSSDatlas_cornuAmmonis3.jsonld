@@ -22,6 +22,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_cornuAmmonis3"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_cornuAmmonis3"
     }
   ],
   "lookupLabel": "WHSSDatlas_cornuAmmonis3",

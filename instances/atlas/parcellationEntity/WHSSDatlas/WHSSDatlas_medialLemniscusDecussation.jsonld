@@ -12,6 +12,9 @@
   "hasParent": null,
   "hasVersion": [
     {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_medialLemniscusDecussation"
+    },
+    {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1.01_medialLemniscusDecussation"
     },
     {
@@ -25,6 +28,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_medialLemniscusDecussation"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_medialLemniscusDecussation"
     }
   ],
   "lookupLabel": "WHSSDatlas_medialLemniscusDecussation",

@@ -26,6 +26,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_anteriorCommissurePosteriorLimb"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_anteriorCommissurePosteriorLimb"
     }
   ],
   "lookupLabel": "WHSSDatlas_anteriorCommissurePosteriorLimb",

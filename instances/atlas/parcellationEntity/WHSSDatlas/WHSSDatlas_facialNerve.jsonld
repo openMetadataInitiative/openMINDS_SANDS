@@ -10,7 +10,11 @@
   ],
   "definition": null,
   "hasParent": null,
-  "hasVersion": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_facialNerve"
+    }
+  ],
   "lookupLabel": "WHSSDatlas_facialNerve",
   "name": "facial nerve",
   "ontologyIdentifier": null,

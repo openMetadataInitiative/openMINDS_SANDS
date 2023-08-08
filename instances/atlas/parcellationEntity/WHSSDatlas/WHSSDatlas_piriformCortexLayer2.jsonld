@@ -13,6 +13,9 @@
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_piriformCortexLayer2"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_piriformCortexLayer2"
     }
   ],
   "lookupLabel": "WHSSDatlas_piriformCortexLayer2",

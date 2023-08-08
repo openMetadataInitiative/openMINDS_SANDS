@@ -22,6 +22,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_medialEntorhinalCortex"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_medialEntorhinalCortex"
     }
   ],
   "lookupLabel": "WHSSDatlas_medialEntorhinalCortex",

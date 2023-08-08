@@ -25,6 +25,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_basalForebrainRegionUnspecified"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_basalForebrainRegionUnspecified"
     }
   ],
   "lookupLabel": "WHSSDatlas_basalForebrainRegionUnspecified",

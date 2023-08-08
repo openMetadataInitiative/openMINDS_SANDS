@@ -26,6 +26,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_cingulateArea2"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_cingulateArea2"
     }
   ],
   "lookupLabel": "WHSSDatlas_cingulateArea2",

@@ -13,6 +13,9 @@
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_posteriorThalamicNuclearGroupTriangularPart"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_posteriorThalamicNuclearGroupTriangularPart"
     }
   ],
   "lookupLabel": "WHSSDatlas_posteriorThalamicNuclearGroupTriangularPart",

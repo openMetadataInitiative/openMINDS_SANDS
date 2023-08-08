@@ -19,6 +19,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_superiorPeriolivaryRegion"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_superiorPeriolivaryRegion"
     }
   ],
   "lookupLabel": "WHSSDatlas_superiorPeriolivaryRegion",

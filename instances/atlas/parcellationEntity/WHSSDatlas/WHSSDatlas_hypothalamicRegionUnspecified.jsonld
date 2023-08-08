@@ -25,6 +25,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_hypothalamicRegionUnspecified"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_hypothalamicRegionUnspecified"
     }
   ],
   "lookupLabel": "WHSSDatlas_hypothalamicRegionUnspecified",

@@ -19,6 +19,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_secondaryAuditoryAreaDorsalPart"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_secondaryAuditoryAreaDorsalPart"
     }
   ],
   "lookupLabel": "WHSSDatlas_secondaryAuditoryAreaDorsalPart",

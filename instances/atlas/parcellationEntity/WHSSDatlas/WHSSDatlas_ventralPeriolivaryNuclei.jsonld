@@ -19,6 +19,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_ventralPeriolivaryNuclei"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_ventralPeriolivaryNuclei"
     }
   ],
   "lookupLabel": "WHSSDatlas_ventralPeriolivaryNuclei",

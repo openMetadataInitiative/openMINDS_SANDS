@@ -13,6 +13,9 @@
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_anterodorsalThalamicNucleus"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_anterodorsalThalamicNucleus"
     }
   ],
   "lookupLabel": "WHSSDatlas_anterodorsalThalamicNucleus",
