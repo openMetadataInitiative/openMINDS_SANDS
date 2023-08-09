@@ -4,6 +4,11 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/RBSC_PW_v6_p1PeriaqueductalGray",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "additionalRemarks": null,
+    "alternativeName": [
+        "p1PAG"
+    ],
+    "correctedName": null,
     "hasAnnotation": [
         {
             "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
@@ -30,10 +35,5 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v6",
-    "versionInnovation": null,
-    "correctedName": null,
-    "alternativeName": [
-        "p1PAG"
-    ],
-    "additionalRemarks": null
+    "versionInnovation": null
 }

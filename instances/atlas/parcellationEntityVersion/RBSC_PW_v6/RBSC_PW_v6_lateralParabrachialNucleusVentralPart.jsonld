@@ -4,6 +4,11 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/RBSC_PW_v6_lateralParabrachialNucleusVentralPart",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "additionalRemarks": null,
+    "alternativeName": [
+        "LPBV"
+    ],
+    "correctedName": null,
     "hasAnnotation": [
         {
             "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
@@ -30,10 +35,5 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v6",
-    "versionInnovation": null,
-    "correctedName": null,
-    "alternativeName": [
-        "LPBV"
-    ],
-    "additionalRemarks": null
+    "versionInnovation": null
 }

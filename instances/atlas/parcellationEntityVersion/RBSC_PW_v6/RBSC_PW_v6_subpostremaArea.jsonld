@@ -4,6 +4,11 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/RBSC_PW_v6_subpostremaArea",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "additionalRemarks": null,
+    "alternativeName": [
+        "SubP"
+    ],
+    "correctedName": null,
     "hasAnnotation": [
         {
             "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
@@ -30,10 +35,5 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v6",
-    "versionInnovation": null,
-    "correctedName": null,
-    "alternativeName": [
-        "SubP"
-    ],
-    "additionalRemarks": null
+    "versionInnovation": null
 }

@@ -4,6 +4,11 @@
     },
     "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/RBSC_PW_v6_externalPlexiformLayerOfTheOlfactoryBulb",
     "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "additionalRemarks": null,
+    "alternativeName": [
+        "EPl"
+    ],
+    "correctedName": null,
     "hasAnnotation": [
         {
             "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
@@ -30,10 +35,5 @@
     "ontologyIdentifier": null,
     "relationAssessment": null,
     "versionIdentifier": "v6",
-    "versionInnovation": null,
-    "correctedName": null,
-    "alternativeName": [
-        "EPl"
-    ],
-    "additionalRemarks": null
+    "versionInnovation": null
 }
