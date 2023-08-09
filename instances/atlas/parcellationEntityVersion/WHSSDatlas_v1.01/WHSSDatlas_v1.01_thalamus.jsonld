@@ -1,58 +1,71 @@
 {
-  "@context": {
-    "@vocab": "https://openminds.ebrains.eu/vocab/"
-  },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1.01_thalamus",
-  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "abbreviation": null,
-  "additionalRemarks": "both .label file name and .mbat file name are \"thalamus\", which is an error; abbreviation for the corrected name has been added under \"alternateName\"; for details, see atlas documentation",
-  "alternateName": [
-    "Thal-u"
-  ],
-  "correctedName": "thalamus, unspecified",
-  "hasAnnotation": [
-    {
-      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-      "anchorPoint": null,
-      "criteria": null,
-      "criteriaQualityType": {
-        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
-      },
-      "criteriaType": {
-        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
-      },
-      "inspiredBy": null,
-      "internalIdentifier": "39",
-      "laterality": [
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1.01_thalamus",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "abbreviation": null,
+    "additionalRemarks": "both .label file name and .mbat file name are \"thalamus\", which is an error; abbreviation for the corrected name has been added under \"alternateName\"; for details, see atlas documentation",
+    "alternateName": [
+        "Thal-u"
+    ],
+    "correctedName": "thalamus, unspecified",
+    "hasAnnotation": [
         {
-          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-        },
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "anchorPoint": [
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 242.902097493036
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 555.133341922005
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 283.974226323119
+                }
+            ],
+            "criteria": "'For the present version of the atlas, we have delineated the thalamus as a single region without subdivisions, incorporating the main nuclear groups of the epithalamus, dorsal thalamus, and ventral thalamus. The delineationwas aided by the identification ofdistinct white matter bundles surrounding and entering the thalamus. The overall shape of the thalamus is most apparent in horizontal view. The round anterior surface of the thalamus is delimited towards lateral by the 3rd ventricle (with very bright T2* signal), the fornix, the stria medullaris, the bed nucleus of the stria terminalis, and the arc of the stria terminalis, and further lateral by the adjacent convex surface of the internal capsule and the fimbria of the hippocampus (white matter with darker T2* contrast), and the bed nucleus of the stria terminalis (with slightly brighter signal compared to the thalamus). The dorsal surface of the thalamus is bounded by the 3rd ventricle, the brachium of the superior colliculus, the stria medullaris of the thalamus, and the hippocampal formation. The lateral boundary of the anterior thalamus is given by the internal capsule, the fimbria, and the arc of the stria terminalis intercalated between the two other white matter bundles. The posterior boundary of the thalamus is definedbythe optic tract, the hippocampus, and the ventricular system. The ventral boundary of the anterior thalamus against the basal forebrain region was partly defined by the curvatures of the stria medullaris and fornix, and partly by the medial division of the bed nucleus of the stria terminalis, which appeared as a zone of bright T2* contrast surrounding the fornix. The paraventricular hypothalamic nucleus, an area of dark T2* contrast tightly surrounding the ventral half of the 3rd ventricle, also contributes to this boundary. Further posteriorly, the ventrolateral boundary of the thalamus was identified using the noticeable dark shift in T2* contrast towards the basal forebrain in an arc extending the medial surface of the internal capsule in the ventromedial direction. The ventral boundary of the anterior part of the thalamus towards the hypothalamic region was approximated by a curve following a zone with a slight drop in FA signal. From the level where the bed nucleus of the stria terminalis disappears and the medial magnocellular nuclei become visible medially (elongated structures running obliquely dorsolateral from the 3rd ventricle towards posterior, with dark T2* signal), the zona incerta was used to define the ventral boundary of the thalamus towards the basal forebrain region. The zona incerta can be considered a part of the ventral thalamus and is here thus included as part of the thalamus. This region is intercalated between the white matter bundles of the internal capsule, the medial lemniscus, and the mammillothalamic tract, clearly defined by distinct mediolateral fiber orientations standing out against the oblique fiber orientations of the more laterally located internal capsule, and the low anisotropic values of the ventrally and medially located hypothalamic region. Medially, between the zona incerta on each side, at level of the reuniens thalamic nucleus and reuniens area, the ventral extent of the thalamus was approximated on the basis ofa reduction in fractional anisotropy towards the hypothalamic region. The posterior boundary of the thalamus was delineated against several mesencephalic structures. The pretectal nuclei appear dorsally as regions with slightly brighter T2* contrast and mediolateral tissue orientation, giving a round lateral surface against the horns of the thalamus, and a rather flat surface towards the dorsal half of the flattened concave part of the thalamic crescent. This boundary is best seen and thus approximated in horizontal view. At the dorsoventral midline of the posterior surface of the thalamus, it meets the periaqueductal gray (with brighter T2* signals), at the anteroposterior level where the dorsal and ventral parts of the 3rd ventricle join. The fasciculus retroflexus (with very dark T2* signals, and inferosuperior DTI orientations) and the surrounding parafascicular nucleus (having brighter T2* signals compared to the thalamus, and slightly darker T2* signals than the periaqueductal gray matter) also contribute to this boundary up to the posterior level where the periaqueductal gray appears medially between the right and left fasciculus retroflexus. The ventral half of the crescent is delimited by the tectal part of the reticular formation (included in the brain stem), showing considerably darker T2*contrast and characteristic reticular tissue structure picked up in the MRI. It should be noted that the right side of the MR image shows severe distortions at the posterior parts ofthe thalamus, and therefore the posterior boundary on this side was largely approximated to be symmetrical to the left side.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+            "criteriaQualityType": {
+                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+            },
+            "criteriaType": {
+                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+            },
+            "inspiredBy": null,
+            "internalIdentifier": "39",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "preferredVisualization": {
+                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+                "additionalRemarks": null,
+                "anchorPoint": null,
+                "cameraPosition": null,
+                "preferredDisplayColor": {
+                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#006400"
+                }
+            },
+            "specification": null,
+            "type": null
+        }
+    ],
+    "hasParent": [
         {
-          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_grayMatter"
         }
-      ],
-      "preferredVisualization": {
-        "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
-        "additionalRemarks": null,
-        "anchorPoint": null,
-        "cameraPosition": null,
-        "preferredDisplayColor": {
-          "@id": "https://openminds.ebrains.eu/instances/singleColor/#006400"
-        }
-      },
-      "specification": null,
-      "type": null
-    }
-  ],
-  "hasParent": [
-    {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_grayMatter"
-    }
-  ],
-  "lookupLabel": "WHSSDatlas_v1.01_thalamus",
-  "name": "thalamus",
-  "ontologyIdentifier": null,
-  "relationAssessment": null,
-  "versionIdentifier": "v1.01",
-  "versionInnovation": null
+    ],
+    "lookupLabel": "WHSSDatlas_v1.01_thalamus",
+    "name": "thalamus",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v1.01",
+    "versionInnovation": "unchanged"
 }

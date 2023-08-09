@@ -1,58 +1,71 @@
 {
-  "@context": {
-    "@vocab": "https://openminds.ebrains.eu/vocab/"
-  },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_medialLemniscusDecussation",
-  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "abbreviation": null,
-  "additionalRemarks": null,
-  "alternateName": [
-    "mlx"
-  ],
-  "correctedName": null,
-  "hasAnnotation": [
-    {
-      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-      "anchorPoint": null,
-      "criteria": null,
-      "criteriaQualityType": {
-        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
-      },
-      "criteriaType": {
-        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
-      },
-      "inspiredBy": null,
-      "internalIdentifier": "84",
-      "laterality": [
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_medialLemniscusDecussation",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "abbreviation": "mlx",
+    "additionalRemarks": null,
+    "alternateName": [
+        "mlx"
+    ],
+    "correctedName": null,
+    "hasAnnotation": [
         {
-          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-        },
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "anchorPoint": [
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 244.526504941599
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 254.809523809523
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 196.455525606469
+                }
+            ],
+            "criteria": "'The decussation of the medial lemniscus was delineated by its dorsoventral fiber orientation, and separated from the pyramidal decussation by its lower FA values and slightly lower T2* signal intensity.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+            "criteriaQualityType": {
+                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+            },
+            "criteriaType": {
+                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+            },
+            "inspiredBy": null,
+            "internalIdentifier": "84",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "preferredVisualization": {
+                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+                "additionalRemarks": null,
+                "anchorPoint": null,
+                "cameraPosition": null,
+                "preferredDisplayColor": {
+                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#4196FF"
+                }
+            },
+            "specification": null,
+            "type": null
+        }
+    ],
+    "hasParent": [
         {
-          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_medialLemniscus"
         }
-      ],
-      "preferredVisualization": {
-        "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
-        "additionalRemarks": null,
-        "anchorPoint": null,
-        "cameraPosition": null,
-        "preferredDisplayColor": {
-          "@id": "https://openminds.ebrains.eu/instances/singleColor/#4196FF"
-        }
-      },
-      "specification": null,
-      "type": null
-    }
-  ],
-  "hasParent": [
-    {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_medialLemniscus"
-    }
-  ],
-  "lookupLabel": "WHSSDatlas_v4_medialLemniscusDecussation",
-  "name": "medial lemniscus decussation",
-  "ontologyIdentifier": null,
-  "relationAssessment": null,
-  "versionIdentifier": "v4",
-  "versionInnovation": null
+    ],
+    "lookupLabel": "WHSSDatlas_v4_medialLemniscusDecussation",
+    "name": "medial lemniscus decussation",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v4",
+    "versionInnovation": "unchanged"
 }

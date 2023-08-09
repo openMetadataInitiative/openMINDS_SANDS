@@ -1,58 +1,71 @@
 {
-  "@context": {
-    "@vocab": "https://openminds.ebrains.eu/vocab/"
-  },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_lateralOlfactoryTract",
-  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "abbreviation": null,
-  "additionalRemarks": null,
-  "alternateName": [
-    "lot"
-  ],
-  "correctedName": null,
-  "hasAnnotation": [
-    {
-      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-      "anchorPoint": null,
-      "criteria": null,
-      "criteriaQualityType": {
-        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
-      },
-      "criteriaType": {
-        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
-      },
-      "inspiredBy": null,
-      "internalIdentifier": "180",
-      "laterality": [
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_lateralOlfactoryTract",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "abbreviation": "lot",
+    "additionalRemarks": null,
+    "alternateName": [
+        "lot"
+    ],
+    "correctedName": null,
+    "hasAnnotation": [
         {
-          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-        },
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "anchorPoint": [
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 248.187186836299
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 732.9504299235
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 239.591418025857
+                }
+            ],
+            "criteria": "The lateral olfactory tract (lot) have a dark grey apperance in both MRI and DWI, contrasting the adjecent grey matter of the pririfom cortex, olfactory bulb, unspecified (OB-u) and anterior olfactory area, unspecified. The lot replaced part of the OB-u and basal forebrain, unspecified.",
+            "criteriaQualityType": {
+                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+            },
+            "criteriaType": {
+                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+            },
+            "inspiredBy": null,
+            "internalIdentifier": "180",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "preferredVisualization": {
+                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+                "additionalRemarks": null,
+                "anchorPoint": null,
+                "cameraPosition": null,
+                "preferredDisplayColor": {
+                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#FF00DD"
+                }
+            },
+            "specification": null,
+            "type": null
+        }
+    ],
+    "hasParent": [
         {
-          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_olfactoryWhiteMatter"
         }
-      ],
-      "preferredVisualization": {
-        "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
-        "additionalRemarks": null,
-        "anchorPoint": null,
-        "cameraPosition": null,
-        "preferredDisplayColor": {
-          "@id": "https://openminds.ebrains.eu/instances/singleColor/#FF00DD"
-        }
-      },
-      "specification": null,
-      "type": null
-    }
-  ],
-  "hasParent": [
-    {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_olfactoryWhiteMatter"
-    }
-  ],
-  "lookupLabel": "WHSSDatlas_v4_lateralOlfactoryTract",
-  "name": "lateral olfactory tract",
-  "ontologyIdentifier": null,
-  "relationAssessment": null,
-  "versionIdentifier": "v4",
-  "versionInnovation": null
+    ],
+    "lookupLabel": "WHSSDatlas_v4_lateralOlfactoryTract",
+    "name": "lateral olfactory tract",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v4",
+    "versionInnovation": "First delineated in version v4"
 }

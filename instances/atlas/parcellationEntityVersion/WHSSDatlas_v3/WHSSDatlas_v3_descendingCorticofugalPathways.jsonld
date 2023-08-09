@@ -1,59 +1,72 @@
 {
-  "@context": {
-    "@vocab": "https://openminds.ebrains.eu/vocab/"
-  },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_descendingCorticofugalPathways",
-  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "abbreviation": null,
-  "additionalRemarks": null,
-  "alternateName": [
-    "ic-cp-lfp-py",
-    "corticofugal tract and corona radiata"
-  ],
-  "correctedName": null,
-  "hasAnnotation": [
-    {
-      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-      "anchorPoint": null,
-      "criteria": null,
-      "criteriaQualityType": {
-        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
-      },
-      "criteriaType": {
-        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
-      },
-      "inspiredBy": null,
-      "internalIdentifier": "1",
-      "laterality": [
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_descendingCorticofugalPathways",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "abbreviation": "ic-cp-lfp-py",
+    "additionalRemarks": null,
+    "alternateName": [
+        "ic-cp-lfp-py",
+        "corticofugal tract and corona radiata"
+    ],
+    "correctedName": null,
+    "hasAnnotation": [
         {
-          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-        },
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "anchorPoint": [
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 242.771857598174
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 504.061526855131
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 241.096555783954
+                }
+            ],
+            "criteria": "'The corticofugal fiber tracts, including the internal capsule, cerebral peduncle, longitudinal fasciculus of the pons, and the pyramidal tract, were delineated as one continuous structure from the internal capsule to the level of the pyramidal decussation, which was delineated separately due to its distinct orientation in the brain stem highlighted in DTI maps. The internal capsule was identified by low T2* signal intensity in the region located between the striatum and globus pallidus laterally, and the thalamus medially. Dispersed fiber bundles penetrating the striatum were excluded from our delineations. The ventral extent of the internal capsule was delineated using DTI (slightly oblique dorsoventral fiber orientations). DTI maps were also used to delineate the anterior internal capsule against the striatum. Otherwise, the descending fiber tracts were identified on the basis of low T2* values, high FA values and the distinct axial diffusion orientations in these tracts. At several levels in the brain stem, the descending pyramidal tract was impossible to differentiate from the adjacent medial lemniscus. Here the dorsal boundary of the pyramidal tract was extrapolated to the expected geometrical shape and position relative to the brain surface and to the midline of the brain.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+            "criteriaQualityType": {
+                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+            },
+            "criteriaType": {
+                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+            },
+            "inspiredBy": null,
+            "internalIdentifier": "1",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "preferredVisualization": {
+                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+                "additionalRemarks": null,
+                "anchorPoint": null,
+                "cameraPosition": null,
+                "preferredDisplayColor": {
+                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#FF3427"
+                }
+            },
+            "specification": null,
+            "type": null
+        }
+    ],
+    "hasParent": [
         {
-          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_corticofugalPathways"
         }
-      ],
-      "preferredVisualization": {
-        "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
-        "additionalRemarks": null,
-        "anchorPoint": null,
-        "cameraPosition": null,
-        "preferredDisplayColor": {
-          "@id": "https://openminds.ebrains.eu/instances/singleColor/#FF3427"
-        }
-      },
-      "specification": null,
-      "type": null
-    }
-  ],
-  "hasParent": [
-    {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_corticofugalPathways"
-    }
-  ],
-  "lookupLabel": "WHSSDatlas_v3_descendingCorticofugalPathways",
-  "name": "descending corticofugal pathways",
-  "ontologyIdentifier": null,
-  "relationAssessment": null,
-  "versionIdentifier": "v3",
-  "versionInnovation": null
+    ],
+    "lookupLabel": "WHSSDatlas_v3_descendingCorticofugalPathways",
+    "name": "descending corticofugal pathways",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v3",
+    "versionInnovation": "revised"
 }

@@ -1,54 +1,67 @@
 {
-  "@context": {
-    "@vocab": "https://openminds.ebrains.eu/vocab/"
-  },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_medialGeniculateBodyMedialDivision",
-  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "abbreviation": null,
-  "additionalRemarks": null,
-  "alternateName": [
-    "MGM"
-  ],
-  "correctedName": null,
-  "hasAnnotation": [
-    {
-      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-      "anchorPoint": null,
-      "criteria": null,
-      "criteriaQualityType": {
-        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
-      },
-      "criteriaType": {
-        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
-      },
-      "inspiredBy": null,
-      "internalIdentifier": "147",
-      "laterality": [
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_medialGeniculateBodyMedialDivision",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "abbreviation": "MGM",
+    "additionalRemarks": null,
+    "alternateName": [
+        "MGM"
+    ],
+    "correctedName": null,
+    "hasAnnotation": [
         {
-          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-        },
-        {
-          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "anchorPoint": [
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 244.099867724867
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 496.774735449735
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 294.615674603174
+                }
+            ],
+            "criteria": "'The medial division makes up the medial side of the medial geniculate body. Our delineation probably also includes the suprageniculate nucleus. In thionine-stained sections, the medial division is characterized by particularly large neurons. In sMRI, it is dominated by dark fibre fascicles that appear crosscut in coronal slices, while in horizontal slices, the fascicles appear to bend into it from the brachium of the inferior colliculus, from which it is only indistinctly delimited in agreement with findings in myelin-stained sections. The border with the ventral and dorsal divisions appears jagged probably reflecting fascicles of brachial fibres traversing the borderline. In DTI, the medial division exhibits massive green signals like the brachium.' \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+            "criteriaQualityType": {
+                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+            },
+            "criteriaType": {
+                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+            },
+            "inspiredBy": null,
+            "internalIdentifier": "147",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "preferredVisualization": {
+                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+                "additionalRemarks": null,
+                "anchorPoint": null,
+                "cameraPosition": null,
+                "preferredDisplayColor": {
+                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#0AF4D9"
+                }
+            },
+            "specification": null,
+            "type": null
         }
-      ],
-      "preferredVisualization": {
-        "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
-        "additionalRemarks": null,
-        "anchorPoint": null,
-        "cameraPosition": null,
-        "preferredDisplayColor": {
-          "@id": "https://openminds.ebrains.eu/instances/singleColor/#0AF4D9"
-        }
-      },
-      "specification": null,
-      "type": null
-    }
-  ],
-  "hasParent": null,
-  "lookupLabel": "WHSSDatlas_v3_medialGeniculateBodyMedialDivision",
-  "name": "medial geniculate body, medial division",
-  "ontologyIdentifier": null,
-  "relationAssessment": null,
-  "versionIdentifier": "v3",
-  "versionInnovation": null
+    ],
+    "hasParent": null,
+    "lookupLabel": "WHSSDatlas_v3_medialGeniculateBodyMedialDivision",
+    "name": "medial geniculate body, medial division",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v3",
+    "versionInnovation": "First delineated in version v3"
 }

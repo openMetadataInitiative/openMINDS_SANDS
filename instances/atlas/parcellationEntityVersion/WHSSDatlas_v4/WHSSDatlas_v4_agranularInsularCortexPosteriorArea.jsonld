@@ -1,58 +1,71 @@
 {
-  "@context": {
-    "@vocab": "https://openminds.ebrains.eu/vocab/"
-  },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_agranularInsularCortexPosteriorArea",
-  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "abbreviation": null,
-  "additionalRemarks": null,
-  "alternateName": [
-    "AI-p"
-  ],
-  "correctedName": null,
-  "hasAnnotation": [
-    {
-      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-      "anchorPoint": null,
-      "criteria": null,
-      "criteriaQualityType": {
-        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
-      },
-      "criteriaType": {
-        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
-      },
-      "inspiredBy": null,
-      "internalIdentifier": "424",
-      "laterality": [
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_agranularInsularCortexPosteriorArea",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "abbreviation": "AI-p",
+    "additionalRemarks": null,
+    "alternateName": [
+        "AI-p"
+    ],
+    "correctedName": null,
+    "hasAnnotation": [
         {
-          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-        },
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "anchorPoint": [
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 267.328741480272
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 590.84393779399
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 235.409263703561
+                }
+            ],
+            "criteria": "The primary somatosensory area, hindlimb representation was challenging to delineate as there were litle to no contrast in MRI and DWI. Consultation with detailed description from literature (Hall and Lindholm, 1974, Brain Res.; Leergaard et al., 2004, J. Comp. Neurol.; Halley et al., 2020, Cereb.) and other rat brain atlases (Paxinos and Watson, 6th ed., 2007; Swanson, 4th ed., 2018) were used to delineate the border.",
+            "criteriaQualityType": {
+                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+            },
+            "criteriaType": {
+                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+            },
+            "inspiredBy": null,
+            "internalIdentifier": "424",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "preferredVisualization": {
+                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+                "additionalRemarks": null,
+                "anchorPoint": null,
+                "cameraPosition": null,
+                "preferredDisplayColor": {
+                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#B5E61D"
+                }
+            },
+            "specification": null,
+            "type": null
+        }
+    ],
+    "hasParent": [
         {
-          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_agranularInsularCortex"
         }
-      ],
-      "preferredVisualization": {
-        "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
-        "additionalRemarks": null,
-        "anchorPoint": null,
-        "cameraPosition": null,
-        "preferredDisplayColor": {
-          "@id": "https://openminds.ebrains.eu/instances/singleColor/#B5E61D"
-        }
-      },
-      "specification": null,
-      "type": null
-    }
-  ],
-  "hasParent": [
-    {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_agranularInsularCortex"
-    }
-  ],
-  "lookupLabel": "WHSSDatlas_v4_agranularInsularCortexPosteriorArea",
-  "name": "agranular insular cortex, posterior area",
-  "ontologyIdentifier": null,
-  "relationAssessment": null,
-  "versionIdentifier": "v4",
-  "versionInnovation": null
+    ],
+    "lookupLabel": "WHSSDatlas_v4_agranularInsularCortexPosteriorArea",
+    "name": "agranular insular cortex, posterior area",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v4",
+    "versionInnovation": "First delineated in version v4"
 }

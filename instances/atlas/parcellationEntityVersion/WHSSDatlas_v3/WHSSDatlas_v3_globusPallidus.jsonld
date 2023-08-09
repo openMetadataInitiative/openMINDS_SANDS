@@ -1,60 +1,73 @@
 {
-  "@context": {
-    "@vocab": "https://openminds.ebrains.eu/vocab/"
-  },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_globusPallidus",
-  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "abbreviation": null,
-  "additionalRemarks": null,
-  "alternateName": [
-    "GP",
-    "GPe",
-    "globus pallidus external "
-  ],
-  "correctedName": null,
-  "hasAnnotation": [
-    {
-      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-      "anchorPoint": null,
-      "criteria": null,
-      "criteriaQualityType": {
-        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
-      },
-      "criteriaType": {
-        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
-      },
-      "inspiredBy": null,
-      "internalIdentifier": "31",
-      "laterality": [
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_globusPallidus",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "abbreviation": "GP",
+    "additionalRemarks": null,
+    "alternateName": [
+        "GP",
+        "GPe",
+        "globus pallidus external "
+    ],
+    "correctedName": null,
+    "hasAnnotation": [
         {
-          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-        },
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "anchorPoint": [
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 248.544232690025
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 600.298591605944
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 263.038068871206
+                }
+            ],
+            "criteria": "'The globus pallidus is readily distinguished medially from the white matter of the internal capsule by its bright T2* contrast. The dorsolateral boundary towards the striatum is more difficult to see in the T2* images since the overall appearance of the tissue is striated in both regions. The boundary is indicated by a thin band of slightly darker signal between the globus pallidus and the striatum, coinciding with a relatively sharp boundary given by higher FA values in the globus pallidus, corresponding to the higher density offibers in this region. The anterior part of the globus pallidus is ventrally delimited partly by the posterior limb of the anterior commissure (with dark T2* signal, mediolateral fiber orientation) and the associated interstitial nu- cleus (with slightly brighter T2* signal), and partly by the ventral pallidum. The distinct appearance of the globus pallidus with high densities of fiber bundles was used to delineate its ventral boundary against the ventral pallidum (included in the basal forebrain region) and the sublenticular extended amygdala, aided also by slightly darker T2* signal in the extendedamygdala. The basal nucleus (of Meynert), intercalated between the globus pallidus and extended amygdala, was not possible to identify separately and was therefore included in the delineation ofthe globus pallidus. Further posterior, the globus pallidus is ventrally adjacent to the amygdaloid nuclei showing darker FA signals. The posterior border of the globus pallidus is given by the inferosuperior segment of the stria terminalis (identified by high FA values) directly posterior to the internal capsule and anteroventral to the fimbria' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+            "criteriaQualityType": {
+                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+            },
+            "criteriaType": {
+                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+            },
+            "inspiredBy": null,
+            "internalIdentifier": "31",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "preferredVisualization": {
+                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+                "additionalRemarks": null,
+                "anchorPoint": null,
+                "cameraPosition": null,
+                "preferredDisplayColor": {
+                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#FF91BA"
+                }
+            },
+            "specification": null,
+            "type": null
+        }
+    ],
+    "hasParent": [
         {
-          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_pallidum"
         }
-      ],
-      "preferredVisualization": {
-        "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
-        "additionalRemarks": null,
-        "anchorPoint": null,
-        "cameraPosition": null,
-        "preferredDisplayColor": {
-          "@id": "https://openminds.ebrains.eu/instances/singleColor/#FF91BA"
-        }
-      },
-      "specification": null,
-      "type": null
-    }
-  ],
-  "hasParent": [
-    {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_pallidum"
-    }
-  ],
-  "lookupLabel": "WHSSDatlas_v3_globusPallidus",
-  "name": "globus pallidus",
-  "ontologyIdentifier": null,
-  "relationAssessment": null,
-  "versionIdentifier": "v3",
-  "versionInnovation": null
+    ],
+    "lookupLabel": "WHSSDatlas_v3_globusPallidus",
+    "name": "globus pallidus",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v3",
+    "versionInnovation": "unchanged"
 }

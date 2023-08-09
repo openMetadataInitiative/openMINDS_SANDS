@@ -1,58 +1,71 @@
 {
-  "@context": {
-    "@vocab": "https://openminds.ebrains.eu/vocab/"
-  },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_hypothalamicRegion",
-  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "abbreviation": null,
-  "additionalRemarks": "both .label file name and .mbat file name are \"hypothalamic region\", but name was changed to reflect the possibility for subdivision; abbreviation for the corrected name has been added under \"alternateName\" instead of the abbreviation from the .mbat file; for details, see atlas documentation",
-  "alternateName": [
-    "HTh-u"
-  ],
-  "correctedName": "hypothalamic region, unspecified",
-  "hasAnnotation": [
-    {
-      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-      "anchorPoint": null,
-      "criteria": null,
-      "criteriaQualityType": {
-        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
-      },
-      "criteriaType": {
-        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
-      },
-      "inspiredBy": null,
-      "internalIdentifier": "48",
-      "laterality": [
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_hypothalamicRegion",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "abbreviation": "HTh-u",
+    "additionalRemarks": "both .label file name and .mbat file name are \"hypothalamic region\", but name was changed to reflect the possibility for subdivision; abbreviation for the corrected name has been added under \"alternateName\" instead of the abbreviation from the .mbat file; for details, see atlas documentation",
+    "alternateName": [
+        "HTh-u"
+    ],
+    "correctedName": "hypothalamic region, unspecified",
+    "hasAnnotation": [
         {
-          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-        },
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "anchorPoint": [
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 243.177705096089
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 556.717828975693
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 197.556902912051
+                }
+            ],
+            "criteria": "'The hypothalamic region is characterized by low anisotropy compared to the surrounding regions. Its dorsal and ventral extents are mostly given by the thalamus, the brain stem, and the ventral brain surface. The optic chiasm and optic tract, as well as the supraoptic decussation (all with very bright FA signal) also contribute to the ventral and ventrolateral boundary. The lateral dimensions of the hypothalamic region, where not defined by the outer brain surface, were approximated against the slightly darker T2* signal and higher anisotropy of the basal forebrain region. The more posteriorly located peduncular part of the lateral hypothalamus is here not identified separately, but rather included in the basal forebrain region. The fornix and the surrounding bed nucleus of the stria terminalis contribute further to this lateral boundary. Similarly, the anterior part of the hypothalamus was estimated as a zone of bright T2* contrast located between the optic chiasm, the medial division of the bed nucleus of the stria terminalis, and the preoptic area (included in the basal forebrain region). Directly posterior to the level where the mammillothalamic tract is located between the thalamus and the hypothalamus, the dorsal/dorsolateral border of the hypothalamic region is given by the protruding reticular formation (characterized by darker T2* signal with characteristic reticular pattern, here delineated as part of the brain stem) and medially by the periaqueductal gray. Due to the lack of contrast between the posterior hypothalamic area and the periaqueductal gray, this boundary was set to follow the ventral surface of the mammillothalamic tract. The most posterior part of the hypothalamic region is formed by the mammillary nuclei (with brighter T2* contrast).' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+            "criteriaQualityType": {
+                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+            },
+            "criteriaType": {
+                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+            },
+            "inspiredBy": null,
+            "internalIdentifier": "48",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "preferredVisualization": {
+                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+                "additionalRemarks": null,
+                "anchorPoint": null,
+                "cameraPosition": null,
+                "preferredDisplayColor": {
+                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#E278A1"
+                }
+            },
+            "specification": null,
+            "type": null
+        }
+    ],
+    "hasParent": [
         {
-          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_hypothalamus"
         }
-      ],
-      "preferredVisualization": {
-        "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
-        "additionalRemarks": null,
-        "anchorPoint": null,
-        "cameraPosition": null,
-        "preferredDisplayColor": {
-          "@id": "https://openminds.ebrains.eu/instances/singleColor/#E278A1"
-        }
-      },
-      "specification": null,
-      "type": null
-    }
-  ],
-  "hasParent": [
-    {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_hypothalamus"
-    }
-  ],
-  "lookupLabel": "WHSSDatlas_v3_hypothalamicRegion",
-  "name": "hypothalamic region",
-  "ontologyIdentifier": null,
-  "relationAssessment": null,
-  "versionIdentifier": "v3",
-  "versionInnovation": null
+    ],
+    "lookupLabel": "WHSSDatlas_v3_hypothalamicRegion",
+    "name": "hypothalamic region",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v3",
+    "versionInnovation": "unchanged"
 }
