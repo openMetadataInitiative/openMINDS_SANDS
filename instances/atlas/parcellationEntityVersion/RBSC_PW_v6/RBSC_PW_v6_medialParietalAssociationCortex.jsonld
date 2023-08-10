@@ -1,39 +1,39 @@
 {
-    "@context": {
-        "@vocab": "https://openminds.ebrains.eu/vocab/"
-    },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/RBSC_PW_v6_medialParietalAssociationCortex",
-    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "additionalRemarks": null,
-    "alternativeName": [
-        "MPtA"
-    ],
-    "correctedName": null,
-    "hasAnnotation": [
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/RBSC_PW_v6_medialParietalAssociationCortex",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "additionalRemarks": null,
+  "alternativeName": [
+    "MPtA"
+  ],
+  "correctedName": null,
+  "hasAnnotation": [
+    {
+      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+      "bestViewPoint": null,
+      "criteria": null,
+      "criteriaQualityType": null,
+      "displayColor": null,
+      "inspiredBy": null,
+      "internalIdentifier": null,
+      "laterality": [
         {
-            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-            "bestViewPoint": null,
-            "criteria": null,
-            "criteriaQualityType": null,
-            "displayColor": null,
-            "inspiredBy": null,
-            "internalIdentifier": null,
-            "laterality": [
-                {
-                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-                },
-                {
-                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
-                }
-            ],
-            "visualizedIn": null
+          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        },
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
         }
-    ],
-    "hasParent": null,
-    "lookupLabel": "RBSC_PW_v6_medialParietalAssociationCortex",
-    "name": "medial parietal association cortex",
-    "ontologyIdentifier": null,
-    "relationAssessment": null,
-    "versionIdentifier": "v6",
-    "versionInnovation": null
+      ],
+      "visualizedIn": null
+    }
+  ],
+  "hasParent": null,
+  "lookupLabel": "RBSC_PW_v6_medialParietalAssociationCortex",
+  "name": "medial parietal association cortex",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "v6",
+  "versionInnovation": null
 }
