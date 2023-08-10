@@ -1,71 +1,71 @@
 {
-    "@context": {
-        "@vocab": "https://openminds.ebrains.eu/vocab/"
-    },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_bedNucleusOfTheStriaTerminalis",
-    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "abbreviation": null,
-    "additionalRemarks": null,
-    "alternateName": [
-        "BNST"
-    ],
-    "correctedName": null,
-    "hasAnnotation": [
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_bedNucleusOfTheStriaTerminalis",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "abbreviation": null,
+  "additionalRemarks": null,
+  "alternateName": [
+    "BNST"
+  ],
+  "correctedName": null,
+  "hasAnnotation": [
+    {
+      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+      "anchorPoint": [
         {
-            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-            "anchorPoint": [
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 617.0920268803
-                },
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 268.782786043372
-                },
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 259.290665258091
-                }
-            ],
-            "criteria": "'The bed nucleus of the stria terminalis was identified as a zone of relatively bright T2* signals located posterior to striatum, between the anterior commissure, septal region, internal capsule and the lateral ventricle. The lateral and medial boundaries of the anterior part of the region are given by the internal capsule and the septal region, respectively. Posterior to the level where the 3rd ventricle merges with the lateral ventricles, the bed nucleus of the stria terminalis is medially delimited by the anterior thalamus (paratenial nucleus, with slightly darker T2* signal), the stria medullaris (with high FA and dorsoventral DTI orientations), and the fornix (with oblique anteroposterior and dorsoventral diffusion orientations). Its dorsomedial boundary is given by the lateral ventricle, whereas its dorsolateral boundary is adjacent to the stria terminalis (with bright FA signals). Complementing the arc formed by the stria terminalis and the dorsal part of its bed nucleus, the ventral extension of the bed nucleus of the stria terminalis encompasses the anterior side of the fornix, appearing as a curved zone of bright T2* signal surrounding the fornix. The bed nucleus of the stria terminalis can be followed towards posterior along the fornix to the level where the fornix becomes detached from the thalamic surface.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
-            "criteriaQualityType": {
-                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
-            },
-            "criteriaType": {
-                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
-            },
-            "inspiredBy": null,
-            "internalIdentifier": "93",
-            "laterality": [
-                {
-                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-                },
-                {
-                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
-                }
-            ],
-            "preferredVisualization": {
-                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
-                "additionalRemarks": null,
-                "anchorPoint": null,
-                "cameraPosition": null,
-                "preferredDisplayColor": {
-                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#0008B6"
-                }
-            },
-            "specification": null,
-            "type": null
-        }
-    ],
-    "hasParent": [
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 617.0920268803
+        },
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_grayMatter"
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 268.782786043372
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 259.290665258091
         }
-    ],
-    "lookupLabel": "WHSSDatlas_v1_bedNucleusOfTheStriaTerminalis",
-    "name": "bed nucleus of the stria terminalis",
-    "ontologyIdentifier": null,
-    "relationAssessment": null,
-    "versionIdentifier": "v1",
-    "versionInnovation": "First delineated in version 1"
+      ],
+      "criteria": "'The bed nucleus of the stria terminalis was identified as a zone of relatively bright T2* signals located posterior to striatum, between the anterior commissure, septal region, internal capsule and the lateral ventricle. The lateral and medial boundaries of the anterior part of the region are given by the internal capsule and the septal region, respectively. Posterior to the level where the 3rd ventricle merges with the lateral ventricles, the bed nucleus of the stria terminalis is medially delimited by the anterior thalamus (paratenial nucleus, with slightly darker T2* signal), the stria medullaris (with high FA and dorsoventral DTI orientations), and the fornix (with oblique anteroposterior and dorsoventral diffusion orientations). Its dorsomedial boundary is given by the lateral ventricle, whereas its dorsolateral boundary is adjacent to the stria terminalis (with bright FA signals). Complementing the arc formed by the stria terminalis and the dorsal part of its bed nucleus, the ventral extension of the bed nucleus of the stria terminalis encompasses the anterior side of the fornix, appearing as a curved zone of bright T2* signal surrounding the fornix. The bed nucleus of the stria terminalis can be followed towards posterior along the fornix to the level where the fornix becomes detached from the thalamic surface.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+      "criteriaQualityType": {
+        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+      },
+      "criteriaType": {
+        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+      },
+      "inspiredBy": null,
+      "internalIdentifier": "93",
+      "laterality": [
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        },
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+        }
+      ],
+      "preferredVisualization": {
+        "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+        "additionalRemarks": null,
+        "anchorPoint": null,
+        "cameraPosition": null,
+        "preferredDisplayColor": {
+          "@id": "https://openminds.ebrains.eu/instances/singleColor/#0008B6"
+        }
+      },
+      "specification": null,
+      "type": null
+    }
+  ],
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_grayMatter"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_v1_bedNucleusOfTheStriaTerminalis",
+  "name": "bed nucleus of the stria terminalis",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "v1",
+  "versionInnovation": "First delineated in version 1"
 }
