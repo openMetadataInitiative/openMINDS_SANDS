@@ -27,14 +27,18 @@
                     "value": 292.363941203491
                 }
             ],
-            "criteria": "Often referred to as the ventral lateral geniculate nucleus. It is delimited from the dorsal lateral geniculate nucleus by a thin sheet of darker appearance in the sMRI, corresponding to the intergeniculate leaflet. The medial and lateral borders are defined by the optic tract laterally and the external medullary lamina and marginal zona of the medial geniculate body medially, all of which appear darker in the T2* template. The ventromedial border with the subgeniculate nucleus is more difficult to distinguish in T2*, but can be seen in the DTI as a dark blue region, distinguishable from the more purple and red subgeniculate nucleus.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "204",
             "laterality": [
                 {

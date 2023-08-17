@@ -27,14 +27,18 @@
                     "value": 208.632872664422
                 }
             ],
-            "criteria": "The piriform cortex, layer 2 has a dark grey apperance which is clearly distinguishable in DTI and visible in MRI. In version 4, the PIR replaced part of the OB-u and basal forebrain, unspecified.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "182",
             "laterality": [
                 {

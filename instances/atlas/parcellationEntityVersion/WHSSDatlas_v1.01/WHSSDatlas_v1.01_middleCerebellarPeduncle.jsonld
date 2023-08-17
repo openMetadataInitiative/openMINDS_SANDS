@@ -27,14 +27,18 @@
                     "value": 238.866651435534
                 }
             ],
-            "criteria": "'The middle cerebellar peduncle was delineated using primarily DTI maps, aided by the T2*-weighted images. The delineation was truncated at the level where the fiber tracts enter the cerebellum, arbitrarily defined by a line connecting the lateral corner of the 4th ventricle with the lateral recess of the 4th ventricle.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "78",
             "laterality": [
                 {

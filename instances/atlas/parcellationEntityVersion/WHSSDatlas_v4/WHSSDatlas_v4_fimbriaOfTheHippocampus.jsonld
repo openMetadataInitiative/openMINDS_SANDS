@@ -27,14 +27,18 @@
                     "value": 321.792154887316
                 }
             ],
-            "criteria": "'The horns of the fimbria fill the space between the lateral ventricles, the hippocampal formation, and the thalamus, as well as the more anteriorly located septal region. The fimbria was delineated against these structures on basis of high FA values and characteristic diffusion orientations. The boundary between the fimbria and the stria terminalis was identified by the relatively lower T2* signal intensity in the fimbria.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "59",
             "laterality": [
                 {

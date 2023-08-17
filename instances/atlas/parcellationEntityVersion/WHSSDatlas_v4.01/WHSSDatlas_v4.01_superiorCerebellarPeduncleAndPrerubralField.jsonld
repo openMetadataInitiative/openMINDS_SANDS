@@ -27,14 +27,18 @@
           "value": 249.250872316517
         }
       ],
-      "criteria": "The prerubral field is situated directly caudal to the ventromedial nucleus. The region can be discerned in the MRI template as a relatively darker than the ventromedial nucleus, nucleus of the Fields of Forel, and hypothalamus, yet brighter than the medial lemniscus lining its dorsal border. This structure does not include the entire superior cerebellar peduncle; while some parts of the peduncle were possible to delineate separately, its fibers traverse the prerubral field, making the definition of a distinct border impossible at many levels. In the atlases by Paxinos and colleagues, the region is sometimes drawn with label 'PF' on one side and 'scp' on the other, illustrating the difficulty of defining a sharp border. Thus, the structure was given a combined name because the resulting structure includes many fibers form the superior cerebellar peduncle along with the cells that constitute the prerubral field.",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "270",
       "laterality": [
         {

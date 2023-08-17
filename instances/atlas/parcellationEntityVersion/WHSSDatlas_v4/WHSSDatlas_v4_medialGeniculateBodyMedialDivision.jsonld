@@ -27,14 +27,18 @@
                     "value": 289.268934150682
                 }
             ],
-            "criteria": "In version 4, this region was revised, and the suprageniculate nucleus was delineated separately. The rostral and dorsal extent of the medial part was also revised: it was shifted slightly medially so that it is partly replaced by the posterior thalamic nuclear group, triangular part and partly replaces the dorsal medial geniculate complex. We also extended the region more caudally, so that both the dorsal and medial subdivisions extend throughout the complex, in accordance with Clerici and Coleman.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "297",
             "laterality": [
                 {

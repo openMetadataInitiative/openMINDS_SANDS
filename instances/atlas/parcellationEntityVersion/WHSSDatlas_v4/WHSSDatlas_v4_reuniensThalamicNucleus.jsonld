@@ -27,14 +27,18 @@
                     "value": 247.038011327879
                 }
             ],
-            "criteria": "The reuniens thalamic nucleus is situated ventral to the rhomboid thalamic nucleus, and dorsal to the paraxiphoid nucleus of the thalamus. The reuniens nucleus is sometimes discernible in the T2* template, and delineation was further aided by inspecting calbindin stained sections. A subregion of the reuniens nucleus called the \u201cventral reuniens nucleus\u201d is sometimes distinguished, but was not delineated separately here due to the small nature of the structure and lack of contrast in the template.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "219",
             "laterality": [
                 {

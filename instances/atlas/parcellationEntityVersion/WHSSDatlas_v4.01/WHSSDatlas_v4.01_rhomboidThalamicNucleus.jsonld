@@ -27,14 +27,18 @@
           "value": 261.542559436454
         }
       ],
-      "criteria": "The rhomboid thalamic nucleus is intercalated between the left and right submedius nucleus, and extends as a sheet of cells dorsal to it. The rhomboid nucleus is calbindin positive, and can be most easily seen in coronal histological sections. It is discernible in the sMRI template as a dark thin strip of tissue bordering the submedius nucleus ventrally and anteromedial and centromedial nucleus dorsally.",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "216",
       "laterality": [
         {

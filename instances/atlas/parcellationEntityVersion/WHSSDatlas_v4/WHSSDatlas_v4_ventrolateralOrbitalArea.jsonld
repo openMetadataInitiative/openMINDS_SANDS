@@ -27,14 +27,18 @@
                     "value": 304.821357034293
                 }
             ],
-            "criteria": "The ventrolateral orbital area was delineated based on detailed description from literature (Kondo et al., 2014, J. Comp. Neurol.; Schilman et al., 2008, Neurosci. Lett.; Van De Werd et al., 2008, Brain Struct Funct.) and spatially registered histological material. In MRI, there are slight intensity differences in layer two across the orbital subdivisions.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "400",
             "laterality": [
                 {

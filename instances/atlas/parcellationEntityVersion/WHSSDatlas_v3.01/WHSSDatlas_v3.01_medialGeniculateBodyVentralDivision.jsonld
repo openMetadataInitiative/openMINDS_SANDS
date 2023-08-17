@@ -27,14 +27,18 @@
                     "value": 288.854357612462
                 }
             ],
-            "criteria": "'In DTI, the ventral division of the medial geniculate nucleus show a mixture of green, blue and red voxels, with the relative number of green voxels increasing rostrally. The ventral division is richer in myelin than the dorsal division, with myelinated fibres constituting the so-called midgeniculate bundle at the subdivision boundary. In sMRI, some scattered dark spots consistent with myelinated fibres were found in the ventral part, but a midgeniculate bundle was not discernible.' \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "149",
             "laterality": [
                 {

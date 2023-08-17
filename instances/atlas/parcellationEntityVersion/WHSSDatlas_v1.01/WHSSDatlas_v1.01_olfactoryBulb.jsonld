@@ -27,14 +27,18 @@
                     "value": 285.997992834404
                 }
             ],
-            "criteria": "'The deeper layers of the olfactory and accessory olfactory bulb, the lateral olfactory tract, and the anterior parts of the piriform cortex were delineated as one structure, whereas the intrabulbar part of the anterior commissure was delineated separately. Posterior to the olfactory bulb, the olfactory system protrudes ventrally below the ventral pallidum and the orbital and insular cortices. Anteriorly, the olfactory system is divided from the cerebral cortex by the rhinal incisure and the rhinal fissure. In more posterior regions, where the rhinal fissure is shallow, the dorsal boundary of the olfactory system was delineated on basis of the lower T2* signal intensity observed in the ventral and lateral orbital cortex, and insular cortex, and further by the homogenous high T2* intensity seen in the accumbens nucleus. The piriform cortex, forming the most dorsolateral part of the olfactory system, was identified as a homogeneous region appearing relatively bright in T2* images, with its distinctly curving layer 2 clearly visible in diffusion weighted images. The medial and ventromedial boundary of the olfactory systemwas defined against the navicular nucleus of the basal forebrain (with lower T2* intensity) and the ventral pallidum (with distinct anteroposterior fiber orientations). The olfactory tubercle, located medial to the lateral olfactory tract, could not be distinguished from the ventral pallidum and was therefore not included. Towards posterior, the delineation of the olfactory system was arbitrarily truncated at the anteroposterior level where the rhinal fissure becomes a shallow groove on the lateral surface of the cerebral cortex.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "66",
             "laterality": [
                 {

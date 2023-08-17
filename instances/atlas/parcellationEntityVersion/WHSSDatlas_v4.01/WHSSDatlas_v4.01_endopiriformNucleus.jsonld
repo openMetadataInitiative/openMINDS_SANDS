@@ -27,14 +27,18 @@
           "value": 227.177514831263
         }
       ],
-      "criteria": "The endopiriform nucleus has a medium dark apperance in MRI. This contrast with the lighter surrounding areas, e.g. caudate putamen, Basal forebrain region, unspecified and piriform cortex, and the darker claustrum.",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "500",
       "laterality": [
         {

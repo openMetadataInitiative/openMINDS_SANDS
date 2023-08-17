@@ -27,14 +27,18 @@
                     "value": 254.458988290961
                 }
             ],
-            "criteria": "The dysgranular insular cortex has a medium dark apperance in MRI and present a clear dorsal border to the granular insular cortex. However, the other borders, such as the ventral border to the agrunular insular cortex, were not easily distinguished. Consultation with detailed description from literature (Van De Werd et al., 2008, Brain Struct Funct.; Mathiasen et al., 2015, J. Comp. Neurol.) and other rat brain atlases (Paxinos and Watson, 6th ed., 2007; Swanson, 4th ed., 2018) were used to delineate the border.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "414",
             "laterality": [
                 {

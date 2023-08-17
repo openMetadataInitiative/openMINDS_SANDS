@@ -27,14 +27,18 @@
                     "value": 294.574146981627
                 }
             ],
-            "criteria": "'In sMRI, the medial geniculate body, in harmony with myelin-stained sections, is surrounded by a dark fibrous capsule, the marginal zone, laterally, dorsally and ventrally. In DTI, the blue colour of the vertical parts of the zone caudally and laterally and the red colour of its horizontal parts dorsally and ventrally indicate a circumferential orientation of fibres.' \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "150",
             "laterality": [
                 {

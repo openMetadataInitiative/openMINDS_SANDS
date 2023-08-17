@@ -27,14 +27,18 @@
           "value": 289.530210036085
         }
       ],
-      "criteria": "The border between the dorsal and ventral subdivision has been shifted slightly so that the ventral part extends slightly more dorsally.",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "298",
       "laterality": [
         {

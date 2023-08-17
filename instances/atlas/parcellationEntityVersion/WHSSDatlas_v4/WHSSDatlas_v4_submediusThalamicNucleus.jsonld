@@ -27,14 +27,18 @@
                     "value": 256.172890963654
                 }
             ],
-            "criteria": "The submedius thalamic nucleus is situated directly ventrolaterally to the rhomboid nucleus and dorsomedially to the ventromedial nucleus. It can be discerned as slightly brighter than surrounding structures.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "222",
             "laterality": [
                 {

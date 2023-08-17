@@ -27,14 +27,18 @@
           "value": 377.913064084769
         }
       ],
-      "criteria": "'The dorsal cortex of the inferior colliculus covers the dorsal end of the central nucleus. In DTI, the dorsal cortex is characterized by bright green signals dorsal to the central nucleus both in the superficial fibre capsule and the deeper tissue, with the addition of a small amount of bright red voxels, both in the capsule and below. In DTI, the border with the subjacent central nucleus was arbitrarily set at the ventral border of the continuously green area, while the lateral border with the external cortex was guided by the top point of the wedge of the lemniscal fibres. The dorsal cortex also extends somewhat ventrally along the medial and caudal aspects of the central nucleus, with a blue tinge in DTI.' \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "142",
       "laterality": [
         {

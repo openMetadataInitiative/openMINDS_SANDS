@@ -27,14 +27,18 @@
                     "value": 236.706453535908
                 }
             ],
-            "criteria": "'The entorhinal cortex was readily distinguished from the surrounding parasubiculum, perirhinal and postrhinal cortices in sMRI maps, by the presence of distinctly brighter superficial layers and a thin dark layer, faintly indicating the lamina dissecans (a cell free layer IV containing afferent and efferent fibers which is present in the entorhinal cortex, and to a lesser extent also in the presubiculum and parasubiculum). The entorhinal cortex was further characterized by a more distinct laminar appearance in DTI and FA maps. The boundary between the entorhinal cortex and the postrhinal cortex was detected on the basis of the relatively brighter appearance of the entorhinal cortex in sMRI maps, as well as by the presence of anteroposterior orientations in DTI maps, reflecting the anteroposteriorly oriented intrinsic fibers of the entorhinal cortex. At the border between the entorhinal cortex and the anteroventrally located piriform cortex, layer II (here appearing bright in sMRI maps) was more sharply defined in the piriform cortex, and more blurred in the entorhinal cortex. This boundary was also indicated by the presence of the endopiriform nucleus, underlying the piriform cortex, visible as an ellipsoid region with low sMRI signal intensity (dark), located close to the white matter of the external capsule (opposed to the amygdala). In horizontal slices, the point where the lamina dissecans curved sharply towards the medial pial surface defined the medial edge of the entorhinal cortex and its boundary with the parasubiculum. In horizontal sMRI maps, the medial entorhinal cortex was distinguished from the lateral entorhinal cortex by the relatively more heterogeneous aspect, the presence of a narrow, bright layer II, and a dark layer IV (lamina dissecans) in medial entorhinal cortex. This difference was much harder to see in the coronal and sagittal planes. Further subdivisions of the entorhinal cortex (Insausti et al., 1997; Kjonigsen et al., 2011; Boccara et al., 2014) could not be consistently identified in the MR images, although at some levels it was noted that the caudal entorhinal area appeared brighter in sMRI maps than the ventral intermediate area,while the medial entorhinal area appeared darker and also featured high FA values.'\n- Kjonigsen LJ, Lillehaug S, Bjaalie JG, Witter MP, Leergaard TB (2015) Waxholm Space atlas of the rat brain hippocampal region: Three-dimensional delineations based on magnetic resonance and diffusion tensor imaging. NeuroImage 108, 441-449. DOI:",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "115",
             "laterality": [
                 {

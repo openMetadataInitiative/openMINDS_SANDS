@@ -27,14 +27,18 @@
                     "value": 294.969886184002
                 }
             ],
-            "criteria": "'The region can be seen in the sMRI as mostly a very dark region. However, its most dorsal part, forming the dorsal border of the thalamus appears lighter than the rest of the region.'",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "242",
             "laterality": [
                 {

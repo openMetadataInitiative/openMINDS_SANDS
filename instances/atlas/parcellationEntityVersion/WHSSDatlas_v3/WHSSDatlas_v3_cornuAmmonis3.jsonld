@@ -27,14 +27,18 @@
                     "value": 302.052750993862
                 }
             ],
-            "criteria": "'The external boundaries of the CA fields towards the subiculum and dentate gyrus were identified by the presence of a distinct cell layer with low sMRI signal intensity (dark) in CA1 and CA3, contrasting with the homogenously brighter appearance of the subiculum (lacking a visible cell layer) and the distinctly darker dentate gyrus. The boundary between CA fields and dentate gyrus was also demarcated in sMRI maps by a thin, dark zone reflecting the thin sheet of white matter lining the hippocampal fissure. The subdivisions ofthe CA fields were identified insMRImaps by the distinctly visible py- ramidal cell layer, appearing as thin, dark zone in CA1 and CA3, but not in CA2. The discontinuation of the cell layer in CA2 was clearly seen in horizontal and sagittal slices'\n- Kjonigsen LJ, Lillehaug S, Bjaalie JG, Witter MP, Leergaard TB (2015) Waxholm Space atlas of the rat brain hippocampal region: Three-dimensional delineations based on magnetic resonance and diffusion tensor imaging. NeuroImage 108, 441-449. DOI:",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "95",
             "laterality": [
                 {

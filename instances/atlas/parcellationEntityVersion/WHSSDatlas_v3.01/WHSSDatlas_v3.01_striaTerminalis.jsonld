@@ -27,14 +27,18 @@
                     "value": 284.837963737796
                 }
             ],
-            "criteria": "'At the levels where the stria terminalis adjoins the bed nucleus of the stria terminalis, the two structures were distinguished based on the FA maps. The posterior part of the stria terminalis is intercalated between the internal capsule and the ventral fimbria, distinguished by higher T2* values and a difference in fiber orientations' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "62",
             "laterality": [
                 {

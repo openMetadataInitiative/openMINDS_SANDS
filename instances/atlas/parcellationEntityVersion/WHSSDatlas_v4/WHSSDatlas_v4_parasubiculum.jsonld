@@ -27,14 +27,18 @@
                     "value": 301.166438971076
                 }
             ],
-            "criteria": "'The boundary between the parasubiculum and entorhinal cortex was identified by a thin rim of low sMRI signal intensity (dark), reflecting white matter, extending towards the pial surface as an extension of the lamina dissecans and alveus. At its dorsolateral extreme, the parasubiculum was distinguished from the postrhinal cortex on the basis of higher MRI signal intensity (bright) in the parasubiculum, and further by a preponderance of mediolateral (red DTI color) diffusion orientations in the parasubiculum, contrasting the anteroposterior (green DTI color) diffusion orientations observed in the middle layers of the postrhinal cortex.' \n- Kjonigsen LJ, Lillehaug S, Bjaalie JG, Witter MP, Leergaard TB (2015) Waxholm Space atlas of the rat brain hippocampal region: Three-dimensional delineations based on magnetic resonance and diffusion tensor imaging. NeuroImage 108, 441-449. DOI:",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "110",
             "laterality": [
                 {

@@ -28,14 +28,18 @@
           "value": 231.063946677438
         }
       ],
-      "criteria": "The vestibular nerve is intimately connected to the rostral side of the cochlear nerve upon entering the medulla medial to the anteroventral cochlear nucleus. Ventral to the latter, the vestibular nerve appears red in DTI, reflecting the lateromedial course of the fibres. After its entrance into the brainstem, the vestibular nerve continues dorsocaudally through the trapezoid body between the ventral cochlear nucleus and the spinal tract of the trigeminal nerve to the region of the vestibular nuclei, in DTI exhibiting various shades of blue, lilac and red in harmony with its curved path. In sMRI, the otherwise dark vestibular nerve appears lighter and spotted grey in the region where it interweaves with the trapezoid body. \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "122",
       "laterality": [
         {

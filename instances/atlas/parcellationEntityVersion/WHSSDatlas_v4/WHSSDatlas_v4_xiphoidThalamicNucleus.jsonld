@@ -27,14 +27,18 @@
                     "value": 235.926262143653
                 }
             ],
-            "criteria": "The xiphoid and paraxiphoid nuclei forms a belt between the thalamus dorsally and hypothalamus ventrally, and have here been delineated as one structure called the xiphoid thalamic nucleus.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "218",
             "laterality": [
                 {

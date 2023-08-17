@@ -27,14 +27,18 @@
                     "value": 286.176103598286
                 }
             ],
-            "criteria": "The external medullary lamina is situated as a thin sheet between the reticular nucleus laterally and other nuclei of the thalamus medially, appearing dark in the T2* template. Rostrally and dorsally, it encapsulates the VA-VL complex, but generally it is thicker in its lateral and caudal parts.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "249",
             "laterality": [
                 {

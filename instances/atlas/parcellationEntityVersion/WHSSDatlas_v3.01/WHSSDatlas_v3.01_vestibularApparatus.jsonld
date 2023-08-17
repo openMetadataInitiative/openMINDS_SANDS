@@ -27,14 +27,18 @@
                     "value": 223.14491432497
                 }
             ],
-            "criteria": "The vestibule and semicircular canals, collectively labelled as the vestibular apparatus, were delineated in sMRI on the basis of the brighter signal in the fluid-containing interior of the labyrinth relative to the surrounding dark temporal bone. In DTI, the vestibular apparatus appears dark with the edge of the bone marked by brighter signals. The vestibular apparatus could only be completely delineated on the right side, as the left side partly lacks signal. The brighter DTI signal at the edge of the vestibular apparatus allowed an extension of the delineation on the left side, although still incomplete. \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "119",
             "laterality": [
                 {

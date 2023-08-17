@@ -27,14 +27,18 @@
                     "value": 282.269558101472
                 }
             ],
-            "criteria": "The internal medullary lamina is a direct rostrodorsal extension of the mammillothalamic tract and is also continuous with the external medullary lamina, appearing dark in T2*. It can be seen rostrally in the thalamus lining the medial border of the VA-VL complex and the lateral part of the anteromedial nucleus. It is also discernible more posteriorly, where it is intercalated between the ventral border of the centromedial nucleus and the dorsal border of the ventral posterior nucleus of the thalamus, parvicellular part.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "291",
             "laterality": [
                 {

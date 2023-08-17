@@ -29,14 +29,18 @@
           "value": 263.038068871206
         }
       ],
-      "criteria": "'The globus pallidus is readily distinguished medially from the white matter of the internal capsule by its bright T2* contrast. The dorsolateral boundary towards the striatum is more difficult to see in the T2* images since the overall appearance of the tissue is striated in both regions. The boundary is indicated by a thin band of slightly darker signal between the globus pallidus and the striatum, coinciding with a relatively sharp boundary given by higher FA values in the globus pallidus, corresponding to the higher density offibers in this region. The anterior part of the globus pallidus is ventrally delimited partly by the posterior limb of the anterior commissure (with dark T2* signal, mediolateral fiber orientation) and the associated interstitial nu- cleus (with slightly brighter T2* signal), and partly by the ventral pallidum. The distinct appearance of the globus pallidus with high densities of fiber bundles was used to delineate its ventral boundary against the ventral pallidum (included in the basal forebrain region) and the sublenticular extended amygdala, aided also by slightly darker T2* signal in the extendedamygdala. The basal nucleus (of Meynert), intercalated between the globus pallidus and extended amygdala, was not possible to identify separately and was therefore included in the delineation ofthe globus pallidus. Further posterior, the globus pallidus is ventrally adjacent to the amygdaloid nuclei showing darker FA signals. The posterior border of the globus pallidus is given by the inferosuperior segment of the stria terminalis (identified by high FA values) directly posterior to the internal capsule and anteroventral to the fimbria' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/?group_id=1081"
+        }
+      ],
       "internalIdentifier": "31",
       "laterality": [
         {

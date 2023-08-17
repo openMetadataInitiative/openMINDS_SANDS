@@ -27,14 +27,18 @@
           "value": 284.677227903579
         }
       ],
-      "criteria": "The paratenial nucleus appears in the T2* template as a bright area in the rostral part of the thalamus. It has an oval shaped and is located dorsally to the anteroventral thalamic nucleus and laterally to the paraventricular thalamic nucleus.",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "211",
       "laterality": [
         {

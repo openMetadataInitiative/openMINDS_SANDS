@@ -27,14 +27,18 @@
           "value": 260.769191402251
         }
       ],
-      "criteria": "The retrouniens area is situated directly caudal to the reuniens nucleus, between the centromedial nucleus dorsally and the hypothalamus ventrally. It is not clearly visible in the reference data and has been delineatied with aid from other reference atlases.",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "268",
       "laterality": [
         {

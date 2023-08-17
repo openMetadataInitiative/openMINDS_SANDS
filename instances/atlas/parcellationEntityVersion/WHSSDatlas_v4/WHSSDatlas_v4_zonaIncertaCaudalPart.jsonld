@@ -27,14 +27,18 @@
                     "value": 260.110769479731
                 }
             ],
-            "criteria": "The zona incerta was drawn based on expert opinion and features visible in the template. Both the sMRI and DTI template are useful to distinguish the zona incerta as a whole, but the subregions are not easily discernible. The dorsal border with the external medullary lamina and the medial lemniscus and the ventrolateral border with the descending corticofugal pathways are easily recognizable as the fiber tracts appear darker in the sMRI template. In DTI, the zona incerta appears with mediolaterally oriented fibers, giving it an anisotropic red color. The ventromedial border of zona incerta is more readily identified in DTI with a shift of mediolaterally oriented fibers (appearing red) compared to the more brighter green (anteroposterior orientation) of the xiphoid nuclei, and the more isotropic and darker hypothalamus. We also used parvalbumin stained sections as a guide to interpret the sMRI template. The borders between the dorsal, ventral, rostral and caudal parts are drawn based on expert opinion and spatial correspondences known from other atlases.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "287",
             "laterality": [
                 {

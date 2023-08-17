@@ -27,14 +27,18 @@
                     "value": 285.924332172071
                 }
             ],
-            "criteria": "'The caudate putamen is dorsally and laterally bordered by the corpus callosum and the external capsule, both parts of the white matter fiber tracts with low T2* intensities and high anisotropy. Rostrally, the caudate putamen is medially bordered by the lateral ventricles and the septal nuclei. The lateral ventricles appears bright in T2*-weighted images, and the septal nuclei has a slightly lower T2* intensity and a relatively higher anisotropy. The caudal part of the caudate putamen is bordered medially by the globus pallidus and the internal capsule. While the internal capsule is characterized by low T2* signal intensity, the globus pallidus is harder to distinguish from the caudate putamen based on T2* signal intensity. There is however a strip of lower signal intensity between the caudate putamen and the globus pallidus, which helps distinguish the border. Furthermore, the DTI orientations in the globus pallidus show a dorsoventral (blue) and anteroposterior (green) orientation of fibers, while the caudate putamen is mainly green (anteroposterior oriented fibers), with mediolaterally (red) and dorsoventrally (blue) oriented fibers dispersed.' [Bjerke et al., manuscript in preparation]",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "197",
             "laterality": [
                 {

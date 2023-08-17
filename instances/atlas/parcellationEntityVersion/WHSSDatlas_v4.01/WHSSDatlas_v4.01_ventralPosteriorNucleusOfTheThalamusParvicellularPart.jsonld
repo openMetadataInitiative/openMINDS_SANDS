@@ -27,14 +27,18 @@
           "value": 264.174462705436
         }
       ],
-      "criteria": "The ventral posterior nucleus of the thalamus, parvicellular part extends from the caudal extreme of the ventrolateral nucleus and is a ventromedial continuation of the ventral posteromedial thalamic nucleus. It appears slightly brighter than surrounding areas in the MRI template.",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "266",
       "laterality": [
         {

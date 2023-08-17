@@ -27,14 +27,18 @@
                     "value": 405.052580834572
                 }
             ],
-            "criteria": "The primary visual area (V1) was not clearly distinguishable in MRI and DWI. Included in the V1 are areas called primary visual cortex, monocular and binocular area in Paxinos and Watson 6th edition 2007. Consultation with other rat brain atlases (Paxinos and Watson, 6th ed., 2007; Swanson, 4th ed., 2018) were used to delineate the borders.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "442",
             "laterality": [
                 {

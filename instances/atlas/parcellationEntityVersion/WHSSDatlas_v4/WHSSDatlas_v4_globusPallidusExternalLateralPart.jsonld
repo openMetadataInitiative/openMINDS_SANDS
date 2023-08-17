@@ -27,14 +27,18 @@
                     "value": 263.86024117643
                 }
             ],
-            "criteria": "The lateral part of the external globus pallidus occopies the rostral, lateral and caudal parts of the complex. In FA, the lateral part has a salt-pepper appearance of color indicating fibers moving in all directions.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "198",
             "laterality": [
                 {

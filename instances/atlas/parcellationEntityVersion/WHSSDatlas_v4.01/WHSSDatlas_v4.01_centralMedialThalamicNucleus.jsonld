@@ -27,14 +27,18 @@
           "value": 273.3691131973
         }
       ],
-      "criteria": "The central thalamic nuclei appear clearly darker in the T2* compared to surrounding structures. Caudally, they are less apparent but can be distinguished as slightly darker than the medially adjacent mediodorsal and parafascicular nucleus, as well as the laterally adjacent posterior nucleus. The central medial part was delineated based on extrapolation from other reference atlases.",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "247",
       "laterality": [
         {

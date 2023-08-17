@@ -27,14 +27,18 @@
           "value": 303.77554563492
         }
       ],
-      "criteria": "The border between the dorsal and ventral subdivision has been shifted slightly so that the ventral part extends slightly more dorsally. Caudally, the complex has been revised so that both the dorsal and medial subdivisions extend throughout the complex, in accordance with Clerici and Coleman. Thus, we extended the medial division slightly, where previously only the dorsal division extended.\u00a0",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "295",
       "laterality": [
         {

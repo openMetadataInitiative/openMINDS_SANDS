@@ -27,14 +27,18 @@
           "value": 166.754357471203
         }
       ],
-      "criteria": "'The spinal cord was defined as starting at the last coronal level showing the occipital bone. The spinal cord was delineated approximately 8.62 mm posterior to the skull until leaving the field of view. The outer boundaries of the spinal cord were identified using bright T2 and T2* signal originating from the cerebrospinal fluid in the subarachnoid space. The central canal and the surrounding gray matter, as well as fibers extending from the descending pathways, were delineated separately' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "45",
       "laterality": [
         {

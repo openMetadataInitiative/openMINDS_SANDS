@@ -27,14 +27,18 @@
                     "value": 293.675097365406
                 }
             ],
-            "criteria": "The borders of the posterior thalamic nucleus are largely defined by surrounding structures such as the laterodorsal and lateral posterior nuclei, the centromedial nucleus, and the ventral posteromedial thalamic nucleus. The lateral border with the ventral posteromedial nucleus can be discerned in T2*, as the latter have a more striated appearance, while the posterior nucleus is more homogeneous. The ventral, dorsal and medial borders are not as apparent in this template, and have been largely extrapolated from other atlases.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "230",
             "laterality": [
                 {

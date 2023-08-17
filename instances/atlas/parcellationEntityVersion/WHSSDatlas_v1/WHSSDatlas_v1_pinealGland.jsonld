@@ -27,14 +27,18 @@
           "value": 392.484794378527
         }
       ],
-      "criteria": "'Anterolaterally, the dorsal half of the pineal gland is adjacent to the cortex, separated by a clear boundary and distinguished also by its brighter T2* contrast. Otherwise the boundaries of the pineal gland are readily given by the saturated or zero signal (dependingon the presence of contrast agent) in the surrounding cerebrospinal fluid.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/?group_id=1081"
+        }
+      ],
       "internalIdentifier": "43",
       "laterality": [
         {

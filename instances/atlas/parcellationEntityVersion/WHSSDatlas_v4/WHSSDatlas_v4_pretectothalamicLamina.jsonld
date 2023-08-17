@@ -27,14 +27,18 @@
                     "value": 315.134160873882
                 }
             ],
-            "criteria": "The pretectothalamic lamina is a thin strip of cells separating the pretectal region from the thalamus. It is particularly evident as a relatively parvalbumin-free area in histological sections, which in combination with the descriptions by M\u00e1rquez-Legorreta et al. (2016) aided the delineation of the structure.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "239",
             "laterality": [
                 {

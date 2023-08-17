@@ -27,14 +27,18 @@
           "value": 274.060948061689
         }
       ],
-      "criteria": "In DWI, the anterior olfactory area, unspecified (AOA-u) is clearly distinguishable from the adjecent olfactory bulb, unspecified (OB-u), lateral olfactory tract and piriform cortex. The AOA-u have a distinctive narrow horse shoe shape, situated obliquely on the molecular layer of the olfactory bulb (delineated as OB-u). In version 4.01, the AOA-u partly replaced the Olfactory bulb, unspecified.",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "506",
       "laterality": [
         {

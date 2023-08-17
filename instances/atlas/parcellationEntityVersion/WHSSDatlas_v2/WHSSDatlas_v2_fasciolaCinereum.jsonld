@@ -27,14 +27,18 @@
                     "value": 347.509478108277
                 }
             ],
-            "criteria": "'The fasciola cinereum is a small medial extension of themost anterior part of the hippocampus which is readily distinguished in histological material. In sMRI maps, the fasciola cinereum was distinguished from the dentate gyrus by observing a narrow dark zone at a location corresponding to the principal granule cell layer of the dentate gyrus. The dorsal part of the border between fasciola cinereum and CA1 was in coronal sMRI slices visible as a thin, dark rim reflecting the white matter of the alveus curving around the medial aspect of CA1' \n- Kjonigsen LJ, Lillehaug S, Bjaalie JG, Witter MP, Leergaard TB (2015) Waxholm Space atlas of the rat brain hippocampal region: Three-dimensional delineations based on magnetic resonance and diffusion tensor imaging. NeuroImage 108, 441-449. DOI:",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "99",
             "laterality": [
                 {

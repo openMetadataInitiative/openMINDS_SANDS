@@ -27,14 +27,18 @@
                     "value": 237.597059530761
                 }
             ],
-            "criteria": "'The anteroventral cochlear nucleus is characterized in sagittal sMRI by slightly darker, caudorostrally oriented, parallel fascicles of ascending branches of the cochlear nerve fibres and also described in silver-stained sagittal sections. In DTI, the anteroventral cochlear nucleus is characterized by a mixture of colours, but with a predominance of green, apparently reflecting the ascending branches.' \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "158",
             "laterality": [
                 {

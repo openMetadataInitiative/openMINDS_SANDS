@@ -25,14 +25,18 @@
                     "value": 236.801944444444
                 }
             ],
-            "criteria": "'Delineations of structures in the hippocampal and parahippocampal regions were taken from a parallel investigation of hippocampal boundaries in the same MRI/DTI material based on criteria provided by Kjonigsen et al. (2011).' [Papp et al., 2014, Neuroimage",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "15",
             "laterality": [
                 {

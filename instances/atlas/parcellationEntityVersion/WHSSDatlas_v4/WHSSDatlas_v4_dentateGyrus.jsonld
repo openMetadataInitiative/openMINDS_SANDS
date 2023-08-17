@@ -27,14 +27,18 @@
                     "value": 312.392538392899
                 }
             ],
-            "criteria": "'The molecular, granule cell, and polymorph layers of the dentate gyrus were clearly visible in the sMRI maps. The border between the polymorph of the dentate gyrus and the proximal tip of CA3 was identified by a distinct shift to lower sMRI signal intensity (dark) in the dentate gyrus, spatially corresponding to the transition from the overall calbindin negative cell layer and neuropil of CA3 (except for the mossy fibers) to the calbindin positive dentate gyrus, seen in histological material.' \n- Kjonigsen LJ, Lillehaug S, Bjaalie JG, Witter MP, Leergaard TB (2015) Waxholm Space atlas of the rat brain hippocampal region: Three-dimensional delineations based on magnetic resonance and diffusion tensor imaging. NeuroImage 108, 441-449. DOI:",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "96",
             "laterality": [
                 {

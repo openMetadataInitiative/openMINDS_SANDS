@@ -27,14 +27,18 @@
           "value": 319.914661824784
         }
       ],
-      "criteria": "The intramedullary thalamic area is a thin strip of tissue separating the lateral geniculate nucleus from the lateral posterior nuclei. It can be recognized by having a slightly darker appearance in the T2* template than surrounding regions.",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "290",
       "laterality": [
         {

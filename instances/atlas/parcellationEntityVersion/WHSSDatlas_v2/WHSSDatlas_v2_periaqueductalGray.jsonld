@@ -27,14 +27,18 @@
                     "value": 299.486627703506
                 }
             ],
-            "criteria": "'The periaqueductal gray was delineated on the basis of T2*contrast. The anterior boundary was identified on basis of the darker T2*signals observed in the thalamus. In coronal slices, the periaqueductal gray was clearly visible as a region of bright T2* contrast surrounding the aqueduct. The posterior end of the periaqueductal gray and transition to the different tegmental nuclei surrounding the 4th ventricle (here included in the brain stem region) was set at the most anterior level of the cerebellum (where the 2nd lobule protrudes into the 4th ventricle).' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "51",
             "laterality": [
                 {

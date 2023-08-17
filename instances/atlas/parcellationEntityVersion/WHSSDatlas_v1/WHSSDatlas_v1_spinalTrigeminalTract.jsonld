@@ -27,14 +27,18 @@
           "value": 162.609530775129
         }
       ],
-      "criteria": "'The sensory and motor roots of the trigeminal nerve and the spinal trigeminal tract were delineated together, readily distinguished by high FA values and distinct low T2* signal intensity. Diffusion orientations were used to differentiate the trigeminal nerve from the middle cerebellar peduncle, and T2* contrast was used to delineate the spinal trigeminal tract against the medially located spinal trigeminal nucleus. The spinal trigeminal tract was further differentiated from more externally located white matter tracts (inferior cerebellar peduncle, trapezoid body, vestibulocochlear nerve) on basis of its distinct axial diffusion orientations.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/?group_id=1081"
+        }
+      ],
       "internalIdentifier": "76",
       "laterality": [
         {

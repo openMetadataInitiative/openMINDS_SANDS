@@ -27,14 +27,18 @@
                     "value": 232.286967162961
                 }
             ],
-            "criteria": "The A11 dopamine cell group of the zona incerta is discernible in the sMRI based on a slightly lighter appearance than its surrounding regions. It is a rostrocaudally narrow region appearing ventromedially to the zona incerta, posterior to the A13 dopamine cell group. It borders the hypothalamic region and the reuniens nucleus of the thalamus medially, and the mammillothalamic tract and ventromedial nucleus of the thalamus dorsally.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "284",
             "laterality": [
                 {

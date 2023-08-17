@@ -27,14 +27,18 @@
                     "value": 273.672010688042
                 }
             ],
-            "criteria": "The peripeduncular nucleus is a small, round area situated caudoventrally to the ventral lateral geniculate nucleus. It stands out as a bright area in the T2* template compared to the surrounding white matter tracts, including the descending corticofugal pathways, the optic tract, and the marginal zone of the medial geniculate nucleus.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "201",
             "laterality": [
                 {

@@ -27,14 +27,18 @@
           "value": 289.76724154423
         }
       ],
-      "criteria": "'Although the septal nuclei are often considered part of the basal forebrain, we have here delineated the septal region individually, defined as the region situated medially between the lateral ventricles, directly ventral to the corpus callosum, encompassing the anterior fornix, and separating the anterior hippocampal structures (the fimbria and the ventral hippocampal commissure) from the dorsal peduncular cortex. The septal region was distinguished from surrounding areas by its bright T2* contrast, lowanisotropy, and distinctive blend of dorsoventral and anteroposterior tissue orientations. The ventral boundary of the septal region against the basal forebrain was approximated based on the same characteristics, aided by a slight shift towards brighter T2* signal in the basal forebrain.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/?group_id=1081"
+        }
+      ],
       "internalIdentifier": "40",
       "laterality": [
         {

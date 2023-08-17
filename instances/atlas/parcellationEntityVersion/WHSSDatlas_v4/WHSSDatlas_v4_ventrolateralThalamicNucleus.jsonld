@@ -27,14 +27,18 @@
                     "value": 278.192285283432
                 }
             ],
-            "criteria": "The caudal border of the ventrolateral thalamic nucleus is given by the ventral posterior nucleus of the thalamus, parvicellular part. The rostrolateral border with the VA-VL complex is difficult to distinguish and has been guided by other atlases, while the medial border with the centromedial nucleus is discernible as the ventrolateral nucleus is slightly brighter in the sMRI template. In contrast, it appears slightly darker than the ventromedially adjacent submedius nucleus.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "231",
             "laterality": [
                 {

@@ -27,14 +27,18 @@
                     "value": 205.928750263435
                 }
             ],
-            "criteria": "'The rostral part of the ventral pallidum is distinguished as bright green \u2018islands\u2019 in the FA template, most easily seen in the coronal and horizontal planes. More caudally, the medial part of the ventral pallidum gradually increases in size and the striatal bridges ends. In this part, the ventral pallidum appears more homogeneous in the FA and is not easily distinguished from surrounding regions. However, in the T2* template, the posterior part of the ventral pallidum appears brighter than its surrounding regions \u2013 the anterior commissure dorsally, ventral part of the striatum dorsolaterally, and basal forebrain medially, ventrally and caudally.' [Bjerke et al., manuscript in preparation]",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "193",
             "laterality": [
                 {

@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_primarySomatosensoryArea",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": "S1",
+  "alternateName": [
+    "S1"
+  ],
+  "definition": null,
+  "hasParent": null,
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_primarySomatosensoryArea"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_primarySomatosensoryArea",
+  "name": "primary somatosensory area",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

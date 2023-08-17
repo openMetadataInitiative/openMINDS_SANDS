@@ -27,14 +27,18 @@
           "value": 276.495192393139
         }
       ],
-      "criteria": "The ventral posterolateral thalamic nucleus is easily distinguished from its lateral, ventral and dorsal neighbor, the external medullary lamina, which is very dark in the T2* template. This border is especially distinct in the sagittal plane. The ventral posterolateral nucleus extends rostrally to the level of the VA-VL complex and encapsulates the ventral posteromedial nucleus rostrally.",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "294",
       "laterality": [
         {

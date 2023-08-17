@@ -27,14 +27,18 @@
           "value": 251.165748341392
         }
       ],
-      "criteria": "'The ventral (VLL), intermediate (ILL) and dorsal nucleus (DLL) of the lateral lemniscus appear indistinctly delimited towards the fibrous sheet both in sMRI and DTI, apparently because of intermingling of cells and fibres. In sMRI, the nuclei appear somewhat lighter than the fibre sheath, while in DTI, the opposite is true with the nuclei featuring a mixture of black and dark blue, red and green voxels against the brighter blue sheath. The level of the dorsal nucleus is recognizable by its relationship with the commissure of the lateral lemniscus, but the borders between the three nuclei appear indistinct, and have therefore been extrapolated from earlier studies.'\n- Kjonigsen LJ, Lillehaug S, Bjaalie JG, Witter MP, Leergaard TB (2015) Waxholm Space atlas of the rat brain hippocampal region: Three-dimensional delineations based on magnetic resonance and diffusion tensor imaging. NeuroImage 108, 441-449. DOI:",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "138",
       "laterality": [
         {

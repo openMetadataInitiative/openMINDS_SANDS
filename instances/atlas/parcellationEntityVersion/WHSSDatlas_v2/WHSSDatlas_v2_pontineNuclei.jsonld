@@ -27,14 +27,18 @@
                     "value": 188.632996943659
                 }
             ],
-            "criteria": "'The pontine nuclei were delineated based on their bright T2* signal and their unique position ventral to the brain stem. The present delineation includes the pontine gray matter located ventral to the descending longitudinal fasciculus of the pons and partly surrounding it. The transverse fibers of the pons and the middle cerebellar peduncles were delineated separately.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001- Revised in version 3: The revision concern minor corrections or partial replacements by new subdivisions. \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "58",
             "laterality": [
                 {

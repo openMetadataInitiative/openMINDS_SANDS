@@ -27,14 +27,18 @@
                     "value": 202.188829802965
                 }
             ],
-            "criteria": "The amygdaloid area, unspecified (Am-u) is a collection annotation, containing several areas such as the central, medial, lateral, basolateral and basomedial nuclei of the amygdala to mention some. In MRI and DWI, the Am-u have several characteristics and intensities reflecting the differenct areas. Consultation with other rat brain atlases (Paxinos and Watson, 6th ed., 2007; Swanson, 4th ed., 2018) were used to delineate the borders of the Am-u.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "501",
             "laterality": [
                 {

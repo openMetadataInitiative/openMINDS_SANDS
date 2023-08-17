@@ -27,14 +27,18 @@
                     "value": 281.97828263598
                 }
             ],
-            "criteria": "The reticular nucleus is a thin structure lining the lateral surface of the thalamus. The lateral border is towards the descending corticofugal pathways, stria medullaris, and fimbria of the hippocampus, and is easily discernible as the fiber tracts appear more dark in the sMRI template. The medial border is with the external medullary lamina, and is best recognized in the sagittal and horizontal planes of the sMRI template.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "200",
             "laterality": [
                 {

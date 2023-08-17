@@ -29,14 +29,18 @@
                     "value": 291.900469884664
                 }
             ],
-            "criteria": "'The radiation appears dark in sMRI, green in DTI, and can be traced from the rostrolateral edge of the medial geniculate body, through the superior thalamic radiation to the auditory segment of the reticular thalamic nucleus which it penetrates before being lost to view within the caudal part of the internal capsule.' \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "157",
             "laterality": [
                 {

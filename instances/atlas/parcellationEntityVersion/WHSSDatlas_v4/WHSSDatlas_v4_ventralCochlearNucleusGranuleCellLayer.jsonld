@@ -27,14 +27,18 @@
                     "value": 246.997367006985
                 }
             ],
-            "criteria": "'The granule cells form a superficial layer over the ventral cochlear nucleus and an incomplete lamina between the ventral and dorsal cochlear nuclei. The granule cell layer appears homogeneously light grey in sMRI. The signal intensity is higher than in the granule cell layer of the cerebellum and the granular layer of the hippocampus, probably due to less dense packing of granule cell somata. In DTI, the granule cell layer is hardly discernible against the black background as the thickness of the layer approaches the voxel size, but it appears to be dark.' \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "123",
             "laterality": [
                 {

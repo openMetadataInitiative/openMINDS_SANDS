@@ -27,14 +27,18 @@
                     "value": 231.192506965712
                 }
             ],
-            "criteria": "'The VTA is an area of medium signal intensity, situated medial to the substantia nigra and extending posteriorly to approximately half way through it. The area is homogeneous, and delineations based on the MRI template alone is difficult. Its lateral border to the substantia nigra is well defined, due to the brighter appearance of the latter in the T2* template. Dorsally, the VTA borders the medial lemniscus and brainstem regions, and it appear brighter than these regions in the T2* images. The caudal border of the VTA is clearly distinguished, as it borders brainstem white matter tracts, thus appearing much brighter in T2* and DWI images and more homogeneous in FA.' [Bjerke et al., manuscript in preparation]",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "196",
             "laterality": [
                 {

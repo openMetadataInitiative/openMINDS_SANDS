@@ -27,14 +27,18 @@
                     "value": 294.615674603174
                 }
             ],
-            "criteria": "'The medial division makes up the medial side of the medial geniculate body. Our delineation probably also includes the suprageniculate nucleus. In thionine-stained sections, the medial division is characterized by particularly large neurons. In sMRI, it is dominated by dark fibre fascicles that appear crosscut in coronal slices, while in horizontal slices, the fascicles appear to bend into it from the brachium of the inferior colliculus, from which it is only indistinctly delimited in agreement with findings in myelin-stained sections. The border with the ventral and dorsal divisions appears jagged probably reflecting fascicles of brachial fibres traversing the borderline. In DTI, the medial division exhibits massive green signals like the brachium.' \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "147",
             "laterality": [
                 {

@@ -27,14 +27,18 @@
                     "value": 229.607684529828
                 }
             ],
-            "criteria": "The A13 dopamine cell region, located ventroedially in the zona incerta, stands out with a particularly deep red color in the DTI template.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "238",
             "laterality": [
                 {

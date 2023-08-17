@@ -27,14 +27,18 @@
                     "value": 275.913582677165
                 }
             ],
-            "criteria": "The subgeniculate nucleus is easily distinguished as a brighter region in the T2* template than its medial neighbor, the zona incerta caudal part. Its dorsal border to the ventral lateral geniculate nucleus are more difficult to distinguish in T2*, but more readily in DTI, where it has a purple color, signifying a ventromedial orientation of the fibers, in comparison to the more blue ventral lateral geniculate nucleus, showing dorsoventrally oriented fibers. Its ventral border with the internal capsule is easily delineated based on the signal intensity differences in sMRI, as the internal capsule consists mainly of white matter and therefore has a lower signal intensity and appears darker than the subgeniculate nucleus.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "281",
             "laterality": [
                 {

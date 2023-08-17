@@ -27,14 +27,18 @@
           "value": 338.266089903116
         }
       ],
-      "criteria": "'The external cortex of the inferior colliculus envelopes the central nucleus laterally, rostrally, caudally and ventrally. In DTI, the superficial fibre capsule appears green laterally where fibres may be oriented rostrocaudally, while it tends to be red on the caudal surface of the inferior colliculus, where fibres may take a mediolateral course. Laterally and caudally, the deeper layers of the external cortex feature a predominantly blue colour. The deep layers of the lateral external cortex become greener rostrally. Ventrally, the external cortex is penetrated by the beginning of the lemniscal wedge. Medial to the wedge, the lateral cortex exhibits red signals apparently corresponding to both the superficial capsule and some deeper mediolaterally oriented fibres. These signals should not be confused with the intensely red signals from the pericollicular tegmentum and the trochlear nerve that courses laterally immediately caudal to the base of the inferior colliculus.' \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "145",
       "laterality": [
         {

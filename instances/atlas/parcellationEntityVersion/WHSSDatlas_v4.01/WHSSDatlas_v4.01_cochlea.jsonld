@@ -27,14 +27,18 @@
           "value": 178.589556889369
         }
       ],
-      "criteria": "The cochlea was delineated in sMRI on the basis of the brighter signal in the fluid-containing interior of the labyrinth relative to the surrounding dark temporal bone. In DTI, the cochlea appears dark with the edge of the bone marked by brighter signals. The cochlea is oriented with its base in the coronal plane and its apex pointing rostrally. The cochlear duct flanked by the vestibular and tympanic scalae could be identified in sMRI, but because of its tiny details (relative to the size of sMRI voxels), the membraneous labyrinth was not delineated separately. The border of the cochlea with the vestibular part of the labyrinth was identified in sMRI slices at the basalmost end of the cochlear duct. In the 3D reconstruction, where the vestibular part is omitted, the borderline cuts through the oval window, save for the blunt basal end of the scala tympani with the contours of the round window. The spiral ganglion appears distinct particularly in sMRI, but its connections to the cochlear nerve could only be identified at the very distal end of the nerve. The cochlea could only be completely delineated on the right side, as the left side partly lacks signal. The brighter DTI signal at the edge of the cochlea allowed an extension of the delineation on the left side, although still incomplete.' \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "120",
       "laterality": [
         {

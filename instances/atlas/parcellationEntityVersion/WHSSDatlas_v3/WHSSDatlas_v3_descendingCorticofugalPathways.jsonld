@@ -28,14 +28,18 @@
                     "value": 241.096555783954
                 }
             ],
-            "criteria": "'The corticofugal fiber tracts, including the internal capsule, cerebral peduncle, longitudinal fasciculus of the pons, and the pyramidal tract, were delineated as one continuous structure from the internal capsule to the level of the pyramidal decussation, which was delineated separately due to its distinct orientation in the brain stem highlighted in DTI maps. The internal capsule was identified by low T2* signal intensity in the region located between the striatum and globus pallidus laterally, and the thalamus medially. Dispersed fiber bundles penetrating the striatum were excluded from our delineations. The ventral extent of the internal capsule was delineated using DTI (slightly oblique dorsoventral fiber orientations). DTI maps were also used to delineate the anterior internal capsule against the striatum. Otherwise, the descending fiber tracts were identified on the basis of low T2* values, high FA values and the distinct axial diffusion orientations in these tracts. At several levels in the brain stem, the descending pyramidal tract was impossible to differentiate from the adjacent medial lemniscus. Here the dorsal boundary of the pyramidal tract was extrapolated to the expected geometrical shape and position relative to the brain surface and to the midline of the brain.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "1",
             "laterality": [
                 {

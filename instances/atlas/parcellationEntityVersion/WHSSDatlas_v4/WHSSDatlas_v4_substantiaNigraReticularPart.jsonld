@@ -27,14 +27,18 @@
                     "value": 233.644675657363
                 }
             ],
-            "criteria": "The reticular part can be seen in the T2* template, where it appears brighter than the neighboring compact part (dorsomedially) and the white matter (ventrolaterally).",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "187",
             "laterality": [
                 {

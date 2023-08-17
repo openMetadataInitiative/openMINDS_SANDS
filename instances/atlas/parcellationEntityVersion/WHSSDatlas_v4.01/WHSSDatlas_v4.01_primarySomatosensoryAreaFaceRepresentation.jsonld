@@ -27,14 +27,18 @@
           "value": 322.065810216051
         }
       ],
-      "criteria": "The primary somatosensory area, forelimb representation was challenging to delineate as there were litle to no contrast in MRI and DWI. Consultation with detailed description from literature (Hall and Lindholm, 1974, Brain Res.; Leergaard et al., 2004, J. Comp. Neurol.; Halley et al., 2020, Cereb.) and other rat brain atlases (Paxinos and Watson, 6th ed., 2007; Swanson, 4th ed., 2018) were used to delineate the border.",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "420",
       "laterality": [
         {

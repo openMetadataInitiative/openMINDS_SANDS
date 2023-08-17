@@ -27,14 +27,18 @@
           "value": 187.057934933173
         }
       ],
-      "criteria": "'In DTI, the periolivary region exhibits a mixture of bright red and green signals probably representing crossing trapezoid fibres of various origins. Rostrally, at the level of the caudal end of the pons, it is directly contiguous with the ventral nucleus of the lateral lemniscus that appears darker in DTI. The border with the ventral nucleus of the lateral lemniscus was delineated in horizontal DTI slices, aided by inspection of thick horizontal thionine-stained sections.' \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "135",
       "laterality": [
         {

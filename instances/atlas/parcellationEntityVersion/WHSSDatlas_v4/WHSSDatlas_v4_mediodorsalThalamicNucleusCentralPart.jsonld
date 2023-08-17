@@ -27,14 +27,18 @@
                     "value": 296.80270419426
                 }
             ],
-            "criteria": "The borders of the mediodorsal nucleus was defined by its neighboring structures, such as the centromedial nucleus laterally and the paraventricular nucleus medially, and the stria medullaris and lateral habenula dorsally. The mediodorsal nucleus subregions (lateral, central and medial part) are not discernible in the reference data, but delineations were guided by other reference atlases. ",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "233",
             "laterality": [
                 {

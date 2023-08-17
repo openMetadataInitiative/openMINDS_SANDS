@@ -27,14 +27,18 @@
                     "value": 267.45771439889
                 }
             ],
-            "criteria": "'The relatively broad and indistinctly limited fusiform/granule cell layer is consistent with previous studies in albino rats. In sMRI, the signal intensity decreases gradually from the light grey molecular layer through the fusiform/granule cell layer, and the deep core to the almost black acoustic striae adjacent to the inferior cerebellar peduncle. In DTI, the superficial molecular layer appears dark while the fusiform-granule cell layer and particularly the deep core appear green, in conformity with the caudorostral orientation of the descending branches of the cochlear nerve fibres.' \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "127",
             "laterality": [
                 {

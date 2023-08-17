@@ -27,14 +27,18 @@
                     "value": 242.594495331258
                 }
             ],
-            "criteria": "Rostrally, the nucleus accumbens is distinguishable in DTI, as it displays a low fractional anisotropy, and thus has a darker appearance than the ventrolateral anterior commissure, anterior part, and the mediodorsally bright green corpus callosum. Its lateral and laterodorsal borders can be identified in MRI templates by a dark rim of low signal intensity. The medial and ventral borders are more diffuse, but can be delineated based on its lighter signal intensity in DWI and darker appearance in DTI compared to surrounding regions. [Border between core & shell??]",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "184",
             "laterality": [
                 {

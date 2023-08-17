@@ -27,14 +27,18 @@
                     "value": 232.601873251429
                 }
             ],
-            "criteria": "From Papp et al., 2014: 'Several distinct white matter tracts associated with the thalamus were clearly visible and delineated on basis of T2*-weighted images and DTI maps, and were delineated and subsequently used to aid the delineation of the thalamic gray matter'. This included the mammillothalamic tract.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "53",
             "laterality": [
                 {

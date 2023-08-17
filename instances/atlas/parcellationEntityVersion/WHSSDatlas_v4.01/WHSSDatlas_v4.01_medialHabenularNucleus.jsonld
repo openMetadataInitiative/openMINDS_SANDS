@@ -27,14 +27,18 @@
           "value": 317.710223642172
         }
       ],
-      "criteria": "The medial habenular nucleus is visible in the T2* template as a very bright region, situated immediately medial to the lateral habenular nucleus and dorsal to the paraventricular nucleus.",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "207",
       "laterality": [
         {

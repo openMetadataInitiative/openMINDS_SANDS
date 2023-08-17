@@ -27,14 +27,18 @@
                     "value": 180.045632519399
                 }
             ],
-            "criteria": "'The nucleus of the trapezoid body is situated dorsomedially in the superior olivary complex. It is composed of glycinergic cells interposed in rows between the thick fascicles of trapezoid fibres immediately dorsolateral to the pyramidal tract. In sMRI, it can be distinguished from its surroundings as a mixture of voxels of contrasting intensities varying from bright to dark probably reflecting the rows of cells between the fibre fascicles seen in cell-myelin staining. In DTI, it exhibits various shades of dark purple, the bluish tinge probably reflecting the dorsal bend of the trapezoid fibres, while the darker voxels might indicate the cell rows.' \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "131",
             "laterality": [
                 {

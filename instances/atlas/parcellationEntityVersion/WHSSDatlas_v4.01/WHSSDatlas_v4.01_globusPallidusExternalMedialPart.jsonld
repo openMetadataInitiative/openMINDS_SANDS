@@ -27,14 +27,18 @@
           "value": 255.682336884406
         }
       ],
-      "criteria": "The medial part of the globus pallidus is present in the the posterior third of the globus pallidus external. Here, the fiber bundles in the medial segment appears more narrow and homogeneously distributed, giving a slightly darker appearance in the T2* images. In FA, the medial part shifts between blue and green, indicating that the orientation of the fibers follow the cortifugal tract.",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "195",
       "laterality": [
         {

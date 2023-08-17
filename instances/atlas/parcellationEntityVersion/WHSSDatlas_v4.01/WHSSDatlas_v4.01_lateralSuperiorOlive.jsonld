@@ -27,14 +27,18 @@
           "value": 190.71435355574
         }
       ],
-      "criteria": "'The lateral superior olive is situated caudolaterally in the superior olivary complex. In sMRI images, the lateral superior olive appears brighter and more homogeneous than its surroundings, being most distinctly S-shaped in coronal slices from its rostrocaudal middle. In DTI, it appears dominated by green signals of a significantly lower intensity than the bright green signals of the rostrocaudally directed rubrospinal tract that is situated immediately lateral to it. The DTI purple colour ventrally in the lateral limb may signify the horizontal orientation of the laminae in this site, if not fascicles of trapezoid fibres passing through the limb parallel to the laminae as indicated in PLI. The ventral hilus is blue in DTI in accordance with the vertical orientation of the dense bundle of afferents seen in myelin-stained sections.' \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "134",
       "laterality": [
         {

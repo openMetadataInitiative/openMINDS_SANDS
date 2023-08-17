@@ -28,14 +28,18 @@
           "value": 329.974764610726
         }
       ],
-      "criteria": "'The auditory cortex is situated in the temporal region of the cerebral cortex, occupying the lateralmost part of the brain. Several alternative parcellation schemes have been proposed on the basis of cytoarchitectonic criteria, differences in myelination and neurotransmitter densities, and connectivity. In sMRI and DTI, the temporal cortex presents no obvious criteria for segmentation. To nevertheless include the auditory cortex in the present atlas, we here chose to base our delineation on the rat brain atlas of Paxinos and Watson (2007). In this parcellation, the auditory cortex consists of three parallel, horizontally oriented areas, with the primary auditory cortex (Au1) in the middle flanked by the secondary auditory cortex dorsal (AuD) and the secondary auditory cortex ventral (AuV). The three areas were topographically redrawn by combining information from Paxinos and Watson (2007) atlas diagrams spatially registered to the sMRI template, and measurements of distances from the rhinal fissure and the earlier delineated perirhinal regions.'\n- Kjonigsen LJ, Lillehaug S, Bjaalie JG, Witter MP, Leergaard TB (2015) Waxholm Space atlas of the rat brain hippocampal region: Three-dimensional delineations based on magnetic resonance and diffusion tensor imaging. NeuroImage 108, 441-449. DOI:",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "151",
       "laterality": [
         {

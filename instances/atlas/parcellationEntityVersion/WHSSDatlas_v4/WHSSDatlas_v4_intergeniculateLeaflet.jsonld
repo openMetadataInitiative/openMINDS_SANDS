@@ -27,14 +27,18 @@
                     "value": 304.776127612761
                 }
             ],
-            "criteria": "The intergeniculate leaflet borders the ventral lateral geniculate nucleus (ventrally) and dorsal geniculate nucleus (dorsally), and these borders are easily distinguished in both T2* and DTI templates. In T2* the intergeniculate leaflet appears more homogeneous and with lower signal intensity (darker gray) than the geniculate nuclei. In DTI the dorsal lateral geniculate nucleus has a rostrocaudal fiber orientation, appearing green, the intergeniculate leaflet appears lighter blue with a fiber orientation in the rostrocaudal direction.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "272",
             "laterality": [
                 {

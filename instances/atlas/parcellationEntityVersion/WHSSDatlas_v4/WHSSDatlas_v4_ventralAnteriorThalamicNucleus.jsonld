@@ -27,14 +27,18 @@
                     "value": 269.596111356606
                 }
             ],
-            "criteria": "Rostrally, the VA-VL is encapsulated by the external medullary lamina, giving the rostral, dorsal, medial and lateral borders. Further posterior, it is bordered laterally by the ventral posterolateral complex, the latter which shows a far more striated appearance in the T2* template. At its caudal end, the VA-VL complex gradually transitions to consist of only the ventrolateral nucleus. However, this transition is not parallelled by any discernible features in the template and has been delineated with guide from other reference atlas.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "293",
             "laterality": [
                 {

@@ -27,14 +27,18 @@
                     "value": 319.281637168141
                 }
             ],
-            "criteria": "The dorsal lateral geniculate nucleus appears as a round structure on the dorsal surface of the thalamus. It is most easily recognised in the sagittal plane of the T2* and DWI templates, as it appears brighter than surrounding structures such as the intergeniculate leaflet, lateral posterior nucleus, and the external medullary lamina.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "205",
             "laterality": [
                 {

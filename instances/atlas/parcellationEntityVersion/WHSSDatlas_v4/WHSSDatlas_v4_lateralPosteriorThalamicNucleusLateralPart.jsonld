@@ -27,14 +27,18 @@
                     "value": 322.830302748453
                 }
             ],
-            "criteria": "The lateral posterior nucleus as a whole is discernible in the sMRI, particularly in the sagittal plane, where it is mostly bordered by the external medullary lamina ventrally and appears slightly darker and more striated in T2* than the laterodorsal nucleus rostrally. The lateral border can be distinguished in the coronal plane, with the intramedullary thalamic area appearing as a thin dark strip separating the lateral posterior nucleus from the dorsal lateral geniculate nucleus. The medial border is best appreciated in the coronal and horizontal planes of the sMRI, where the lateral posterior nucleus appears slightly brighter than the adjacent centromedial nucleus anteriorly and pretectothalamic lamina posteriorly. The lateral posterior nucleus has been subdivided into a mediorostral, mediocaudal, and lateral part. Subtle differences between these subregions can be seen in the sMRI, but their delineation has been guided by other reference atlases.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "283",
             "laterality": [
                 {

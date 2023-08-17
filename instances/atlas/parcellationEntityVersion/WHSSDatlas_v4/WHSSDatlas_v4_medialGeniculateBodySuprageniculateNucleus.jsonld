@@ -27,14 +27,18 @@
                     "value": 305.734908136482
                 }
             ],
-            "criteria": "The medial border of the suprageniculate nucleus is defined by the medial geniculate body. The lateral border is not easily distinguished in the reference data, and delineation was guided by information available in other atlases.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "299",
             "laterality": [
                 {

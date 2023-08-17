@@ -27,14 +27,18 @@
           "value": 239.591418025857
         }
       ],
-      "criteria": "The lateral olfactory tract (lot) have a dark grey apperance in both MRI and DWI, contrasting the adjecent grey matter of the pririfom cortex, olfactory bulb, unspecified (OB-u) and anterior olfactory area, unspecified. The lot replaced part of the OB-u and basal forebrain, unspecified.",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "180",
       "laterality": [
         {

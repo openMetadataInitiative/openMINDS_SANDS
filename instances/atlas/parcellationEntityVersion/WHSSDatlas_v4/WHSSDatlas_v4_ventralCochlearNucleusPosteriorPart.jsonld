@@ -27,14 +27,18 @@
                     "value": 235.928428654329
                 }
             ],
-            "criteria": "'The posteroventral cochlear nucleus has a more upright position than the anteroventral cochlear nucleus with its caudodorsal end tucked up underneath the dorsal cochlear nucleus. In sMRI, it exhibits a heterogeneous texture with medium signal intensities. In DTI maps, the rostral two thirds (near the cochlear nerve root) appear red, while the caudodorsal third exhibits an even bright blue signal.' \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "159",
             "laterality": [
                 {

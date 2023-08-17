@@ -27,14 +27,18 @@
                     "value": 240.525630287293
                 }
             ],
-            "criteria": "The compact part can be seen in the T2* template as a capsule of higher signal intensity (appearing darker) compared to the reticular part.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "188",
             "laterality": [
                 {

@@ -27,14 +27,18 @@
                     "value": 212.074127075627
                 }
             ],
-            "criteria": "'The basal forebrain is a large complex of smaller regions located ventral to the striatum. In the current version of the atlas, the basal forebrain was provisionally defined as including brain regions located at the floor of the brain, between the olfactory system and hypothalamic region, inferior to the striatum and globus pallidus. For identification of boundaries, we refer to the delineation criteria for the surrounding structures (the olfactory bulb, the cerebellar cortex, the striatum and globus pallidus, the septal region, the ventricular system, the thalamus, and the hypothalamic region).' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "82",
             "laterality": [
                 {

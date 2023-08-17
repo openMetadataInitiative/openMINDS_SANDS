@@ -27,14 +27,18 @@
                     "value": 185.489957716701
                 }
             ],
-            "criteria": "'The medial superior olive is situated ventrally in the mediolateral middle of the superior olivary complex. In coronal sMRI slices, the medial superior olive appears as a short, dorsoventrally oriented rod with very bright signal, flanked medially and laterally by a zone of lower signal intensity. In DTI, the rod appears black with red voxels scattered in the adjacent areas. In 3D reconstruction, the medial superior olive appears as a slightly curved, evenly thick rod reaching from the caudal to the rostral end ofthe complex with the rostral end situated more dorsal and lateral than the caudal end.' \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "133",
             "laterality": [
                 {

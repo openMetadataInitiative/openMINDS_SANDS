@@ -27,14 +27,18 @@
           "value": 187.41981306057
         }
       ],
-      "criteria": "'The trapezoid body is situated ventrally and superficially in the medulla, immediately caudal to the pons. In sMRI, it appears dark with slightly higher signal intensities laterally where it crosses the vestibular nerve root. In DTI, the lateral part of the trapezoid body appears blue due to the dorsoventral orientation of the fibres, while the remaining part is bright red in accordance with their mediolateral orientation. In both sMRI and DTI, the trapezoid body is seen to have a laterocaudal extension into the deep core of the dorsal cochlear nucleus, probably representing the ventral route of the commissural acoustic stria. Medial to the facial nerve root and the rubrospinal tract, the trapezoid body encompasses the superior olivary complex. Rostrolateral to the superior olivary complex, the trapezoid fibres continue into the lateral lemniscus after a sharp rostrodorsal bend.' \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "130",
       "laterality": [
         {

@@ -27,14 +27,18 @@
                     "value": 307.084060832387
                 }
             ],
-            "criteria": "'The subiculum was characterized by its distinctly brighter appearance in sMRI, relative to the surrounding cornu ammonis and presubiculum, and the absence of a dark pyramidal layer. The principal cell layer of the subiculum, which in histological material is characterized by lower cell densities and absence of calbindin staining, could not be distinguished.' \n- Kjonigsen LJ, Lillehaug S, Bjaalie JG, Witter MP, Leergaard TB (2015) Waxholm Space atlas of the rat brain hippocampal region: Three-dimensional delineations based on magnetic resonance and diffusion tensor imaging. NeuroImage 108, 441-449. DOI:",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "100",
             "laterality": [
                 {

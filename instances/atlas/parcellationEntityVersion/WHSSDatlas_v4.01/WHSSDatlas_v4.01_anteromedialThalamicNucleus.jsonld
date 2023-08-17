@@ -27,14 +27,18 @@
           "value": 271.106734788667
         }
       ],
-      "criteria": "The anteromedial thalamic nucleus was delineated primarily based on observed contrast in the T2* template. It has a ventral subdivision in some atlases, but this was not delineated separately in our version. The medial border is with the interanteromedial thalamic nucleus. The lateral border with the ventral posterolateral nucleus is partly lined by the external medullary lamina, which appears much darker than the anteromedial nucleus in the T2* template. The anteromedial nucleus also generally appears lighter compared to other surrounding regions, including the centromedial nucleus dorsomedially and the rhomboid nucleus ventrally.",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "254",
       "laterality": [
         {

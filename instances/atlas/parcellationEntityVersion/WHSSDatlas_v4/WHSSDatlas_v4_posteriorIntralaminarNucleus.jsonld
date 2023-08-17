@@ -27,14 +27,18 @@
                     "value": 274.354964151172
                 }
             ],
-            "criteria": "The posterior intralaminar nucleus is situated ventromedially to the medial geniculate complex. Its borders are hard to recognize in the reference data, and have been guided by other atlases. Note that this term is by some used for a region corresponding to the Parafascicular nucleus and part of the Centromedial nucleus in cats and primates.",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "208",
             "laterality": [
                 {

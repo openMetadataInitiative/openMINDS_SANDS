@@ -27,14 +27,18 @@
           "value": 269.682489979959
         }
       ],
-      "criteria": "The 4th ventricle is situated ventral to the cerebellum, and dorsal to the brainstem and the periventricular grey. Rostrally it connects to the third ventricle via the cerebral aqueduct, and caudally it continues as the central canal of the spinal cord. The ventricle is covered dorsally by the tela choroidea, which has a caudal opening to the subarachnoidal space. The lateral recess with the choroidal plexus extends laterally between the cerebellar flocculus dorsally and the dorsal and ventral cochlear nuclei ventrally, having a wide lateral opening to the subarachnoidal space. \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "126",
       "laterality": [
         {
@@ -59,7 +63,7 @@
   ],
   "hasParent": [
     {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_cochlearNucleus,DorsalPart"
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_cochlearNucleusDorsalPart"
     }
   ],
   "lookupLabel": "WHSSDatlas_v4.01_dorsalCochlearNucleusMolecularLayer",

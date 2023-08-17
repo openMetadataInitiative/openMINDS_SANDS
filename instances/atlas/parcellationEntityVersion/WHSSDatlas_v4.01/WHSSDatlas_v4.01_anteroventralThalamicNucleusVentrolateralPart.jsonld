@@ -27,14 +27,18 @@
           "value": 296.010814249363
         }
       ],
-      "criteria": "The anteroventral nucleus as a whole is discernible in the sMRI template. The ventrolateral border with the external medullary lamina is most easily recognized in the sagittal plane, while the ventromedial border with the anteromedial nucleus is most visible in the coronal plane. The posterior border with the centromedial nucleus and the laterodorsal nuclei is best appreciated in the sagittal plane, where the anteroventral nucleus appears slightly lighter. The anteroventral nucleus is subdivided into a dorsomedial and a ventrolateral part. These subregions are not discernible in the template, but have been delineated based on extrapolation from other atlases.",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "215",
       "laterality": [
         {

@@ -27,14 +27,18 @@
           "value": 281.656399858755
         }
       ],
-      "criteria": "The ventral border of the ventral posteromedial thalamic nucleus is best appreciated in the horizontal and sagittal planes, where it can be seen to have a much lighter appearance in the T2* template compared to the ventrally adjacent stria medullaris. The ventral posteromedial thalamic nucleus appears less striated than the laterally adjacent ventral posterolateral nucleus, but more so than its medial neigbhors, the posterior and ventrolateral thalamic nuclei.",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "227",
       "laterality": [
         {

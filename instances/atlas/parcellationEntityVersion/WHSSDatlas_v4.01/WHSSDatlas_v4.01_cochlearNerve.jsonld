@@ -28,14 +28,18 @@
           "value": 203.894713218556
         }
       ],
-      "criteria": "We have here delineated the root and the nerve as one continuous structure labelled the cochlear nerve (cn). The thinner, distalmost intramodiolar part of the nerve, arising from the apical and middle coils of the cochlea, is oriented rostrocaudally, and hence seen lengthwise in sagittal slices. The thicker proximal part, including fibres also from the basal coil, is on the contrary cut lengthwise in coronal slices, where it is seen to course medially and dorsally from the caudal base of the cochlea to the ventral cochlear nucleus, which it enters from ventral. In DTI, the cochlear nerve displays alternating green, red and blue signals, like a rainbow, particularly distally, reflecting the spiralling of its fibre fascicles. The cochlear and vestibular nerves, together constituting the eighth cranial nerve, are intimately connected at their entrance into the brainstem, with the cochlear nerve situated caudal to the vestibular nerve. Within the nerve root, the cochlear nerve fibres bifurcate in ascending and descending branches. As seen in horizontal slices, the cochlear nerve root spans the entire mediolateral extent of the ventral cochlear nucleus, completely separating the anteroventral and posteroventral cochlear nuclei. As the cochlear nerve root thins out dorsally, it keeps its contact with the medially situated vestibular nerve root . At the site of contact, the coronal and horizontal sMRI slices lack the thin darker band, presumably made up of trapezoid fibres, that otherwise separates the ventral cochlear nuclear complex from the medially situated vestibular nerve root. In DTI, the cochlear nerve root tends to appear blue in accordance with the ventrodorsal course of the main fibres. It is indistinctly delimited, however, both in sMRI and DTI, possibly due to the bifurcation and crossing of the fibres and the intermingled clusters of globular bushy cells. Our interpretation and delineation of the cochlear nerve was therefore aided by inspection of myelin-stained histological sections. \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "121",
       "laterality": [
         {

@@ -28,14 +28,18 @@
                     "value": 232.867112985539
                 }
             ],
-            "criteria": "'In the present atlas, the region brain stem includes all otherwise unlabeled areas of the midbrain, the pons, and the medulla oblongata. Accordingly, this region incorporates the reticular formation and several nuclei. The anterior boundary of the region is given by the thalamus and hypothalamic region. It is divided medially by the periaqueductal gray and limited dorsally by the tectum and the periaqueductal gray. The ventral borders are given by the descending pathways (cerebral peduncle and pyramidal tract), the substantia nigra, the interpeduncular nucleus, the pontine nuclei (with bright T2* signal), the transverse fibers of the pons (high FA values), and the trapezoid body (dark T2* signal). Further, at the level of the pons, the region is framed laterally by the middle cerebellar peduncle (relatively homogenous dark T2* signal, dorsoventral diffusion orientation) and the spinal trigeminal tract (very dark T2* signal, distinct anteroposterior DTI signal). In the medulla oblongata, the dorsal boundary is defined by the 4th ventricle and the gray matter adjacent to its floor (bright T2 and T2* signal), as well as by the cerebellum. The lateral boundary at this level is defined by the inferior cerebellar peduncle and the spinal trigeminal tract, both distinguished based on DTI. Ventral borders are given by the trapezoid body (mediolateral fiber orientation) and the medial lemniscus (anteroposterior fiber orientation), and further on by the inferior olive (bright T2* signal anddistinct shape and orientation). Posterior to the facial nerve, the region is delimited by the spinal trigeminal nuclei appearing laterally (brighter T2* signal and dotted appearance). Approaching the spinal cord, the brain stem again has a direct contact with the descending pathway/pyramidal tracts. The posterior boundary of the region is given by the spinal cord.' [Papp et al., 2014, Neuroimage",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "47",
             "laterality": [
                 {

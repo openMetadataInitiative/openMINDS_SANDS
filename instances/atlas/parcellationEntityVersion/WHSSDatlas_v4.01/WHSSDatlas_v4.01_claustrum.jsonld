@@ -27,14 +27,18 @@
           "value": 260.807084739665
         }
       ],
-      "criteria": "In MRI, the claustrum has a dark apperance, compared to the surrounding lighter grey areas and the slightly lighter endopiriform nucleus. In DTI, the white matter is clearly distinguishable by the colours indicating the direction of the fibers. Consultation with other rat brain atlases (Paxinos and Watson, 6th ed., 2007; Swanson, 4th ed., 2018) were used to delineate the border.",
+      "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
       },
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/download.php/13400/MBAT_WHS_SD_rat_atlas_v4.01.zip"
+        }
+      ],
       "internalIdentifier": "412",
       "laterality": [
         {

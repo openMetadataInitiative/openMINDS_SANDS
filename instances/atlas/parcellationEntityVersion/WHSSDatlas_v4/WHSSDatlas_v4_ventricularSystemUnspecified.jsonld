@@ -27,14 +27,18 @@
                     "value": 320.193050487888
                 }
             ],
-            "criteria": "'The ventricular system (comprising the lateral ventricles, 3rd ventricle, aqueduct, and 4th ventricle) was delineated as a single structure based on the nearly saturated bright signal in T2-weighted and T2*-weighted images, reflecting the presence of the contrast agent used in this preparation. Since the ventricular system is continuous with further spaces filled with cerebrospinal fluid surrounding the brain, arbitrary boundaries were placed 1) at the anterior level where the pineal gland first appears in the coronal view, 2) at the posterior level where the pineal gland no longer touches the cerebral cortex on either side in the coronal view, and 3) at the posterior level where the horns of the thalamus (geniculate nuclei) disappear from the coronal view.' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "33",
             "laterality": [
                 {

@@ -27,14 +27,18 @@
                     "value": 276.774477806788
                 }
             ],
-            "criteria": "'In sMRI, the commissure of the lateral lemniscus can be traced as scattered dark fascicles extending medially from the dorsal nucleus. In DTI, the fibres appear bright red when organized in course fascicles, but they are lost to view in the superior cerebellar peduncle and hence cannot be traced over the midline. The fascicles are delineated as one compact structure that is truncated medially where they are lost to view.' \n- Osen KK, Imad J, Wennberg AE, Papp EA, Leergaard TB (2019) Waxholm Space atlas of the rat brain auditory system: Three-dimensional delineations based on structural and diffusion tensor magnetic resonance imaging. NeuroImage 199, 38-56. DOI:",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "140",
             "laterality": [
                 {

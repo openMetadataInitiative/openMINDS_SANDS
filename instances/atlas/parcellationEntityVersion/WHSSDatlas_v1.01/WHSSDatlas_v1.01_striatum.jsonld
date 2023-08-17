@@ -27,14 +27,18 @@
                     "value": 278.316643324184
                 }
             ],
-            "criteria": "'The striatum, comprising the caudate\u2013putamen complex and the core and shell of the accumbens nucleus, was distinguished by its distinct low FA signal intensity, in addition to contrast provided by surrounding structures. The striatum is dorsally covered by white matter (the corpus callosum and external capsule) with low T2* intensity and high anisotropy. The anterior protrusion of the accumbens nucleus was delineated based on its low anisotropy and homogenous bright appearance in T2* images. The medial boundary of the anterior striatum is given mostly by the lateral ventricles (black/white in T2*-weighted images), in addition to the navicular nucleus and anterior olfactory nucleus (with anteroposterior DTI orientations) and the septal nuclei (with slightly lower T2* intensity, and relatively higher anisotropy). Further posterior, the internal capsule (characterized by low T2* intensity, and high anisotropy) and the globus pallidus provide themedial/ventromedial boundary of the striatum. The anterior part ofthe striatum was delineated ventrally against the medial forebrain bundle and the ventral pallidum, both included in the basal forebrain region. The white matter of the medial forebrain bundle was easily identified by its low T2* signal intensity and high anisotropy (anteroposterior fiber orientations), while the rest of the ventral pallidum provides a boundary by its relatively higher anisotropy compared to the striatum, showing mostly anteroposterior diffusion orientations. Further posterior, the posterior limb of the anterior commissure (with distinct mediolateral fiber orientations) and the interstitial nucleus of the posterior limb of the anterior commissure (with relatively low T2* intensity) give the ventral boundary of the striatum. The lateral/ventrolateral extent of the striatum, which is not delimited by the external capsule, was delineated against the claustrum and the endopiriform nuclei (with darker T2* signals), and more posteriorly by the amygdaloid nuclei (with slightly darker, homogenous T2* contrast, lacking the typical striated appearance of the striatum).' \n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001",
+            "criteria": null,
             "criteriaQualityType": {
                 "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
             },
             "criteriaType": {
                 "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
             },
-            "inspiredBy": null,
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
             "internalIdentifier": "30",
             "laterality": [
                 {
