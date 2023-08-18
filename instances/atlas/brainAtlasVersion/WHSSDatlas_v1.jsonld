@@ -254,7 +254,7 @@
         "ontologyIdentifier": null
     },
     "homepage": "https://www.nitrc.org/projects/whs-sd-atlas/",
-    "howToCite": "Please refer to the atlas by its [RID:SCR_017124](https://scicrunch.org/resolver/SCR_017124), and cite the following publications: [Papp et al (2014)](https://doi.org/10.1016/j.neuroimage.2014.04.001)",
+    "howToCite": "Please refer to the atlas by its [RRID:SCR_017124](https://scicrunch.org/resolver/SCR_017124), and cite the following publications: [Papp et al (2014)](https://doi.org/10.1016/j.neuroimage.2014.04.001)",
     "isAlternativeVersionOf": null,
     "isNewVersionOf": null,
     "keyword": null,
