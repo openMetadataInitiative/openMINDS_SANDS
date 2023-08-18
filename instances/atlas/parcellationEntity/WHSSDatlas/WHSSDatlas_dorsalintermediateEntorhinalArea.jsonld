@@ -10,7 +10,7 @@
   "hasParent": null,
   "hasVersion": [
     {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_dorsalIntermediateEntorhinalArea"
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_dorsalintermediateEntorhinalArea"
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1.01_dorsalintermediateEntorhinalArea"

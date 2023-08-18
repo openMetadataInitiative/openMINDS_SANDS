@@ -2,7 +2,7 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_ventralIntermediateEntorhinalArea",
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_ventralintermediateEntorhinalArea",
   "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
   "abbreviation": null,
   "additionalRemarks": null,
@@ -64,7 +64,7 @@
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_cerebralCortexIncludingTheNeocortexAndTheHippocampus"
     }
   ],
-  "lookupLabel": "WHSSDatlas_v1_ventralIntermediateEntorhinalArea",
+  "lookupLabel": "WHSSDatlas_v1_ventralintermediateEntorhinalArea",
   "name": "ventral-intermediate entorhinal area",
   "ontologyIdentifier": null,
   "relationAssessment": null,
