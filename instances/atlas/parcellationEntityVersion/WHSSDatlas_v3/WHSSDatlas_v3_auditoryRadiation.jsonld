@@ -1,49 +1,77 @@
 {
-  "@context": {
-    "@vocab": "https://openminds.ebrains.eu/vocab/"
-  },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_auditoryRadiation",
-  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "abbreviation": "ar",
-  "additionalRemarks": null,
-  "alternateName": [
-    "ar",
-    "eml-ar",
-    "external medullary lamina, auditory radiation"
-  ],
-  "correctedName": null,
-  "hasAnnotation": [
-    {
-      "inspiredBy": [
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_auditoryRadiation",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "abbreviation": "ar",
+    "additionalRemarks": null,
+    "alternateName": [
+        "ar",
+        "eml-ar",
+        "external medullary lamina, auditory radiation"
+    ],
+    "correctedName": null,
+    "hasAnnotation": [
         {
-          "@id": "https://www.nitrc.org/frs/?group_id=1081"
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "anchorPoint": [
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 246.421899473159
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 540.83746262281
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 291.900469884664
+                }
+            ],
+            "criteria": null,
+            "criteriaQualityType": {
+                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+            },
+            "criteriaType": {
+                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+            },
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
+            "internalIdentifier": "157",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "preferredVisualization": {
+                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+                "additionalRemarks": null,
+                "anchorPoint": null,
+                "cameraPosition": null,
+                "preferredDisplayColor": {
+                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#F49CFF"
+                }
+            },
+            "specification": null,
+            "type": null
         }
-      ],
-      "anchorPoint": [
+    ],
+    "hasParent": [
         {
-          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "value": 246.421899473159
-        },
-        {
-          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "value": 540.83746262281
-        },
-        {
-          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "value": 291.900469884664
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_whiteMatter"
         }
-      ]
-    }
-  ],
-  "hasParent": [
-    {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_whiteMatter"
-    }
-  ],
-  "lookupLabel": "WHSSDatlas_v3_auditoryRadiation",
-  "name": "auditory radiation",
-  "ontologyIdentifier": null,
-  "relationAssessment": null,
-  "versionIdentifier": "v3",
-  "versionInnovation": "First delineated in version v3"
+    ],
+    "lookupLabel": "WHSSDatlas_v3_auditoryRadiation",
+    "name": "auditory radiation",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v3",
+    "versionInnovation": "First delineated in version v3"
 }

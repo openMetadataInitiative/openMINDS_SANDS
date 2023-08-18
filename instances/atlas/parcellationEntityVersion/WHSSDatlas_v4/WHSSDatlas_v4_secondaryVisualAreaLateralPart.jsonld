@@ -1,43 +1,71 @@
 {
-  "@context": {
-    "@vocab": "https://openminds.ebrains.eu/vocab/"
-  },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_secondaryVisualAreaLateralPart",
-  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "abbreviation": "V2L",
-  "additionalRemarks": null,
-  "alternateName": [
-    "V2L"
-  ],
-  "correctedName": null,
-  "hasAnnotation": [
-    {
-      "inspiredBy": [
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_secondaryVisualAreaLateralPart",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "abbreviation": "V2L",
+    "additionalRemarks": null,
+    "alternateName": [
+        "V2L"
+    ],
+    "correctedName": null,
+    "hasAnnotation": [
         {
-          "@id": "https://www.nitrc.org/frs/?group_id=1081"
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "anchorPoint": [
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 241.926518788615
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 465.436548161653
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 379.21689050947
+                }
+            ],
+            "criteria": null,
+            "criteriaQualityType": {
+                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+            },
+            "criteriaType": {
+                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+            },
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
+            "internalIdentifier": "443",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "preferredVisualization": {
+                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+                "additionalRemarks": null,
+                "anchorPoint": null,
+                "cameraPosition": null,
+                "preferredDisplayColor": {
+                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#FF6464"
+                }
+            },
+            "specification": null,
+            "type": null
         }
-      ],
-      "anchorPoint": [
-        {
-          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "value": 241.926518788615
-        },
-        {
-          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "value": 465.436548161653
-        },
-        {
-          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "value": 379.21689050947
-        }
-      ]
-    }
-  ],
-  "hasParent": null,
-  "lookupLabel": "WHSSDatlas_v4_secondaryVisualAreaLateralPart",
-  "name": "secondary visual area, lateral part",
-  "ontologyIdentifier": null,
-  "relationAssessment": null,
-  "versionIdentifier": "v4",
-  "versionInnovation": "First delineated in version v4"
+    ],
+    "hasParent": null,
+    "lookupLabel": "WHSSDatlas_v4_secondaryVisualAreaLateralPart",
+    "name": "secondary visual area, lateral part",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v4",
+    "versionInnovation": "First delineated in version v4"
 }

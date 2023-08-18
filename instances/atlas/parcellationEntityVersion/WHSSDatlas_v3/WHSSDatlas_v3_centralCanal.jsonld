@@ -1,47 +1,75 @@
 {
-  "@context": {
-    "@vocab": "https://openminds.ebrains.eu/vocab/"
-  },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_centralCanal",
-  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "abbreviation": "CC",
-  "additionalRemarks": null,
-  "alternateName": [
-    "CC"
-  ],
-  "correctedName": null,
-  "hasAnnotation": [
-    {
-      "inspiredBy": [
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_centralCanal",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "abbreviation": "CC",
+    "additionalRemarks": null,
+    "alternateName": [
+        "CC"
+    ],
+    "correctedName": null,
+    "hasAnnotation": [
         {
-          "@id": "https://www.nitrc.org/frs/?group_id=1081"
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "anchorPoint": [
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 244.234929078014
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 183.500886524822
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 204.019503546099
+                }
+            ],
+            "criteria": null,
+            "criteriaQualityType": {
+                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+            },
+            "criteriaType": {
+                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+            },
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
+            "internalIdentifier": "70",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "preferredVisualization": {
+                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+                "additionalRemarks": null,
+                "anchorPoint": null,
+                "cameraPosition": null,
+                "preferredDisplayColor": {
+                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#27F4FD"
+                }
+            },
+            "specification": null,
+            "type": null
         }
-      ],
-      "anchorPoint": [
+    ],
+    "hasParent": [
         {
-          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "value": 244.234929078014
-        },
-        {
-          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "value": 183.500886524822
-        },
-        {
-          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "value": 204.019503546099
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_ventricularSystem"
         }
-      ]
-    }
-  ],
-  "hasParent": [
-    {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_ventricularSystem"
-    }
-  ],
-  "lookupLabel": "WHSSDatlas_v3_centralCanal",
-  "name": "central canal",
-  "ontologyIdentifier": null,
-  "relationAssessment": null,
-  "versionIdentifier": "v3",
-  "versionInnovation": "unchanged"
+    ],
+    "lookupLabel": "WHSSDatlas_v3_centralCanal",
+    "name": "central canal",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v3",
+    "versionInnovation": "unchanged"
 }

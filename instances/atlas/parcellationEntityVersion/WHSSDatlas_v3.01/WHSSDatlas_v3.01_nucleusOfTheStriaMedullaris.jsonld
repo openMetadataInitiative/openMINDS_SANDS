@@ -1,47 +1,75 @@
 {
-  "@context": {
-    "@vocab": "https://openminds.ebrains.eu/vocab/"
-  },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3.01_nucleusOfTheStriaMedullaris",
-  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "abbreviation": "SM",
-  "additionalRemarks": null,
-  "alternateName": [
-    "SM"
-  ],
-  "correctedName": null,
-  "hasAnnotation": [
-    {
-      "inspiredBy": [
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3.01_nucleusOfTheStriaMedullaris",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "abbreviation": "SM",
+    "additionalRemarks": null,
+    "alternateName": [
+        "SM"
+    ],
+    "correctedName": null,
+    "hasAnnotation": [
         {
-          "@id": "https://www.nitrc.org/frs/?group_id=1081"
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "anchorPoint": [
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 244.337894110648
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 600.583581201665
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 231.972040452111
+                }
+            ],
+            "criteria": null,
+            "criteriaQualityType": {
+                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+            },
+            "criteriaType": {
+                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+            },
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
+            "internalIdentifier": "81",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "preferredVisualization": {
+                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+                "additionalRemarks": null,
+                "anchorPoint": null,
+                "cameraPosition": null,
+                "preferredDisplayColor": {
+                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#DE07ED"
+                }
+            },
+            "specification": null,
+            "type": null
         }
-      ],
-      "anchorPoint": [
+    ],
+    "hasParent": [
         {
-          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "value": 244.337894110648
-        },
-        {
-          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "value": 600.583581201665
-        },
-        {
-          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "value": 231.972040452111
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_cerebralNuclei"
         }
-      ]
-    }
-  ],
-  "hasParent": [
-    {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_cerebralNuclei"
-    }
-  ],
-  "lookupLabel": "WHSSDatlas_v3.01_nucleusOfTheStriaMedullaris",
-  "name": "nucleus of the stria medullaris",
-  "ontologyIdentifier": null,
-  "relationAssessment": null,
-  "versionIdentifier": "v3.01",
-  "versionInnovation": "unchanged"
+    ],
+    "lookupLabel": "WHSSDatlas_v3.01_nucleusOfTheStriaMedullaris",
+    "name": "nucleus of the stria medullaris",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v3.01",
+    "versionInnovation": "unchanged"
 }

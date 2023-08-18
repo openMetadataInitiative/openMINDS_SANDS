@@ -1,47 +1,75 @@
 {
-  "@context": {
-    "@vocab": "https://openminds.ebrains.eu/vocab/"
-  },
-  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_cornuAmmonis2",
-  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "abbreviation": "CA2",
-  "additionalRemarks": null,
-  "alternateName": [
-    "CA2"
-  ],
-  "correctedName": null,
-  "hasAnnotation": [
-    {
-      "inspiredBy": [
+    "@context": {
+        "@vocab": "https://openminds.ebrains.eu/vocab/"
+    },
+    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_cornuAmmonis2",
+    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+    "abbreviation": "CA2",
+    "additionalRemarks": null,
+    "alternateName": [
+        "CA2"
+    ],
+    "correctedName": null,
+    "hasAnnotation": [
         {
-          "@id": "https://www.nitrc.org/frs/?group_id=1081"
+            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+            "anchorPoint": [
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 238.931305201177
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 527.765745703429
+                },
+                {
+                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+                    "value": 316.913829546312
+                }
+            ],
+            "criteria": null,
+            "criteriaQualityType": {
+                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+            },
+            "criteriaType": {
+                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+            },
+            "inspiredBy": [
+                {
+                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
+                }
+            ],
+            "internalIdentifier": "97",
+            "laterality": [
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+                },
+                {
+                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+                }
+            ],
+            "preferredVisualization": {
+                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+                "additionalRemarks": null,
+                "anchorPoint": null,
+                "cameraPosition": null,
+                "preferredDisplayColor": {
+                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#FFFF00"
+                }
+            },
+            "specification": null,
+            "type": null
         }
-      ],
-      "anchorPoint": [
+    ],
+    "hasParent": [
         {
-          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "value": 238.931305201177
-        },
-        {
-          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "value": 527.765745703429
-        },
-        {
-          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-          "value": 316.913829546312
+            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_cornuAmmonis"
         }
-      ]
-    }
-  ],
-  "hasParent": [
-    {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_cornuAmmonis"
-    }
-  ],
-  "lookupLabel": "WHSSDatlas_v4_cornuAmmonis2",
-  "name": "cornu ammonis 2",
-  "ontologyIdentifier": null,
-  "relationAssessment": null,
-  "versionIdentifier": "v4",
-  "versionInnovation": "revised"
+    ],
+    "lookupLabel": "WHSSDatlas_v4_cornuAmmonis2",
+    "name": "cornu ammonis 2",
+    "ontologyIdentifier": null,
+    "relationAssessment": null,
+    "versionIdentifier": "v4",
+    "versionInnovation": "revised"
 }
