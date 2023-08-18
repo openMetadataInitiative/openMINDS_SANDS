@@ -698,7 +698,7 @@
         "ontologyIdentifier": null
     },
     "homepage": "https://www.nitrc.org/projects/whs-sd-atlas/",
-    "howToCite": "Please refer to the atlas by its <a href='https://scicrunch.org/resolver/SCR_017124'>RRID:SCR_017124</a>, and cite the following publications: <a href='https://doi.org/10.1016/j.neuroimage.2014.04.001'>Papp et al (2014)</a>, <a href='https://doi.org/10.21203/rs.3.rs-2466303/v1'>Kleven et al (In Preparation)</a>",
+    "howToCite": "Please refer to the atlas by its [RRID:SCR_017124](https://scicrunch.org/resolver/SCR_017124), and cite the following publications: [Papp et al (2014)](https://doi.org/10.1016/j.neuroimage.2014.04.001), [Kleven et al (In Preparation)](https://doi.org/10.21203/rs.3.rs-2466303/v1)",
     "isAlternativeVersionOf": null,
     "isNewVersionOf": {
         "@id": "https://openminds.ebrains.eu/instances/brainAtlasVersion/WHSSDatlas_v4"
