@@ -9,7 +9,11 @@
     "SS"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_parietalRegion"
+    }
+  ],
   "hasVersion": null,
   "lookupLabel": "WHSSDatlas_somatosensoryCortex",
   "name": "somatosensory cortex",

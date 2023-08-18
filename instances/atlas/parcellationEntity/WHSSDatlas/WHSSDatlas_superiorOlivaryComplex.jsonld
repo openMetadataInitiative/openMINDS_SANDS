@@ -9,7 +9,11 @@
     "SO"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_myelencephalon"
+    }
+  ],
   "hasVersion": null,
   "lookupLabel": "WHSSDatlas_superiorOlivaryComplex",
   "name": "superior olivary complex",

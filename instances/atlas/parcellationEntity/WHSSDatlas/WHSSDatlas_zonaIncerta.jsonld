@@ -9,7 +9,11 @@
     "ZI"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_prethalamus"
+    }
+  ],
   "hasVersion": null,
   "lookupLabel": "WHSSDatlas_zonaIncerta",
   "name": "zona incerta",

@@ -9,7 +9,11 @@
     "Icx"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_corticalPlate"
+    }
+  ],
   "hasVersion": null,
   "lookupLabel": "WHSSDatlas_isocortex",
   "name": "isocortex",

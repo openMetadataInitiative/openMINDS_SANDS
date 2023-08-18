@@ -9,7 +9,11 @@
     "ac"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_whiteMatter"
+    }
+  ],
   "hasVersion": null,
   "lookupLabel": "WHSSDatlas_anteriorCommissure",
   "name": "anterior commissure",

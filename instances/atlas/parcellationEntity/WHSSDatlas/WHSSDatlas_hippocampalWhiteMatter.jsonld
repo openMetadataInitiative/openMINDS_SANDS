@@ -9,7 +9,11 @@
     "hiw"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_whiteMatter"
+    }
+  ],
   "hasVersion": null,
   "lookupLabel": "WHSSDatlas_hippocampalWhiteMatter",
   "name": "hippocampal white matter",

@@ -9,7 +9,11 @@
     "Met"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_rhombencephalon"
+    }
+  ],
   "hasVersion": null,
   "lookupLabel": "WHSSDatlas_metencephalon",
   "name": "metencephalon",

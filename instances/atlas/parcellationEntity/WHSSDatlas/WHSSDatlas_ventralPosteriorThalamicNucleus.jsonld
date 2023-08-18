@@ -9,7 +9,11 @@
     "VPN"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_ventralNucleiOfTheDorsalThalamus"
+    }
+  ],
   "hasVersion": null,
   "lookupLabel": "WHSSDatlas_ventralPosteriorThalamicNucleus",
   "name": "ventral posterior thalamic nucleus",

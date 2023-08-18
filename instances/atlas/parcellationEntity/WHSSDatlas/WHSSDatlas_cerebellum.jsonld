@@ -9,7 +9,11 @@
     "Cb"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_metencephalon"
+    }
+  ],
   "hasVersion": null,
   "lookupLabel": "WHSSDatlas_cerebellum",
   "name": "cerebellum",

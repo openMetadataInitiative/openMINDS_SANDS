@@ -9,7 +9,11 @@
     "Cg"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_cingulateRegion"
+    }
+  ],
   "hasVersion": null,
   "lookupLabel": "WHSSDatlas_cingulateCortex",
   "name": "cingulate cortex",

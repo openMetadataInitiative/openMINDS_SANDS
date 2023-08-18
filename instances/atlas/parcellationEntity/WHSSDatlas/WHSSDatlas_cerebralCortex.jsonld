@@ -9,7 +9,11 @@
     "Cx"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_laminatedPallium"
+    }
+  ],
   "hasVersion": null,
   "lookupLabel": "WHSSDatlas_cerebralCortex",
   "name": "cerebral cortex",
