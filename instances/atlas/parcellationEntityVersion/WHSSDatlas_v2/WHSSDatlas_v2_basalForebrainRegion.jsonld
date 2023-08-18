@@ -1,75 +1,47 @@
 {
-    "@context": {
-        "@vocab": "https://openminds.ebrains.eu/vocab/"
-    },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v2_basalForebrainRegion",
-    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "abbreviation": null,
-    "additionalRemarks": "both .label file name and .mbat file name are \"basal forebrain region\", which is an error; abbreviation for the corrected name has been added under \"alternateName\"; for details, see atlas documentation",
-    "alternateName": [
-        "BFR-u"
-    ],
-    "correctedName": "basal forebrain region, unspecified",
-    "hasAnnotation": [
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v2_basalForebrainRegion",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "abbreviation": null,
+  "additionalRemarks": "both .label file name and .mbat file name are \"basal forebrain region\", which is an error; abbreviation for the corrected name has been added under \"alternateName\"; for details, see atlas documentation",
+  "alternateName": [
+    "BFR-u"
+  ],
+  "correctedName": "basal forebrain region, unspecified",
+  "hasAnnotation": [
+    {
+      "inspiredBy": [
         {
-            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-            "anchorPoint": [
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 241.9493385829
-                },
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 630.426061321548
-                },
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 212.074398115299
-                }
-            ],
-            "criteria": null,
-            "criteriaQualityType": {
-                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
-            },
-            "criteriaType": {
-                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
-            },
-            "inspiredBy": [
-                {
-                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
-                }
-            ],
-            "internalIdentifier": "82",
-            "laterality": [
-                {
-                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-                },
-                {
-                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
-                }
-            ],
-            "preferredVisualization": {
-                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
-                "additionalRemarks": null,
-                "anchorPoint": null,
-                "cameraPosition": null,
-                "preferredDisplayColor": {
-                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#E1F00D"
-                }
-            },
-            "specification": null,
-            "type": null
+          "@id": "https://www.nitrc.org/frs/?group_id=1081"
         }
-    ],
-    "hasParent": [
+      ],
+      "anchorPoint": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_grayMatter"
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 241.9493385829
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 630.426061321548
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 212.074398115299
         }
-    ],
-    "lookupLabel": "WHSSDatlas_v2_basalForebrainRegion",
-    "name": "basal forebrain region",
-    "ontologyIdentifier": null,
-    "relationAssessment": null,
-    "versionIdentifier": "v2",
-    "versionInnovation": "revised"
+      ]
+    }
+  ],
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_grayMatter"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_v2_basalForebrainRegion",
+  "name": "basal forebrain region",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "v2",
+  "versionInnovation": "revised"
 }

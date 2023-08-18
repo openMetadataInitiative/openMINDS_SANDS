@@ -1,75 +1,47 @@
 {
-    "@context": {
-        "@vocab": "https://openminds.ebrains.eu/vocab/"
-    },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_ventricularSystem",
-    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "abbreviation": "V-u",
-    "additionalRemarks": ".label file name \"ventricular system\" does not match the name in the .mbat file (\"ventricular system, unspecified\"); name was also changed to reflect the possibility for subdivision; for details, see atlas documentation",
-    "alternateName": [
-        "V-u"
-    ],
-    "correctedName": "ventricular system, unspecified",
-    "hasAnnotation": [
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_ventricularSystem",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "abbreviation": "V-u",
+  "additionalRemarks": ".label file name \"ventricular system\" does not match the name in the .mbat file (\"ventricular system, unspecified\"); name was also changed to reflect the possibility for subdivision; for details, see atlas documentation",
+  "alternateName": [
+    "V-u"
+  ],
+  "correctedName": "ventricular system, unspecified",
+  "hasAnnotation": [
+    {
+      "inspiredBy": [
         {
-            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-            "anchorPoint": [
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 244.066470647729
-                },
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 528.732094609238
-                },
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 321.243333188847
-                }
-            ],
-            "criteria": null,
-            "criteriaQualityType": {
-                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
-            },
-            "criteriaType": {
-                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
-            },
-            "inspiredBy": [
-                {
-                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
-                }
-            ],
-            "internalIdentifier": "33",
-            "laterality": [
-                {
-                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-                },
-                {
-                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
-                }
-            ],
-            "preferredVisualization": {
-                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
-                "additionalRemarks": null,
-                "anchorPoint": null,
-                "cameraPosition": null,
-                "preferredDisplayColor": {
-                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#022CFF"
-                }
-            },
-            "specification": null,
-            "type": null
+          "@id": "https://www.nitrc.org/frs/?group_id=1081"
         }
-    ],
-    "hasParent": [
+      ],
+      "anchorPoint": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_ventricularSystem"
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 244.066470647729
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 528.732094609238
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 321.243333188847
         }
-    ],
-    "lookupLabel": "WHSSDatlas_v3_ventricularSystem",
-    "name": "ventricular system",
-    "ontologyIdentifier": null,
-    "relationAssessment": null,
-    "versionIdentifier": "v3",
-    "versionInnovation": "revised"
+      ]
+    }
+  ],
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_ventricularSystem"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_v3_ventricularSystem",
+  "name": "ventricular system",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "v3",
+  "versionInnovation": "revised"
 }

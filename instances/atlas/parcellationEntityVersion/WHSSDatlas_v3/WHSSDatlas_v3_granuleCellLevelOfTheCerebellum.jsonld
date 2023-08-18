@@ -1,77 +1,49 @@
 {
-    "@context": {
-        "@vocab": "https://openminds.ebrains.eu/vocab/"
-    },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_granuleCellLevelOfTheCerebellum",
-    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "abbreviation": "DpCb",
-    "additionalRemarks": ".label file name \"granule cell level of the cerebellum\" does not match the name in the .mbat file (\"deeper cerebellum\"); name was changed to reflect the possibility for subdivision; abbreviations for both the corrected name and the original name have been added under \"alternateName\"; for details, see atlas documentation",
-    "alternateName": [
-        "DpCb",
-        "Cb-u",
-        "deeper cerebellum"
-    ],
-    "correctedName": "cerebellum, unspecified",
-    "hasAnnotation": [
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_granuleCellLevelOfTheCerebellum",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "abbreviation": "DpCb",
+  "additionalRemarks": ".label file name \"granule cell level of the cerebellum\" does not match the name in the .mbat file (\"deeper cerebellum\"); name was changed to reflect the possibility for subdivision; abbreviations for both the corrected name and the original name have been added under \"alternateName\"; for details, see atlas documentation",
+  "alternateName": [
+    "DpCb",
+    "Cb-u",
+    "deeper cerebellum"
+  ],
+  "correctedName": "cerebellum, unspecified",
+  "hasAnnotation": [
+    {
+      "inspiredBy": [
         {
-            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-            "anchorPoint": [
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 241.638379526026
-                },
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 331.515713233048
-                },
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 325.778060394323
-                }
-            ],
-            "criteria": null,
-            "criteriaQualityType": {
-                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
-            },
-            "criteriaType": {
-                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
-            },
-            "inspiredBy": [
-                {
-                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
-                }
-            ],
-            "internalIdentifier": "5",
-            "laterality": [
-                {
-                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-                },
-                {
-                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
-                }
-            ],
-            "preferredVisualization": {
-                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
-                "additionalRemarks": null,
-                "anchorPoint": null,
-                "cameraPosition": null,
-                "preferredDisplayColor": {
-                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#00FFFF"
-                }
-            },
-            "specification": null,
-            "type": null
+          "@id": "https://www.nitrc.org/frs/?group_id=1081"
         }
-    ],
-    "hasParent": [
+      ],
+      "anchorPoint": [
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_cerebellum"
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 241.638379526026
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 331.515713233048
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 325.778060394323
         }
-    ],
-    "lookupLabel": "WHSSDatlas_v3_granuleCellLevelOfTheCerebellum",
-    "name": "granule cell level of the cerebellum",
-    "ontologyIdentifier": null,
-    "relationAssessment": null,
-    "versionIdentifier": "v3",
-    "versionInnovation": "revised"
+      ]
+    }
+  ],
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_cerebellum"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_v3_granuleCellLevelOfTheCerebellum",
+  "name": "granule cell level of the cerebellum",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "v3",
+  "versionInnovation": "revised"
 }
