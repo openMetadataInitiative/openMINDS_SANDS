@@ -1,75 +1,75 @@
 {
-    "@context": {
-        "@vocab": "https://openminds.ebrains.eu/vocab/"
-    },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1.01_neocortex",
-    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "abbreviation": null,
-    "additionalRemarks": "both .label file name and .mbat file name are \"neocortex\", which is an error; abbreviation for the corrected name has been added under \"alternateName\"; for details, see atlas documentation",
-    "alternateName": [
-        "Ncx-u"
-    ],
-    "correctedName": "neocortex, unspecified",
-    "hasAnnotation": [
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1.01_neocortex",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "abbreviation": null,
+  "additionalRemarks": "both .label file name and .mbat file name are \"neocortex\", which is an error; abbreviation for the corrected name has been added under \"alternateName\"; for details, see atlas documentation",
+  "alternateName": [
+    "Ncx-u"
+  ],
+  "correctedName": "neocortex, unspecified",
+  "hasAnnotation": [
+    {
+      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+      "anchorPoint": [
         {
-            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-            "anchorPoint": [
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 243.693570622252
-                },
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 604.678344527189
-                },
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 333.302764245545
-                }
-            ],
-            "criteria": null,
-            "criteriaQualityType": {
-                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
-            },
-            "criteriaType": {
-                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
-            },
-            "inspiredBy": [
-                {
-                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
-                }
-            ],
-            "internalIdentifier": "92",
-            "laterality": [
-                {
-                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-                },
-                {
-                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
-                }
-            ],
-            "preferredVisualization": {
-                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
-                "additionalRemarks": null,
-                "anchorPoint": null,
-                "cameraPosition": null,
-                "preferredDisplayColor": {
-                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#03C12D"
-                }
-            },
-            "specification": null,
-            "type": null
-        }
-    ],
-    "hasParent": [
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 243.693570622252
+        },
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_cerebralCortexIncludingTheNeocortexAndTheHippocampus"
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 604.678344527189
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 333.302764245545
         }
-    ],
-    "lookupLabel": "WHSSDatlas_v1.01_neocortex",
-    "name": "neocortex",
-    "ontologyIdentifier": null,
-    "relationAssessment": null,
-    "versionIdentifier": "v1.01",
-    "versionInnovation": "unchanged"
+      ],
+      "criteria": null,
+      "criteriaQualityType": {
+        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+      },
+      "criteriaType": {
+        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+      },
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/?group_id=1081"
+        }
+      ],
+      "internalIdentifier": "92",
+      "laterality": [
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        },
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+        }
+      ],
+      "preferredVisualization": {
+        "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+        "additionalRemarks": null,
+        "anchorPoint": null,
+        "cameraPosition": null,
+        "preferredDisplayColor": {
+          "@id": "https://openminds.ebrains.eu/instances/singleColor/#03C12D"
+        }
+      },
+      "specification": null,
+      "type": null
+    }
+  ],
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_cerebralCortexIncludingTheNeocortexAndTheHippocampus"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_v1.01_neocortex",
+  "name": "neocortex",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "v1.01",
+  "versionInnovation": "unchanged"
 }

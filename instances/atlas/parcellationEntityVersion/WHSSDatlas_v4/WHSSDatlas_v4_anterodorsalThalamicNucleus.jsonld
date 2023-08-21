@@ -1,75 +1,75 @@
 {
-    "@context": {
-        "@vocab": "https://openminds.ebrains.eu/vocab/"
-    },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_anterodorsalThalamicNucleus",
-    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "abbreviation": "AD",
-    "additionalRemarks": null,
-    "alternateName": [
-        "AD"
-    ],
-    "correctedName": null,
-    "hasAnnotation": [
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_anterodorsalThalamicNucleus",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "abbreviation": "AD",
+  "additionalRemarks": null,
+  "alternateName": [
+    "AD"
+  ],
+  "correctedName": null,
+  "hasAnnotation": [
+    {
+      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+      "anchorPoint": [
         {
-            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-            "anchorPoint": [
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 238.179300094581
-                },
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 591.330225645183
-                },
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 311.667072017294
-                }
-            ],
-            "criteria": null,
-            "criteriaQualityType": {
-                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
-            },
-            "criteriaType": {
-                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
-            },
-            "inspiredBy": [
-                {
-                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
-                }
-            ],
-            "internalIdentifier": "213",
-            "laterality": [
-                {
-                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-                },
-                {
-                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
-                }
-            ],
-            "preferredVisualization": {
-                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
-                "additionalRemarks": null,
-                "anchorPoint": null,
-                "cameraPosition": null,
-                "preferredDisplayColor": {
-                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#830A79"
-                }
-            },
-            "specification": null,
-            "type": null
-        }
-    ],
-    "hasParent": [
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 238.179300094581
+        },
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_anteriorNucleiOfTheDorsalThalamus"
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 591.330225645183
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 311.667072017294
         }
-    ],
-    "lookupLabel": "WHSSDatlas_v4_anterodorsalThalamicNucleus",
-    "name": "anterodorsal thalamic nucleus",
-    "ontologyIdentifier": null,
-    "relationAssessment": null,
-    "versionIdentifier": "v4",
-    "versionInnovation": "First delineated in version v4"
+      ],
+      "criteria": null,
+      "criteriaQualityType": {
+        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+      },
+      "criteriaType": {
+        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+      },
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/?group_id=1081"
+        }
+      ],
+      "internalIdentifier": "213",
+      "laterality": [
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        },
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+        }
+      ],
+      "preferredVisualization": {
+        "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+        "additionalRemarks": null,
+        "anchorPoint": null,
+        "cameraPosition": null,
+        "preferredDisplayColor": {
+          "@id": "https://openminds.ebrains.eu/instances/singleColor/#830A79"
+        }
+      },
+      "specification": null,
+      "type": null
+    }
+  ],
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_anteriorNucleiOfTheDorsalThalamus"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_v4_anterodorsalThalamicNucleus",
+  "name": "anterodorsal thalamic nucleus",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "v4",
+  "versionInnovation": "First delineated in version v4"
 }

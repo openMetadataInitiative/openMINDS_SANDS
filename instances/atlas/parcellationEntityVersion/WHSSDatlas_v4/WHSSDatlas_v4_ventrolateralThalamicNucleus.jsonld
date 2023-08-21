@@ -1,75 +1,75 @@
 {
-    "@context": {
-        "@vocab": "https://openminds.ebrains.eu/vocab/"
-    },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_ventrolateralThalamicNucleus",
-    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "abbreviation": "VL",
-    "additionalRemarks": null,
-    "alternateName": [
-        "VL"
-    ],
-    "correctedName": null,
-    "hasAnnotation": [
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_ventrolateralThalamicNucleus",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "abbreviation": "VL",
+  "additionalRemarks": null,
+  "alternateName": [
+    "VL"
+  ],
+  "correctedName": null,
+  "hasAnnotation": [
+    {
+      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+      "anchorPoint": [
         {
-            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-            "anchorPoint": [
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 246.972839125368
-                },
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 576.737199259716
-                },
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 278.192285283432
-                }
-            ],
-            "criteria": null,
-            "criteriaQualityType": {
-                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
-            },
-            "criteriaType": {
-                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
-            },
-            "inspiredBy": [
-                {
-                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
-                }
-            ],
-            "internalIdentifier": "231",
-            "laterality": [
-                {
-                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-                },
-                {
-                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
-                }
-            ],
-            "preferredVisualization": {
-                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
-                "additionalRemarks": null,
-                "anchorPoint": null,
-                "cameraPosition": null,
-                "preferredDisplayColor": {
-                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#AAAAFF"
-                }
-            },
-            "specification": null,
-            "type": null
-        }
-    ],
-    "hasParent": [
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 246.972839125368
+        },
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_ventralNucleiOfTheDorsalThalamus"
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 576.737199259716
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 278.192285283432
         }
-    ],
-    "lookupLabel": "WHSSDatlas_v4_ventrolateralThalamicNucleus",
-    "name": "ventrolateral thalamic nucleus",
-    "ontologyIdentifier": null,
-    "relationAssessment": null,
-    "versionIdentifier": "v4",
-    "versionInnovation": "First delineated in version v4"
+      ],
+      "criteria": null,
+      "criteriaQualityType": {
+        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+      },
+      "criteriaType": {
+        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+      },
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/?group_id=1081"
+        }
+      ],
+      "internalIdentifier": "231",
+      "laterality": [
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        },
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+        }
+      ],
+      "preferredVisualization": {
+        "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+        "additionalRemarks": null,
+        "anchorPoint": null,
+        "cameraPosition": null,
+        "preferredDisplayColor": {
+          "@id": "https://openminds.ebrains.eu/instances/singleColor/#AAAAFF"
+        }
+      },
+      "specification": null,
+      "type": null
+    }
+  ],
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_ventralNucleiOfTheDorsalThalamus"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_v4_ventrolateralThalamicNucleus",
+  "name": "ventrolateral thalamic nucleus",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "v4",
+  "versionInnovation": "First delineated in version v4"
 }

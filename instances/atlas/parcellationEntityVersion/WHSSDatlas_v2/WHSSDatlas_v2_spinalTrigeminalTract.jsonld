@@ -1,75 +1,75 @@
 {
-    "@context": {
-        "@vocab": "https://openminds.ebrains.eu/vocab/"
-    },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v2_spinalTrigeminalTract",
-    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "abbreviation": null,
-    "additionalRemarks": null,
-    "alternateName": [
-        "sp5t"
-    ],
-    "correctedName": null,
-    "hasAnnotation": [
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v2_spinalTrigeminalTract",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "abbreviation": null,
+  "additionalRemarks": null,
+  "alternateName": [
+    "sp5t"
+  ],
+  "correctedName": null,
+  "hasAnnotation": [
+    {
+      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+      "anchorPoint": [
         {
-            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-            "anchorPoint": [
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 243.19577807589
-                },
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 614.088519805691
-                },
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 162.609184131776
-                }
-            ],
-            "criteria": null,
-            "criteriaQualityType": {
-                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
-            },
-            "criteriaType": {
-                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
-            },
-            "inspiredBy": [
-                {
-                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
-                }
-            ],
-            "internalIdentifier": "76",
-            "laterality": [
-                {
-                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-                },
-                {
-                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
-                }
-            ],
-            "preferredVisualization": {
-                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
-                "additionalRemarks": null,
-                "anchorPoint": null,
-                "cameraPosition": null,
-                "preferredDisplayColor": {
-                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#FA8072"
-                }
-            },
-            "specification": null,
-            "type": null
-        }
-    ],
-    "hasParent": [
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 243.19577807589
+        },
         {
-            "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_whiteMatter"
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 614.088519805691
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 162.609184131776
         }
-    ],
-    "lookupLabel": "WHSSDatlas_v2_spinalTrigeminalTract",
-    "name": "spinal trigeminal tract",
-    "ontologyIdentifier": null,
-    "relationAssessment": null,
-    "versionIdentifier": "v2",
-    "versionInnovation": "revised"
+      ],
+      "criteria": null,
+      "criteriaQualityType": {
+        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+      },
+      "criteriaType": {
+        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+      },
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/?group_id=1081"
+        }
+      ],
+      "internalIdentifier": "76",
+      "laterality": [
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        },
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+        }
+      ],
+      "preferredVisualization": {
+        "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+        "additionalRemarks": null,
+        "anchorPoint": null,
+        "cameraPosition": null,
+        "preferredDisplayColor": {
+          "@id": "https://openminds.ebrains.eu/instances/singleColor/#FA8072"
+        }
+      },
+      "specification": null,
+      "type": null
+    }
+  ],
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_whiteMatter"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_v2_spinalTrigeminalTract",
+  "name": "spinal trigeminal tract",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "v2",
+  "versionInnovation": "revised"
 }

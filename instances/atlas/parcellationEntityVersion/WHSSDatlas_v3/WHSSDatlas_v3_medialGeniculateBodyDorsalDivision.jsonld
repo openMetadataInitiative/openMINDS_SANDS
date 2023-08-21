@@ -1,71 +1,71 @@
 {
-    "@context": {
-        "@vocab": "https://openminds.ebrains.eu/vocab/"
-    },
-    "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_medialGeniculateBodyDorsalDivision",
-    "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-    "abbreviation": "MGD",
-    "additionalRemarks": null,
-    "alternateName": [
-        "MGD"
-    ],
-    "correctedName": null,
-    "hasAnnotation": [
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_medialGeniculateBodyDorsalDivision",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "abbreviation": "MGD",
+  "additionalRemarks": null,
+  "alternateName": [
+    "MGD"
+  ],
+  "correctedName": null,
+  "hasAnnotation": [
+    {
+      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+      "anchorPoint": [
         {
-            "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-            "anchorPoint": [
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 251.076688355396
-                },
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 495.31851020866
-                },
-                {
-                    "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
-                    "value": 302.941485304016
-                }
-            ],
-            "criteria": null,
-            "criteriaQualityType": {
-                "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
-            },
-            "criteriaType": {
-                "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
-            },
-            "inspiredBy": [
-                {
-                    "@id": "https://www.nitrc.org/frs/?group_id=1081"
-                }
-            ],
-            "internalIdentifier": "148",
-            "laterality": [
-                {
-                    "@id": "https://openminds.ebrains.eu/instances/laterality/left"
-                },
-                {
-                    "@id": "https://openminds.ebrains.eu/instances/laterality/right"
-                }
-            ],
-            "preferredVisualization": {
-                "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
-                "additionalRemarks": null,
-                "anchorPoint": null,
-                "cameraPosition": null,
-                "preferredDisplayColor": {
-                    "@id": "https://openminds.ebrains.eu/instances/singleColor/#EFA300"
-                }
-            },
-            "specification": null,
-            "type": null
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 251.076688355396
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 495.31851020866
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 302.941485304016
         }
-    ],
-    "hasParent": null,
-    "lookupLabel": "WHSSDatlas_v3_medialGeniculateBodyDorsalDivision",
-    "name": "medial geniculate body, dorsal division",
-    "ontologyIdentifier": null,
-    "relationAssessment": null,
-    "versionIdentifier": "v3",
-    "versionInnovation": "First delineated in version v3"
+      ],
+      "criteria": null,
+      "criteriaQualityType": {
+        "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
+      },
+      "criteriaType": {
+        "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
+      },
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/?group_id=1081"
+        }
+      ],
+      "internalIdentifier": "148",
+      "laterality": [
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        },
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+        }
+      ],
+      "preferredVisualization": {
+        "@type": "https://openminds.ebrains.eu/sands/ViewerSpecification",
+        "additionalRemarks": null,
+        "anchorPoint": null,
+        "cameraPosition": null,
+        "preferredDisplayColor": {
+          "@id": "https://openminds.ebrains.eu/instances/singleColor/#EFA300"
+        }
+      },
+      "specification": null,
+      "type": null
+    }
+  ],
+  "hasParent": null,
+  "lookupLabel": "WHSSDatlas_v3_medialGeniculateBodyDorsalDivision",
+  "name": "medial geniculate body, dorsal division",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "v3",
+  "versionInnovation": "First delineated in version v3"
 }
