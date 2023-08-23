@@ -62,7 +62,11 @@
       "type": null
     }
   ],
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_reticularNucleusOfTheThalamus"
+    }
+  ],
   "lookupLabel": "WHSSDatlas_v3.01_reticularThalamicNucleusAuditorySegment",
   "name": "reticular thalamic nucleus, auditory segment",
   "ontologyIdentifier": null,

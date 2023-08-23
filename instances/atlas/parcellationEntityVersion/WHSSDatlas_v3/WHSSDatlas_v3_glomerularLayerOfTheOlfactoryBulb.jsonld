@@ -63,7 +63,7 @@
   ],
   "hasParent": [
     {
-      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_olfactoryBulb"
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_olfactoryAreas"
     }
   ],
   "lookupLabel": "WHSSDatlas_v3_glomerularLayerOfTheOlfactoryBulb",
