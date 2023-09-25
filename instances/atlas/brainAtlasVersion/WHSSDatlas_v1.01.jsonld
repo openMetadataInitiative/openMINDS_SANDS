@@ -255,7 +255,7 @@
 		"ontologyIdentifier": null
 	},
   "homepage": "https://www.nitrc.org/projects/whs-sd-atlas/",
-  "howToCite": "Please refer to the atlas by its RRID: SCR_017124, and cite the following publications:\n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001\n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2015) Addendum to "Waxholm Space atlas of the Sprague Dawley rat brain" [NeuroImage 97 (2014) 374-386]. NeuroImage 105, 561–562. DOI: https://doi.org/10.1016/j.neuroimage.2014.10.017",
+  "howToCite": "Please refer to the atlas by its RRID: SCR_017124, and cite the following publications:\n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2014) Waxholm Space atlas of the Sprague Dawley rat brain. NeuroImage 97, 374-386. DOI: https://doi.org/10.1016/j.neuroimage.2014.04.001\n- Papp EA, Leergaard TB, Calabrese E, Johnson GA, Bjaalie JG (2015) Addendum to \"Waxholm Space atlas of the Sprague Dawley rat brain\" [NeuroImage 97 (2014) 374-386]. NeuroImage 105, 561–562. DOI: https://doi.org/10.1016/j.neuroimage.2014.10.017",
   "isAlternativeVersionOf": null,
   "isNewVersionOf": null,
   "keyword": null,
