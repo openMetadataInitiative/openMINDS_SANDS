@@ -7,7 +7,7 @@
   "properties": {
     "additionalRemarks": {
       "type": "string",
-      "_instruction": "Enter any additional remarks concering this anatomical target position."
+      "_instruction": "Enter any additional remarks concerning this anatomical target position."
     },
     "anatomicalTarget": {
       "type": "array",
