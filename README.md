@@ -7,13 +7,17 @@
 </a>
 
 # openMINDS_SANDS
+The openMINDS_SANDS repository repository hosts one of the metadata models of the **openMINDS metadata framework**. It defines modular metadata schemas for **s**patial **a**nchoring of **n**euroscience **d**ata **s**tructures.
 
-The openMINDS_SANDS repository is part of the **open** **M**etadata **I**nitiative for **N**euroscience **D**ata **S**tructures (openMINDS). It provides metadata schemas for **S**patial **A**nchoring of **N**euroscience **D**ata **S**tructures, including brain atlas definitions.
+To generally learn more about the openMINDS metadata framework please go to :arrow_right: [**ReadTheDocs**](https://openminds-documentation.readthedocs.io).  
+For browsing through the metadata schemas you can also directly jump to the :arrow_right: [**openMINDS SANDS Specifications**](https://openminds-documentation.readthedocs.io/en/latest/specifications/SANDS.html).
 
-For more information please go to the [main openMINDS repository](https://github.com/HumanBrainProject/openMINDS).
+The openMINDS metadata framework also offers libraries for serviceable, well-defined graph descriptions for [**brain atlases**](https://openminds-documentation.readthedocs.io/en/latest/libraries/brainAtlases.html) and [**common coordinate spaces**](https://openminds-documentation.readthedocs.io/en/latest/libraries/commonCoordinateSpaces.html).
 
 ## How to contribute
-Please check our [contribution document](https://github.com/HumanBrainProject/openMINDS/blob/main/CONTRIBUTING.md).
+The openMINDS metadata framework is an open-source project and contributions from the community are highly appreciated. You can contribute by providing feedback and suggestions through the issue tracker as well as by making pull request for fixing issues and introducing new features.
+
+If you want to contribute please follow our :arrow_right: [**guidelines**](https://openminds-documentation.readthedocs.io/en/latest/shared/how_to_contribute.html).
 
 ## License
 This work is licensed under the MIT License.
