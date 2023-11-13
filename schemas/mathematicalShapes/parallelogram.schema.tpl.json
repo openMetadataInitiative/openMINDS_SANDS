@@ -1,0 +1,31 @@
+{
+    "_type": "https://openminds.ebrains.eu/sands/Parallelogram",
+    "_categories": [
+        "mathematicalShapes"
+    ],
+    "required": [
+        "height",
+        "majorSide",
+        "minorSide"
+    ],
+    "properties": {
+        "height": {
+            "_instruction": "Define the height (distance between the major sides) of this parallelogram.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        },
+        "majorSide": {
+            "_instruction": "Define the length of the major (long) side of this parallelogram.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        },
+        "minorSide": {
+            "_instruction": "Define the length of the minor (short) side of this parallelogram.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        }
+    }
+}

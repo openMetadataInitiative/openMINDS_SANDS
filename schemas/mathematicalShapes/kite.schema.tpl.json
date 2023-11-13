@@ -1,0 +1,38 @@
+{
+    "_type": "https://openminds.ebrains.eu/sands/Kite",
+    "_categories": [
+        "mathematicalShapes"
+    ],
+    "required": [
+        "majorAxis",
+        "majorSide",
+        "minorSide",
+        "minorAxis"
+    ],
+    "properties": {
+        "majorAxis": {
+            "_instruction": "Define the length of the major axis (diagonal) of this kite.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        },
+        "majorSide": {
+            "_instruction": "Define the length of the major (long) side of this kite.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        },
+        "minorAxis": {
+            "_instruction": "Define the length of the minor axis (diagonal) of this kite.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        },
+        "minorSide": {
+            "_instruction": "Define the length of the minor (short) side of this kite.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        }
+    }
+}

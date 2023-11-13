@@ -1,0 +1,17 @@
+{
+    "_type": "https://openminds.ebrains.eu/sands/Square",
+    "_categories": [
+        "mathematicalShapes"
+    ],
+    "required": [
+        "length"
+    ],
+    "properties": {
+        "length": {
+            "_instruction": "Define the length of sides of this square.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "_type": "https://openminds.ebrains.eu/sands/Rhombus",
+    "_categories": [
+        "mathematicalShapes"
+    ],
+    "required": [
+        "height",
+        "side"
+    ],
+    "properties": {
+        "height": {
+            "_instruction": "Define the height (distance between the major sides) of this rhombus.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        },
+        "side": {
+            "_instruction": "Define the length of the sides of this rhombus.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        }
+    }
+}

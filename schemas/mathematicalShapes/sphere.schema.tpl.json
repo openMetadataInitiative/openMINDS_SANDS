@@ -1,0 +1,17 @@
+{
+    "_type": "https://openminds.ebrains.eu/sands/Sphere",
+    "_categories": [
+        "mathematicalShapes"
+    ],
+    "required": [
+        "radius"
+    ],
+    "properties": {
+        "radius": {
+            "_instruction": "Define the radius of this sphere.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        }
+    }
+}
