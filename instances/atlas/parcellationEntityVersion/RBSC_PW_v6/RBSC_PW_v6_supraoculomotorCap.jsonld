@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/RBSC_PW_v6_supraoculomotorCap",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
+  "additionalRemarks": null,
+  "alternativeName": [
+    "Su3C"
+  ],
+  "correctedName": null,
+  "hasAnnotation": [
+    {
+      "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
+      "bestViewPoint": null,
+      "criteria": null,
+      "criteriaQualityType": null,
+      "displayColor": null,
+      "inspiredBy": null,
+      "internalIdentifier": null,
+      "laterality": [
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/left"
+        },
+        {
+          "@id": "https://openminds.ebrains.eu/instances/laterality/right"
+        }
+      ],
+      "visualizedIn": null
+    }
+  ],
+  "hasParent": null,
+  "lookupLabel": "RBSC_PW_v6_supraoculomotorCap",
+  "name": "supraoculomotor cap",
+  "ontologyIdentifier": null,
+  "relationAssessment": null,
+  "versionIdentifier": "v6",
+  "versionInnovation": null
+}
