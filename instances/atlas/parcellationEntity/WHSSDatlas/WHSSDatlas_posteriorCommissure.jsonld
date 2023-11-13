@@ -9,8 +9,15 @@
     "pc"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_whiteMatter"
+    }
+  ],
   "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_posteriorCommissure"
+    },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1.01_posteriorCommissure"
     },
@@ -25,6 +32,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_posteriorCommissure"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_posteriorCommissure"
     }
   ],
   "lookupLabel": "WHSSDatlas_posteriorCommissure",

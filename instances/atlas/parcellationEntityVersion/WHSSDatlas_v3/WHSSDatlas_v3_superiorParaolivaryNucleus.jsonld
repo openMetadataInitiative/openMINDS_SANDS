@@ -4,7 +4,7 @@
   },
   "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_superiorParaolivaryNucleus",
   "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "abbreviation": null,
+  "abbreviation": "SPN",
   "additionalRemarks": null,
   "alternateName": [
     "SPN"
@@ -13,7 +13,20 @@
   "hasAnnotation": [
     {
       "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-      "anchorPoint": null,
+      "anchorPoint": [
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 243.9062816616
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 374.663880445795
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 188.180344478216
+        }
+      ],
       "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
@@ -21,7 +34,11 @@
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/?group_id=1081"
+        }
+      ],
       "internalIdentifier": "132",
       "laterality": [
         {
@@ -54,5 +71,5 @@
   "ontologyIdentifier": null,
   "relationAssessment": null,
   "versionIdentifier": "v3",
-  "versionInnovation": null
+  "versionInnovation": "First delineated in version v3"
 }

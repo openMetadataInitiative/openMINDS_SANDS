@@ -9,10 +9,17 @@
     "NAc-c"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_nucleusAccumbens"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_nucleusAccumbensCore"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_nucleusAccumbensCore"
     }
   ],
   "lookupLabel": "WHSSDatlas_nucleusAccumbensCore",

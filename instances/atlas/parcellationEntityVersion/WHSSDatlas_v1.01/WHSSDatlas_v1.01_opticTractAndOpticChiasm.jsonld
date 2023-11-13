@@ -13,7 +13,20 @@
   "hasAnnotation": [
     {
       "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-      "anchorPoint": null,
+      "anchorPoint": [
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 245.956228956228
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 601.403003580781
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 205.118187162631
+        }
+      ],
       "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
@@ -21,7 +34,11 @@
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/?group_id=1081"
+        }
+      ],
       "internalIdentifier": "42",
       "laterality": [
         {
@@ -54,5 +71,5 @@
   "ontologyIdentifier": null,
   "relationAssessment": null,
   "versionIdentifier": "v1.01",
-  "versionInnovation": null
+  "versionInnovation": "unchanged"
 }

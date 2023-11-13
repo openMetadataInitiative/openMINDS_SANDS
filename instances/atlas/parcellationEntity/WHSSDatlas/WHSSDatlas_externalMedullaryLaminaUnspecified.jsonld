@@ -9,10 +9,17 @@
     "eml-u"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_externalMedullaryLamina"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_externalMedullaryLaminaUnspecified"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_externalMedullaryLaminaUnspecified"
     }
   ],
   "lookupLabel": "WHSSDatlas_externalMedullaryLaminaUnspecified",

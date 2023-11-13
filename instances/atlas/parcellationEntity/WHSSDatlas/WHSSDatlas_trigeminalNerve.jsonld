@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_trigeminalNerve",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": "5n",
+  "alternateName": [
+    "5n"
+  ],
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_whiteMatterOfTheBrainstem"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_trigeminalNerve"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_trigeminalNerve"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_trigeminalNerve",
+  "name": "trigeminal nerve",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

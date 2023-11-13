@@ -9,10 +9,17 @@
     "lPPC"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_posteriorParietalCortex"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_parietalAssociationCortexLateralArea"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_parietalAssociationCortexLateralArea"
     }
   ],
   "lookupLabel": "WHSSDatlas_parietalAssociationCortexLateralArea",

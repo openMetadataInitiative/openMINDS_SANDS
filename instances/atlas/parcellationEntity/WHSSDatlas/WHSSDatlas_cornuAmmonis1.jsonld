@@ -9,7 +9,11 @@
     "CA1"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_cornuAmmonis"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v2_cornuAmmonis1"
@@ -22,6 +26,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_cornuAmmonis1"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_cornuAmmonis1"
     }
   ],
   "lookupLabel": "WHSSDatlas_cornuAmmonis1",

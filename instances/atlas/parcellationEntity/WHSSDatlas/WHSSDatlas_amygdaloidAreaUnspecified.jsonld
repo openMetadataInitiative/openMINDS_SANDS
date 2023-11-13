@@ -9,10 +9,17 @@
     "Am-u"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_nonlaminatedPallium"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_amygdaloidAreaUnspecified"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_amygdaloidAreaUnspecified"
     }
   ],
   "lookupLabel": "WHSSDatlas_amygdaloidAreaUnspecified",

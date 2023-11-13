@@ -9,8 +9,15 @@
     "Cb-m"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_cerebellum"
+    }
+  ],
   "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_molecularCellLayerOfTheCerebellum"
+    },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1.01_molecularCellLayerOfTheCerebellum"
     },
@@ -25,6 +32,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_molecularCellLayerOfTheCerebellum"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_molecularCellLayerOfTheCerebellum"
     }
   ],
   "lookupLabel": "WHSSDatlas_molecularCellLayerOfTheCerebellum",

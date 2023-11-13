@@ -4,7 +4,7 @@
   },
   "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_secondaryAuditoryAreaVentralPart",
   "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "abbreviation": null,
+  "abbreviation": "Au2-v",
   "additionalRemarks": null,
   "alternateName": [
     "Au2-v"
@@ -13,7 +13,20 @@
   "hasAnnotation": [
     {
       "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-      "anchorPoint": null,
+      "anchorPoint": [
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 249.358373762547
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 509.69299480841
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 304.261226745452
+        }
+      ],
       "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
@@ -21,7 +34,11 @@
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/?group_id=1081"
+        }
+      ],
       "internalIdentifier": "153",
       "laterality": [
         {
@@ -54,5 +71,5 @@
   "ontologyIdentifier": null,
   "relationAssessment": null,
   "versionIdentifier": "v4",
-  "versionInnovation": null
+  "versionInnovation": "revised"
 }

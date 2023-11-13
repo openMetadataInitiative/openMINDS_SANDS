@@ -9,8 +9,15 @@
     "Pn"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_metencephalon"
+    }
+  ],
   "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_pontineNuclei"
+    },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1.01_pontineNuclei"
     },
@@ -25,6 +32,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_pontineNuclei"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_pontineNuclei"
     }
   ],
   "lookupLabel": "WHSSDatlas_pontineNuclei",

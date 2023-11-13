@@ -4,7 +4,7 @@
   },
   "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_zonaIncertaA11DopamineCells",
   "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "abbreviation": null,
+  "abbreviation": "ZI-A11",
   "additionalRemarks": null,
   "alternateName": [
     "ZI-A11"
@@ -13,7 +13,20 @@
   "hasAnnotation": [
     {
       "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-      "anchorPoint": null,
+      "anchorPoint": [
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 243.618600856618
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 560.623291862125
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 232.286967162961
+        }
+      ],
       "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
@@ -21,7 +34,11 @@
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/?group_id=1081"
+        }
+      ],
       "internalIdentifier": "284",
       "laterality": [
         {
@@ -54,5 +71,5 @@
   "ontologyIdentifier": null,
   "relationAssessment": null,
   "versionIdentifier": "v4",
-  "versionInnovation": null
+  "versionInnovation": "First delineated in version v4"
 }

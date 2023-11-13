@@ -9,10 +9,17 @@
     "VPM"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_ventralPosteriorThalamicNucleus"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_ventralPosteromedialThalamicNucleus"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_ventralPosteromedialThalamicNucleus"
     }
   ],
   "lookupLabel": "WHSSDatlas_ventralPosteromedialThalamicNucleus",

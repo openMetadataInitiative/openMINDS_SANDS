@@ -4,7 +4,7 @@
   },
   "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3.01_basalForebrainRegionUnspecified",
   "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "abbreviation": null,
+  "abbreviation": "BFR",
   "additionalRemarks": null,
   "alternateName": [
     "BFR"
@@ -13,7 +13,20 @@
   "hasAnnotation": [
     {
       "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-      "anchorPoint": null,
+      "anchorPoint": [
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 241.948250711969
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 630.426912560645
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 212.074127075627
+        }
+      ],
       "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
@@ -21,7 +34,11 @@
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/?group_id=1081"
+        }
+      ],
       "internalIdentifier": "82",
       "laterality": [
         {
@@ -54,5 +71,5 @@
   "ontologyIdentifier": null,
   "relationAssessment": null,
   "versionIdentifier": "v3.01",
-  "versionInnovation": null
+  "versionInnovation": "unchanged"
 }

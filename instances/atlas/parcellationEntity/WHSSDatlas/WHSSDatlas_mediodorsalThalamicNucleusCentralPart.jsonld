@@ -9,10 +9,17 @@
     "MD-c"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_mediodorsalNucleusOfTheDorsalThalamus"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_mediodorsalThalamicNucleusCentralPart"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_mediodorsalThalamicNucleusCentralPart"
     }
   ],
   "lookupLabel": "WHSSDatlas_mediodorsalThalamicNucleusCentralPart",

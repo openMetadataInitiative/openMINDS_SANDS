@@ -9,7 +9,11 @@
     "medial "
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_grayMatter"
+    }
+  ],
   "hasVersion": null,
   "lookupLabel": "WHSSDatlas_telencephalon",
   "name": "telencephalon",

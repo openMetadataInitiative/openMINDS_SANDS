@@ -9,7 +9,11 @@
     "DCNFG"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_cochlearNucleusDorsalPart"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_dorsalCochlearNucleusFusiformAndGranuleLayer"
@@ -19,6 +23,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_dorsalCochlearNucleusFusiformAndGranuleLayer"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_dorsalCochlearNucleusFusiformAndGranuleLayer"
     }
   ],
   "lookupLabel": "WHSSDatlas_dorsalCochlearNucleusFusiformAndGranuleLayer",

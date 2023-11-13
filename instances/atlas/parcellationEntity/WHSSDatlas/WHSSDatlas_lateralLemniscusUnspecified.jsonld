@@ -9,7 +9,11 @@
     "ll-u"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_lateralLemniscus"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_lateralLemniscus"
@@ -19,6 +23,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_lateralLemniscusUnspecified"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_lateralLemniscusUnspecified"
     }
   ],
   "lookupLabel": "WHSSDatlas_lateralLemniscusUnspecified",

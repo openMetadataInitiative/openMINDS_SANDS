@@ -9,10 +9,17 @@
     "SN-l"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_substantiaNigra"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_substantiaNigraLateralPart"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_substantiaNigraLateralPart"
     }
   ],
   "lookupLabel": "WHSSDatlas_substantiaNigraLateralPart",

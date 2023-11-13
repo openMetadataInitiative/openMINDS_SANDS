@@ -9,8 +9,15 @@
     "SuD"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_superiorColliculus"
+    }
+  ],
   "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_deeperLayersOfTheSuperiorColliculus"
+    },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1.01_deeperLayersOfTheSuperiorColliculus"
     },
@@ -25,6 +32,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_deeperLayersOfTheSuperiorColliculus"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_deeperLayersOfTheSuperiorColliculus"
     }
   ],
   "lookupLabel": "WHSSDatlas_deeperLayersOfTheSuperiorColliculus",

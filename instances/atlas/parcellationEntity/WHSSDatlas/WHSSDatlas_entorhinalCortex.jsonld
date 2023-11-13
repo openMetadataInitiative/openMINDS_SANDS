@@ -9,7 +9,11 @@
     "EC"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_parahippocampalRegion"
+    }
+  ],
   "hasVersion": null,
   "lookupLabel": "WHSSDatlas_entorhinalCortex",
   "name": "entorhinal cortex",

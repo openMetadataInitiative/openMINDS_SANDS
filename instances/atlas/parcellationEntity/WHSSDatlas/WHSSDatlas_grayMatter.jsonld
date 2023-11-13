@@ -9,7 +9,11 @@
     "GM"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_brain"
+    }
+  ],
   "hasVersion": null,
   "lookupLabel": "WHSSDatlas_grayMatter",
   "name": "gray matter",

@@ -9,8 +9,15 @@
     "SuG"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_superiorColliculus"
+    }
+  ],
   "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_superficialGrayLayerOfTheSuperiorColliculus"
+    },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1.01_superficialGrayLayerOfTheSuperiorColliculus"
     },
@@ -25,6 +32,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_superficialGrayLayerOfTheSuperiorColliculus"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_superficialGrayLayerOfTheSuperiorColliculus"
     }
   ],
   "lookupLabel": "WHSSDatlas_superficialGrayLayerOfTheSuperiorColliculus",

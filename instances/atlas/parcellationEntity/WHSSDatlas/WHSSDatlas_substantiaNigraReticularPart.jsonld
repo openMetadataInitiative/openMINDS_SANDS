@@ -9,10 +9,17 @@
     "SN-r"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_substantiaNigra"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_substantiaNigraReticularPart"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_substantiaNigraReticularPart"
     }
   ],
   "lookupLabel": "WHSSDatlas_substantiaNigraReticularPart",

@@ -9,7 +9,11 @@
     "HB"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_brainstem"
+    }
+  ],
   "hasVersion": null,
   "lookupLabel": "WHSSDatlas_hindbrain",
   "name": "hindbrain",

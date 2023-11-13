@@ -9,10 +9,17 @@
     "DLO"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_orbitofrontalCortex"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_dorsolateralOrbitalArea"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_dorsolateralOrbitalArea"
     }
   ],
   "lookupLabel": "WHSSDatlas_dorsolateralOrbitalArea",

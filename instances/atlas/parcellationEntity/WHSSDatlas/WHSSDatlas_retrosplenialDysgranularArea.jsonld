@@ -9,10 +9,17 @@
     "RSD"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_retrosplenialCortex"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_retrosplenialDysgranularArea"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_retrosplenialDysgranularArea"
     }
   ],
   "lookupLabel": "WHSSDatlas_retrosplenialDysgranularArea",

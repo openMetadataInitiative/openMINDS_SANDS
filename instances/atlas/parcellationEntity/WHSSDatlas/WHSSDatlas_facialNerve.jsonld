@@ -9,8 +9,16 @@
     "7n"
   ],
   "definition": null,
-  "hasParent": null,
-  "hasVersion": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_whiteMatter"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_facialNerve"
+    }
+  ],
   "lookupLabel": "WHSSDatlas_facialNerve",
   "name": "facial nerve",
   "ontologyIdentifier": null,

@@ -4,7 +4,7 @@
   },
   "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3.01_reticularThalamicNucleusAuditorySegment",
   "@type": "https://openminds.ebrains.eu/sands/ParcellationEntityVersion",
-  "abbreviation": null,
+  "abbreviation": "RTa",
   "additionalRemarks": null,
   "alternateName": [
     "RTa",
@@ -14,7 +14,20 @@
   "hasAnnotation": [
     {
       "@type": "https://openminds.ebrains.eu/sands/AtlasAnnotation",
-      "anchorPoint": null,
+      "anchorPoint": [
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 238.532236842105
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 556.505592105263
+        },
+        {
+          "@type": "https://openminds.ebrains.eu/core/QuantitativeValue",
+          "value": 292.025493421052
+        }
+      ],
       "criteria": null,
       "criteriaQualityType": {
         "@id": "https://openminds.ebrains.eu/instances/criteriaQualityType/processive"
@@ -22,7 +35,11 @@
       "criteriaType": {
         "@id": "https://openminds.ebrains.eu/instances/annotationCriteriaType/deterministicAnnotation"
       },
-      "inspiredBy": null,
+      "inspiredBy": [
+        {
+          "@id": "https://www.nitrc.org/frs/?group_id=1081"
+        }
+      ],
       "internalIdentifier": "164",
       "laterality": [
         {
@@ -45,11 +62,15 @@
       "type": null
     }
   ],
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_reticularNucleusOfTheThalamus"
+    }
+  ],
   "lookupLabel": "WHSSDatlas_v3.01_reticularThalamicNucleusAuditorySegment",
   "name": "reticular thalamic nucleus, auditory segment",
   "ontologyIdentifier": null,
   "relationAssessment": null,
   "versionIdentifier": "v3.01",
-  "versionInnovation": null
+  "versionInnovation": "unchanged"
 }

@@ -9,10 +9,17 @@
     "LP-mc"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_lateralPosteriorPulvinarComplexOfTheDorsalThalamus"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_lateralPosteriorThalamicNucleusMediocaudalPart"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_lateralPosteriorThalamicNucleusMediocaudalPart"
     }
   ],
   "lookupLabel": "WHSSDatlas_lateralPosteriorThalamicNucleusMediocaudalPart",

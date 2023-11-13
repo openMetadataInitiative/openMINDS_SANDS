@@ -9,10 +9,17 @@
     "VSR-u"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_striatum"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_ventralStriatalRegionUnspecified"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_ventralStriatalRegionUnspecified"
     }
   ],
   "lookupLabel": "WHSSDatlas_ventralStriatalRegionUnspecified",

@@ -9,7 +9,11 @@
     "Au2"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_auditoryCortex"
+    }
+  ],
   "hasVersion": null,
   "lookupLabel": "WHSSDatlas_secondaryAuditoryArea",
   "name": "secondary auditory area",

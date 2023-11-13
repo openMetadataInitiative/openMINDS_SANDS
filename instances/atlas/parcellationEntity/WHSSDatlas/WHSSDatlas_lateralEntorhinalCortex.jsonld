@@ -9,7 +9,11 @@
     "LEC"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_entorhinalCortex"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v2_lateralEntorhinalCortex"
@@ -22,6 +26,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_lateralEntorhinalCortex"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_lateralEntorhinalCortex"
     }
   ],
   "lookupLabel": "WHSSDatlas_lateralEntorhinalCortex",

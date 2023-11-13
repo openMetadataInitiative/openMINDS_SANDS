@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_medullarySpinalTrigeminalTract",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": "msp5t",
+  "alternateName": [
+    "msp5t"
+  ],
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_whiteMatterOfTheBrainstem"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_medullarySpinalTrigeminalTract"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_medullarySpinalTrigeminalTract"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_medullarySpinalTrigeminalTract",
+  "name": "medullary spinal trigeminal tract",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

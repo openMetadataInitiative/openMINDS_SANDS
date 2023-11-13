@@ -9,10 +9,17 @@
     "mPPC"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_posteriorParietalCortex"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_parietalAssociationCortexMedialArea"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_parietalAssociationCortexMedialArea"
     }
   ],
   "lookupLabel": "WHSSDatlas_parietalAssociationCortexMedialArea",

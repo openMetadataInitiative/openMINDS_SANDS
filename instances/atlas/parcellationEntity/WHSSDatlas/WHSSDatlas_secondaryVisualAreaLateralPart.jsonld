@@ -9,10 +9,17 @@
     "V2L"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_secondaryVisualArea"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_secondaryVisualAreaLateralPart"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_secondaryVisualAreaLateralPart"
     }
   ],
   "lookupLabel": "WHSSDatlas_secondaryVisualAreaLateralPart",

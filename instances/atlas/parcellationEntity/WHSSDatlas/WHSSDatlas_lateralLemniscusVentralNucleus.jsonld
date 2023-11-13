@@ -9,7 +9,11 @@
     "VLL"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_nucleiOfTheLateralLemniscus"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_lateralLemniscusVentralNucleus"
@@ -19,6 +23,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_lateralLemniscusVentralNucleus"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_lateralLemniscusVentralNucleus"
     }
   ],
   "lookupLabel": "WHSSDatlas_lateralLemniscusVentralNucleus",

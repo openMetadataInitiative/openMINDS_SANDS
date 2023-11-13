@@ -9,8 +9,16 @@
     "Thal"
   ],
   "definition": null,
-  "hasParent": null,
-  "hasVersion": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_grayMatter"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_thalamus"
+    }
+  ],
   "lookupLabel": "WHSSDatlas_thalamus",
   "name": "thalamus",
   "ontologyIdentifier": null,

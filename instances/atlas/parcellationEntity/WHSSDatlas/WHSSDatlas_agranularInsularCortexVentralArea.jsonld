@@ -9,10 +9,17 @@
     "AI-v"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_agranularInsularCortex"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_agranularInsularCortexVentralArea"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_agranularInsularCortexVentralArea"
     }
   ],
   "lookupLabel": "WHSSDatlas_agranularInsularCortexVentralArea",

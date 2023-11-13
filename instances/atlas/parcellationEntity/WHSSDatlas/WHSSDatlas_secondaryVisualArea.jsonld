@@ -1,0 +1,26 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_secondaryVisualArea",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": "V2",
+  "alternateName": [
+    "V2"
+  ],
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_visualCortex"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_secondaryVisualArea"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_secondaryVisualArea",
+  "name": "secondary visual area",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

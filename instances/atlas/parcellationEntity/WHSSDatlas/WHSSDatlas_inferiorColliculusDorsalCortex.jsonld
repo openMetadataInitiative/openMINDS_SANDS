@@ -9,7 +9,11 @@
     "DCIC"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_inferiorColliculus"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v3_inferiorColliculusDorsalCortex"
@@ -19,6 +23,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_inferiorColliculusDorsalCortex"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_inferiorColliculusDorsalCortex"
     }
   ],
   "lookupLabel": "WHSSDatlas_inferiorColliculusDorsalCortex",

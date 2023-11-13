@@ -9,10 +9,17 @@
     "RT-u"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_reticularPrethalamicNucleus"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_reticularPrethalamicNucleusUnspecified"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_reticular(Pre)ThalamicNucleusUnspecified"
     }
   ],
   "lookupLabel": "WHSSDatlas_reticularPrethalamicNucleusUnspecified",

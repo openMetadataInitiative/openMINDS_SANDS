@@ -1,0 +1,26 @@
+{
+  "@context": {
+    "@vocab": "https://openminds.ebrains.eu/vocab/"
+  },
+  "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_anteriorOlfactoryAreaUnspecified",
+  "@type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "abbreviation": "AOA-u",
+  "alternateName": [
+    "AOA-u"
+  ],
+  "definition": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_olfactoryBulb"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_anteriorOlfactoryAreaUnspecified"
+    }
+  ],
+  "lookupLabel": "WHSSDatlas_anteriorOlfactoryAreaUnspecified",
+  "name": "Anterior olfactory area, unspecified",
+  "ontologyIdentifier": null,
+  "relatedUBERONTerm": null
+}

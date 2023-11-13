@@ -11,8 +11,16 @@
     "olfactory areas"
   ],
   "definition": null,
-  "hasParent": null,
-  "hasVersion": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_olfactorySystem"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_olfactoryBulb"
+    }
+  ],
   "lookupLabel": "WHSSDatlas_olfactoryBulb",
   "name": "olfactory bulb",
   "ontologyIdentifier": null,

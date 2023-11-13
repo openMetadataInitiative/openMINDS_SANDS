@@ -12,6 +12,9 @@
   "hasParent": null,
   "hasVersion": [
     {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_innerEar"
+    },
+    {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1.01_innerEar"
     },
     {

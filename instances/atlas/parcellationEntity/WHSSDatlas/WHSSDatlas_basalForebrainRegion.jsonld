@@ -9,8 +9,16 @@
     "BRF"
   ],
   "definition": null,
-  "hasParent": null,
-  "hasVersion": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_grayMatter"
+    }
+  ],
+  "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_basalForebrainRegion"
+    }
+  ],
   "lookupLabel": "WHSSDatlas_basalForebrainRegion",
   "name": "basal forebrain region",
   "ontologyIdentifier": null,

@@ -9,8 +9,15 @@
     "BNST"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_basalForebrainRegion"
+    }
+  ],
   "hasVersion": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1_bedNucleusOfTheStriaTerminalis"
+    },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v1.01_bedNucleusOfTheStriaTerminalis"
     },
@@ -25,6 +32,9 @@
     },
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_bedNucleusOfTheStriaTerminalis"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_bedNucleusOfTheStriaTerminalis"
     }
   ],
   "lookupLabel": "WHSSDatlas_bedNucleusOfTheStriaTerminalis",

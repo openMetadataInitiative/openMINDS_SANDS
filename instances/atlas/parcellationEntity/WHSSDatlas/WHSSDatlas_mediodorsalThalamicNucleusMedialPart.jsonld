@@ -9,10 +9,17 @@
     "MD-m"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_mediodorsalNucleusOfTheDorsalThalamus"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_mediodorsalThalamicNucleusMedialPart"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_mediodorsalThalamicNucleusMedialPart"
     }
   ],
   "lookupLabel": "WHSSDatlas_mediodorsalThalamicNucleusMedialPart",

@@ -9,10 +9,17 @@
     "LD-vl"
   ],
   "definition": null,
-  "hasParent": null,
+  "hasParent": [
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntity/WHSSDatlas_laterodorsalThalamicNucleiOfTheDorsalThalamus"
+    }
+  ],
   "hasVersion": [
     {
       "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4_laterodorsalThalamicNucleusVentrolateralPart"
+    },
+    {
+      "@id": "https://openminds.ebrains.eu/instances/parcellationEntityVersion/WHSSDatlas_v4.01_laterodorsalThalamicNucleusVentrolateralPart"
     }
   ],
   "lookupLabel": "WHSSDatlas_laterodorsalThalamicNucleusVentrolateralPart",
