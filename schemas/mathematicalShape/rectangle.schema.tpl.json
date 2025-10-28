@@ -1,7 +1,7 @@
 {
   "_type": "sands:Rectangle",
   "_categories": [
-    "mathematicalShapes"
+    "mathematicalShape"
   ],
   "required": [
     "length",
