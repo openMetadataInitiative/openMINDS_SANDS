@@ -3,7 +3,9 @@
   "_extends": "/core/schemas/products/researchProduct.schema.tpl.json",
   "required": [
     "author",
-    "hasTerminology"
+    "hasTerminology",
+    "howToCite",
+    "usedTaxon"
   ],
   "properties": {
     "abbreviation": {
@@ -49,10 +51,10 @@
       ],      
       "_instruction": "Enter the internationalized resource identifier (IRI) to the related ontological term matching this brain atlas."
     },
-    "usedSpecies": {
-      "_instruction": "Add the species that was used for the creation of this brain atlas.",
-      "_linkedTypes": [
-        "controlledTerms:Species"
+    "usedTaxon": {
+      "_instruction": "Add the taxon (e.g., species) that was used for the creation of this brain atlas.",
+      "_linkedcategories": [
+        "biologicalTaxon"
       ]
     }
   }
