@@ -5,7 +5,8 @@
     "coordinateSpace"
   ],
   "required": [
-    "usedSpecies"
+    "howToCite",
+    "usedTaxon"
   ],
   "properties": {
     "abbreviation": {
@@ -50,10 +51,10 @@
         ]
       }
     },
-    "usedSpecies": {
-      "_instruction": "Add the species that was used for the creation of this common coordinate space.",
-      "_linkedTypes": [
-        "controlledTerms:Species"
+    "usedTaxon": {
+      "_instruction": "Add the taxon (e.g., species) that was used for the creation of this common coordinate space.",
+      "_linkedCategories": [
+        "biologicalTaxon"
       ]
     }
   }
