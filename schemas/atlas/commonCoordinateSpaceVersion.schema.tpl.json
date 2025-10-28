@@ -35,7 +35,7 @@
       "minItems": 2,      
       "maxItems": 3,    
       "uniqueItems": true,
-      "_instruction": "Enter the origin (central point where all axes intersect) of this common coordinate space version for two-dimensional spaces as [x, y] or for three-dimensional space as [x, y, z].",
+      "_instruction": "Enter the coordinate point in the native space of the template as [x, y] or [x, y, z] for two- or three-dimensional spaces, respectively, that has been defined as the origin of this space (i.e., as the central point where all axes intersect).",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
