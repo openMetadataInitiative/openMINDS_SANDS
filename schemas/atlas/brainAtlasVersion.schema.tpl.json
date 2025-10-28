@@ -2,9 +2,9 @@
   "_type": "sands:BrainAtlasVersion",
   "_extends": "/core/schemas/products/researchProductVersion.schema.tpl.json",
   "required": [
-    "coordinateSpace",
     "hasTerminology",
-    "license"
+    "howToCite",
+    "type"
   ],
   "properties": {
     "abbreviation": {
