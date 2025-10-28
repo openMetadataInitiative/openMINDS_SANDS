@@ -5,6 +5,7 @@
     "studyTarget"
   ],
   "required": [
+    "lookupLabel",
     "name",
     "versionIdentifier"  
   ],
