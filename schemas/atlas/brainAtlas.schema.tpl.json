@@ -2,7 +2,6 @@
   "_type": "sands:BrainAtlas",
   "_extends": "/core/schemas/products/researchProduct.schema.tpl.json",
   "required": [
-    "author",
     "hasTerminology",
     "howToCite",
     "usedTaxon"
