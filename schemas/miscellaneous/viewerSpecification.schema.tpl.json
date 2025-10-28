@@ -1,8 +1,5 @@
 {
   "_type": "sands:ViewerSpecification",
-  "required": [
-    "anchorPoint"
-  ],
   "properties": {    
     "additionalRemarks": {
       "type": "string",
