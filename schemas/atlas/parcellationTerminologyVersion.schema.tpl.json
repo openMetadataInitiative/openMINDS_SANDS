@@ -10,7 +10,16 @@
       "uniqueItems": true,
       "_instruction": "Add the location of all files in which this parcellation terminology version is stored.",
       "_linkedTypes": [
-        "core:File"
+        "core:File",
+        "core:WebResource"
+      ]
+    },
+    "digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this parcellation terminology version.",
+      "_linkedTypes": [
+        "core:DOI",
+        "core:ISBN",
+        "core:RRID"
       ]
     },
     "hasEntity": {
