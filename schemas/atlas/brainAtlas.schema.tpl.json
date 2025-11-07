@@ -26,27 +26,18 @@
         "core:ISBN",
         "core:RRID"
       ]
-    },    
+    },
     "hasTerminology": {
       "_instruction": "Enter the parcellation terminology of this brain atlas.",
       "_embeddedTypes": [
         "sands:ParcellationTerminology"
       ]
     },
-    "hasVersion": {
-      "type": "array",      
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add versions of this brain atlas.",
-      "_linkedTypes": [
-        "sands:BrainAtlasVersion"
-      ]
-    },
     "ontologyIdentifier": {
       "type": "string",
       "_formats": [
         "iri"
-      ],      
+      ],
       "_instruction": "Enter the internationalized resource identifier (IRI) to the related ontological term matching this brain atlas."
     },
     "usedSpecies": {

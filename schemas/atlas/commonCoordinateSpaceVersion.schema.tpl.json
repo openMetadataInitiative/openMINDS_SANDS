@@ -5,7 +5,7 @@
     "coordinateSpace"
   ],
   "required": [
-    "anatomicalAxesOrientation",   
+    "anatomicalAxesOrientation",
     "axesOrigin",
     "nativeUnit"
   ],
@@ -30,9 +30,9 @@
       ]
     },
     "axesOrigin": {
-      "type": "array",        
-      "minItems": 2,      
-      "maxItems": 3,    
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 3,
       "uniqueItems": true,
       "_instruction": "Enter the origin (central point where all axes intersect) of this common coordinate space version for two-dimensional spaces as [x, y] or for three-dimensional space as [x, y, z].",
       "_embeddedTypes": [
@@ -40,7 +40,7 @@
       ]
     },
     "defaultImage": {
-      "type": "array",      
+      "type": "array",
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all image files used as visual representation of this common coordinate space version.",
@@ -56,7 +56,13 @@
         "core:RRID"
       ]
     },
-    "isAlternativeVersionOf": {
+    "isPrecededBy": {
+      "_instruction": "Add the common coordinate space version preceding this common coordinate space version.",
+      "_linkedTypes": [
+        "sands:CommonCoordinateSpaceVersion"
+      ]
+    },
+    "isVariantOf": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
@@ -65,10 +71,10 @@
         "sands:CommonCoordinateSpaceVersion"
       ]
     },
-    "isNewVersionOf": {
-      "_instruction": "Add the common coordinate space version preceding this common coordinate space version.",
+    "isVersionOf": {
+      "_instruction": "Add the version-independent information about this common coordinate space.",
       "_linkedTypes": [
-        "sands:CommonCoordinateSpaceVersion"
+        "sands:CommonCoordinateSpace"
       ]
     },
     "license": {
@@ -82,16 +88,16 @@
       "_linkedTypes": [
         "controlledTerms:UnitOfMeasurement"
       ]
-    },    
+    },
     "ontologyIdentifier": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Enter the internationalized resource identifiers (IRIs) to the related ontological terms matching this common coordinate space version.",
-      "items": {       
+      "items": {
         "type": "string",
         "_formats": [
-          "iri"        
+          "iri"
         ]
       }
     },
