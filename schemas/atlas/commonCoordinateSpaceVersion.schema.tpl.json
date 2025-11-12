@@ -21,15 +21,6 @@
         "controlledTerms:AnatomicalAxesOrientation"
       ]
     },
-    "author": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all parties that contributed to this common coordinate space version as authors. Note that these authors will overwrite the author list provided for the overarching common coordinate space.",
-      "_linkedCategories": [
-        "legalPerson"
-      ]
-    },
     "axesOrigin": {
       "type": "array",        
       "minItems": 2,      
@@ -70,12 +61,6 @@
       "_instruction": "Add the common coordinate space version preceding this common coordinate space version.",
       "_linkedTypes": [
         "sands:CommonCoordinateSpaceVersion"
-      ]
-    },
-    "license": {
-      "_instruction": "Add the license of this common coordinate space version.",
-      "_linkedTypes": [
-        "core:License"
       ]
     },
     "nativeUnit": {
