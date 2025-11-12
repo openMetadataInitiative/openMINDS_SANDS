@@ -1,7 +1,7 @@
 {
   "_type": "sands:Circle",
   "_categories": [
-    "mathematicalShape"
+    "mathematicalShapes"
   ],
   "required": [
     "radius"
