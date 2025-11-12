@@ -31,8 +31,14 @@
         "sands:ParcellationTerminologyVersion"
       ]
     },
-    "isAlternativeVersionOf": {
-      "type": "array",      
+    "isPrecededBy": {
+      "_instruction": "Add the brain atlas version preceding this brain atlas version.",
+      "_linkedTypes": [
+        "sands:BrainAtlasVersion"
+      ]
+    },
+    "isVariantOf": {
+      "type": "array",
       "minItems": 1,
       "uniqueItems": true,
       "_instruction": "Add all brain atlas versions that can be used alternatively to this brain atlas version.",
@@ -40,10 +46,10 @@
         "sands:BrainAtlasVersion"
       ]
     },
-    "isNewVersionOf": {
-      "_instruction": "Add the brain atlas version preceding this brain atlas version.",
+    "isVersionOf": {
+      "_instruction": "Add the version-independent information about this brain atlas.",
       "_linkedTypes": [
-        "sands:BrainAtlasVersion"
+        "sands:BrainAtlas"
       ]
     },
     "majorVersionIdentifier": {
@@ -56,13 +62,13 @@
       "_formats": [
         "iri"
       ]
-    },    
+    },
     "type": {
       "_instruction": "Add the type of this brain atlas version.",
       "_linkedTypes": [
         "controlledTerms:AtlasType"
       ]
-    },   
+    },
     "usedSpecimen": {
       "type": "array",
       "minItems": 1,
