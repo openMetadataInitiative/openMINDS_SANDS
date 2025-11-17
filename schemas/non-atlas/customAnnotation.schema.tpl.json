@@ -5,7 +5,7 @@
     "coordinateFramework"
   ],
   "properties": {
-    "coordinateSpace": {
+    "coordinateFramework": {
       "_instruction": "Add the coordinate framework for this custom annotation.",
       "_linkedTypes": [
         "sands:CommonCoordinateFrameworkVersion",
