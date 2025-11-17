@@ -2,14 +2,14 @@
   "_type": "sands:CustomAnnotation",
   "_extends": "atlas/annotation.schema.tpl.json",
   "required": [
-    "coordinateSpace"
+    "coordinateFramework"
   ],
   "properties": {
     "coordinateSpace": {
-      "_instruction": "Add the coordinate space for this custom annotation.",
+      "_instruction": "Add the coordinate framework for this custom annotation.",
       "_linkedTypes": [
-        "sands:CommonCoordinateSpaceVersion",
-        "sands:CustomCoordinateSpace"
+        "sands:CommonCoordinateFrameworkVersion",
+        "sands:CustomCoordinateFramework"
       ]
     },
     "specification": {
