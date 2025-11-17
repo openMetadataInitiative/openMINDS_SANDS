@@ -73,7 +73,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add the specimen that was used for the creation of this brain atlas version.",
+      "_instruction": "Add the specimen(s) that were used in the creation of this brain atlas version.",
       "_linkedTypes": [
         "core:Subject",
         "core:SubjectGroup",
