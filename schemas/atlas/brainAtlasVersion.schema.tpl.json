@@ -11,10 +11,10 @@
       "type": "string",
       "_instruction": "Enter the official abbreviation of this brain atlas version."
     },
-    "coordinateSpace": {
-      "_instruction": "Add the specific common coordinate space in which this brain atlas version exists.",
+    "coordinateFramework": {
+      "_instruction": "Add the specific common coordinate framework in which this brain atlas version exists.",
       "_linkedTypes": [
-        "sands:CommonCoordinateSpaceVersion"
+        "sands:CommonCoordinateFrameworkVersion"
       ]
     },
     "digitalIdentifier": {
