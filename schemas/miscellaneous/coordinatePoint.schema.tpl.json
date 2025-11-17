@@ -2,7 +2,7 @@
   "_type": "sands:CoordinatePoint",
   "required": [
     "coordinates",
-    "coordinateSpace"
+    "coordinateFramework"
   ],
   "properties": {
     "coordinates": {
@@ -14,11 +14,11 @@
         "core:QuantitativeValue"
       ]
     },
-    "coordinateSpace": {
-      "_instruction": "Add the coordinate space in which this coordinate point exists in.",
+    "coordinateFramework": {
+      "_instruction": "Add the coordinate framework in which this coordinate point exists in.",
       "_linkedTypes": [
-        "sands:CommonCoordinateSpaceVersion",
-        "sands:CustomCoordinateSpace"
+        "sands:CommonCoordinateFrameworkVersion",
+        "sands:CustomCoordinateFramework"
       ]
     }
   }
