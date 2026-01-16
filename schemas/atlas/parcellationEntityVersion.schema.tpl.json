@@ -50,6 +50,12 @@
         "sands:ParcellationEntityVersion"
       ]
     },
+    "isVersionOf": {
+      "_instruction": "Add the version-independent information about this parcellation entity.",
+      "_linkedTypes": [
+        "sands:ParcellationEntity"
+      ]
+    },
     "lookupLabel": {
       "type": "string",
       "_instruction": "Enter a lookup label for this parcellation entity version that may help you to find this instance more easily."
