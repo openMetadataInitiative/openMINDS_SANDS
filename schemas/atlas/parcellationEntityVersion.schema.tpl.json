@@ -2,6 +2,7 @@
   "_type": "sands:ParcellationEntityVersion",
   "_categories": [
     "anatomicalLocation",
+    "isVersionOf",
     "studyTarget"
   ],
   "required": [
