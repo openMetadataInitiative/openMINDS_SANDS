@@ -1,32 +1,24 @@
 {
-  "_type": "sands:CommonCoordinateSpaceVersion",
+  "_type": "sands:CommonCoordinateFrameworkVersion",
   "_extends": "/core/schemas/products/researchProductVersion.schema.tpl.json",
   "_categories": [
-    "coordinateSpace"
+    "coordinateFramework"
   ],
   "required": [
     "anatomicalAxesOrientation",
     "axesOrigin",
+    "howToCite",
     "nativeUnit"
   ],
   "properties": {
     "abbreviation": {
       "type": "string",
-      "_instruction": "Enter the official abbreviation of this common coordinate space version."
+      "_instruction": "Enter the official abbreviation of this common coordinate framework version."
     },
     "anatomicalAxesOrientation": {
-      "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (stated as XYZ) for this common coordinate space version.",
+      "_instruction": "Add the axes orientation denoted in standard anatomical terms of direction (stated as XYZ) for the anatomical space of this common coordinate framework version.",
       "_linkedTypes": [
         "controlledTerms:AnatomicalAxesOrientation"
-      ]
-    },
-    "author": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add all parties that contributed to this common coordinate space version as authors. Note that these authors will overwrite the author list provided for the overarching common coordinate space.",
-      "_linkedCategories": [
-        "legalPerson"
       ]
     },
     "axesOrigin": {
@@ -34,7 +26,7 @@
       "minItems": 2,
       "maxItems": 3,
       "uniqueItems": true,
-      "_instruction": "Enter the origin (central point where all axes intersect) of this common coordinate space version for two-dimensional spaces as [x, y] or for three-dimensional space as [x, y, z].",
+      "_instruction": "Enter the coordinate point in the native anatomical space of the template as [x, y] or [x, y, z] for two- or three-dimensional spaces, respectively, that has been defined as the origin of the anatomical space of this common coordinate framework version (i.e., as the central point where all axes intersect).",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
@@ -43,7 +35,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all image files used as visual representation of this common coordinate space version.",
+      "_instruction": "Add all image files used as visual representation of this common coordinate framework version.",
       "_linkedTypes": [
         "core:File"
       ]
@@ -57,7 +49,7 @@
       ]
     },
     "isPrecededBy": {
-      "_instruction": "Add the common coordinate space version preceding this common coordinate space version.",
+      "_instruction": "Add the common coordinate framework version preceding this common coordinate framework version.",
       "_linkedTypes": [
         "sands:CommonCoordinateSpaceVersion"
       ]
@@ -66,25 +58,19 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all common coordinate space versions that can be used alternatively to this common coordinate space version.",
+      "_instruction": "Add all common coordinate framework versions that can be used alternatively to this common coordinate framework version.",
       "_linkedTypes": [
         "sands:CommonCoordinateSpaceVersion"
       ]
     },
     "isVersionOf": {
-      "_instruction": "Add the version-independent information about this common coordinate space.",
+      "_instruction": "Add the version-independent information about this common coordinate framework.",
       "_linkedTypes": [
         "sands:CommonCoordinateSpace"
       ]
     },
-    "license": {
-      "_instruction": "Add the license of this common coordinate space version.",
-      "_linkedTypes": [
-        "core:License"
-      ]
-    },
     "nativeUnit": {
-      "_instruction": "Add the native unit that is used for this common coordinate space version.",
+      "_instruction": "Add the native unit that is used for this common coordinate framework version.",
       "_linkedTypes": [
         "controlledTerms:UnitOfMeasurement"
       ]
@@ -93,7 +79,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the related ontological terms matching this common coordinate space version.",
+      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the related ontological terms matching this common coordinate framework version.",
       "items": {
         "type": "string",
         "_formats": [
@@ -105,7 +91,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add the specimen that was used for the creation of this common coordinate space version.",
+      "_instruction": "Add the specimen(s) that were used in the creation of this common coordinate framework version.",
       "_linkedTypes": [
         "core:Subject",
         "core:SubjectGroup",

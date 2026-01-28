@@ -1,0 +1,42 @@
+{
+  "_type": "sands:AnatomicalAtlas",
+  "_extends": "/core/schemas/products/researchProduct.schema.tpl.json",
+  "required": [
+    "hasTerminology",
+    "howToCite",
+    "usedTaxon"
+  ],
+  "properties": {
+    "abbreviation": {
+      "type": "string",
+      "_instruction": "Enter the official abbreviation of this anatomical atlas."
+    },
+    "digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this research product. Note that this digital identifier will be used to reference all attached research product versions.",
+      "_linkedTypes": [
+        "core:DOI",
+        "core:ISBN",
+        "core:RRID"
+      ]
+    },
+    "hasTerminology": {
+      "_instruction": "Enter the parcellation terminology of this anatomical atlas.",
+      "_embeddedTypes": [
+        "sands:ParcellationTerminology"
+      ]
+    },
+    "ontologyIdentifier": {
+      "type": "string",
+      "_formats": [
+        "iri"
+      ],
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the related ontological term matching this anatomical atlas."
+    },
+    "usedTaxon": {
+      "_instruction": "Add the taxon (e.g., species) that was used for the creation of this anatomical atlas.",
+      "_linkedcategories": [
+        "biologicalTaxon"
+      ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "_type": "sands:CommonCoordinateFramework",
+  "_extends": "/core/schemas/products/researchProduct.schema.tpl.json",
+  "_categories": [
+    "coordinateFramework"
+  ],
+  "required": [
+    "howToCite",
+    "usedTaxon"
+  ],
+  "properties": {
+    "abbreviation": {
+      "type": "string",
+      "_instruction": "Enter the official abbreviation of this common coordinate framework."
+    },
+    "digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this research product. Note that this digital identifier will be used to reference all attached research product versions.",
+      "_linkedTypes": [
+        "core:DOI",
+        "core:ISBN",
+        "core:RRID"
+      ]
+    },
+    "ontologyIdentifier": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the related ontological terms matching this common coordinate framework.",
+      "items": {
+        "type": "string",
+        "_formats": [
+          "iri"
+        ]
+      }
+    },
+    "usedTaxon": {
+      "_instruction": "Add the taxon (e.g., species) that was used for the creation of this common coordinate framework.",
+      "_linkedCategories": [
+        "biologicalTaxon"
+      ]
+    }
+  }
+}
