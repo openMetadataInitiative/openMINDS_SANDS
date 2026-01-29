@@ -34,7 +34,7 @@
     },
     "usedTaxon": {
       "_instruction": "Add the taxon (e.g., species) that was used for the creation of this anatomical atlas.",
-      "_linkedcategories": [
+      "_linkedCategories": [
         "biologicalTaxon"
       ]
     }
