@@ -66,7 +66,7 @@
     "isVersionOf": {
       "_instruction": "Add the version-independent information about this common coordinate framework.",
       "_linkedTypes": [
-        "sands:CommonCoordinateSpace"
+        "sands:CommonCoordinateFramework"
       ]
     },
     "nativeUnit": {
