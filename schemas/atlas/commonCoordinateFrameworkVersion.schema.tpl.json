@@ -51,7 +51,7 @@
     "isPrecededBy": {
       "_instruction": "Add the common coordinate framework version preceding this common coordinate framework version.",
       "_linkedTypes": [
-        "sands:CommonCoordinateSpaceVersion"
+        "sands:CommonCoordinateFrameworkVersion"
       ]
     },
     "isVariantOf": {
@@ -60,7 +60,7 @@
       "uniqueItems": true,
       "_instruction": "Add all common coordinate framework versions that can be used alternatively to this common coordinate framework version.",
       "_linkedTypes": [
-        "sands:CommonCoordinateSpaceVersion"
+        "sands:CommonCoordinateFrameworkVersion"
       ]
     },
     "isVersionOf": {
