@@ -9,7 +9,7 @@
   ],
   "properties": {
     "baseLength": {
-      "_instruction": "Define the length of the reference side of this triangle.",
+      "_instruction": "Enter the length of the reference side of this triangle.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
