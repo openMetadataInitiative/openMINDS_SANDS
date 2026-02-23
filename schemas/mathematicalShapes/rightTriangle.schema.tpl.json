@@ -4,11 +4,11 @@
   "mathematicalShapes"
   ],
   "required": [
-    "baseLength",
+    "base",
     "height"
   ],
   "properties": {
-    "baseLength": {
+    "base": {
       "_instruction": "Enter the base length of this right triangle.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
