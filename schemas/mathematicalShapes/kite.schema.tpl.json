@@ -10,19 +10,19 @@
   ],
   "properties": {
     "baseDiagonal": {
-      "_instruction": "Define the length of the base diagonal of this kite.",
+      "_instruction": "Enter the length of the base diagonal of this kite.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
     },
     "bottomLegsLength": {
-      "_instruction": "Define the length of the bottom legs of this kite.",
+      "_instruction": "Enter the length of the bottom legs of this kite.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
     },
     "topLegsLength": {
-      "_instruction": "Define the length of the top legs of this kite.",
+      "_instruction": "Enter the length of the top legs of this kite.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
