@@ -1,0 +1,85 @@
+{
+  "_type": "sands:AnatomicalAtlasVersion",
+  "_extends": "/core/schemas/products/researchProductVersion.schema.tpl.json",
+  "required": [
+    "hasTerminology",
+    "howToCite",
+    "type"
+  ],
+  "properties": {
+    "abbreviation": {
+      "type": "string",
+      "_instruction": "Enter the official abbreviation of this anatomical atlas version."
+    },
+    "coordinateFramework": {
+      "_instruction": "Add the specific common coordinate framework in which this anatomical atlas version exists.",
+      "_linkedTypes": [
+        "sands:CommonCoordinateFrameworkVersion"
+      ]
+    },
+    "digitalIdentifier": {
+      "_instruction": "Add the globally unique and persistent digital identifier of this research product version.",
+      "_linkedTypes": [
+        "core:DOI",
+        "core:ISBN",
+        "core:RRID"
+      ]
+    },
+    "hasTerminology": {
+      "_instruction": "Enter the specific parcellation terminology of this anatomical atlas version.",
+      "_embeddedTypes": [
+        "sands:ParcellationTerminologyVersion"
+      ]
+    },
+    "isPrecededBy": {
+      "_instruction": "Add the brain atlas version preceding this anatomical atlas version.",
+      "_linkedTypes": [
+        "sands:AnatomicalAtlasVersion"
+      ]
+    },
+    "isVariantOf": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all brain atlas versions that can be used alternatively to this anatomical atlas version.",
+      "_linkedTypes": [
+        "sands:AnatomicalAtlasVersion"
+      ]
+    },
+    "isVersionOf": {
+      "_instruction": "Add the version-independent information about this anatomical atlas.",
+      "_linkedTypes": [
+        "sands:AnatomicalAtlas"
+      ]
+    },
+    "majorVersionIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the identifier of the major version release this research product version belongs to."
+    },
+    "ontologyIdentifier": {
+      "type": "string",
+      "_instruction": "Enter the internationalized resource identifier (IRI) to the related ontological term matching this anatomical atlas version.",
+      "_formats": [
+        "iri"
+      ]
+    },
+    "type": {
+      "_instruction": "Add the type of this anatomical atlas version.",
+      "_linkedTypes": [
+        "controlledTerms:AtlasType"
+      ]
+    },
+    "usedSpecimen": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add the specimen(s) that were used in the creation of this anatomical atlas version.",
+      "_linkedTypes": [
+        "core:Subject",
+        "core:SubjectGroup",
+        "core:TissueSample",
+        "core:TissueSampleCollection"
+      ]
+    }
+  }
+}

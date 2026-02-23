@@ -1,0 +1,37 @@
+{
+  "_type": "sands:AnatomicalTargetPosition",
+  "required": [
+    "anatomicalTarget",
+    "targetIdentificationType"
+  ],
+  "properties": {
+    "additionalRemarks": {
+      "type": "string",
+      "_instruction": "Enter any additional remarks concerning this anatomical target position."
+    },
+    "anatomicalTarget": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all anatomical entities that describe the target position(s).",
+      "_linkedCategories": [
+        "anatomicalLocation"
+      ]
+    },    
+    "spatialLocation": {      
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "_instruction": "Add all coordinate points that describe the spatial location of the anatomical target structure(s).",
+      "_embeddedTypes": [
+        "sands:CoordinatePoint"
+      ]
+    },
+    "targetIdentificationType": {
+      "_instruction": "Add the target identification type that best describes how the this anatomical target position was identified.",
+      "_linkedTypes": [
+        "controlledTerms:AnatomicalIdentificationType"
+      ]
+    }
+  }
+}

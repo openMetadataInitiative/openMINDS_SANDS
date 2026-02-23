@@ -1,0 +1,24 @@
+{
+  "_type": "sands:Ellipse",
+  "_categories": [
+    "mathematicalShape"
+  ],
+  "required": [
+    "semiMinorAxis",
+    "semiMajorAxis"
+  ],
+  "properties": {
+    "semiMinorAxis": {
+      "_instruction": "Enter the length of the semi-major axis of this ellipse.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
+    "semiMajorAxis": {
+      "_instruction": "Enter the length of the semi-minor axis of this ellipse.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}

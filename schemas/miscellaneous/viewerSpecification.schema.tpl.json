@@ -1,0 +1,33 @@
+{
+  "_type": "sands:ViewerSpecification",
+  "required": [
+    "anchorPoint"
+  ],
+  "properties": {    
+    "additionalRemarks": {
+      "type": "string",
+      "_instruction": "Enter any additional remarks concerning this viewer specification."
+    },
+    "anchorPoint": {
+      "type": "array",      
+      "minItems": 2,
+      "maxItems": 3,
+      "_instruction": "Enter the coordinates of the anchor point that a viewer should use. Either state the anchor point of the annotation again or state another coordinate point.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
+    "cameraPosition": {
+      "_instruction": "Enter the camera position that a viewer should use.",
+      "_embeddedTypes": [
+        "sands:CoordinatePoint"
+      ]
+    },
+    "preferredDisplayColor": {  
+      "_instruction": "Add the preferred color that a viewer should display.",
+      "_linkedCategories": [        
+        "color"
+      ]
+    }
+  }
+}

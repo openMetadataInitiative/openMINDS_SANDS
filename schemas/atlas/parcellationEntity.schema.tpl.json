@@ -1,17 +1,23 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/ParcellationEntity",
+  "_type": "sands:ParcellationEntity",
   "_categories": [
+    "anatomicalLocation",
     "studyTarget"
   ],
   "required": [
+    "lookupLabel",
     "name"
   ],
-  "properties": {    
-    "alternativeName": {
+  "properties": {        
+    "abbreviation": {
+      "type": "string",
+      "_instruction": "Enter the official abbreviation of this parcellation entity."
+    },  
+    "alternateName": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "If applicable, enter one or several alternative names, inlcuding abbreviations, for this parcellation entity.",
+      "_instruction": "Enter any alternate names, including any alternative abbreviations, for this parcellation entity.",
       "items": {
         "type": "string"
       }
@@ -24,44 +30,36 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add the defined anatomical parent structure for this parcellation entity, or several if required.",
+      "_instruction": "Add all anatomical parent structures for this parcellation entity as defined within the corresponding brain atlas.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationEntity"
-      ]
-    },
-    "hasVersion": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "_instruction": "Add one or several versions of this parcellation entity.",
-      "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/ParcellationEntityVersion"
+        "sands:ParcellationEntity"
       ]
     },
     "lookupLabel": {
       "type": "string",
-      "_instruction": "Enter a lookup label for this parcellation entity."
+      "_instruction": "Enter a lookup label for this parcellation entity that may help you to find this instance more easily."
     },
     "name": {
       "type": "string",
-      "_instruction": "Enter the name for this parcellation entity."
+      "_instruction": "Enter the name of this parcellation entity."
     },       
     "ontologyIdentifier": {
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Enter the identifier(s) (IRI) of the related ontological term(s) matching this parcellation entity.",
-      "items": {
+      "_instruction": "Enter the internationalized resource identifiers (IRIs) to the related ontological terms matching this parcellation entity.",
+      "items": {        
+        "type": "string",
         "_formats": [
           "iri"        
-        ],
-        "type": "string"
+        ]
       }      
     }, 
     "relatedUBERONTerm":{
-      "_instruction": "Add the related UBERON parcellation term.",
+      "_instruction": "Add the related anatomical entity as defined by the UBERON ontology.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/controlledTerms/UBERONParcellation"
+        "controlledTerms:Organ",
+        "controlledTerms:UBERONParcellation"
       ]
     }
   }

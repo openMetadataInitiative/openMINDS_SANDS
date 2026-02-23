@@ -1,24 +1,24 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/CoordinatePoint",
+  "_type": "sands:CoordinatePoint",
   "required": [
     "coordinates",
-    "coordinateSpace"
+    "coordinateFramework"
   ],
   "properties": {
     "coordinates": {
       "type": "array",      
       "minItems": 2,
       "maxItems": 3,
-      "_instruction": "Add two or three coordinates (2D: [x, y] or 3D: [x, y, z]) that define the exact location of this point in the stated coordinate space.",
+      "_instruction": "Enter the coordinates of this point within the stated coordinate space for two-dimensonal spaces as [x, y] or for three-dimensional space as [x, y, z].",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     },
-    "coordinateSpace": {
-      "_instruction": "Add the coordinate space in which this coordinate point exists in.",
+    "coordinateFramework": {
+      "_instruction": "Add the coordinate framework in which this coordinate point exists in.",
       "_linkedTypes": [
-        "https://openminds.ebrains.eu/sands/CommonCoordinateSpace",
-        "https://openminds.ebrains.eu/sands/CustomCoordinateSpace"
+        "sands:CommonCoordinateFrameworkVersion",
+        "sands:CustomCoordinateFramework"
       ]
     }
   }

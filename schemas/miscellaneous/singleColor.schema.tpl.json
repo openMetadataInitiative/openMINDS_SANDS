@@ -1,0 +1,16 @@
+{
+  "_type": "sands:SingleColor",
+  "_categories": [
+    "color"
+  ],
+  "required": [
+    "value"
+  ],
+  "properties": {
+    "value": {
+      "type": "string",
+      "pattern": "^#[0-9A-Fa-f]{6}$",
+      "_instruction": "Enter the Hex color code following the define pattern (e.g., #000000 or #C0C0C0)."
+    }
+  }
+}
