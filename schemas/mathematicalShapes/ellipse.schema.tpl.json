@@ -1,23 +1,23 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/Ellipse",
+  "_type": "sands:Ellipse",
   "_categories": [
-    "mathematicalShapes"
+    "mathematicalShape"
   ],
   "required": [
-    "longDiameter",
-    "shortDiameter"
+    "semiMinorAxis",
+    "semiMajorAxis"
   ],
   "properties": {
-    "longDiameter": {
-      "_instruction": "Enter the length of the longest diameter of this ellipse.",
+    "semiMinorAxis": {
+      "_instruction": "Enter the length of the semi-major axis of this ellipse.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     },
-    "shortDiameter": {
-      "_instruction": "Enter the length of the shortes diameter of this ellipse.",
+    "semiMajorAxis": {
+      "_instruction": "Enter the length of the semi-minor axis of this ellipse.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     }
   }
