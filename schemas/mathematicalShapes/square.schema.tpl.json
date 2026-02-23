@@ -1,17 +1,17 @@
 {
-    "_type": "https://openminds.ebrains.eu/sands/Square",
-    "_categories": [
-        "mathematicalShapes"
-    ],
-    "required": [
-        "length"
-    ],
-    "properties": {
-        "sideLength": {
-            "_instruction": "Define the uniform length (s) of all four sides of this square.",
-            "_embeddedTypes": [
-                "https://openminds.ebrains.eu/core/QuantitativeValue"
-            ]
-        }
+  "_type": "https://openminds.ebrains.eu/sands/Square",
+  "_categories": [
+    "mathematicalShapes"
+  ],
+  "required": [
+    "sideLength"
+  ],
+  "properties": {
+    "sideLength": {
+      "_instruction": "Define the uniform length (s) of all four sides of this square.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
     }
+  }
 }
