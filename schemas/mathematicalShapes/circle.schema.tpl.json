@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/Circle",
+  "_type": "sands:Circle",
   "_categories": [
     "mathematicalShapes"
   ],
@@ -10,7 +10,7 @@
     "radius": {
       "_instruction": "Enter the radius of this circle.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     }
   }
