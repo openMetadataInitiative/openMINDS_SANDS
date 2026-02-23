@@ -1,0 +1,24 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/Cylinder",
+  "_categories": [
+    "mathematicalShapes"
+  ],
+  "required": [
+    "height",
+    "radius"
+  ],
+  "properties": {
+    "height": {
+      "_instruction": "Enter the height of this cylinder.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    },
+    "radius": {
+      "_instruction": "Enter the radius of this cylinder.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    }
+  }
+}
