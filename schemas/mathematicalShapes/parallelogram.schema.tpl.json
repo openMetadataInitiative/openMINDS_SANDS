@@ -4,25 +4,25 @@
         "mathematicalShapes"
     ],
     "required": [
+        "baseLength",
         "height",
-        "majorSide",
-        "minorSide"
+        "sideLength"
     ],
     "properties": {
+        "baseLength": {
+            "_instruction": "Define the length of the reference side of this parallelogram.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        },
         "height": {
-            "_instruction": "Define the height (distance between the major sides) of this parallelogram.",
+            "_instruction": "Define the height (perpendicular distance) of this parallelogram.",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/QuantitativeValue"
             ]
         },
-        "majorSide": {
-            "_instruction": "Define the length of the major (long) side of this parallelogram.",
-            "_embeddedTypes": [
-                "https://openminds.ebrains.eu/core/QuantitativeValue"
-            ]
-        },
-        "minorSide": {
-            "_instruction": "Define the length of the minor (short) side of this parallelogram.",
+        "sideLength": {
+            "_instruction": "Define the uniform length of the slanted sides of this parallelogram.",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/QuantitativeValue"
             ]
