@@ -16,7 +16,7 @@
             ]
         },
         "height": {
-            "_instruction": "Define the height (perpendicular distance) of this parallelogram.",
+            "_instruction": "Define the height (perpendicular distance between the reference sides) of this parallelogram.",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/QuantitativeValue"
             ]
