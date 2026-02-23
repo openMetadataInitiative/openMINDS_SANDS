@@ -4,25 +4,25 @@
     "mathematicalShapes"
   ],
   "required": [
-    "baseDiagonal",
-    "bottomLeg",
-    "topLeg"
+    "bottomLegLength",
+    "symmetryDiagonalLength",
+    "topLegLength"
   ],
   "properties": {
-    "baseDiagonal": {
-      "_instruction": "Enter the length of the base diagonal of this kite.",
+    "bottomLegLength": {
+      "_instruction": "Enter the common length of the bottom legs of this kite.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
     },
-    "bottomLeg": {
-      "_instruction": "Enter the length of the bottom legs of this kite.",
+    "symmetryDiagonalLength": {
+      "_instruction": "Enter the length of the symmetry diagonal of this kite.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
     },
-    "topLeg": {
-      "_instruction": "Enter the length of the top legs of this kite.",
+    "topLegLength": {
+      "_instruction": "Enter the common length of the top legs of this kite.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]

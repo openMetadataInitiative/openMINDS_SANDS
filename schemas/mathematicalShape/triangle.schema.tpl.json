@@ -4,21 +4,14 @@
   "mathematicalShapes"
   ],
   "required": [
-    "base",
-    "sides"
+    "sideLengths"
   ],
   "properties": {
-    "base": {
-      "_instruction": "Enter the length of the reference side of this triangle.",
-      "_embeddedTypes": [
-        "core:QuantitativeValue"
-      ]
-    },
-    "sides": {
+    "sideLengths": {
       "type": "array",      
-      "minItems": 2,
-      "maxItems": 2,
-      "_instruction": "Enter the lengths of the other two sides of the triangle.",
+      "minItems": 3,
+      "maxItems": 3,
+      "_instruction": "Enter the different lengths of the three sides of the triangle.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]

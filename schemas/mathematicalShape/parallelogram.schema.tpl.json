@@ -9,20 +9,20 @@
     "side"
   ],
   "properties": {
-    "base": {
-      "_instruction": "Enter the uniform length of the bottom and top reference sides of this parallelogram.",
+    "baseLength": {
+      "_instruction": "Enter the uniform length of the bottom and top sides (the base) of this parallelogram.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
     },
     "height": {
-      "_instruction": "Enter the height (perpendicular distance between the reference sides) of this parallelogram.",
+      "_instruction": "Enter the height (perpendicular distance to the base) of this parallelogram.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
     },
-    "side": {
-      "_instruction": "Enter the uniform length of the slanted sides of this parallelogram.",
+    "sideLength": {
+      "_instruction": "Enter the uniform length of the sides adjacent to the base of this parallelogram.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]

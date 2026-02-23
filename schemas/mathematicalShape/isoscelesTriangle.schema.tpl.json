@@ -1,21 +1,21 @@
 {
-  "_type": "sands:RightTriangle",
+  "_type": "sands:IsoscelesTriangle",
   "_categories": [
   "mathematicalShapes"
   ],
   "required": [
     "baseLength",
-    "height"
+    "legLength"
   ],
   "properties": {
     "baseLength": {
-      "_instruction": "Enter the length of the base of this right triangle.",
+      "_instruction": "Enter the length of the base of this isosceles triangle.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
     },
-    "height": {
-      "_instruction": "Enter the height of this right triangle.",
+    "legLength": {
+      "_instruction": "Enter the height of this isosceles triangle.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]

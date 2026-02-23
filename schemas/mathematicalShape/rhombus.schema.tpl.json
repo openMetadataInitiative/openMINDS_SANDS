@@ -4,18 +4,14 @@
     "mathematicalShapes"
   ],
   "required": [
-    "longDiagonal",
-    "shortDiagonal"
+    "diagonalLengths"
   ],
   "properties": {
-    "longDiagonal": {
-      "_instruction": "Enter the length of the long diagonal of this rhombus.",
-      "_embeddedTypes": [
-        "core:QuantitativeValue"
-      ]
-    },
-    "shortDiagonal": {
-      "_instruction": "Enter the length of the short diagonal of this rhombus.",
+    "diagonalLengths": {
+      "type": "array",      
+      "minItems": 2,
+      "maxItems": 2,
+      "_instruction": "Enter the lengths of the two perpendicular diagonals of this rhombus.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]

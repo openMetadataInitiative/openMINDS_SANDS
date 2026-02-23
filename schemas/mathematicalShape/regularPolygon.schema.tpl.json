@@ -5,17 +5,17 @@
   ],
   "required": [
     "circumradius",
-    "side"
+    "numberOfSides"
   ],
   "properties": {
     "circumradius": {
-      "_instruction": "Enter the length of the circumradius (distance from the center to any of the vertices) of this regular polygon.",
+      "_instruction": "Enter the circumradius (distance from the center to a vertex) of this regular polygon.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
     },
-    "side": {
-      "_instruction": "Enter the uniform length of all sides of this regular polygon.",
+    "numberOfSides": {
+      "_instruction": "Enter the number of sides of this regular polygon.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]

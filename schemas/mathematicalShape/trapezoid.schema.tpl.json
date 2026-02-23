@@ -9,20 +9,20 @@
     "topBase"
   ],
   "properties": {
-    "bottomBase": {
-      "_instruction": "Enter the length of the bottom reference side of this trapezoid.",
+    "bottomBaseLength": {
+      "_instruction": "Enter the length of the bottom base of this trapezoid.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
     },
     "height": {
-      "_instruction": "Enter the height (perpendicular distance between the reference sides) of this parallelogram.",
+      "_instruction": "Enter the height (perpendicular distance between the bases) of this trapezoid.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
     },
-    "topBase": {
-      "_instruction": "Enter the length of the top reference side of this trapezoid.",
+    "topBaseLength": {
+      "_instruction": "Enter the length of the top base of this trapezoid.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]

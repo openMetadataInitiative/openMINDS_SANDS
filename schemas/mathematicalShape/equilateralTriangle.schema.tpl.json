@@ -1,14 +1,14 @@
 {
-  "_type": "sands:Square",
+  "_type": "sands:EquilateralTriangle",
   "_categories": [
-    "mathematicalShapes"
+  "mathematicalShapes"
   ],
   "required": [
     "sideLength"
   ],
   "properties": {
     "sideLength": {
-      "_instruction": "Enter the common length of the sides of this square.",
+      "_instruction": "Enter the uniform length of the sides of this equilateral triangle.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
