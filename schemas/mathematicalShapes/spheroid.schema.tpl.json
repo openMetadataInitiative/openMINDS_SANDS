@@ -1,0 +1,24 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/Spheroid",
+  "_categories": [
+    "mathematicalShapes"
+  ],
+  "required": [
+    "equatorialDiameter",
+    "polarDiameter"
+  ],
+  "properties": {
+    "equatorialDiameter": {
+      "_instruction": "Enter the uniform length of the two equatorial diameters of this spheroid.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    },
+    "polarDiameter": {
+      "_instruction": "Enter the length of the polar diameter of this spheroid.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    }
+  }
+}
