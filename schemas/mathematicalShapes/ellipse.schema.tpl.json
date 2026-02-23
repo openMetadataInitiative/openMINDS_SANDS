@@ -4,18 +4,18 @@
     "mathematicalShape"
   ],
   "required": [
-    "semiMinorAxis",
-    "semiMajorAxis"
+    "longDiameter",
+    "shortDiameter"
   ],
   "properties": {
-    "semiMinorAxis": {
-      "_instruction": "Enter the length of the semi-major axis of this ellipse.",
+    "longDiameter": {
+      "_instruction": "Enter the length of the longest diameter of this ellipse.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
     },
-    "semiMajorAxis": {
-      "_instruction": "Enter the length of the semi-minor axis of this ellipse.",
+    "shortDiameter": {
+      "_instruction": "Enter the length of the shortest diameter of this ellipse.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
