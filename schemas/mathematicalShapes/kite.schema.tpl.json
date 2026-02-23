@@ -6,7 +6,7 @@
   "required": [
     "baseDiagonal",
     "bottomLeg",
-    "topLegsLength"
+    "topLeg"
   ],
   "properties": {
     "baseDiagonal": {
