@@ -10,19 +10,19 @@
     ],
     "properties": {
         "bottomBaseLength": {
-            "_instruction": "Define the length of the bottom reference side of this trapezoid.",
+            "_instruction": "Enter the length of the bottom reference side of this trapezoid.",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/QuantitativeValue"
             ]
         },
         "height": {
-            "_instruction": "Define the height (perpendicular distance between the reference sides) of this parallelogram.",
+            "_instruction": "Enter the height (perpendicular distance between the reference sides) of this parallelogram.",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/QuantitativeValue"
             ]
         },
         "topBaseLength": {
-            "_instruction": "Define the length of the top reference side of this trapezoid.",
+            "_instruction": "Enter the length of the top reference side of this trapezoid.",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/QuantitativeValue"
             ]
