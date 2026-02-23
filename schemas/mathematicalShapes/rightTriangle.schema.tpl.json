@@ -9,13 +9,13 @@
   ],
   "properties": {
     "baseLength": {
-      "_instruction": "Define the base length (b) of this right triangle.",
+      "_instruction": "Enter the base length of this right triangle.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
     },
     "height": {
-      "_instruction": "Define the height (h) of this right triangle.",
+      "_instruction": "Enter the height of this right triangle.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
