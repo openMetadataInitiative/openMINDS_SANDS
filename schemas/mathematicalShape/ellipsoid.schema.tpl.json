@@ -4,25 +4,25 @@
     "mathematicalShapes"
   ],
   "required": [
-    "longDiameter",
     "intermediateDiameter",
-    "shortDiameter"
+    "majorDiameter",
+    "minorDiameter"
   ],
   "properties": {
-    "longDiameter": {
-      "_instruction": "Enter the length of the long diameter of this ellipsoid.",
-      "_embeddedTypes": [
-        "core:QuantitativeValue"
-      ]
-    },
     "intermediateDiameter": {
-      "_instruction": "Enter the length of the intermediate diameter of this ellipsoid.",
+      "_instruction": "Enter the intermediate diameter of this ellipsoid.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
     },
-    "shortDiameter": {
-      "_instruction": "Enter the length of the short diameter of this ellipsoid.",
+    "majorDiameter": {
+      "_instruction": "Enter the major diameter of this ellipsoid.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
+    "minorDiameter": {
+      "_instruction": "Enter the minor diameter of this ellipsoid.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]

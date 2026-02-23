@@ -8,7 +8,7 @@
   ],
   "properties": {
     "radius": {
-      "_instruction": "Define the radius of this sphere.",
+      "_instruction": "Enter the radius of this sphere.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]

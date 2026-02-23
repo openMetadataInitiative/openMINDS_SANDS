@@ -9,13 +9,13 @@
   ],
   "properties": {
     "equatorialDiameter": {
-      "_instruction": "Enter the uniform length of the two equatorial diameters of this spheroid.",
+      "_instruction": "Enter the equatorial diameters of this spheroid.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
     },
     "polarDiameter": {
-      "_instruction": "Enter the length of the polar diameter of this spheroid.",
+      "_instruction": "Enter the polar diameter of this spheroid.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
