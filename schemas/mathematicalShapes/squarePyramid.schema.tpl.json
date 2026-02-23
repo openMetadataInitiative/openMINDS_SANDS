@@ -1,0 +1,24 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/SquarePyramid",
+  "_categories": [
+    "mathematicalShapes"
+  ],
+  "required": [
+    "base",
+    "height"
+  ],
+  "properties": {
+    "base": {
+      "_instruction": "Enter the uniform length of all four sides of this square pyramid.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    },
+    "height": {
+      "_instruction": "Enter the height of this square pyramid.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    }
+  }
+}
