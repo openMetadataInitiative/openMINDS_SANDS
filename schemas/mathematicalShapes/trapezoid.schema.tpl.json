@@ -1,0 +1,31 @@
+{
+    "_type": "https://openminds.ebrains.eu/sands/Trapezoid",
+    "_categories": [
+        "mathematicalShapes"
+    ],
+    "required": [
+        "bottomBaseLength",
+        "height",
+        "topBaseLength"
+    ],
+    "properties": {
+        "bottomBaseLength": {
+            "_instruction": "Define the length of the bottom reference side of this trapezoid.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        },
+        "height": {
+            "_instruction": "Define the height of this trapezoid.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        },
+        "topBaseLength": {
+            "_instruction": "Define the length of the top reference side of this trapezoid.",
+            "_embeddedTypes": [
+                "https://openminds.ebrains.eu/core/QuantitativeValue"
+            ]
+        }
+    }
+}
