@@ -1,38 +1,31 @@
 {
-    "_type": "https://openminds.ebrains.eu/sands/Kite",
-    "_categories": [
-        "mathematicalShapes"
-    ],
-    "required": [
-        "majorAxis",
-        "majorSide",
-        "minorSide",
-        "minorAxis"
-    ],
-    "properties": {
-        "majorAxis": {
-            "_instruction": "Define the length of the major axis (diagonal) of this kite.",
-            "_embeddedTypes": [
-                "https://openminds.ebrains.eu/core/QuantitativeValue"
-            ]
-        },
-        "majorSide": {
-            "_instruction": "Define the length of the major (long) side of this kite.",
-            "_embeddedTypes": [
-                "https://openminds.ebrains.eu/core/QuantitativeValue"
-            ]
-        },
-        "minorAxis": {
-            "_instruction": "Define the length of the minor axis (diagonal) of this kite.",
-            "_embeddedTypes": [
-                "https://openminds.ebrains.eu/core/QuantitativeValue"
-            ]
-        },
-        "minorSide": {
-            "_instruction": "Define the length of the minor (short) side of this kite.",
-            "_embeddedTypes": [
-                "https://openminds.ebrains.eu/core/QuantitativeValue"
-            ]
-        }
+  "_type": "https://openminds.ebrains.eu/sands/Kite",
+  "_categories": [
+    "mathematicalShapes"
+  ],
+  "required": [
+    "baseDiagonal",
+    "bottomLegsLength",
+    "topLegsLength"
+  ],
+  "properties": {
+    "baseDiagonal": {
+      "_instruction": "Define the length of the base diagonal of this kite.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    },
+    "bottomLegsLength": {
+      "_instruction": "Define the length of the bottom legs of this kite.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    },
+    "topLegsLength": {
+      "_instruction": "Define the length of the top legs of this kite.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
     }
+  }
 }
