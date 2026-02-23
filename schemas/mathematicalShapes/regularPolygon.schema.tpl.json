@@ -5,7 +5,7 @@
   ],
   "required": [
     "circumradius",
-    "sideLength"
+    "side"
   ],
   "properties": {
     "circumradius": {
@@ -14,7 +14,7 @@
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
     },
-    "sideLength": {
+    "side": {
       "_instruction": "Enter the uniform length of all sides of this regular polygon.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
