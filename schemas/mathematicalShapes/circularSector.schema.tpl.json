@@ -1,0 +1,24 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/CircularSector",
+  "_categories": [
+    "mathematicalShapes"
+  ],
+  "required": [
+    "centralAngle",
+    "radius"
+  ],
+  "properties": {
+    "centralAngle": {
+      "_instruction": "Enter the central angle of this circular sector.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    },
+    "radius": {
+      "_instruction": "Enter the radius of this circular sector.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    }
+  }
+}
