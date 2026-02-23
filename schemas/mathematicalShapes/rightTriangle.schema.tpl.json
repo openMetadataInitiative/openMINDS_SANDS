@@ -1,0 +1,24 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/RightTriangle",
+  "_categories": [
+  "mathematicalShapes"
+  ],
+  "required": [
+    "baseLength",
+    "height"
+  ],
+  "properties": {
+    "baseLength": {
+      "_instruction": "Define the base length (b) of this right triangle.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    },
+    "height": {
+      "_instruction": "Define the height (h) of this right triangle.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    }
+  }
+}
