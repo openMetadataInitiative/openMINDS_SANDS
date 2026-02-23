@@ -10,19 +10,19 @@
     ],
     "properties": {
         "baseLength": {
-            "_instruction": "Define the uniform length of the bottom and top reference sides of this parallelogram.",
+            "_instruction": "Enter the uniform length of the bottom and top reference sides of this parallelogram.",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/QuantitativeValue"
             ]
         },
         "height": {
-            "_instruction": "Define the height (perpendicular distance between the reference sides) of this parallelogram.",
+            "_instruction": "Enter the height (perpendicular distance between the reference sides) of this parallelogram.",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/QuantitativeValue"
             ]
         },
         "sideLength": {
-            "_instruction": "Define the uniform length of the slanted sides of this parallelogram.",
+            "_instruction": "Enter the uniform length of the slanted sides of this parallelogram.",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/QuantitativeValue"
             ]
