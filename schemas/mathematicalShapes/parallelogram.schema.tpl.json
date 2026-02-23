@@ -4,12 +4,12 @@
     "mathematicalShapes"
   ],
   "required": [
-    "baseLength",
+    "base",
     "height",
-    "sideLength"
+    "side"
   ],
   "properties": {
-    "baseLength": {
+    "base": {
       "_instruction": "Enter the uniform length of the bottom and top reference sides of this parallelogram.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
@@ -21,7 +21,7 @@
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
     },
-    "sideLength": {
+    "side": {
       "_instruction": "Enter the uniform length of the slanted sides of this parallelogram.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
