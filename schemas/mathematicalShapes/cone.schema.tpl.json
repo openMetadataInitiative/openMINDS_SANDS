@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/Cone",
+  "_type": "sands:Cone",
   "_categories": [
     "mathematicalShapes"
   ],
@@ -11,13 +11,13 @@
     "baseRadius": {
       "_instruction": "Enter the radius of the base of this cone.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     }
     "height": {
       "_instruction": "Enter the height of this cone.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     }
   }
