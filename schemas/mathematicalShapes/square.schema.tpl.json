@@ -4,10 +4,10 @@
     "mathematicalShapes"
   ],
   "required": [
-    "sideLength"
+    "side"
   ],
   "properties": {
-    "sideLength": {
+    "side": {
       "_instruction": "Enter the uniform length of all four sides of this square.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
