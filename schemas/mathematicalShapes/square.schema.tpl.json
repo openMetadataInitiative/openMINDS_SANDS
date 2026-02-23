@@ -8,7 +8,7 @@
   ],
   "properties": {
     "sideLength": {
-      "_instruction": "Define the uniform length (s) of all four sides of this square.",
+      "_instruction": "Enter the uniform length of all four sides of this square.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
