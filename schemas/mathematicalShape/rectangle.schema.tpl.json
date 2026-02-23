@@ -4,12 +4,12 @@
     "mathematicalShape"
   ],
   "required": [
-    "length",
+    "height",
     "width"
   ],
   "properties": {
-    "length": {
-      "_instruction": "Enter the length of this rectangle.",
+    "height": {
+      "_instruction": "Enter the height of this rectangle.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
