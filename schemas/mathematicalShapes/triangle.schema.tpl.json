@@ -8,13 +8,13 @@
     "sideLengths"
   ],
   "properties": {
-    "baseLength": {
+    "base": {
       "_instruction": "Enter the length of the reference side of this triangle.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
     },
-    "sideLengths": {
+    "sides": {
       "type": "array",      
       "minItems": 2,
       "maxItems": 2,
