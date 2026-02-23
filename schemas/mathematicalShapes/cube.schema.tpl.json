@@ -1,0 +1,17 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/Cube",
+  "_categories": [
+    "mathematicalShapes"
+  ],
+  "required": [
+    "side"
+  ],
+  "properties": {
+    "side": {
+      "_instruction": "Enter the uniform length of all twelve sides of this cube.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    }
+  }
+}
