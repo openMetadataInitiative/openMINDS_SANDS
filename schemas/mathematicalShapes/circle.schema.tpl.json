@@ -1,17 +1,17 @@
 {
-    "_type": "https://openminds.ebrains.eu/sands/Circle",
-    "_categories": [
-        "mathematicalShapes"
-    ],
-    "required": [
-        "radius"
-    ],
-    "properties": {
-        "radius": {
-            "_instruction": "Define the radius of this circle.",
-            "_embeddedTypes": [
-                "https://openminds.ebrains.eu/core/QuantitativeValue"
-            ]
-        }
+  "_type": "https://openminds.ebrains.eu/sands/Circle",
+  "_categories": [
+    "mathematicalShapes"
+  ],
+  "required": [
+    "radius"
+  ],
+  "properties": {
+    "radius": {
+      "_instruction": "Enter the radius of this circle.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
     }
+  }
 }
