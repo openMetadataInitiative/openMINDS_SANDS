@@ -4,12 +4,12 @@
     "mathematicalShapes"
   ],
   "required": [
-    "bottomBaseLength",
+    "bottomBase",
     "height",
-    "topBaseLength"
+    "topBase"
   ],
   "properties": {
-    "bottomBaseLength": {
+    "bottomBase": {
       "_instruction": "Enter the length of the bottom reference side of this trapezoid.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
@@ -21,7 +21,7 @@
         "https://openminds.ebrains.eu/core/QuantitativeValue"
       ]
     },
-    "topBaseLength": {
+    "topBase": {
       "_instruction": "Enter the length of the top reference side of this trapezoid.",
       "_embeddedTypes": [
         "https://openminds.ebrains.eu/core/QuantitativeValue"
