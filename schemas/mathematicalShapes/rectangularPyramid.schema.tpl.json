@@ -1,0 +1,31 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/RectangularPyramid",
+  "_categories": [
+    "mathematicalShapes"
+  ],
+  "required": [
+    "baseDepth",
+    "baseWidth",
+    "height"
+  ],
+  "properties": {
+    "baseDepth": {
+      "_instruction": "Enter the depth of the base of this rectangular pyramid.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    },
+    "baseWidth": {
+      "_instruction": "Enter the width of the base of this rectangular pyramid.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    },
+    "height": {
+      "_instruction": "Enter the height of this rectangular pyramid.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    }
+  }
+}
