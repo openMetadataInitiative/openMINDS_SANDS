@@ -1,0 +1,31 @@
+{
+  "_type": "https://openminds.ebrains.eu/sands/Ellipsoid",
+  "_categories": [
+    "mathematicalShapes"
+  ],
+  "required": [
+    "longDiameter",
+    "intermediateDiameter",
+    "shortDiameter"
+  ],
+  "properties": {
+    "longDiameter": {
+      "_instruction": "Enter the length of the long diameter of this ellipsoid.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    },
+    "intermediateDiameter": {
+      "_instruction": "Enter the length of the intermediate diameter of this ellipsoid.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    },
+    "shortDiameter": {
+      "_instruction": "Enter the length of the short diameter of this ellipsoid.",
+      "_embeddedTypes": [
+        "https://openminds.ebrains.eu/core/QuantitativeValue"
+      ]
+    }
+  }
+}
