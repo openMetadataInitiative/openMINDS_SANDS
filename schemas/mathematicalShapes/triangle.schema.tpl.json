@@ -4,8 +4,8 @@
   "mathematicalShapes"
   ],
   "required": [
-    "baseLength",
-    "sideLengths"
+    "base",
+    "sides"
   ],
   "properties": {
     "base": {
