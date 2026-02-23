@@ -4,18 +4,18 @@
         "mathematicalShapes"
     ],
     "required": [
-        "height",
-        "side"
+        "longDiagonal",
+        "shortDiagonal"
     ],
     "properties": {
-        "height": {
-            "_instruction": "Define the height (distance between the major sides) of this rhombus.",
+        "longDiagonal": {
+            "_instruction": "Enter the length of the long diagonal of this rhombus.",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/QuantitativeValue"
             ]
         },
-        "side": {
-            "_instruction": "Define the length of the sides of this rhombus.",
+        "shortDiagonal": {
+            "_instruction": "Enter the length of the short diagonal of this rhombus.",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/QuantitativeValue"
             ]
