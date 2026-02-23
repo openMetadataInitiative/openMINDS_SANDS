@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/Parallelogram",
+  "_type": "sands:Parallelogram",
   "_categories": [
     "mathematicalShapes"
   ],
@@ -12,19 +12,19 @@
     "base": {
       "_instruction": "Enter the uniform length of the bottom and top reference sides of this parallelogram.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     },
     "height": {
       "_instruction": "Enter the height (perpendicular distance between the reference sides) of this parallelogram.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     },
     "side": {
       "_instruction": "Enter the uniform length of the slanted sides of this parallelogram.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     }
   }

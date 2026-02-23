@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/Square",
+  "_type": "sands:Square",
   "_categories": [
     "mathematicalShapes"
   ],
@@ -10,7 +10,7 @@
     "side": {
       "_instruction": "Enter the uniform length of all four sides of this square.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     }
   }

@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/RegularPolygon",
+  "_type": "sands:RegularPolygon",
   "_categories": [
     "mathematicalShapes"
   ],
@@ -11,13 +11,13 @@
     "circumradius": {
       "_instruction": "Enter the length of the circumradius (distance from the center to any of the vertices) of this regular polygon.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     },
     "side": {
       "_instruction": "Enter the uniform length of all sides of this regular polygon.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     }
   }

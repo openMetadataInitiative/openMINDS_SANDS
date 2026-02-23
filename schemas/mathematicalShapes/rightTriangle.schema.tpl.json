@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/RightTriangle",
+  "_type": "sands:RightTriangle",
   "_categories": [
   "mathematicalShapes"
   ],
@@ -11,13 +11,13 @@
     "base": {
       "_instruction": "Enter the base length of this right triangle.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     },
     "height": {
       "_instruction": "Enter the height of this right triangle.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     }
   }

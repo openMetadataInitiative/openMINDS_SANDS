@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/Sphere",
+  "_type": "sands:Sphere",
   "_categories": [
     "mathematicalShapes"
   ],
@@ -10,7 +10,7 @@
     "radius": {
       "_instruction": "Define the radius of this sphere.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     }
   }

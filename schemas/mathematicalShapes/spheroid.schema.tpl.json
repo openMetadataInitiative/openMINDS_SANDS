@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/Spheroid",
+  "_type": "sands:Spheroid",
   "_categories": [
     "mathematicalShapes"
   ],
@@ -11,13 +11,13 @@
     "equatorialDiameter": {
       "_instruction": "Enter the uniform length of the two equatorial diameters of this spheroid.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     },
     "polarDiameter": {
       "_instruction": "Enter the length of the polar diameter of this spheroid.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     }
   }

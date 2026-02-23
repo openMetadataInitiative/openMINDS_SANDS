@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/Trapezoid",
+  "_type": "sands:Trapezoid",
   "_categories": [
     "mathematicalShapes"
   ],
@@ -12,19 +12,19 @@
     "bottomBase": {
       "_instruction": "Enter the length of the bottom reference side of this trapezoid.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     },
     "height": {
       "_instruction": "Enter the height (perpendicular distance between the reference sides) of this parallelogram.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     },
     "topBase": {
       "_instruction": "Enter the length of the top reference side of this trapezoid.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     }
   }

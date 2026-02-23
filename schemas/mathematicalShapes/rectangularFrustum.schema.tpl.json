@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/RectangularFrustum",
+  "_type": "sands:RectangularFrustum",
   "_categories": [
     "mathematicalShapes"
   ],
@@ -14,31 +14,31 @@
     "bottomDepth": {
       "_instruction": "Enter the depth of the bottom base of this rectangular frustum.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     },
     "bottomWidth": {
       "_instruction": "Enter the width of the bottom base of this rectangular frustum.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     },
     "height": {
       "_instruction": "Enter the height of this rectangular frustum.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     },
     "topDepth": {
       "_instruction": "Enter the depth of the top base of this rectangular frustum.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     },
     "topWidth": {
       "_instruction": "Enter the width of the top base of this rectangular frustum.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     }
   }

@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/Rhombus",
+  "_type": "sands:Rhombus",
   "_categories": [
     "mathematicalShapes"
   ],
@@ -11,13 +11,13 @@
     "longDiagonal": {
       "_instruction": "Enter the length of the long diagonal of this rhombus.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     },
     "shortDiagonal": {
       "_instruction": "Enter the length of the short diagonal of this rhombus.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     }
   }

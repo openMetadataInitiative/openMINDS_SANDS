@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/Cuboid",
+  "_type": "sands:Cuboid",
   "_categories": [
     "mathematicalShapes"
   ],
@@ -12,19 +12,19 @@
     "depth": {
       "_instruction": "Enter the depth of this cuboid.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     },
     "height": {
       "_instruction": "Enter the height of this cuboid.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     },
     "width": {
       "_instruction": "Enter the width of this cuboid.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     }
   }

@@ -1,5 +1,5 @@
 {
-  "_type": "https://openminds.ebrains.eu/sands/Kite",
+  "_type": "sands:Kite",
   "_categories": [
     "mathematicalShapes"
   ],
@@ -12,19 +12,19 @@
     "baseDiagonal": {
       "_instruction": "Enter the length of the base diagonal of this kite.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     },
     "bottomLeg": {
       "_instruction": "Enter the length of the bottom legs of this kite.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     },
     "topLeg": {
       "_instruction": "Enter the length of the top legs of this kite.",
       "_embeddedTypes": [
-        "https://openminds.ebrains.eu/core/QuantitativeValue"
+        "core:QuantitativeValue"
       ]
     }
   }
