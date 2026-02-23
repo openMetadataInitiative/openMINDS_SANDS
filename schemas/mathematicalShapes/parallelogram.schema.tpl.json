@@ -10,7 +10,7 @@
     ],
     "properties": {
         "baseLength": {
-            "_instruction": "Define the length of the reference side of this parallelogram.",
+            "_instruction": "Define the uniform length of the bottom and top reference sides of this parallelogram.",
             "_embeddedTypes": [
                 "https://openminds.ebrains.eu/core/QuantitativeValue"
             ]
