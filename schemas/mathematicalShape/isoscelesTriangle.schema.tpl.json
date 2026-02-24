@@ -1,7 +1,8 @@
 {
   "_type": "sands:IsoscelesTriangle",
   "_categories": [
-  "mathematicalShape"
+    "mathematicalShape",
+    "mathematical2DShape"
   ],
   "required": [
     "baseLength",

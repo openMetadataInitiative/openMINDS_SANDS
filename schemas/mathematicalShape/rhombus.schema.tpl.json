@@ -1,7 +1,8 @@
 {
   "_type": "sands:Rhombus",
   "_categories": [
-    "mathematicalShape"
+    "mathematicalShape",
+    "mathematical2DShape"
   ],
   "required": [
     "diagonalLengths"

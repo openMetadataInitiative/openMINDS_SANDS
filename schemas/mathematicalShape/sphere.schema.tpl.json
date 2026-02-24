@@ -1,7 +1,8 @@
 {
   "_type": "sands:Sphere",
   "_categories": [
-    "mathematicalShape"
+    "mathematicalShape",
+    "mathematical3DShape"
   ],
   "required": [
     "radius"

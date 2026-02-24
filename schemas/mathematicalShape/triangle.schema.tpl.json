@@ -1,7 +1,8 @@
 {
   "_type": "sands:Triangle",
   "_categories": [
-  "mathematicalShape"
+    "mathematicalShape",
+    "mathematical2DShape"
   ],
   "required": [
     "sideLengths"

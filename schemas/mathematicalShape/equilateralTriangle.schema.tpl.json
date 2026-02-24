@@ -1,7 +1,8 @@
 {
   "_type": "sands:EquilateralTriangle",
   "_categories": [
-  "mathematicalShape"
+    "mathematicalShape",
+    "mathematical2DShape"
   ],
   "required": [
     "sideLength"

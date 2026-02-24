@@ -1,7 +1,8 @@
 {
   "_type": "sands:Kite",
   "_categories": [
-    "mathematicalShape"
+    "mathematicalShape",
+    "mathematical2DShape"
   ],
   "required": [
     "bottomLegLength",
