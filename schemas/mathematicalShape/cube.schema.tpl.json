@@ -2,7 +2,7 @@
   "_type": "sands:Cube",
   "_categories": [
     "mathematicalShape",
-    "mathematical2DShape"
+    "mathematical3DShape"
   ],
   "required": [
     "sideLength"
