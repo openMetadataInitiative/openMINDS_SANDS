@@ -1,0 +1,25 @@
+{
+  "_type": "sands:EllipticCylinder",
+  "_categories": [
+    "mathematicalShape",
+    "mathematical3DShape"
+  ],
+  "required": [
+    "baseShape",
+    "depth"
+  ],
+  "properties": {
+    "baseShape": {
+      "_instruction": "Enter the two-dimensional base shape of this elliptic cylinder.",
+      "_embeddedTypes": [
+        "sands:Ellipse"
+      ]
+    },
+    "depth": {
+      "_instruction": "Enter the depth of this elliptic cylinder.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}

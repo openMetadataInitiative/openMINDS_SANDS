@@ -1,0 +1,25 @@
+{
+  "_type": "sands:RegularPolygonPyramid",
+  "_categories": [
+    "mathematicalShape",
+    "mathematical3DShape"
+  ],
+  "required": [
+    "baseShape",
+    "depth"
+  ],
+  "properties": {
+    "baseShape": {
+      "_instruction": "Enter the two-dimensional base of this regular polygon pyramid.",
+      "_embeddedTypes": [
+        "sands:RegularPolygon"
+      ]
+    },
+    "depth": {
+      "_instruction": "Enter the depth of this regular polygon pyramid.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}

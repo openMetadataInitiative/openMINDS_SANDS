@@ -1,0 +1,25 @@
+{
+  "_type": "sands:Cone",
+  "_categories": [
+    "mathematicalShape",
+    "mathematical3DShape"
+  ],
+  "required": [
+    "baseShape",
+    "polarDiameter"
+  ],
+  "properties": {
+    "baseShape": {
+      "_instruction": "Enter the equatorial diameters of this cone.",
+      "_embeddedTypes": [
+        "sands:Circle"
+      ]
+    },
+    "depth": {
+      "_instruction": "Enter the depth of this cone.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}

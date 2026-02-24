@@ -1,0 +1,25 @@
+{
+  "_type": "sands:RectangularPyramid",
+  "_categories": [
+    "mathematicalShape",
+    "mathematical3DShape"
+  ],
+  "required": [
+    "baseShape",
+    "depth"
+  ],
+  "properties": {
+    "baseShape": {
+      "_instruction": "Enter the two-dimensional base of this rectangular pyramid.",
+      "_embeddedTypes": [
+        "sands:Rectangle"
+      ]
+    },
+    "depth": {
+      "_instruction": "Enter the depth of this rectangular pyramid.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}

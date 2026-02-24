@@ -1,0 +1,25 @@
+{
+  "_type": "sands:RectangularPrism",
+  "_categories": [
+    "mathematicalShape",
+    "mathematical3DShape"
+  ],
+  "required": [
+    "baseShape",
+    "depth"
+  ],
+  "properties": {
+    "baseShape": {
+      "_instruction": "Enter the two-dimensional base shape of this rectangular prism.",
+      "_embeddedTypes": [
+        "sands:Rectangle"
+      ]
+    },
+    "depth": {
+      "_instruction": "Enter the depth of this rectangular prism.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}

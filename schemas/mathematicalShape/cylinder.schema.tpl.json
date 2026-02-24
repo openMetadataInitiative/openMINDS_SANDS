@@ -1,0 +1,25 @@
+{
+  "_type": "sands:Cylinder",
+  "_categories": [
+    "mathematicalShape",
+    "mathematical3DShape"
+  ],
+  "required": [
+    "baseShape",
+    "depth"
+  ],
+  "properties": {
+    "baseShape": {
+      "_instruction": "Enter the two-dimensional base shape of this cylinder.",
+      "_embeddedTypes": [
+        "sands:Circle"
+      ]
+    },
+    "depth": {
+      "_instruction": "Enter the depth of this cylinder.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}

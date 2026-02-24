@@ -1,0 +1,39 @@
+{
+  "_type": "sands:RegularPolygonFrustum",
+  "_categories": [
+    "mathematicalShape",
+    "mathematical3DShape"
+  ],
+  "required": [
+    "depth",
+    "majorCircumradius",
+    "minorCircumradius",
+    "numberOfSides"
+  ],
+  "properties": {
+    "depth": {
+      "_instruction": "Enter the depth of this regular polygon frustum.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
+    "majorCircumradius": {
+      "_instruction": "Enter the major circumradius (distance from the center to a vertex of the larger two-dimensional base) of this regular polygon frustum.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
+    "minorCircumradius": {
+      "_instruction": "Enter the minor circumradius (distance from the center to a vertex of the smaller two-dimensional base) of this regular polygon frustum.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
+    "numberOfSides": {
+      "_instruction": "Enter the number of sides of this regular polygon frustum.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}

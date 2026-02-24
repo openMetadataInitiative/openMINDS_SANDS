@@ -1,0 +1,28 @@
+{
+  "_type": "sands:EllipticFrustum",
+  "_categories": [
+    "mathematicalShape",
+    "mathematical3DShape"
+  ],
+  "required": [
+    "baseShapes",
+    "depth"
+  ],
+  "properties": {
+    "baseShapes": {
+      "type": "array",      
+      "minItems": 2,
+      "maxItems": 2,
+      "_instruction": "Enter the minor and major two-dimensional base of this elliptic frustum.",
+      "_embeddedTypes": [
+        "sands:Ellipse"
+      ]
+    },
+    "depth": {
+      "_instruction": "Enter the depth of this elliptic frustum.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}

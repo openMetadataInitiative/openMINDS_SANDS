@@ -1,0 +1,25 @@
+{
+  "_type": "sands:RegularPolygonPrism",
+  "_categories": [
+    "mathematicalShape",
+    "mathematical3DShape"
+  ],
+  "required": [
+    "baseShape",
+    "depth"
+  ],
+  "properties": {
+    "baseShape": {
+      "_instruction": "Enter the two-dimensional base shape of this regular polygon prism.",
+      "_embeddedTypes": [
+        "sands:RegularPolygon"
+      ]
+    },
+    "depth": {
+      "_instruction": "Enter the depth of this regular polygon prism.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}
