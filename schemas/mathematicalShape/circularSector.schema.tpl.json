@@ -1,7 +1,7 @@
 {
   "_type": "sands:CircularSector",
   "_categories": [
-    "mathematicalShapes"
+    "mathematicalShape"
   ],
   "required": [
     "centralAngle",

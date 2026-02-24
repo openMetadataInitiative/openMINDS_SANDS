@@ -1,7 +1,7 @@
 {
   "_type": "sands:Parallelogram",
   "_categories": [
-    "mathematicalShapes"
+    "mathematicalShape"
   ],
   "required": [
     "baseLength",

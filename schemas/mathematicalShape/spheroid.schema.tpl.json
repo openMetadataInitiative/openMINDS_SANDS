@@ -1,7 +1,7 @@
 {
   "_type": "sands:Spheroid",
   "_categories": [
-    "mathematicalShapes"
+    "mathematicalShape"
   ],
   "required": [
     "equatorialDiameter",
