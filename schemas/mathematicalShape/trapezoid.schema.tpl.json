@@ -4,9 +4,9 @@
     "mathematicalShapes"
   ],
   "required": [
-    "bottomBase",
+    "bottomBaseLength",
     "height",
-    "topBase"
+    "topBaseLength"
   ],
   "properties": {
     "bottomBaseLength": {
