@@ -26,7 +26,7 @@
       "type": "float",      
       "exclusiveMinimum": 0,
       "exclusiveMaximum": 1,
-      "_instruction": "Enter the ratio of the smaller to the larger base size of this elliptic frustum.",
+      "_instruction": "Enter the ratio of the smaller to the larger base size of this elliptic frustum."
     }
   }
 }

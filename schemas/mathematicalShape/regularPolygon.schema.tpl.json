@@ -18,7 +18,7 @@
     "numberOfSides": {
       "type": "integer",  
       "minimum": 3,
-      "_instruction": "Enter the number of sides of this regular polygon.",
+      "_instruction": "Enter the number of sides of this regular polygon."
     }
   }
 }
