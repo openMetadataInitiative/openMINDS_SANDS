@@ -5,18 +5,18 @@
     "mathematical2DShape"
   ],
   "required": [
-    "baseLength",
+    "apexAngle",
     "legLength"
   ],
   "properties": {
-    "baseLength": {
-      "_instruction": "Enter the length of the base of this isosceles triangle.",
+    "apexAngle": {
+      "_instruction": "Enter the angle at the apex between the two equal sides of this isosceles triangle.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
     },
     "legLength": {
-      "_instruction": "Enter the height of this isosceles triangle.",
+      "_instruction": "Enter the common length of the two equal sides meeting at the apex of this isosceles triangle.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]

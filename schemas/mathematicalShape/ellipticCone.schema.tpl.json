@@ -5,20 +5,20 @@
     "mathematical3DShape"
   ],
   "required": [
-    "baseShape",
-    "depth"
+    "apexBaseDistance",
+    "baseShape"
   ],
   "properties": {
-    "baseShape": {
-      "_instruction": "Enter the two-dimensional base of this elliptic cone.",
-      "_embeddedTypes": [
-        "sands:Ellipse"
-      ]
-    },
-    "depth": {
-      "_instruction": "Enter the depth of this elliptic cone.",
+    "apexBaseDistance": {
+      "_instruction": "Enter the perpendicular distance from the base plane to the apex of this elliptic cone.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
+      ]
+    },
+    "baseShape": {
+      "_instruction": "Enter the two-dimensional base shape of this elliptic cone.",
+      "_embeddedTypes": [
+        "sands:Ellipse"
       ]
     }
   }

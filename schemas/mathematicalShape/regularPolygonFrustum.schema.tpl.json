@@ -5,35 +5,28 @@
     "mathematical3DShape"
   ],
   "required": [
-    "depth",
-    "majorCircumradius",
-    "minorCircumradius",
-    "numberOfSides"
+    "baseDistance",
+    "majorBaseShape",
+    "minorBaseScale"
   ],
   "properties": {
-    "depth": {
-      "_instruction": "Enter the depth of this regular polygon frustum.",
+    "baseDistance": {
+      "_instruction": "Enter the perpendicular distance between the major and minor base planes of this regular polygon frustum.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
     },
-    "majorCircumradius": {
-      "_instruction": "Enter the major circumradius (distance from the center to a vertex of the larger two-dimensional base) of this regular polygon frustum.",
+    "majorBaseShape": {
+      "_instruction": "Enter the major two-dimensional base shape of this regular polygon frustum.",
       "_embeddedTypes": [
-        "core:QuantitativeValue"
+        "sands:RegularPolygon"
       ]
     },
-    "minorCircumradius": {
-      "_instruction": "Enter the minor circumradius (distance from the center to a vertex of the smaller two-dimensional base) of this regular polygon frustum.",
-      "_embeddedTypes": [
-        "core:QuantitativeValue"
-      ]
-    },
-    "numberOfSides": {
-      "_instruction": "Enter the number of sides of this regular polygon frustum.",
-      "_embeddedTypes": [
-        "core:QuantitativeValue"
-      ]
+    "minorBaseScale": {
+      "type": "float",      
+      "exclusiveMinimum": 0,
+      "exclusiveMaximum": 1,
+      "_instruction": "Enter the ratio of the smaller to the larger base size of this regular polygon frustum.",
     }
   }
 }

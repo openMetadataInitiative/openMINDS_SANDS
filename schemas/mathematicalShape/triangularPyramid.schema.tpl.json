@@ -1,5 +1,5 @@
 {
-  "_type": "sands:Cone",
+  "_type": "sands:TriangularPyramid",
   "_categories": [
     "mathematicalShape",
     "mathematical3DShape"
@@ -10,15 +10,15 @@
   ],
   "properties": {
     "apexBaseDistance": {
-      "_instruction": "Enter the perpendicular distance from the base plane to the apex of this cone.",
+      "_instruction": "Enter the perpendicular distance from the base plane to the apex of this triangular pyramid.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
     },
     "baseShape": {
-      "_instruction": "Enter the two-dimensional base shape of this elliptic cone.",
+      "_instruction": "Enter the two-dimensional base shape of this triangular pyramid.",
       "_embeddedTypes": [
-        "sands:Circle"
+        "sands:Triangle"
       ]
     }
   }

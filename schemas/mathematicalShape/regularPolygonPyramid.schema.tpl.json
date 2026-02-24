@@ -5,20 +5,20 @@
     "mathematical3DShape"
   ],
   "required": [
-    "baseShape",
-    "depth"
+    "apexBaseDistance",
+    "baseShape"
   ],
   "properties": {
-    "baseShape": {
-      "_instruction": "Enter the two-dimensional base of this regular polygon pyramid.",
-      "_embeddedTypes": [
-        "sands:RegularPolygon"
-      ]
-    },
-    "depth": {
-      "_instruction": "Enter the depth of this regular polygon pyramid.",
+    "apexBaseDistance": {
+      "_instruction": "Enter the perpendicular distance from the base plane to the apex of this regular polygon pyramid.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
+      ]
+    },
+    "baseShape": {
+      "_instruction": "Enter the two-dimensional base shape of this regular polygon pyramid.",
+      "_embeddedTypes": [
+        "sands:RegularPolygon"
       ]
     }
   }

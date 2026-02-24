@@ -1,5 +1,5 @@
 {
-  "_type": "sands:EquilateralTriangle",
+  "_type": "sands:Cube",
   "_categories": [
     "mathematicalShape",
     "mathematical2DShape"
@@ -9,7 +9,7 @@
   ],
   "properties": {
     "sideLength": {
-      "_instruction": "Enter the common length of the sides of this equilateral triangle.",
+      "_instruction": "Enter the common length of the sides of this cube.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]

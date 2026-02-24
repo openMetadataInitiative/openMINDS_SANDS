@@ -5,20 +5,20 @@
     "mathematical3DShape"
   ],
   "required": [
-    "baseShape",
-    "depth"
+    "baseDistance",
+    "baseShape"
   ],
   "properties": {
+    "baseDistance": {
+      "_instruction": "Enter the perpendicular distance between the two base planes of this cylinder.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
     "baseShape": {
       "_instruction": "Enter the two-dimensional base shape of this cylinder.",
       "_embeddedTypes": [
         "sands:Circle"
-      ]
-    },
-    "depth": {
-      "_instruction": "Enter the depth of this cylinder.",
-      "_embeddedTypes": [
-        "core:QuantitativeValue"
       ]
     }
   }

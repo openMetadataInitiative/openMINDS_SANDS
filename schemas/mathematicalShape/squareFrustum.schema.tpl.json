@@ -1,5 +1,5 @@
 {
-  "_type": "sands:RectangularFrustum",
+  "_type": "sands:SquareFrustum",
   "_categories": [
     "mathematicalShape",
     "mathematical3DShape"
@@ -11,22 +11,22 @@
   ],
   "properties": {
     "baseDistance": {
-      "_instruction": "Enter the perpendicular distance between the major and minor base planes of this rectangular frustum.",
+      "_instruction": "Enter the perpendicular distance between the major and minor base planes of this square frustum.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
     },
     "majorBaseShape": {
-      "_instruction": "Enter the major two-dimensional base shape of this rectangular frustum.",
+      "_instruction": "Enter the major two-dimensional base shape of this square frustum.",
       "_embeddedTypes": [
-        "sands:Rectangle"
+        "sands:Square"
       ]
     },
     "minorBaseScale": {
       "type": "float",      
       "exclusiveMinimum": 0,
       "exclusiveMaximum": 1,
-      "_instruction": "Enter the ratio of the smaller to the larger base size of this rectangular frustum.",
+      "_instruction": "Enter the ratio of the smaller to the larger base size of this square frustum.",
     }
   }
 }

@@ -5,24 +5,28 @@
     "mathematical3DShape"
   ],
   "required": [
-    "baseShapes",
-    "depth"
+    "baseDistance",
+    "majorBaseShape",
+    "minorBaseScale"
   ],
   "properties": {
-    "baseShapes": {
-      "type": "array",      
-      "minItems": 2,
-      "maxItems": 2,
-      "_instruction": "Enter the minor and major two-dimensional base of this elliptic frustum.",
+    "baseDistance": {
+      "_instruction": "Enter the perpendicular distance between the major and minor base planes of this elliptic frustum.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
+    "majorBaseShape": {
+      "_instruction": "Enter the major two-dimensional base shape of this elliptic frustum.",
       "_embeddedTypes": [
         "sands:Ellipse"
       ]
     },
-    "depth": {
-      "_instruction": "Enter the depth of this elliptic frustum.",
-      "_embeddedTypes": [
-        "core:QuantitativeValue"
-      ]
+    "minorBaseScale": {
+      "type": "float",      
+      "exclusiveMinimum": 0,
+      "exclusiveMaximum": 1,
+      "_instruction": "Enter the ratio of the smaller to the larger base size of this elliptic frustum.",
     }
   }
 }

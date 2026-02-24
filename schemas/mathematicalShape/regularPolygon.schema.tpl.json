@@ -10,16 +10,15 @@
   ],
   "properties": {
     "circumradius": {
-      "_instruction": "Enter the circumradius (distance from the center to a vertex) of this regular polygon.",
+      "_instruction": "Enter the common distance from the center to a vertex of this regular polygon.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
     },
     "numberOfSides": {
+      "type": "integer",  
+      "minimum": 3,
       "_instruction": "Enter the number of sides of this regular polygon.",
-      "_embeddedTypes": [
-        "core:QuantitativeValue"
-      ]
     }
   }
 }

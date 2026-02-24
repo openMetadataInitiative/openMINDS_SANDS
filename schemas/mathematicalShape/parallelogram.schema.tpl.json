@@ -5,25 +5,26 @@
     "mathematical2DShape"
   ],
   "required": [
+    "baseDistance",
     "baseLength",
-    "height",
-    "sideLength"
+    "interiorAngle"
   ],
   "properties": {
+    "baseDistance": {
+      "_instruction": "Enter the perpendicular distance between the parallel lines of the base of this parallelogram.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
     "baseLength": {
       "_instruction": "Enter the uniform length of the bottom and top sides (the base) of this parallelogram.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
     },
-    "height": {
-      "_instruction": "Enter the height (perpendicular distance to the base) of this parallelogram.",
-      "_embeddedTypes": [
-        "core:QuantitativeValue"
-      ]
-    },
-    "sideLength": {
-      "_instruction": "Enter the uniform length of the sides adjacent to the base of this parallelogram.",
+
+    "interiorAngle": {
+      "_instruction": "Enter an interior angle between the base and an adjacent side of this parallelogram.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]

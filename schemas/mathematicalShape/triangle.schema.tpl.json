@@ -5,14 +5,21 @@
     "mathematical2DShape"
   ],
   "required": [
-    "sideLengths"
+    "apexAngle",
+    "legLengths"
   ],
   "properties": {
-    "sideLengths": {
+    "apexAngle": {
+      "_instruction": "Enter the angle at the apex of this triangle.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
+    "legLengths": {
       "type": "array",      
-      "minItems": 3,
-      "maxItems": 3,
-      "_instruction": "Enter the different lengths of the three sides of the triangle.",
+      "minItems": 2,
+      "maxItems": 2,
+      "_instruction": "Enter the lengths of the two sides meeting at the apex of this triangle.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]

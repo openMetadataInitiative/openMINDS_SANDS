@@ -5,13 +5,12 @@
     "mathematical2DShape"
   ],
   "required": [
-    "bottomLegLength",
-    "symmetryDiagonalLength",
-    "topLegLength"
+    "legLengths",
+    "symmetryDiagonalLength"
   ],
   "properties": {
-    "bottomLegLength": {
-      "_instruction": "Enter the common length of the bottom legs of this kite.",
+    "legLengths": {
+      "_instruction": "Enter the two common leg lengths (for the shorter and longer leg pairs) of this kite.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
@@ -21,12 +20,6 @@
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
-    },
-    "topLegLength": {
-      "_instruction": "Enter the common length of the top legs of this kite.",
-      "_embeddedTypes": [
-        "core:QuantitativeValue"
-      ]
-    }
+    } 
   }
 }
