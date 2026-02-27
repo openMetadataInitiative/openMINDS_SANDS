@@ -10,6 +10,9 @@
   ],
   "properties": {
     "legLengths": {
+      "type": "array",      
+      "minItems": 2,
+      "maxItems": 2,
       "_instruction": "Enter the two common leg lengths (for the shorter and longer leg pairs) of this kite.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
