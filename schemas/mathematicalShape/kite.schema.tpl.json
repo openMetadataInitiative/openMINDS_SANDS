@@ -2,7 +2,8 @@
   "_type": "sands:Kite",
   "_categories": [
     "mathematicalShape",
-    "mathematical2DShape"
+    "mathematical2DShape",
+    "simplePolygon"
   ],
   "required": [
     "legLengths",

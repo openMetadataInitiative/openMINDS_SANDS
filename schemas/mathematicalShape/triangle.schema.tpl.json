@@ -2,7 +2,8 @@
   "_type": "sands:Triangle",
   "_categories": [
     "mathematicalShape",
-    "mathematical2DShape"
+    "mathematical2DShape",
+    "simplePolygon"
   ],
   "required": [
     "apexAngle",

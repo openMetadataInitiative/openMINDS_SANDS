@@ -1,5 +1,5 @@
 {
-  "_type": "sands:IsoscelesTriangularPyramid",
+  "_type": "sands:RightCone",
   "_categories": [
     "mathematicalShape",
     "mathematical3DShape"
@@ -10,15 +10,16 @@
   ],
   "properties": {
     "apexBaseDistance": {
-      "_instruction": "Enter the perpendicular distance from the base plane to the apex of this isosceles triangular pyramid.",
+      "_instruction": "Enter the perpendicular distance from the center of the base plane to the apex of this right cone.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]
     },
     "baseShape": {
-      "_instruction": "Enter the two-dimensional base shape of this isosceles triangular pyramid.",
+      "_instruction": "Enter the two-dimensional elliptic base shape of this right cone.",
       "_embeddedTypes": [
-        "sands:IsoscelesTriangle"
+        "sands:Circle",
+        "sands:Ellipse"
       ]
     }
   }

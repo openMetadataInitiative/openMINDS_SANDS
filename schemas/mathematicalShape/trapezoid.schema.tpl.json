@@ -2,7 +2,8 @@
   "_type": "sands:Trapezoid",
   "_categories": [
     "mathematicalShape",
-    "mathematical2DShape"
+    "mathematical2DShape",
+    "simplePolygon"
   ],
   "required": [
     "baseDistance",

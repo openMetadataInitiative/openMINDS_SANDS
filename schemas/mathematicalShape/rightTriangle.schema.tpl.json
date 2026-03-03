@@ -2,7 +2,8 @@
   "_type": "sands:RightTriangle",
   "_categories": [
     "mathematicalShape",
-    "mathematical2DShape"
+    "mathematical2DShape",
+    "simplePolygon"
   ],
   "required": [
     "perpendicularLegLengths"
