@@ -17,8 +17,8 @@
     },
     "baseShape": {
       "_instruction": "Enter the two-dimensional base shape of this centroidal pyramid.",
-      "_embeddedTypes": [
-        "sands:Rectangle"
+      "_embeddedCategories": [
+        "simplePolygon"
       ]
     }
   }
