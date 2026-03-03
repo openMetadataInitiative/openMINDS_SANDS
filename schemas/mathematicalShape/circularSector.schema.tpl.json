@@ -1,0 +1,25 @@
+{
+  "_type": "sands:CircularSector",
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape"
+  ],
+  "required": [
+    "centralAngle",
+    "radius"
+  ],
+  "properties": {
+    "centralAngle": {
+      "_instruction": "Enter the central angle of this circular sector.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
+    "radius": {
+      "_instruction": "Enter the radius of this circular sector.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}

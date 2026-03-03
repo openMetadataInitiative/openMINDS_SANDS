@@ -1,18 +1,19 @@
 {
-  "_type": "sands:Ellipse",
+  "_type": "sands:Rhombus",
   "_categories": [
     "mathematicalShape",
-    "mathematical2DShape"
+    "mathematical2DShape",
+    "simplePolygon"
   ],
   "required": [
-    "diameters"
+    "diagonalLengths"
   ],
   "properties": {
-    "diameters": {
+    "diagonalLengths": {
       "type": "array",      
       "minItems": 2,
       "maxItems": 2,
-      "_instruction": "Enter the lengths of the major and minor diameters of this ellipse.",
+      "_instruction": "Enter the lengths of the two perpendicular diagonals of this rhombus.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]

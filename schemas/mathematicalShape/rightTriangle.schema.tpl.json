@@ -1,0 +1,22 @@
+{
+  "_type": "sands:RightTriangle",
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape",
+    "simplePolygon"
+  ],
+  "required": [
+    "perpendicularLegLengths"
+  ],
+  "properties": {
+    "perpendicularLegLengths": {
+      "type": "array",      
+      "minItems": 2,
+      "maxItems": 2,
+      "_instruction": "Enter the lengths of the two perpendicular legs of this right triangle.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}

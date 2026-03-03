@@ -1,0 +1,19 @@
+{
+  "_type": "sands:Square",
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape",
+    "simplePolygon"
+  ],
+  "required": [
+    "sideLength"
+  ],
+  "properties": {
+    "sideLength": {
+      "_instruction": "Enter the common length of the sides of this square.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}

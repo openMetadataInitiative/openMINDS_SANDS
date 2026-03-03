@@ -1,0 +1,25 @@
+{
+  "_type": "sands:CentroidalPyramid",
+  "_categories": [
+    "mathematicalShape",
+    "mathematical3DShape"
+  ],
+  "required": [
+    "apexBaseDistance",
+    "baseShape"
+  ],
+  "properties": {
+    "apexBaseDistance": {
+      "_instruction": "Enter the perpendicular distance from the centroid of the base plane to the apex of this centroidal pyramid.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
+    "baseShape": {
+      "_instruction": "Enter the two-dimensional base shape of this centroidal pyramid.",
+      "_embeddedCategories": [
+        "simplePolygon"
+      ]
+    }
+  }
+}

@@ -1,15 +1,15 @@
 {
-  "_type": "sands:Circle",
+  "_type": "sands:Sphere",
   "_categories": [
     "mathematicalShape",
-    "mathematical2DShape"
+    "mathematical3DShape"
   ],
   "required": [
     "radius"
   ],
   "properties": {
     "radius": {
-      "_instruction": "Enter the radius of this circle.",
+      "_instruction": "Enter the radius of this sphere.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]

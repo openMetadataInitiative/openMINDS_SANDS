@@ -1,0 +1,32 @@
+{
+  "_type": "sands:Ellipsoid",
+  "_categories": [
+    "mathematicalShape",
+    "mathematical3DShape"
+  ],
+  "required": [
+    "intermediateDiameter",
+    "majorDiameter",
+    "minorDiameter"
+  ],
+  "properties": {
+    "intermediateDiameter": {
+      "_instruction": "Enter the intermediate diameter of this ellipsoid.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
+    "majorDiameter": {
+      "_instruction": "Enter the major diameter of this ellipsoid.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
+    "minorDiameter": {
+      "_instruction": "Enter the minor diameter of this ellipsoid.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}

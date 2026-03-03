@@ -1,0 +1,19 @@
+{
+  "_type": "sands:EquilateralTriangle",
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape",
+    "simplePolygon"
+  ],
+  "required": [
+    "sideLength"
+  ],
+  "properties": {
+    "sideLength": {
+      "_instruction": "Enter the common length of the sides of this equilateral triangle.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}

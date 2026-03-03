@@ -1,0 +1,29 @@
+{
+  "_type": "sands:Kite",
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape",
+    "simplePolygon"
+  ],
+  "required": [
+    "legLengths",
+    "symmetryDiagonalLength"
+  ],
+  "properties": {
+    "legLengths": {
+      "type": "array",      
+      "minItems": 2,
+      "maxItems": 2,
+      "_instruction": "Enter the two common leg lengths (for the shorter and longer leg pairs) of this kite.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
+    "symmetryDiagonalLength": {
+      "_instruction": "Enter the length of the symmetry diagonal of this kite.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    } 
+  }
+}

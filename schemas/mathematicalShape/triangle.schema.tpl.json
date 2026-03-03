@@ -1,0 +1,29 @@
+{
+  "_type": "sands:Triangle",
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape",
+    "simplePolygon"
+  ],
+  "required": [
+    "apexAngle",
+    "legLengths"
+  ],
+  "properties": {
+    "apexAngle": {
+      "_instruction": "Enter the angle at the apex of this triangle.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
+    "legLengths": {
+      "type": "array",      
+      "minItems": 2,
+      "maxItems": 2,
+      "_instruction": "Enter the lengths of the two sides meeting at the apex of this triangle.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}

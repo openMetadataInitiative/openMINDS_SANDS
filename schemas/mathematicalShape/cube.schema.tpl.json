@@ -1,15 +1,15 @@
 {
-  "_type": "sands:Circle",
+  "_type": "sands:Cube",
   "_categories": [
     "mathematicalShape",
-    "mathematical2DShape"
+    "mathematical3DShape"
   ],
   "required": [
-    "radius"
+    "sideLength"
   ],
   "properties": {
-    "radius": {
-      "_instruction": "Enter the radius of this circle.",
+    "sideLength": {
+      "_instruction": "Enter the common length of the sides of this cube.",
       "_embeddedTypes": [
         "core:QuantitativeValue"
       ]

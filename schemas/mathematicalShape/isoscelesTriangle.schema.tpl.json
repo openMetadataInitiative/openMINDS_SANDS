@@ -1,0 +1,26 @@
+{
+  "_type": "sands:IsoscelesTriangle",
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape",
+    "simplePolygon"
+  ],
+  "required": [
+    "apexAngle",
+    "legLength"
+  ],
+  "properties": {
+    "apexAngle": {
+      "_instruction": "Enter the angle at the apex between the two equal sides of this isosceles triangle.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
+    "legLength": {
+      "_instruction": "Enter the common length of the two equal sides meeting at the apex of this isosceles triangle.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_type": "sands:Spheroid",
+  "_categories": [
+    "mathematicalShape",
+    "mathematical3DShape"
+  ],
+  "required": [
+    "equatorialDiameter",
+    "polarDiameter"
+  ],
+  "properties": {
+    "equatorialDiameter": {
+      "_instruction": "Enter the equatorial diameters of this spheroid.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
+    "polarDiameter": {
+      "_instruction": "Enter the polar diameter of this spheroid.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}

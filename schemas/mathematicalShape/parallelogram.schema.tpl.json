@@ -1,0 +1,34 @@
+{
+  "_type": "sands:Parallelogram",
+  "_categories": [
+    "mathematicalShape",
+    "mathematical2DShape",
+    "simplePolygon"
+  ],
+  "required": [
+    "baseDistance",
+    "baseLength",
+    "interiorAngle"
+  ],
+  "properties": {
+    "baseDistance": {
+      "_instruction": "Enter the perpendicular distance between the parallel lines of the base of this parallelogram.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
+    "baseLength": {
+      "_instruction": "Enter the uniform length of the bottom and top sides (the base) of this parallelogram.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    },
+
+    "interiorAngle": {
+      "_instruction": "Enter an interior angle between the base and an adjacent side of this parallelogram.",
+      "_embeddedTypes": [
+        "core:QuantitativeValue"
+      ]
+    }
+  }
+}
