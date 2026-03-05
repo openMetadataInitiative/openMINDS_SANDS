@@ -8,6 +8,17 @@
     "name"
   ],
   "properties": {
+    "anatomicalEntity":{
+      "_instruction": "Add the related anatomical entity.",
+      "_linkedTypes": [
+        "controlledTerms:MuscularStructure",
+        "controlledTerms:NervousSystemStructure",
+        "controlledTerms:Organ",
+        "controlledTerms:SkeletalStructure",
+        "controlledTerms:TissueStructure",
+        "controlledTerms:VascularStructure"
+      ]
+    },
     "hasAnnotation": {
       "type": "array",
       "minItems": 1,
@@ -20,17 +31,6 @@
     "name": {
       "type": "string",
       "_instruction": "Enter a descriptive name for this custom anatomical entity."
-    },    
-    "relatedAnatomicalEntity":{
-      "_instruction": "Add the related anatomical entity.",
-      "_linkedTypes": [
-        "controlledTerms:MuscularStructure",
-        "controlledTerms:NervousSystemStructure",
-        "controlledTerms:Organ",
-        "controlledTerms:SkeletalStructure",
-        "controlledTerms:TissueStructure",
-        "controlledTerms:VascularStructure"
-      ]
     },
     "relationAssessment": {
       "type": "array",      

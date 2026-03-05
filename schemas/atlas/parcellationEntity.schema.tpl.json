@@ -21,7 +21,18 @@
       "items": {
         "type": "string"
       }
-    },      
+    },
+    "anatomicalEntity":{
+      "_instruction": "Add the related anatomical entity.",
+      "_linkedTypes": [
+        "controlledTerms:MuscularStructure",
+        "controlledTerms:NervousSystemStructure",
+        "controlledTerms:Organ",
+        "controlledTerms:SkeletalStructure",
+        "controlledTerms:TissueStructure",
+        "controlledTerms:VascularStructure"
+      ]
+    },
     "definition": {
       "type": "string",
       "_instruction": "Enter the definition for this parcellation entity."
@@ -54,17 +65,6 @@
           "iri"        
         ]
       }      
-    }, 
-    "relatedAnatomicalEntity":{
-      "_instruction": "Add the related anatomical entity.",
-      "_linkedTypes": [
-        "controlledTerms:MuscularStructure",
-        "controlledTerms:NervousSystemStructure",
-        "controlledTerms:Organ",
-        "controlledTerms:SkeletalStructure",
-        "controlledTerms:TissueStructure",
-        "controlledTerms:VascularStructure"
-      ]
     }
   }
 }
