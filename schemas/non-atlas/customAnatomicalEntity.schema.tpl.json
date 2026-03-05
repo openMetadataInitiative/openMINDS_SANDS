@@ -21,11 +21,15 @@
       "type": "string",
       "_instruction": "Enter a descriptive name for this custom anatomical entity."
     },    
-    "relatedUBERONTerm":{
-      "_instruction": "Add the related anatomical entity as defined by the UBERON ontology.",
+    "relatedAnatomicalEntity":{
+      "_instruction": "Add the related anatomical entity.",
       "_linkedTypes": [
+        "controlledTerms:MuscularStructure",
+        "controlledTerms:NervousSystemStructure",
         "controlledTerms:Organ",
-        "controlledTerms:UBERONParcellation"
+        "controlledTerms:SkeletalStructure",
+        "controlledTerms:TissueStructure",
+        "controlledTerms:VascularStructure"
       ]
     },
     "relationAssessment": {
