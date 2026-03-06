@@ -55,11 +55,10 @@
         ]
       }      
     }, 
-    "relatedUBERONTerm":{
-      "_instruction": "Add the related anatomical entity as defined by the UBERON ontology.",
-      "_linkedTypes": [
-        "controlledTerms:Organ",
-        "controlledTerms:UBERONParcellation"
+    "relatedInterspeciesAnatomy":{
+      "_instruction": "Add the corresponding cross-species anatomical entity from the UBERON-derived terminologies that represents the generic anatomical concept underlying the atlas parcellation entity.",
+      "_linkedCategories": [
+        "UBERONAnatomicalEntity"
       ]
     }
   }
