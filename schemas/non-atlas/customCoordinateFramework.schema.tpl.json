@@ -1,7 +1,8 @@
 {
   "_type": "sands:CustomCoordinateFramework",
   "_categories": [
-    "coordinateFramework"
+    "coordinateFramework",
+    "specificCoordinateFramework"
   ],
   "required": [
     "anatomicalAxesOrientation",
