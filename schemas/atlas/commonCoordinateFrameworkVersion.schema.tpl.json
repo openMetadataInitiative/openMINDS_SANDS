@@ -2,7 +2,8 @@
   "_type": "sands:CommonCoordinateFrameworkVersion",
   "_extends": "/core/schemas/products/researchProductVersion.schema.tpl.json",
   "_categories": [
-    "coordinateFramework"
+    "coordinateFramework",
+    "specificCoordinateFramework"
   ],
   "required": [
     "anatomicalAxesOrientation",
