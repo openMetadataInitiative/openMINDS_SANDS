@@ -91,7 +91,7 @@
       "type": "string",
       "_instruction": "Enter the version identifier of this parcellation entity version."
     },
-    "versionInnovation": {
+    "versionSpecification": {
       "type": "string",
       "_instruction": "Enter a short description (or summary) of the novelties/peculiarities of this parcellation entity version in comparison to its preceding versions. If this parcellation entity version is the first version, leave blank."
     }
