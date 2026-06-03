@@ -32,7 +32,7 @@
       ]
     },
     "isPrecededBy": {
-      "_instruction": "Add the brain atlas version preceding this anatomical atlas version.",
+      "_instruction": "Add the anatomical atlas version preceding this anatomical atlas version.",
       "_linkedTypes": [
         "sands:AnatomicalAtlasVersion"
       ]
@@ -41,7 +41,7 @@
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
-      "_instruction": "Add all brain atlas versions that can be used alternatively to this anatomical atlas version.",
+      "_instruction": "Add all anatomical atlas versions that can be used alternatively to this anatomical atlas version.",
       "_linkedTypes": [
         "sands:AnatomicalAtlasVersion"
       ]
