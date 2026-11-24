@@ -11,7 +11,7 @@
 [![GitHub][license-shield]][license-url]
 [![GitHub contributors][contributors-shield]][contributors-url]
 
-The **openMINDS_SANDS** repository hosts one of the schema modules of the openMINDS metadata framework that builds the overall openMINDS metadata model. It provides metadata schemas for in-depth descriptions of spatially anchored neuroscience data structures, as well as anatomical atlases and coordinate frameworks.
+The **openMINDS_SANDS** repository hosts one of the schema modules of the **openMINDS metadata framework** that build the overall openMINDS metadata model. It provides metadata schemas for in-depth descriptions of spatially anchored neuroscience data structures, as well as anatomical atlases and coordinate frameworks.
 
 To generally learn more about the openMINDS metadata framework please go to :arrow_right: [**ReadTheDocs**][docu-url].  
 There you can also explore directly the :arrow_right: [**openMINDS_SANDS schema specifications**][docu-SANDS-url].
